@@ -1,0 +1,1971 @@
+{
+    "categories": [
+      {
+        "name": "SSS",
+        "webtoons": [
+          {
+            "title": "The Return of the Mount Hua Sect",
+            "image": "IMAGES/1-SSS/return of the mount hua sect/covergif.gif",
+            "alt": "Image : The Return of the Mount Hua Sect"
+          }
+        ]
+      },
+      {
+        "name": "Excellents",
+        "webtoons": [
+          {
+            "title": "Damn Reincarnation",
+            "image": "IMAGES/2-EXCELLENTS/damn reincarnation/cover.webp",
+            "alt": "Image : Damn Reincarnation"
+          },
+          {
+            "title": "Demonic Emperor",
+            "image": "IMAGES/2-EXCELLENTS/demonic emperor/covergif.gif",
+            "alt": "Image : Demonic Emperor"
+          },
+          {
+            "title": "Descended From Divinity",
+            "image": "IMAGES/2-EXCELLENTS/descended from divinity/cover.avif",
+            "alt": "Image : Descended From Divinity"
+          },
+          {
+            "title": "I Killed an Academy Player",
+            "image": "IMAGES/2-EXCELLENTS/i killed an academy player/cover.webp",
+            "alt": "Image : I Killed an Academy Player"
+          },
+          {
+            "title": "Infinite Mage",
+            "image": "IMAGES/2-EXCELLENTS/infinite mage/cover.avif",
+            "alt": "Image : Infinite Mage"
+          },
+          {
+            "title": "Lecteur Omniscient",
+            "image": "IMAGES/2-EXCELLENTS/lecteur omniscient/cover.avif",
+            "alt": "Image : Lecteur Omniscient"
+          },
+          {
+            "title": "Nano Machine",
+            "image": "IMAGES/2-EXCELLENTS/nano machine/cover.avif",
+            "alt": "Image : Nano Machine"
+          },
+          {
+            "title": "Pick Me Up",
+            "image": "IMAGES/2-EXCELLENTS/pick me up/cover.avif",
+            "alt": "Image : Pick Me Up"
+          },
+          {
+            "title": "Revenge of the Iron-Blooded Sword Hound",
+            "image": "IMAGES/2-EXCELLENTS/revenge of the iron-blooded sword hound/cover.avif",
+            "alt": "Image : Revenge of the Iron-Blooded Sword Hound"
+          },
+          {
+            "title": "Solo Leveling",
+            "image": "IMAGES/2-EXCELLENTS/solo leveling/cover.avif",
+            "alt": "Image : Solo Leveling"
+          },
+          {
+            "title": "Star-Embracing Swordmaster",
+            "image": "IMAGES/2-EXCELLENTS/star-embracing swordmaster/cover.avif",
+            "alt": "Image : Star-Embracing Swordmaster"
+          },
+          {
+            "title": "Surviving the Game as a Barbarian",
+            "image": "IMAGES/2-EXCELLENTS/surviving the game as a barbarian/cover.webp",
+            "alt": "Image : Surviving the Game as a Barbarian"
+          },
+          {
+            "title": "The Swordmaster's Youngest Son",
+            "image": "IMAGES/2-EXCELLENTS/the swordmaster's youngest son/cover.avif",
+            "alt": "Image : The Swordmaster's Youngest Son"
+          }
+        ]        
+      },
+      {
+        "name": "Tres Bons",
+        "webtoons": [
+          {
+            "title": "Académie Transcendance",
+            "image": "IMAGES/3-TRES BONS/académie transcendance/cover.jpg",
+            "alt": "Image : Académie Transcendance"
+          },
+          {
+            "title": "Academy's Undercover Professor",
+            "image": "IMAGES/3-TRES BONS/academy's undercover professor/cover.webp",
+            "alt": "Image : Academy's Undercover Professor"
+          },
+          {
+            "title": "Barbarian Quest",
+            "image": "IMAGES/3-TRES BONS/barbarian quest/cover.jpg",
+            "alt": "Image : Barbarian Quest"
+          },
+          {
+            "title": "Best Teacher Baek",
+            "image": "IMAGES/3-TRES BONS/best teacher baek/cover.webp",
+            "alt": "Image : Best Teacher Baek"
+          },
+          {
+            "title": "Boundless Necromancer",
+            "image": "IMAGES/3-TRES BONS/boundless necromancer/cover.webp",
+            "alt": "Image : Boundless Necromancer"
+          },
+          {
+            "title": "Chronicles of the Demon Faction",
+            "image": "IMAGES/3-TRES BONS/chronicles of the demon faction/cover.webp",
+            "alt": "Image : Chronicles of the Demon Faction"
+          },
+          {
+            "title": "Designated Bully",
+            "image": "IMAGES/3-TRES BONS/designated bully/cover.webp",
+            "alt": "Image : Designated Bully"
+          },
+          {
+            "title": "Drug-Eating Genius Mage",
+            "image": "IMAGES/3-TRES BONS/drug-eating genius mage/cover.jpg",
+            "alt": "Image : Drug-Eating Genius Mage"
+          },
+          {
+            "title": "Dungeon Cleaning Life",
+            "image": "IMAGES/3-TRES BONS/dungeon cleaning life/cover.png",
+            "alt": "Image : Dungeon Cleaning Life"
+          },
+          {
+            "title": "Eleceed",
+            "image": "IMAGES/3-TRES BONS/eleceed/cover.jpg",
+            "alt": "Image : Eleceed"
+          },
+          {
+            "title": "Eternally Regressing Knight",
+            "image": "IMAGES/3-TRES BONS/eternally regressing knight/cover.jpg",
+            "alt": "Image : Eternally Regressing Knight"
+          },
+          {
+            "title": "Evolution Begins with a Big Tree",
+            "image": "IMAGES/3-TRES BONS/evolution begins with a big tree/cover.jpg",
+            "alt": "Image : Evolution Begins with a Big Tree"
+          },
+          {
+            "title": "FFF-Class Witch Doctor",
+            "image": "IMAGES/3-TRES BONS/fff-class witch doctor/cover.webp",
+            "alt": "Image : FFF-Class Witch Doctor"
+          },
+          {
+            "title": "Genius of the Unique Lineage",
+            "image": "IMAGES/3-TRES BONS/genius of the unique lineage/cover.webp",
+            "alt": "Image : Genius of the Unique Lineage"
+          },
+          {
+            "title": "Golden Mage",
+            "image": "IMAGES/3-TRES BONS/golden mage/cover.webp",
+            "alt": "Image : Golden Mage"
+          },
+          {
+            "title": "Heavenly Inquisition Sword",
+            "image": "IMAGES/3-TRES BONS/heavenly inquisition sword/cover.webp",
+            "alt": "Image : Heavenly Inquisition Sword"
+          },
+          {
+            "title": "Helmut",
+            "image": "IMAGES/3-TRES BONS/helmut/cover.webp",
+            "alt": "Image : Helmut"
+          },
+          {
+            "title": "I Obtained a Mythic Item",
+            "image": "IMAGES/3-TRES BONS/i obtained a mythic item/cover.png",
+            "alt": "Image : I Obtained a Mythic Item"
+          },
+          {
+            "title": "Is This Hero for Real?",
+            "image": "IMAGES/3-TRES BONS/is this hero for real/cover.jpg",
+            "alt": "Image : Is This Hero for Real?"
+          },
+          {
+            "title": "Kill the Hero",
+            "image": "IMAGES/3-TRES BONS/kill the hero/cover.webp",
+            "alt": "Image : Kill the Hero"
+          },
+          {
+            "title": "Killer Peter",
+            "image": "IMAGES/3-TRES BONS/killer peter/cover.webp",
+            "alt": "Image : Killer Peter"
+          },
+          {
+            "title": "La Saga du Clan Mudang",
+            "image": "IMAGES/3-TRES BONS/la saga du clan mudang/cover.jpg",
+            "alt": "Image : La Saga du Clan Mudang"
+          },
+          {
+            "title": "Latna Saga",
+            "image": "IMAGES/3-TRES BONS/latna saga/cover.jpg",
+            "alt": "Image : Latna Saga"
+          },
+          {
+            "title": "Le Sens de l'Épée",
+            "image": "IMAGES/3-TRES BONS/le sens de l'épée/cover.webp",
+            "alt": "Image : Le Sens de l'Épée"
+          },
+          {
+            "title": "Legend of Asura",
+            "image": "IMAGES/3-TRES BONS/legend of asura/cover.webp",
+            "alt": "Image : Legend of Asura"
+          },
+          {
+            "title": "Leveling Up with the Gods",
+            "image": "IMAGES/3-TRES BONS/leveling up with the gods/cover.jpg",
+            "alt": "Image : Leveling Up with the Gods"
+          },
+          {
+            "title": "Magic Academy's Genius Blinker",
+            "image": "IMAGES/3-TRES BONS/magic academy's genius blinker/cover.jpg",
+            "alt": "Image : Magic Academy's Genius Blinker"
+          },
+          {
+            "title": "Martial Arts Reigns",
+            "image": "IMAGES/3-TRES BONS/martial arts reigns/cover.png",
+            "alt": "Image : Martial Arts Reigns"
+          },
+          {
+            "title": "Mookhyang - Dark Lady",
+            "image": "IMAGES/3-TRES BONS/mookhyang - dark lady/cover.webp",
+            "alt": "Image : Mookhyang - Dark Lady"
+          },
+          {
+            "title": "Moon-Shadow Sword Emperor",
+            "image": "IMAGES/3-TRES BONS/moon-shadow sword emperor/cover.jpg",
+            "alt": "Image : Moon-Shadow Sword Emperor"
+          },
+          {
+            "title": "My Exclusive Tower Guide",
+            "image": "IMAGES/3-TRES BONS/my exclusive tower guide/cover.jpg",
+            "alt": "Image : My Exclusive Tower Guide"
+          },
+          {
+            "title": "Necromancer Academy",
+            "image": "IMAGES/3-TRES BONS/necromancer academy/cover.webp",
+            "alt": "Image : Necromancer Academy"
+          },
+          {
+            "title": "Overgeared",
+            "image": "IMAGES/3-TRES BONS/overgeared/cover.jpg",
+            "alt": "Image : Overgeared"
+          },
+          {
+            "title": "Past Life Regressor",
+            "image": "IMAGES/3-TRES BONS/past life regressor/cover.jpg",
+            "alt": "Image : Past Life Regressor"
+          },
+          {
+            "title": "Player Who Returned 10,000 Years Later",
+            "image": "IMAGES/3-TRES BONS/player who returned 10000 years later/cover.webp",
+            "alt": "Image : Player Who Returned 10,000 Years Later"
+          },
+          {
+            "title": "Priest of Corruption",
+            "image": "IMAGES/3-TRES BONS/priest of corruption/cover.jpg",
+            "alt": "Image : Priest of Corruption"
+          },
+          {
+            "title": "Re: Life Player",
+            "image": "IMAGES/3-TRES BONS/re life player/cover.png",
+            "alt": "Image : Re: Life Player"
+          },
+          {
+            "title": "Reaper of the Drifting Moon",
+            "image": "IMAGES/3-TRES BONS/reaper of the drifting moon/cover.gif",
+            "alt": "Image : Reaper of the Drifting Moon"
+          },
+          {
+            "title": "Reincarnation of the Suicidal Battle God",
+            "image": "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/cover.jpg",
+            "alt": "Image : Reincarnation of the Suicidal Battle God"
+          },
+          {
+            "title": "Return of the Legendary Spear Knight",
+            "image": "IMAGES/3-TRES BONS/return of the legendary spear knight/cover.jpeg",
+            "alt": "Image : Return of the Legendary Spear Knight"
+          },
+          {
+            "title": "Return of the SSS-Class Ranker",
+            "image": "IMAGES/3-TRES BONS/return of the sss-class ranker/cover.png",
+            "alt": "Image : Return of the SSS-Class Ranker"
+          },
+          {
+            "title": "Return Survival",
+            "image": "IMAGES/3-TRES BONS/return survival/cover.jpg",
+            "alt": "Image : Return Survival"
+          },
+          {
+            "title": "Second Life Ranker",
+            "image": "IMAGES/3-TRES BONS/second life ranker/cover.webp",
+            "alt": "Image : Second Life Ranker"
+          },
+          {
+            "title": "Solo Farming in the Tower",
+            "image": "IMAGES/3-TRES BONS/solo farming in the tower/cover.webp",
+            "alt": "Image : Solo Farming in the Tower"
+          },
+          {
+            "title": "Solo Max-Level Newbie",
+            "image": "IMAGES/3-TRES BONS/solo max-level newbie/cover.webp",
+            "alt": "Image : Solo Max-Level Newbie"
+          },
+          {
+            "title": "Solo Necromancy",
+            "image": "IMAGES/3-TRES BONS/solo necromancy/cover.jpg",
+            "alt": "Image : Solo Necromancy"
+          },
+          {
+            "title": "Standard of Reincarnation",
+            "image": "IMAGES/3-TRES BONS/standard of reincarnation/cover.webp",
+            "alt": "Image : Standard of Reincarnation"
+          },
+          {
+            "title": "Superhuman Battlefield",
+            "image": "IMAGES/3-TRES BONS/superhuman battlefield/cover.webp",
+            "alt": "Image : Superhuman Battlefield"
+          },
+          {
+            "title": "The 100th Regression of the Max-Level Player",
+            "image": "IMAGES/3-TRES BONS/the 100th regression of the max-level player/cover.webp",
+            "alt": "Image : The 100th Regression of the Max-Level Player"
+          },
+          {
+            "title": "The Academy’s Sashimi Sword Master",
+            "image": "IMAGES/3-TRES BONS/the academy’s sashimi sword master/cover.jpg",
+            "alt": "Image : The Academy’s Sashimi Sword Master"
+          },
+          {
+            "title": "The Beginning After the End",
+            "image": "IMAGES/3-TRES BONS/the beginning after the end/cover.jpg",
+            "alt": "Image : The Beginning After the End"
+          },
+          {
+            "title": "The Constellations Are My Disciples",
+            "image": "IMAGES/3-TRES BONS/the constellations are my disciples/cover.webp",
+            "alt": "Image : The Constellations Are My Disciples"
+          },
+          {
+            "title": "The Dark Mage's Return to Enlistment",
+            "image": "IMAGES/3-TRES BONS/the dark mage's return to enlistment/cover.jpg",
+            "alt": "Image : The Dark Mage's Return to Enlistment"
+          },
+          {
+            "title": "The Dark Magician Transmigrates After 66,666",
+            "image": "IMAGES/3-TRES BONS/the dark magician transmigrates after 66666 years/cover.webp",
+            "alt": "Image : The Dark Magician Transmigrates After 66,666"
+          },
+          {
+            "title": "The Demonic Cult Leader Is Too Reluctant",
+            "image": "IMAGES/3-TRES BONS/the demonic cult leader is too reluctant/cover.jpg",
+            "alt": "Image : The Demonic Cult Leader Is Too Reluctant"
+          },
+          {
+            "title": "The Emperor's Sword",
+            "image": "IMAGES/3-TRES BONS/the emperor's sword/cover.webp",
+            "alt": "Image : The Emperor's Sword"
+          },
+          {
+            "title": "The Executioner",
+            "image": "IMAGES/3-TRES BONS/the executioner/cover.jpg",
+            "alt": "Image : The Executioner"
+          },
+          {
+            "title": "The Extra's Academy Survival Guide",
+            "image": "IMAGES/3-TRES BONS/the extra's academy survival guide/cover.webp",
+            "alt": "Image : The Extra's Academy Survival Guide"
+          },
+          {
+            "title": "The Great Mage Returns After 4000 Years",
+            "image": "IMAGES/3-TRES BONS/the great mage returns after 4000 years/cover.jpg",
+            "alt": "Image : The Great Mage Returns After 4000 Years"
+          },
+          {
+            "title": "The Indomitable Martial King",
+            "image": "IMAGES/3-TRES BONS/the indomitable martial king/cover.webp",
+            "alt": "Image : The Indomitable Martial King"
+          },
+          {
+            "title": "The Lazy Prince Becomes a Genius",
+            "image": "IMAGES/3-TRES BONS/the lazy prince becomes a genius/cover.webp",
+            "alt": "Image : The Lazy Prince Becomes a Genius"
+          },
+          {
+            "title": "The Main Characters That Only I Know",
+            "image": "IMAGES/3-TRES BONS/the main characters that only i know/cover.jpg",
+            "alt": "Image : The Main Characters That Only I Know"
+          },
+          {
+            "title": "The Martial God Who Regressed to Level 2",
+            "image": "IMAGES/3-TRES BONS/the martial god who regressed to level 2/cover.png",
+            "alt": "Image : The Martial God Who Regressed to Level 2"
+          },
+          {
+            "title": "The Newbie Is Too Strong",
+            "image": "IMAGES/3-TRES BONS/the newbie is too strong/cover.jpg",
+            "alt": "Image : The Newbie Is Too Strong"
+          },
+          {
+            "title": "The Player Hides His Past",
+            "image": "IMAGES/3-TRES BONS/the player hides his past/cover.jpg",
+            "alt": "Image : The Player Hides His Past"
+          },
+          {
+            "title": "The Reborn Young Lord Is an Assassin",
+            "image": "IMAGES/3-TRES BONS/the reborn young lord is an assassin/cover.webp",
+            "alt": "Image : The Reborn Young Lord Is an Assassin"
+          },
+          {
+            "title": "The Return of the Disaster-Class Hero",
+            "image": "IMAGES/3-TRES BONS/the return of the disaster-class hero/cover.webp",
+            "alt": "Image : The Return of the Disaster-Class Hero"
+          },
+          {
+            "title": "The Tutorial Is Too Hard",
+            "image": "IMAGES/3-TRES BONS/the tutorial is too hard/cover.jpg",
+            "alt": "Image : The Tutorial Is Too Hard"
+          },
+          {
+            "title": "Warrior High School",
+            "image": "IMAGES/3-TRES BONS/warrior high school/cover.webp",
+            "alt": "Image : Warrior High School"
+          },
+          {
+            "title": "World After Fall",
+            "image": "IMAGES/3-TRES BONS/world after fall/cover.webp",
+            "alt": "Image : World After Fall"
+          }          
+        ]
+      },
+      {
+        "name": "Bons",
+        "webtoons": [
+          {
+            "title": "A Returner's Magic Should Be Special",
+            "image": "IMAGES/4-BONS/a returner’s magic should be special/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : A Returner's Magic Should Be Special"
+          },
+          {
+            "title": "Absolute Necromancer",
+            "image": "IMAGES/4-BONS/absolute necromancer/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Absolute Necromancer"
+          },
+          {
+            "title": "Academy's Genius Swordmaster",
+            "image": "IMAGES/4-BONS/academy's genius swordmaster/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Academy's Genius Swordmaster"
+          },
+          {
+            "title": "Archmage Streamer",
+            "image": "IMAGES/4-BONS/archmage streamer/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Archmage Streamer"
+          },
+          {
+            "title": "Archmage Transcending Through Regression",
+            "image": "IMAGES/4-BONS/archmage transcending through regression/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Archmage Transcending Through Regression"
+          },
+          {
+            "title": "Auto-Hunting With My Clones",
+            "image": "IMAGES/4-BONS/auto-hunting with my clones/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Auto-Hunting With My Clones"
+          },
+          {
+            "title": "Bad Ending Maker",
+            "image": "IMAGES/4-BONS/bad ending maker/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Bad Ending Maker"
+          },
+          {
+            "title": "Bastard Son Was The Emperor",
+            "image": "IMAGES/4-BONS/bastard son was the emperor/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Bastard Son Was The Emperor"
+          },
+          {
+            "title": "Blood Knight's Villains",
+            "image": "IMAGES/4-BONS/blood knight's villains/cover.png",
+            "loading": "lazy",
+            "alt": "Image : Blood Knight's Villains"
+          },
+          {
+            "title": "Childhood Friend of the Zenith",
+            "image": "IMAGES/4-BONS/childhood friend of the zenith/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Childhood friend of the Zenith"
+          },
+          {
+            "title": "Children of the Rune",
+            "image": "IMAGES/4-BONS/children of the rune/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Children of the Rune"
+          },
+          {
+            "title": "Chronicles of Heavenly Demon",
+            "image": "IMAGES/4-BONS/chronicles of heavenly demon/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Chronicles of Heavenly Demon"
+          },
+          {
+            "title": "Chronicles of the Martial God's Return",
+            "image": "IMAGES/4-BONS/chronicles of the martial god's return/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Chronicles of the Martial God's Return"
+          },
+          {
+            "title": "Demon Lord's Martial Arts Ascension",
+            "image": "IMAGES/4-BONS/demon lord's martial arts ascension/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Demon Lord's Martial Arts Ascension"
+          },
+          {
+            "title": "Descent of the Demonic Master",
+            "image": "IMAGES/4-BONS/descent of the demonic master/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Descent of the Demonic Master"
+          },
+          {
+            "title": "Devil Returns to School Days",
+            "image": "IMAGES/4-BONS/devil returns to school days/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Devil Returns to School Days"
+          },
+          {
+            "title": "Divine Surgeon",
+            "image": "IMAGES/4-BONS/divine surgeon/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Divine Surgeon"
+          },
+          {
+            "title": "Doctor Player",
+            "image": "IMAGES/4-BONS/doctor player/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Doctor Player"
+          },
+          {
+            "title": "Doctor's Rebirth",
+            "image": "IMAGES/4-BONS/doctor's rebirth/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Doctor's Rebirth"
+          },
+          {
+            "title": "Dragon-Devouring Mage",
+            "image": "IMAGES/4-BONS/dragon-devouring mage/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Dragon-Devouring Mage"
+          },
+          {
+            "title": "Dungeon Odyssey",
+            "image": "IMAGES/4-BONS/dungeon odyssey/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Dungeon Odyssey"
+          },
+          {
+            "title": "Dungeon Reset",
+            "image": "IMAGES/4-BONS/dungeon reset/cover.jpg",
+            "alt": "Image : Dungeon Reset"
+          },
+          {
+            "title": "Everyone Else is a Returnee",
+            "image": "IMAGES/4-BONS/everyone else is a returnee/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Everyone Else is a Returnee"
+          },
+          {
+            "title": "Everyone Regressed Except Me",
+            "image": "IMAGES/4-BONS/everyone regressed except me/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Everyone Regressed Except Me"
+          },
+          {
+            "title": "F-Class Destiny Hunter",
+            "image": "IMAGES/4-BONS/f-class destiny hunter/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : F-Class Destiny Hunter"
+          },
+          {
+            "title": "Genius Archer's Streaming",
+            "image": "IMAGES/4-BONS/genius archer's streaming/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Genius Archer's Streaming"
+          },
+          {
+            "title": "Genius Assassin Who Takes It All",
+            "image": "IMAGES/4-BONS/genius assassin who takes it all/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Genius Assassin Who Takes It All"
+          },
+          {
+            "title": "Han Dae Sung Returned From Hell",
+            "image": "IMAGES/4-BONS/han dae sung returned from hell/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Han Dae Sung Returned From Hell"
+          },
+          {
+            "title": "Hand Over The Money",
+            "image": "IMAGES/4-BONS/hand over the money/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Hand Over The Money"
+          },
+          {
+            "title": "Hard-Carry Support",
+            "image": "IMAGES/4-BONS/hard-carry support/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Hard-Carry Support"
+          },
+          {
+            "title": "Hero Killer",
+            "image": "IMAGES/4-BONS/hero killer/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Hero Killer"
+          },
+          {
+            "title": "Hero Returns",
+            "image": "IMAGES/4-BONS/hero returns/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Hero Returns"
+          },
+          {
+            "title": "I Am The Fated Villain",
+            "image": "IMAGES/4-BONS/i am the fated villain/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : I Am The Fated Villain"
+          },
+          {
+              "title": "I Grow Stronger By Eating",
+              "image": "IMAGES/4-BONS/i grow stronger by eating/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : I Grow Stronger By Eating"
+          },
+          {
+              "title": "I Was The Final Boss",
+              "image": "IMAGES/4-BONS/i was the final boss/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : I Was The Final Boss"
+          },
+          {
+            "title": "I'll Be the Matriarch in This Life",
+            "image": "IMAGES/4-BONS/i'll be the matriarch in this life/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : I'll Be the Matriarch in This Life"
+          },
+          {
+              "title": "I'm Not A Regressor",
+              "image": "IMAGES/4-BONS/i'm not a regressor/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : I'm Not A Regressor"
+          },
+          {
+              "title": "In The Night Consumed By Blades",
+              "image": "IMAGES/4-BONS/in the night consumed by blades/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : In The Night Consumed By Blades"
+          },
+          {
+            "title": "Junevile Law",
+            "image": "IMAGES/4-BONS/junevile law/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Junevile Law"
+          },
+          {
+              "title": "Kill The Dragon",
+              "image": "IMAGES/4-BONS/kill the dragon/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Kill The Dragon"
+          },
+          {
+              "title": "Knight King Who Returned With A God",
+              "image": "IMAGES/4-BONS/knight king who returned with a god/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : Knight King Who Returned With A God"
+          },
+          {
+              "title": "L.A.G",
+              "image": "IMAGES/4-BONS/l.a.g/cover.jpeg",
+              "loading": "lazy",
+              "alt": "Image : L.A.G"
+          },
+          {
+              "title": "L'Artéfact Dévoreur",
+              "image": "IMAGES/4-BONS/l'artéfact dévoreur/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : L'Artéfact Dévoreur"
+          },
+          {
+              "title": "Legendary Youngest Son",
+              "image": "IMAGES/4-BONS/legendary youngest son/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Legendary Youngest Son"
+          },
+          {
+              "title": "Level Up With Skills",
+              "image": "IMAGES/4-BONS/level up with skills/cover.jpeg",
+              "loading": "lazy",
+              "alt": "Image : Level Up With Skills"
+          },
+          {
+              "title": "Leveling Up By Only Eating",
+              "image": "IMAGES/4-BONS/leveling up by only eating/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : Leveling Up By Only Eating"
+          },
+          {
+              "title": "Leveling Up With The Sword",
+              "image": "IMAGES/4-BONS/leveling up with the sword/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Leveling Up With The Sword"
+          },
+          {
+              "title": "L'Expert de la Tour Tutoriel",
+              "image": "IMAGES/4-BONS/l'expert de la tour tutoriel/cover.png",
+              "loading": "lazy",
+              "alt": "Image : L'Expert de la Tour Tutoriel"
+          },
+          {
+              "title": "Magic Academy Survival Guide",
+              "image": "IMAGES/4-BONS/magic academy survival guide/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Magic Academy Survival Guide"
+          },
+          {
+            "title": "Manager Kim",
+            "image": "IMAGES/4-BONS/manager kim/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Manager Kim"
+          },
+          {
+            "title": "Max Level Player",
+            "image": "IMAGES/4-BONS/max level player/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Max Level Player"
+          },
+          {
+            "title": "Max Talented Player",
+            "image": "IMAGES/4-BONS/max talented player/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : Max Talented Player"
+          },
+          {
+              "title": "Mercenary Enrollment",
+              "image": "IMAGES/4-BONS/mercenary enrollment/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Mercenary Enrollment"
+          },
+          {
+              "title": "Mightiest Melee Magician",
+              "image": "IMAGES/4-BONS/mightiest melee magician/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : Mightiest Melee Magician"
+          },
+          {
+              "title": "My Little Brother Is The Academy's Hotshot",
+              "image": "IMAGES/4-BONS/my little brother is the academy's hotshot/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : My Little Brother Is The Academy's Hotshot"
+          },
+          {
+              "title": "Player From Today Onwards",
+              "image": "IMAGES/4-BONS/player from today onwards/cover.jpeg",
+              "loading": "lazy",
+              "alt": "Image : Player From Today Onwards"
+          },
+          {
+              "title": "Player Who Can't Level Up",
+              "image": "IMAGES/4-BONS/player who can't level up/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Player Who Can't Level Up"
+          },
+          {
+              "title": "Rebirth Of An 8th-Circled Wizard",
+              "image": "IMAGES/4-BONS/rebirth of an 8th-circled wizard/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : Rebirth Of An 8th-Circled Wizard"
+          },
+          {
+              "title": "Reborn As The Enemy Prince",
+              "image": "IMAGES/4-BONS/reborn as the enemy prince/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : Reborn As The Enemy Prince"
+          },
+          {
+            "title": "Regressing As The Reincarnated Bastard Of The Sword Clan",
+            "image": "IMAGES/4-BONS/regressing as the reincarnated bastard of the sword clan/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Regressing As The Reincarnated Bastard Of The Sword Clan"
+          },
+          {
+              "title": "Regressing With The King's Power",
+              "image": "IMAGES/4-BONS/regressing with the king's power/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : Regressing With The King's Power"
+          },
+          {
+              "title": "Regressor of the Fallen Family",
+              "image": "IMAGES/4-BONS/regressor of the fallen family/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Regressor of the Fallen Family"
+          },
+          {
+            "title": "Reincarnated As A Legendary Grimoire",
+            "image": "IMAGES/4-BONS/reincarnated as a legendary grimoire/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Reincarnated As A Legendary Grimoire"
+          },
+          {
+              "title": "Reincarnation of the Warrior Party Archmage",
+              "image": "IMAGES/4-BONS/reincarnation of the warrior party archmage/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Reincarnation of the Warrior Party Archmage"
+          },
+          {
+              "title": "Return of the 8th Class Magician",
+              "image": "IMAGES/4-BONS/return of the 8th class magician/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Return of the 8th Class Magician"
+          },
+          {
+              "title": "Return of the Broken Constellation",
+              "image": "IMAGES/4-BONS/return of the broken constellation/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : Return of the Broken Constellation"
+          },
+          {
+              "title": "Return of the Frozen Player",
+              "image": "IMAGES/4-BONS/return of the frozen player/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Return of the Frozen Player"
+          },
+          {
+              "title": "Return of the Legend",
+              "image": "IMAGES/4-BONS/return of the legend/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Return of the Legend"
+          },
+          {
+              "title": "Return of the Legendary Ranker",
+              "image": "IMAGES/4-BONS/return of the legendary ranker/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Return of the Legendary Ranker"
+          },
+          {
+              "title": "Return of the Mad Demon",
+              "image": "IMAGES/4-BONS/return of the mad demon/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Return of the Mad Demon"
+          },
+          {
+              "title": "Return to Player",
+              "image": "IMAGES/4-BONS/return to player/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Return to Player"
+          },
+          {
+              "title": "Returned as the Duke",
+              "image": "IMAGES/4-BONS/returned as the duke/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Returned as the Duke"
+          },
+          {
+              "title": "Seoul Station's Necromancer",
+              "image": "IMAGES/4-BONS/seoul station's necromancer/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : Seoul Station's Necromancer"
+          },
+          {
+              "title": "Skeleton Soldier Couldn't Protect the Dungeon",
+              "image": "IMAGES/4-BONS/skeleton soldier couldn't protect the dungeon/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Skeleton Soldier Couldn't Protect the Dungeon"
+          },
+          {
+              "title": "Sleeping Ranker",
+              "image": "IMAGES/4-BONS/sleeping ranker/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Sleeping Ranker"
+          },
+          {
+              "title": "SSS-Class Suicide Hunter",
+              "image": "IMAGES/4-BONS/sss-class suicide hunter/cover.jpeg",
+              "loading": "lazy",
+              "alt": "Image : SSS-Class Suicide Hunter"
+          },
+          {
+              "title": "Stuck in the Tower",
+              "image": "IMAGES/4-BONS/stuck in the tower/cover.jpeg",
+              "loading": "lazy",
+              "alt": "Image : Stuck in the Tower"
+          },
+          {
+              "title": "Talent-Swallowing Magician",
+              "image": "IMAGES/4-BONS/talent-swallowing magician/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Talent-Swallowing Magician"
+          },
+          {
+              "title": "Terminally Ill Dark Knight",
+              "image": "IMAGES/4-BONS/terminally ill dark knight/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Terminally Ill Dark Knight"
+          },
+          {
+              "title": "The 31st Piece Turns the Tables",
+              "image": "IMAGES/4-BONS/the 31st piece turns the tables/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : The 31st Piece Turns the Tables"
+          },
+          {
+              "title": "The Boxer",
+              "image": "IMAGES/4-BONS/the boxer/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : The Boxer"
+          },
+          {
+              "title": "The Constellation That Returned from Hell",
+              "image": "IMAGES/4-BONS/the constellation that returned from hell/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : The Constellation That Returned from Hell"
+          },
+          {
+              "title": "The Count's Youngest Son Is a Player",
+              "image": "IMAGES/4-BONS/the count's youngest son is a player/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : The Count's Youngest Son Is a Player"
+          },
+          {
+              "title": "The Creator Is on Hiatus",
+              "image": "IMAGES/4-BONS/the creator is on hiatus/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : The Creator Is on Hiatus"
+          },
+          {
+              "title": "The Extra Is Too Strong",
+              "image": "IMAGES/4-BONS/the extra is too strong/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : The Extra Is Too Strong"
+          },
+          {
+              "title": "The God of Blackfield",
+              "image": "IMAGES/4-BONS/the god of blackfield/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : The God of Blackfield"
+          },
+          {
+            "title": "The Greatest Estate Developer",
+            "image": "IMAGES/4-BONS/the greatest estate developer/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The Greatest Estate Developer"
+          },
+          {
+              "title": "The Hammer",
+              "image": "IMAGES/4-BONS/the hammer/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : The Hammer"
+          },
+          {
+              "title": "The Last Adventurer",
+              "image": "IMAGES/4-BONS/the last adventurer/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : The Last Adventurer"
+          },
+          {
+              "title": "The Lord's Coins Aren't Decreasing",
+              "image": "IMAGES/4-BONS/the lord's coins aren't decreasing/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : The Lord's Coins Aren't Decreasing"
+          },
+          {
+              "title": "The Max Level Hero Has Returned",
+              "image": "IMAGES/4-BONS/the max level hero has returned/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : The Max Level Hero Has Returned"
+          },
+          {
+              "title": "The Regressed Demon Lord Is Kind",
+              "image": "IMAGES/4-BONS/the regressed demon lord is kind/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : The Regressed Demon Lord Is Kind"
+          },
+          {
+              "title": "The Reincarnated Assassin Is a Genius Swordsman",
+              "image": "IMAGES/4-BONS/the reincarnated assassin is a genius swordsman/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : The Reincarnated Assassin Is a Genius Swordsman"
+          },
+          {
+              "title": "The Second Coming of Gluttony",
+              "image": "IMAGES/4-BONS/the second coming of gluttony/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : The Second Coming of Gluttony"
+          },
+          {
+              "title": "Trash of the Count's Family",
+              "image": "IMAGES/4-BONS/trash of the count's family/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Trash of the Count's Family"
+          },
+          {
+              "title": "Tyrant of the Tower Defense Game",
+              "image": "IMAGES/4-BONS/tyrant of the tower defense game/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Tyrant of the Tower Defense Game"
+          },
+          {
+              "title": "Vice Lord's Rebirth",
+              "image": "IMAGES/4-BONS/vice lord's rebirth/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Vice Lord's Rebirth"
+          },
+          {
+              "title": "Villain to Kill",
+              "image": "IMAGES/4-BONS/villain to kill/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : Villain to Kill"
+          },
+          {
+            "title": "Weapon Creator",
+            "image": "IMAGES/4-BONS/weapon creator/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : Weapon Creator"
+          },
+          {
+              "title": "What's Our Hero Doing",
+              "image": "IMAGES/4-BONS/what's our hero doing/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : What's Our Hero Doing"
+          },
+          {
+              "title": "Why I Quit Being the Demon King",
+              "image": "IMAGES/4-BONS/why i quit being the demon king/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Why I Quit Being the Demon King"
+          },
+          {
+              "title": "Worn and Torn Newbie",
+              "image": "IMAGES/4-BONS/worn and torn newbie/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : Worn and Torn Newbie"
+          },
+          {
+              "title": "Youngest Son of the Namgung Clan",
+              "image": "IMAGES/4-BONS/youngest son of the namgung clan/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Youngest Son of the Namgung Clan"
+          },
+          {
+              "title": "Your Talent Is Mine",
+              "image": "IMAGES/4-BONS/your talent is mine/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Your Talent Is Mine"
+          }        
+        ]
+      },
+      {
+        "name": "Intermediaires",
+        "webtoons": [
+          {
+            "title": "10-Star Player's Lucky Draw",
+            "image": "IMAGES/5-INTERMEDIAIRES/10-star player's lucky draw/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : 10-Star Player's Lucky Draw"
+          },
+          {
+            "title": "Adoptée Par La Famille Des Assassins",
+            "image": "IMAGES/5-INTERMEDIAIRES/adoptee par la famille des assassins/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Adoptée Par La Famille Des Assassins"
+          },
+          {
+            "title": "Belle-mère en Mode Survie",
+            "image": "IMAGES/5-INTERMEDIAIRES/belle-mère en mode survie/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Belle-mère en Mode Survie"
+          },
+          {
+            "title": "Bones",
+            "image": "IMAGES/5-INTERMEDIAIRES/bones/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : Bones"
+          },
+          {
+            "title": "Book Eater",
+            "image": "IMAGES/5-INTERMEDIAIRES/book eater/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Book Eater"
+          },
+          {
+            "title": "Catastrophic Necromancer",
+            "image": "IMAGES/5-INTERMEDIAIRES/catastrophic necromancer/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Catastrophic Necromancer"
+          },
+          {
+            "title": "Climbing The Tower",
+            "image": "IMAGES/5-INTERMEDIAIRES/climbing the tower/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Climbing The Tower"
+          },
+          {
+            "title": "Comment Cacher le Fils de l'Empereur",
+            "image": "IMAGES/5-INTERMEDIAIRES/comment cacher le fils de l'empereur/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Comment Cacher le Fils de l'Empereur"
+          },
+          {
+            "title": "Demon Evolution",
+            "image": "IMAGES/5-INTERMEDIAIRES/demon evolution/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : Demon Evolution"
+          },
+          {
+            "title": "Dungeon Tou de Yadoya Wo Yarou",
+            "image": "IMAGES/5-INTERMEDIAIRES/dungeon tou de yadoya wo yarou/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Dungeon Tou de Yadoya Wo Yarou"
+          },
+          {
+            "title": "Eirth",
+            "image": "IMAGES/5-INTERMEDIAIRES/eirth/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Eirth"
+          },
+          {
+            "title": "Estio",
+            "image": "IMAGES/5-INTERMEDIAIRES/estio/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Estio"
+          },
+          {
+            "title": "Existence",
+            "image": "IMAGES/5-INTERMEDIAIRES/existence/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Existence"
+          },
+          {
+            "title": "From Giblin To Goblin Gold",
+            "image": "IMAGES/5-INTERMEDIAIRES/from goblin to goblin gold/cover.png",
+            "loading": "lazy",
+            "alt": "Image : From Giblin To Goblin Gold"
+          },
+          {
+            "title": "Hardcore Leveling Warrior",
+            "image": "IMAGES/5-INTERMEDIAIRES/hardcore leveling warrior/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Hardcore Leveling Warrior"
+          },
+          {
+            "title": "Heavenly Demon Cultivation Simulation",
+            "image": "IMAGES/5-INTERMEDIAIRES/heavenly demon cultivation simulation/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Heavenly Demon Cultivation Simulation"
+          },
+          {
+            "title": "Heavenly Demon Instructor",
+            "image": "IMAGES/5-INTERMEDIAIRES/heavenly demon instructor/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Heavenly Demon Instructor"
+          },
+          {
+            "title": "Heavenly Grand Archive's Young Master",
+            "image": "IMAGES/5-INTERMEDIAIRES/heavenly grand archive's young master/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Heavenly Grand Archive's Young Master"
+          },
+          {
+            "title": "Heavenly Sword's Grand Saga",
+            "image": "IMAGES/5-INTERMEDIAIRES/heavenly sword's grand saga/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Heavenly Sword's Grand Saga"
+          },
+          {
+            "title": "Holy Emperor's Grandson Is A Necromancer",
+            "image": "IMAGES/5-INTERMEDIAIRES/holy emperor's grandson is a necromancer/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Holy Emperor's Grandson Is A Necromancer"
+          },
+          {
+            "title": "I Am Invincible In This World",
+            "image": "IMAGES/5-INTERMEDIAIRES/i am invincible in this world/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : I Am Invincible In This World"
+          },
+          {
+            "title": "I Am The Strongest Transcendent",
+            "image": "IMAGES/5-INTERMEDIAIRES/i am the strongest transcendent/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : I Am The Strongest Transcendent"
+          },
+          {
+            "title": "I Regressed To My Ruined Family",
+            "image": "IMAGES/5-INTERMEDIAIRES/i regressed to my ruined family/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : I Regressed To My Ruined Family"
+          },
+          {
+            "title": "I Become The Villain's Poison Taster",
+            "image": "IMAGES/5-INTERMEDIAIRES/i will become the villain's poison taster/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : I Become The Villain's Poison Taster"
+          },
+          {
+            "title": "I'll Retire After Saving The World",
+            "image": "IMAGES/5-INTERMEDIAIRES/i'll retire after saving the world/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : I'll Retire After Saving The World"
+          },
+          {
+            "title": "Ice Lord",
+            "image": "IMAGES/5-INTERMEDIAIRES/ice lord/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Ice Lord"
+          },
+          {
+            "title": "L'Étoile Écarlate",
+            "image": "IMAGES/5-INTERMEDIAIRES/l'étoile écarlate/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : L'Étoile Écarlate"
+          },
+          {
+            "title": "L'Obscurité en Moi",
+            "image": "IMAGES/5-INTERMEDIAIRES/l'obscurité en moi/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : L'Obscurité en Moi"
+          },
+          {
+            "title": "La Chevalière à la Fleur de Glace",
+            "image": "IMAGES/5-INTERMEDIAIRES/la chevalière à la fleur de glace/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : La Chevalière à la Fleur de Glace"
+          },
+          {
+            "title": "La Princesse Cette Fleur Sauvage",
+            "image": "IMAGES/5-INTERMEDIAIRES/la princesse cette fleur sauvage/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : La Princesse, Cette Fleur Sauvage"
+          },
+          {
+            "title": "La Princesse Maléfique",
+            "image": "IMAGES/5-INTERMEDIAIRES/la princesse maléfique/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : La Princesse Maléfique"
+          },
+          {
+            "title": "Le Démon du Mont Hua",
+            "image": "IMAGES/5-INTERMEDIAIRES/le démon du mont hua/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Le Démon du Mont Hua"
+          },
+          {
+            "title": "Le Mousquetaire Virtuel",
+            "image": "IMAGES/5-INTERMEDIAIRES/le mousquetaire virtuel/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Le Mousquetaire Virtuel"
+          },
+          {
+            "title": "Leveling Up My Isekai'd Abs",
+            "image": "IMAGES/5-INTERMEDIAIRES/leveling up my isekai'd abs/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Leveling Up My Isekai'd Abs"
+          },
+          {
+            "title": "Lightning Degree",
+            "image": "IMAGES/5-INTERMEDIAIRES/lightning degree/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : Lightning Degree"
+          },
+          {
+            "title": "Martial Streamer",
+            "image": "IMAGES/5-INTERMEDIAIRES/martial streamer/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Martial Streamer"
+          },
+          {
+            "title": "Memorize",
+            "image": "IMAGES/5-INTERMEDIAIRES/memorize/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Memorize"
+          },
+          {
+            "title": "Millionaire Lady",
+            "image": "IMAGES/5-INTERMEDIAIRES/millionaire lady/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Millionaire Lady"
+          },
+          {
+            "title": "Monster Pet Evolution",
+            "image": "IMAGES/5-INTERMEDIAIRES/monster pet evolution/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Monster Pet Evolution"
+          },
+          {
+            "title": "Monster Streamer For Gods",
+            "image": "IMAGES/5-INTERMEDIAIRES/monster streamer for gods/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Monster Streamer For Gods"
+          },
+          {
+            "title": "My Beloved Oppressor",
+            "image": "IMAGES/5-INTERMEDIAIRES/my beloved oppressor/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : My Beloved Oppressor"
+          },
+          {
+            "title": "My Daughter Is The Final Boss",
+            "image": "IMAGES/5-INTERMEDIAIRES/my daughter is the final boss/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : My Daughter Is The Final Boss"
+          },
+          {
+            "title": "My Inventory Is Abnormal",
+            "image": "IMAGES/5-INTERMEDIAIRES/my inventory is abnormal/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : My Inventory Is Abnormal"
+          },
+          {
+            "title": "Necromancer's Evolutionary Traits",
+            "image": "IMAGES/5-INTERMEDIAIRES/necromancer's evolutionary traits/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Necromancer's Evoliutionary Traits"
+          },
+          {
+            "title": "Newbie Management",
+            "image": "IMAGES/5-INTERMEDIAIRES/newbie management/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Newbie Management"
+          },
+          {
+            "title": "Pas Mon Enfant Destin",
+            "image": "IMAGES/5-INTERMEDIAIRES/pas mon enfant destin/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Pas Mon Enfant Destin"
+          },
+          {
+            "title": "Raising Hell",
+            "image": "IMAGES/5-INTERMEDIAIRES/raising hell/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Raising Hell"
+          },
+          {
+            "title": "Reborn Rich",
+            "image": "IMAGES/5-INTERMEDIAIRES/reborn rich/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Reborn Rich"
+          },
+          {
+            "title": "Regression Of The Close Combat Mage",
+            "image": "IMAGES/5-INTERMEDIAIRES/regression of the close combat mage/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Regression Of The Close Combat Mage"
+          },
+          {
+            "title": "Reincarnated Escort Warrior",
+            "image": "IMAGES/5-INTERMEDIAIRES/reincarnated escort warrior/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Reincarnated Escort Warrior"
+          },
+          {
+            "title": "Reincarnation Path of the Underworld King",
+            "image": "IMAGES/5-INTERMEDIAIRES/reincarnation path of the underworld king/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Reincarnation Path of the Underworld King"
+          },
+          {
+            "title": "Release That Witch",
+            "image": "IMAGES/5-INTERMEDIAIRES/release that witch/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Release That Witch"
+          },
+          {
+            "title": "Return of the Ninth-Class Swordmaster",
+            "image": "IMAGES/5-INTERMEDIAIRES/return of the ninth-class swordmaster/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Return of the Ninth-Class Swordmaster"
+          },
+          {
+            "title": "Returned as a Martial Genius",
+            "image": "IMAGES/5-INTERMEDIAIRES/returned as a martial genius/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Returned as a Martial Genius"
+          },
+          {
+            "title": "Roxana",
+            "image": "IMAGES/5-INTERMEDIAIRES/roxana/cover.png",
+            "loading": "lazy",
+            "alt": "Image : Roxana"
+          },
+          {
+            "title": "School Life Pretending to Be a Worthless Person",
+            "image": "IMAGES/5-INTERMEDIAIRES/school life pretending to be a worthless person/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : School Life Pretending to Be a Worthless Person"
+          },
+          {
+            "title": "Solo Leveling Ragnarok",
+            "image": "IMAGES/5-INTERMEDIAIRES/solo leveling ragnarok/cover.png",
+            "loading": "lazy",
+            "alt": "Image : Solo Leveling Ragnarok"
+          },
+          {
+            "title": "SSS-Class Gacha Hunter",
+            "image": "IMAGES/5-INTERMEDIAIRES/sss-class gacha hunter/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : SSS-Class Gacha Hunter"
+          },
+          {
+            "title": "Super Genius DNA",
+            "image": "IMAGES/5-INTERMEDIAIRES/super genius dna/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Super Genius DNA"
+          },
+          {
+            "title": "Surviving as a Fish",
+            "image": "IMAGES/5-INTERMEDIAIRES/surviving as a fish/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Surviving as a Fish"
+          },
+          {
+            "title": "Taming Master",
+            "image": "IMAGES/5-INTERMEDIAIRES/taming master/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Taming Master"
+          },
+          {
+            "title": "The Challenger",
+            "image": "IMAGES/5-INTERMEDIAIRES/the challenger/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : The Challenger"
+          },
+          {
+            "title": "The Crown Prince That Sells Medicine",
+            "image": "IMAGES/5-INTERMEDIAIRES/the crown prince that sells medicine/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : The Crown Prince That Sells Medicine"
+          },
+          {
+            "title": "The Eminence in Shadow",
+            "image": "IMAGES/5-INTERMEDIAIRES/the eminence in shadow/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The Eminence in Shadow"
+          },
+          {
+            "title": "The Genius Gamer's Livestream",
+            "image": "IMAGES/5-INTERMEDIAIRES/the genius gamer's livestream/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : The Genius Gamer's Livestream"
+          },
+          {
+            "title": "The Iron-Blooded Necromancer Has Returned",
+            "image": "IMAGES/5-INTERMEDIAIRES/the iron-blooded necromancer has returned/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : The Iron-Blooded Necromancer Has Returned"
+          },
+          {
+            "title": "The Lazy Swordmaster",
+            "image": "IMAGES/5-INTERMEDIAIRES/the lazy swordmaster/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The Lazy Swordmaster"
+          },
+          {
+            "title": "The Man Who Devoured the Light",
+            "image": "IMAGES/5-INTERMEDIAIRES/the man who devoured the light/cover.png",
+            "loading": "lazy",
+            "alt": "Image : The Man Who Devoured the Light"
+          },
+          {
+            "title": "The S-Classes That I Raised",
+            "image": "IMAGES/5-INTERMEDIAIRES/the s-classes that i raised/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The S-Classes That I Raised"
+          },
+          {
+            "title": "The Strong Man from the Mental Hospital",
+            "image": "IMAGES/5-INTERMEDIAIRES/the strong man from the mental hospital/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : The Strong Man from the Mental Hospital"
+          },
+          {
+            "title": "The Strongest Assassin",
+            "image": "IMAGES/5-INTERMEDIAIRES/the strongest assassin/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : The Strongest Assassin"
+          },
+          {
+            "title": "The Sweet Life of a Former Pro",
+            "image": "IMAGES/5-INTERMEDIAIRES/the sweet life of a former pro/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : The Sweet Life of a Former Pro"
+          },
+          {
+            "title": "Ultimate of All Ages",
+            "image": "IMAGES/5-INTERMEDIAIRES/ultimate of all ages/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Ultimate of All Ages"
+          },
+          {
+            "title": "Volcanic Age",
+            "image": "IMAGES/5-INTERMEDIAIRES/volcanic age/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Volcanic Age"
+          },
+          {
+            "title": "White Blood",
+            "image": "IMAGES/5-INTERMEDIAIRES/white blood/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : White Blood"
+          }
+        ]
+      },
+      {
+        "name": "Moyens",
+        "webtoons": [
+          {
+            "title": "990k Ex-wife Hunter",
+            "image": "IMAGES/6-MOYENS/990k ex-life hunter/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : 990k Ex-wife Hunter"
+          },
+          {
+            "title": "Adorée des Villains",
+            "image": "IMAGES/6-MOYENS/adorée des villains/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Adorée des Villains"
+          },
+          {
+            "title": "Angelic Lady",
+            "image": "IMAGES/6-MOYENS/angelic lady/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Angelic Lady"
+          },
+          {
+            "title": "Berserk of Gluttony",
+            "image": "IMAGES/6-MOYENS/berserk of gluttony/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Berserk of Gluttony"
+          },
+          {
+            "title": "Ce Mariage est Raté",
+            "image": "IMAGES/6-MOYENS/ce mariage est raté/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Ce Mariage est Raté"
+          },
+          {
+            "title": "Charlotte et ses 5 Disciples",
+            "image": "IMAGES/6-MOYENS/charlotte et ses 5 disciples/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Charlotte et ses 5 Disciples"
+          },
+          {
+            "title": "Chasser des Golems",
+            "image": "IMAGES/6-MOYENS/chasser des golems/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Chasser des Golems"
+          },
+          {
+            "title": "Darkness Revenge",
+            "image": "IMAGES/6-MOYENS/darkness revenge/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Darkness Revenge"
+          },
+          {
+            "title": "Dragon Son-in-law God of War",
+            "image": "IMAGES/6-MOYENS/dragon son-in-law god of war/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Dragon Son-in-law God of War"
+          },
+          {
+            "title": "Dream Sharing",
+            "image": "IMAGES/6-MOYENS/dream sharing/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Dream Sharing"
+          },
+          {
+            "title": "Dungeon Kurashi",
+            "image": "IMAGES/6-MOYENS/dungeon kurashi/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Dungeon Kurashi"
+          },
+          {
+            "title": "Echoes",
+            "image": "IMAGES/6-MOYENS/echoes/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Echoes"
+          },
+          {
+            "title": "Épée et Quêtes",
+            "image": "IMAGES/6-MOYENS/épée et quêtes/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Épée et Quêtes"
+          },
+          {
+            "title": "God's Web Novel",
+            "image": "IMAGES/6-MOYENS/god's web novel/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : God's Web Novel"
+          },
+          {
+            "title": "Her Majesty's Swarm",
+            "image": "IMAGES/6-MOYENS/her majesty's swarm/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Her Majesty's Swarm"
+          },
+          {
+            "title": "Hunter Academy's Strongest Battle God",
+            "image": "IMAGES/6-MOYENS/hunter academy's strongest battle god/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Hunter Academy's Strongest Battle God"
+          },
+          {
+            "title": "I Failed to Abandon the Villain",
+            "image": "IMAGES/6-MOYENS/i failed to abandon the villain/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : I Failed to Abandon the Villain"
+          },
+          {
+            "title": "I'm an Ex-Class Hunter",
+            "image": "IMAGES/6-MOYENS/i'm an ex-class hunter/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : I'm an Ex-Class Hunter"
+          },
+          {
+            "title": "I'm the Queen in This Life",
+            "image": "IMAGES/6-MOYENS/i'm the queen in this life/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : I'm the Queen in This Life"
+          },
+          {
+            "title": "Into the Light Once Again",
+            "image": "IMAGES/6-MOYENS/into the light once again/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Into the Light Once Again"
+          },
+          {
+            "title": "J'ai Élevé un Servant Obsessif",
+            "image": "IMAGES/6-MOYENS/j'ai élevé un servant obsessif/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : J'ai Élevé un Servant Obsessif"
+          },
+          {
+            "title": "Je Souhaite Mourir",
+            "image": "IMAGES/6-MOYENS/je souhaite mourir/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Je Souhaite Mourir"
+          },
+          {
+            "title": "Kill the Villainess",
+            "image": "IMAGES/6-MOYENS/kill the villainess/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Kill the Villainess"
+          },
+          {
+            "title": "Konjiki no Moji Tsukai",
+            "image": "IMAGES/6-MOYENS/konjiki no moji tsukai/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Konjiki no Moji Tsukai"
+          },
+          {
+            "title": "La Lady Solitaire",
+            "image": "IMAGES/6-MOYENS/la lady solitaire/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : La Lady Solitaire"
+          },
+          {
+            "title": "La Petite Princesse Bien-Aimée",
+            "image": "IMAGES/6-MOYENS/la petite princesse bien-aimée/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : La Petite Princesse Bien-Aimée"
+          },
+          {
+            "title": "La Renaissance d'un Maître Épéiste",
+            "image": "IMAGES/6-MOYENS/la renaissance d'un maître épéiste/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : La Renaissance d'un Maître Épéiste"
+          },
+          {
+            "title": "La Vilaine est un Maître Invincible",
+            "image": "IMAGES/6-MOYENS/la vilaine est un maître invincible/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : La Vilaine est un Maître Invincible"
+          },
+          {
+            "title": "La Vraie C'est Moi",
+            "image": "IMAGES/6-MOYENS/la vraie c'est moi/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : La Vraie C'est Moi"
+          },
+          {
+            "title": "Lady Chef Royale",
+            "image": "IMAGES/6-MOYENS/lady chef royale/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Lady Chef Royale"
+          },
+          {
+            "title": "Les Chroniques du Disciple Dragon",
+            "image": "IMAGES/6-MOYENS/les chroniques du disciple dragon/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Les Chroniques du Disciple Dragon"
+          },
+          {
+            "title": "Level 1 Player",
+            "image": "IMAGES/6-MOYENS/level 1 player/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : Level 1 Player"
+          },
+          {
+            "title": "Limit Breaker",
+            "image": "IMAGES/6-MOYENS/limit breaker/cover.png",
+            "loading": "lazy",
+            "alt": "Image : Limit Breaker"
+          },
+          {
+            "title": "L'Impératrice de l'Ombre",
+            "image": "IMAGES/6-MOYENS/l'impératrice de l'ombre/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : L'Impératrice de l'Ombre"
+          },
+          {
+            "title": "Ma Soeur Jumelle Fait Grève",
+            "image": "IMAGES/6-MOYENS/ma soeur jumelle fait grève/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Ma Soeur Jumelle Fait Grève"
+          },
+          {
+            "title": "Mission Jumelle en Jumeau",
+            "image": "IMAGES/6-MOYENS/mission jumelle en jumeau/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Mission Jumelle en Jumeau"
+          },
+          {
+            "title": "Moto Shogun no Undead Knight",
+            "image": "IMAGES/6-MOYENS/moto shogun no undead knight/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Moto Shogun no Undead Knight"
+          },
+          {
+            "title": "Nihonkoku Shoukan",
+            "image": "IMAGES/6-MOYENS/nihonkoku shoukan/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Nihonkoku Shoukan"
+          },
+          {
+            "title": "Otherworldly Skeleton Evolution",
+            "image": "IMAGES/6-MOYENS/otherworldly skeleton evolution/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Otherworldly Skeleton Evolution"
+          },
+          {
+            "title": "Overpowered",
+            "image": "IMAGES/6-MOYENS/overpowered/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Overpowered"
+          },
+          {
+            "title": "Princesse Faucon",
+            "image": "IMAGES/6-MOYENS/princesse faucon/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Princesse Faucon"
+          },
+          {
+            "title": "Rebirth After a Thousand Years",
+            "image": "IMAGES/6-MOYENS/rebirth after a thousand years/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Rebirth After a Thousand Years"
+          },
+          {
+            "title": "Reincarnation of the Murim Clan's Former Ranker",
+            "image": "IMAGES/6-MOYENS/reincarnation of the murim clan's former ranker/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Reincarnation of the Murim Clan's Former Ranker"
+          },
+          {
+            "title": "Ruins of Gallia",
+            "image": "IMAGES/6-MOYENS/ruins of gallia/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : Ruins of Gallia"
+          },
+          {
+            "title": "Sangs et Papillons",
+            "image": "IMAGES/6-MOYENS/sangs et papillons/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Sangs et Papillons"
+          },
+          {
+            "title": "Savior of Blood Divine",
+            "image": "IMAGES/6-MOYENS/savior of blood divine/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Savior of Blood Divine"
+          },
+          {
+            "title": "School Knight Level Up",
+            "image": "IMAGES/6-MOYENS/school knight level up/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : School Knight Level Up"
+          },
+          {
+            "title": "Solo Auto-Hunting",
+            "image": "IMAGES/6-MOYENS/solo auto-hunting/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Solo Auto-Hunting"
+          },
+          {
+            "title": "The Ex-Number One Beginner",
+            "image": "IMAGES/6-MOYENS/the ex-number one beginner/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The Ex-Number One Beginner"
+          },
+          {
+            "title": "The Final Boss Became a Player",
+            "image": "IMAGES/6-MOYENS/the final boss became a player/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : The Final Boss Became a Player"
+          },
+          {
+            "title": "The Gamer",
+            "image": "IMAGES/6-MOYENS/the gamer/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The Gamer"
+          },
+          {
+            "title": "The King of Bug",
+            "image": "IMAGES/6-MOYENS/the king of bug/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : The King of Bug"
+          },
+          {
+            "title": "The Lady Wants to Rest",
+            "image": "IMAGES/6-MOYENS/the lady wants to rest/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : The Lady Wants to Rest"
+          },
+          {
+            "title": "The Ranker's Guide to Live an Ordinary Life",
+            "image": "IMAGES/6-MOYENS/the rankers guide to live an ordinary life/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : The Ranker's Guide to Live an Ordinary Life"
+          },
+          {
+            "title": "Une Famille pour Moi",
+            "image": "IMAGES/6-MOYENS/une famille pour moi/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Une Famille pour Moi"
+          },
+          {
+            "title": "Une Réincarnation Presque Ordinaire",
+            "image": "IMAGES/6-MOYENS/une réincarnation presque ordinaire/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Une Réincarnation Presque Ordinaire"
+          },
+          {
+            "title": "Yeon Lokheun",
+            "image": "IMAGES/6-MOYENS/yeon lokheun/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Yeon Lokheun"
+          }
+        ]
+      },
+      {
+        "name": "Ennuyants",
+        "webtoons": [
+          {
+            "title": "Apotheosis",
+            "image": "IMAGES/7-ENNUYANTS/apotheosis/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Apotheosis"
+          },
+          {
+            "title": "Divorcée mais pleine aux as",
+            "image": "IMAGES/7-ENNUYANTS/divorcée mais pleine aux as/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Divorcée mais pleine aux as"
+          },
+          {
+            "title": "From Holy Knight to Vampire",
+            "image": "IMAGES/7-ENNUYANTS/from holy knight to vampire/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : From Holy Knight to Vampire"
+          },
+          {
+            "title": "Je suis la précieuse fille du roi démon",
+            "image": "IMAGES/7-ENNUYANTS/je suis la précieuse fille du roi démon/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Je suis la précieuse fille du roi démon"
+          },
+          {
+            "title": "Judith l'incorruptible",
+            "image": "IMAGES/7-ENNUYANTS/judith l'incorruptible/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Judith l'incorruptible"
+          },
+          {
+            "title": "La vilaine réécrit l'histoire",
+            "image": "IMAGES/7-ENNUYANTS/la vilaine réécrit l'histoire/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : La vilaine réécrit l'histoire"
+          },
+          {
+            "title": "Limitless Apostle",
+            "image": "IMAGES/7-ENNUYANTS/limitless apostle/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Limitless Apostle"
+          },
+          {
+            "title": "My Secretly Hot Husband",
+            "image": "IMAGES/7-ENNUYANTS/my secretly hot husband/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : My Secretly Hot Husband"
+          },
+          {
+            "title": "Oubliez-moi",
+            "image": "IMAGES/7-ENNUYANTS/oubliez-moi/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Oubliez-moi"
+          },
+          {
+            "title": "Raga la renaissance de la branche morte",
+            "image": "IMAGES/7-ENNUYANTS/raga la renaissance de la branche morte/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Raga la renaissance de la branche morte"
+          },
+          {
+            "title": "The Ghostly Doctor",
+            "image": "IMAGES/7-ENNUYANTS/the ghostly doctor/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The Ghostly Doctor"
+          }
+        ]
+      },
+      {
+        "name": "Mauvais",
+        "webtoons": [
+          {
+            "title": "",
+            "image": "",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "name": "Flemme de classer*",
+        "webtoons": [
+          {
+            "title": "",
+            "image": "",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "name": "En cours d'évaluations",
+        "webtoons": [
+          {
+            "title": "",
+            "image": "",
+            "alt": ""
+          }
+        ]
+      }
+    ]
+  }
+  

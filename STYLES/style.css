@@ -1,0 +1,382 @@
+body {
+    background-color: #1e1e1e;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;	/* Ajoute une marge de 20 px tout autour de ma page Web */
+}
+
+#logo-site {
+    width: 50px;          /* Ajuste la taille du logo */
+    height: auto;          /* Garde les proportions de l'image */
+    border-radius: 100%;       /* Coins arrondis */
+    border: 2px solid #4CAF50;   /* Bordure verte assortie à ton style */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  /* Ombre douce */
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;  /* Transition pour un effet de survol */
+}
+
+#logo-site:hover {
+    transform: scale(1.05);    /* Agrandit légèrement au survol */
+    box-shadow: 0px 0px 15px 5px rgba(76, 175, 80, 0.5);  /* Lueur verte plus intense */
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 200%;
+    color: #06e70a;
+    text-decoration: underline;
+}
+
+.couleur-texte-blanc {
+    color: #ffffff;
+}
+
+
+
+    /* BARRE DE NAVIGATION HAUTE */
+
+
+/* Style général de la barre de navigation */
+.navbarre-haute {
+    background-color: #4CAF50; /* 33b437 Vert */
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbarre-haute ul {
+    list-style-type: none;  /* enlève les puces ou les numéros par défaut des éléments de liste */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly; /* Répartit les éléments avec un espacement égal */
+    align-items: center;
+    width: 100%; /* Prend toute la largeur disponible */
+}
+
+.navbarre-haute li {
+    display: inline;
+    font-weight: bold;
+    color: white;
+}
+
+/* Style des liens */
+.navbarre-haute a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Effet de survol pour assombrir légèrement */
+.navbarre-haute a:hover {
+    background-color: #238528; /* Vert un peu plus foncé */
+}
+
+
+
+    /* BARRE DE NAVIGATION LATERALE */
+
+
+/* Style du bouton carré */
+.nav-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1001;	/* Comme 1001 > 1000, alors le bouton carré sera au-dessus de la barre de navigation latérale */
+}
+
+/* Barre de navigation latérale */
+.sidebar-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+    transition: 0.3s;
+    z-index: 1000;	/* Second z-index */
+    padding-top: 60px;
+}
+
+/* Liste de liens */
+.sidebar-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-nav ul li {
+    padding: 10px 20px;
+}
+
+.sidebar-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.sidebar-nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+
+
+    /* CREER SA PROPRE TIER LIST ET OPTION DE RECHERCHE DE WEBTOONS */
+
+/* Conteneur pour aligner les éléments */
+.others-tierlist {
+    display: flex;
+    gap: 10px; /* Espace entre le bouton et la barre de recherche */
+    justify-content: center; /* Centre les éléments horizontalement */
+    margin: 20px 0; /* Espace au-dessus et en-dessous de la section */
+}
+
+/* Style du bouton */
+.creer-tierlist-btn {
+    background-color: #53c357; /* Couleur verte */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.creer-tierlist-btn:hover {
+    background-color: #3a873e; /* Couleur un peu plus foncée au survol */
+}
+
+/* Style de la barre de recherche */
+.search-webtoon {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    width: 200px; /* Largeur de la barre de recherche */
+}
+
+.search-webtoon:focus {
+    border-color: #45a049; /* Couleur du bord au focus */
+    outline: none;
+}
+
+
+
+
+    /* MA TIER LIST */
+
+
+
+.tier-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tier-category {
+        margin-bottom: 10px;	/* Créé un espacement entre les différentes catégories de ma tier list */
+        display: flex;
+        background-color: #2a2a2a;  /* gris foncé */
+        border-radius: 7px;
+        overflow: hidden;
+    
+}
+
+	/* Pour les titres des catégories */
+.tier-category h2 {
+    font-size: 24px;
+    color: #333;	/* Gris foncé */
+    margin-bottom: 10px;	/* Ajoute un espace de 10px en dessous du titre */
+    text-align: center;
+}
+
+
+
+.tier-label {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;  /* Espacement entre les titres et les conteneurs */
+}
+
+
+.tier-grid {
+    display: flex;
+    flex-wrap: wrap;    /* Permet aux images de se répartir sur plusieurs lignes */
+    gap: 10px;  /* Espacement entre les images */
+    padding: 20px;
+    flex-grow: 1;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));  /* Crée un nombre variable de colonnes qui ont une largeur minimale de 150px et remplissent l'espace disponible.             template = modèle */
+}
+
+
+	/* Pour les images */
+.tier-grid img {
+    width: 130px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.2s ease;	/* Ajoute une transition douce de 0.2s sur les images quand on glisse le curseur dessus (Pour éviter que l'image s'agrandisse d'un coup, moins moche  */
+}
+
+	/* Hover signifie "survoler" en anglais, cela signifie que le style sera appliqué de façon temporaire, seulement quand un curseur survolera l'image */
+.tier-grid img:hover {
+    transform: scale(1.05);		/* Agrandi légèrement l'image que le curseur glisse dessus */
+}
+
+
+
+#style-sss .tier-label { background-color: #FF9FF3; }
+#style-excellents .tier-label { background-color: #FFC300; }
+#style-tres-bons .tier-label { background-color: #DAF7A6; }
+#style-bons .tier-label { background-color: #FF5733; }
+#style-intermediaires .tier-label { background-color: #2E86C1;}
+#style-moyens .tier-label { background-color: #C70039; }
+#style-ennuyants .tier-label { background-color: #900C3F; }
+#style-mauvais .tier-label { background-color: #581845; }
+#style-flemme-de-classer .tier-label { background-color: #7D3C98; }
+#style-en-cours-evaluation .tier-label { background-color: #17b114; }
+
+
+
+    /* Pop-up */
+    /* animation d'opacité à l'apparition de la pop-up */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.webtoon-details {
+    display: none;		/* Permet de masquer le pop-up, qui sera affiché grâce au JS */
+    position: fixed;
+    top: 50%;	/* centre le pop-up verticalement */
+    left: 50%;	/* centre horizontalement */
+    transform: translate(-50%, -50%);	/* Permet de centrer EXACTEMENT le pop-up */
+    background-color: white;
+    padding: 20px;		/* espace intérieur entre les bords du pop-up et le reste (ex : texte) */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);	/* Petit effet d'ombre sur les bords de la boîte pour rajouter en profondeur */
+    z-index: 1000;		/* Pas vraiment utile, mais place le pop-up au-dessus de tous les éléments de m page */
+	max-height: 80vh; /* Limite la hauteur maximale à 80% de la hauteur de la vue */
+    overflow-y: auto; /* Ajoute un scroll si le contenu dépasse la hauteur maximale */
+	animation: fadeIn 0.5s ease-in-out;
+}
+
+
+	/* Titre du pop-up */
+.webtoon-details h3 {
+	margin-top: 0;	/* Supprime la marge supérieure par défaut du titre pour l'aligner correctement avec le contenu du pop-up */
+	font-size: 28px;
+	text-decoration: underline;
+}
+
+.webtoon-details img {
+	width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+    /* Bannières des pop-ups webtoons */
+.titres_bannières {
+	text-align: center;
+}
+
+.titres_bannières img {
+	width: 100%;
+	height: auto;
+	border-radius: 4px;
+	margin-bottom: 25px;
+}
+
+
+    /* Contenu de la pop-up des webtoons */
+.details-content {
+    display: flex;           /* Utilise Flexbox pour aligner l'image et le texte */
+    gap: 20px;               /* Espace de 20px entre l'image et le texte */
+    align-items: flex-start; /* Aligne le contenu au début verticalement (en haut) */
+}
+
+.details-content img {
+    width: 170px;            /* Tu peux ajuster la largeur de l'image si nécessaire */
+    height: auto;
+    border-radius: 10px;
+}
+
+.details-text {
+    flex: 1;                 /* Prend le reste de l'espace disponible pour le texte */
+	font-size: 95%;
+}
+
+.img-popup {    /* Le conteneur */
+    display: flex;
+    flex-wrap: wrap; /* répartit sur 1 ligne, et si il n'y a pas assez de place, il passe à la ligne suivante */
+    justify-content: space-between; /* Espacement horizontal uniforme */
+    gap: 15px; /* espace entre les images */
+    margin: 20px auto; /* Centrage horizontal et marges verticales */
+    max-width: 600px; /* Largeur maximale pour la grille */
+}
+
+.img-popup img {    /* Les images */
+    flex: 1 1 calc(33.33% - 15px); /* Chaque image prend 1/3 de la largeur avec un espacement */
+    max-width: 150px; /* Taille maximale pour réduire les dimensions */
+    height: auto; /* Conserve le ratio de l'image */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Ombre esthétique */
+    margin: 5px; /* Espacement supplémentaire autour des images */
+}
+
+
+
+
+.contact-séparateur {
+    height: 50px;
+    background-color: #33b437;
+    width: calc(100% + 40px); /* Ajuste la largeur pour compenser le padding */
+    margin-top: 70px;
+    margin-left: -20px; /* Déplace le séparateur vers la gauche pour compenser */
+    margin-right: -20px; /* Déplace le séparateur vers la droite pour compenser */
+}
+
+
+
+    /* A Propos / Contact */
+#àpropos-contact {
+    background-color: #f9f9f9; /* Couleur de fond douce */
+    padding: 20px;
+    margin: 40px 0; /* Espacement autour de la section */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Légère ombre pour un effet de profondeur */
+}
+
+#àpropos-contact h2 {
+    color: #33b437; /* Couleur pour les titres */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#àpropos-contact p {
+    color: #555; /* Couleur du texte */
+    line-height: 1.6;
+}

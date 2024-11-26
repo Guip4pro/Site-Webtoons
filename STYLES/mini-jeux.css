@@ -1,0 +1,150 @@
+/* Styles de base pour la page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+
+    background-image: url(../RESSOURCES/background-minijeux.jpg);
+    background-size: cover;           /* Ajuste l'image pour qu'elle couvre tout l'écran */
+    background-repeat: no-repeat;     /* Empêche la répétition de l'image */
+    background-attachment: fixed;     /* Garde l'image fixe lors du défilement */
+    background-position: center;      /* Centre l'image de fond */
+}
+
+/* Pour ajouter de la transparence */
+body::before {
+    content: "";    /* Créé un élément vide sur tout l'écran, pour activer le pseudo-élément ::before lui-même pour appliquer des styles (comme une couleur ou une opacité) à cette couche. */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9); /* Couleur et transparence : 0.7 est l'opacité */
+    z-index: -1;
+}
+
+
+.logo-titre {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centre le contenu horizontalement */
+    width: 100%;
+    position: relative; /* Permet de positionner le logo */
+}
+
+.logo-link {    /* permet d'éviter que le titre et le logo soit désaligné, sinon caca */
+    display: flex;
+    align-items: center;
+}
+
+#logo-site {
+    position: absolute; /* Place le logo de manière absolue */
+    left: 0; /* Aligne le logo à gauche */
+    margin-left: 20px; /* Ajuste la distance du logo par rapport au bord gauche */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #29892c;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#logo-site:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 5px rgba(76, 175, 80, 0.5);
+}
+
+
+h1 {
+    color: #33b437;
+    font-size: 2em;  /* 1em = 16px (taille courante d'un élément en css */
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin: 0; /* Évite un espace vertical inutile */
+    padding-left: 60px; /* Décale légèrement le titre pour éviter le chevauchement avec le logo */
+}
+
+#bannière {
+    width: 1000px;
+    height: auto;
+    border-radius: 15px;
+    margin: 40px;
+}
+
+
+
+/* Style pour la section de boutons */
+.game-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Style pour chaque bouton de jeu */
+.game-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    border: 2px solid #4CAF50; /* Bordure verte #808000 */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.game-button:hover {
+    transform: scale(1.05); /* Agrandissement au survol */
+}
+
+/* Style pour les images dans les boutons */
+.game-button img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #4CAF50; /* Ligne verte entre l'image et le bouton */
+}
+
+/* Style pour les boutons */
+.game-button button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.game-button button:hover {
+    background-color: #419445; /* Couleur plus foncée au survol */
+}
+
+
+
+
+    /* MEMORY */
+
+.memory-hidden {
+    display: none;
+}
+
+#memory-game-board {
+    display: grid;
+    gap: 10px;      /* Espaces entre chaque carte, horizontalement comme verticalement */
+    margin-top: 20px;
+}
+
+.memory-card {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    font-size: 20px;
+    cursor: pointer;
+}
