@@ -1,1 +1,7 @@
-ctrl + shift + ù = terminal
+ctrl + shift + ù = terminal (ou ctrl + shift + u)
+
+POWERSHELL :
+git status = vérifier le statut
+git add . = ajouter les fichiers modifiés
+git commit -m "message" = décrit les modifications avec un message
+git push = envoyer les modifications vers le serveur distant
