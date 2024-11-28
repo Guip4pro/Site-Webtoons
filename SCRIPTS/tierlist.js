@@ -16,6 +16,20 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+
+fetch('RESSOURCES/data-json/all.json')
+.then(response => {
+    if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+})
+.then(data => {
+    console.log('Données JSON chargées :', data);
+})
+.catch(error => console.error('Erreur lors du chargement du JSON :', error));
+  
+
     // Fonction avec fecth pour charger et afficher les webtoons depuis le JSON
 function loadWebtoonsFromJson(jsonFile) {
     fetch(jsonFile)
