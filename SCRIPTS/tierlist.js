@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-
+/*
 fetch('RESSOURCES/data-json/all.json')
 .then(response => {
     if (!response.ok) {
@@ -28,7 +28,7 @@ fetch('RESSOURCES/data-json/all.json')
     console.log('Données JSON chargées :', data);
 })
 .catch(error => console.error('Erreur lors du chargement du JSON :', error));
-  
+*/
 
     // Fonction avec fecth pour charger et afficher les webtoons depuis le JSON
 function loadWebtoonsFromJson(jsonFile) {
@@ -84,7 +84,7 @@ function loadWebtoonsFromJson(jsonFile) {
 
     
     // Appeler la fonction pour charger les webtoons à partir du fichier JSON
-    loadWebtoonsFromJson('guip4pro.github.io////Site-Webtoons/RESSOURCES/data-json/all.json');   // ancien chemin relatif : '../RESSOURCES/data-json/all.json'
+    loadWebtoonsFromJson('../RESSOURCES/data-json/all.json');   // ancien chemin relatif : '../RESSOURCES/data-json/all.json'
 
     // Fermer le pop-up en cliquant à l'extérieur du contenu
     window.addEventListener('click', function(event) {
