@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+
 /*
 fetch('RESSOURCES/data-json/all.json')
 .then(response => {
@@ -84,7 +85,7 @@ function loadWebtoonsFromJson(jsonFile) {
 
     
     // Appeler la fonction pour charger les webtoons à partir du fichier JSON
-    loadWebtoonsFromJson('all.json');   // ancien chemin relatif : '../RESSOURCES/data-json/all.json'
+    loadWebtoonsFromJson('../RESSOURCES/data-json/all.json');   // ancien chemin relatif : '../RESSOURCES/data-json/all.json'
 
     // Fermer le pop-up en cliquant à l'extérieur du contenu
     window.addEventListener('click', function(event) {
