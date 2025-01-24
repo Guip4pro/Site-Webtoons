@@ -189,11 +189,11 @@ h1 {
 }
 
 .tier-category {
-        margin-bottom: 10px;	/* Créé un espacement entre les différentes catégories de ma tier list */
-        display: flex;
-        background-color: #2a2a2a;  /* gris foncé */
-        border-radius: 7px;
-        overflow: hidden;
+    margin-bottom: 10px;	/* Créé un espacement entre les différentes catégories de ma tier list */
+    display: flex;
+    background-color: #2a2a2a;  /* gris foncé */
+    border-radius: 7px;
+    overflow: hidden;
     
 }
 
@@ -380,3 +380,37 @@ h1 {
     color: #555; /* Couleur du texte */
     line-height: 1.6;
 }
+
+
+    /* Liens TikTok */
+#tiktok-link {
+    display: inline-flex; /* Change de block à inline et garde l'alignement */
+    align-items: center; /* Centre verticalement l'icône et le texte */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    background-color: #1e1e1e; /* Couleur du fond */
+    border-radius: 5px;
+    padding: 5px 10px; /* vertical horizontal */
+    color: #fff;
+    transition: background-color 0.3s, transform 0.3s; /* Ajoute des transitions pour l'effet au survol */
+    width: fit-content; /* Adapte la taille de la boîte au contenu */
+}
+
+#tiktok-link:hover {
+    background-color: #ff0050; /* Couleur au survol */
+    transform: scale(1.05); /* Légère augmentation au survol */
+}
+
+.tiktok-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px; /* Espace entre l'icône et le texte */
+}
+
+.tiktok-text {
+    font-size: 16px;
+}
+
+#tiktok-bold {
+    font-weight: bold;
+}
+    
