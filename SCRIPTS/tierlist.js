@@ -31,7 +31,7 @@ fetch('RESSOURCES/data-json/all.json')
 .catch(error => console.error('Erreur lors du chargement du JSON :', error));
 */
 
-    // Fonction avec fecth pour charger et afficher les webtoons depuis le JSON
+    // Fonction avec fecth pour charger et afficher les webtoons depuis le JSON 
 function loadWebtoonsFromJson(jsonFile) {
     fetch(jsonFile)
         .then(response => response.json())
@@ -82,6 +82,7 @@ function loadWebtoonsFromJson(jsonFile) {
         })
         .catch(error => console.error('Erreur lors du chargement du JSON :', error));
 }
+
 
     
     // Appeler la fonction pour charger les webtoons à partir du fichier JSON
