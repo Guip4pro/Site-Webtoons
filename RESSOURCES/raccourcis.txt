@@ -14,7 +14,7 @@ RESSOURCES
 -> data-json
 --> all.json
 
-IMAGES/2-EXCELLENTS/demonic emperor/covergif-ezgif.gif
+
 
 
 
