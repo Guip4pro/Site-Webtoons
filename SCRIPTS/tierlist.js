@@ -82,7 +82,7 @@ function loadWebtoonsFromJson(jsonFile) {
         })
         .catch(error => console.error('Erreur lors du chargement du JSON :', error));
 }
-
+''
 
     
     // Appeler la fonction pour charger les webtoons à partir du fichier JSON

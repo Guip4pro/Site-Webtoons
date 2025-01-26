@@ -209,9 +209,19 @@
             "alt": "Image : Legend of Asura"
           },
           {
+            "title": "Legend of the Northern Blade",
+            "image": "IMAGES/3-TRES BONS/legend of the northern blade/cover.jpg",
+            "alt": "Image : Legend of Asura"
+          },
+          {
             "title": "Leveling Up with the Gods",
             "image": "IMAGES/3-TRES BONS/leveling up with the gods/cover.jpg",
             "alt": "Image : Leveling Up with the Gods"
+          },
+          {
+            "title": "Leviathan",
+            "image": "IMAGES/3-TRES BONS/leviathan/cover.png",
+            "alt": "Image : Leviathan"
           },
           {
             "title": "Magic Academy's Genius Blinker",
@@ -312,6 +322,12 @@
             "title": "Solo Necromancy",
             "image": "IMAGES/3-TRES BONS/solo necromancy/cover.jpg",
             "alt": "Image : Solo Necromancy"
+          },
+          {
+            "title": "SSS-Class Suicide Hunter",
+            "image": "IMAGES/5-TRES BONS/sss-class suicide hunter/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : SSS-Class Suicide Hunter"
           },
           {
             "title": "Standard of Reincarnation",
@@ -559,6 +575,12 @@
             "alt": "Image : Dragon-Devouring Mage"
           },
           {
+            "title": "Dragonslayer's Peerless Regression",
+            "image": "IMAGES/4-BONS/dragonslayer's peerless regression/covergif.gif",
+            "loading": "lazy",
+            "alt": "Image : Dragonslayer's Peerless Regression"
+          },
+          {
             "title": "Dungeon Odyssey",
             "image": "IMAGES/4-BONS/dungeon odyssey/cover.webp",
             "loading": "lazy",
@@ -690,6 +712,12 @@
               "alt": "Image : L.A.G"
           },
           {
+            "title": "La Magicienne aux Cheveux d'Or",
+            "image": "IMAGES/4-BONS/la magicienne aux cheveux d'or/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : La Magicienne aux Cheveux d'Or"
+          },
+          {
               "title": "L'Artéfact Dévoreur",
               "image": "IMAGES/4-BONS/l'artéfact dévoreur/cover.jpg",
               "loading": "lazy",
@@ -724,6 +752,12 @@
               "image": "IMAGES/4-BONS/l'expert de la tour tutoriel/cover.png",
               "loading": "lazy",
               "alt": "Image : L'Expert de la Tour Tutoriel"
+          },
+          {
+            "title": "Logging 10,000 Years into the Future",
+            "image": "IMAGES/4-BONS/logging 10,000 years into the future/cover.png",
+            "loading": "lazy",
+            "alt": "Image : Logging 10,000 Years into the Future"
           },
           {
               "title": "Magic Academy Survival Guide",
@@ -810,6 +844,12 @@
               "alt": "Image : Regressor of the Fallen Family"
           },
           {
+            "title": "Reincarnated as a Genius Prodigy of a Prestigious Family",
+            "image": "IMAGES/4-BONS/reincarnated as a genius prodigy of a prestigious family/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Reincarnated as a Genius Prodigy of a Prestigious Family"
+          },
+          {
             "title": "Reincarnated As A Legendary Grimoire",
             "image": "IMAGES/4-BONS/reincarnated as a legendary grimoire/cover.webp",
             "loading": "lazy",
@@ -870,6 +910,12 @@
               "alt": "Image : Returned as the Duke"
           },
           {
+            "title": "Reverse Villain",
+            "image": "IMAGES/4-BONS/reverse villain/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : reverse villain"
+          },
+          {
               "title": "Seoul Station's Necromancer",
               "image": "IMAGES/4-BONS/seoul station's necromancer/cover.jpg",
               "loading": "lazy",
@@ -888,10 +934,10 @@
               "alt": "Image : Sleeping Ranker"
           },
           {
-              "title": "SSS-Class Suicide Hunter",
-              "image": "IMAGES/4-BONS/sss-class suicide hunter/cover.jpeg",
-              "loading": "lazy",
-              "alt": "Image : SSS-Class Suicide Hunter"
+            "title": "Solo Resurrection",
+            "image": "IMAGES/4-BONS/solo resurrection/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Solo Resurrection"
           },
           {
               "title": "Stuck in the Tower",
@@ -1073,6 +1119,12 @@
             "alt": "Image : 10-Star Player's Lucky Draw"
           },
           {
+            "title": "A Barbarian was admitted to the Academy",
+            "image": "IMAGES/5-INTERMEDIAIRES/a barbarian was admitted to the academy/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : A Barbarian was admitted to the Academy"
+          },
+          {
             "title": "Adoptée Par La Famille Des Assassins",
             "image": "IMAGES/5-INTERMEDIAIRES/adoptee par la famille des assassins/cover.webp",
             "loading": "lazy",
@@ -1133,6 +1185,12 @@
             "alt": "Image : Eirth"
           },
           {
+            "title": "Entomologist in Sichuan Tang Clan",
+            "image": "IMAGES/5-INTERMEDIAIRES/entomologist in sichuan tang clan/cover.png",
+            "loading": "lazy",
+            "alt": "Image : Entomologist in Sichuan Tang Clan"
+          },
+          {
             "title": "Estio",
             "image": "IMAGES/5-INTERMEDIAIRES/estio/cover.jpg",
             "loading": "lazy",
@@ -1181,6 +1239,12 @@
             "alt": "Image : Heavenly Sword's Grand Saga"
           },
           {
+            "title": "Hidden Class Gravity User",
+            "image": "IMAGES/5-INTERMEDIAIRES/hidden class gravity user/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Hidden Class Gravity User"
+          },
+          {
             "title": "Holy Emperor's Grandson Is A Necromancer",
             "image": "IMAGES/5-INTERMEDIAIRES/holy emperor's grandson is a necromancer/cover.jpg",
             "loading": "lazy",
@@ -1191,6 +1255,12 @@
             "image": "IMAGES/5-INTERMEDIAIRES/i am invincible in this world/cover.jpg",
             "loading": "lazy",
             "alt": "Image : I Am Invincible In This World"
+          },
+          {
+            "title": "I am the Sorcerer king",
+            "image": "IMAGES/5-INTERMEDIAIRES/i am the sorcerer king/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : I am the Sorcerer king"
           },
           {
             "title": "I Am The Strongest Transcendent",
@@ -1251,6 +1321,12 @@
             "image": "IMAGES/5-INTERMEDIAIRES/la princesse maléfique/cover.webp",
             "loading": "lazy",
             "alt": "Image : La Princesse Maléfique"
+          },
+          {
+            "title": "l'Age de l'Arrogance",
+            "image": "IMAGES/5-INTERMEDIAIRES/l'age de l'arrogance/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : l'Age de l'Arrogance"
           },
           {
             "title": "Le Démon du Mont Hua",
@@ -1367,6 +1443,12 @@
             "alt": "Image : Reincarnated Escort Warrior"
           },
           {
+            "title": "Reincarnation of the Swordmaster",
+            "image": "IMAGES/5-INTERMEDIAIRES/reincarnation of the swordmaster/cover.png",
+            "loading": "lazy",
+            "alt": "Image : Reincarnation of the Swordmaster"
+          },
+          {
             "title": "Reincarnation Path of the Underworld King",
             "image": "IMAGES/5-INTERMEDIAIRES/reincarnation path of the underworld king/cover.jpg",
             "loading": "lazy",
@@ -1431,6 +1513,12 @@
             "image": "IMAGES/5-INTERMEDIAIRES/taming master/cover.webp",
             "loading": "lazy",
             "alt": "Image : Taming Master"
+          },
+          {
+            "title": "The Book of Lagier",
+            "image": "IMAGES/5-INTERMEDIAIRES/the book of lagier/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The Book of Lagier"
           },
           {
             "title": "The Challenger",
@@ -1505,6 +1593,12 @@
             "alt": "Image : Ultimate of All Ages"
           },
           {
+            "title": "Viral Hit",
+            "image": "IMAGES/5-INTERMEDIAIRES/viral hit/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Viral Hit"
+          },
+          {
             "title": "Volcanic Age",
             "image": "IMAGES/5-INTERMEDIAIRES/volcanic age/cover.webp",
             "loading": "lazy",
@@ -1538,6 +1632,12 @@
             "image": "IMAGES/6-MOYENS/angelic lady/cover.webp",
             "loading": "lazy",
             "alt": "Image : Angelic Lady"
+          },
+          {
+            "title": "Aventures of an Undead who Became a Paladin",
+            "image": "IMAGES/6-MOYENS/aventures of an undead who became a paladin/cover.png",
+            "loading": "lazy",
+            "alt": "Image : Aventures of an Undead who Became a Paladin"
           },
           {
             "title": "Berserk of Gluttony",
@@ -1622,6 +1722,12 @@
             "image": "IMAGES/6-MOYENS/i failed to abandon the villain/cover.jpeg",
             "loading": "lazy",
             "alt": "Image : I Failed to Abandon the Villain"
+          },
+          {
+            "title": "I Reincarnated as an SSS-Ranked Goblin",
+            "image": "IMAGES/6-MOYENS/i reincarnated as an sss-ranked goblin/cover.png",
+            "loading": "lazy",
+            "alt": "Image : I Reincarnated as an SSS-Ranked Goblin"
           },
           {
             "title": "I'm an Ex-Class Hunter",
@@ -1724,6 +1830,12 @@
             "image": "IMAGES/6-MOYENS/l'impératrice de l'ombre/cover.webp",
             "loading": "lazy",
             "alt": "Image : L'Impératrice de l'Ombre"
+          },
+          {
+            "title": "L'Impératrice Remariée",
+            "image": "IMAGES/6-MOYENS/l'imperatrice remariee/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : L'Impératrice Remariée"
           },
           {
             "title": "Ma Soeur Jumelle Fait Grève",
