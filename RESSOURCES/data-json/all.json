@@ -325,7 +325,7 @@
           },
           {
             "title": "SSS-Class Suicide Hunter",
-            "image": "IMAGES/5-TRES BONS/sss-class suicide hunter/cover.jpeg",
+            "image": "IMAGES/3-TRES BONS/sss-class suicide hunter/cover.jpeg",
             "loading": "lazy",
             "alt": "Image : SSS-Class Suicide Hunter"
           },
@@ -509,6 +509,12 @@
             "alt": "Image : Blood Knight's Villains"
           },
           {
+            "title": "Chaotic Guard Captain in a Fantasy World",
+            "image": "IMAGES/4-BONS/chaotic guard captain in a fantasy world/cover.png",
+            "loading": "lazy",
+            "alt": "Image : Chaotic Guard Captain in a Fantasy World"
+          },
+          {
             "title": "Childhood Friend of the Zenith",
             "image": "IMAGES/4-BONS/childhood friend of the zenith/cover.webp",
             "loading": "lazy",
@@ -531,6 +537,12 @@
             "image": "IMAGES/4-BONS/chronicles of the martial god's return/cover.webp",
             "loading": "lazy",
             "alt": "Image : Chronicles of the Martial God's Return"
+          },
+          {
+            "title": "Chronicles of the Reincarnated Demon God",
+            "image": "IMAGES/4-BONS/chronicles of the reincarnated demon god/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Chronicles of the Reincarnated Demon God"
           },
           {
             "title": "Demon Lord's Martial Arts Ascension",
@@ -713,7 +725,7 @@
           },
           {
             "title": "La Magicienne aux Cheveux d'Or",
-            "image": "IMAGES/4-BONS/la magicienne aux cheveux d'or/cover.jpeg",
+            "image": "IMAGES/4-BONS/la magicienne aux cheveux d'or/cover.jpg",
             "loading": "lazy",
             "alt": "Image : La Magicienne aux Cheveux d'Or"
           },
@@ -1012,6 +1024,12 @@
               "alt": "Image : The Hammer"
           },
           {
+            "title": "The Hero Became the Duke's Eldest Son",
+            "image": "IMAGES/4-BONS/the hero became the duke's eldest son/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The Hero Became the Duke's Eldest Son"
+          },
+          {
               "title": "The Last Adventurer",
               "image": "IMAGES/4-BONS/the last adventurer/cover.jpg",
               "loading": "lazy",
@@ -1058,6 +1076,12 @@
               "image": "IMAGES/4-BONS/tyrant of the tower defense game/cover.webp",
               "loading": "lazy",
               "alt": "Image : Tyrant of the Tower Defense Game"
+          },
+          {
+            "title": "Valhalla Saga",
+            "image": "IMAGES/4-BONS/valhalla saga/cover.png",
+            "loading": "lazy",
+            "alt": "Image : Valhalla Saga"
           },
           {
               "title": "Vice Lord's Rebirth",
@@ -1183,6 +1207,12 @@
             "image": "IMAGES/5-INTERMEDIAIRES/eirth/cover.jpg",
             "loading": "lazy",
             "alt": "Image : Eirth"
+          },
+          {
+            "title": "Emperor of Steel",
+            "image": "IMAGES/5-INTERMEDIAIRES/emperor of steel/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Emperor of Steel"
           },
           {
             "title": "Entomologist in Sichuan Tang Clan",
@@ -1341,6 +1371,12 @@
             "alt": "Image : Le Mousquetaire Virtuel"
           },
           {
+            "title": "Legendary Hero is an Academy Honors Student",
+            "image": "IMAGES/5-INTERMEDIAIRES/legendary hero is an academy honors student/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Legendary Hero is an Academy Honors Student"
+          },
+          {
             "title": "Leveling Up My Isekai'd Abs",
             "image": "IMAGES/5-INTERMEDIAIRES/leveling up my isekai'd abs/cover.jpg",
             "loading": "lazy",
@@ -1461,6 +1497,12 @@
             "alt": "Image : Release That Witch"
           },
           {
+            "title": "Return of the Mythical Archmage",
+            "image": "IMAGES/5-INTERMEDIAIRES/return of the mythical archmage/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : Return of the Mythical Archmage"
+          },
+          {
             "title": "Return of the Ninth-Class Swordmaster",
             "image": "IMAGES/5-INTERMEDIAIRES/return of the ninth-class swordmaster/cover.jpg",
             "loading": "lazy",
@@ -1513,6 +1555,12 @@
             "image": "IMAGES/5-INTERMEDIAIRES/taming master/cover.webp",
             "loading": "lazy",
             "alt": "Image : Taming Master"
+          },
+          {
+            "title": "The Academy's Genius Tamer",
+            "image": "IMAGES/5-INTERMEDIAIRES/the academy's genius tamer/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The Academy's Genius Tamer"
           },
           {
             "title": "The Book of Lagier",
@@ -1838,10 +1886,10 @@
             "alt": "Image : L'Impératrice Remariée"
           },
           {
-            "title": "Ma Soeur Jumelle Fait Grève",
-            "image": "IMAGES/6-MOYENS/ma soeur jumelle fait grève/cover.webp",
+            "title": "Magic Sword Saint : the Legend Reborn",
+            "image": "IMAGES/6-MOYENS/magic sword saint-the legend reborn/cover.jpg",
             "loading": "lazy",
-            "alt": "Image : Ma Soeur Jumelle Fait Grève"
+            "alt": "Image : Magic Sword Saint : the Legend Reborn"
           },
           {
             "title": "Mission Jumelle en Jumeau",
