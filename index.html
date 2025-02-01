@@ -1,827 +1,880 @@
 <!DOCTYPE html>
 
 <html lang="FR-fr" dir="ltr">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title> GUIP4 - Tier List Webtoons </title>
-		<link rel="stylesheet" type="text/css" href="STYLES/style.css">
-		<script src="SCRIPTS/tierlist.js" defer></script>
-	</head>
-	<body>
-		<header>
-			<a href="index.html">
-				<img src="RESSOURCES/logo-site.webp" alt="Logo de mon site" id="logo-site">
-			</a>
-
-
-		<!-- Barre de navigation haute -->
-		<div class="navbarre-haute">
-			<ul>
-				<li><a href="PAGES/mini-jeux.html">Mini-jeux</a></li>
-				<li> Mode clair / Mode sombre </li> <!-- Commme sur le site de MDN https://developer.mozilla.org/fr/docs/Web/CSS/position -->
-				<li> Sign in / Sign up </li>
-			</ul>
-		</div>
-		
-
-
-			<h1 > Une Tier List de Webtoons </h1>
-
-			<nav>
-				<div class="nav-toggle" onclick="toggleNav()">☰</div>
-				<div class="sidebar-nav" id="sidebarNav">
-					<ul>
-						<li><a href="#logo-site">Acceuil</a></li>
-						<li><a href="#sss">SSS</a></li>
-						<li><a href="#excellents">Excellents</a></li>
-						<li><a href="#tres-bons">Très bons</a></li>
-						<li><a href="#bons">Bons</a></li>
-						<li><a href="#intermediaires">Intermédiaires</a></li>
-						<li><a href="#moyens">Moyens</a></li>
-						<li><a href="#ennuyants">Ennuyants</a></li>
-						<li><a href="#mauvais">Mauvais</a></li>
-						<li><a href="#flemme-de-classer">Flemme de classer</a></li>
-						<li><a href="#en-cours-evaluation">En cours d'évaluation</a></li>
-						<li><a href="#àpropos-contact">À propos / Contact</a></li>
-					</ul>
-				</div>
-			</nav>
-
-		</header>
-		
-
-		<div class="others-tierlist">
-			<button class="creer-tierlist-btn" onclick="tierlistMaker()"> Créer votre propre tier list </button>
-			<input type="text" class="search-webtoon" placeholder="Rechercher un webtoon...">	<!-- placeholder = texte affiché automatiquement dans le champ vide et qui s'enlèvera automatiquement dès que l'utilisateur commencera à écrire -->
-		</div>
-
-		<p class="couleur-texte-blanc"> Ceci est ma propre tier list </p>
-
-		<a href="https://www.tiktok.com/@gnagnagna31?is_from_webapp=1&sender_device=pc" target="_blank" id="tiktok-link">
-			<img src="RESSOURCES/tiktok-icon-png.png" alt="Mon TikTok" class="tiktok-icon">
-			<span class="tiktok-text"> Suis-moi sur <span id="tiktok-bold"> TikTok </span> </span>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> GUIP4 - Tier List Webtoons </title>
+	<!-- Les Favicons du site (lien du site : https://favicon.io/favicon-converter/) -->
+	<link rel="shortcut icon" href="RESSOURCES/favicon_io/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="RESSOURCES/favicon_io/apple-touch-icon.png"> <!-- Icon pour Apple -->
+	<link rel="icon" type="image/png" sizes="512x512" href="RESSOURCES/favicon_io/android-chrome-512x512.png">	<!-- Différentes tailles selon les navigateurs -->
+	<link rel="icon" type="image/png" sizes="192x192" href="RESSOURCES/favicon_io/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="RESSOURCES/favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="RESSOURCES/favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="RESSOURCES/favicon_io/site.webmanifest"> <!-- Lien du fichier au cas-où devient une app mobile-->
+	<link rel="stylesheet" type="text/css" href="STYLES/style.css">
+	<script src="SCRIPTS/tierlist.js" defer></script>
+</head>
+<body>
+	<header>
+		<a href="index.html">
+			<img src="RESSOURCES/logo-site.webp" alt="Logo de mon site" id="logo-site">
 		</a>
-		
-		
 
 
-
-		<!-- La Tier List -->
-		<main>
-			<div class="tier-list">		<!-- div pour l'ensemble de la Tier List -->
-			
-			<section>
-				<div class="tier-category" id="style-sss">		<!-- div pour la catégorie + style-couronne représente les couleurs du titre de la catégorie dans le css -->
-					<h2 class="tier-label"> SSS </h2>	<!-- la modif -->
-					<div class="tier-grid" id="sss">			<!-- grid = grille -->
-						
-					</div>
-				</div>
-			</section>
-			
-			<section>
-				<div class="tier-category" id="style-excellents">
-					<h2 class="tier-label"> EXCELLENTS </h2>
-					<div class="tier-grid" id="excellents">
-						
-					</div>
-				</div>
-			</section>
-			
-			<section>
-				<div class="tier-category" id="style-tres-bons">
-					<h2 class="tier-label"> TRES BONS </h2>
-					<div class="tier-grid" id="tres-bons">
-						
-					</div>
-				</div>
-			</section>
-			
-			<section>
-				<div class="tier-category" id="style-bons">
-					<h2 class="tier-label"> BONS </h2>
-					<div class="tier-grid" id="bons">
-
-					</div>
-				</div>
-			</section>
-
-			<section>
-				<div class="tier-category" id="style-intermediaires">
-					<h2 class="tier-label"> INTERMEDIAIRES </h2>
-					<div class="tier-grid" id="intermediaires">
-
-					</div>
-				</div>
-			</section>
-
-			<section>
-				<div class="tier-category" id="style-moyens">
-					<h2 class="tier-label"> MOYENS </h2>
-					<div class="tier-grid" id="moyens">
-
-					</div>
-				</div>
-			</section>
-
-			<section>
-				<div class="tier-category" id="style-ennuyants">
-					<h2 class="tier-label"> ENNUYANTS </h2>
-					<div class="tier-grid" id="ennuyants">
-
-					</div>
-				</div>
-			</section>
-
-			<section>
-				<div class="tier-category" id="style-mauvais">
-					<h2 class="tier-label"> MAUVAIS </h2>
-					<div class="tier-grid" id="mauvais">
-
-					</div>
-				</div>
-			</section>
-
-			<section>
-				<div class="tier-category" id="style-flemme-de-classer">
-					<h2 class="tier-label"> FLEMME DE CLASSER* </h2>
-					<div class="tier-grid" id="flemme-de-classer">
-
-					</div>
-				</div>
-			</section>
-
-			<section>
-				<div class="tier-category" id="style-en-cours-evaluation">
-					<h2 class="tier-label"> EN COURS D'EVALUATION </h2>
-					<div class="tier-grid" id="en-cours-evaluation">
-
-					</div>
-				</div>
-			</section>
-
-			</div>
+	<!-- Barre de navigation haute -->
+	<div class="navbarre-haute">
+		<ul>
+			<li><a href="PAGES/mini-jeux.html">Mini-jeux</a></li>
+			<li> Mode clair / Mode sombre </li> <!-- Commme sur le site de MDN https://developer.mozilla.org/fr/docs/Web/CSS/position -->
+			<li> Sign in / Sign up </li>
+		</ul>
+	</div>
+	
 
 
+		<h1 > Une Tier List de Webtoons </h1>
 
-			<!-- Note : J'ai mis la catégorie "Flemme de classer" non pas car j'estime que ces webtoons ne méritent pas d'être classé, mais simplement car ça fait longtemps que je les ai pas lu, et que je ne saurais pas précisément dans quelles catégories les mettre -->
-
-
-		
-
-		</main>
-
-
-		<aside>
-
-			<div id="webtoon-the-return-of-the-mount-hua-sect-details" class="webtoon-details"> <!-- anciennement : webtoon0-details -->
-				<div class="titres_bannières">
-					<h3> The Return of the Mount Hua Sect </h3>
-				</div>
-				
-				<div class="details-content">
-					<img src="IMAGES/1-SSS/return of the mount hua sect/cover.avif" loading="lazy" alt="Image de Mount Hua Sect">
-					<div class="details-text">
-						<p> <strong>Type :</strong> Manhwa </p>
-						<p> <strong>Genre :</strong> Action / Réincarnation / Arts Martiaux / Humour </p>
-						<p> <strong>Statut :</strong> En cours </p>
-						<p> <strong>Popularité :</strong> </p>
-						<p> <strong>Nombre de chapitres :</strong> 144 - 30 Octobre 2024 </p>
-						<p> <strong>Sites de lecture :</strong> </p>
-						<ul>
-							<li> <a href="https://phenixscans.fr/manga/v941635-666-return-of-the-mount-hua-sect/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
-							<li> <a href="https://www.webtoons.com/fr/fantasy/return-of-the-blossoming-blade/list?title_no=4335" target="_blank">Webtoon</a> <em>(version officielle "Le Retour du Clan Hwasan")</em> </li>
-							<li> <a href="https://phenixscans.fr/manga/v768469-return-of-the-mount-hua-sect-novel-v77458306/" target="_blank">Roman en ligne</a> </li>
-						</ul>
-					</div>
-				</div>
-				
-				<p> <strong>Synopsis :</strong> </p>
-				<p>
-					<span style="text-decoration: underline;">Cheong Myeong</span>, un maître épéiste inégalé du clan Hwasan, perd ses alliés et sa vie dans une bataille contre le chef suprême des démons, Cheon Ma.<br>
-					Mais quand il ouvre ses yeux, il se retrouve réincarné 100 ans plus tard dans le corps d’un enfant mendiant. Malheureusement, bien qu’il ai conservé sa mémoire, sa force physique n’a rien à voir avec celle de sa vie antérieure et son clan tant renommé par le passé est tombé en ruine.<br>
-					Décidé de ne pas se soumettre à son état pitoyable, il tente de reprendre les choses en main y compris de retrouver la gloire passée de son clan, Hwasan. Mais sera-t-il à la hauteur pour accomplir sa volonté ?
-				</p>
-				<p> <strong>Prévisualisation :</strong> </p>
-				<div class="img-popup">
-					<img src="IMAGES/1-SSS/return of the mount hua sect/img1.jpg" loading="lazy" alt="image 1">
-					<img src="IMAGES/1-SSS/return of the mount hua sect/img2.png" loading="lazy" alt="image 2">
-					<img src="IMAGES/1-SSS/return of the mount hua sect/img3.jpg" loading="lazy" alt="image 3">
-					<img src="IMAGES/1-SSS/return of the mount hua sect/img4.jpg" loading="lazy" alt="image 4">
-					<img src="IMAGES/1-SSS/return of the mount hua sect/img5.webp" loading="lazy" alt="image 5">
-					<img src="IMAGES/1-SSS/return of the mount hua sect/img6.jpg" loading="lazy" alt="image 6">
-					<img src="IMAGES/1-SSS/return of the mount hua sect/img7.jpg" loading="lazy" alt="image 7">
-					<img src="IMAGES/1-SSS/return of the mount hua sect/img8.jpg" loading="lazy" alt="image 8">
-				</div>
-				
-				<p> <strong>Adaptation :</strong> Disponible en <a href="https://booknode.com/serie/le-retour-du-clan-hwasan" target="_blank">format papier</a> et en <a href="" target="_blank">anime</a> prochainement </p>
-			</div>
-			
-			
-			
-			<div id="webtoon-damn-reincarnation-details" class="webtoon-details">
-				<div class="titres_bannières">
-					<h3> Damn Reincarnation </h3>
-					<img src="IMAGES/2-EXCELLENTS/damn reincarnation/bannière.webp" loading="lazy" alt="Bannière de Damn Reincarnation">
-				</div>
-				
-				<div class="details-content">
-					<img src="IMAGES/2-EXCELLENTS/damn reincarnation/cover.webp" loading="lazy" alt="Image de Damn Reincarnation">
-					<div class="details-text">
-						<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Réincarnation </p>
-						<p> <strong>Statut :</strong> En pause </p>
-						<p> <strong>Popularité :</strong> </p>
-						<p> <strong>Nombre de chapitres :</strong> 81 - 25 Août 2024 </p>
-						<p> <strong>Sites de lecture :</strong> </p>
-						<ul>
-							<li> <a href="https://phenixscans.fr/manga/v215016-666-damn-reincarnation-v45815851/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
-							<li> <a href="https://piccoma.com/fr/product/1067" target="_blank">Piccoma</a> <em>(version officielle)</em> </li>
-							<li> <a href="https://phenixscans.fr/manga/damn-reincarnation-novel/" target="_blank">Roman en ligne</a> </li>
-						</ul>
-					</div>
-				</div>
-				
-				<p> <strong>Synopsis :</strong> </p>
-				<p>
-					<span style="text-decoration: underline;">Hamel</span>, un guerrier qui partit en voyage avec ses camarades pour anéantir le roi démon, mourut juste avant de rencontrer ce dernier. Il se réincarnera en tant que descendant de son compagnon héro, Vermouth. <br>
-					Hamel, se prénommant maintenant <span style="text-decoration: underline;">Eugène Lionhart</span>, a hérité du sang du grand Vermouth. Grâce à ses connaissances antérieures, il façonne un corps à l’image de la puissance qu’il aura besoin pour essayer de comprendre ce qui a pu arriver après sa mort. Et surtout comprendre pourquoi les humains et les mages coexistent avec les démons. <br>
-					Face à tant d’interrogations, il emprunte le corps d’Eugène et commence à parcourir le voyage inachevé de sa vie antérieure.
-				</p>
-				<p> <strong>Prévisualisation :</strong> </p>
-				<div class="img-popup">
-					<img src="IMAGES/2-EXCELLENTS/damn reincarnation/img1.webp" loading="lazy" alt="image 1">
-					<img src="IMAGES/2-EXCELLENTS/damn reincarnation/img2.webp" loading="lazy" alt="image 2">
-					<img src="IMAGES/2-EXCELLENTS/damn reincarnation/img3.webp" loading="lazy" alt="image 3">
-					<img src="IMAGES/2-EXCELLENTS/damn reincarnation/img4.webp" loading="lazy" alt="image 4">
-					<img src="IMAGES/2-EXCELLENTS/damn reincarnation/img5.webp" loading="lazy" alt="image 5">
-					<img src="IMAGES/2-EXCELLENTS/damn reincarnation/img6.webp" loading="lazy" alt="image 6">
-					<img src="IMAGES/2-EXCELLENTS/damn reincarnation/img7.jpg" loading="lazy" alt="image 7">
-					<img src="IMAGES/2-EXCELLENTS/damn reincarnation/img8.jpg" loading="lazy" alt="image 8">
-				</div>
-				
-				<p> <strong>Adaptation :</strong> Disponible en <a href="https://booknode.com/damn_reincarnation_03457241" target="_blank">format papier</a> </p>
-			</div>
-
-
-			
-			<div id="webtoon-demonic-emperor-details" class="webtoon-details">
-				<div class="titres_bannières">
-					<h3> Demonic Emperor </h3>
-					<img src="IMAGES/2-EXCELLENTS/demonic emperor/bannière.avif" loading="lazy" alt="Bannière de Demonic Emperor">
-				</div>
-				
-				<div class="details-content">
-					<img src="IMAGES/2-EXCELLENTS/demonic emperor/cover.avif" loading="lazy" alt="Cover de Demonic Emperor">
-					<div class="details-text">
-						<p> <strong>Type :</strong> Manhua &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Arts martiaux, psychopathe, Réincarnation </p>
-						<p> <strong>Statut :</strong> En cours </p>
-						<p> <strong>Popularité :</strong> </p>
-						<p> <strong>Nombre de chapitres :</strong> 501 - 3 Septembre 2024 </p>
-						<p> <strong>Sites de lecture :</strong> </p>
-						<ul>
-							<li> <a href="https://phenixscans.fr/manga/v123456-demonic-emperor/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
-							<li> Pas de version officielle</li>
-							<li> Pas de roman en ligne </li>
-						</ul>
-					</div>
-				</div>
-				
-				<p> <strong>Synopsis :</strong> </p>
-				<p>
-					Le roi des démons garde un terrible secret convoité par ses ennemis… mais également par ses amis. Trahi et assassiné par son fidèle le plus proche, il se réincarne dans la peau d’un gamin. <br>
-					Désormais intendant d’une famille de nobles sans histoire, il a tout le temps pour préparer sa vengeance. Parce qu’il avait l’héritage de l’ancien empereur démoniaque, l’empereur démoniaque <span style="text-decoration: underline;">Zhuo Yifan</span> a eu la malchance d’être trahi et tué par son disciple de confiance. <br>
-					Après sa renaissance, sa culture est retombée à zéro et il a été piégé par un démon du cœur, n’ayant d’autre choix que de devenir la gouvernante de l’aînée de la famille Luo. <br>
-					Du statut d’Empereur Magique à celui d’homme de ménage insignifiant, comment allait-il s’entendre avec son « aînée démon du cœur » et quel pouvoir allait-il acquérir afin de se hisser, lui et sa famille en déclin, au sommet du continent !
-				</p>
-				<p> <strong>Prévisualisation :</strong> </p>
-				<p> <em style="font-size: 75%">(elles viendront)</em> </p>
-				<div class="img-popup">
-					<img src="" loading="lazy" alt="image 1">
-					<img src="" loading="lazy" alt="image 2">
-					<img src="" loading="lazy" alt="image 3">
-					<img src="" loading="lazy" alt="image 4">
-					<img src="" loading="lazy" alt="image 5">
-					<img src="" loading="lazy" alt="image 6">
-					<img src="" loading="lazy" alt="image 7">
-					<img src="" loading="lazy" alt="image 8">
-				</div>
-
-				<p> <strong>Adaptation :</strong> Non </p>
-
-			</div>
-
-
-
-			<div id="webtoon-descended-from-divinity-details" class="webtoon-details">
-				<div class="titres_bannières">
-					<h3> Descended From Divinity </h3>
-					<img src="IMAGES/2-EXCELLENTS/descended from divinity/bannière.avif" loading="lazy" alt="Bannière de Descended From Divinity">
-				</div>
-				
-				<div class="details-content">
-					<img src="IMAGES/2-EXCELLENTS/descended from divinity/cover.avif" loading="lazy" alt="Image de Descended From Divinity">
-					<div class="details-text">
-						<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Epée, Réincarnation, Stratégie </p>
-						<p> <strong>Statut :</strong> En cours </p>
-						<p> <strong>Popularité :</strong> </p>
-						<p> <strong>Nombre de chapitres :</strong> 124 - 29 Octobre 2024 </p>
-						<p> <strong>Sites de lecture :</strong> </p>
-						<ul>
-							<li> <a href="https://phenixscans.fr/manga/v627492-the-heavenly-demon-cant-live-a-normal-life/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
-							<li> <a href="https://www.webtoons.com/fr/action/descended-from-divinity/list?title_no=4963" target="_blank">Webtoon</a> <em>(version officielle "Descended from Divinity")</em> </li>
-							<li> Pas de roman en ligne </li>
-						</ul>
-					</div>
-				</div>
-				
-				<p> <strong>Synopsis :</strong> </p>
-				<p>
-					« Serait-ce les cieux qui m’envoient en mission ? Ou bien serait-ce une punition divine ? ». <br>
-					<span style="text-decoration: underline;">Junghyeok Baek</span>, le démon suprême du Murim se réincarne dans le corps de Roman Dimitri, le fils abruti d’un baron. Doté de ses connaissances en arts martiaux, il devra s’adapter à ce nouveau monde médiéval où vivent chevaliers et mages. Face au défi posé par ce nouveau système de mana et cette nouvelle vie, une seule voie s’ouvre à lui, celle de la suprématie. <br>
-					Junghyeok Baek ouvre les yeux en tant que fils aîné de la famille Dimitry.
-					Connu comme le crétin de la famille Dimitry, l’opinion du monde entier n’est pas pertinente. <br>
-					« Démon Céleste », non, Roman Dimitry, ne peut pas vivre une vie normale.
-				</p>
-				<p> <strong>Prévisualisation :</strong> </p>
-				<p> <em style="font-size: 75%">(elles viendront)</em> </p>
-				<div class="img-popup">
-					<img src="" loading="lazy" alt="image 1">
-					<img src="" loading="lazy" alt="image 2">
-					<img src="" loading="lazy" alt="image 3">
-					<img src="" loading="lazy" alt="image 4">
-					<img src="" loading="lazy" alt="image 5">
-					<img src="" loading="lazy" alt="image 6">
-					<img src="" loading="lazy" alt="image 7">
-					<img src="" loading="lazy" alt="image 8">
-				</div>
-
-				<p> <strong>Adaptation :</strong> Non </p>
-				
-
-
-			</div>
-			
-			<div id="webtoon-i-killed-an-academy-player-details" class="webtoon-details">
-				<div class="titres_bannières">
-					<h3> I Killed an Academy Player </h3>
-				</div>
-				
-				<div class="details-content">
-					<img src="IMAGES/2-EXCELLENTS/i killed an academy player/cover.webp" loading="lazy" alt="Image I Killed an Academy Player">
-					<div class="details-text">
-						<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Aventure, School life, Régression/Réincarnation </p>
-						<p> <strong>Statut :</strong> En cours </p>
-						<p> <strong>Popularité :</strong> - </p>
-						<p> <strong>Nombre de chapitres :</strong> 65 - 28 Janvier 2025 </p>
-						<p> <strong>Sites de lecture :</strong> </p>
-						<ul>
-							<li> <a href="https://phenixscans.fr/manga/v360506-i-killed-an-academy-player/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
-							<li> Pas de version officielle </li>
-							<li> Pas de roman en ligne </li>
-						</ul>
-					</div>
-				</div>
-				
-				<p> <strong>Synopsis :</strong> </p>
-				<p>
-					J’ai tué un joueur. C’était un vrai fils de pute…
-				</p>
-				<p> <strong>Prévisualisation :</strong> </p>
-				<p> <em style="font-size: 75%">(elles viendront)</em> </p>
-				<div class="img-popup">
-					<img src="" loading="lazy" alt="image 1">
-					<img src="" loading="lazy" alt="image 2">
-					<img src="" loading="lazy" alt="image 3">
-					<img src="" loading="lazy" alt="image 4">
-					<img src="" loading="lazy" alt="image 5">
-					<img src="" loading="lazy" alt="image 6">
-					<img src="" loading="lazy" alt="image 7">
-					<img src="" loading="lazy" alt="image 8">
-				</div>
-				
-				<p> <strong>Adaptation :</strong> Non </p>
-				
-			</div>
-
-
-
-			<div id="webtoon-infinite-mage-details" class="webtoon-details">
-				<div class="titres_bannières">
-					<h3> Infinite Mage </h3>
-					<img src="IMAGES/2-EXCELLENTS/infinite mage/bannière.avif" loading="lazy" alt="Bannière d'Infinite Mage">
-				</div>
-				
-				<div class="details-content">
-					<img src="IMAGES/2-EXCELLENTS/infinite mage/cover.avif" loading="lazy" alt="Image d'Infinite Mage">
-					<div class="details-text">
-						<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Magie, school life </p>
-						<p> <strong>Statut :</strong> En cours </p>
-						<p> <strong>Popularité :</strong> </p>
-						<p> <strong>Nombre de chapitres :</strong> 89 - 29 Octobre 2024 </p>
-						<p> <strong>Sites de lecture :</strong> </p>
-						<ul>
-							<li> <a href="https://phenixscans.fr/manga/v530990-infinite-mage/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
-							<li> Pas de version officielle </li>
-							<li> Pas de roman en ligne </li>
-						</ul>
-					</div>
-				</div>
-				
-				<p> <strong>Synopsis :</strong> </p>
-				<p>
-					C’est l’histoire d’un garçon qui rêve de l’infini en tant qu’humain ! <br>
-					Trouvé abandonné dans une étable, <span style="text-decoration: underline;">Shirone</span> est le fils d’un chasseur et d’un paysan. Malgré les difficultés, c’est un génie qui parvient à apprendre à lire tout seul, et débordant de talent, il part à la ville avec son père, où il apprend la magie – <br>
-					C’est le début de son voyage en tant qu’étoile montante explosive ! <br>
-					Quand les membres de la famille Ariane découvrent un bébé aux cheveux blonds abandonné dans leur étable, ils ne s’attendent pas à élever un véritable petit génie ! À l’âge de douze ans, le jeune Shirone découvre la magie dans un livre et rêve de devenir un grand mage. Cependant, au royaume de Thormia, il est hors de question de laisser un simple roturier apprendre cette noble discipline ! <br>
-					La détermination de Shirone suffira-t-elle pour accomplir son rêve dans ce monde impitoyable?
-				<p> <strong>Prévisualisation :</strong> </p>
-				<p> <em style="font-size: 75%">(elles viendront)</em> </p>
-				<div class="img-popup">
-					<img src="" loading="lazy" alt="image 1">
-					<img src="" loading="lazy" alt="image 2">
-					<img src="" loading="lazy" alt="image 3">
-					<img src="" loading="lazy" alt="image 4">
-					<img src="" loading="lazy" alt="image 5">
-					<img src="" loading="lazy" alt="image 6">
-					<img src="" loading="lazy" alt="image 7">
-					<img src="" loading="lazy" alt="image 8">
-				</div>
-
-				<p> <strong>Adaptation :</strong> Non </p>
-				
-			</div>
-
-
-
-
-			<div id="webtoon-lecteur-omniscient-details" class="webtoon-details">
-				<div class="titres_bannières">
-					<h3> Lecteur Omniscient </h3>
-					<img src="IMAGES/2-EXCELLENTS/lecteur omniscient/bannière.jpg" loading="lazy" alt="Bannière de Lecteur Omniscient">
-				</div>
-				
-				<div class="details-content">
-					<img src="IMAGES/2-EXCELLENTS/lecteur omniscient/cover.avif" loading="lazy" alt="Image de Lecteur Omniscient">
-					<div class="details-text">
-						<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Aventure, Omniscience, Epreuvres </p>
-						<p> <strong>Statut :</strong> En cours </p>
-						<p> <strong>Popularité :</strong> </p>
-						<p> <strong>Nombre de chapitres :</strong> 233 - 30 Octobre 2024 </p>
-						<p> <strong>Sites de lecture :</strong> </p>
-						<ul>
-							<li> <a href="https://phenixscans.fr/manga/v935466-99-omniscient-readers-viewpoint/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
-							<li> <a href="https://www.webtoons.com/fr/fantasy/omniscient-reader/list?title_no=2175" target="_blank">Webtoon</a> <em>(version officielle)</em> </li>
-							<li> <a href="https://phenixscans.fr/manga/v590859-99-omniscient-readers-viewpoint-novel/" target="_blank">Roman en ligne</a> </li>
-						</ul>
-					</div>
-				</div>
-				
-				<p> <strong>Synopsis :</strong> </p>
-				<p>
-					Un roman intitulé « Les Trois façons de survivre dans un monde en ruine » (écrit par l’auteur anonyme tls123) a été écrit et publié pendant dix ans, et <span style="text-decoration: underline;">Kim Dokja</span> est le seul lecteur à l’avoir lu jusqu’à la fin. <br>
-					Lorsque le monde réel est plongé dans les prémisses « Des Trois façons de survivre dans un monde en ruine » (abrégé en « Guide du Survivant »), la connaissance unique qu’a Kim Dokja du roman devient vitale pour sa survie. Kim Dokja va s’allier à Yu JungHyeok, le protagoniste du Guide du Survivant, afin de modifier l’intrigue originale du roman et de se rapprocher le plus rapidement possible de la fin de l’histoire. <br>
-					Au fur et à mesure que Kim Dokja et les membres de son groupe progressent dans les scénarios, ils sont confrontés à des menaces de plus en plus importantes et à des défis ou leur vie est mise en jeu, luttant pour rester en vie nos protagonistes travailleront ensemble dans le but de détruire le qui n’exige qu’une seule chose de leur histoire : Leur souffrance.
-				</p>
-				<p> <strong>Prévisualisation :</strong> </p>
-				<p> <em style="font-size: 75%">(elles viendront)</em> </p>
-				<div class="img-popup">
-					<img src="" loading="lazy" alt="image 1">
-					<img src="" loading="lazy" alt="image 2">
-					<img src="" loading="lazy" alt="image 3">
-					<img src="" loading="lazy" alt="image 4">
-					<img src="" loading="lazy" alt="image 5">
-					<img src="" loading="lazy" alt="image 6">
-					<img src="" loading="lazy" alt="image 7">
-					<img src="" loading="lazy" alt="image 8">
-				</div>
-				
-				<p> <strong>Adaptation :</strong> Disponible en <a href="https://booknode.com/serie/lecteur-omniscient---edition-reliee" target="_blank">format papier</a> et en <a href="" target="_blank">anime</a> prochainement </p>
-				
-			</div>
-
-
-
-			<div id="webtoon-nano-machine-details" class="webtoon-details">
-				<div class="titres_bannières">
-					<h3> Nano Machine </h3>
-					<img src="IMAGES/2-EXCELLENTS/nano machine/bannière.webp" loading="lazy" alt="Bannière de Nano Machine">
-				</div>
-				
-				<div class="details-content">
-					<img src="IMAGES/2-EXCELLENTS/nano machine/cover.avif" loading="lazy" alt="Image de Nano Machine">
-					<div class="details-text">
-						<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Arts martiaux, Leader </p>
-						<p> <strong>Statut :</strong> En cours </p>
-						<p> <strong>Popularité :</strong> </p>
-						<p> <strong>Nombre de chapitres :</strong> 229 - 30 Octobre 2024 </p>
-						<p> <strong>Sites de lecture :</strong> </p>
-						<ul>
-							<li> <a href="https://phenixscans.fr/manga/v601857-666-nano-machine-v92219321/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
-							<li> <a href="https://www.webtoons.com/fr/fantasy/nano-mashin/list?title_no=4341" target="_blank">Nano Machine</a> <em>(version officielle)</em> </li>
-							<li> Pas de roman en ligne </li>
-						</ul>
-					</div>
-				</div>
-				
-				<p> <strong>Synopsis :</strong> </p>
-				<p>
-					<span style="text-decoration: underline;">Cheon Yeo Woon</span> est un successeur illégitime d’un culte démoniaque, sans force ni compétence en art martial. Pourtant, il se fait poursuivre par des assassins envoyés par un de ses concurrents et au moment où il perd tout espoir de vivre, un homme mystérieux venant du futur lui injecte une nanomachine dans son corps. <br>
-					Avec cette technologie de dernière minute ainsi injectée, parviendra-t-il à surpasser ses compétences physiques innées et devenir le plus fort pour enfin prendre la place du second Cheonma, le chef suprême des démons ? Ainsi venez découvrir les folles aventures de Cheon Yeo Woon et de ses compagnons ! Parviendront ils a atteindre leurs objectifs ? Vous ne le serez que en lisant !
-				</p>
-				<p> <strong>Prévisualisation :</strong> </p>
-				<p> <em style="font-size: 75%">(elles viendront)</em> </p>
-				<div class="img-popup">
-					<img src="" loading="lazy" alt="image 1">
-					<img src="" loading="lazy" alt="image 2">
-					<img src="" loading="lazy" alt="image 3">
-					<img src="" loading="lazy" alt="image 4">
-					<img src="" loading="lazy" alt="image 5">
-					<img src="" loading="lazy" alt="image 6">
-					<img src="" loading="lazy" alt="image 7">
-					<img src="" loading="lazy" alt="image 8">
-				</div>
-
-				<p> <strong>Adaptation :</strong> Non </p>
-				
-			</div>
-
-
-
-			<div id="webtoon-pick-me-up-details" class="webtoon-details">
-				<div class="titres_bannières">
-					<h3> Pick Me Up</h3>
-					<img src="IMAGES/2-EXCELLENTS/pick me up/bannière.avif" loading="lazy" alt="Bannière de Pick Me Up">
-				</div>
-				
-				<div class="details-content">
-					<img src="IMAGES/2-EXCELLENTS/pick me up/cover.avif" loading="lazy" alt="Image de Pick Me Up">
-					<div class="details-text">
-						<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Stratégie, Transposition autre monde, Tour </p>
-						<p> <strong>Statut :</strong> En cours </p>
-						<p> <strong>Popularité :</strong> </p>
-						<p> <strong>Nombre de chapitres :</strong> 81 - 119 Octobre 2024 </p>
-						<p> <strong>Sites de lecture :</strong> </p>
-						<ul>
-							<li> <a href="https://phenixscans.fr/manga/v415552-pick-me-up/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
-							<li> La version officielle qui était sur Piccoma n'existe plus <em>(fermeture du site)</em> </li>
-							<li> Pas de roman en ligne</a> </li>
-						</ul>
-					</div>
-				</div>
-				
-				<p> <strong>Synopsis :</strong> </p>
-				<p>
-					Dans le jeu mobile gacha tristement célèbre pour sa difficulté infernale, le Maître classé 5ème au monde, <span style="text-decoration: underline;">Loki</span>, perd connaissance en faisant une descente dans le Donjon. <br>
-					"Quoi ? Je suis un personnage de jeu maintenant ?" <br>
-					Après s’être réveillé, Loki réalise qu’il est devenu un héros 1 étoile de niveau 1, prénommé Han Yslat. <br>
-					Pour retourner sur Terre, il doit diriger le nouveau Maître et les héros et dégager le 100ème étage du Donjon ! <br>
-					C’est l’histoire de Maître Loki qui n’accepte jamais une seule défaite. <br><br>
-					
-					Han Seo Jin, AKA Loki, le maître des MJ, est une véritable légende sur le jeu mobile Pick Me Up ! Difficulté infernale, combats ultra-réalistes, modes immersifs… Tout cela est certes incroyable, mais ce jeu cache un terrible secret. Les héros invoqués ne sont pas des IA… ce sont des personnes réelles ! Et très peu d’entre elles survivent à cette invocation. <br>
-					Soudainement propulsé dans Pick Me Up !, Han découvre alors la douloureuse vérité. Désormais, il lui faudra se battre ou périr. <br>
-					L’aventure commence…
-				</p>
-				<p> <strong>Prévisualisation :</strong> </p>
-				<p> <em style="font-size: 75%">(elles viendront)</em> </p>
-				<div class="img-popup">
-					<img src="" loading="lazy" alt="image 1">
-					<img src="" loading="lazy" alt="image 2">
-					<img src="" loading="lazy" alt="image 3">
-					<img src="" loading="lazy" alt="image 4">
-					<img src="" loading="lazy" alt="image 5">
-					<img src="" loading="lazy" alt="image 6">
-					<img src="" loading="lazy" alt="image 7">
-					<img src="" loading="lazy" alt="image 8">
-				</div>
-				
-				<p> <strong>Adaptation :</strong> Non </p>
-			</div>
-
-
-
-			<div id="webtoon-revenge-of-the-iron-blooded-sword-hound-details" class="webtoon-details">
-				<div class="titres_bannières">
-					<h3> Damn Reincarnation </h3>
-					<img src="IMAGES/2-EXCELLENTS/revenge of the iron-blooded sword hound/bannière.avif" loading="lazy" alt="Bannière de Revenge Iron-Blooded">
-				</div>
-				
-				<div class="details-content">
-					<img src="IMAGES/2-EXCELLENTS/revenge of the iron-blooded sword hound/cover.avif" loading="lazy" alt="Image de Revenge Iron-Blooded">
-					<div class="details-text">
-						<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Réincarnation </p>
-						<p> <strong>Statut :</strong> En cours </p>
-						<p> <strong>Popularité :</strong> </p>
-						<p> <strong>Nombre de chapitres :</strong> 96 - 24 Janvier 2025 </p>
-						<p> <strong>Sites de lecture :</strong> </p>
-						<ul>
-							<li> <a href="https://phenixscans.fr/manga/v362784-return-of-the-iron-blooded-sword-hound/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
-							<li> Anciennement sur Piccoma <em>(version officielle)</em> </li>
-							<li> Pas de roman en ligne </li>
-						</ul>
-					</div>
-				</div>
-				
-				<p> <strong>Synopsis :</strong> </p>
-				<p>
-					[Par le studio qui vous a apporté « Solo Leveling », « Reaper of the Drifting Moon », et bien d’autres encore]. <br><br>
-					Il était le chien de la famille Baskerville : <span style="text-decoration: underline;">Vikir</span>. <br>
-					Pourtant, sa loyauté a été récompensée par la calomnie et la lame d’une guillotine. <br>
-					« Je ne vivrai jamais la vie d’un chien de chasse abattu après avoir attrapé le lapin. À la place de la mort, une opportunité inattendue l’attend. <br>
-					Les yeux de Vikir brillent d’une lueur rouge tandis qu’il aiguise ses canines dans l’obscurité. <br>
-					« Attends un peu, Hugo. Cette fois, je vais t’arracher la gorge. » <br>
-					Il est temps pour le chien de se venger de son maître. <br><br>
-
-					Élevés pour tuer comme une meute de chiens loyaux, les enfants des Baskerville ont fait d’innombrables victimes. Malgré son statut de fils illégitime, Vikir a servi fidèlement sa famille, avant de mourir prématurément des mains de son père. <br>
-					Mais lorsqu’il renaît inexplicablement avec une seconde chance, Vikir, armé des souvenirs et des connaissances de son passé, jure de s’élever au-dessus de la meute et de prendre sa revanche. <br>
-					Cette fois, il est prêt à mordre la main qui le nourrit.
-				</p>
-				<p> <strong>Prévisualisation :</strong> </p>
-				<p> <em style="font-size: 75%">(elles viendront)</em> </p>
-				<div class="img-popup">
-					<img src="" loading="lazy" alt="image 1">
-					<img src="" loading="lazy" alt="image 2">
-					<img src="" loading="lazy" alt="image 3">
-					<img src="" loading="lazy" alt="image 4">
-					<img src="" loading="lazy" alt="image 5">
-					<img src="" loading="lazy" alt="image 6">
-					<img src="" loading="lazy" alt="image 7">
-					<img src="" loading="lazy" alt="image 8">
-				</div>
-				
-				<p> <strong>Adaptation :</strong> Non </p>
-			</div>
-
-
-
-			<div id="webtoon-solo-leveling-details" class="webtoon-details">
-				<div class="titres_bannières">
-					<h3> Solo Leveling </h3>
-					<img src="IMAGES/2-EXCELLENTS/solo leveling/bannière.avif" loading="lazy" alt="Bannière de Solo Leveling">
-				</div>
-				
-				<div class="details-content">
-					<img src="IMAGES/2-EXCELLENTS/solo leveling/cover.avif" loading="lazy" alt="Image de Solo Leveling">
-					<div class="details-text">
-						<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, fenêtre de statut, portails </p>
-						<p> <strong>Statut :</strong> Terminé </p>
-						<p> <strong>Popularité :</strong> - </p>
-						<p> <strong>Nombre de chapitres :</strong> 200 - 31 Mai 2023 </p>
-						<p> <strong>Sites de lecture :</strong> </p>
-						<ul>
-							<li> <a href="https://phenixscans.fr/manga/v195638-99-solo-leveling-v90269649/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
-							<li> Anciennement sur Piccoma <em>(version officielle)</em> </li>
-							<li> Pas de roman en ligne </li>
-						</ul>
-					</div>
-				</div>
-				
-				<p> <strong>Synopsis :</strong> </p>
-				<p>
-					Depuis que des portails peuplés de monstres sont apparus, des personnes « ordinaires » ont acquis la capacité de chasser ces derniers. On les appelle les chasseurs. Vous pensez qu’ils sont tous balaises ? Qu’ils sont des héros, des aventuriers comme on en voit dans les mangas ? Eh bien malheureusement pas tous. <br>
-					<span style="text-decoration: underline;">Sung Jin-Woo</span> est le plus faible des chasseurs de rang E, autrement dit, le plus faible parmi les faibles. Il est donc surnommé par ses confrères chasseurs « le faible ». <br>
-					En tout cas il l’était, jusqu’à ce qu’il se retrouve piégé dans un donjon et y acquière une capacité pour le moins… étrange. Il peut désormais voir une interface lui montrant des quêtes. <br>
-					Va-t-il réussir à devenir le plus puissant des chasseurs ?
-				</p>
-				<p> <strong>Prévisualisation :</strong> </p>
-				<p> <em style="font-size: 75%">(elles viendront)</em> </p>
-				<div class="img-popup">
-					<img src="" loading="lazy" alt="image 1">
-					<img src="" loading="lazy" alt="image 2">
-					<img src="" loading="lazy" alt="image 3">
-					<img src="" loading="lazy" alt="image 4">
-					<img src="" loading="lazy" alt="image 5">
-					<img src="" loading="lazy" alt="image 6">
-					<img src="" loading="lazy" alt="image 7">
-					<img src="" loading="lazy" alt="image 8">
-				</div>
-				
-				<p> <strong>Adaptation :</strong> </p>
+		<nav>
+			<div class="nav-toggle" onclick="toggleNav()">☰</div>
+			<div class="sidebar-nav" id="sidebarNav">
 				<ul>
-					<li>Disponible en <a href="https://booknode.com/serie/solo-leveling" target="_blank">format papier</a>,</li>
-					<li>en <a href="https://www.crunchyroll.com/fr/series/GDKHZEJ0K/solo-leveling" target="_blank">anime</a> <em>(Allez sur Anime-sama c'est gratuit)</em>,</li>
-					<li>en <a href="https://sololeveling.netmarble.com/fr" target="_blank">jeu vidéo</a></li>
-					<li>et en deux autres webtoons : <a href="https://phenixscans.fr/manga/solo-leveling-ragnarok/" target="_blank">Solo Leveling : Ragnarok</a> et <a href="https://phenixscans.fr/manga/solo-leveling-arise-hunters-origins/" target="_blank">Solo Leveling Arise : Hunters Origins</a></li>
+					<li><a href="#logo-site">Acceuil</a></li>
+					<li><a href="#sss">SSS</a></li>
+					<li><a href="#excellents">Excellents</a></li>
+					<li><a href="#tres-bons">Très bons</a></li>
+					<li><a href="#bons">Bons</a></li>
+					<li><a href="#intermediaires">Intermédiaires</a></li>
+					<li><a href="#moyens">Moyens</a></li>
+					<li><a href="#ennuyants">Ennuyants</a></li>
+					<li><a href="#mauvais">Mauvais</a></li>
+					<li><a href="#flemme-de-classer">Flemme de classer</a></li>
+					<li><a href="#en-cours-evaluation">En cours d'évaluation</a></li>
+					<li><a href="#àpropos-contact">À propos / Contact</a></li>
 				</ul>
 			</div>
+		</nav>
+
+	</header>
+	
+
+	<div class="others-tierlist">
+		<button class="creer-tierlist-btn" onclick="tierlistMaker()"> Créer votre propre tier list </button>
+		<input type="text" class="search-webtoon" placeholder="Rechercher un webtoon...">	<!-- placeholder = texte affiché automatiquement dans le champ vide et qui s'enlèvera automatiquement dès que l'utilisateur commencera à écrire -->
+	</div>
+
+	<p class="couleur-texte-blanc"> Ceci est ma propre tier list </p>
+
+	<a href="https://www.tiktok.com/@gnagnagna31?is_from_webapp=1&sender_device=pc" target="_blank" id="tiktok-link">
+		<img src="RESSOURCES/tiktok-icon-png.png" alt="Mon TikTok" class="tiktok-icon">
+		<span class="tiktok-text"> Suis-moi sur <span id="tiktok-bold"> TikTok </span> </span>
+	</a>
+	
+	
 
 
 
-			<div id="webtoon-star-embracing-swordmaster-details" class="webtoon-details">
-				<div class="titres_bannières">
-					<h3> Star-Embracing Swordmaster </h3>
-					<img src="IMAGES/2-EXCELLENTS/star-embracing swordmaster/bannière.avif" loading="lazy" alt="Bannière de Star-Embracing Swordmaster">
+	<!-- La Tier List -->
+	<main>
+		<div class="tier-list">		<!-- div pour l'ensemble de la Tier List -->
+		
+		<section>
+			<div class="tier-category" id="style-sss">		<!-- div pour la catégorie + style-couronne représente les couleurs du titre de la catégorie dans le css -->
+				<h2 class="tier-label"> SSS </h2>	<!-- la modif -->
+				<div class="tier-grid" id="sss">			<!-- grid = grille -->
+					
 				</div>
-				
-				<div class="details-content">
-					<img src="IMAGES/2-EXCELLENTS/star-embracing swordmaster/cover.avif" loading="lazy" alt="Image de Star-Embracing Swordmaster">
-					<div class="details-text">
-						<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Aventure, Chevalerie, Survie, Vengeance </p>
-						<p> <strong>Statut :</strong> En cours </p>
-						<p> <strong>Popularité :</strong> - </p>
-						<p> <strong>Nombre de chapitres :</strong> 67 - 26 Janvier 2025 </p>
-						<p> <strong>Sites de lecture :</strong> </p>
-						<ul>
-							<li> <a href="https://phenixscans.fr/manga/v575111-star-embracing-swordmaster/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
-							<li> <a href="http://webtoons.com/fr/fantasy/the-stellar-swordmaster/list?title_no=6127" target="_blank">Webtoon</a> <em>(version officielle "The Stellar Swordmaster")</em> </li>
-							<li> Pas de roman en ligne </li>
-						</ul>
-					</div>
+			</div>
+		</section>
+		
+		<section>
+			<div class="tier-category" id="style-excellents">
+				<h2 class="tier-label"> EXCELLENTS </h2>
+				<div class="tier-grid" id="excellents">
+					
 				</div>
-				
-				<p> <strong>Synopsis :</strong> </p>
-				<p>
-					<span style="text-decoration: underline;">Vlad</span> était un enfant vagabond des bidonvilles qui a toujours admiré les chevaliers. Après avoir été frappé par la foudre noire, il a commencé à entendre une voix. <br>
-					Un jour, un chevalier au clair de lune bleu est apparu, et la vie de Vlad dans les bas-fonds a été bouleversée… <br>
-					Même une étoile obscure qui ne brille pas dans les plus hauts sommets du ciel nocturne reste une étoile si elle souhaite briller.
-				</p>
-				<p> <strong>Prévisualisation :</strong> </p>
-				<p> <em style="font-size: 75%">(elles viendront)</em> </p>
-				<div class="img-popup">
-					<img src="" loading="lazy" alt="image 1">
-					<img src="" loading="lazy" alt="image 2">
-					<img src="" loading="lazy" alt="image 3">
-					<img src="" loading="lazy" alt="image 4">
-					<img src="" loading="lazy" alt="image 5">
-					<img src="" loading="lazy" alt="image 6">
-					<img src="" loading="lazy" alt="image 7">
-					<img src="" loading="lazy" alt="image 8">
+			</div>
+		</section>
+		
+		<section>
+			<div class="tier-category" id="style-tres-bons">
+				<h2 class="tier-label"> TRES BONS </h2>
+				<div class="tier-grid" id="tres-bons">
+					
 				</div>
-				
-				<p> <strong>Adaptation :</strong> Non</p>
+			</div>
+		</section>
+		
+		<section>
+			<div class="tier-category" id="style-bons">
+				<h2 class="tier-label"> BONS </h2>
+				<div class="tier-grid" id="bons">
+
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="tier-category" id="style-intermediaires">
+				<h2 class="tier-label"> INTERMEDIAIRES </h2>
+				<div class="tier-grid" id="intermediaires">
+
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="tier-category" id="style-moyens">
+				<h2 class="tier-label"> MOYENS </h2>
+				<div class="tier-grid" id="moyens">
+
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="tier-category" id="style-ennuyants">
+				<h2 class="tier-label"> ENNUYANTS </h2>
+				<div class="tier-grid" id="ennuyants">
+
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="tier-category" id="style-mauvais">
+				<h2 class="tier-label"> MAUVAIS </h2>
+				<div class="tier-grid" id="mauvais">
+
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="tier-category" id="style-flemme-de-classer">
+				<h2 class="tier-label"> FLEMME DE CLASSER* </h2>
+				<div class="tier-grid" id="flemme-de-classer">
+
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="tier-category" id="style-en-cours-evaluation">
+				<h2 class="tier-label"> EN COURS D'EVALUATION </h2>
+				<div class="tier-grid" id="en-cours-evaluation">
+
+				</div>
+			</div>
+		</section>
+
+		</div>
+
+
+
+		<!-- Note : J'ai mis la catégorie "Flemme de classer" non pas car j'estime que ces webtoons ne méritent pas d'être classé, mais simplement car ça fait longtemps que je les ai pas lu, et que je ne saurais pas précisément dans quelles catégories les mettre -->
+
+
+	
+
+	</main>
+
+
+	<aside>
+
+		<div id="webtoon-the-return-of-the-mount-hua-sect-details" class="webtoon-details"> <!-- anciennement : webtoon0-details -->
+			<div class="titres_bannières">
+				<h3> The Return of the Mount Hua Sect </h3>
+			</div>
+			
+			<div class="details-content">
+				<img src="IMAGES/1-SSS/return of the mount hua sect/cover.avif" loading="lazy" alt="Image de Mount Hua Sect">
+				<div class="details-text">
+					<p> <strong>Type :</strong> Manhwa </p>
+					<p> <strong>Genre :</strong> Action / Réincarnation / Arts Martiaux / Humour </p>
+					<p> <strong>Statut :</strong> En cours </p>
+					<p> <strong>Popularité :</strong> </p>
+					<p> <strong>Nombre de chapitres :</strong> 144 - 30 Octobre 2024 </p>
+					<p> <strong>Sites de lecture :</strong> </p>
+					<ul>
+						<li> <a href="https://phenixscans.fr/manga/v941635-666-return-of-the-mount-hua-sect/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
+						<li> <a href="https://www.webtoons.com/fr/fantasy/return-of-the-blossoming-blade/list?title_no=4335" target="_blank">Webtoon</a> <em>(version officielle "Le Retour du Clan Hwasan")</em> </li>
+						<li> <a href="https://phenixscans.fr/manga/v768469-return-of-the-mount-hua-sect-novel-v77458306/" target="_blank">Roman en ligne</a> </li>
+					</ul>
+				</div>
+			</div>
+			
+			<p> <strong>Synopsis :</strong> </p>
+			<p>
+				<span style="text-decoration: underline;">Cheong Myeong</span>, un maître épéiste inégalé du clan Hwasan, perd ses alliés et sa vie dans une bataille contre le chef suprême des démons, Cheon Ma.<br>
+				Mais quand il ouvre ses yeux, il se retrouve réincarné 100 ans plus tard dans le corps d’un enfant mendiant. Malheureusement, bien qu’il ai conservé sa mémoire, sa force physique n’a rien à voir avec celle de sa vie antérieure et son clan tant renommé par le passé est tombé en ruine.<br>
+				Décidé de ne pas se soumettre à son état pitoyable, il tente de reprendre les choses en main y compris de retrouver la gloire passée de son clan, Hwasan. Mais sera-t-il à la hauteur pour accomplir sa volonté ?
+			</p>
+			<p> <strong>Prévisualisation :</strong> </p>
+			<div class="img-popup">
+				<img src="IMAGES/1-SSS/return of the mount hua sect/img1.jpg" loading="lazy" alt="image 1">
+				<img src="IMAGES/1-SSS/return of the mount hua sect/img2.png" loading="lazy" alt="image 2">
+				<img src="IMAGES/1-SSS/return of the mount hua sect/img3.jpg" loading="lazy" alt="image 3">
+				<img src="IMAGES/1-SSS/return of the mount hua sect/img4.jpg" loading="lazy" alt="image 4">
+				<img src="IMAGES/1-SSS/return of the mount hua sect/img5.webp" loading="lazy" alt="image 5">
+				<img src="IMAGES/1-SSS/return of the mount hua sect/img6.jpg" loading="lazy" alt="image 6">
+				<img src="IMAGES/1-SSS/return of the mount hua sect/img7.jpg" loading="lazy" alt="image 7">
+				<img src="IMAGES/1-SSS/return of the mount hua sect/img8.jpg" loading="lazy" alt="image 8">
+			</div>
+			
+			<p> <strong>Adaptation :</strong> Disponible en <a href="https://booknode.com/serie/le-retour-du-clan-hwasan" target="_blank">format papier</a> et en <a href="" target="_blank">anime</a> prochainement </p>
+		</div>
+		
+		
+		
+		<div id="webtoon-damn-reincarnation-details" class="webtoon-details">
+			<div class="titres_bannières">
+				<h3> Damn Reincarnation </h3>
+				<img src="IMAGES/2-EXCELLENTS/damn reincarnation/bannière.webp" loading="lazy" alt="Bannière de Damn Reincarnation">
+			</div>
+			
+			<div class="details-content">
+				<img src="IMAGES/2-EXCELLENTS/damn reincarnation/cover.webp" loading="lazy" alt="Image de Damn Reincarnation">
+				<div class="details-text">
+					<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Réincarnation </p>
+					<p> <strong>Statut :</strong> En pause </p>
+					<p> <strong>Popularité :</strong> </p>
+					<p> <strong>Nombre de chapitres :</strong> 81 - 25 Août 2024 </p>
+					<p> <strong>Sites de lecture :</strong> </p>
+					<ul>
+						<li> <a href="https://phenixscans.fr/manga/v215016-666-damn-reincarnation-v45815851/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
+						<li> <a href="https://piccoma.com/fr/product/1067" target="_blank">Piccoma</a> <em>(version officielle)</em> </li>
+						<li> <a href="https://phenixscans.fr/manga/damn-reincarnation-novel/" target="_blank">Roman en ligne</a> </li>
+					</ul>
+				</div>
+			</div>
+			
+			<p> <strong>Synopsis :</strong> </p>
+			<p>
+				<span style="text-decoration: underline;">Hamel</span>, un guerrier qui partit en voyage avec ses camarades pour anéantir le roi démon, mourut juste avant de rencontrer ce dernier. Il se réincarnera en tant que descendant de son compagnon héro, Vermouth. <br>
+				Hamel, se prénommant maintenant <span style="text-decoration: underline;">Eugène Lionhart</span>, a hérité du sang du grand Vermouth. Grâce à ses connaissances antérieures, il façonne un corps à l’image de la puissance qu’il aura besoin pour essayer de comprendre ce qui a pu arriver après sa mort. Et surtout comprendre pourquoi les humains et les mages coexistent avec les démons. <br>
+				Face à tant d’interrogations, il emprunte le corps d’Eugène et commence à parcourir le voyage inachevé de sa vie antérieure.
+			</p>
+			<p> <strong>Prévisualisation :</strong> </p>
+			<div class="img-popup">
+				<img src="IMAGES/2-EXCELLENTS/damn reincarnation/img1.webp" loading="lazy" alt="image 1">
+				<img src="IMAGES/2-EXCELLENTS/damn reincarnation/img2.jpg" loading="lazy" alt="image 2">
+				<img src="IMAGES/2-EXCELLENTS/damn reincarnation/img3.webp" loading="lazy" alt="image 3">
+				<img src="IMAGES/2-EXCELLENTS/damn reincarnation/img4.webp" loading="lazy" alt="image 4">
+				<img src="IMAGES/2-EXCELLENTS/damn reincarnation/img5.jpg" loading="lazy" alt="image 5">
+				<img src="IMAGES/2-EXCELLENTS/damn reincarnation/img6.webp" loading="lazy" alt="image 6">
+				<img src="IMAGES/2-EXCELLENTS/damn reincarnation/img7.jpg" loading="lazy" alt="image 7">
+				<img src="IMAGES/2-EXCELLENTS/damn reincarnation/img8.jpg" loading="lazy" alt="image 8">
+			</div>
+			
+			<p> <strong>Adaptation :</strong> Disponible en <a href="https://booknode.com/damn_reincarnation_03457241" target="_blank">format papier</a> </p>
+		</div>
+
+
+		
+		<div id="webtoon-demonic-emperor-details" class="webtoon-details">
+			<div class="titres_bannières">
+				<h3> Demonic Emperor </h3>
+				<img src="IMAGES/2-EXCELLENTS/demonic emperor/bannière.avif"  id="dimensions-img-demonemperor" loading="lazy" alt="Bannière de Demonic Emperor">
+			</div>
+			
+			<div class="details-content">
+				<img src="IMAGES/2-EXCELLENTS/demonic emperor/cover.avif" loading="lazy" alt="Cover de Demonic Emperor">
+				<div class="details-text">
+					<p> <strong>Type :</strong> Manhua &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Arts martiaux, psychopathe, Réincarnation </p>
+					<p> <strong>Statut :</strong> En cours </p>
+					<p> <strong>Popularité :</strong> </p>
+					<p> <strong>Nombre de chapitres :</strong> 501 - 3 Septembre 2024 </p>
+					<p> <strong>Sites de lecture :</strong> </p>
+					<ul>
+						<li> <a href="https://phenixscans.fr/manga/v123456-demonic-emperor/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
+						<li> Pas de version officielle</li>
+						<li> Pas de roman en ligne </li>
+					</ul>
+				</div>
+			</div>
+			
+			<p> <strong>Synopsis :</strong> </p>
+			<p>
+				Le roi des démons garde un terrible secret convoité par ses ennemis… mais également par ses amis. Trahi et assassiné par son fidèle le plus proche, il se réincarne dans la peau d’un gamin. <br>
+				Désormais intendant d’une famille de nobles sans histoire, il a tout le temps pour préparer sa vengeance. Parce qu’il avait l’héritage de l’ancien empereur démoniaque, l’empereur démoniaque <span style="text-decoration: underline;">Zhuo Yifan</span> a eu la malchance d’être trahi et tué par son disciple de confiance. <br>
+				Après sa renaissance, sa culture est retombée à zéro et il a été piégé par un démon du cœur, n’ayant d’autre choix que de devenir la gouvernante de l’aînée de la famille Luo. <br>
+				Du statut d’Empereur Magique à celui d’homme de ménage insignifiant, comment allait-il s’entendre avec son « aînée démon du cœur » et quel pouvoir allait-il acquérir afin de se hisser, lui et sa famille en déclin, au sommet du continent !
+			</p>
+			<p> <strong>Prévisualisation :</strong> </p>
+			<p> <em style="font-size: 75%">(elles viendront)</em> </p>
+			<div class="img-popup">
+				<img src="" loading="lazy" alt="image 1">
+				<img src="" loading="lazy" alt="image 2">
+				<img src="" loading="lazy" alt="image 3">
+				<img src="" loading="lazy" alt="image 4">
+				<img src="" loading="lazy" alt="image 5">
+				<img src="" loading="lazy" alt="image 6">
+				<img src="" loading="lazy" alt="image 7">
+				<img src="" loading="lazy" alt="image 8">
 			</div>
 
+			<p> <strong>Adaptation :</strong> Non </p>
+
+		</div>
 
 
-			<div id="webtoon-surviving-the-game-as-a-barbarian-details" class="webtoon-details">
-				<div class="titres_bannières">
-					<h3> Surviving the Game as a Barbarian </h3>
+
+		<div id="webtoon-descended-from-divinity-details" class="webtoon-details">
+			<div class="titres_bannières">
+				<h3> Descended From Divinity </h3>
+				<img src="IMAGES/2-EXCELLENTS/descended from divinity/bannière.avif" loading="lazy" alt="Bannière de Descended From Divinity">
+			</div>
+			
+			<div class="details-content">
+				<img src="IMAGES/2-EXCELLENTS/descended from divinity/cover.avif" loading="lazy" alt="Image de Descended From Divinity">
+				<div class="details-text">
+					<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Epée, Réincarnation, Stratégie </p>
+					<p> <strong>Statut :</strong> En cours </p>
+					<p> <strong>Popularité :</strong> </p>
+					<p> <strong>Nombre de chapitres :</strong> 124 - 29 Octobre 2024 </p>
+					<p> <strong>Sites de lecture :</strong> </p>
+					<ul>
+						<li> <a href="https://phenixscans.fr/manga/v627492-the-heavenly-demon-cant-live-a-normal-life/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
+						<li> <a href="https://www.webtoons.com/fr/action/descended-from-divinity/list?title_no=4963" target="_blank">Webtoon</a> <em>(version officielle "Descended from Divinity")</em> </li>
+						<li> Pas de roman en ligne </li>
+					</ul>
 				</div>
-				
-				<div class="details-content">
-					<img src="IMAGES/2-EXCELLENTS/surviving the game as a barbarian/cover.webp" loading="lazy" alt="Image de Surviving the Game as a Barbarian">
-					<div class="details-text">
-						<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Aventure, Chevalerie, Survie, Vengeance </p>
-						<p> <strong>Statut :</strong> En cours </p>
-						<p> <strong>Popularité :</strong> - </p>
-						<p> <strong>Nombre de chapitres :</strong> 67 - 26 Janvier 2025 </p>
-						<p> <strong>Sites de lecture :</strong> </p>
-						<ul>
-							<li> <a href="https://mangas-scans.com/manga/surviving-the-game-as-a-barbarian/" target="_blank">Mangas-scans</a> <em>(team de Scantrad)</em> (Lisez aussi sur Phenixscans ou Crunchyscans qui vole les chapitres officiels) </li>
-							<li> <a href="https://www.webtoons.com/fr/action/surviving-the-game-as-a-barbarian/list?title_no=5604" target="_blank">Webtoon</a> <em>(version officielle, disponible en français)</em> </li>
-							<li> Pas de roman en ligne </li>
-						</ul>
-					</div>
-				</div>
-				
-				<p> <strong>Synopsis :</strong> </p>
-				<p>
-					Après une dizaine d'années passées à geeker sur Dungeon and Stone, je me retrouve soudainement projeté dans le jeu et deviens un barbare ! Par chance, c'est une des races les plus puissantes... <br>
-					Mais pourquoi le jeu est en mode difficile dès le début ? Heureusement, je devrais m'en sortir avec mes connaissances et quelques compagnons... Mais personne ne veut de moi !
-				</p>
-				<p> <strong>Prévisualisation :</strong> </p>
-				<p> <em style="font-size: 75%">(elles viendront)</em> </p>
-				<div class="img-popup">
-					<img src="" loading="lazy" alt="image 1">
-					<img src="" loading="lazy" alt="image 2">
-					<img src="" loading="lazy" alt="image 3">
-					<img src="" loading="lazy" alt="image 4">
-					<img src="" loading="lazy" alt="image 5">
-					<img src="" loading="lazy" alt="image 6">
-					<img src="" loading="lazy" alt="image 7">
-					<img src="" loading="lazy" alt="image 8">
-				</div>
-				
-				<p> <strong>Adaptation :</strong> Non</p>
+			</div>
+			
+			<p> <strong>Synopsis :</strong> </p>
+			<p>
+				« Serait-ce les cieux qui m’envoient en mission ? Ou bien serait-ce une punition divine ? ». <br>
+				<span style="text-decoration: underline;">Junghyeok Baek</span>, le démon suprême du Murim se réincarne dans le corps de Roman Dimitri, le fils abruti d’un baron. Doté de ses connaissances en arts martiaux, il devra s’adapter à ce nouveau monde médiéval où vivent chevaliers et mages. Face au défi posé par ce nouveau système de mana et cette nouvelle vie, une seule voie s’ouvre à lui, celle de la suprématie. <br>
+				Junghyeok Baek ouvre les yeux en tant que fils aîné de la famille Dimitry.
+				Connu comme le crétin de la famille Dimitry, l’opinion du monde entier n’est pas pertinente. <br>
+				« Démon Céleste », non, Roman Dimitry, ne peut pas vivre une vie normale.
+			</p>
+			<p> <strong>Prévisualisation :</strong> </p>
+			<p> <em style="font-size: 75%">(elles viendront)</em> </p>
+			<div class="img-popup">
+				<img src="" loading="lazy" alt="image 1">
+				<img src="" loading="lazy" alt="image 2">
+				<img src="" loading="lazy" alt="image 3">
+				<img src="" loading="lazy" alt="image 4">
+				<img src="" loading="lazy" alt="image 5">
+				<img src="" loading="lazy" alt="image 6">
+				<img src="" loading="lazy" alt="image 7">
+				<img src="" loading="lazy" alt="image 8">
 			</div>
 
-
-			<!-- Site pour les informations : Nautiljon -->
-		</aside>
-
-		<main>
-
-			<hr class="contact-séparateur">
+			<p> <strong>Adaptation :</strong> Non </p>
+			
 
 
-			<!-- Section À propos / Contact -->
-			<section id="àpropos-contact">
-				<h2>À propos</h2>
-				<p>Bienvenue sur mon site de Webtoons ! <br>
-				Ce site est un espace où je partage mon intérêt pour les webtoons, et un endroit pour que d'autres personnes comme moi puissent
-				découvrir de nouvelles séries et s'amuser. <br>
-				Je l'ai aussi crée pour entraîner mes compétences en programmation. Je suis débutant.</p>
+		</div>
+		
+		<div id="webtoon-i-killed-an-academy-player-details" class="webtoon-details">
+			<div class="titres_bannières">
+				<h3> I Killed an Academy Player </h3>
+			</div>
+			
+			<div class="details-content">
+				<img src="IMAGES/2-EXCELLENTS/i killed an academy player/cover.webp" loading="lazy" alt="Image I Killed an Academy Player">
+				<div class="details-text">
+					<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Aventure, School life, Régression/Réincarnation </p>
+					<p> <strong>Statut :</strong> En cours </p>
+					<p> <strong>Popularité :</strong> - </p>
+					<p> <strong>Nombre de chapitres :</strong> 65 - 28 Janvier 2025 </p>
+					<p> <strong>Sites de lecture :</strong> </p>
+					<ul>
+						<li> <a href="https://phenixscans.fr/manga/v360506-i-killed-an-academy-player/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
+						<li> Pas de version officielle </li>
+						<li> Pas de roman en ligne </li>
+					</ul>
+				</div>
+			</div>
+			
+			<p> <strong>Synopsis :</strong> </p>
+			<p>
+				J’ai tué un joueur. C’était un vrai fils de pute…
+			</p>
+			<p> <strong>Prévisualisation :</strong> </p>
+			<p> <em style="font-size: 75%">(elles viendront)</em> </p>
+			<div class="img-popup">
+				<img src="" loading="lazy" alt="image 1">
+				<img src="" loading="lazy" alt="image 2">
+				<img src="" loading="lazy" alt="image 3">
+				<img src="" loading="lazy" alt="image 4">
+				<img src="" loading="lazy" alt="image 5">
+				<img src="" loading="lazy" alt="image 6">
+				<img src="" loading="lazy" alt="image 7">
+				<img src="" loading="lazy" alt="image 8">
+			</div>
+			
+			<p> <strong>Adaptation :</strong> Non </p>
+			
+		</div>
+
+
+
+		<div id="webtoon-infinite-mage-details" class="webtoon-details">
+			<div class="titres_bannières">
+				<h3> Infinite Mage </h3>
+				<img src="IMAGES/2-EXCELLENTS/infinite mage/bannière.avif" loading="lazy" alt="Bannière d'Infinite Mage">
+			</div>
+			
+			<div class="details-content">
+				<img src="IMAGES/2-EXCELLENTS/infinite mage/cover.avif" loading="lazy" alt="Image d'Infinite Mage">
+				<div class="details-text">
+					<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Magie, school life </p>
+					<p> <strong>Statut :</strong> En cours </p>
+					<p> <strong>Popularité :</strong> </p>
+					<p> <strong>Nombre de chapitres :</strong> 89 - 29 Octobre 2024 </p>
+					<p> <strong>Sites de lecture :</strong> </p>
+					<ul>
+						<li> <a href="https://phenixscans.fr/manga/v530990-infinite-mage/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
+						<li> Pas de version officielle </li>
+						<li> Pas de roman en ligne </li>
+					</ul>
+				</div>
+			</div>
+			
+			<p> <strong>Synopsis :</strong> </p>
+			<p>
+				C’est l’histoire d’un garçon qui rêve de l’infini en tant qu’humain ! <br>
+				Trouvé abandonné dans une étable, <span style="text-decoration: underline;">Shirone</span> est le fils d’un chasseur et d’un paysan. Malgré les difficultés, c’est un génie qui parvient à apprendre à lire tout seul, et débordant de talent, il part à la ville avec son père, où il apprend la magie – <br>
+				C’est le début de son voyage en tant qu’étoile montante explosive ! <br>
+				Quand les membres de la famille Ariane découvrent un bébé aux cheveux blonds abandonné dans leur étable, ils ne s’attendent pas à élever un véritable petit génie ! À l’âge de douze ans, le jeune Shirone découvre la magie dans un livre et rêve de devenir un grand mage. Cependant, au royaume de Thormia, il est hors de question de laisser un simple roturier apprendre cette noble discipline ! <br>
+				La détermination de Shirone suffira-t-elle pour accomplir son rêve dans ce monde impitoyable?
+			<p> <strong>Prévisualisation :</strong> </p>
+			<p> <em style="font-size: 75%">(elles viendront)</em> </p>
+			<div class="img-popup">
+				<img src="" loading="lazy" alt="image 1">
+				<img src="" loading="lazy" alt="image 2">
+				<img src="" loading="lazy" alt="image 3">
+				<img src="" loading="lazy" alt="image 4">
+				<img src="" loading="lazy" alt="image 5">
+				<img src="" loading="lazy" alt="image 6">
+				<img src="" loading="lazy" alt="image 7">
+				<img src="" loading="lazy" alt="image 8">
+			</div>
+
+			<p> <strong>Adaptation :</strong> Non </p>
+			
+		</div>
+
+
+
+		<div id="webtoon-lecteur-omniscient-details" class="webtoon-details">
+			<div class="titres_bannières">
+				<h3> Lecteur Omniscient </h3>
+				<img src="IMAGES/2-EXCELLENTS/lecteur omniscient/bannière.jpg" loading="lazy" alt="Bannière de Lecteur Omniscient">
+			</div>
+			
+			<div class="details-content">
+				<img src="IMAGES/2-EXCELLENTS/lecteur omniscient/cover.avif" loading="lazy" alt="Image de Lecteur Omniscient">
+				<div class="details-text">
+					<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Aventure, Omniscience, Epreuvres </p>
+					<p> <strong>Statut :</strong> En cours </p>
+					<p> <strong>Popularité :</strong> </p>
+					<p> <strong>Nombre de chapitres :</strong> 233 - 30 Octobre 2024 </p>
+					<p> <strong>Sites de lecture :</strong> </p>
+					<ul>
+						<li> <a href="https://phenixscans.fr/manga/v935466-99-omniscient-readers-viewpoint/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
+						<li> <a href="https://www.webtoons.com/fr/fantasy/omniscient-reader/list?title_no=2175" target="_blank">Webtoon</a> <em>(version officielle)</em> </li>
+						<li> <a href="https://phenixscans.fr/manga/v590859-99-omniscient-readers-viewpoint-novel/" target="_blank">Roman en ligne</a> </li>
+					</ul>
+				</div>
+			</div>
+			
+			<p> <strong>Synopsis :</strong> </p>
+			<p>
+				Un roman intitulé « Les Trois façons de survivre dans un monde en ruine » (écrit par l’auteur anonyme tls123) a été écrit et publié pendant dix ans, et <span style="text-decoration: underline;">Kim Dokja</span> est le seul lecteur à l’avoir lu jusqu’à la fin. <br>
+				Lorsque le monde réel est plongé dans les prémisses « Des Trois façons de survivre dans un monde en ruine » (abrégé en « Guide du Survivant »), la connaissance unique qu’a Kim Dokja du roman devient vitale pour sa survie. Kim Dokja va s’allier à Yu JungHyeok, le protagoniste du Guide du Survivant, afin de modifier l’intrigue originale du roman et de se rapprocher le plus rapidement possible de la fin de l’histoire. <br>
+				Au fur et à mesure que Kim Dokja et les membres de son groupe progressent dans les scénarios, ils sont confrontés à des menaces de plus en plus importantes et à des défis ou leur vie est mise en jeu, luttant pour rester en vie nos protagonistes travailleront ensemble dans le but de détruire le qui n’exige qu’une seule chose de leur histoire : Leur souffrance.
+			</p>
+			<p> <strong>Prévisualisation :</strong> </p>
+			<p> <em style="font-size: 75%">(elles viendront)</em> </p>
+			<div class="img-popup">
+				<img src="" loading="lazy" alt="image 1">
+				<img src="" loading="lazy" alt="image 2">
+				<img src="" loading="lazy" alt="image 3">
+				<img src="" loading="lazy" alt="image 4">
+				<img src="" loading="lazy" alt="image 5">
+				<img src="" loading="lazy" alt="image 6">
+				<img src="" loading="lazy" alt="image 7">
+				<img src="" loading="lazy" alt="image 8">
+			</div>
+			
+			<p> <strong>Adaptation :</strong> Disponible en <a href="https://booknode.com/serie/lecteur-omniscient---edition-reliee" target="_blank">format papier</a> et en <a href="" target="_blank">anime</a> prochainement </p>
+			
+		</div>
+
+
+
+		<div id="webtoon-nano-machine-details" class="webtoon-details">
+			<div class="titres_bannières">
+				<h3> Nano Machine </h3>
+				<img src="IMAGES/2-EXCELLENTS/nano machine/bannière.webp" loading="lazy" alt="Bannière de Nano Machine">
+			</div>
+			
+			<div class="details-content">
+				<img src="IMAGES/2-EXCELLENTS/nano machine/cover.avif" loading="lazy" alt="Image de Nano Machine">
+				<div class="details-text">
+					<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Arts martiaux, Leader </p>
+					<p> <strong>Statut :</strong> En cours </p>
+					<p> <strong>Popularité :</strong> </p>
+					<p> <strong>Nombre de chapitres :</strong> 229 - 30 Octobre 2024 </p>
+					<p> <strong>Sites de lecture :</strong> </p>
+					<ul>
+						<li> <a href="https://phenixscans.fr/manga/v601857-666-nano-machine-v92219321/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
+						<li> <a href="https://www.webtoons.com/fr/fantasy/nano-mashin/list?title_no=4341" target="_blank">Nano Machine</a> <em>(version officielle)</em> </li>
+						<li> Pas de roman en ligne </li>
+					</ul>
+				</div>
+			</div>
+			
+			<p> <strong>Synopsis :</strong> </p>
+			<p>
+				<span style="text-decoration: underline;">Cheon Yeo Woon</span> est un successeur illégitime d’un culte démoniaque, sans force ni compétence en art martial. Pourtant, il se fait poursuivre par des assassins envoyés par un de ses concurrents et au moment où il perd tout espoir de vivre, un homme mystérieux venant du futur lui injecte une nanomachine dans son corps. <br>
+				Avec cette technologie de dernière minute ainsi injectée, parviendra-t-il à surpasser ses compétences physiques innées et devenir le plus fort pour enfin prendre la place du second Cheonma, le chef suprême des démons ? Ainsi venez découvrir les folles aventures de Cheon Yeo Woon et de ses compagnons ! Parviendront ils a atteindre leurs objectifs ? Vous ne le serez que en lisant !
+			</p>
+			<p> <strong>Prévisualisation :</strong> </p>
+			<p> <em style="font-size: 75%">(elles viendront)</em> </p>
+			<div class="img-popup">
+				<img src="" loading="lazy" alt="image 1">
+				<img src="" loading="lazy" alt="image 2">
+				<img src="" loading="lazy" alt="image 3">
+				<img src="" loading="lazy" alt="image 4">
+				<img src="" loading="lazy" alt="image 5">
+				<img src="" loading="lazy" alt="image 6">
+				<img src="" loading="lazy" alt="image 7">
+				<img src="" loading="lazy" alt="image 8">
+			</div>
+
+			<p> <strong>Adaptation :</strong> Non </p>
+			
+		</div>
+
+
+
+		<div id="webtoon-pick-me-up-details" class="webtoon-details">
+			<div class="titres_bannières">
+				<h3> Pick Me Up</h3>
+				<img src="IMAGES/2-EXCELLENTS/pick me up/bannière.avif" loading="lazy" alt="Bannière de Pick Me Up">
+			</div>
+			
+			<div class="details-content">
+				<img src="IMAGES/2-EXCELLENTS/pick me up/cover.avif" loading="lazy" alt="Image de Pick Me Up">
+				<div class="details-text">
+					<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Stratégie, Transposition autre monde, Tour </p>
+					<p> <strong>Statut :</strong> En cours </p>
+					<p> <strong>Popularité :</strong> </p>
+					<p> <strong>Nombre de chapitres :</strong> 81 - 119 Octobre 2024 </p>
+					<p> <strong>Sites de lecture :</strong> </p>
+					<ul>
+						<li> <a href="https://phenixscans.fr/manga/v415552-pick-me-up/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
+						<li> La version officielle qui était sur Piccoma n'existe plus <em>(fermeture du site)</em> </li>
+						<li> Pas de roman en ligne</a> </li>
+					</ul>
+				</div>
+			</div>
+			
+			<p> <strong>Synopsis :</strong> </p>
+			<p>
+				Dans le jeu mobile gacha tristement célèbre pour sa difficulté infernale, le Maître classé 5ème au monde, <span style="text-decoration: underline;">Loki</span>, perd connaissance en faisant une descente dans le Donjon. <br>
+				"Quoi ? Je suis un personnage de jeu maintenant ?" <br>
+				Après s’être réveillé, Loki réalise qu’il est devenu un héros 1 étoile de niveau 1, prénommé Han Yslat. <br>
+				Pour retourner sur Terre, il doit diriger le nouveau Maître et les héros et dégager le 100ème étage du Donjon ! <br>
+				C’est l’histoire de Maître Loki qui n’accepte jamais une seule défaite. <br><br>
 				
-				<h2>Contact</h2>
-				<p>Vous avez des suggestions ou des questions ? N'hésitez pas à me contacter à <a href="mailto:prochainement@gmail.com">prochainement@gmail.com</a>.</p>
-			</section>
-		</main>
-		
-		
-		<footer>
-			<p class="couleur-texte-blanc"> Made by Guip4 </p>
-		
-		</footer>
-		
-	</body>
+				Han Seo Jin, AKA Loki, le maître des MJ, est une véritable légende sur le jeu mobile Pick Me Up ! Difficulté infernale, combats ultra-réalistes, modes immersifs… Tout cela est certes incroyable, mais ce jeu cache un terrible secret. Les héros invoqués ne sont pas des IA… ce sont des personnes réelles ! Et très peu d’entre elles survivent à cette invocation. <br>
+				Soudainement propulsé dans Pick Me Up !, Han découvre alors la douloureuse vérité. Désormais, il lui faudra se battre ou périr. <br>
+				L’aventure commence…
+			</p>
+			<p> <strong>Prévisualisation :</strong> </p>
+			<p> <em style="font-size: 75%">(elles viendront)</em> </p>
+			<div class="img-popup">
+				<img src="" loading="lazy" alt="image 1">
+				<img src="" loading="lazy" alt="image 2">
+				<img src="" loading="lazy" alt="image 3">
+				<img src="" loading="lazy" alt="image 4">
+				<img src="" loading="lazy" alt="image 5">
+				<img src="" loading="lazy" alt="image 6">
+				<img src="" loading="lazy" alt="image 7">
+				<img src="" loading="lazy" alt="image 8">
+			</div>
+			
+			<p> <strong>Adaptation :</strong> Non </p>
+		</div>
+
+
+
+		<div id="webtoon-revenge-of-the-iron-blooded-sword-hound-details" class="webtoon-details">
+			<div class="titres_bannières">
+				<h3> Revenge of the Iron-Blooded Hound </h3>
+				<img src="IMAGES/2-EXCELLENTS/revenge of the iron-blooded sword hound/bannière.avif" loading="lazy" alt="Bannière de Revenge Iron-Blooded">
+			</div>
+			
+			<div class="details-content">
+				<img src="IMAGES/2-EXCELLENTS/revenge of the iron-blooded sword hound/cover.avif" loading="lazy" alt="Image de Revenge Iron-Blooded">
+				<div class="details-text">
+					<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Réincarnation </p>
+					<p> <strong>Statut :</strong> En cours </p>
+					<p> <strong>Popularité :</strong> </p>
+					<p> <strong>Nombre de chapitres :</strong> 96 - 24 Janvier 2025 </p>
+					<p> <strong>Sites de lecture :</strong> </p>
+					<ul>
+						<li> <a href="https://phenixscans.fr/manga/v362784-return-of-the-iron-blooded-sword-hound/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
+						<li> Anciennement sur Piccoma <em>(version officielle)</em> </li>
+						<li> Pas de roman en ligne </li>
+					</ul>
+				</div>
+			</div>
+			
+			<p> <strong>Synopsis :</strong> </p>
+			<p>
+				[Par le studio qui vous a apporté « Solo Leveling », « Reaper of the Drifting Moon », et bien d’autres encore]. <br><br>
+				Il était le chien de la famille Baskerville : <span style="text-decoration: underline;">Vikir</span>. <br>
+				Pourtant, sa loyauté a été récompensée par la calomnie et la lame d’une guillotine. <br>
+				« Je ne vivrai jamais la vie d’un chien de chasse abattu après avoir attrapé le lapin. À la place de la mort, une opportunité inattendue l’attend. <br>
+				Les yeux de Vikir brillent d’une lueur rouge tandis qu’il aiguise ses canines dans l’obscurité. <br>
+				« Attends un peu, Hugo. Cette fois, je vais t’arracher la gorge. » <br>
+				Il est temps pour le chien de se venger de son maître. <br><br>
+
+				Élevés pour tuer comme une meute de chiens loyaux, les enfants des Baskerville ont fait d’innombrables victimes. Malgré son statut de fils illégitime, Vikir a servi fidèlement sa famille, avant de mourir prématurément des mains de son père. <br>
+				Mais lorsqu’il renaît inexplicablement avec une seconde chance, Vikir, armé des souvenirs et des connaissances de son passé, jure de s’élever au-dessus de la meute et de prendre sa revanche. <br>
+				Cette fois, il est prêt à mordre la main qui le nourrit.
+			</p>
+			<p> <strong>Prévisualisation :</strong> </p>
+			<p> <em style="font-size: 75%">(elles viendront)</em> </p>
+			<div class="img-popup">
+				<img src="" loading="lazy" alt="image 1">
+				<img src="" loading="lazy" alt="image 2">
+				<img src="" loading="lazy" alt="image 3">
+				<img src="" loading="lazy" alt="image 4">
+				<img src="" loading="lazy" alt="image 5">
+				<img src="" loading="lazy" alt="image 6">
+				<img src="" loading="lazy" alt="image 7">
+				<img src="" loading="lazy" alt="image 8">
+			</div>
+			
+			<p> <strong>Adaptation :</strong> Non </p>
+		</div>
+
+
+
+		<div id="webtoon-solo-leveling-details" class="webtoon-details">
+			<div class="titres_bannières">
+				<h3> Solo Leveling </h3>
+				<img src="IMAGES/2-EXCELLENTS/solo leveling/bannière.avif" loading="lazy" alt="Bannière de Solo Leveling">
+			</div>
+			
+			<div class="details-content">
+				<img src="IMAGES/2-EXCELLENTS/solo leveling/cover.avif" loading="lazy" alt="Image de Solo Leveling">
+				<div class="details-text">
+					<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, fenêtre de statut, portails </p>
+					<p> <strong>Statut :</strong> Terminé </p>
+					<p> <strong>Popularité :</strong> - </p>
+					<p> <strong>Nombre de chapitres :</strong> 200 - 31 Mai 2023 </p>
+					<p> <strong>Sites de lecture :</strong> </p>
+					<ul>
+						<li> <a href="https://phenixscans.fr/manga/v195638-99-solo-leveling-v90269649/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
+						<li> Anciennement sur Piccoma <em>(version officielle)</em> </li>
+						<li> Pas de roman en ligne </li>
+					</ul>
+				</div>
+			</div>
+			
+			<p> <strong>Synopsis :</strong> </p>
+			<p>
+				Depuis que des portails peuplés de monstres sont apparus, des personnes « ordinaires » ont acquis la capacité de chasser ces derniers. On les appelle les chasseurs. Vous pensez qu’ils sont tous balaises ? Qu’ils sont des héros, des aventuriers comme on en voit dans les mangas ? Eh bien malheureusement pas tous. <br>
+				<span style="text-decoration: underline;">Sung Jin-Woo</span> est le plus faible des chasseurs de rang E, autrement dit, le plus faible parmi les faibles. Il est donc surnommé par ses confrères chasseurs « le faible ». <br>
+				En tout cas il l’était, jusqu’à ce qu’il se retrouve piégé dans un donjon et y acquière une capacité pour le moins… étrange. Il peut désormais voir une interface lui montrant des quêtes. <br>
+				Va-t-il réussir à devenir le plus puissant des chasseurs ?
+			</p>
+			<p> <strong>Prévisualisation :</strong> </p>
+			<p> <em style="font-size: 75%">(elles viendront)</em> </p>
+			<div class="img-popup">
+				<img src="" loading="lazy" alt="image 1">
+				<img src="" loading="lazy" alt="image 2">
+				<img src="" loading="lazy" alt="image 3">
+				<img src="" loading="lazy" alt="image 4">
+				<img src="" loading="lazy" alt="image 5">
+				<img src="" loading="lazy" alt="image 6">
+				<img src="" loading="lazy" alt="image 7">
+				<img src="" loading="lazy" alt="image 8">
+			</div>
+			
+			<p> <strong>Adaptation :</strong> </p>
+			<ul>
+				<li>Disponible en <a href="https://booknode.com/serie/solo-leveling" target="_blank">format papier</a>,</li>
+				<li>en <a href="https://www.crunchyroll.com/fr/series/GDKHZEJ0K/solo-leveling" target="_blank">anime</a> <em>(Allez sur Anime-sama c'est gratuit)</em>,</li>
+				<li>en <a href="https://sololeveling.netmarble.com/fr" target="_blank">jeu vidéo</a></li>
+				<li>et en deux autres webtoons : <a href="https://phenixscans.fr/manga/solo-leveling-ragnarok/" target="_blank">Solo Leveling : Ragnarok</a> et <a href="https://phenixscans.fr/manga/solo-leveling-arise-hunters-origins/" target="_blank">Solo Leveling Arise : Hunters Origins</a></li>
+			</ul>
+		</div>
+
+
+
+		<div id="webtoon-star-embracing-swordmaster-details" class="webtoon-details">
+			<div class="titres_bannières">
+				<h3> Star-Embracing Swordmaster </h3>
+				<img src="IMAGES/2-EXCELLENTS/star-embracing swordmaster/bannière.avif" loading="lazy" alt="Bannière de Star-Embracing Swordmaster">
+			</div>
+			
+			<div class="details-content">
+				<img src="IMAGES/2-EXCELLENTS/star-embracing swordmaster/cover.avif" loading="lazy" alt="Image de Star-Embracing Swordmaster">
+				<div class="details-text">
+					<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Aventure, Chevalerie, Survie, Vengeance </p>
+					<p> <strong>Statut :</strong> En cours </p>
+					<p> <strong>Popularité :</strong> - </p>
+					<p> <strong>Nombre de chapitres :</strong> 67 - 26 Janvier 2025 </p>
+					<p> <strong>Sites de lecture :</strong> </p>
+					<ul>
+						<li> <a href="https://phenixscans.fr/manga/v575111-star-embracing-swordmaster/" target="_blank">Phenixscans</a> <em>(team de Scantrad)</em> </li>
+						<li> <a href="http://webtoons.com/fr/fantasy/the-stellar-swordmaster/list?title_no=6127" target="_blank">Webtoon</a> <em>(version officielle "The Stellar Swordmaster")</em> </li>
+						<li> Pas de roman en ligne </li>
+					</ul>
+				</div>
+			</div>
+			
+			<p> <strong>Synopsis :</strong> </p>
+			<p>
+				<span style="text-decoration: underline;">Vlad</span> était un enfant vagabond des bidonvilles qui a toujours admiré les chevaliers. Après avoir été frappé par la foudre noire, il a commencé à entendre une voix. <br>
+				Un jour, un chevalier au clair de lune bleu est apparu, et la vie de Vlad dans les bas-fonds a été bouleversée… <br>
+				Même une étoile obscure qui ne brille pas dans les plus hauts sommets du ciel nocturne reste une étoile si elle souhaite briller.
+			</p>
+			<p> <strong>Prévisualisation :</strong> </p>
+			<p> <em style="font-size: 75%">(elles viendront)</em> </p>
+			<div class="img-popup">
+				<img src="" loading="lazy" alt="image 1">
+				<img src="" loading="lazy" alt="image 2">
+				<img src="" loading="lazy" alt="image 3">
+				<img src="" loading="lazy" alt="image 4">
+				<img src="" loading="lazy" alt="image 5">
+				<img src="" loading="lazy" alt="image 6">
+				<img src="" loading="lazy" alt="image 7">
+				<img src="" loading="lazy" alt="image 8">
+			</div>
+			
+			<p> <strong>Adaptation :</strong> Non</p>
+		</div>
+
+
+
+		<div id="webtoon-surviving-the-game-as-a-barbarian-details" class="webtoon-details">
+			<div class="titres_bannières">
+				<h3> Surviving the Game as a Barbarian </h3>
+			</div>
+			
+			<div class="details-content">
+				<img src="IMAGES/2-EXCELLENTS/surviving the game as a barbarian/cover.webp" loading="lazy" alt="Image de Surviving the Game as a Barbarian">
+				<div class="details-text">
+					<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Aventure, Chevalerie, Survie, Vengeance </p>
+					<p> <strong>Statut :</strong> En cours </p>
+					<p> <strong>Popularité :</strong> - </p>
+					<p> <strong>Nombre de chapitres :</strong> 67 - 26 Janvier 2025 </p>
+					<p> <strong>Sites de lecture :</strong> </p>
+					<ul>
+						<li> <a href="https://mangas-scans.com/manga/surviving-the-game-as-a-barbarian/" target="_blank">Mangas-scans</a> <em>(team de Scantrad)</em> (Lisez aussi sur Phenixscans ou Crunchyscans qui vole les chapitres officiels) </li>
+						<li> <a href="https://www.webtoons.com/fr/action/surviving-the-game-as-a-barbarian/list?title_no=5604" target="_blank">Webtoon</a> <em>(version officielle, disponible en français)</em> </li>
+						<li> Pas de roman en ligne </li>
+					</ul>
+				</div>
+			</div>
+			
+			<p> <strong>Synopsis :</strong> </p>
+			<p>
+				Après une dizaine d'années passées à geeker sur Dungeon and Stone, je me retrouve soudainement projeté dans le jeu et deviens un barbare ! Par chance, c'est une des races les plus puissantes... <br>
+				Mais pourquoi le jeu est en mode difficile dès le début ? Heureusement, je devrais m'en sortir avec mes connaissances et quelques compagnons... Mais personne ne veut de moi !
+			</p>
+			<p> <strong>Prévisualisation :</strong> </p>
+			<p> <em style="font-size: 75%">(elles viendront)</em> </p>
+			<div class="img-popup">
+				<img src="" loading="lazy" alt="image 1">
+				<img src="" loading="lazy" alt="image 2">
+				<img src="" loading="lazy" alt="image 3">
+				<img src="" loading="lazy" alt="image 4">
+				<img src="" loading="lazy" alt="image 5">
+				<img src="" loading="lazy" alt="image 6">
+				<img src="" loading="lazy" alt="image 7">
+				<img src="" loading="lazy" alt="image 8">
+			</div>
+			
+			<p> <strong>Adaptation :</strong> Non</p>
+		</div>
+
+
+
+		<div id="webtoon-the-swordmaster's-youngest-son-details" class="webtoon-details">
+			<div class="titres_bannières">
+				<h3> Swordmaster's Youngest Son </h3>
+				<img src="IMAGES/2-EXCELLENTS/the swordmaster's youngest son/bannière.avif" loading="lazy" alt="Bannière de Swordmaster's Youngest Son">
+			</div>
+			
+			<div class="details-content">
+				<img src="IMAGES/2-EXCELLENTS/the swordmaster's youngest son/cover.avif" loading="lazy" alt="Image de Swordmaster's Youngest Son">
+				<div class="details-text">
+					<p> <strong>Type :</strong> Manhwa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>Genre :</strong> Action, Aventure, Combats, Vengeance, Regression </p>
+					<p> <strong>Statut :</strong> En cours </p>
+					<p> <strong>Popularité :</strong> </p>
+					<p> <strong>Nombre de chapitres :</strong> 148 - 31 janvier 2025 </p>
+					<p> <strong>Sites de lecture :</strong> </p>
+					<ul>
+						<li> <a href="https://reaper-scans.fr/series/562e94633cd/" target="_blank">Reaperscans</a> <em>(team de Scantrad)</em> </li>
+						<li> Anciennement sur Piccoma <em>(version officielle)</em> </li>
+						<li> Pas trouvé de roman en ligne </li>
+					</ul>
+				</div>
+			</div>
+			
+			<p> <strong>Synopsis :</strong> </p>
+			<p>
+				Dernier-né d'un puissant clan d'épéistes, <span style="text-decoration: underline;">Jin</span> en est chassé pour cause de nullité. Il se découvre alors un don pour la magie. <br>
+				Mais un soir, le dieu de l'ombre lui révèle que son incompétence à l'épée était due à une malédiction. Grâce au pacte passé avec le dieu, Jin peut enfin exprimer son potentiel ! <br>
+				Malheureusement, il est assassiné et l'histoire devrait s'arrêter là... Sauf qu'elle recommence ! Toujours lié au dieu de l'ombre, Jin est revenu dans le passé. Enfin une occasion de briller ?
+			</p>
+			<p> <strong>Prévisualisation :</strong> </p>
+			<p> <em style="font-size: 75%">(elles viendront)</em> </p>
+			<div class="img-popup">
+				<img src="" loading="lazy" alt="image 1">
+				<img src="" loading="lazy" alt="image 2">
+				<img src="" loading="lazy" alt="image 3">
+				<img src="" loading="lazy" alt="image 4">
+				<img src="" loading="lazy" alt="image 5">
+				<img src="" loading="lazy" alt="image 6">
+				<img src="" loading="lazy" alt="image 7">
+				<img src="" loading="lazy" alt="image 8">
+			</div>
+			
+			<p> <strong>Adaptation :</strong> Rien trouvé </p>
+		</div>
+
+
+		<!-- Site pour les informations : Nautiljon -->
+	</aside>
+
+	<main>
+
+		<hr class="contact-séparateur">
+
+
+		<!-- Section À propos / Contact -->
+		<section id="àpropos-contact">
+			<h2>À propos</h2>
+			<p>Bienvenue sur mon site de Webtoons ! <br>
+			Ce site est un espace où je partage mon intérêt pour les webtoons, et un endroit pour que d'autres personnes comme moi puissent
+			découvrir de nouvelles séries et s'amuser. <br>
+			Je l'ai aussi crée pour entraîner mes compétences en programmation. Je suis débutant.</p>
+			
+			<h2>Contact</h2>
+			<p>Vous avez des suggestions ou des questions ? N'hésitez pas à me contacter à <a href="mailto:prochainement@gmail.com">prochainement@gmail.com</a>.</p>
+		</section>
+	</main>
+	
+	
+	<footer>
+		<p class="couleur-texte-blanc"> Made by Guip4 </p>
+	
+	</footer>
+	
+</body>
 </html>

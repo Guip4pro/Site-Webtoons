@@ -84,6 +84,11 @@
         "name": "Tres Bons",
         "webtoons": [
           {
+            "title": "Superhuman Battlefield",
+            "image": "IMAGES/3-TRES BONS/superhuman battlefield/cover.webp",
+            "alt": "Image : Superhuman Battlefield"
+          },
+          {
             "title": "Académie Transcendance",
             "image": "IMAGES/3-TRES BONS/académie transcendance/cover.jpg",
             "alt": "Image : Académie Transcendance"

@@ -319,10 +319,16 @@ h1 {
 }
 
 .details-content img {
-    width: 170px;            /* Tu peux ajuster la largeur de l'image si nécessaire */
+    width: 200px;            /* Tu peux ajuster la largeur de l'image si nécessaire */
     height: auto;
     border-radius: 10px;
 }
+
+#dimensions-img-demonemperor img {
+    width: 100px;
+    height: auto;
+}
+
 
 .details-text {
     flex: 1;                 /* Prend le reste de l'espace disponible pour le texte */
