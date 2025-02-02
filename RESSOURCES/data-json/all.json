@@ -85,7 +85,7 @@
         "webtoons": [
           {
             "title": "Académie Transcendance",
-            "image": "IMAGES/3-TRES BONS/académie transcendance/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/académie transcendance/cover.avif",
             "alt": "Image : Académie Transcendance"
           },
           {
@@ -100,12 +100,12 @@
           },
           {
             "title": "Best Teacher Baek",
-            "image": "IMAGES/3-TRES BONS/best teacher baek/cover.webp",
+            "image": "IMAGES/3-TRES BONS/best teacher baek/cover.avif",
             "alt": "Image : Best Teacher Baek"
           },
           {
             "title": "Boundless Necromancer",
-            "image": "IMAGES/3-TRES BONS/boundless necromancer/cover.webp",
+            "image": "IMAGES/3-TRES BONS/boundless necromancer/cover.avif",
             "alt": "Image : Boundless Necromancer"
           },
           {
@@ -125,7 +125,7 @@
           },
           {
             "title": "Dungeon Cleaning Life",
-            "image": "IMAGES/3-TRES BONS/dungeon cleaning life/cover.png",
+            "image": "IMAGES/3-TRES BONS/dungeon cleaning life/cover.avif",
             "alt": "Image : Dungeon Cleaning Life"
           },
           {
@@ -135,7 +135,7 @@
           },
           {
             "title": "Eternally Regressing Knight",
-            "image": "IMAGES/3-TRES BONS/eternally regressing knight/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/eternally regressing knight/cover.avif",
             "alt": "Image : Eternally Regressing Knight"
           },
           {
@@ -145,7 +145,7 @@
           },
           {
             "title": "FFF-Class Witch Doctor",
-            "image": "IMAGES/3-TRES BONS/fff-class witch doctor/cover.webp",
+            "image": "IMAGES/3-TRES BONS/fff-class witch doctor/cover.avif",
             "alt": "Image : FFF-Class Witch Doctor"
           },
           {
