@@ -137,46 +137,19 @@ function showDifficultyLevels() {
 
 
 
-CA A FONCTIONNE SUR GITHUB !
-
-JavaScript :
 
 
 
-// Attend que tout le contenu HTML soit entièrement chargé avant d'exécuter le JS
-document.addEventListener('DOMContentLoaded', function () {
-    const webtoonLinks = document.querySelectorAll('.tier-grid a');
-    const tierContainer = document.getElementById("intermediaires");
-
-    
-    // Ouvre un pop-up lorsque l'image est cliquée
-    webtoonLinks.forEach(link => {
-        link.addEventListener('click', function (event) {
-            event.preventDefault();
-            const targetID = this.getAttribute('href').substring(1);
-            const targetDetail = document.getElementById(targetID);
-            if (targetDetail) {
-                targetDetail.style.display = 'block';
-            }
-        });
-    });
 
 
-/*
-fetch('RESSOURCES/data-json/all.json')
-.then(response => {
-    if (!response.ok) {
-    throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return response.json();
-})
-.then(data => {
-    console.log('Données JSON chargées :', data);
-})
-.catch(error => console.error('Erreur lors du chargement du JSON :', error));
-*/
+_________________________________________________________________________________________________
 
-    // Fonction avec fecth pour charger et afficher les webtoons depuis le JSON
+Ancien script affichage ne mettant pas en cache fetch json
+
+
+ancien script :
+
+    // Fonction avec fecth pour charger et afficher les webtoons depuis le JSON 
 function loadWebtoonsFromJson(jsonFile) {
     fetch(jsonFile)
         .then(response => response.json())
@@ -227,36 +200,6 @@ function loadWebtoonsFromJson(jsonFile) {
         })
         .catch(error => console.error('Erreur lors du chargement du JSON :', error));
 }
-
-    
-    // Appeler la fonction pour charger les webtoons à partir du fichier JSON
-    loadWebtoonsFromJson('https://guip4pro.github.io/Site-Webtoons/RESSOURCES/data-json/all.json');   // ancien chemin relatif : '../RESSOURCES/data-json/all.json'
-
-    // Fermer le pop-up en cliquant à l'extérieur du contenu
-    window.addEventListener('click', function(event) {
-        const openPopup = document.querySelector('.webtoon-details[style*="display: block"]');
-        if (openPopup && !openPopup.contains(event.target) && !event.target.matches('.tier-grid img')) {
-            openPopup.style.display = 'none';
-        }
-    });
-});
-
-    /* BARRE DE NAVIGATION LATERALE */
-function toggleNav() {
-    const nav = document.getElementById("sidebarNav");
-    if (nav.style.width === "250px") {
-        nav.style.width = "0";
-    } else {
-        nav.style.width = "250px";
-    }
-}
-
-    /* CREER SA PROPRE TIER LIST */
-function tierlistMaker() {
-    alert("Fonctionnalité en cours de développement");
-}
-
-
 
 
         

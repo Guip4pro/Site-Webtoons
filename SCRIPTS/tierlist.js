@@ -31,16 +31,13 @@ fetch('RESSOURCES/data-json/all.json')
 .catch(error => console.error('Erreur lors du chargement du JSON :', error));
 */
 
-    // Fonction avec fecth pour charger et afficher les webtoons depuis le JSON 
 function loadWebtoonsFromJson(jsonFile) {
-    fetch(jsonFile)
+    fetch(`${jsonFile}?v=${Date.now()}`) // Ajout du paramètre pour éviter le cache
         .then(response => response.json())
         .then(data => {
             data.categories.forEach(category => {
-                // Vérification du nom de la catégorie
                 console.log("Chargement de la catégorie :", category.name);
                 
-                // Trouver le conteneur correspondant à la catégorie
                 const container = document.getElementById(
                     category.name.toLowerCase()
                         .normalize("NFD")
@@ -48,11 +45,9 @@ function loadWebtoonsFromJson(jsonFile) {
                         .replace(/\s+/g, '-')
                 );
 
-                // Vérifie si le conteneur existe
                 if (container) {
                     console.log("Conteneur trouvé pour la catégorie :", category.name);
                     
-                    // Ajouter les webtoons de cette catégorie au conteneur
                     category.webtoons.forEach(webtoon => {
                         const link = document.createElement('a');
                         link.href = `#webtoon-${webtoon.title.replace(/\s+/g, '-').toLowerCase()}-details`;
@@ -82,6 +77,7 @@ function loadWebtoonsFromJson(jsonFile) {
         })
         .catch(error => console.error('Erreur lors du chargement du JSON :', error));
 }
+
 ''
 
     
