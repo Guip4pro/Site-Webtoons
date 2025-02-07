@@ -32,7 +32,7 @@ fetch('RESSOURCES/data-json/all.json')
 */
 
 function loadWebtoonsFromJson(jsonFile) {
-    fetch(`${jsonFile}?v=${Date.now()}`) // Ajout du paramètre pour éviter le cache
+    fetch(`${jsonFile}?v=${Date.now()}`)  // Ajout du paramètre pour éviter le cache
         .then(response => response.json())
         .then(data => {
             data.categories.forEach(category => {

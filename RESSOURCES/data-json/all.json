@@ -215,22 +215,22 @@
           },
           {
             "title": "Leveling Up with the Gods",
-            "image": "IMAGES/3-TRES BONS/leveling up with the gods/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/leveling up with the gods/cover.avif",
             "alt": "Image : Leveling Up with the Gods"
           },
           {
             "title": "Leviathan",
-            "image": "IMAGES/3-TRES BONS/leviathan/cover.png",
+            "image": "IMAGES/3-TRES BONS/leviathan/cover.avif",
             "alt": "Image : Leviathan"
           },
           {
             "title": "Magic Academy's Genius Blinker",
-            "image": "IMAGES/3-TRES BONS/magic academy's genius blinker/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/magic academy's genius blinker/cover.avif",
             "alt": "Image : Magic Academy's Genius Blinker"
           },
           {
             "title": "Martial Arts Reigns",
-            "image": "IMAGES/3-TRES BONS/martial arts reigns/cover.png",
+            "image": "IMAGES/3-TRES BONS/martial arts reigns/cover.avif",
             "alt": "Image : Martial Arts Reigns"
           },
           {
@@ -249,18 +249,23 @@
             "alt": "Image : My Exclusive Tower Guide"
           },
           {
+            "title": "Myst Myst Mayhem",
+            "image": "IMAGES/3-TRES BONS/myst myst mayhem/cover.avif",
+            "alt": "Image : Myst Myst Mayhem"
+          },
+          {
             "title": "Necromancer Academy",
-            "image": "IMAGES/3-TRES BONS/necromancer academy/cover.webp",
+            "image": "IMAGES/3-TRES BONS/necromancer academy/cover.avif",
             "alt": "Image : Necromancer Academy"
           },
           {
             "title": "Overgeared",
-            "image": "IMAGES/3-TRES BONS/overgeared/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/overgeared/cover.avif",
             "alt": "Image : Overgeared"
           },
           {
             "title": "Past Life Regressor",
-            "image": "IMAGES/3-TRES BONS/past life regressor/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/past life regressor/cover.webp",
             "alt": "Image : Past Life Regressor"
           },
           {
