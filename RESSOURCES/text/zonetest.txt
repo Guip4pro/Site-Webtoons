@@ -1,0 +1,205 @@
+CSS MEMORY :
+ /* MEMORY */
+
+#difficulty-levels button {
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#difficulty-levels button:hover {
+    background-color: #45a049;
+}
+
+#difficulty-content {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+
+
+.image-grid {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.memory-image {
+    width: 50%;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    width: 200px;      /* Largeur désirée */
+    height: 400px;     /* Hauteur désirée */
+    object-fit: cover; /* Coupe l'image pour remplir la zone sans déformation */
+}
+
+.memory-image:hover {
+    transform: scale(1.05);
+}
+
+_________________________________________________________________________________________________
+
+JS MEMORY 1 :
+
+
+async function loadImages() {
+    const response = await fetch('../RESSOURCES/data-json/img-memory.json'); // Chemin vers ton fichier JSON
+    const images = await response.json();
+    return images;
+}
+
+// Fonction pour mélanger les images aléatoirement
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+// Fonction pour afficher les images en fonction du niveau de difficulté
+function displayImages(level, images) {
+    const content = document.getElementById('difficulty-content');
+    content.innerHTML = ''; // Nettoie le contenu précédent
+
+    // Définir le nombre de paires pour chaque niveau de difficulté
+    const difficultySettings = {
+        "très facile": 8,   // 4x4 = 16 images (8 paires)
+        "facile": 12,       // 5x5 = 24 images (12 paires)
+        "moyen": 18,        // 6x6 = 36 images (18 paires)
+        "difficile": 32,    // 8x8 = 64 images (32 paires)
+        "expert": 50        // 10x10 = 100 images (50 paires)
+    };
+
+    const numPairs = difficultySettings[level];
+    const selectedImages = shuffleArray(images).slice(0, numPairs); // Prend les premières paires nécessaires
+    const gameImages = shuffleArray([...selectedImages, ...selectedImages]); // Double les images et mélange
+
+    // Création de la grille
+    const grid = document.createElement('div');
+    grid.className = 'image-grid';
+    grid.style.gridTemplateColumns = `repeat(${Math.sqrt(numPairs * 2)}, 1fr)`; // Ajuste la taille de la grille
+
+    // Ajouter chaque image à la grille
+    gameImages.forEach((img) => {
+        const imgElement = document.createElement('img');
+        imgElement.src = img.src;
+        imgElement.alt = img.alt;
+        imgElement.className = 'memory-image';
+        grid.appendChild(imgElement);
+    });
+
+    content.appendChild(grid); // Affiche la grille
+}
+
+// Fonction pour gérer le niveau de difficulté sélectionné
+function selectDifficulty(level) {
+    const content = document.getElementById('difficulty-content');
+
+    // Texte explicatif pour le niveau
+    const difficultyDescriptions = {
+        "très facile": "Niveau Très Facile : Une grille de 4x4 pour s'échauffer.",
+        "facile": "Niveau Facile : Une grille de 5x5 pour un défi modéré.",
+        "moyen": "Niveau Moyen : Une grille de 6x6 pour les joueurs expérimentés.",
+        "difficile": "Niveau Difficile : Une grille de 8x8 pour les courageux.",
+        "expert": "Niveau Expert : Une grille de 10x10 pour les maîtres du Memory !"
+    };
+
+    // Affiche la description et charge les images
+    content.innerText = difficultyDescriptions[level];
+
+    // Charger et afficher les images pour le niveau sélectionné
+    loadImages().then(images => {
+        displayImages(level, images);
+    });
+}
+
+// Afficher les niveaux de difficulté et sélectionner le niveau par défaut
+function showDifficultyLevels() {
+    const difficultyLevels = document.getElementById('difficulty-levels');
+    difficultyLevels.style.display = 'block';
+    selectDifficulty('très facile'); // Niveau 'très facile' par défaut
+}
+
+
+
+
+
+
+
+
+_________________________________________________________________________________________________
+
+Ancien script affichage ne mettant pas en cache fetch json
+
+
+ancien script :
+
+    // Fonction avec fecth pour charger et afficher les webtoons depuis le JSON 
+function loadWebtoonsFromJson(jsonFile) {
+    fetch(jsonFile)
+        .then(response => response.json())
+        .then(data => {
+            data.categories.forEach(category => {
+                // Vérification du nom de la catégorie
+                console.log("Chargement de la catégorie :", category.name);
+                
+                // Trouver le conteneur correspondant à la catégorie
+                const container = document.getElementById(
+                    category.name.toLowerCase()
+                        .normalize("NFD")
+                        .replace(/[\u0300-\u036f]/g, "")
+                        .replace(/\s+/g, '-')
+                );
+
+                // Vérifie si le conteneur existe
+                if (container) {
+                    console.log("Conteneur trouvé pour la catégorie :", category.name);
+                    
+                    // Ajouter les webtoons de cette catégorie au conteneur
+                    category.webtoons.forEach(webtoon => {
+                        const link = document.createElement('a');
+                        link.href = `#webtoon-${webtoon.title.replace(/\s+/g, '-').toLowerCase()}-details`;
+                        const img = document.createElement('img');
+                        img.src = webtoon.image;
+                        if (webtoon.loading) {
+                            img.loading = webtoon.loading;
+                        }
+                        img.alt = webtoon.alt;
+                        
+                        link.appendChild(img);
+                        container.appendChild(link);
+
+                        link.addEventListener('click', function (event) {
+                            event.preventDefault();
+                            const targetID = this.getAttribute('href').substring(1);
+                            const targetDetail = document.getElementById(targetID);
+                            if (targetDetail) {
+                                targetDetail.style.display = 'block';
+                            }
+                        });
+                    });
+                } else {
+                    console.error("Erreur : conteneur introuvable pour la catégorie :", category.name);
+                }
+            });
+        })
+        .catch(error => console.error('Erreur lors du chargement du JSON :', error));
+}
+
+
+        

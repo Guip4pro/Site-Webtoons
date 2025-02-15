@@ -6,6 +6,7 @@
     <title> Mini-jeux Memory et Guess the webtoon </title>
     <link rel="stylesheet" type="text/css" href="../STYLES/mini-jeux.css">
     <script src="../SCRIPTS/mini-jeux.js" defer></script>
+    <script src="../SCRIPTS/memory.js" defer></script>
 </head>
 <body>
     <header>
@@ -20,52 +21,54 @@
     </header>
 
     <main>
-        
-    <img src="../RESSOURCES/banner1.webp" id="bannière" alt="Bannière d'un Webtoon" />  <!-- Rajout d'une bannière de Webtoon pour faire joli et remplir l'espace -->
-
-    <div class="game-buttons">
-        <div class="game-button">
-            <img src="../RESSOURCES/eyes-memory.jpg" alt="Image du jeu Memory" />
-            <button onclick="startMemoryGame()"> Memory </button>
-        </div>
-        <div class="game-button">
-            <img src="../IMAGES/guess-the-webtoon.jpg" alt="Image du jeu Guess the Webtoon" />
-            <button> Guess the Webtoon </button>
-        </div>
-    </div>
-
-
-
-
-
-    <div id="memory-game" class="memory-hidden">
-        <div id="memory-difficulty-selector">
-            <label for="difficulty">Niveau de difficulté : </label>
-            <select id="difficulty" onchange="updateGameBoard()">
-                <option value="4x4">Très facile (8 paires, 4x4)</option>
-                <option value="5x5">Facile (12 paires, 5x5)</option>
-                <option value="6x6">Moyen (18 paires, 6x6)</option>
-                <option value="8x8">Difficile (32 paires, 8x8)</option>
-            </select>
-        </div>
-        <div id="memory-game-board"></div>
-    </div>
-
-
-
-    <!--
-    <div id="difficulty-levels" style="display: none;">
-        <button onclick="selectDifficulty('très facile')">Très Facile</button>
-        <button onclick="selectDifficulty('facile')">Facile</button>
-        <button onclick="selectDifficulty('moyen')">Moyen</button>
-        <button onclick="selectDifficulty('difficile')">Difficile</button>
-        <button onclick="selectDifficulty('expert')">Expert</button>
-    </div>
     
-    <div id="difficulty-content">
-        Le contenu du niveau de difficulté sélectionné apparaîtra ici
-    </div>
-    -->
+
+        <img src="../RESSOURCES/scrolling-banners/banner1.webp" id="bannière" alt="Bannière d'un Webtoon" /> <!-- Rajout d'une bannière de Webtoon pour faire joli et remplir l'espace -->
+        <div id="scroll-banners"></div>
+
+        <div class="game-buttons">
+            <div class="game-button">
+                <img src="../RESSOURCES/eyes-memory.jpg" alt="Image du jeu Memory" />
+                <button onclick="startMemoryGame()"> Memory </button>
+            </div>
+            <div class="game-button">
+                <img src="../RESSOURCES/eyes1.webp" alt="Image du jeu Guess the Webtoon" />
+                <button> Guess the Webtoon </button>
+            </div>
+        </div>
+
+
+
+
+
+        <div id="memory-game" class="memory-hidden">
+            <div id="memory-difficulty-selector">
+                <label for="difficulty">Niveau de difficulté : </label>
+                <select id="difficulty" onchange="updateGameBoard()">
+                    <option value="4x4">Très facile (8 paires, 4x4)</option>
+                    <option value="5x5">Facile (12 paires, 5x5)</option>
+                    <option value="6x6">Moyen (18 paires, 6x6)</option>
+                    <option value="8x8">Difficile (32 paires, 8x8)</option>
+                </select>
+            </div>
+            <div id="memory-game-board"></div>
+        </div>
+
+
+
+        <!--
+        <div id="difficulty-levels" style="display: none;">
+            <button onclick="selectDifficulty('très facile')">Très Facile</button>
+            <button onclick="selectDifficulty('facile')">Facile</button>
+            <button onclick="selectDifficulty('moyen')">Moyen</button>
+            <button onclick="selectDifficulty('difficile')">Difficile</button>
+            <button onclick="selectDifficulty('expert')">Expert</button>
+        </div>
+        
+        <div id="difficulty-content">
+            Le contenu du niveau de difficulté sélectionné apparaîtra ici
+        </div>
+        -->
 
     </main>
 

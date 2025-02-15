@@ -154,11 +154,6 @@
             "alt": "Image : Genius of the Unique Lineage"
           },
           {
-            "title": "Golden Mage",
-            "image": "IMAGES/3-TRES BONS/golden mage/cover.avif",
-            "alt": "Image : Golden Mage"
-          },
-          {
             "title": "Heavenly Inquisition Sword",
             "image": "IMAGES/3-TRES BONS/heavenly inquisition sword/cover.avif",
             "alt": "Image : Heavenly Inquisition Sword"
@@ -279,6 +274,11 @@
             "alt": "Image : Priest of Corruption"
           },
           {
+            "title": "Ranker's Return",
+            "image": "IMAGES/3-TRES BONS/ranker's return/cover.avif",
+            "alt": "Image : Ranker's Return"
+          },
+          {
             "title": "Re: Life Player",
             "image": "IMAGES/3-TRES BONS/re life player/cover.avif",
             "alt": "Image : Re: Life Player"
@@ -312,11 +312,6 @@
             "title": "Second Life Ranker",
             "image": "IMAGES/3-TRES BONS/second life ranker/cover.avif",
             "alt": "Image : Second Life Ranker"
-          },
-          {
-            "title": "Solo Farming in the Tower",
-            "image": "IMAGES/3-TRES BONS/solo farming in the tower/cover.avif",
-            "alt": "Image : Solo Farming in the Tower"
           },
           {
             "title": "Solo Max-Level Newbie",
@@ -373,11 +368,6 @@
             "title": "The Dark Magician Transmigrates After 66,666",
             "image": "IMAGES/3-TRES BONS/the dark magician transmigrates after 66666 years/cover.webp",
             "alt": "Image : The Dark Magician Transmigrates After 66,666"
-          },
-          {
-            "title": "The Demonic Cult Leader Is Too Reluctant",
-            "image": "IMAGES/3-TRES BONS/the demonic cult leader is too reluctant/cover.avif",
-            "alt": "Image : The Demonic Cult Leader Is Too Reluctant"
           },
           {
             "title": "The Emperor's Sword",
@@ -527,7 +517,7 @@
           },
           {
             "title": "Children of the Rune",
-            "image": "IMAGES/4-BONS/children of the rune/cover.jpg",
+            "image": "IMAGES/4-BONS/children of the rune/cover.webp",
             "loading": "lazy",
             "alt": "Image : Children of the Rune"
           },
@@ -637,6 +627,11 @@
             "image": "IMAGES/4-BONS/genius assassin who takes it all/cover.webp",
             "loading": "lazy",
             "alt": "Image : Genius Assassin Who Takes It All"
+          },
+          {
+            "title": "Golden Mage",
+            "image": "IMAGES/4-BONS/golden mage/cover.avif",
+            "alt": "Image : Golden Mage"
           },
           {
             "title": "Han Dae Sung Returned From Hell",
@@ -751,12 +746,6 @@
               "image": "IMAGES/4-BONS/level up with skills/cover.jpeg",
               "loading": "lazy",
               "alt": "Image : Level Up With Skills"
-          },
-          {
-              "title": "Leveling Up By Only Eating",
-              "image": "IMAGES/4-BONS/leveling up by only eating/cover.jpg",
-              "loading": "lazy",
-              "alt": "Image : Leveling Up By Only Eating"
           },
           {
               "title": "Leveling Up With The Sword",
@@ -951,6 +940,11 @@
               "alt": "Image : Sleeping Ranker"
           },
           {
+            "title": "Solo Farming in the Tower",
+            "image": "IMAGES/4-BONS/solo farming in the tower/cover.avif",
+            "alt": "Image : Solo Farming in the Tower"
+          },
+          {
             "title": "Solo Resurrection",
             "image": "IMAGES/4-BONS/solo resurrection/cover.webp",
             "loading": "lazy",
@@ -1003,6 +997,11 @@
               "image": "IMAGES/4-BONS/the creator is on hiatus/cover.webp",
               "loading": "lazy",
               "alt": "Image : The Creator Is on Hiatus"
+          },
+          {
+            "title": "The Demonic Cult Leader Is Too Reluctant",
+            "image": "IMAGES/4-BONS/the demonic cult leader is too reluctant/cover.avif",
+            "alt": "Image : The Demonic Cult Leader Is Too Reluctant"
           },
           {
               "title": "The Extra Is Too Strong",
@@ -1215,7 +1214,7 @@
           },
           {
             "title": "Emperor of Steel",
-            "image": "IMAGES/5-INTERMEDIAIRES/emperor of steel/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/emperor of steel/cover.webp",
             "loading": "lazy",
             "alt": "Image : Emperor of Steel"
           },
@@ -1380,6 +1379,12 @@
             "image": "IMAGES/5-INTERMEDIAIRES/legendary hero is an academy honors student/cover.webp",
             "loading": "lazy",
             "alt": "Image : Legendary Hero is an Academy Honors Student"
+          },
+          {
+            "title": "Leveling Up By Only Eating",
+            "image": "IMAGES/5-INTERMEDIAIRES/leveling up by only eating/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Leveling Up By Only Eating"
           },
           {
             "title": "Leveling Up My Isekai'd Abs",
