@@ -219,6 +219,11 @@
             "alt": "Image : Leviathan"
           },
           {
+            "title": "Lookism",
+            "image": "IMAGES/3-TRES BONS/lookism/cover.webp",
+            "alt": "Image : Lookism"
+          },
+          {
             "title": "Magic Academy's Genius Blinker",
             "image": "IMAGES/3-TRES BONS/magic academy's genius blinker/cover.avif",
             "alt": "Image : Magic Academy's Genius Blinker"
@@ -664,6 +669,18 @@
             "alt": "Image : Hero Returns"
           },
           {
+            "title": "How to Raise your Skeletons",
+            "image": "IMAGES/4-BONS/how to raise your skeletons/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : How to Raise your Skeletons"
+          },
+          {
+            "title": "I am going to Destroy this Country",
+            "image": "IMAGES/4-BONS/i am going to destroy this country/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : I am going to Destroy this Country"
+          },
+          {
             "title": "I Am The Fated Villain",
             "image": "IMAGES/4-BONS/i am the fated villain/cover.jpg",
             "loading": "lazy",
@@ -1104,6 +1121,12 @@
             "image": "IMAGES/4-BONS/weapon creator/cover.jpeg",
             "loading": "lazy",
             "alt": "Image : Weapon Creator"
+          },
+          {
+            "title": "Webtoon Character Na Kang Lim",
+            "image": "IMAGES/4-BONS/webtoon character na kang lim/cover.png",
+            "loading": "lazy",
+            "alt": "Image : Webtoon Character Na Kang Lim"
           },
           {
               "title": "What's Our Hero Doing",
