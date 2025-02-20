@@ -67,6 +67,13 @@ function loadWebtoonsFromJson(jsonFile) {
                             const targetDetail = document.getElementById(targetID);
                             if (targetDetail) {
                                 targetDetail.style.display = 'block';
+
+                                // Récupérer la croix de fermeture
+                                const closePopup = targetDetail.querySelector('.close-popup');
+                                // Ajouter un événement de clic pour fermer le pop-up
+                                closePopup.onclick = function() {
+                                    targetDetail.style.display = 'none'; // Fermer le pop-up
+                                };
                             }
                         });
                     });
@@ -78,20 +85,28 @@ function loadWebtoonsFromJson(jsonFile) {
         .catch(error => console.error('Erreur lors du chargement du JSON :', error));
 }
 
-''
 
     
     // Appeler la fonction pour charger les webtoons à partir du fichier JSON
     loadWebtoonsFromJson('https://guip4pro.github.io/Site-Webtoons/RESSOURCES/data-json/all.json');   // ancien chemin relatif : '../RESSOURCES/data-json/all.json'
 
-    // Fermer le pop-up en cliquant à l'extérieur du contenu
-    window.addEventListener('click', function(event) {
+    // (Ancien système de fermeture :) Fermer le pop-up en cliquant à l'extérieur du contenu
+    /*window.addEventListener('click', function(event) {
         const openPopup = document.querySelector('.webtoon-details[style*="display: block"]');
         if (openPopup && !openPopup.contains(event.target) && !event.target.matches('.tier-grid img')) {
             openPopup.style.display = 'none';
         }
-    });
+    });*/
+
 });
+
+
+
+
+
+
+
+
 
     /* BARRE DE NAVIGATION LATERALE */
 function toggleNav() {
@@ -111,4 +126,40 @@ function tierlistMaker() {
 
 
 
-        
+    // Zoom sur Image
+// Créer le modal et ses éléments
+const modal = document.createElement("div");
+modal.className = "modal";
+const closeModal = document.createElement("span");
+closeModal.className = "close";
+closeModal.innerHTML = "&times;";
+const modalImg = document.createElement("img");
+modalImg.className = "modal-content";
+
+// Ajouter les éléments au modal
+modal.appendChild(closeModal);
+modal.appendChild(modalImg);
+document.body.appendChild(modal);
+
+// Récupérer toutes les images avec la classe "thumbnail"
+const images = document.querySelectorAll(".thumbnail");
+
+// Ajouter un événement de clic à chaque image
+images.forEach(img => {
+    img.onclick = function() {
+        modal.style.display = "block";
+        modalImg.src = this.src; // Mettre la source de l'image dans le modal
+    }
+});
+
+// Lorsque l'utilisateur clique sur (x), fermer le modal
+closeModal.onclick = function() {
+    modal.style.display = "none";
+}
+
+// Fermer le modal si l'utilisateur clique en dehors de l'image
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}

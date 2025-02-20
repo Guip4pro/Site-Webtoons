@@ -94,7 +94,7 @@ h1 {
     align-items: center;
     cursor: pointer;
     border-radius: 5px;
-    z-index: 1001;	/* Comme 1001 > 1000, alors le bouton carré sera au-dessus de la barre de navigation latérale */
+    z-index: 3;	/* Comme 2 > 3, alors le bouton carré sera au-dessus de la barre de navigation latérale */
 }
 
 /* Barre de navigation latérale */
@@ -107,7 +107,7 @@ h1 {
     background-color: rgba(0, 0, 0, 0.8);
     overflow-x: hidden;
     transition: 0.3s;
-    z-index: 1000;	/* Second z-index */
+    z-index: 2;	/* Second z-index */
     padding-top: 60px;
 }
 
@@ -256,6 +256,8 @@ h1 {
 
 
 
+
+
     /* Pop-up */
     /* animation d'opacité à l'apparition de la pop-up */
 @keyframes fadeIn {
@@ -270,14 +272,14 @@ h1 {
 
 .webtoon-details {
     display: none;		/* Permet de masquer le pop-up, qui sera affiché grâce au JS */
-    position: fixed;
+    position: fixed; /* anciennement : fixed */
     top: 50%;	/* centre le pop-up verticalement */
     left: 50%;	/* centre horizontalement */
     transform: translate(-50%, -50%);	/* Permet de centrer EXACTEMENT le pop-up */
     background-color: white;
     padding: 20px;		/* espace intérieur entre les bords du pop-up et le reste (ex : texte) */
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);	/* Petit effet d'ombre sur les bords de la boîte pour rajouter en profondeur */
-    z-index: 1000;		/* Pas vraiment utile, mais place le pop-up au-dessus de tous les éléments de m page */
+    z-index: 4;		/* Pas vraiment utile, mais place le pop-up au-dessus de tous les éléments de m page */
 	max-height: 80vh; /* Limite la hauteur maximale à 80% de la hauteur de la vue */
     overflow-y: auto; /* Ajoute un scroll si le contenu dépasse la hauteur maximale */
 	animation: fadeIn 0.5s ease-in-out;
@@ -352,6 +354,74 @@ h1 {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Ombre esthétique */
     margin: 5px; /* Espacement supplémentaire autour des images */
 }
+
+    /* Bouton en forme de Croix pour fermer le pop-up */
+.close-popup {
+    cursor: pointer;
+    position: sticky;   /* Chiant mais permet que la croix défile vers le bas en même temps que le pop-up */
+    top: 0; /* Jsp pk mais essentielle, sinon la croix ne bougera pas */
+    left: 600px; /* Distance de la droite */
+    font-size: 40px; /* Taille de la croix */
+    color: black;
+    transition: color 0.3s ease, transform 0.3s ease; /* Transition pour la couleur et la transformation */
+    z-index: 10; /* S'assurer qu'elle est au-dessus des autres éléments */
+}
+
+.close-popup:hover {
+    color: red; /* Changer la couleur au survol */
+    transform: scale(1.1); /* Agrandir légèrement au survol */
+}
+
+
+
+
+
+
+
+    /* Zoom sur Image */
+.thumbnail {
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.2s; /* Animation pour l'effet de survol */
+}
+
+.thumbnail:hover {
+    transform: perspective(500px) rotateY(10deg);
+}
+
+/* Crée en JS */
+.modal {
+    display: none; /* Masquer le modal par défaut */
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Fond semi-transparent */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: auto;	/* 80% */
+    height: 620px;
+    max-width: 700px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
 
 
 
