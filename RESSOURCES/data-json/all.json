@@ -74,6 +74,11 @@
             "alt": "Image : Surviving the Game as a Barbarian"
           },
           {
+            "title": "The Beginning After the End",
+            "image": "IMAGES/2-EXCELLENTS/the beginning after the end/cover.avif",
+            "alt": "Image : The Beginning After the End"
+          },
+          {
             "title": "The Swordmaster's Youngest Son",
             "image": "IMAGES/2-EXCELLENTS/the swordmaster's youngest son/cover.avif",
             "alt": "Image : The Swordmaster's Youngest Son"
@@ -355,11 +360,6 @@
             "alt": "Image : The Academy’s Sashimi Sword Master"
           },
           {
-            "title": "The Beginning After the End",
-            "image": "IMAGES/3-TRES BONS/the beginning after the end/cover.avif",
-            "alt": "Image : The Beginning After the End"
-          },
-          {
             "title": "The Constellations Are My Disciples",
             "image": "IMAGES/3-TRES BONS/the constellations are my disciples/cover.webp",
             "alt": "Image : The Constellations Are My Disciples"
@@ -440,6 +440,11 @@
             "alt": "Image : The Tutorial Is Too Hard"
           },
           {
+            "title": "The Villain Wants to Live",
+            "image": "IMAGES/3-TRES BONS/the villain wants to live/cover.avif",
+            "alt": "Image : The Villain Wants to Live"
+          },
+          {
             "title": "Warrior High School",
             "image": "IMAGES/3-TRES BONS/warrior high school/cover.avif",
             "alt": "Image : Warrior High School"
@@ -465,6 +470,11 @@
             "image": "IMAGES/4-BONS/absolute necromancer/cover.jpg",
             "loading": "lazy",
             "alt": "Image : Absolute Necromancer"
+          },
+          {
+            "title": "Académie Transcendance",
+            "image": "IMAGES/4-BONS/académie transcendance/cover.avif",
+            "alt": "Image : Académie Transcendance"
           },
           {
             "title": "Academy's Genius Swordmaster",
@@ -504,19 +514,19 @@
           },
           {
             "title": "Blood Knight's Villains",
-            "image": "IMAGES/4-BONS/blood knight's villains/cover.png",
+            "image": "IMAGES/4-BONS/blood knight's villains/cover.avif",
             "loading": "lazy",
             "alt": "Image : Blood Knight's Villains"
           },
           {
             "title": "Chaotic Guard Captain in a Fantasy World",
-            "image": "IMAGES/4-BONS/chaotic guard captain in a fantasy world/cover.png",
+            "image": "IMAGES/4-BONS/chaotic guard captain in a fantasy world/cover.webp",
             "loading": "lazy",
             "alt": "Image : Chaotic Guard Captain in a Fantasy World"
           },
           {
             "title": "Childhood Friend of the Zenith",
-            "image": "IMAGES/4-BONS/childhood friend of the zenith/cover.webp",
+            "image": "IMAGES/4-BONS/childhood friend of the zenith/cover.avif",
             "loading": "lazy",
             "alt": "Image : Childhood friend of the Zenith"
           },
@@ -534,13 +544,13 @@
           },
           {
             "title": "Chronicles of the Martial God's Return",
-            "image": "IMAGES/4-BONS/chronicles of the martial god's return/cover.webp",
+            "image": "IMAGES/4-BONS/chronicles of the martial god's return/cover.avif",
             "loading": "lazy",
             "alt": "Image : Chronicles of the Martial God's Return"
           },
           {
             "title": "Chronicles of the Reincarnated Demon God",
-            "image": "IMAGES/4-BONS/chronicles of the reincarnated demon god/cover.jpg",
+            "image": "IMAGES/4-BONS/chronicles of the reincarnated demon god/cover.avif",
             "loading": "lazy",
             "alt": "Image : Chronicles of the Reincarnated Demon God"
           },
@@ -582,7 +592,7 @@
           },
           {
             "title": "Dragon-Devouring Mage",
-            "image": "IMAGES/4-BONS/dragon-devouring mage/cover.webp",
+            "image": "IMAGES/4-BONS/dragon-devouring mage/cover.avif",
             "loading": "lazy",
             "alt": "Image : Dragon-Devouring Mage"
           },
@@ -646,7 +656,7 @@
           },
           {
             "title": "Hand Over The Money",
-            "image": "IMAGES/4-BONS/hand over the money/cover.jpg",
+            "image": "IMAGES/4-BONS/hand over the money/cover.avif",
             "loading": "lazy",
             "alt": "Image : Hand Over The Money"
           },
@@ -682,7 +692,7 @@
           },
           {
             "title": "I Am The Fated Villain",
-            "image": "IMAGES/4-BONS/i am the fated villain/cover.jpg",
+            "image": "IMAGES/4-BONS/i am the fated villain/cover.avif",
             "loading": "lazy",
             "alt": "Image : I Am The Fated Villain"
           },
@@ -712,13 +722,13 @@
           },
           {
               "title": "In The Night Consumed By Blades",
-              "image": "IMAGES/4-BONS/in the night consumed by blades/cover.webp",
+              "image": "IMAGES/4-BONS/in the night consumed by blades/cover.avif",
               "loading": "lazy",
               "alt": "Image : In The Night Consumed By Blades"
           },
           {
             "title": "Junevile Law",
-            "image": "IMAGES/4-BONS/junevile law/cover.webp",
+            "image": "IMAGES/4-BONS/junevile law/cover.avif",
             "loading": "lazy",
             "alt": "Image : Junevile Law"
           },
@@ -729,8 +739,14 @@
               "alt": "Image : Kill The Dragon"
           },
           {
+            "title": "King of the Arena",
+            "image": "IMAGES/4-BONS/king of the arena/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : King of the Arena"
+          },
+          {
               "title": "Knight King Who Returned With A God",
-              "image": "IMAGES/4-BONS/knight king who returned with a god/cover.jpg",
+              "image": "IMAGES/4-BONS/knight king who returned with a god/cover.avif",
               "loading": "lazy",
               "alt": "Image : Knight King Who Returned With A God"
           },
@@ -754,7 +770,7 @@
           },
           {
               "title": "Legendary Youngest Son",
-              "image": "IMAGES/4-BONS/legendary youngest son/cover.webp",
+              "image": "IMAGES/4-BONS/legendary youngest son/cover.avif",
               "loading": "lazy",
               "alt": "Image : Legendary Youngest Son"
           },
@@ -778,9 +794,15 @@
           },
           {
             "title": "Logging 10,000 Years into the Future",
-            "image": "IMAGES/4-BONS/logging 10,000 years into the future/cover.png",
+            "image": "IMAGES/4-BONS/logging 10,000 years into the future/cover.avif",
             "loading": "lazy",
             "alt": "Image : Logging 10,000 Years into the Future"
+          },
+          {
+            "title": "Love Letter from the Future",
+            "image": "IMAGES/4-BONS/love letter from the future/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Love Letter from the Future"
           },
           {
               "title": "Magic Academy Survival Guide",
@@ -796,7 +818,7 @@
           },
           {
             "title": "Max Level Player",
-            "image": "IMAGES/4-BONS/max level player/cover.webp",
+            "image": "IMAGES/4-BONS/max level player/cover.avif",
             "loading": "lazy",
             "alt": "Image : Max Level Player"
           },
@@ -808,7 +830,7 @@
           },
           {
               "title": "Mercenary Enrollment",
-              "image": "IMAGES/4-BONS/mercenary enrollment/cover.webp",
+              "image": "IMAGES/4-BONS/mercenary enrollment/cover.avif",
               "loading": "lazy",
               "alt": "Image : Mercenary Enrollment"
           },
@@ -817,6 +839,11 @@
               "image": "IMAGES/4-BONS/mightiest melee magician/cover.jpg",
               "loading": "lazy",
               "alt": "Image : Mightiest Melee Magician"
+          },
+          {
+            "title": "Mookhyang - Dark Lady",
+            "image": "IMAGES/4-BONS/mookhyang - dark lady/cover.webp",
+            "alt": "Image : Mookhyang - Dark Lady"
           },
           {
               "title": "My Little Brother Is The Academy's Hotshot",
@@ -837,6 +864,12 @@
               "alt": "Image : Player Who Can't Level Up"
           },
           {
+            "title": "Pour ne pas mourir",
+            "image": "IMAGES/4-BONS/pour ne pas mourir/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Pour ne pas Mourir / To not Die"
+        },
+          {
               "title": "Rebirth Of An 8th-Circled Wizard",
               "image": "IMAGES/4-BONS/rebirth of an 8th-circled wizard/cover.jpg",
               "loading": "lazy",
@@ -844,7 +877,7 @@
           },
           {
               "title": "Reborn As The Enemy Prince",
-              "image": "IMAGES/4-BONS/reborn as the enemy prince/cover.jpg",
+              "image": "IMAGES/4-BONS/reborn as the enemy prince/cover.avif",
               "loading": "lazy",
               "alt": "Image : Reborn As The Enemy Prince"
           },
@@ -874,13 +907,13 @@
           },
           {
             "title": "Reincarnated As A Legendary Grimoire",
-            "image": "IMAGES/4-BONS/reincarnated as a legendary grimoire/cover.webp",
+            "image": "IMAGES/4-BONS/reincarnated as a legendary grimoire/cover.avif",
             "loading": "lazy",
             "alt": "Image : Reincarnated As A Legendary Grimoire"
           },
           {
               "title": "Reincarnation of the Warrior Party Archmage",
-              "image": "IMAGES/4-BONS/reincarnation of the warrior party archmage/cover.webp",
+              "image": "IMAGES/4-BONS/reincarnation of the warrior party archmage/cover.avif",
               "loading": "lazy",
               "alt": "Image : Reincarnation of the Warrior Party Archmage"
           },
@@ -922,7 +955,7 @@
           },
           {
               "title": "Return to Player",
-              "image": "IMAGES/4-BONS/return to player/cover.webp",
+              "image": "IMAGES/4-BONS/return to player/cover.avif",
               "loading": "lazy",
               "alt": "Image : Return to Player"
           },
@@ -963,7 +996,7 @@
           },
           {
             "title": "Solo Resurrection",
-            "image": "IMAGES/4-BONS/solo resurrection/cover.webp",
+            "image": "IMAGES/4-BONS/solo resurrection/cover.avif",
             "loading": "lazy",
             "alt": "Image : Solo Resurrection"
           },
@@ -1011,7 +1044,7 @@
           },
           {
               "title": "The Creator Is on Hiatus",
-              "image": "IMAGES/4-BONS/the creator is on hiatus/cover.webp",
+              "image": "IMAGES/4-BONS/the creator is on hiatus/cover.avif",
               "loading": "lazy",
               "alt": "Image : The Creator Is on Hiatus"
           },
@@ -1028,7 +1061,7 @@
           },
           {
               "title": "The God of Blackfield",
-              "image": "IMAGES/4-BONS/the god of blackfield/cover.jpg",
+              "image": "IMAGES/4-BONS/the god of blackfield/cover.avif",
               "loading": "lazy",
               "alt": "Image : The God of Blackfield"
           },
@@ -1046,7 +1079,7 @@
           },
           {
             "title": "The Hero Became the Duke's Eldest Son",
-            "image": "IMAGES/4-BONS/the hero became the duke's eldest son/cover.jpg",
+            "image": "IMAGES/4-BONS/the hero became the duke's eldest son/cover.avif",
             "loading": "lazy",
             "alt": "Image : The Hero Became the Duke's Eldest Son"
           },
@@ -1076,7 +1109,7 @@
           },
           {
               "title": "The Reincarnated Assassin Is a Genius Swordsman",
-              "image": "IMAGES/4-BONS/the reincarnated assassin is a genius swordsman/cover.webp",
+              "image": "IMAGES/4-BONS/the reincarnated assassin is a genius swordsman/cover.avif",
               "loading": "lazy",
               "alt": "Image : The Reincarnated Assassin Is a Genius Swordsman"
           },
@@ -1088,7 +1121,7 @@
           },
           {
               "title": "Trash of the Count's Family",
-              "image": "IMAGES/4-BONS/trash of the count's family/cover.webp",
+              "image": "IMAGES/4-BONS/trash of the count's family/cover.avif",
               "loading": "lazy",
               "alt": "Image : Trash of the Count's Family"
           },
@@ -1100,13 +1133,13 @@
           },
           {
             "title": "Valhalla Saga",
-            "image": "IMAGES/4-BONS/valhalla saga/cover.png",
+            "image": "IMAGES/4-BONS/valhalla saga/cover.avif",
             "loading": "lazy",
             "alt": "Image : Valhalla Saga"
           },
           {
               "title": "Vice Lord's Rebirth",
-              "image": "IMAGES/4-BONS/vice lord's rebirth/cover.webp",
+              "image": "IMAGES/4-BONS/vice lord's rebirth/cover.avif",
               "loading": "lazy",
               "alt": "Image : Vice Lord's Rebirth"
           },
@@ -1117,6 +1150,12 @@
               "alt": "Image : Villain to Kill"
           },
           {
+            "title": "Villains Are Destined to Die",
+            "image": "IMAGES/4-BONS/villains are destined to die/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Villains Are Destined to Die"
+          },
+          {
             "title": "Weapon Creator",
             "image": "IMAGES/4-BONS/weapon creator/cover.jpeg",
             "loading": "lazy",
@@ -1124,7 +1163,7 @@
           },
           {
             "title": "Webtoon Character Na Kang Lim",
-            "image": "IMAGES/4-BONS/webtoon character na kang lim/cover.png",
+            "image": "IMAGES/4-BONS/webtoon character na kang lim/cover.avif",
             "loading": "lazy",
             "alt": "Image : Webtoon Character Na Kang Lim"
           },
@@ -1142,7 +1181,7 @@
           },
           {
               "title": "Worn and Torn Newbie",
-              "image": "IMAGES/4-BONS/worn and torn newbie/cover.jpg",
+              "image": "IMAGES/4-BONS/worn and torn newbie/cover.avif",
               "loading": "lazy",
               "alt": "Image : Worn and Torn Newbie"
           },
@@ -1180,6 +1219,12 @@
             "image": "IMAGES/5-INTERMEDIAIRES/adoptee par la famille des assassins/cover.webp",
             "loading": "lazy",
             "alt": "Image : Adoptée Par La Famille Des Assassins"
+          },
+          {
+            "title": "Arena",
+            "image": "IMAGES/5-INTERMEDIAIRES/arena/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Arena"
           },
           {
             "title": "Belle-mère en Mode Survie",
@@ -1300,6 +1345,12 @@
             "image": "IMAGES/5-INTERMEDIAIRES/hidden class gravity user/cover.webp",
             "loading": "lazy",
             "alt": "Image : Hidden Class Gravity User"
+          },
+          {
+            "title": "Hiding a Logistics Center in the Apocalypse",
+            "image": "IMAGES/5-INTERMEDIAIRES/hiding a logistics center in the apocalypse/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Hiding a Logistics Center in the Apocalypse"
           },
           {
             "title": "Holy Emperor's Grandson Is A Necromancer",
@@ -1540,6 +1591,12 @@
             "image": "IMAGES/5-INTERMEDIAIRES/return of the ninth-class swordmaster/cover.jpg",
             "loading": "lazy",
             "alt": "Image : Return of the Ninth-Class Swordmaster"
+          },
+          {
+            "title": "Return Your Soul",
+            "image": "IMAGES/5-INTERMEDIAIRES/return your soul/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Return Your Soul"
           },
           {
             "title": "Returned as a Martial Genius",
@@ -1853,10 +1910,10 @@
             "alt": "Image : Konjiki no Moji Tsukai"
           },
           {
-            "title": "La Lady Solitaire",
-            "image": "IMAGES/6-MOYENS/la lady solitaire/cover.jpg",
+            "title": "La Mariée du roi Dragon",
+            "image": "IMAGES/6-MOYENS/la mariee du roi dragon/cover.jpg",
             "loading": "lazy",
-            "alt": "Image : La Lady Solitaire"
+            "alt": "Image : La Mariée du roi Dragon"
           },
           {
             "title": "La Petite Princesse Bien-Aimée",
@@ -1937,6 +1994,12 @@
             "alt": "Image : Moto Shogun no Undead Knight"
           },
           {
+            "title": "My Child will have a Different Father",
+            "image": "IMAGES/6-MOYENS/my child will have a different father/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : My Child will have a Different Father"
+          },
+          {
             "title": "Nihonkoku Shoukan",
             "image": "IMAGES/6-MOYENS/nihonkoku shoukan/cover.webp",
             "loading": "lazy",
@@ -2001,6 +2064,12 @@
             "image": "IMAGES/6-MOYENS/solo auto-hunting/cover.webp",
             "loading": "lazy",
             "alt": "Image : Solo Auto-Hunting"
+          },
+          {
+            "title": "Suicide Boy",
+            "image": "IMAGES/6-MOYENS/suicide boy/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Suicide Boy"
           },
           {
             "title": "The Ex-Number One Beginner",
