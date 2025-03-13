@@ -89,11 +89,6 @@
         "name": "Tres Bons",
         "webtoons": [
           {
-            "title": "Académie Transcendance",
-            "image": "IMAGES/3-TRES BONS/académie transcendance/cover.avif",
-            "alt": "Image : Académie Transcendance"
-          },
-          {
             "title": "Academy's Undercover Professor",
             "image": "IMAGES/3-TRES BONS/academy's undercover professor/cover.webp",
             "alt": "Image : Academy's Undercover Professor"
@@ -200,7 +195,7 @@
           },
           {
             "title": "Le Sens de l'Épée",
-            "image": "IMAGES/3-TRES BONS/le sens de l'épée/cover.webp",
+            "image": "IMAGES/3-TRES BONS/le sens de l'épée/covergif.gif",
             "alt": "Image : Le Sens de l'Épée"
           },
           {
@@ -237,11 +232,6 @@
             "title": "Martial Arts Reigns",
             "image": "IMAGES/3-TRES BONS/martial arts reigns/cover.avif",
             "alt": "Image : Martial Arts Reigns"
-          },
-          {
-            "title": "Mookhyang - Dark Lady",
-            "image": "IMAGES/3-TRES BONS/mookhyang - dark lady/cover.webp",
-            "alt": "Image : Mookhyang - Dark Lady"
           },
           {
             "title": "Moon-Shadow Sword Emperor",
@@ -740,13 +730,13 @@
           },
           {
             "title": "King of the Arena",
-            "image": "IMAGES/4-BONS/king of the arena/cover.avif",
+            "image": "IMAGES/4-BONS/king of the arena/cover.webp",
             "loading": "lazy",
             "alt": "Image : King of the Arena"
           },
           {
               "title": "Knight King Who Returned With A God",
-              "image": "IMAGES/4-BONS/knight king who returned with a god/cover.avif",
+              "image": "IMAGES/4-BONS/knight king who returned with a god/cover.webp",
               "loading": "lazy",
               "alt": "Image : Knight King Who Returned With A God"
           },
@@ -865,7 +855,7 @@
           },
           {
             "title": "Pour ne pas mourir",
-            "image": "IMAGES/4-BONS/pour ne pas mourir/cover.avif",
+            "image": "IMAGES/4-BONS/pour ne pas mourir/cover.webp",
             "loading": "lazy",
             "alt": "Image : Pour ne pas Mourir / To not Die"
         },
@@ -931,7 +921,7 @@
           },
           {
               "title": "Return of the Frozen Player",
-              "image": "IMAGES/4-BONS/return of the frozen player/cover.webp",
+              "image": "IMAGES/4-BONS/return of the frozen player/cover.avif",
               "loading": "lazy",
               "alt": "Image : Return of the Frozen Player"
           },
