@@ -289,6 +289,11 @@
             "alt": "Image : Reaper of the Drifting Moon"
           },
           {
+            "title": "Regressor of the Fallen Family",
+            "image": "IMAGES/3-TRES BONS/regressor of the fallen family/cover.webp",
+            "alt": "Image : Regressor of the Fallen Family"
+          },
+          {
             "title": "Reincarnation of the Suicidal Battle God",
             "image": "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/cover.avif",
             "alt": "Image : Reincarnation of the Suicidal Battle God"
@@ -326,7 +331,6 @@
           {
             "title": "SSS-Class Suicide Hunter",
             "image": "IMAGES/3-TRES BONS/sss-class suicide hunter/cover.avif",
-            "loading": "lazy",
             "alt": "Image : SSS-Class Suicide Hunter"
           },
           {
@@ -365,11 +369,6 @@
             "alt": "Image : The Dark Magician Transmigrates After 66,666"
           },
           {
-            "title": "The Emperor's Sword",
-            "image": "IMAGES/3-TRES BONS/the emperor's sword/cover.avif",
-            "alt": "Image : The Emperor's Sword"
-          },
-          {
             "title": "The Executioner",
             "image": "IMAGES/3-TRES BONS/the executioner/cover.avif",
             "alt": "Image : The Executioner"
@@ -383,6 +382,11 @@
             "title": "The Great Mage Returns After 4000 Years",
             "image": "IMAGES/3-TRES BONS/the great mage returns after 4000 years/cover.avif",
             "alt": "Image : The Great Mage Returns After 4000 Years"
+          },
+          {
+            "title": "The Greatest Estate Developer",
+            "image": "IMAGES/3-TRES BONS/the greatest estate developer/cover.jpg",
+            "alt": "Image : The Greatest Estate Developer"
           },
           {
             "title": "The Indomitable Martial King",
@@ -433,6 +437,11 @@
             "title": "The Villain Wants to Live",
             "image": "IMAGES/3-TRES BONS/the villain wants to live/cover.avif",
             "alt": "Image : The Villain Wants to Live"
+          },
+          {
+            "title": "Tower of God",
+            "image": "IMAGES/3-TRES BONS/tower of god/cover.avif",
+            "alt": "Image : Tower of God"
           },
           {
             "title": "Warrior High School",
@@ -599,6 +608,12 @@
             "alt": "Image : Dungeon Odyssey"
           },
           {
+            "title": "Duke Pendragon",
+            "image": "IMAGES/4-BONS/duke pendragon/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Duke Pendragon"
+          },
+          {
             "title": "Dungeon Reset",
             "image": "IMAGES/4-BONS/dungeon reset/cover.jpg",
             "alt": "Image : Dungeon Reset"
@@ -669,6 +684,12 @@
             "alt": "Image : Hero Returns"
           },
           {
+            "title": "Hiding Out in an Apocalypse",
+            "image": "IMAGES/4-BONS/hiding out in an apocalypse/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Hiding Out in an Apocalypse"
+          },
+          {
             "title": "How to Raise your Skeletons",
             "image": "IMAGES/4-BONS/how to raise your skeletons/cover.avif",
             "loading": "lazy",
@@ -685,6 +706,12 @@
             "image": "IMAGES/4-BONS/i am the fated villain/cover.avif",
             "loading": "lazy",
             "alt": "Image : I Am The Fated Villain"
+          },
+          {
+            "title": "I Became an Evolving Space Monster",
+            "image": "IMAGES/4-BONS/i became an evolving space monster/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : I Became an Evolving Space Monster"
           },
           {
               "title": "I Grow Stronger By Eating",
@@ -833,7 +860,14 @@
           {
             "title": "Mookhyang - Dark Lady",
             "image": "IMAGES/4-BONS/mookhyang - dark lady/cover.webp",
+            "loading": "lazy",
             "alt": "Image : Mookhyang - Dark Lady"
+          },
+          {
+            "title": "Mount Hua Sect's Genius Phantom Swordsman",
+            "image": "IMAGES/4-BONS/mount hua sect's genius phantom swordsman/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Mount Hua Sect's Genius Phantom Swordsman"
           },
           {
               "title": "My Little Brother Is The Academy's Hotshot",
@@ -882,12 +916,6 @@
               "image": "IMAGES/4-BONS/regressing with the king's power/cover.jpg",
               "loading": "lazy",
               "alt": "Image : Regressing With The King's Power"
-          },
-          {
-              "title": "Regressor of the Fallen Family",
-              "image": "IMAGES/4-BONS/regressor of the fallen family/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : Regressor of the Fallen Family"
           },
           {
             "title": "Reincarnated as a Genius Prodigy of a Prestigious Family",
@@ -991,6 +1019,12 @@
             "alt": "Image : Solo Resurrection"
           },
           {
+            "title": "Special Civil Servant",
+            "image": "IMAGES/4-BONS/special civil servant/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Special Civil Servant"
+          },
+          {
               "title": "Stuck in the Tower",
               "image": "IMAGES/4-BONS/stuck in the tower/cover.jpeg",
               "loading": "lazy",
@@ -1044,6 +1078,12 @@
             "alt": "Image : The Demonic Cult Leader Is Too Reluctant"
           },
           {
+            "title": "The Emperor's Sword",
+            "image": "IMAGES/4-BONS/the emperor's sword/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : The Emperor's Sword"
+          },
+          {
               "title": "The Extra Is Too Strong",
               "image": "IMAGES/4-BONS/the extra is too strong/cover.avif",
               "loading": "lazy",
@@ -1054,12 +1094,6 @@
               "image": "IMAGES/4-BONS/the god of blackfield/cover.avif",
               "loading": "lazy",
               "alt": "Image : The God of Blackfield"
-          },
-          {
-            "title": "The Greatest Estate Developer",
-            "image": "IMAGES/4-BONS/the greatest estate developer/cover.jpg",
-            "loading": "lazy",
-            "alt": "Image : The Greatest Estate Developer"
           },
           {
               "title": "The Hammer",
