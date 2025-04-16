@@ -63,6 +63,7 @@ async function updateGameBoard() {
 
             card.dataset.image = imgData.src; // Stocke l'image pour comparaison
             card.dataset.flipped = "false"; // État de la carte (retournée ou pas)
+            card.classList.add('no-hover'); // désactive l'effet hover au début
 
             // Ajoute au plateau
             gameBoard.appendChild(card);
@@ -83,10 +84,13 @@ async function updateGameBoard() {
                         // Paire trouvée
                         firstCard.dataset.flipped = "true";
                         secondCard.dataset.flipped = "true";
+
+                        firstCard.classList.add('found');
+                        secondCard.classList.add('found');
+
                         matchedPairs++;
-
                         resetTurn();
-
+                    
                         // Vérifie si le jeu est gagné
                         if (matchedPairs === numPairs) {
                             setTimeout(() => {
@@ -105,6 +109,25 @@ async function updateGameBoard() {
             });
         });
 
+            // Récupérer l'élément de compte à rebours
+        const countdownElement = document.getElementById('memory-countdown');
+        countdownElement.classList.remove('hidden'); // Affiche le compte à rebours
+
+        let countdown = 5;
+        countdownElement.textContent = countdown;
+
+        // Démarre le compte à rebours visuel
+        const countdownInterval = setInterval(() => {
+            countdown--;
+            if (countdown > 0) {
+                countdownElement.textContent = countdown;
+            } else {
+                clearInterval(countdownInterval);
+                countdownElement.classList.add('hidden'); // Cache le compte à rebours quand terminé
+            }
+        }, 1000);
+
+
         // Affiche toutes les cartes pendant 5 secondes, puis les cache
         setTimeout(() => {
             document.querySelectorAll('.memory-card').forEach(card => {
@@ -112,6 +135,8 @@ async function updateGameBoard() {
                 const backImg = card.querySelector('.card-back');
                 frontImg.style.display = 'none';
                 backImg.style.display = 'block';
+
+                card.classList.remove('no-hover'); // réactive effet hover
             });
             lockBoard = false; // Active les clics
         }, 5000);
