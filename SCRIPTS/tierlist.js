@@ -1,155 +1,165 @@
-// Fonction de mélange (jsp comment elle fonctionne)
-function shuffleArray(array) {
-    return array
-        .map(value => ({ value, sort: Math.random() }))
-        .sort((a, b) => a.sort - b.sort)
-        .map(({ value }) => value);
-}
+// Attend que tout le contenu HTML soit entièrement chargé avant d'exécuter le JS
+document.addEventListener('DOMContentLoaded', function () {
+    const webtoonLinks = document.querySelectorAll('.tier-grid a');
+    const tierContainer = document.getElementById("intermediaires");
 
-let firstCard = null;
-let secondCard = null;
-let lockBoard = true;
-let matchedPairs = 0;
-let countdownInterval = null;
-let currentCards = [];
-
-function startMemoryGame() {
-    const memoryGame = document.getElementById('memory-game');
-    const difficultySelector = document.getElementById('memory-difficulty-selector');
-
-    memoryGame.classList.remove('memory-hidden');
-    difficultySelector.classList.remove('hidden');
-
-    updateGameBoard();
-}
-
-async function updateGameBoard() {
-    if (countdownInterval) {
-        clearInterval(countdownInterval);
-        countdownInterval = null;
-    }
-
-    const difficulty = document.getElementById('difficulty').value;
-    const gameBoard = document.getElementById('memory-game-board');
-
-    gameBoard.innerHTML = "";
-    matchedPairs = 0;
-    firstCard = null;
-    secondCard = null;
-    lockBoard = true;
-    currentCards = [];
-
-    let [rows, cols] = difficulty.split('x').map(Number);
-    const totalCards = rows * cols;
-    const numPairs = totalCards / 2;
-
-    try {
-        const response = await fetch("../RESSOURCES/data-json/img-memory.json");
-        const memoryImages = await response.json();
-
-        const selectedImages = shuffleArray(memoryImages).slice(0, numPairs);
-        const pairedImages = shuffleArray([...selectedImages, ...selectedImages]);
-
-        gameBoard.style.gridTemplateRows = `repeat(${rows}, 1fr)`;
-        gameBoard.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
-
-        const fragment = document.createDocumentFragment();
-
-        pairedImages.forEach((imgData) => {
-            const card = document.createElement('div');
-            card.classList.add('memory-card', 'no-hover');
-            card.dataset.image = imgData.src;
-            card.dataset.flipped = "false";
-
-            const backImg = document.createElement('img');
-            backImg.src = "../RESSOURCES/img-memory/img-dos.jpg";
-            backImg.alt = "Image de dos";
-            backImg.classList.add('card-back');
-
-            const frontImg = document.createElement('img');
-            frontImg.src = imgData.src;
-            frontImg.alt = imgData.alt;
-            frontImg.classList.add('card-front');
-            frontImg.style.display = 'block';
-
-            card.append(backImg, frontImg);
-            fragment.appendChild(card);
-
-            card.addEventListener('click', () => handleCardClick(card, numPairs));
-            currentCards.push(card);
-        });
-
-        gameBoard.appendChild(fragment);
-
-        const countdownElement = document.getElementById('memory-countdown');
-        let countdown = 5;
-        countdownElement.textContent = countdown;
-        countdownElement.classList.remove('hidden');
-
-        currentCards.forEach(card => {
-            card.querySelector('.card-back').style.display = 'none';
-            card.querySelector('.card-front').style.display = 'block';
-        });
-
-        countdownInterval = setInterval(() => {
-            countdown--;
-            countdownElement.textContent = countdown;
-            if (countdown <= 0) {
-                clearInterval(countdownInterval);
-                countdownInterval = null;
-                countdownElement.classList.add('hidden');
-
-                currentCards.forEach(card => {
-                    unflipCard(card);
-                    card.classList.remove('no-hover');
-                });
-                lockBoard = false;
+    
+    // Ouvre un pop-up lorsque l'image est cliquée
+    webtoonLinks.forEach(link => {
+        link.addEventListener('click', function (event) {
+            event.preventDefault();
+            const targetID = this.getAttribute('href').substring(1);
+            const targetDetail = document.getElementById(targetID);
+            if (targetDetail) {
+                targetDetail.style.display = 'block';
             }
-        }, 1000);
+        });
+    });
 
-    } catch (error) {
-        console.error("Erreur lors du chargement des images :", error);
+
+/*
+fetch('RESSOURCES/data-json/all.json')
+.then(response => {
+    if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
     }
+    return response.json();
+})
+.then(data => {
+    console.log('Données JSON chargées :', data);
+})
+.catch(error => console.error('Erreur lors du chargement du JSON :', error));
+*/
+
+function loadWebtoonsFromJson(jsonFile) {
+    fetch(`${jsonFile}?v=${Date.now()}`)  // Ajout du paramètre pour éviter le cache
+        .then(response => response.json())
+        .then(data => {
+            data.categories.forEach(category => {
+                console.log("Chargement de la catégorie :", category.name);
+                
+                const container = document.getElementById(
+                    category.name.toLowerCase()
+                        .normalize("NFD")
+                        .replace(/[\u0300-\u036f]/g, "")
+                        .replace(/\s+/g, '-')
+                );
+
+                if (container) {
+                    console.log("Conteneur trouvé pour la catégorie :", category.name);
+                    
+                    category.webtoons.forEach(webtoon => {
+                        const link = document.createElement('a');
+                        link.href = `#webtoon-${webtoon.title.replace(/\s+/g, '-').toLowerCase()}-details`;
+                        const img = document.createElement('img');
+                        img.src = webtoon.image;
+                        if (webtoon.loading) {
+                            img.loading = webtoon.loading;
+                        }
+                        img.alt = webtoon.alt;
+                        
+                        link.appendChild(img);
+                        container.appendChild(link);
+
+                        link.addEventListener('click', function (event) {
+                            event.preventDefault();
+                            const targetID = this.getAttribute('href').substring(1);
+                            const targetDetail = document.getElementById(targetID);
+                            if (targetDetail) {
+                                targetDetail.style.display = 'block';
+
+                                // Récupérer la croix de fermeture
+                                const closePopup = targetDetail.querySelector('.close-popup');
+                                // Ajouter un événement de clic pour fermer le pop-up
+                                closePopup.onclick = function() {
+                                    targetDetail.style.display = 'none'; // Fermer le pop-up
+                                };
+                            }
+                        });
+                    });
+                } else {
+                    console.error("Erreur : conteneur introuvable pour la catégorie :", category.name);
+                }
+            });
+        })
+        .catch(error => console.error('Erreur lors du chargement du JSON :', error));
 }
 
-function handleCardClick(card, numPairs) {
-    if (lockBoard || card.dataset.flipped === "true") return;
-    flipCard(card);
-    if (!firstCard) {
-        firstCard = card;
-    } else {
-        secondCard = card;
-        lockBoard = true;
-        if (firstCard.dataset.image === secondCard.dataset.image) {
-            firstCard.dataset.flipped = secondCard.dataset.flipped = "true";
-            firstCard.classList.add('found');
-            secondCard.classList.add('found');
-            matchedPairs++;
-            resetTurn();
-            if (matchedPairs === numPairs) {
-                setTimeout(() => alert("🎉 Bravo ! Tu as gagné !"), 500);
-            }
-        } else {
-            setTimeout(() => {
-                unflipCard(firstCard);
-                unflipCard(secondCard);
-                resetTurn();
-            }, 1000);
+
+    
+    // Appeler la fonction pour charger les webtoons à partir du fichier JSON
+    loadWebtoonsFromJson('https://guip4pro.github.io/Site-Webtoons/RESSOURCES/data-json/all.json');   // ancien chemin relatif : '../RESSOURCES/data-json/all.json'
+
+    // (Ancien système de fermeture :) Fermer le pop-up en cliquant à l'extérieur du contenu
+    /*window.addEventListener('click', function(event) {
+        const openPopup = document.querySelector('.webtoon-details[style*="display: block"]');
+        if (openPopup && !openPopup.contains(event.target) && !event.target.matches('.tier-grid img')) {
+            openPopup.style.display = 'none';
         }
+    });*/
+
+});
+
+
+
+
+
+
+
+
+
+    /* BARRE DE NAVIGATION LATERALE */
+function toggleNav() {
+    const nav = document.getElementById("sidebarNav");
+    if (nav.style.width === "250px") {
+        nav.style.width = "0";
+    } else {
+        nav.style.width = "250px";
     }
 }
 
-function flipCard(card) {
-    card.querySelector('.card-back').style.display = 'none';
-    card.querySelector('.card-front').style.display = 'block';
+    /* CREER SA PROPRE TIER LIST */
+function tierlistMaker() {
+    alert("Fonctionnalité en cours de développement");
 }
 
-function unflipCard(card) {
-    card.querySelector('.card-back').style.display = 'block';
-    card.querySelector('.card-front').style.display = 'none';
+
+
+
+    // Zoom sur Image
+// Créer le modal et ses éléments
+const modal = document.createElement("div");
+modal.className = "modal";
+const closeModal = document.createElement("span");
+closeModal.className = "close";
+closeModal.innerHTML = "&times;";
+const modalImg = document.createElement("img");
+modalImg.className = "modal-content";
+
+// Ajouter les éléments au modal
+modal.appendChild(closeModal);
+modal.appendChild(modalImg);
+document.body.appendChild(modal);
+
+// Récupérer toutes les images avec la classe "thumbnail"
+const images = document.querySelectorAll(".thumbnail");
+
+// Ajouter un événement de clic à chaque image
+images.forEach(img => {
+    img.onclick = function() {
+        modal.style.display = "block";
+        modalImg.src = this.src; // Mettre la source de l'image dans le modal
+    }
+});
+
+// Lorsque l'utilisateur clique sur (x), fermer le modal
+closeModal.onclick = function() {
+    modal.style.display = "none";
 }
 
-function resetTurn() {
-    [firstCard, secondCard] = [null, null];
-    lockBoard = false;
+// Fermer le modal si l'utilisateur clique en dehors de l'image
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
 }
