@@ -225,13 +225,10 @@ h1 {
 }    
 
 
-
-
-
-
 .hidden {
-    display: none;
+    display: none !important;   /* le !important permet au .hidden de remporter la confrontation avec le #memory-difficulty-selector, qui empêchait de masquer avant le lancement du jeu l'option "selecteur de difficulté" */
 }
+
 
 /* Plateau de jeu : carré responsive et bien aligné */
 #memory-game-board {

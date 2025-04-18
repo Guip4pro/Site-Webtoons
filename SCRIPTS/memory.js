@@ -191,11 +191,11 @@ function resetTurn() {
 
 
 /*
-    Je dois afficher 5s les cartes retournées au début du jeu
-
     5. Bonus (facultatif mais cool) :
 
-    Modifier le
+    Bug : je ne suis pas sûr, mais j'ai l'impression que c'est depuis que j'ai fait des modifications dans le css concernant l "invisibilisation" du selecteur de difficulté que l'alert dans le js ne fonctionne plus pour les niveaux autre que le niveau "très facile"
+
+    Modifier les noms des niveaux de difficultés 'Très facile, 8 paires (4x4)'
 
     ⏱️ Chronomètre (temps écoulé).
 
