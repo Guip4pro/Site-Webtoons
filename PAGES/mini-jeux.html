@@ -17,7 +17,6 @@
             <h1> Mini-jeux sur la thématique des Webtoons </h1>
         </div>
 
-         <!-- Mettre un fond d'écran transparent (opacité) -->
     </header>
 
     <main>
@@ -42,36 +41,23 @@
 
 
         <div id="memory-game" class="memory-hidden">
+            <div id="memory-stats" class="hidden">
+                ⏱️ <strong>Temps &nbsp;:</strong> <span id="memory-timer">0</span> s &nbsp;&nbsp; | &nbsp;&nbsp; 
+                🎯 <strong>Coups &nbsp;:</strong> <span id="memory-moves">0</span>
+            </div>              
             <div id="memory-difficulty-selector" class="hidden">
                 <label for="difficulty">Niveau de difficulté : </label>
                 <select id="difficulty" onchange="updateGameBoard()">
-                    <option value="4x4">🌱 Très facile (8 paires, 4x4)</option>
-                    <option value="5x6">🪴 Facile (15 paires, 5x6)</option> <!-- Avant : Facile (12 paires, 5x5) -->
-                    <option value="6x7">🌳 Moyen (21 paires, 6x7)</option>  <!-- Avant : Moyen (18 paires, 6x6) -->
-                    <option value="8x8">👨‍🌾 Difficile (32 paires, 8x8)</option>
+                    <option value="4x4">🌱 Très facile (8 paires, 4x4)</option> <!-- 8 paires -->
+                    <option value="5x6">🪴 Facile (15 paires, 5x6)</option> <!-- 15 paires -->
+                    <option value="6x7">🌳 Moyen (21 paires, 6x7)</option>  <!-- 18 paires -->
+                    <option value="8x8">👨‍🌾 Difficile (32 paires, 8x8)</option>  <!-- 32 paires -->
                 </select>
             </div>
             <div id="memory-game-board"></div>
         </div>
 
         <div id="memory-countdown" class="countdown hidden">blablabbla</div>
-
-
-
-
-        <!--
-        <div id="difficulty-levels" style="display: none;">
-            <button onclick="selectDifficulty('très facile')">Très Facile</button>
-            <button onclick="selectDifficulty('facile')">Facile</button>
-            <button onclick="selectDifficulty('moyen')">Moyen</button>
-            <button onclick="selectDifficulty('difficile')">Difficile</button>
-            <button onclick="selectDifficulty('expert')">Expert</button>
-        </div>
-        
-        <div id="difficulty-content">
-            Le contenu du niveau de difficulté sélectionné apparaîtra ici
-        </div>
-        -->
 
     </main>
 

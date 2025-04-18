@@ -2,41 +2,50 @@
 function shuffleArray(array) {
     return array
         .map(value => ({ value, sort: Math.random() })) // Associe chaque valeur à un nombre aléatoire
-        .sort((a, b) => a.sort - b.sort) // Trie selon ce nombre
-        .map(({ value }) => value); // Retourne le tableau trié
+        .sort((a, b) => a.sort - b.sort)               // Trie selon cette valeur
+        .map(({ value }) => value);                    // Retourne le tableau trié
 }
 
-
-let firstCard = null;   // Mémorise la première carte cliquée
-let secondCard = null;  // Mémorise la deuxième carte cliquée
-let lockBoard = true;   // Empêche les clics pendant certaines opérations
-let matchedPairs = 0;   // Compte les paires trouvées
-let countdownInterval = null;   // Variable qui sera utilisée effacer le countdown précédent 
-let currentCards = [];  // Liste des cartes actuellement affichées
+let firstCard = null;        // Première carte retournée
+let secondCard = null;       // Deuxième carte retournée
+let lockBoard = true;        // Verrouillage du plateau
+let matchedPairs = 0;        // Paires trouvées
+let countdownInterval = null;// Intervalle du compte à rebours initial
+let timerInterval = null;    // Intervalle du chronomètre
+let currentCards = [];       // Liste des cartes affichées
+let moveCount = 0;           // Compteur de coups
+let timer = 0;               // Chronomètre en secondes
+let gameStarted = false;     // Indique si le chrono a démarré
 
 function startMemoryGame() {
-    const memoryGame = document.getElementById('memory-game');
-    const difficultySelector = document.getElementById('memory-difficulty-selector');
-
-    memoryGame.classList.remove('memory-hidden');   // Affiche le plateau de jeu
-    difficultySelector.classList.remove('hidden');  // Affiche le sélecteur de difficulté
-
-    updateGameBoard();  // Charge le niveau par défaut
+    const gameContainer = document.getElementById('memory-game'); // ← cette ligne manquait
+    gameContainer.classList.remove('memory-hidden');
+    gameContainer.classList.add('fade-in');
+    document.getElementById('memory-difficulty-selector').classList.remove('hidden');
+    document.getElementById('memory-stats').classList.remove('hidden');
+    updateGameBoard();
 }
 
-    // async rend la fonction asynchrone → permet d'utiliser 'await' pour attendre attendre que les opérations lentes se terminent (ici le chargement de mon json)
 async function updateGameBoard() {
-        // Stoppe un ancien décompte s'il existe
-    if (countdownInterval) {
-        clearInterval(countdownInterval);
-        countdownInterval = null;
-    }
+    // Nettoyage des anciens intervalles
+    if (countdownInterval) clearInterval(countdownInterval);
+    if (timerInterval) clearInterval(timerInterval);
+    countdownInterval = null;
+    timerInterval = null;
 
-    // Récupère les éléments du DOM
+    // Réinitialisation des stats
+    moveCount = 0;
+    timer = 0;
+    gameStarted = false;
+    document.getElementById('memory-moves').textContent = moveCount;
+    document.getElementById('memory-timer').textContent = timer;
+
+    // Récupération du DOM
     const difficulty = document.getElementById('difficulty').value;
     const gameBoard = document.getElementById('memory-game-board');
+    const countdownElement = document.getElementById('memory-countdown');
 
-    // Réinitialise l'état du jeu
+    // Réinitialisation du plateau
     gameBoard.innerHTML = "";
     matchedPairs = 0;
     firstCard = null;
@@ -44,89 +53,71 @@ async function updateGameBoard() {
     lockBoard = true;
     currentCards = [];
 
-    // Calcule les dimensions du plateau (ex: 4x4, 6x6...)
-    let [rows, cols] = difficulty.split('x').map(Number);
+    // Calcul des dimensions et du nombre de paires
+    const [rows, cols] = difficulty.split('x').map(Number);
     const totalCards = rows * cols;
     const numPairs = totalCards / 2;
 
     try {
-        // Charge les images depuis un fichier JSON
         const response = await fetch("../RESSOURCES/data-json/img-memory.json");
         const memoryImages = await response.json();
-
-        // Sélectionne aléatoirement des images à doubler
         const selectedImages = shuffleArray(memoryImages).slice(0, numPairs);
         const pairedImages = shuffleArray([...selectedImages, ...selectedImages]);
 
-        // Applique la grille CSS
+        // Mise en place de la grille
+        gameBoard.style.display = 'grid';
         gameBoard.style.gridTemplateRows = `repeat(${rows}, 1fr)`;
         gameBoard.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
+        gameBoard.style.gap = '10px';
 
-        // Crée un fragment pour optimiser les ajouts au DOM
+        // Création et insertion des cartes
         const fragment = document.createDocumentFragment();
-
-        // Crée les cartes dynamiquement
-        pairedImages.forEach((imgData) => {
+        pairedImages.forEach(imgData => {
             const card = document.createElement('div');
-            card.classList.add('memory-card', 'no-hover'); // Désactive le hover
-            card.dataset.image = imgData.src;              // Pour vérifier les paires
-            card.dataset.flipped = "false";                // État de retournement
+            card.classList.add('memory-card', 'no-hover');
+            card.dataset.image = imgData.src;
+            card.dataset.flipped = "false";
 
-            // Face cachée
             const backImg = document.createElement('img');
             backImg.src = "../RESSOURCES/img-memory/img-dos.jpg";
             backImg.alt = "Image de dos";
             backImg.classList.add('card-back');
 
-            // Face visible (image réelle)
             const frontImg = document.createElement('img');
             frontImg.src = imgData.src;
             frontImg.alt = imgData.alt;
             frontImg.classList.add('card-front');
             frontImg.style.display = 'block';
 
-            // Ajoute les images à la carte
             card.append(backImg, frontImg);
             fragment.appendChild(card);
-
-            // Gère le clic sur chaque carte
-            card.addEventListener('click', () => handleCardClick(card, numPairs));
             currentCards.push(card);
-        });
 
-        // Ajoute toutes les cartes d’un coup au plateau
+            card.addEventListener('click', () => handleCardClick(card, numPairs));
+        });
         gameBoard.appendChild(fragment);
 
-        // Affiche le compte à rebours initial
-        const countdownElement = document.getElementById('memory-countdown');
+        // Compte à rebours avant démarrage
         let countdown = 5;
         countdownElement.textContent = countdown;
         countdownElement.classList.remove('hidden');
+        currentCards.forEach(flipCard);
 
-        // Affiche toutes les cartes face visible pendant le compte à rebours
-        currentCards.forEach(card => {
-            card.querySelector('.card-back').style.display = 'none';
-            card.querySelector('.card-front').style.display = 'block';
-        });
-
-        // Lancement du compte à rebours
         countdownInterval = setInterval(() => {
             countdown--;
             countdownElement.textContent = countdown;
-
-            // Quand le compte à rebours est terminé
             if (countdown <= 0) {
                 clearInterval(countdownInterval);
                 countdownInterval = null;
                 countdownElement.classList.add('hidden');
 
-                // Retourne toutes les cartes face cachée
+                // Cache les cartes et active le jeu
                 currentCards.forEach(card => {
                     unflipCard(card);
-                    card.classList.remove('no-hover'); // Réactive le hover
+                    card.classList.remove('no-hover');
                 });
-
-                lockBoard = false; // Autorise les clics
+                lockBoard = false;
+                // Le chrono démarre au premier clic maintenant
             }
         }, 1000);
 
@@ -135,33 +126,38 @@ async function updateGameBoard() {
     }
 }
 
-// Gère le clic sur une carte
 function handleCardClick(card, numPairs) {
-    // Ignore les clics si bloqué ou si carte déjà trouvée
     if (lockBoard || card.dataset.flipped === "true") return;
 
-    flipCard(card); // Affiche la carte
+    if (!gameStarted) {
+        gameStarted = true;
+        timerInterval = setInterval(() => {
+            timer++;
+            document.getElementById('memory-timer').textContent = timer;
+        }, 1000); // Démarre le chrono au premier clic
+    }
+
+    flipCard(card);
 
     if (!firstCard) {
         firstCard = card;
     } else {
         secondCard = card;
-        lockBoard = true; // Bloque jusqu'à résolution de la paire
+        lockBoard = true;
+        moveCount++;
+        document.getElementById('memory-moves').textContent = moveCount;
 
-        // Si c’est une paire
         if (firstCard.dataset.image === secondCard.dataset.image) {
             firstCard.dataset.flipped = secondCard.dataset.flipped = "true";
             firstCard.classList.add('found');
             secondCard.classList.add('found');
             matchedPairs++;
             resetTurn();
-
-            // Si toutes les paires sont trouvées
             if (matchedPairs === numPairs) {
-                setTimeout(() => alert("🎉 Bravo ! Tu as gagné !"), 500);
+                clearInterval(timerInterval);
+                setTimeout(() => alert(`🎉 Bravo ! Tu as gagné en ${moveCount} coups et ${timer} secondes !`), 500);
             }
         } else {
-            // Sinon, retourne les cartes après un court délai
             setTimeout(() => {
                 unflipCard(firstCard);
                 unflipCard(secondCard);
@@ -171,41 +167,40 @@ function handleCardClick(card, numPairs) {
     }
 }
 
-// Affiche la face avant d'une carte
 function flipCard(card) {
     card.querySelector('.card-back').style.display = 'none';
     card.querySelector('.card-front').style.display = 'block';
 }
 
-// Cache la carte (face arrière)
 function unflipCard(card) {
     card.querySelector('.card-back').style.display = 'block';
     card.querySelector('.card-front').style.display = 'none';
 }
 
-// Réinitialise les cartes sélectionnées
 function resetTurn() {
     [firstCard, secondCard] = [null, null];
     lockBoard = false;
 }
 
 
+
 /*
     5. Bonus (facultatif mais cool) :
 
-    Bug : je ne suis pas sûr, mais j'ai l'impression que c'est depuis que j'ai fait des modifications dans le css concernant l "invisibilisation" du selecteur de difficulté que l'alert dans le js ne fonctionne plus pour les niveaux autre que le niveau "très facile"
+    🔊 Effets sonores (optionnels).
 
-    Modifier les noms des niveaux de difficultés 'Très facile, 8 paires (4x4)'
-
-    ⏱️ Chronomètre (temps écoulé).
-
-    📈 Compteur de coups / essais.
+    Modifier Temps et Coups pour un meilleur esthétisme (les séparer) + aligner ces 2-là et avec le sélecteur de niv de difficulté
 
     💫 Animations au retournement de carte.
 
-    🔊 Effets sonores (optionnels).
-
-    Système de classement entre les joueurs
+    Système de classement entre les joueurs :
+    - A la fin de la partie, demander le nom du joueur s'il ne l'a pas déjà rentré auparavant
+    - Classement en ligne (via une base de données + back-end léger), prend en compte le pseudo du joueur, le niveau de difficulté, le nombre de coups / le temps, la date
+    - Envoyer les infos à cette API, puis les récup
+    - Demander à Chatgpt des conseils pour améliorer ce classement
+    - Sûrement avec Firebase (simple et rapide)
 
     Jeu à 2 joueurs
+
+    Code responsive (adapté à d'autres tailles d'écran)
 */
