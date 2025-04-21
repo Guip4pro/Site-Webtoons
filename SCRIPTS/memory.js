@@ -17,6 +17,56 @@ let moveCount = 0;           // Compteur de coups
 let timer = 0;               // Chronomètre en secondes
 let gameStarted = false;     // Indique si le chrono a démarré
 
+    // Récupération des balises <audio> en centralisant tout dans 1 seule variable "sounds"
+const sounds = {
+    countdown: document.getElementById('sound-countdown'),  // clé1, valeur1
+    flip:      document.getElementById('sound-flip'),
+    match:     document.getElementById('sound-match'),
+    win:       document.getElementById('sound-win')
+};
+
+const svgOn = `
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" 
+    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+    class="lucide lucide-volume2-icon lucide-volume-2">
+    <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/>
+    <path d="M16 9a5 5 0 0 1 0 6"/>
+    <path d="M19.364 18.364a9 9 0 0 0 0-12.728"/>
+</svg>
+`;
+
+const svgOff = `
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+    class="lucide lucide-volume-off-icon lucide-volume-off">
+    <path d="M16 9a5 5 0 0 1 .95 2.293"/><path d="M19.364 5.636a9 9 0 0 1 1.889 9.96"/>
+    <path d="m2 2 20 20"/>
+    <path d="m7 7-.587.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298V11"/>
+    <path d="M9.828 4.172A.686.686 0 0 1 11 4.657v.686"/>
+    </svg>
+`;  // Lien des svg : https://lucide.dev/icons/volume-2 et https://lucide.dev/icons/volume-off
+
+let soundEnabled = true;    // Lorsque false, plus de son
+const button = document.getElementById('toggle-sound');
+
+button.innerHTML = svgOn; // icône initiale
+
+button.addEventListener('click', () => {
+  soundEnabled = !soundEnabled;
+  button.innerHTML = soundEnabled ? svgOn : svgOff;
+});
+
+
+
+function playSound(type) {
+if (!soundEnabled) return;  // Si le son est désactivé, on ne joue rien
+const s = sounds[type];
+if (!s) return;
+s.currentTime = 0;  // Rejoue le son depuis le début
+s.play();   // Lance le son
+}
+  
+
 function startMemoryGame() {
     const gameContainer = document.getElementById('memory-game'); // ← cette ligne manquait
     gameContainer.classList.remove('memory-hidden');
@@ -27,6 +77,7 @@ function startMemoryGame() {
 }
 
 async function updateGameBoard() {
+    playSound('countdown');  // son chaque seconde
     // Nettoyage des anciens intervalles
     if (countdownInterval) clearInterval(countdownInterval);
     if (timerInterval) clearInterval(timerInterval);
@@ -98,14 +149,17 @@ async function updateGameBoard() {
         gameBoard.appendChild(fragment);
 
         // Compte à rebours avant démarrage
+
         let countdown = 5;
         countdownElement.textContent = countdown;
         countdownElement.classList.remove('hidden');
         currentCards.forEach(flipCard);
+        
 
         countdownInterval = setInterval(() => {
             countdown--;
             countdownElement.textContent = countdown;
+            // Ancien sound-countdown
             if (countdown <= 0) {
                 clearInterval(countdownInterval);
                 countdownInterval = null;
@@ -117,7 +171,6 @@ async function updateGameBoard() {
                     card.classList.remove('no-hover');
                 });
                 lockBoard = false;
-                // Le chrono démarre au premier clic maintenant
             }
         }, 1000);
 
@@ -136,7 +189,7 @@ function handleCardClick(card, numPairs) {
             document.getElementById('memory-timer').textContent = timer;
         }, 1000); // Démarre le chrono au premier clic
     }
-
+    playSound('flip');
     flipCard(card);
 
     if (!firstCard) {
@@ -152,9 +205,11 @@ function handleCardClick(card, numPairs) {
             firstCard.classList.add('found');
             secondCard.classList.add('found');
             matchedPairs++;
+            playSound('match');
             resetTurn();
             if (matchedPairs === numPairs) {
                 clearInterval(timerInterval);
+                playSound('win');
                 setTimeout(() => alert(`🎉 Bravo ! Tu as gagné en ${moveCount} coups et ${timer} secondes !`), 500);
             }
         } else {
@@ -185,13 +240,15 @@ function resetTurn() {
 
 
 /*
-    5. Bonus (facultatif mais cool) :
-
-    🔊 Effets sonores (optionnels).
+    5. Bonus :
 
     Modifier Temps et Coups pour un meilleur esthétisme (les séparer) + aligner ces 2-là et avec le sélecteur de niv de difficulté
 
+    Changer l'alert de victoire en quelque chose de plus esthétique
+
     💫 Animations au retournement de carte.
+
+    Déplacer l'écran de l'utilisateur au moment où il clique sur le bouton du memory
 
     Système de classement entre les joueurs :
     - A la fin de la partie, demander le nom du joueur s'il ne l'a pas déjà rentré auparavant
@@ -200,7 +257,7 @@ function resetTurn() {
     - Demander à Chatgpt des conseils pour améliorer ce classement
     - Sûrement avec Firebase (simple et rapide)
 
-    Jeu à 2 joueurs
-
     Code responsive (adapté à d'autres tailles d'écran)
+
+    Jeu à 2 joueurs
 */

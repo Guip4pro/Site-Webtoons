@@ -12,7 +12,7 @@
     <header>
         <div class="logo-titre">
             <a href="../index.html" title="Page d'accueil" class="logo-link">
-                <img src="../RESSOURCES/logo-site.webp" id="logo-site" alt="Logo de mon site">
+                <img src="../RESSOURCES/icons/logo-site.webp" id="logo-site" alt="Logo de mon site">
             </a>
             <h1> Mini-jeux sur la thématique des Webtoons </h1>
         </div>
@@ -27,17 +27,27 @@
 
         <div class="game-buttons">
             <div class="game-button">
-                <img src="../RESSOURCES/eyes-memory.jpg" alt="Image du jeu Memory" />
+                <img src="../RESSOURCES/icons/eyes-memory.jpg" alt="Image du jeu Memory" />
                 <button onclick="startMemoryGame()"> Memory </button>
             </div>
             <div class="game-button">
-                <img src="../RESSOURCES/eyes1.webp" alt="Image du jeu Guess the Webtoon" />
+                <img src="../RESSOURCES/icons/eyes1.webp" alt="Image du jeu Guess the Webtoon" />
                 <button> Guess the Webtoon </button>
             </div>
         </div>
 
 
+        <audio id="sound-countdown" src="../RESSOURCES/sounds/countdown.mp3"></audio>   <!-- Arcade countdown -->
+        <audio id="sound-flip"      src="../RESSOURCES/sounds/flip.mp3"></audio>  <!-- Arcade flip -->
+        <audio id="sound-match"     src="../RESSOURCES/sounds/match.mp3"></audio>  <!-- Arcade match -->
+        <audio id="sound-win"       src="../RESSOURCES/sounds/win.mp3"></audio>  <!-- Game level complete -->
 
+<!-- 
+        game-countdown / arcade-countdown / 10sec-countdown
+        -point-smooth-beep-230573- / stop-13692 / -countdown-11-
+        -correct-choice-43861- / -rightanswer-95219- / arcade-ui-2-229500
+        game-level-complete-143022 / -level-passed-143039- / -level-completed-230568- / -brass-new-level-151765-
+-->
 
 
         <div id="memory-game" class="memory-hidden">
@@ -55,6 +65,8 @@
                 </select>
             </div>
             <div id="memory-game-board"></div>
+            <button id="toggle-sound"></button>
+              
         </div>
 
         <div id="memory-countdown" class="countdown hidden">blablabbla</div>

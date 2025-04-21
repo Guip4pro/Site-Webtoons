@@ -322,6 +322,27 @@ margin-bottom: 1rem;        /* espace sous les stats */
 }
 
 
+    /* Toggle = commuter / alterner */
+#toggle-sound {
+    background-color: transparent;
+    border: none;   /* La bordure noire moche */
+    border-radius: 50%; /* Arrondi pour la zone d'ombre essentiellement */
+    padding: 8px;
+    transition: all 0.2s ease;  /* transition fluide progressive de 200ms de #toggle-sound:hover */
+}
+
+#toggle-sound svg {
+    stroke: #222;   /* Couleur des lignes du svg (donc tout le svg) */
+}
+
+#toggle-sound:hover {
+    background-color: rgba(0, 0, 0, 0.05);  /* Ajoute un léger fond noir translucide lors du survol de la souris */
+    transform: scale(1.1);  /* Agrandi de 110% */
+}
+
+  
+
+
 /* Style pour le compte à rebours */
 #memory-countdown {
     position: fixed;               /* Fixe l'élément sur l'écran */
