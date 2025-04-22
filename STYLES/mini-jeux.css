@@ -197,6 +197,18 @@ h1 {
 .memory-hidden {
 display: none !important;
 }
+
+
+/* Conteneur commun pour stats, sélecteur et toggle */
+#memory-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;          /* espacement régulier entre chaque élément */
+    border-radius: 8px;       
+    margin-bottom: 1rem;
+}
+
   
 
 /* Compteur de coups + chronomètre */
@@ -206,14 +218,20 @@ gap: 2rem;                  /* espace entre les deux indicateurs */
 justify-content: center;    
 align-items: center;
 background-color: #f3f4f6;  /* gris très clair */
-padding: 0.5rem 1rem;       
-border-radius: 8px;        
+padding: 1rem;        
 box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 font-family: 'Segoe UI', sans-serif;
 font-size: 1.1rem;
 color: #1f2937;             /* gris très foncé */
-margin-bottom: 1rem;        /* espace sous les stats */
 }
+
+#memory-stats span {
+    white-space: nowrap;       /* évite les sauts de ligne ou espaces inutiles */
+    display: inline-flex;      /* aligne bien les éléments à l'intérieur */
+    align-items: center;
+    gap: 0.3rem;               /* petit espace régulier entre icône, texte et nombre */
+}
+  
 
 
 /* Sélecteur niveaux de difficulté */
@@ -221,11 +239,10 @@ margin-bottom: 1rem;        /* espace sous les stats */
     display: flex;
     align-items: center;
     gap: 1rem;
-    margin: 1rem auto;
+    margin: 0;
     padding: 1rem;
     width: fit-content;
     background-color: #f3f4f6; /* gris très clair */
-    border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     font-family: 'Segoe UI', sans-serif;
     font-size: 1rem;
@@ -386,7 +403,65 @@ margin-bottom: 1rem;        /* espace sous les stats */
 }
 
 
-    /* Responsive : réduit la plateforme sur mobile */
+/* Overlay flouté */
+#modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none; /* Cette propriété bloque les clics si l'overlay est caché */
+    transition: opacity 0.3s ease, visibility 0s 0.3s;
+}
+
+#modal-overlay.show {
+    visibility: visible;        /* Devient visible */
+    opacity: 1;
+    pointer-events: auto;       /* Les clics sont à nouveau permis */
+}
+
+#modal-box {
+    background: #e6ffed;
+    border: 1px solid #34d399;
+    box-shadow: 0 0 15px rgba(52, 211, 153, 0.6);
+    border-radius: 12px;
+    padding: 2rem;
+    font-size: 1.2rem;
+    color: #065f46;
+    max-width: 90%;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    animation: fadeInUp 0.3s ease;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.modal-hidden {
+    display: none;
+    opacity: 0;
+}
+
+
+  
+
+
+
+
+/* Responsive : réduit la plateforme sur mobile */
 @media (max-width: 600px) {
     #memory-game {
         max-width: 90vw;  /* plus souple sur mobile */

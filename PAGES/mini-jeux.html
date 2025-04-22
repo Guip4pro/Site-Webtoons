@@ -42,34 +42,34 @@
         <audio id="sound-match"     src="../RESSOURCES/sounds/match.mp3"></audio>  <!-- Arcade match -->
         <audio id="sound-win"       src="../RESSOURCES/sounds/win.mp3"></audio>  <!-- Game level complete -->
 
-<!-- 
-        game-countdown / arcade-countdown / 10sec-countdown
-        -point-smooth-beep-230573- / stop-13692 / -countdown-11-
-        -correct-choice-43861- / -rightanswer-95219- / arcade-ui-2-229500
-        game-level-complete-143022 / -level-passed-143039- / -level-completed-230568- / -brass-new-level-151765-
--->
-
-
         <div id="memory-game" class="memory-hidden">
-            <div id="memory-stats" class="hidden">
-                ⏱️ <strong>Temps &nbsp;:</strong> <span id="memory-timer">0</span> s &nbsp;&nbsp; | &nbsp;&nbsp; 
-                🎯 <strong>Coups &nbsp;:</strong> <span id="memory-moves">0</span>
-            </div>              
-            <div id="memory-difficulty-selector" class="hidden">
-                <label for="difficulty">Niveau de difficulté : </label>
-                <select id="difficulty" onchange="updateGameBoard()">
-                    <option value="4x4">🌱 Très facile (8 paires, 4x4)</option> <!-- 8 paires -->
-                    <option value="5x6">🪴 Facile (15 paires, 5x6)</option> <!-- 15 paires -->
-                    <option value="6x7">🌳 Moyen (21 paires, 6x7)</option>  <!-- 18 paires -->
-                    <option value="8x8">👨‍🌾 Difficile (32 paires, 8x8)</option>  <!-- 32 paires -->
-                </select>
+            <div id="memory-controls">
+                <div id="memory-stats" class="hidden">
+                    <span>⏱️ <strong>Temps :&nbsp;</strong> <span id="memory-timer">0</span><span>s</span></span>
+                    <span>🎯 <strong>Coups :&nbsp;</strong> <span id="memory-moves">0</span></span>
+                </div>  
+                <div id="memory-difficulty-selector" class="hidden">
+                    <label for="difficulty">Niveau de difficulté : </label>
+                    <select id="difficulty" onchange="updateGameBoard()">
+                        <option value="4x4">🌱 Très facile (8 paires, 4x4)</option> <!-- 8 paires -->
+                        <option value="5x6">🪴 Facile (15 paires, 5x6)</option> <!-- 15 paires -->
+                        <option value="6x7">🌳 Moyen (21 paires, 6x7)</option>  <!-- 18 paires -->
+                        <option value="8x8">👨‍🌾 Difficile (32 paires, 8x8)</option>  <!-- 32 paires -->
+                    </select>
+                </div>
             </div>
             <div id="memory-game-board"></div>
             <button id="toggle-sound"></button>
-              
         </div>
 
-        <div id="memory-countdown" class="countdown hidden">blablabbla</div>
+        <div id="memory-countdown" class="countdown hidden">compte à rebours de 5s</div>
+
+        <div id="modal-overlay" class="modal-hidden">
+            <div id="modal-box">
+                <div id="modal-message"></div>
+            </div>
+        </div>
+          
 
     </main>
 

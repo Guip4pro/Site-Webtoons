@@ -210,7 +210,7 @@ function handleCardClick(card, numPairs) {
             if (matchedPairs === numPairs) {
                 clearInterval(timerInterval);
                 playSound('win');
-                setTimeout(() => alert(`🎉 Bravo ! Tu as gagné en ${moveCount} coups et ${timer} secondes !`), 500);
+                showModal(`🎉 <strong>Congratulations!</strong><br>⏱️ Temps : ${timer}s • 🎯 Coups : ${moveCount}`);
             }
         } else {
             setTimeout(() => {
@@ -237,18 +237,64 @@ function resetTurn() {
     lockBoard = false;
 }
 
+  
+function showModal(messageHTML) {
+    const overlay = document.getElementById('modal-overlay');
+    const message = document.getElementById('modal-message');
+  
+    message.innerHTML = messageHTML;
+
+    // Affiche le modal
+    overlay.classList.remove('modal-hidden');
+    overlay.classList.add('show');
+
+    // Ferme après 15 secondes automatiquement
+    setTimeout(() => {
+        closeModal();
+    }, 15000);
+
+    // Ferme si clic à l’extérieur du modal
+    overlay.addEventListener('click', (e) => {
+        console.log("Clic détecté sur l'overlay !");
+        if (e.target === overlay) {
+            closeModal();
+        }
+    });
+}
+
+
+function closeModal() {
+    const overlay = document.getElementById('modal-overlay');
+    overlay.classList.remove('show');
+    
+    // Ajoute un délai pour laisser le temps à l'animation de se terminer (300ms)
+    setTimeout(() => {
+        overlay.classList.add('modal-hidden');
+    }, 300);
+}
+
+
+
+
+
+
+
+  
+  
+
 
 
 /*
-    5. Bonus :
+    5. Tâches :
 
-    Modifier Temps et Coups pour un meilleur esthétisme (les séparer) + aligner ces 2-là et avec le sélecteur de niv de difficulté
-
-    Changer l'alert de victoire en quelque chose de plus esthétique
-
-    💫 Animations au retournement de carte.
+    Fix le bug : quand dje clique 2 fois d'affilée sur la même carte, cela compte comme une paire trouvée. Ce qui est de la triche
 
     Déplacer l'écran de l'utilisateur au moment où il clique sur le bouton du memory
+
+    Régler pb de synchro du son "countdown" à la première partie du Memory
+    Régler le pb de désactivation du son qui ne désactive pas le son "countdown" en cours
+
+    💫 Animations au retournement de carte.
 
     Système de classement entre les joueurs :
     - A la fin de la partie, demander le nom du joueur s'il ne l'a pas déjà rentré auparavant
