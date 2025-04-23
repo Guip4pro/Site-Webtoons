@@ -287,7 +287,7 @@ function closeModal() {
 /*
     5. Tâches :
 
-    Fix le bug : quand dje clique 2 fois d'affilée sur la même carte, cela compte comme une paire trouvée. Ce qui est de la triche
+    Fix le bug : quand dje clique 2 fois d'affilée sur la même carte, cela compte comme une paire trouvée. Ce qui est de la triche. Résolution ? Ecrire une ligne pour vérouiller la première carte une fois cliquée, puis la déverouiller eu prochain round ou alors
 
     Déplacer l'écran de l'utilisateur au moment où il clique sur le bouton du memory
 

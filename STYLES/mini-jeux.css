@@ -345,6 +345,7 @@ color: #1f2937;             /* gris très foncé */
     border: none;   /* La bordure noire moche */
     border-radius: 50%; /* Arrondi pour la zone d'ombre essentiellement */
     padding: 8px;
+    cursor: pointer;
     transition: all 0.2s ease;  /* transition fluide progressive de 200ms de #toggle-sound:hover */
 }
 
