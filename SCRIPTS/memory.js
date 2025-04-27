@@ -19,11 +19,16 @@ let gameStarted = false;     // Indique si le chrono a démarré
 
     // Récupération des balises <audio> en centralisant tout dans 1 seule variable "sounds"
 const sounds = {
-    countdown: document.getElementById('sound-countdown'),  // clé1, valeur1
+    countdown: document.getElementById('sound-countdown'),  // key1, valeur1
     flip:      document.getElementById('sound-flip'),
     match:     document.getElementById('sound-match'),
     win:       document.getElementById('sound-win')
 };
+
+// On force le préchargement de chaque son (pour éviter le micro délai lors du lancement du jeu)
+for (const key in sounds) {
+    sounds[key].load();
+}
 
 const svgOn = `
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" 
@@ -46,25 +51,38 @@ const svgOff = `
     </svg>
 `;  // Lien des svg : https://lucide.dev/icons/volume-2 et https://lucide.dev/icons/volume-off
 
+
 let soundEnabled = true;    // Lorsque false, plus de son
 const button = document.getElementById('toggle-sound');
 
-button.innerHTML = svgOn; // icône initiale
+// Icône initiale
+button.innerHTML = svgOn;
 
+// Un seul écouteur pour toggler le son et arrêter les éventuels sons en cours
 button.addEventListener('click', () => {
   soundEnabled = !soundEnabled;
   button.innerHTML = soundEnabled ? svgOn : svgOff;
+
+  if (!soundEnabled) {
+    // Si on désactive le son, on stoppe tous les sons en cours
+    for (const key in sounds) {
+      const sound = sounds[key];
+      if (!sound.paused) {
+        sound.pause();         // Arrête le son
+        sound.currentTime = 0; // Le remet au début
+      }
+    }
+  }
 });
 
-
-
 function playSound(type) {
-if (!soundEnabled) return;  // Si le son est désactivé, on ne joue rien
-const s = sounds[type];
-if (!s) return;
-s.currentTime = 0;  // Rejoue le son depuis le début
-s.play();   // Lance le son
+    if (!soundEnabled) return;  // Si le son est désactivé, on ne joue rien
+    const s = sounds[type];
+    if (!s) return;
+    s.currentTime = 0;  // Rejoue le son depuis le début
+    s.play();   // Lance le son
 }
+
   
 
 function startMemoryGame() {
@@ -74,6 +92,13 @@ function startMemoryGame() {
     document.getElementById('memory-difficulty-selector').classList.remove('hidden');
     document.getElementById('memory-stats').classList.remove('hidden');
     updateGameBoard();
+
+    // API pour centrer le plateau de jeu
+    gameContainer.scrollIntoView({
+        behavior: 'smooth',   // défilement animé
+        block:    'center',   // centre verticalement
+        inline:   'nearest'   // pas de décalage horizontal
+    });
 }
 
 async function updateGameBoard() {
@@ -179,16 +204,22 @@ async function updateGameBoard() {
     }
 }
 
+    // Gère le lcic d'une carte
 function handleCardClick(card, numPairs) {
+    // Empêche clics si plateau verrouillé ou carte déjà trouvée
     if (lockBoard || card.dataset.flipped === "true") return;
+    // Empêche de cliquer deux fois sur la même carte pour la compter comme paire
+    if (firstCard && card === firstCard) return;
 
+    // Démarre le chronomètre au premier clic
     if (!gameStarted) {
         gameStarted = true;
         timerInterval = setInterval(() => {
             timer++;
             document.getElementById('memory-timer').textContent = timer;
-        }, 1000); // Démarre le chrono au premier clic
+        }, 1000);
     }
+
     playSound('flip');
     flipCard(card);
 
@@ -200,6 +231,7 @@ function handleCardClick(card, numPairs) {
         moveCount++;
         document.getElementById('memory-moves').textContent = moveCount;
 
+        // Vérifie si les deux cartes forment une paire
         if (firstCard.dataset.image === secondCard.dataset.image) {
             firstCard.dataset.flipped = secondCard.dataset.flipped = "true";
             firstCard.classList.add('found');
@@ -207,12 +239,15 @@ function handleCardClick(card, numPairs) {
             matchedPairs++;
             playSound('match');
             resetTurn();
+
+            // Si toutes les paires sont trouvées → victoire
             if (matchedPairs === numPairs) {
                 clearInterval(timerInterval);
                 playSound('win');
                 showModal(`🎉 <strong>Congratulations!</strong><br>⏱️ Temps : ${timer}s • 🎯 Coups : ${moveCount}`);
             }
         } else {
+            // Pas une paire → retourne les cartes au bout d'un délai
             setTimeout(() => {
                 unflipCard(firstCard);
                 unflipCard(secondCard);
@@ -286,12 +321,7 @@ function closeModal() {
 
 /*
     5. Tâches :
-
-    Fix le bug : quand dje clique 2 fois d'affilée sur la même carte, cela compte comme une paire trouvée. Ce qui est de la triche. Résolution ? Ecrire une ligne pour vérouiller la première carte une fois cliquée, puis la déverouiller eu prochain round ou alors
-
-    Déplacer l'écran de l'utilisateur au moment où il clique sur le bouton du memory
-
-    Régler pb de synchro du son "countdown" à la première partie du Memory
+    
     Régler le pb de désactivation du son qui ne désactive pas le son "countdown" en cours
 
     💫 Animations au retournement de carte.
