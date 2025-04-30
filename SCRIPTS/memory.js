@@ -86,7 +86,7 @@ function playSound(type) {
   
 
 function startMemoryGame() {
-    const gameContainer = document.getElementById('memory-game'); // ← cette ligne manquait
+    const gameContainer = document.getElementById('memory-game');
     gameContainer.classList.remove('memory-hidden');
     gameContainer.classList.add('fade-in');
     document.getElementById('memory-difficulty-selector').classList.remove('hidden');
@@ -103,8 +103,7 @@ function startMemoryGame() {
 
 async function updateGameBoard() {
     playSound('countdown');  // son chaque seconde
-    // Nettoyage des anciens intervalles
-    if (countdownInterval) clearInterval(countdownInterval);
+    if (countdownInterval) clearInterval(countdownInterval);        // Nettoyage des anciens intervalles
     if (timerInterval) clearInterval(timerInterval);
     countdownInterval = null;
     timerInterval = null;
@@ -120,6 +119,14 @@ async function updateGameBoard() {
     const difficulty = document.getElementById('difficulty').value;
     const gameBoard = document.getElementById('memory-game-board');
     const countdownElement = document.getElementById('memory-countdown');
+    const gameContainer = document.getElementById('memory-game');
+        // API pour centrer le plateau de jeu
+        gameContainer.scrollIntoView({
+            behavior: 'smooth',   // défilement animé
+            block:    'center',   // centre verticalement
+            inline:   'nearest'   // pas de décalage horizontal
+        });
+    
 
     // Réinitialisation du plateau
     gameBoard.innerHTML = "";
@@ -174,7 +181,6 @@ async function updateGameBoard() {
         gameBoard.appendChild(fragment);
 
         // Compte à rebours avant démarrage
-
         let countdown = 5;
         countdownElement.textContent = countdown;
         countdownElement.classList.remove('hidden');
