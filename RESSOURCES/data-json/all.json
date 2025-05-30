@@ -94,6 +94,11 @@
             "alt": "Image : Academy's Undercover Professor"
           },
           {
+            "title": "Bad Born Blood",
+            "image": "IMAGES/3-TRES BONS/bad born blood/cover.webp",
+            "alt": "Image : Bad Born Blood"
+          },
+          {
             "title": "Barbarian Quest",
             "image": "IMAGES/3-TRES BONS/barbarian quest/cover.jpg",
             "alt": "Image : Barbarian Quest"
@@ -172,6 +177,11 @@
             "title": "Is This Hero for Real?",
             "image": "IMAGES/3-TRES BONS/is this hero for real/cover.jpg",
             "alt": "Image : Is This Hero for Real?"
+          },
+          {
+            "title": "Jungle Juice",
+            "image": "IMAGES/3-TRES BONS/jungle juice/cover.jpg",
+            "alt": "Image : Jungle Juice"
           },
           {
             "title": "Kill the Hero",
@@ -284,6 +294,11 @@
             "alt": "Image : Re: Life Player"
           },
           {
+            "title": "Reality Quest",
+            "image": "IMAGES/3-TRES BONS/reality quest/cover.jpeg",
+            "alt": "Image : Reality Quest"
+          },
+          {
             "title": "Reaper of the Drifting Moon",
             "image": "IMAGES/3-TRES BONS/reaper of the drifting moon/cover.gif",
             "alt": "Image : Reaper of the Drifting Moon"
@@ -342,6 +357,11 @@
             "title": "Superhuman Battlefield",
             "image": "IMAGES/3-TRES BONS/superhuman battlefield/cover.avif",
             "alt": "Image : Superhuman Battlefield"
+          },
+          {
+            "title": "Sweet Home",
+            "image": "IMAGES/3-TRES BONS/sweet home/cover.jpg",
+            "alt": "Image : Sweet Home"
           },
           {
             "title": "The 100th Regression of the Max-Level Player",
@@ -442,6 +462,11 @@
             "title": "Tower of God",
             "image": "IMAGES/3-TRES BONS/tower of god/cover.avif",
             "alt": "Image : Tower of God"
+          },
+          {
+            "title": "unOrdinary",
+            "image": "IMAGES/3-TRES BONS/unOrdinary/cover.jpg",
+            "alt": "Image : unOrdinary"
           },
           {
             "title": "Warrior High School",

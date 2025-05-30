@@ -93,12 +93,7 @@ function startMemoryGame() {
     document.getElementById('memory-stats').classList.remove('hidden');
     updateGameBoard();
 
-    // API pour centrer le plateau de jeu
-    gameContainer.scrollIntoView({
-        behavior: 'smooth',   // défilement animé
-        block:    'center',   // centre verticalement
-        inline:   'nearest'   // pas de décalage horizontal
-    });
+
 }
 
 async function updateGameBoard() {
@@ -292,7 +287,7 @@ function showModal(messageHTML) {
     // Ferme après 15 secondes automatiquement
     setTimeout(() => {
         closeModal();
-    }, 15000);
+    }, 30000);
 
     // Ferme si clic à l’extérieur du modal
     overlay.addEventListener('click', (e) => {
@@ -328,16 +323,16 @@ function closeModal() {
 /*
     5. Tâches :
     
-    Régler le pb de désactivation du son qui ne désactive pas le son "countdown" en cours
-
-    💫 Animations au retournement de carte.
-
     Système de classement entre les joueurs :
     - A la fin de la partie, demander le nom du joueur s'il ne l'a pas déjà rentré auparavant
     - Classement en ligne (via une base de données + back-end léger), prend en compte le pseudo du joueur, le niveau de difficulté, le nombre de coups / le temps, la date
     - Envoyer les infos à cette API, puis les récup
     - Demander à Chatgpt des conseils pour améliorer ce classement
     - Sûrement avec Firebase (simple et rapide)
+
+    Synchro du son (encore)
+
+    💫 Animations au retournement de carte.
 
     Code responsive (adapté à d'autres tailles d'écran)
 
