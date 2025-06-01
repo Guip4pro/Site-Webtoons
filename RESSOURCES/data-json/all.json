@@ -174,11 +174,6 @@
             "alt": "Image : I Obtained a Mythic Item"
           },
           {
-            "title": "Is This Hero for Real?",
-            "image": "IMAGES/3-TRES BONS/is this hero for real/cover.jpg",
-            "alt": "Image : Is This Hero for Real?"
-          },
-          {
             "title": "Jungle Juice",
             "image": "IMAGES/3-TRES BONS/jungle juice/cover.jpg",
             "alt": "Image : Jungle Juice"
@@ -289,11 +284,6 @@
             "alt": "Image : Ranker's Return"
           },
           {
-            "title": "Re: Life Player",
-            "image": "IMAGES/3-TRES BONS/re life player/cover.avif",
-            "alt": "Image : Re: Life Player"
-          },
-          {
             "title": "Reality Quest",
             "image": "IMAGES/3-TRES BONS/reality quest/cover.jpeg",
             "alt": "Image : Reality Quest"
@@ -362,11 +352,6 @@
             "title": "Sweet Home",
             "image": "IMAGES/3-TRES BONS/sweet home/cover.jpg",
             "alt": "Image : Sweet Home"
-          },
-          {
-            "title": "The 100th Regression of the Max-Level Player",
-            "image": "IMAGES/3-TRES BONS/the 100th regression of the max-level player/cover.avif",
-            "alt": "Image : The 100th Regression of the Max-Level Player"
           },
           {
             "title": "The Academy’s Sashimi Sword Master",
@@ -491,9 +476,15 @@
           },
           {
             "title": "Absolute Necromancer",
-            "image": "IMAGES/4-BONS/absolute necromancer/cover.jpg",
+            "image": "IMAGES/4-BONS/absolute necromancer/cover.webp",
             "loading": "lazy",
             "alt": "Image : Absolute Necromancer"
+          },
+          {
+            "title": "Absolute Regression",
+            "image": "IMAGES/4-BONS/absolute regression/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Absolute Regression"
           },
           {
             "title": "Académie Transcendance",
@@ -662,6 +653,12 @@
             "alt": "Image : F-Class Destiny Hunter"
           },
           {
+            "title": "Fox-Eyed Villain of the Demon Academ",
+            "image": "IMAGES/4-BONS/fox-eyed villain of the demon academ/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Fox-Eyed Villain of the Demon Academ"
+          },
+          {
             "title": "Genius Archer's Streaming",
             "image": "IMAGES/4-BONS/genius archer's streaming/cover.jpg",
             "loading": "lazy",
@@ -672,6 +669,12 @@
             "image": "IMAGES/4-BONS/genius assassin who takes it all/cover.webp",
             "loading": "lazy",
             "alt": "Image : Genius Assassin Who Takes It All"
+          },
+          {
+            "title": "Genius Prismatic Mage",
+            "image": "IMAGES/4-BONS/genius prismatic mage/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Genius Prismatic Mage"
           },
           {
             "title": "Golden Mage",
@@ -745,6 +748,12 @@
               "alt": "Image : I Grow Stronger By Eating"
           },
           {
+              "title": "I Was Mistaken As a Monstrous Genius Actor",
+              "image": "IMAGES/4-BONS/i was mistaken as a monstrous genius actor/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : I Was Mistaken As a Monstrous Genius Actor"
+          },
+          {
               "title": "I Was The Final Boss",
               "image": "IMAGES/4-BONS/i was the final boss/cover.jpg",
               "loading": "lazy",
@@ -767,6 +776,11 @@
               "image": "IMAGES/4-BONS/in the night consumed by blades/cover.avif",
               "loading": "lazy",
               "alt": "Image : In The Night Consumed By Blades"
+          },
+          {
+            "title": "Is This Hero for Real?",
+            "image": "IMAGES/4-BONS/is this hero for real/cover.jpg",
+            "alt": "Image : Is This Hero for Real?"
           },
           {
             "title": "Junevile Law",
@@ -901,6 +915,12 @@
               "alt": "Image : My Little Brother Is The Academy's Hotshot"
           },
           {
+              "title": "Night of the Soulless Heathens",
+              "image": "IMAGES/4-BONS/night of the soulless heathens/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : Night of the Soulless Heathens"
+          },
+          {
               "title": "Player From Today Onwards",
               "image": "IMAGES/4-BONS/player from today onwards/cover.jpeg",
               "loading": "lazy",
@@ -917,7 +937,13 @@
             "image": "IMAGES/4-BONS/pour ne pas mourir/cover.webp",
             "loading": "lazy",
             "alt": "Image : Pour ne pas Mourir / To not Die"
-        },
+          },
+          {
+            "title": "Re: Life Player",
+            "image": "IMAGES/3-TRES BONS/re life player/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Re: Life Player"
+          },
           {
               "title": "Rebirth Of An 8th-Circled Wizard",
               "image": "IMAGES/4-BONS/rebirth of an 8th-circled wizard/cover.jpg",
@@ -1038,6 +1064,11 @@
             "alt": "Image : Solo Farming in the Tower"
           },
           {
+            "title": "Solo of Emperor Play",
+            "image": "IMAGES/4-BONS/solo of emperor play/cover.avif",
+            "alt": "Image : Solo of Emperor Play"
+          },
+          {
             "title": "Solo Resurrection",
             "image": "IMAGES/4-BONS/solo resurrection/cover.avif",
             "loading": "lazy",
@@ -1072,6 +1103,11 @@
               "image": "IMAGES/4-BONS/the 31st piece turns the tables/cover.jpg",
               "loading": "lazy",
               "alt": "Image : The 31st Piece Turns the Tables"
+          },
+          {
+            "title": "The 100th Regression of the Max-Level Player",
+            "image": "IMAGES/4-BONS/the 100th regression of the max-level player/cover.avif",
+            "alt": "Image : The 100th Regression of the Max-Level Player"
           },
           {
               "title": "The Boxer",
