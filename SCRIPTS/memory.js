@@ -25,11 +25,6 @@ const sounds = {
     win:       document.getElementById('sound-win')
 };
 
-// On force le préchargement de chaque son (pour éviter le micro délai lors du lancement du jeu)
-for (const key in sounds) {
-    sounds[key].load();
-}
-
 const svgOn = `
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" 
     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -330,9 +325,7 @@ function closeModal() {
     - Demander à Chatgpt des conseils pour améliorer ce classement
     - Sûrement avec Firebase (simple et rapide)
 
-    Synchro du son (encore)
-
-    💫 Animations au retournement de carte.
+    Animations au retournement de la carte.
 
     Code responsive (adapté à d'autres tailles d'écran)
 
