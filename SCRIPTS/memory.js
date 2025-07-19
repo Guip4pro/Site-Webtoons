@@ -167,6 +167,9 @@ function startMemoryGame() {
 window.startMemoryGame = startMemoryGame;   // Rend la fonction visible depuis mon html, malgré mon type="module" dans memory.js (bug fix car la fonction startMemoryGame n'était plus accessible, il fallait les attacher à un window)
 
 
+
+
+
 async function updateGameBoard() {
     playSound('countdown');  // son chaque seconde
     if (countdownInterval) clearInterval(countdownInterval);        // Nettoyage des anciens intervalles
@@ -275,6 +278,11 @@ async function updateGameBoard() {
         console.error("Erreur lors du chargement des images :", error);
     }
 }
+
+    // Pour lancer le jeu quand on change de niveau de difficulté
+document.getElementById('difficulty').addEventListener('change', () => {
+    startMemoryGame();
+});
 
     // Gère le clic d'une carte
 function handleCardClick(card, numPairs) {
@@ -599,26 +607,6 @@ async function afficherClassementPour(difficulty) {
 
 
 // Rajouter un système où le rang du joueur, s'il n'est pas dans le top 10 qui est affiché, est affiché en bas du classement quand même.
-
-/*
-Depuis que j'ai ajouté le classement firestore et que j'ai écrit un peu de nouveau code pour ce classement, quand j'appuie dans mon jeu de memory pour changer le niveau de difficulté, ça ne redémarre pas directement un nouveau jeu de memory et il faut après avoir changé le niveau de difficulté appuyé sur le bouton :
-<div class="game-button">
-    <img src="../RESSOURCES/icons/eyes-memory.jpg" alt="Image du jeu Memory" />
-    <button onclick="startMemoryGame()"> Memory </button>
-</div>
-pour lancer le jeu à nouveau
-Bref ça ne fonctionne plus comme avant
-Dans ce sélécteur de difficulté :
-<div id="memory-difficulty-selector" class="hidden">
-    <label for="difficulty">Niveau de difficulté : </label>
-    <select id="difficulty" onchange="updateGameBoard()">
-        <option value="4x4">🌱 Très facile (8 paires, 4x4)</option> <!-- 8 paires -->
-        <option value="5x6">🪴 Facile (15 paires, 5x6)</option> <!-- 15 paires -->
-        <option value="6x7">🌳 Moyen (21 paires, 6x7)</option>  <!-- 18 paires -->
-        <option value="8x8">👨‍🌾 Difficile (32 paires, 8x8)</option>  <!-- 32 paires -->
-    </select>
-</div>
-*/
 
 // Faire le formulaire Google Sheets pour rentrer les nouveaux webtoons sur le site (avec Blackbox AI directement intégré à VSCode)
 
