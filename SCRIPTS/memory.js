@@ -1,3 +1,78 @@
+// Importe les fonctions nécessaires des SDK Firebase (version modulaire)
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js";
+import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-analytics.js";
+// import { getPerformance } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-performance.js";
+// Pour l'authentification :
+import { getAuth } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
+// Pour la base de données Firestore :
+import { getFirestore } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
+// Pour la base de données Realtime Database (si tu la préfères) :
+// import { getDatabase } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-database.js";
+
+
+// Ta configuration de l'application web Firebase (console)
+const firebaseConfig = {
+    apiKey: "AIzaSyCvCYaSY8GhIa6JJ8zQrSC1nf92jf3qWeI",
+    authDomain: "memory-leaderboard.firebaseapp.com",
+    projectId: "memory-leaderboard",
+    storageBucket: "memory-leaderboard.firebasestorage.app",
+    messagingSenderId: "357999637015",
+    appId: "1:357999637015:web:e65863fef0f1d386bde252",
+    measurementId: "G-6Z2J33EWJK" // Google Analytics
+};
+
+// 1. Initialise Firebase AVEC LA VERSION MODULAIRE
+const app = initializeApp(firebaseConfig);
+
+// 2. Initialise les services spécifiques et obtiens une référence
+const analytics = getAnalytics(app);    // Initialiser Analytics en lui donnant mon application Firebase
+const auth = getAuth(app);           // Pour l'authentification, pour co et déco les joueurs
+const db = getFirestore(app);        // Pour ajouter / récupérer le score des joueurs. Objet principal de ma base Firestore
+// Ou si tu utilises Realtime Database :
+// const database = getDatabase(app);
+
+// 3. Maintenant, tu peux écrire le reste de ton code JavaScript
+// et utiliser les variables 'auth', 'db', etc., pour interagir avec Firebase.
+console.log("Firebase initialisé for the Memory leaderboard");
+// Exemple :
+// auth.onAuthStateChanged(user => {
+//     if (user) {
+//         console.log("Utilisateur connecté :", user.email);
+//     } else {
+//         console.log("Aucun utilisateur connecté.");
+//     }
+// });
+
+// Exemple : Quand un joueur soumet son score
+logEvent(analytics, 'score_submitted', {
+  difficulty: 'facile',
+  moves: 12,
+  time: 60,
+  pseudo: 'MonSuperPseudo'
+});
+
+// Exemple : Quand un utilisateur démarre une nouvelle partie
+logEvent(analytics, 'new_game_started', {
+  difficulty: 'difficile'
+});
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    // Quand le HTML est complètement chargé, on peut accéder aux éléments
+
+    // Pour le firebase
+    document.getElementById("difficulty-selector").addEventListener("change", (e) => {
+        const selectedDifficulty = e.target.value;
+        afficherClassementPour(selectedDifficulty);
+    });
+
+    // Classement par défaut au chargement
+    afficherClassementPour("4x4");
+});
+
+
+
 // Fonction de mélange aléatoire d'un tableau (Fisher-Yates simplifié)
 function shuffleArray(array) {
     return array
@@ -87,9 +162,10 @@ function startMemoryGame() {
     document.getElementById('memory-difficulty-selector').classList.remove('hidden');
     document.getElementById('memory-stats').classList.remove('hidden');
     updateGameBoard();
-
-
 }
+
+window.startMemoryGame = startMemoryGame;   // Rend la fonction visible depuis mon html, malgré mon type="module" dans memory.js (bug fix car la fonction startMemoryGame n'était plus accessible, il fallait les attacher à un window)
+
 
 async function updateGameBoard() {
     playSound('countdown');  // son chaque seconde
@@ -200,7 +276,7 @@ async function updateGameBoard() {
     }
 }
 
-    // Gère le lcic d'une carte
+    // Gère le clic d'une carte
 function handleCardClick(card, numPairs) {
     // Empêche clics si plateau verrouillé ou carte déjà trouvée
     if (lockBoard || card.dataset.flipped === "true") return;
@@ -240,7 +316,20 @@ function handleCardClick(card, numPairs) {
             if (matchedPairs === numPairs) {
                 clearInterval(timerInterval);
                 playSound('win');
+
+                const difficulty = document.getElementById('difficulty').value;
+                console.log("Difficulté choisie :", difficulty); // Devrait afficher par exemple "4x4"
                 showModal(`🎉 <strong>Congratulations!</strong><br>⏱️ Temps : ${timer}s • 🎯 Coups : ${moveCount}`);
+                setTimeout(() => {
+                    demanderPseudo(pseudo => {
+                        enregistrerScore(pseudo, moveCount, timer, difficulty);
+                    });
+                }, 1600);
+
+                document.getElementById("difficulty-selector").addEventListener("change", (e) => {
+                const selectedDifficulty = e.target.value;
+                afficherClassementPour(selectedDifficulty);
+                });
             }
         } else {
             // Pas une paire → retourne les cartes au bout d'un délai
@@ -306,6 +395,244 @@ function closeModal() {
 
 
 
+
+
+// FIREBASE LEADERBOARD
+
+// Commande pour retirer son pseudo enregistré : localStorage.removeItem("pseudoMemoryGame") (à executer dans la console du navigateur, et doit retourner "undefined")
+
+import { collection, getDocs, query, where, orderBy, limit, serverTimestamp, addDoc, updateDoc } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
+
+async function enregistrerScore(pseudo, moves, time, difficulty) {
+    console.log("Fonction enregistrerScore appelée avec :", pseudo, moves, time, difficulty);
+    try {
+        // On commence par "normaliser" le pseudo : on enlève les espaces inutiles et on le met en minuscules
+        const normalizedPseudo = pseudo.trim().toLowerCase();
+
+        // On cible la collection "classement" dans la base Firestore
+        const classementRef = collection(db, "classement");
+
+        // On prépare une requête (query) qui cherche un score EXISTANT pour ce joueur (pseudo normalisé) ET cette difficulté
+        const q = query(classementRef,
+        where("pseudoNormalized", "==", normalizedPseudo),
+        where("difficulty", "==", difficulty)
+        );
+
+        // On exécute la requête pour voir si un score existe déjà
+        const snapshot = await getDocs(q);
+
+        // Si un score a déjà été enregistré pour ce pseudo et cette difficulté :
+        if (!snapshot.empty) {
+        const docSnap = snapshot.docs[0];       // On récupère le premier document (normalement unique)
+        const oldData = docSnap.data();         // On récupère les anciennes données
+
+        // On vérifie si l'ancien score est meilleur que le nouveau
+        const ancienScoreMeilleur =
+            oldData.moves < moves ||                           // Moins de coups = meilleur
+            (oldData.moves === moves && oldData.time <= time); // Ou même nombre de coups mais temps plus court
+
+        if (ancienScoreMeilleur) {
+            console.log("Score existant meilleur, pas de remplacement.");
+            return; // On arrête ici, pas de mise à jour nécessaire
+        }
+
+        // Sinon (le nouveau score est meilleur), on met à jour le document existant
+        await updateDoc(docSnap.ref, {
+            pseudo: pseudo,                             // Nom affiché
+            pseudoNormalized: normalizedPseudo,         // Nom simplifié pour les comparaisons
+            moves,                                      // Nombre de coups
+            time,                                       // Temps réalisé
+            difficulty,                                 // Niveau joué
+            date: serverTimestamp()                     // Date/heure du serveur Firebase
+        });
+
+        console.log("Score mis à jour avec succès !");
+        } else {
+        // Si aucun score n'existait encore pour ce pseudo et cette difficulté, on crée un nouveau document
+        await addDoc(classementRef, {
+            pseudo,
+            pseudoNormalized: normalizedPseudo,
+            moves,
+            time,
+            difficulty,
+            date: serverTimestamp()
+        });
+
+        console.log("Nouveau score enregistré !");
+        }
+    } catch (e) {
+        console.error("Erreur lors de l'enregistrement du score :", e);
+    }
+}
+
+
+
+function demanderPseudo(callback) {
+    // Vérifie si un pseudo est déjà stocké localement dans le navigateur
+    const pseudoEnregistre = localStorage.getItem("pseudo");
+
+    // Si on a déjà un pseudo : on le réutilise directement (pas besoin de redemander)
+    if (pseudoEnregistre) {
+        console.log("Pseudo récupéré depuis le stockage local :", pseudoEnregistre);
+        callback(pseudoEnregistre);
+        return;
+    }
+
+    // Sinon, on crée la boîte de saisie du pseudo
+    const overlay = document.createElement("div");
+    overlay.classList.add("pseudo-overlay");
+
+    overlay.innerHTML = `
+        <div class="pseudo-box">
+        <label for="pseudo-input">Entrez votre pseudo :</label>
+        <input id="pseudo-input" type="text" maxlength="17" placeholder="Ici..." />
+        <div class="pseudo-buttons">
+            <button id="pseudo-valider">Valider</button>
+            <button id="pseudo-annuler">Annuler</button>
+        </div>
+        </div>
+    `;
+
+    document.body.appendChild(overlay);
+    const input = document.getElementById("pseudo-input");
+    const validerButton = document.getElementById("pseudo-valider");
+    const annulerButton = document.getElementById("pseudo-annuler");
+
+    // Fonction appelée quand l’utilisateur clique sur “Valider”
+    function valider() {
+        const pseudo = input.value.trim().slice(0, 17);  // Récupération du pseudo, retire espaces inutiles, limitation à 17 caractères (même si l'input a déjà maxlength=17, c’est une sécurité)
+
+        // Si l'utilisateur n'a rien saisi
+        if (!pseudo) {
+            const box = document.querySelector(".pseudo-box");
+            box.classList.add("shake-error");  // Ajout d'une classe déclenchant une animation rouge
+
+            // On retire la classe qui fait bouger et rougir la box
+            setTimeout(() => {
+                box.classList.remove("shake-error");
+            }, 400);
+
+            return;
+        }
+
+        // On enregistre ce pseudo localement pour les prochaines fois
+        localStorage.setItem("pseudo", pseudo);  // Le pseudo est sauvegardé dans le navigateur (stockage local)
+
+        overlay.remove();  // Si le pseudo est valide : on enlève la boîte de saisie de la page
+        callback(pseudo);  // On appelle la fonction callback (fournie plus tôt) avec le pseudo saisi. (cela va déclencher l’enregistrement du score, etc.)
+    }
+
+    // Clique sur le bouton "Valider"
+    validerButton.addEventListener("click", valider);
+
+    // Clique sur le bouton "Annuler"
+    annulerButton.addEventListener("click", () => {
+        overlay.remove();  // Ferme la boîte de saisie sans enregistrer
+        console.log("Le joueur a choisi de ne pas enregistrer son score.");
+    });
+
+    // Appui sur "Entrée" dans le champ
+    input.addEventListener("keydown", e => {
+        if (e.key === "Enter") {
+            valider();
+        }
+    });
+
+    input.focus(); // Pour que l'utilisateur puisse écrire immédiatement
+}
+
+
+
+async function afficherClassementPour(difficulty) {
+    const pseudoEnregistre = localStorage.getItem("pseudo");
+    const leaderboardList = document.getElementById("leaderboard-list");
+    leaderboardList.innerHTML = ""; // Réinitialise le tableau
+
+    try {
+        const classementRef = collection(db, "classement");
+        const classementQuery = query(
+            classementRef,
+            where("difficulty", "==", difficulty),  // Filtre par difficulté
+            orderBy("moves", "asc"),    // asc = ascending (ordre croissant)
+            orderBy("time", "asc"),
+            limit(10)
+        );
+
+        const snapshot = await getDocs(classementQuery);
+
+        if (snapshot.empty) {
+            leaderboardList.innerHTML = `<tr><td colspan="5">Aucun score pour ${difficulty}</td></tr>`;
+            return;
+        }
+
+        let index = 1; // Commence à 1 pour le classement
+
+        snapshot.forEach((doc) => {
+            const data = doc.data();
+            const date = data.date?.toDate();
+            const dateStr = date
+                ? `${date.toLocaleDateString("fr-FR")}, ${date.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })}`
+                : "Date inconnue";
+
+            const tr = document.createElement("tr");
+                // Vérifie si c'est le pseudo courant → ajoute une classe spéciale
+            if (data.pseudo === pseudoEnregistre) {
+                tr.classList.add("highlighted-score");
+            }
+
+            tr.innerHTML = `
+                <td>${index}</td>
+                <td>${data.pseudo}</td>
+                <td>${data.moves}</td>
+                <td>${data.time}s</td>
+                <td>${dateStr}</td>
+            `;
+            leaderboardList.appendChild(tr);
+            index++; // Incrémenter à chaque joueur
+        });
+
+    } catch (error) {
+        console.error("Erreur affichage classement :", error);
+        leaderboardList.innerHTML = `<tr><td colspan="5">Erreur de chargement</td></tr>`;
+    }
+}
+
+
+// Rajouter un système où le rang du joueur, s'il n'est pas dans le top 10 qui est affiché, est affiché en bas du classement quand même.
+
+/*
+Depuis que j'ai ajouté le classement firestore et que j'ai écrit un peu de nouveau code pour ce classement, quand j'appuie dans mon jeu de memory pour changer le niveau de difficulté, ça ne redémarre pas directement un nouveau jeu de memory et il faut après avoir changé le niveau de difficulté appuyé sur le bouton :
+<div class="game-button">
+    <img src="../RESSOURCES/icons/eyes-memory.jpg" alt="Image du jeu Memory" />
+    <button onclick="startMemoryGame()"> Memory </button>
+</div>
+pour lancer le jeu à nouveau
+Bref ça ne fonctionne plus comme avant
+Dans ce sélécteur de difficulté :
+<div id="memory-difficulty-selector" class="hidden">
+    <label for="difficulty">Niveau de difficulté : </label>
+    <select id="difficulty" onchange="updateGameBoard()">
+        <option value="4x4">🌱 Très facile (8 paires, 4x4)</option> <!-- 8 paires -->
+        <option value="5x6">🪴 Facile (15 paires, 5x6)</option> <!-- 15 paires -->
+        <option value="6x7">🌳 Moyen (21 paires, 6x7)</option>  <!-- 18 paires -->
+        <option value="8x8">👨‍🌾 Difficile (32 paires, 8x8)</option>  <!-- 32 paires -->
+    </select>
+</div>
+*/
+
+// Faire le formulaire Google Sheets pour rentrer les nouveaux webtoons sur le site (avec Blackbox AI directement intégré à VSCode)
+
+// S'occuper du responsive (aspect mobile dégeulasse) (avec Blackbox AI directement intégré à VSCode)
+
+// Faire le Guess the Webtooon (avec Blackbox AI directement intégré à VSCode)
+
+/* (Intéressant pour mon site)
+Firebase AI Logic : Construire des fonctionnalités d'IA intelligentes :
+- Génération de contenu : Votre application pourrait générer automatiquement des descriptions de produits, des légendes pour des photos, des résumés d'articles, ou même des histoires créatives.
+- Chatbots et assistants virtuels : Créez des interfaces de conversation intelligentes qui peuvent interagir avec les utilisateurs, répondre à des questions ou les guider.
+- Traitement du langage naturel (TLN) : Analysez et comprenez le texte des utilisateurs pour des expériences plus personnalisées, comme résumer des notes ou traduire du contenu.
+- Expériences créatives : Imaginez des jeux où l'IA génère des quêtes ou des dialogues uniques, ou des outils qui aident les utilisateurs à brainstormer des idées.
+/*
 
 
 

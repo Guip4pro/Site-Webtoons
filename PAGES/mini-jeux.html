@@ -6,7 +6,7 @@
     <title> Mini-jeux Memory et Guess the webtoon </title>
     <link rel="stylesheet" type="text/css" href="../STYLES/mini-jeux.css">
     <script src="../SCRIPTS/mini-jeux.js" defer></script>
-    <script src="../SCRIPTS/memory.js" defer></script>
+    <script src="../SCRIPTS/memory.js" type="module" defer></script>
 </head>
 <body>
     <header>
@@ -14,7 +14,7 @@
             <a href="../index.html" title="Page d'accueil" class="logo-link">
                 <img src="../RESSOURCES/icons/logo-site.webp" id="logo-site" alt="Logo de mon site">
             </a>
-            <h1> Mini-jeux sur la thématique des Webtoons </h1>
+            <h1> Mini-jeux Webtoons </h1>
         </div>
 
     </header>
@@ -22,8 +22,8 @@
     <main>
     
 
-        <img src="../RESSOURCES/scrolling-banners/banner1.webp" id="bannière" alt="Bannière d'un Webtoon" /> <!-- Rajout d'une bannière de Webtoon pour faire joli et remplir l'espace -->
-        <div id="scroll-banners"></div>
+        <img src="../RESSOURCES/scrolling-banners/1-SSS6Class Revival Hunter.webp" id="bannière" alt="Bannière d'un Webtoon" /> <!-- Rajout d'une bannière de Webtoon pour faire joli et remplir l'espace -->
+        <div id="scroll-banners"></div> <!-- remplacement : executioner.png ; returner.avif-->
 
         <div class="game-buttons">
             <div class="game-button">
@@ -71,11 +71,40 @@
         </div>
 
 
+        
+        <section id="leaderboard-section">
+            <h2> Classement </h2>
+            <select id="difficulty-selector">
+                <option value="4x4">4x4</option>
+                <option value="5x6">5x6</option>
+                <option value="6x7">6x7</option>
+                <option value="8x8">8x8</option>
+            </select>
+
+            <!-- Tableau -->
+            <div class="score-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>RANG</th>
+                            <th>PSEUDO</th>
+                            <th>COUPS</th>
+                            <th>TEMPS</th>
+                            <th>DATE</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leaderboard-list"></tbody>
+                </table>
+            </div>
+        </section>
 
 
           
 
     </main>
+
+
+
 
 </body>
 </html>

@@ -457,7 +457,239 @@ color: #1f2937;             /* gris très foncé */
 }
 
 
-  
+
+/* Tableau de classement */
+#leaderboard-section {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+}
+
+/* Titre */
+#leaderboard-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2d6a4f;
+}
+
+/* Sélecteur de difficulté */
+#difficulty-selector {
+  display: block;
+  margin: 0 auto 30px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: white;
+  transition: border-color 0.2s;
+}
+
+#difficulty-selector:hover,
+#difficulty-selector:focus {
+  border-color: #2d6a4f;
+  outline: none;
+}
+
+/* Conteneur du tableau */
+.score-table {
+  overflow-x: auto;
+}
+
+/* Tableau */
+.score-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* En-tête du tableau */
+.score-table thead {
+  background-color: #2d6a4f;
+  color: white;
+}
+
+.score-table th,
+.score-table td {
+  padding: 12px 16px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.score-table tbody tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.score-table tbody tr:hover {
+  background-color: #e0ffe0;
+  transition: background-color 0.3s;
+}
+
+
+.highlighted-score {
+    font-weight: bold;
+    background-color: #e6ffe6; /* Vert très clair */
+    color: #1a531b; /* Vert foncé pour contraste */
+}
+
+
+
+
+/* Message de demande de pseudo pour le classement du Memory */
+/* Overlay semi-transparent couvrant toute la page, pour focaliser sur la boîte */
+.pseudo-overlay {
+  position: fixed;        /* position fixe par rapport à la fenêtre */
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(240, 240, 240, 0.9); /* fond clair légèrement translucide */
+  display: flex;          /* flexbox pour centrer le contenu */
+  justify-content: center;/* centrer horizontalement */
+  align-items: flex-start;/* aligner vers le haut verticalement */
+  padding-top: 10vh;      /* espace en haut pour "respirer" */
+  z-index: 1000;          /* au-dessus de tout le reste */
+}
+
+/* Boîte contenant label, input, boutons */
+.pseudo-box {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 2rem;    /* coins très arrondis */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* ombre douce portée */
+  text-align: center;     /* centrer le texte */
+  max-width: 300px;
+  width: 90%;             /* responsive sur petits écrans */
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  animation: fadeInUp 0.3s ease-out; /* apparition fluide venant du bas */
+}
+
+/* Animation d'apparition douce avec translation vers le haut */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Label au-dessus du champ texte */
+.pseudo-box label {
+  display: block;         /* forcer saut de ligne */
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;  /* espacement sous le label */
+  color: #333;            /* texte gris foncé, bonne lisibilité */
+}
+
+/* Champ texte pour le pseudo */
+#pseudo-input {
+  display: block;
+  margin: 0 auto;         /* centrer horizontalement */
+  width: 100%;
+  max-width: 250px;       /* limiter largeur max */
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 1.5rem;  /* arrondi doux */
+  font-size: 1rem;
+  outline: none;          /* suppression du contour bleu par défaut */
+  transition: border-color 0.3s ease; /* transition douce de la bordure */
+}
+
+/* Focus sur le champ texte : bordure verte claire */
+#pseudo-input:focus {
+  border-color: #7fdca2;
+}
+
+/* Conteneur des boutons, alignement côte-à-côte avec espacement */
+.pseudo-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Style commun des boutons valider et annuler */
+.pseudo-buttons button {
+  padding: 0.8rem 1.6rem;     /* un peu plus grand que ce que tu avais */
+  border-radius: 2rem;        /* même arrondi que la boîte */
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ombre douce portée */
+  transition: all 0.3s ease;
+  color: white;
+  user-select: none;          /* empêcher la sélection du texte au clic */
+}
+
+/* Bouton Valider : vert doux */
+#pseudo-valider {
+  background-color: #7fdca2;
+}
+
+/* Hover sur Valider : vert un peu plus foncé + léger "soulèvement" */
+#pseudo-valider:hover {
+  background-color: #6fc791;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Clic sur Valider : léger rétrécissement */
+#pseudo-valider:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Bouton Annuler : gris moyen */
+#pseudo-annuler {
+  background-color: #aaa;
+}
+
+/* Hover sur Annuler : gris un peu plus foncé, même effet que Valider */
+#pseudo-annuler:hover {
+  background-color: #888;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Clic sur Annuler : même effet que Valider */
+#pseudo-annuler:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Animation d'erreur quand pseudo vide : secousse + flash rouge */
+.pseudo-box.shake-error {
+  animation: shake 0.4s, flashRed 0.4s;
+}
+
+/* Animation secousse horizontale */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+/* Animation flash de fond rouge très rapide */
+@keyframes flashRed {
+  0% { background-color: #ffe5e5; }
+  100% { background-color: white; }
+}
+
+
+
 
 
 
