@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    padding: 20px;
+    padding: 1.5rem;
 
     background-image: url(../RESSOURCES/background-minijeux.jpg);
     background-size: cover;           /* Ajuste l'image pour qu'elle couvre tout l'écran */
