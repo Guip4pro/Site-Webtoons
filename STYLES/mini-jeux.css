@@ -24,6 +24,7 @@ body::before {
 }
 
 
+
 .logo-titre {
     display: flex;
     align-items: center;
@@ -40,7 +41,6 @@ body::before {
 #logo-site {
     position: absolute; /* Place le logo de manière absolue */
     left: 0; /* Aligne le logo à gauche */
-    margin-left: 20px; /* Ajuste la distance du logo par rapport au bord gauche */
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -62,8 +62,12 @@ h1 {
     text-decoration: underline;
     margin-bottom: 200px;
     margin: 0; /* Évite un espace vertical inutile */
-    padding-left: 60px; /* Décale légèrement le titre pour éviter le chevauchement avec le logo */
+    padding-left: 1.5em; /* Décale légèrement le titre pour éviter le chevauchement avec le logo */
 }
+
+
+
+
 
 #bannière {
     width: 100%;
@@ -688,21 +692,68 @@ color: #1f2937;             /* gris très foncé */
 
 
 
-/* Responsive : réduit la plateforme sur mobile */
+/* RESPONSIVE : réduit la plateforme sur mobile */
+
+/* (Media query) = condition CSS qui dit que si la largeur de l'écran est < 600px (smartphones en moyenne entre 360 - 414), ce bloc CSS s'applique */
 @media (max-width: 600px) {
+    body {
+        padding: 1rem; /* ou même 0.5rem si c’est très petit */
+    }
+    /* 1) Conteneur principal responsive */
     #memory-game {
-        max-width: 90vw;  /* plus souple sur mobile */
-        padding: 1rem;
-        margin: 1rem auto;
-      }
-    #memory-stats {
+        max-width: 90vw;        /* ne dépasse pas 90% de la largeur de l'écran */
+        padding: 1rem;          /* espace interne un peu réduit */
+        box-sizing: border-box; /* inclut padding/border dans la largeur */
+        overflow-x: hidden;     /* empêche tout débordement horizontal */
+    }
+
+    /* 2) Contrôles en colonne et pleine largeur */
+    #memory-controls {
         flex-direction: column;
-        gap: 0.5rem;
-        font-size: 1rem;
+        align-items: stretch;
+        gap: 0.75rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* 3) Stats et sélecteur prennent 100% du conteneur */
+    #memory-stats,
+    #memory-difficulty-selector {
+        width: 100%;
+        box-sizing: border-box;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 0.75rem;
+    }
+
+    /* Label et select bien empilés */
+    #memory-difficulty-selector label {
+        display: block;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    #memory-difficulty-selector select {
+        width: 100%;
+        max-width: none;
+    }
+
+    /* 4) Plateau de jeu s'adapte au conteneur */
+    #memory-game-board {
+        width: 100%;           /* prend tout l'espace disponible */
+        height: auto;          /* la hauteur s’ajuste à son contenu */
+        gap: 6px;
+    }
+
+    /* 5) Bouton toggle sound */
+    #toggle-sound {
+        align-self: center;    /* reste centré sous le plateau */
+        margin-top: 0.75rem;
     }
 }
-    
-    
+
+
+
     
 
 
