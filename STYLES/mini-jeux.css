@@ -73,8 +73,8 @@ h1 {
     width: 100%;
     max-width: 1000px;
     height: auto;
-    border-radius: 15px;
     margin: 40px auto;
+    border-radius: 15px;
     display: block;
 }
 
@@ -82,7 +82,7 @@ h1 {
 /* Bannières aspect + transition */
 #scroll-banners {
     margin-top: 50px;
-    margin-bottom: 50px;
+
     display: flex;
     justify-content: center;
     align-items: center;
