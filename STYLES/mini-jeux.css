@@ -529,7 +529,7 @@ h1 {
     transition: background-color 0.3s;
 }
 
-
+/* Mettre en lumière le score propre à l'utilisateur seulement */
 .highlighted-score {
     font-weight: bold;
     background-color: #e6ffe6; /* Vert très clair */
@@ -701,8 +701,8 @@ h1 {
         gap: 2rem;
     }
     .game-button {
-        width: 100px;
-        font-size: 0.6rem;
+        width: 8em;
+        font-size: 0.8rem;
     }
     /* 1) Conteneur principal responsive */
     #memory-game {
