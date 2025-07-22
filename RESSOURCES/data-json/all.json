@@ -294,6 +294,11 @@
             "alt": "Image : Reaper of the Drifting Moon"
           },
           {
+            "title": "Regressor Instruction Manual",
+            "image": "IMAGES/3-TRES BONS/regressor instruction manual/cover.webp",
+            "alt": "Image : Regressor Instruction Manual"
+          },
+          {
             "title": "Regressor of the Fallen Family",
             "image": "IMAGES/3-TRES BONS/regressor of the fallen family/cover.webp",
             "alt": "Image : Regressor of the Fallen Family"
@@ -457,6 +462,11 @@
             "title": "Warrior High School",
             "image": "IMAGES/3-TRES BONS/warrior high school/cover.avif",
             "alt": "Image : Warrior High School"
+          },
+          {
+            "title": "Wind Breaker",
+            "image": "IMAGES/3-TRES BONS/wind breaker/cover.avif",
+            "alt": "Image : Wind Breaker"
           },
           {
             "title": "World After Fall",
@@ -831,12 +841,6 @@
               "alt": "Image : Legendary Youngest Son"
           },
           {
-              "title": "Level Up With Skills",
-              "image": "IMAGES/4-BONS/level up with skills/cover.jpeg",
-              "loading": "lazy",
-              "alt": "Image : Level Up With Skills"
-          },
-          {
               "title": "Leveling Up With The Sword",
               "image": "IMAGES/4-BONS/leveling up with the sword/cover.webp",
               "loading": "lazy",
@@ -891,12 +895,6 @@
               "alt": "Image : Mercenary Enrollment"
           },
           {
-              "title": "Mightiest Melee Magician",
-              "image": "IMAGES/4-BONS/mightiest melee magician/cover.jpg",
-              "loading": "lazy",
-              "alt": "Image : Mightiest Melee Magician"
-          },
-          {
             "title": "Mookhyang - Dark Lady",
             "image": "IMAGES/4-BONS/mookhyang - dark lady/cover.webp",
             "loading": "lazy",
@@ -940,7 +938,7 @@
           },
           {
             "title": "Re: Life Player",
-            "image": "IMAGES/3-TRES BONS/re life player/cover.avif",
+            "image": "IMAGES/4-TRES BONS/re life player/cover.avif",
             "loading": "lazy",
             "alt": "Image : Re: Life Player"
           },
@@ -1271,12 +1269,6 @@
               "alt": "Image : Worn and Torn Newbie"
           },
           {
-              "title": "Youngest Son of the Namgung Clan",
-              "image": "IMAGES/4-BONS/youngest son of the namgung clan/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : Youngest Son of the Namgung Clan"
-          },
-          {
               "title": "Your Talent Is Mine",
               "image": "IMAGES/4-BONS/your talent is mine/cover.webp",
               "loading": "lazy",
@@ -1300,10 +1292,28 @@
             "alt": "Image : A Barbarian was admitted to the Academy"
           },
           {
+            "title": "Absolute Dominion",
+            "image": "IMAGES/5-INTERMEDIAIRES/absolute dominion/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Absolute Dominion"
+          },
+          {
             "title": "Adoptée Par La Famille Des Assassins",
             "image": "IMAGES/5-INTERMEDIAIRES/adoptee par la famille des assassins/cover.webp",
             "loading": "lazy",
             "alt": "Image : Adoptée Par La Famille Des Assassins"
+          },
+          {
+            "title": "All My Alter Egos are Tycoons",
+            "image": "IMAGES/5-INTERMEDIAIRES/all my alter egos are tycoons/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : All My Alter Egos are Tycoons"
+          },
+          {
+            "title": "Angelic Lady",
+            "image": "IMAGES/5-INTERMEDIAIRES/angelic lady/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Angelic Lady"
           },
           {
             "title": "Arena",
@@ -1390,10 +1400,22 @@
             "alt": "Image : Existence"
           },
           {
-            "title": "From Giblin To Goblin Gold",
+            "title": "Fated to be Loved by Villains",
+            "image": "IMAGES/5-INTERMEDIAIRES/fated to be loved by villains/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Fated to be Loved by Villains"
+          },
+          {
+            "title": "From Goblin To Goblin Gold",
             "image": "IMAGES/5-INTERMEDIAIRES/from goblin to goblin gold/cover.png",
             "loading": "lazy",
-            "alt": "Image : From Giblin To Goblin Gold"
+            "alt": "Image : From Goblin To Goblin Gold"
+          },
+          {
+            "title": "God's Gambit",
+            "image": "IMAGES/5-INTERMEDIAIRES/god's gambit/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : God's Gambit"
           },
           {
             "title": "Hardcore Leveling Warrior",
@@ -1486,6 +1508,12 @@
             "alt": "Image : Ice Lord"
           },
           {
+            "title": "Kill the Villainess",
+            "image": "IMAGES/5-INTERMEDIAIRES/kill the villainess/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Kill the Villainess"
+          },
+          {
             "title": "L'Étoile Écarlate",
             "image": "IMAGES/5-INTERMEDIAIRES/l'étoile écarlate/cover.webp",
             "loading": "lazy",
@@ -1540,6 +1568,12 @@
             "alt": "Image : Legendary Hero is an Academy Honors Student"
           },
           {
+              "title": "Level Up With Skills",
+              "image": "IMAGES/5-INTERMEDIAIRES/level up with skills/cover.jpeg",
+              "loading": "lazy",
+              "alt": "Image : Level Up With Skills"
+          },
+          {
             "title": "Leveling Up By Only Eating",
             "image": "IMAGES/5-INTERMEDIAIRES/leveling up by only eating/cover.jpg",
             "loading": "lazy",
@@ -1568,6 +1602,12 @@
             "image": "IMAGES/5-INTERMEDIAIRES/memorize/cover.webp",
             "loading": "lazy",
             "alt": "Image : Memorize"
+          },
+          {
+              "title": "Mightiest Melee Magician",
+              "image": "IMAGES/5-INTERMEDIAIRES/mightiest melee magician/cover.jpg",
+              "loading": "lazy",
+              "alt": "Image : Mightiest Melee Magician"
           },
           {
             "title": "Millionaire Lady",
@@ -1720,10 +1760,22 @@
             "alt": "Image : Super Genius DNA"
           },
           {
+            "title": "Surinvoqué et Surpuissant",
+            "image": "IMAGES/5-INTERMEDIAIRES/surinvoque et surpuissant/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Surinvoqué et Surpuissant"
+          },
+          {
             "title": "Surviving as a Fish",
             "image": "IMAGES/5-INTERMEDIAIRES/surviving as a fish/cover.webp",
             "loading": "lazy",
             "alt": "Image : Surviving as a Fish"
+          },
+          {
+            "title": "Surviving as a Genius on Borrowed Time",
+            "image": "IMAGES/5-INTERMEDIAIRES/surviving as a genius on borrowed time/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Surviving as a Genius on Borrowed Time"
           },
           {
             "title": "Taming Master",
@@ -1772,6 +1824,12 @@
             "image": "IMAGES/5-INTERMEDIAIRES/the iron-blooded necromancer has returned/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Iron-Blooded Necromancer Has Returned"
+          },
+          {
+            "title": "The Lady Wants to Rest",
+            "image": "IMAGES/5-INTERMEDIAIRES/the lady wants to rest/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : The Lady Wants to Rest"
           },
           {
             "title": "The Lazy Swordmaster",
@@ -1832,6 +1890,12 @@
             "image": "IMAGES/5-INTERMEDIAIRES/white blood/cover.jpg",
             "loading": "lazy",
             "alt": "Image : White Blood"
+          },
+          {
+              "title": "Youngest Son of the Namgung Clan",
+              "image": "IMAGES/5-INTERMEDIAIRES/youngest son of the namgung clan/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : Youngest Son of the Namgung Clan"
           }
         ]
       },
@@ -1849,12 +1913,6 @@
             "image": "IMAGES/6-MOYENS/adorée des villains/cover.webp",
             "loading": "lazy",
             "alt": "Image : Adorée des Villains"
-          },
-          {
-            "title": "Angelic Lady",
-            "image": "IMAGES/6-MOYENS/angelic lady/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : Angelic Lady"
           },
           {
             "title": "Aventures of an Undead who Became a Paladin",
@@ -1981,12 +2039,6 @@
             "image": "IMAGES/6-MOYENS/je souhaite mourir/cover.webp",
             "loading": "lazy",
             "alt": "Image : Je Souhaite Mourir"
-          },
-          {
-            "title": "Kill the Villainess",
-            "image": "IMAGES/6-MOYENS/kill the villainess/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : Kill the Villainess"
           },
           {
             "title": "Konjiki no Moji Tsukai",
@@ -2181,12 +2233,6 @@
             "alt": "Image : The King of Bug"
           },
           {
-            "title": "The Lady Wants to Rest",
-            "image": "IMAGES/6-MOYENS/the lady wants to rest/cover.jpeg",
-            "loading": "lazy",
-            "alt": "Image : The Lady Wants to Rest"
-          },
-          {
             "title": "The Ranker's Guide to Live an Ordinary Life",
             "image": "IMAGES/6-MOYENS/the rankers guide to live an ordinary life/cover.webp",
             "loading": "lazy",
@@ -2284,12 +2330,13 @@
         ]
       },
       {
-        "name": "Mauvais",
+        "name": "CACA SUPREME",
         "webtoons": [
           {
-            "title": "",
-            "image": "",
-            "alt": ""
+            "title": "The Hero Starts Over the Academy",
+            "image": "IMAGES/8-MAUVAIS/the hero starts over the academy/cover.webp",
+            "loading": "lazy",
+            "alt": "The Hero Starts Over the Academy"
           }
         ]
       },

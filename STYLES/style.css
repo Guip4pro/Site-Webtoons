@@ -135,6 +135,7 @@ h1 {
 
 
 
+
     /* Liens TikTok */
 .social-link {
     display: inline-flex; /* Change de block à inline et garde l'alignement */
@@ -171,7 +172,7 @@ h1 {
 }
 
 #pinterest-icon {
-    width: 2.5rem;    /* 2.5 anciennement */
+    width: 2.5rem;    /* 1 rem = 16px (taille de police définie dans .social-text) */
     height: auto;
     margin-right: 0.85rem; /* Espace entre l'icône et le texte */
     margin-left: 5px;
@@ -511,5 +512,14 @@ h1 {
 
 
 
+
+
+
+/* RESPONSIVE / */
+@media (max-width: 495px) {
+    #pinterest-icon {
+        margin-left: 2px;
+    }
+}
 
     
