@@ -135,6 +135,58 @@ h1 {
 
 
 
+    /* Liens TikTok */
+.social-link {
+    display: inline-flex; /* Change de block à inline et garde l'alignement */
+    align-items: center; /* Centre verticalement l'icône et le texte */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    background-color: #1e1e1e; /* Couleur du fond */
+    border-radius: 5px;
+    padding: 5px 10px; /* vertical horizontal */
+    color: #fff;
+    transition: background-color 0.3s, transform 0.3s; /* Ajoute des transitions pour l'effet au survol */
+    width: fit-content; /* Adapte la taille de la boîte au contenu */
+}
+
+.social-link:hover {
+    transform: scale(1.05);
+}
+
+/* Hover TikTok : fond rouge */
+.tiktok:hover {
+    background-color: #69C9D0;;  /* ancien rouge flashy de tiktok #ff0050 */
+    color: black;
+}
+
+/* Hover Pinterest : fond vert */
+.pinterest:hover {
+    background-color: #f0314e;  /* rouge profond #E60023 */
+    color: black;
+}
+
+#tiktok-icon {
+    width: 2.5rem;
+    height: auto;
+    margin-right: 0.42rem; /* Espace entre l'icône et le texte */
+}
+
+#pinterest-icon {
+    width: 2.5rem;    /* 2.5 anciennement */
+    height: auto;
+    margin-right: 0.85rem; /* Espace entre l'icône et le texte */
+    margin-left: 5px;
+}
+
+.social-text {
+    font-size: 16px;
+}
+
+.social-bold {
+    font-weight: bold;
+}
+
+
+
     /* CREER SA PROPRE TIER LIST ET OPTION DE RECHERCHE DE WEBTOONS */
 
 /* Conteneur pour aligner les éléments */
@@ -459,35 +511,5 @@ h1 {
 
 
 
-    /* Liens TikTok */
-#tiktok-link {
-    display: inline-flex; /* Change de block à inline et garde l'alignement */
-    align-items: center; /* Centre verticalement l'icône et le texte */
-    text-decoration: none; /* Supprime le soulignement du lien */
-    background-color: #1e1e1e; /* Couleur du fond */
-    border-radius: 5px;
-    padding: 5px 10px; /* vertical horizontal */
-    color: #fff;
-    transition: background-color 0.3s, transform 0.3s; /* Ajoute des transitions pour l'effet au survol */
-    width: fit-content; /* Adapte la taille de la boîte au contenu */
-}
 
-#tiktok-link:hover {
-    background-color: #ff0050; /* Couleur au survol */
-    transform: scale(1.05); /* Légère augmentation au survol */
-}
-
-.tiktok-icon {
-    width: 40px;
-    height: 40px;
-    margin-right: 5px; /* Espace entre l'icône et le texte */
-}
-
-.tiktok-text {
-    font-size: 16px;
-}
-
-#tiktok-bold {
-    font-weight: bold;
-}
     
