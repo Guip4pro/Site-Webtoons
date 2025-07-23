@@ -5,6 +5,11 @@ body {
     padding: 20px;	/* Ajoute une marge de 20 px tout autour de ma page Web */
 }
 
+strong {
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
 #logo-site {
     width: 50px;          /* Ajuste la taille du logo */
     height: auto;          /* Garde les proportions de l'image */
@@ -30,6 +35,11 @@ h1 {
 
 .couleur-texte-blanc {
     color: #ffffff;
+}
+
+#text-intro {
+    margin-right: 12%;
+    font-size: 0.85em;
 }
 
 
@@ -303,7 +313,7 @@ h1 {
 #style-intermediaires .tier-label { background-color: #2E86C1;}
 #style-moyens .tier-label { background-color: #C70039; }
 #style-ennuyants .tier-label { background-color: #900C3F; }
-#style-mauvais .tier-label { background-color: #581845; }
+#style-caca-supreme .tier-label { background-color: #581845; }
 #style-flemme-de-classer .tier-label { background-color: #7D3C98; }
 #style-en-cours-evaluation .tier-label { background-color: #17b114; }
 
