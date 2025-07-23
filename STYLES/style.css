@@ -517,6 +517,9 @@ h1 {
 
 /* RESPONSIVE / */
 @media (max-width: 495px) {
+    .navbarre-haute li {
+        font-size: 0.85em;
+    }
     #pinterest-icon {
         margin-left: 2px;
     }
