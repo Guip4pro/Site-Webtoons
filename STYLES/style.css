@@ -243,65 +243,57 @@ h1 {
 
     /* MA TIER LIST */
 
-
-
 .tier-list {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.5em;     /* Espacement entre les différentes catégories de la tier list */
 }
 
 .tier-category {
-    margin-bottom: 10px;	/* Créé un espacement entre les différentes catégories de ma tier list */
+    margin-bottom: 0.5em;   /* Créé un espacement entre les différentes catégories de ma tier list */
     display: flex;
     background-color: #2a2a2a;  /* gris foncé */
-    border-radius: 7px;
+    border-radius: 0.5em;
     overflow: hidden;
-    
 }
 
-	/* Pour les titres des catégories */
+    /* Pour les titres des catégories */
 .tier-category h2 {
-    font-size: 24px;
-    color: #333;	/* Gris foncé */
-    margin-bottom: 10px;	/* Ajoute un espace de 10px en dessous du titre */
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5em;
     text-align: center;
 }
 
-
-
 .tier-label {
-    width: 150px;
+    width: 6rem;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-size: 24px;
-    padding: 10px;  /* Espacement entre les titres et les conteneurs */
+    font-size: 1.2rem;
+    padding: 0.5em;     /* Créé un espacement entre le label et le fond *//* Espacement entre les titres et les conteneurs */
 }
-
 
 .tier-grid {
     display: flex;
     flex-wrap: wrap;    /* Permet aux images de se répartir sur plusieurs lignes */
-    gap: 10px;  /* Espacement entre les images */
-    padding: 20px;
+    gap: 0.5em;     /* Espacement entre les images */
+    padding: 1em;
     flex-grow: 1;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));  /* Crée un nombre variable de colonnes qui ont une largeur minimale de 150px et remplissent l'espace disponible.             template = modèle */
 }
 
-
-	/* Pour les images */
 .tier-grid img {
-    width: 130px;
+    width: 5.5rem;
     height: auto;
-    border-radius: 10px;
-    transition: transform 0.2s ease;	/* Ajoute une transition douce de 0.2s sur les images quand on glisse le curseur dessus (Pour éviter que l'image s'agrandisse d'un coup, moins moche  */
+    border-radius: 0.5em;
+    transition: transform 0.2s ease;    /* Ajoute une transition douce de 0.2s sur les images quand on glisse le curseur dessus (Pour éviter que l'image s'agrandisse d'un coup, moins moche  */
 }
 
-	/* Hover signifie "survoler" en anglais, cela signifie que le style sera appliqué de façon temporaire, seulement quand un curseur survolera l'image */
+    /* Hover signifie "survoler" en anglais, cela signifie que le style sera appliqué de façon temporaire, seulement quand un curseur survolera l'image */
 .tier-grid img:hover {
-    transform: scale(1.05);		/* Agrandi légèrement l'image que le curseur glisse dessus */
+    transform: scale(1.05); /* Lorsque l'on survole l'image, elle s'agrandit de/* Agrandi légèrement l'image que le curseur glisse dessus */
 }
 
 
@@ -587,4 +579,36 @@ h1 {
     }
 }
 
-    
+
+
+@media (max-width: 600px) {
+    .tier-list {
+        gap: 0.2rem;
+    }
+
+    .tier-category {
+        margin-bottom: 0.2rem;
+        border-radius: 0.3rem;
+    }
+
+    .tier-category h2 {
+        font-size: 0.9rem;  /* ~14px */
+        margin-bottom: 0.2rem;
+    }
+
+    .tier-label {
+        width: 4rem;  /* ~64px */
+        font-size: 0.9rem;
+        padding: 0.3rem;
+    }
+
+    .tier-grid {
+        gap: 0.3rem;
+        padding: 0.5rem;
+    }
+
+    .tier-grid img {
+        width: 4rem; /* ~64px */
+        border-radius: 0.3rem;
+    }
+}
