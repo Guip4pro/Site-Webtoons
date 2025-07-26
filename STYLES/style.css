@@ -225,7 +225,7 @@ h1 {
 }
 
 /* Style de la barre de recherche */
-.search-webtoon {
+#search-webtoon {
     padding: 10px;
     font-size: 16px;
     border: 2px solid #4CAF50;
@@ -233,10 +233,11 @@ h1 {
     width: 200px; /* Largeur de la barre de recherche */
 }
 
-.search-webtoon:focus {
+#search-webtoon:focus {
     border-color: #45a049; /* Couleur du bord au focus */
     outline: none;
 }
+
 
 
 
@@ -272,7 +273,7 @@ h1 {
     justify-content: center;
     font-weight: bold;
     font-size: 1.2rem;
-    padding: 0.5em;     /* Créé un espacement entre le label et le fond *//* Espacement entre les titres et les conteneurs */
+    padding: 1.5em;     /* Créé un espacement entre le label et le fond *//* Espacement entre les titres et les conteneurs */
 }
 
 .tier-grid {
@@ -599,7 +600,7 @@ h1 {
     .tier-label {
         width: 4rem;  /* ~64px */
         font-size: 0.9rem;
-        padding: 0.3rem;
+        padding: 1rem;
     }
 
     .tier-grid {

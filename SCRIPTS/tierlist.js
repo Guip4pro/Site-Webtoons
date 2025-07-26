@@ -17,49 +17,39 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 
-/*
-fetch('RESSOURCES/data-json/all.json')
-.then(response => {
-    if (!response.ok) {
-    throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return response.json();
-})
-.then(data => {
-    console.log('Données JSON chargées :', data);
-})
-.catch(error => console.error('Erreur lors du chargement du JSON :', error));
-*/
+
+// Liste pour stocker tous les liens webtoons
+const allWebtoonLinks = [];
 
 function loadWebtoonsFromJson(jsonFile) {
-    fetch(`${jsonFile}?v=${Date.now()}`)  // Ajout du paramètre pour éviter le cache
+    fetch(`${jsonFile}?v=${Date.now()}`)    // Ajout du paramètre pour éviter le cache
         .then(response => response.json())
         .then(data => {
             data.categories.forEach(category => {
-                console.log("Chargement de la catégorie :", category.name);
-                
                 const container = document.getElementById(
                     category.name.toLowerCase()
-                        .normalize("NFD")
-                        .replace(/[\u0300-\u036f]/g, "")
+                        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
                         .replace(/\s+/g, '-')
                 );
 
                 if (container) {
-                    console.log("Conteneur trouvé pour la catégorie :", category.name);
-                    
                     category.webtoons.forEach(webtoon => {
                         const link = document.createElement('a');
                         link.href = `#webtoon-${webtoon.title.replace(/\s+/g, '-').toLowerCase()}-details`;
+
+                        // On ajoute le nom en minuscule dans un attribut pour filtrer
+                        link.setAttribute("data-title", webtoon.title.toLowerCase());
+
                         const img = document.createElement('img');
                         img.src = webtoon.image;
-                        if (webtoon.loading) {
-                            img.loading = webtoon.loading;
-                        }
+                        if (webtoon.loading) img.loading = webtoon.loading;
                         img.alt = webtoon.alt;
-                        
+
                         link.appendChild(img);
                         container.appendChild(link);
+
+                        // Sauvegarder ce lien dans la liste
+                        allWebtoonLinks.push(link);
 
                         link.addEventListener('click', function (event) {
                             event.preventDefault();
@@ -67,18 +57,11 @@ function loadWebtoonsFromJson(jsonFile) {
                             const targetDetail = document.getElementById(targetID);
                             if (targetDetail) {
                                 targetDetail.style.display = 'block';
-
-                                // Récupérer la croix de fermeture
-                                const closePopup = targetDetail.querySelector('.close-popup');
-                                // Ajouter un événement de clic pour fermer le pop-up
-                                closePopup.onclick = function() {
-                                    targetDetail.style.display = 'none'; // Fermer le pop-up
-                                };
+                                const closePopup = targetDetail.querySelector('.close-popup');      // Récupérer la croix de fermeture
+                                closePopup.onclick = () => targetDetail.style.display = 'none';     // Fermer le pop-up
                             }
                         });
                     });
-                } else {
-                    console.error("Erreur : conteneur introuvable pour la catégorie :", category.name);
                 }
             });
         })
@@ -98,12 +81,25 @@ function loadWebtoonsFromJson(jsonFile) {
         }
     });*/
 
+
+
+
+
+    // Fonction de filtrage selon le champ de recherche
+    document.getElementById("search-webtoon").addEventListener("input", function () {
+        const query = this.value.trim().toLowerCase();
+
+        allWebtoonLinks.forEach(link => {
+            const title = link.getAttribute("data-title");
+            if (title.includes(query)) {
+                link.style.display = "";  // visible
+            } else {
+                link.style.display = "none"; // masqué
+            }
+        });
+    });
+
 });
-
-
-
-
-
 
 
 
