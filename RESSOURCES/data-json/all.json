@@ -237,21 +237,25 @@
           },
           {
             "title": "Legend of Asura",
+             "aliases": ["Legend of Asura - The Venom Dragon", "Poison Dragon: The Legend of an Asura", " Legend of an Asura - The Poison Dragon"],
             "image": "IMAGES/3-TRES BONS/legend of asura/cover.avif",
             "alt": "Image : Legend of Asura"
           },
           {
             "title": "Legend of the Northern Blade",
+             "aliases": ["Chronicles of the Northern Sword", "The Legend of the Northern Blade"],
             "image": "IMAGES/3-TRES BONS/legend of the northern blade/cover.jpg",
             "alt": "Image : Legend of Asura"
           },
           {
             "title": "Leveling Up with the Gods",
+            "aliases": ["Level Up With the Gods", "Leveling With the Gods"],
             "image": "IMAGES/3-TRES BONS/leveling up with the gods/cover.jpg",
             "alt": "Image : Leveling Up with the Gods"
           },
           {
             "title": "Leviathan",
+            "aliases": "Deep Sea Monster",
             "image": "IMAGES/3-TRES BONS/leviathan/cover.avif",
             "alt": "Image : Leviathan"
           },
@@ -262,6 +266,7 @@
           },
           {
             "title": "Magic Academy's Genius Blinker",
+            "aliases": ["I Became A Flashing Genius At The Magic Academy", " I Become Flashing Genius at the Magic Academy"],
             "image": "IMAGES/3-TRES BONS/magic academy's genius blinker/cover.avif",
             "alt": "Image : Magic Academy's Genius Blinker"
           },
@@ -272,21 +277,25 @@
           },
           {
             "title": "Moon-Shadow Sword Emperor",
+            "aliases": ["Absolute Master of the Senate", "L'Empereur de l'ombre lunaire", "Moon Shadow Sword Emperor"],
             "image": "IMAGES/3-TRES BONS/moon-shadow sword emperor/cover.jpg",
             "alt": "Image : Moon-Shadow Sword Emperor"
           },
           {
             "title": "My Exclusive Tower Guide",
+            "aliases": "My Very Own Tower Strategy Guide",
             "image": "IMAGES/3-TRES BONS/my exclusive tower guide/cover.webp",
             "alt": "Image : My Exclusive Tower Guide"
           },
           {
             "title": "Myst Myst Mayhem",
+            "aliases": ["The Chaotic God of Extraordinary Strength", " Myst Might Mayhem ", "Myst, Might, Mayhem"],
             "image": "IMAGES/3-TRES BONS/myst myst mayhem/cover.avif",
             "alt": "Image : Myst Myst Mayhem"
           },
           {
             "title": "Necromancer Academy",
+                "aliases": ["Necromancer Academy's Genius Summoner", "Necromancer Academy and the Genius Summoner"],
             "image": "IMAGES/3-TRES BONS/necromancer academy/cover.avif",
             "alt": "Image : Necromancer Academy"
           },
@@ -297,26 +306,31 @@
           },
           {
             "title": "Past Life Regressor",
+            "aliases": ["Past Life Regressor (Remake)", "Past Life Returner "],
             "image": "IMAGES/3-TRES BONS/past life regressor/cover.webp",
             "alt": "Image : Past Life Regressor"
           },
           {
             "title": "Player Who Returned 10,000 Years Later",
+            "aliases": ["After Ten Millenia in Hell ", "Player Who Returned 10000 Years Later", "Jugador Que Regresó 10.000 Años Después"],
             "image": "IMAGES/3-TRES BONS/player who returned 10000 years later/cover.avif",
             "alt": "Image : Player Who Returned 10,000 Years Later"
           },
           {
             "title": "Priest of Corruption",
+            "aliases": ["The Priest of Corruption", "Priest of Decay"],
             "image": "IMAGES/3-TRES BONS/priest of corruption/cover.avif",
             "alt": "Image : Priest of Corruption"
           },
           {
             "title": "Ranker's Return",
+            "aliases": ["Ranker's Return (Remake)", "Le Retour du Ranker (Remake)"],
             "image": "IMAGES/3-TRES BONS/ranker's return/cover.avif",
             "alt": "Image : Ranker's Return"
           },
           {
             "title": "Reality Quest",
+            "aliases": "Real Life Quest",
             "image": "IMAGES/3-TRES BONS/reality quest/cover.jpeg",
             "alt": "Image : Reality Quest"
           },
@@ -333,101 +347,121 @@
           },
           {
             "title": "Regressor of the Fallen Family",
+            "aliases": ["A Flame Reborn", "Régresseur de la famille déchue", "Régression de la famille déchue", "Returner of a Ruined Family"],
             "image": "IMAGES/3-TRES BONS/regressor of the fallen family/cover.webp",
             "alt": "Image : Regressor of the Fallen Family"
           },
           {
             "title": "Reincarnation of the Suicidal Battle God",
+            "aliases": ["The Battle God's Return", "A Battle God's Second Chance", "Doom Breaker"],
             "image": "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/cover.avif",
             "alt": "Image : Reincarnation of the Suicidal Battle God"
           },
           {
             "title": "Return of the Legendary Spear Knight",
+            "aliases": ["Le retour du guerrier à la lance légendaire", "Le retour du lancier légendaire", "The Spear Knight's Return", "Return of The Greatest Lancer", "Return of the Unrivaled Spear Knight", "Returns Of The Legendary Spear Knight", "Sự Trở Lại Của Hiệp Sĩ Giáo", "The Legendary Spearman Returns"],
             "image": "IMAGES/3-TRES BONS/return of the legendary spear knight/cover.avif",
             "alt": "Image : Return of the Legendary Spear Knight"
           },
           {
             "title": "Return of the SSS-Class Ranker",
+            "aliases": ["Back to SSS rank", "Regreso del ranker de clase SSS", " The SSS-Ranker Returns"],
             "image": "IMAGES/3-TRES BONS/return of the sss-class ranker/cover.avif",
             "alt": "Image : Return of the SSS-Class Ranker"
           },
           {
             "title": "Return Survival",
+            "aliases": "re: Survival",
             "image": "IMAGES/3-TRES BONS/return survival/cover.avif",
             "alt": "Image : Return Survival"
           },
           {
             "title": "Second Life Ranker",
+            "aliases": ["Ranker Who Lives A Second Time", "Ranker Who Lives Twice"],
             "image": "IMAGES/3-TRES BONS/second life ranker/cover.avif",
             "alt": "Image : Second Life Ranker"
           },
           {
             "title": "Solo Max-Level Newbie",
+            "aliases": ["I Am the Top Ranker Newbie", "I'm the Max-Level Newbie", "Solo Max Level Newbie"],
             "image": "IMAGES/3-TRES BONS/solo max-level newbie/cover.avif",
             "alt": "Image : Solo Max-Level Newbie"
           },
           {
             "title": "Solo Necromancy",
+            "aliases": ["Only I Am a Necromancer", "The Lone Necromancer", "The Only Necromancer"],
             "image": "IMAGES/3-TRES BONS/solo necromancy/cover.jpg",
             "alt": "Image : Solo Necromancy"
           },
           {
             "title": "SSS-Class Suicide Hunter",
+            "aliases": "SSS-Class Revival Hunter",
             "image": "IMAGES/3-TRES BONS/sss-class suicide hunter/cover.avif",
             "alt": "Image : SSS-Class Suicide Hunter"
           },
           {
             "title": "Standard of Reincarnation",
+            "aliases": ["Estándar de la Reencarnación", "The Art of Reincarnation", "The Essence of Reincarnation"],
             "image": "IMAGES/3-TRES BONS/standard of reincarnation/cover.webp",
             "alt": "Image : Standard of Reincarnation"
           },
           {
             "title": "Superhuman Battlefield",
+            "aliases": ["Arène des Suprahumains", " Superhuman's Game", "Superman's Game", "The Esper's Game"],
             "image": "IMAGES/3-TRES BONS/superhuman battlefield/cover.avif",
             "alt": "Image : Superhuman Battlefield"
           },
           {
             "title": "Sweet Home",
+            "aliases": ["ㅎㅗㅁ SWEET HOME", "Home Sweet Home"],
             "image": "IMAGES/3-TRES BONS/sweet home/cover.jpg",
             "alt": "Image : Sweet Home"
           },
           {
             "title": "The Academy’s Sashimi Sword Master",
+            "aliases": ["Conquistando la Academia con solo un Cuchillo de Sashimi", "I Took Over the Academy With a Single Sashimi Knife", "Thống Lĩnh Học Viện Chỉ Bằng Dao Sashimi"],
             "image": "IMAGES/3-TRES BONS/the academy’s sashimi sword master/cover.avif",
             "alt": "Image : The Academy’s Sashimi Sword Master"
           },
           {
             "title": "The Constellations Are My Disciples",
+            "aliases": ["Les Saints sont mes Disciples", "Meus Discípulos são Constelações"],
             "image": "IMAGES/3-TRES BONS/the constellations are my disciples/cover.webp",
             "alt": "Image : The Constellations Are My Disciples"
           },
           {
             "title": "The Dark Mage's Return to Enlistment",
+            "aliases": ["I Returned, But It Was the Day Before My Enlistment", "Returned to the Day I Joined the Army"],
             "image": "IMAGES/3-TRES BONS/the dark mage's return to enlistment/cover.avif",
             "alt": "Image : The Dark Mage's Return to Enlistment"
           },
           {
             "title": "The Dark Magician Transmigrates After 66,666",
+            "aliases": ["66,666 Years: Advent of the Dark Mage", "A Black Wizard Reincarnated After 66666 Years", "The Black Mage Transmigrates After 66666 Years", "The Dark Magician Reincarnates After 66666 Years"],
             "image": "IMAGES/3-TRES BONS/the dark magician transmigrates after 66666 years/cover.webp",
             "alt": "Image : The Dark Magician Transmigrates After 66,666"
           },
           {
             "title": "The Executioner",
+            "aliases": "Đao Phủ",
             "image": "IMAGES/3-TRES BONS/the executioner/cover.avif",
             "alt": "Image : The Executioner"
           },
           {
             "title": "The Extra's Academy Survival Guide",
+            "aliases": ["Surviving the Academy", "Guía de supervivencia del extra de la academia", "Hướng Dẫn Sinh Tồn Trong Học Viện", "How to Survive at the Academy "],
             "image": "IMAGES/3-TRES BONS/the extra's academy survival guide/cover.webp",
             "alt": "Image : The Extra's Academy Survival Guide"
           },
           {
             "title": "The Great Mage Returns After 4000 Years",
+            "aliases": ["El gran mago regresa después de 4000 años", "The Archmage Returns After 4000 Years"],
             "image": "IMAGES/3-TRES BONS/the great mage returns after 4000 years/cover.avif",
             "alt": "Image : The Great Mage Returns After 4000 Years"
           },
           {
             "title": "The Greatest Estate Developer",
+            "aliases": ["The Greatest Escale Real Designer", "The Greatest Estate Designer", "The World’S Best Engineer", "The World's Best Engineer"],
             "image": "IMAGES/3-TRES BONS/the greatest estate developer/cover.jpg",
             "alt": "Image : The Greatest Estate Developer"
           },
@@ -438,6 +472,7 @@
           },
           {
             "title": "The Lazy Prince Becomes a Genius",
+            "aliases": ["Der faule Lord meistert die Schwertkunst", "Reformation of the Deadbeat Noble", "The Lazy Lord Masters the Sword"],
             "image": "IMAGES/3-TRES BONS/the lazy prince becomes a genius/cover.webp",
             "alt": "Image : The Lazy Prince Becomes a Genius"
           },
@@ -453,36 +488,43 @@
           },
           {
             "title": "The Newbie Is Too Strong",
+            "aliases": "The Overpowered Newbie",
             "image": "IMAGES/3-TRES BONS/the newbie is too strong/cover.avif",
             "alt": "Image : The Newbie Is Too Strong"
           },
           {
             "title": "The Player Hides His Past",
+            "aliases": ["Le Player cache son passé", "The Player Hiding His Past", "The Player With a Hidden Past"],
             "image": "IMAGES/3-TRES BONS/the player hides his past/cover.avif",
             "alt": "Image : The Player Hides His Past"
           },
           {
             "title": "The Reborn Young Lord Is an Assassin",
+            "aliases": ["The Regressed Son of a Duke is an Assassin", "The Regressed Youngest Son of the Duke Is an Assassin"],
             "image": "IMAGES/3-TRES BONS/the reborn young lord is an assassin/cover.avif",
             "alt": "Image : The Reborn Young Lord Is an Assassin"
           },
           {
             "title": "The Return of the Disaster-Class Hero",
+            "aliases": ["A Disaster Class Hero Has Returned ", "Resurrection of the Catastrophic Hero "],
             "image": "IMAGES/3-TRES BONS/the return of the disaster-class hero/cover.avif",
             "alt": "Image : The Return of the Disaster-Class Hero"
           },
           {
             "title": "The Tutorial Is Too Hard",
+            "aliases": ["The Tutorial is Too Tough", "The Tutorial is Too Hard!"],
             "image": "IMAGES/3-TRES BONS/the tutorial is too hard/cover.avif",
             "alt": "Image : The Tutorial Is Too Hard"
           },
           {
             "title": "The Villain Wants to Live",
+            "aliases": "A Villain's Will to Survive",
             "image": "IMAGES/3-TRES BONS/the villain wants to live/cover.avif",
             "alt": "Image : The Villain Wants to Live"
           },
           {
             "title": "Tower of God",
+            "aliases": ["Torre de Deus", "Torre de Dios"],
             "image": "IMAGES/3-TRES BONS/tower of god/cover.avif",
             "alt": "Image : Tower of God"
           },
@@ -493,16 +535,19 @@
           },
           {
             "title": "Warrior High School",
+            "aliases": [" Escola de Guerreiros", "Le lycée des guerriers", "Yongsa High: Dungeon Raiders"],
             "image": "IMAGES/3-TRES BONS/warrior high school/cover.avif",
             "alt": "Image : Warrior High School"
           },
           {
             "title": "Wind Breaker",
+            "aliases": "Wind Breaker Vélo",
             "image": "IMAGES/3-TRES BONS/wind breaker/cover.avif",
             "alt": "Image : Wind Breaker"
           },
           {
             "title": "World After Fall",
+            "aliases": ["The World After the Fall", "Le monde Après la Chute", "The World After Destruction", "The World After the End"],
             "image": "IMAGES/3-TRES BONS/world after fall/cover.avif",
             "alt": "Image : World After Fall"
           }          
