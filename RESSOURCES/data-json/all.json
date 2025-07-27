@@ -16,31 +16,37 @@
         "webtoons": [
           {
             "title": "Damn Reincarnation",
+            "aliases": ["Fichue Réincarnation", "My Blasted Reincarnated Life"],
             "image": "IMAGES/2-EXCELLENTS/damn reincarnation/cover.webp",
             "alt": "Image : Damn Reincarnation"
           },
           {
             "title": "Demonic Emperor",
+            "aliases": ["Demonic Emperor", "The Steward Demonic Emperor"],
             "image": "IMAGES/2-EXCELLENTS/demonic emperor/1covergif.gif",
             "alt": "Image : Demonic Emperor"
           },
           {
             "title": "Descended From Divinity",
+            "aliases": "The Heavenly Demon Can’t Live a Normal Life",
             "image": "IMAGES/2-EXCELLENTS/descended from divinity/cover.avif",
             "alt": "Image : Descended From Divinity"
           },
           {
             "title": "I Killed an Academy Player",
+            "aliases": ["I Killed the Academy Player", "I Killed the Main Player", "I Killed the Player of the Academy"],
             "image": "IMAGES/2-EXCELLENTS/i killed an academy player/cover.webp",
             "alt": "Image : I Killed an Academy Player"
           },
           {
             "title": "Infinite Mage",
+            "aliases": ["Infinite Wizard", "Infinite Magician", "Magician of Infinity", "Mage of Infinity"],
             "image": "IMAGES/2-EXCELLENTS/infinite mage/cover.avif",
             "alt": "Image : Infinite Mage"
           },
           {
             "title": "Lecteur Omniscient",
+            "aliases": ["Omniscient Reader's Viewpoint", "Jeonjijeok Dokja Sijeom", "전지적 독자 시점", "ORV"],
             "image": "IMAGES/2-EXCELLENTS/lecteur omniscient/cover.avif",
             "alt": "Image : Lecteur Omniscient"
           },
@@ -51,11 +57,13 @@
           },
           {
             "title": "Pick Me Up",
+            "aliases": ["Ping Mi Eob!", "Gacha Infinito", "Infinite Gacha"],
             "image": "IMAGES/2-EXCELLENTS/pick me up/cover.avif",
             "alt": "Image : Pick Me Up"
           },
           {
             "title": "Revenge of the Iron-Blooded Sword Hound",
+            "aliases": ["The Return of the Iron-Blooded Hound", "La Revanche du limier des Baskerville", "Revenge of the Baskerville Bloodhound", "Revenge of the Iron-Blooded Sword Hound", "Revenge of the Sword Clan's Hound", "The Return of the Iron-blood Sword Hound"],
             "image": "IMAGES/2-EXCELLENTS/revenge of the iron-blooded sword hound/cover.avif",
             "alt": "Image : Revenge of the Iron-Blooded Sword Hound"
           },
@@ -67,21 +75,25 @@
           },
           {
             "title": "Star-Embracing Swordmaster",
+            "aliases": "The Stellar Swordmaster",
             "image": "IMAGES/2-EXCELLENTS/star-embracing swordmaster/cover.avif",
             "alt": "Image : Star-Embracing Swordmaster"
           },
           {
             "title": "Surviving the Game as a Barbarian",
+            "aliases": ["Survive as a Barbarian in the Game", "Surviving as a Barbarian in the Game", "Survivre au jeu en tant que Barbare"],
             "image": "IMAGES/2-EXCELLENTS/surviving the game as a barbarian/cover.webp",
             "alt": "Image : Surviving the Game as a Barbarian"
           },
           {
             "title": "The Beginning After the End",
+            "aliases": "TBATE",
             "image": "IMAGES/2-EXCELLENTS/the beginning after the end/cover.avif",
             "alt": "Image : The Beginning After the End"
           },
           {
             "title": "The Swordmaster's Youngest Son",
+            "aliases": ["Swordmaster's Youngest Son", "Le Benjamin des Luncandel", "Youngest Son of the Renowned Swordsmanship Clan"],
             "image": "IMAGES/2-EXCELLENTS/the swordmaster's youngest son/cover.avif",
             "alt": "Image : The Swordmaster's Youngest Son"
           }
@@ -92,6 +104,7 @@
         "webtoons": [
           {
             "title": "Academy's Undercover Professor",
+            "aliases": ["I Got a Fake Job at the Academy, The Academy's Undercover Professor"],
             "image": "IMAGES/3-TRES BONS/academy's undercover professor/cover.webp",
             "alt": "Image : Academy's Undercover Professor"
           },
@@ -107,11 +120,13 @@
           },
           {
             "title": "Best Teacher Baek",
+            "aliases": ["The One Hit Teacher", "One Hit Teacher, Master Baek", "Star Instructor Master Baek"],
             "image": "IMAGES/3-TRES BONS/best teacher baek/cover.avif",
             "alt": "Image : Best Teacher Baek"
           },
           {
             "title": "Boundless Necromancer",
+            "aliases": ["The Boundless Necromancer", "Boundless Ascension"],
             "image": "IMAGES/3-TRES BONS/boundless necromancer/cover.avif",
             "alt": "Image : Boundless Necromancer"
           },
@@ -122,16 +137,19 @@
           },
           {
             "title": "Designated Bully",
+            "aliases": ["The Bully in Charge", "The Bully In-Charge"],
             "image": "IMAGES/3-TRES BONS/designated bully/cover.webp",
             "alt": "Image : Designated Bully"
           },
           {
             "title": "Drug-Eating Genius Mage",
+            "aliases": "Medicine Genius Wizard",
             "image": "IMAGES/3-TRES BONS/drug-eating genius mage/cover.jpg",
             "alt": "Image : Drug-Eating Genius Mage"
           },
           {
             "title": "Dungeon Cleaning Life",
+            "aliases": ["Clever Cleaning Life Of The Returned Genius Hunter", "The Dungeon Cleaning Life of a Once Genius Hunter"],
             "image": "IMAGES/3-TRES BONS/dungeon cleaning life/cover.avif",
             "alt": "Image : Dungeon Cleaning Life"
           },
@@ -142,41 +160,49 @@
           },
           {
             "title": "Eternally Regressing Knight",
+            "aliases": ["A Knight Who Eternally Regresses", "The Knight Only Lives Today", "The Knight Who Only Lives Today"],
             "image": "IMAGES/3-TRES BONS/eternally regressing knight/cover.avif",
             "alt": "Image : Eternally Regressing Knight"
           },
           {
             "title": "Evolution Begins with a Big Tree",
+            "aliases": ["Evolution From a Tree", "Evolution From the Big Tree"],
             "image": "IMAGES/3-TRES BONS/evolution begins with a big tree/cover.jpg",
             "alt": "Image : Evolution Begins with a Big Tree"
           },
           {
             "title": "FFF-Class Witch Doctor",
+            "aliases": "I Returned as an FFF-Class Witch Doctor",
             "image": "IMAGES/3-TRES BONS/fff-class witch doctor/cover.avif",
             "alt": "Image : FFF-Class Witch Doctor"
           },
           {
             "title": "Genius of the Unique Lineage",
+            "aliases": "Prodige Hors Norme",
             "image": "IMAGES/3-TRES BONS/genius of the unique lineage/cover.avif",
             "alt": "Image : Genius of the Unique Lineage"
           },
           {
             "title": "Heavenly Inquisition Sword",
+            "aliases": ["The Nine Heavens Swordmaster", "Espada de la inquisición celestial"],
             "image": "IMAGES/3-TRES BONS/heavenly inquisition sword/cover.avif",
             "alt": "Image : Heavenly Inquisition Sword"
           },
           {
             "title": "Helmut",
+            "aliases": ["Helmut: The Forsaken Child", "Helmut: L’enfant Abandonné", "Helmut: El Niño Abandonado"],
             "image": "IMAGES/3-TRES BONS/helmut/cover.avif",
             "alt": "Image : Helmut"
           },
           {
             "title": "I Obtained a Mythic Item",
+            "aliases": ["À moi, l'item légendaire", "Mythic Item Obtained"],
             "image": "IMAGES/3-TRES BONS/i obtained a mythic item/cover.avif",
             "alt": "Image : I Obtained a Mythic Item"
           },
           {
             "title": "Jungle Juice",
+            "aliases": "jungo de jungla",
             "image": "IMAGES/3-TRES BONS/jungle juice/cover.jpg",
             "alt": "Image : Jungle Juice"
           },
@@ -187,21 +213,25 @@
           },
           {
             "title": "Killer Peter",
+            "aliases": ["Killer Badro", "Killer Baedro", "Killer Pedro", "Killer Pietro", "Pedro Killer"],
             "image": "IMAGES/3-TRES BONS/killer peter/cover.avif",
             "alt": "Image : Killer Peter"
           },
           {
             "title": "La Saga du Clan Mudang",
+            "aliases": ["The Mudang Clan Saga", "The Grand Mudang Saga", "Mugang: The Path of Shaman"],
             "image": "IMAGES/3-TRES BONS/la saga du clan mudang/cover.avif",
             "alt": "Image : La Saga du Clan Mudang"
           },
           {
             "title": "Latna Saga",
+            "aliases": ["Latna Saga: Survival of a Sword King", "Survival Story of a Sword King in a Fantasy World", "The Survival Record of the Sword King in Another World"],
             "image": "IMAGES/3-TRES BONS/latna saga/cover.jpg",
             "alt": "Image : Latna Saga"
           },
           {
             "title": "Le Sens de l'Épée",
+            "aliases": "Absolute Sword Sense",
             "image": "IMAGES/3-TRES BONS/le sens de l'épée/covergif.gif",
             "alt": "Image : Le Sens de l'Épée"
           },
@@ -297,6 +327,7 @@
           },
           {
             "title": "Regressor Instruction Manual",
+            "aliases": ["How to Use a Returner, Manual de Instrucciones del Reencarnado ,"],
             "image": "IMAGES/3-TRES BONS/regressor instruction manual/cover.webp",
             "alt": "Image : Regressor Instruction Manual"
           },

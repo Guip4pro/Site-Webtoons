@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
         fetch(`${jsonFile}?v=${Date.now()}`)    // Ajout du paramètre pour éviter le cache
             .then(response => response.json())
             .then(data => {
+                console.log("JSON chargé :", data);     // Afficher le contenu entier du json
                 data.categories.forEach(category => {
                     const container = document.getElementById(
                         category.name.toLowerCase()
