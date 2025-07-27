@@ -224,19 +224,28 @@ h1 {
     background-color: #3a873e; /* Couleur un peu plus foncée au survol */
 }
 
-/* Style de la barre de recherche */
 #search-webtoon {
     padding: 10px;
     font-size: 16px;
-    border: 2px solid #4CAF50;
-    border-radius: 5px;
-    width: 200px; /* Largeur de la barre de recherche */
+    border: 2px solid transparent;
+    border-radius: 8px;
+    width: 200px;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    background-image: 
+        linear-gradient(#fff, #fff), /* Couleur interne */
+        linear-gradient(90deg, #4CAF50, #2196F3); /* Vert -> Bleu */
+    background-repeat: no-repeat;
+    background-size: 100% 100%, 200% 100%;
+    transition: background-position 1s linear;
+    background-position: center center, 0% 0%;
 }
 
 #search-webtoon:focus {
-    border-color: #45a049; /* Couleur du bord au focus */
     outline: none;
+    background-position: center center, 100% 0%; /* "tourne" le dégradé */
 }
+
 
 
 

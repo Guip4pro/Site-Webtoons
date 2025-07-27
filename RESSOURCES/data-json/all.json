@@ -5,6 +5,7 @@
         "webtoons": [
           {
             "title": "The Return of the Mount Hua Sect",
+            "aliases": ["The Return of the Blossoming Blade", "Le Retour du Clan Hwasan"],
             "image": "IMAGES/1-SSS/return of the mount hua sect/covergif.gif",
             "alt": "Image : The Return of the Mount Hua Sect"
           }
@@ -60,6 +61,7 @@
           },
           {
             "title": "Solo Leveling",
+            "aliases": ["Solo-Leveling", "나 혼자만 레벨업"],
             "image": "IMAGES/2-EXCELLENTS/solo leveling/cover.avif",
             "alt": "Image : Solo Leveling"
           },

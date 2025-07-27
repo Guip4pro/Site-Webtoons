@@ -18,59 +18,66 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-// Liste pour stocker tous les liens webtoons
-const allWebtoonLinks = [];
+    // Liste pour stocker tous les liens webtoons
+    const allWebtoonLinks = [];
 
-function loadWebtoonsFromJson(jsonFile) {
-    fetch(`${jsonFile}?v=${Date.now()}`)    // Ajout du paramètre pour éviter le cache
-        .then(response => response.json())
-        .then(data => {
-            data.categories.forEach(category => {
-                const container = document.getElementById(
-                    category.name.toLowerCase()
-                        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-                        .replace(/\s+/g, '-')
-                );
+    function loadWebtoonsFromJson(jsonFile) {
+        fetch(`${jsonFile}?v=${Date.now()}`)    // Ajout du paramètre pour éviter le cache
+            .then(response => response.json())
+            .then(data => {
+                data.categories.forEach(category => {
+                    const container = document.getElementById(
+                        category.name.toLowerCase()
+                            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+                            .replace(/\s+/g, '-')
+                    );
 
-                if (container) {
-                    category.webtoons.forEach(webtoon => {
-                        const link = document.createElement('a');
-                        link.href = `#webtoon-${webtoon.title.replace(/\s+/g, '-').toLowerCase()}-details`;
+                    if (container) {
+                        category.webtoons.forEach(webtoon => {
+                            const link = document.createElement('a');
+                            link.href = `#webtoon-${webtoon.title.replace(/\s+/g, '-').toLowerCase()}-details`;     // toLowerCase convertit la chaîne de caractère en minuscule
 
-                        // On ajoute le nom en minuscule dans un attribut pour filtrer
-                        link.setAttribute("data-title", webtoon.title.toLowerCase());
+                            // Génère une liste de tous les noms (titre + alias)
+                            const aliases = [
+                                webtoon.title,
+                                ...(Array.isArray(webtoon.aliases) ? webtoon.aliases : [])
+                            ].map(name => name.toLowerCase());
 
-                        const img = document.createElement('img');
-                        img.src = webtoon.image;
-                        if (webtoon.loading) img.loading = webtoon.loading;
-                        img.alt = webtoon.alt;
+                            // Stocke les alias pour la recherche
+                            link.dataset.aliases = aliases.join(',');
 
-                        link.appendChild(img);
-                        container.appendChild(link);
+                            const img = document.createElement('img');
+                            img.src = webtoon.image;
+                            if (webtoon.loading) img.loading = webtoon.loading;
+                            img.alt = webtoon.alt;
 
-                        // Sauvegarder ce lien dans la liste
-                        allWebtoonLinks.push(link);
+                            link.appendChild(img);
+                            container.appendChild(link);
 
-                        link.addEventListener('click', function (event) {
-                            event.preventDefault();
-                            const targetID = this.getAttribute('href').substring(1);
-                            const targetDetail = document.getElementById(targetID);
-                            if (targetDetail) {
-                                targetDetail.style.display = 'block';
-                                const closePopup = targetDetail.querySelector('.close-popup');      // Récupérer la croix de fermeture
-                                closePopup.onclick = () => targetDetail.style.display = 'none';     // Fermer le pop-up
-                            }
+                            // 3) Sauvegarder ce lien dans la liste
+                            allWebtoonLinks.push(link);
+                            
+                            // 4) Ajout du click handler pour le pop‑up
+                            link.addEventListener('click', function (event) {
+                                event.preventDefault();
+                                const targetID = this.getAttribute('href').substring(1);
+                                const targetDetail = document.getElementById(targetID);
+                                if (targetDetail) {
+                                    targetDetail.style.display = 'block';
+                                    const closePopup = targetDetail.querySelector('.close-popup');      // Récupérer la croix de fermeture
+                                    closePopup.onclick = () => targetDetail.style.display = 'none';     // Fermer le pop-up
+                                }
+                            });
                         });
-                    });
-                }
-            });
-        })
-        .catch(error => console.error('Erreur lors du chargement du JSON :', error));
-}
+                    }
+                });
+            })
+            .catch(error => console.error('Erreur lors du chargement du JSON :', error));
+    }
 
 
     
-    // Appeler la fonction pour charger les webtoons à partir du fichier JSON
+    // Appel
     loadWebtoonsFromJson('https://guip4pro.github.io/Site-Webtoons/RESSOURCES/data-json/all.json');   // ancien chemin relatif : '../RESSOURCES/data-json/all.json'
 
     // (Ancien système de fermeture :) Fermer le pop-up en cliquant à l'extérieur du contenu
@@ -85,17 +92,14 @@ function loadWebtoonsFromJson(jsonFile) {
 
 
 
-    // Fonction de filtrage selon le champ de recherche
-    document.getElementById("search-webtoon").addEventListener("input", function () {
+        // Filtrer au fur et à mesure de la saisie
+    document.getElementById('search-webtoon').addEventListener('input', function () {
         const query = this.value.trim().toLowerCase();
 
         allWebtoonLinks.forEach(link => {
-            const title = link.getAttribute("data-title");
-            if (title.includes(query)) {
-                link.style.display = "";  // visible
-            } else {
-                link.style.display = "none"; // masqué
-            }
+            const aliases = link.dataset.aliases?.split(',') || [];
+            const match = aliases.some(alias => alias.includes(query));
+            link.style.display = match ? '' : 'none';
         });
     });
 
