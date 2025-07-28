@@ -800,18 +800,21 @@
           },
           {
             "title": "Han Dae Sung Returned From Hell",
+            "aliases": ["Daesung Han Retorna del Infierno", "Han Dae Seong Came Back From Hell", "Han Daesung, Back From Hell", "Jiogeseo Doraon Handaeseong", "Returned From He"],
             "image": "IMAGES/4-BONS/han dae sung returned from hell/cover.webp",
             "loading": "lazy",
             "alt": "Image : Han Dae Sung Returned From Hell"
           },
           {
             "title": "Hand Over The Money",
+            "aliases": ["Give Me Money", "Give Me The Money"],
             "image": "IMAGES/4-BONS/hand over the money/cover.avif",
             "loading": "lazy",
             "alt": "Image : Hand Over The Money"
           },
           {
             "title": "Hard-Carry Support",
+            "aliases": ["Hard Carry Support", "Hard Carry Supporter", "Star Player Supporter"],
             "image": "IMAGES/4-BONS/hard-carry support/cover.webp",
             "loading": "lazy",
             "alt": "Image : Hard-Carry Support"
@@ -824,101 +827,118 @@
           },
           {
             "title": "Hero Returns",
+            "aliases": ["The Hero Returns"],
             "image": "IMAGES/4-BONS/hero returns/cover.webp",
             "loading": "lazy",
             "alt": "Image : Hero Returns"
           },
           {
             "title": "Hiding Out in an Apocalypse",
+            "aliases": ["Hiding th House in the Apocalypse"],
             "image": "IMAGES/4-BONS/hiding out in an apocalypse/cover.avif",
             "loading": "lazy",
             "alt": "Image : Hiding Out in an Apocalypse"
           },
           {
             "title": "How to Raise your Skeletons",
+            "aliases": ["I Can Raise Skeletons", "I Raise Skeletons"],
             "image": "IMAGES/4-BONS/how to raise your skeletons/cover.avif",
             "loading": "lazy",
             "alt": "Image : How to Raise your Skeletons"
           },
           {
             "title": "I am going to Destroy this Country",
+            "aliases": ["I'm Going to Destroy This Country", "I'm Gonna Annihilate This Land"],
             "image": "IMAGES/4-BONS/i am going to destroy this country/cover.avif",
             "loading": "lazy",
             "alt": "Image : I am going to Destroy this Country"
           },
           {
             "title": "I Am The Fated Villain",
+            "aliases": ["The Villain Of Destiny"],
             "image": "IMAGES/4-BONS/i am the fated villain/cover.avif",
             "loading": "lazy",
             "alt": "Image : I Am The Fated Villain"
           },
           {
             "title": "I Became an Evolving Space Monster",
+            "aliases": ["Evolution: Road to Space Monster"],
             "image": "IMAGES/4-BONS/i became an evolving space monster/cover.avif",
             "loading": "lazy",
             "alt": "Image : I Became an Evolving Space Monster"
           },
           {
               "title": "I Grow Stronger By Eating",
+              "aliases": ["Appétit Féroce", "Gewaltiger Hunger", "I Get Stronger the More I Eat", "Je deviens plus fort en mangeant !"],
               "image": "IMAGES/4-BONS/i grow stronger by eating/cover.jpg",
               "loading": "lazy",
               "alt": "Image : I Grow Stronger By Eating"
           },
           {
               "title": "I Was Mistaken As a Monstrous Genius Actor",
+              "aliases": ["I Was Immediately Mistaken for a Monster Genius Actor"],
               "image": "IMAGES/4-BONS/i was mistaken as a monstrous genius actor/cover.webp",
               "loading": "lazy",
               "alt": "Image : I Was Mistaken As a Monstrous Genius Actor"
           },
           {
               "title": "I Was The Final Boss",
+              "aliases": ["Ancien Boss of The Abyss", "Ancient Boss of the Abyss", "I Used to Be a Boss"],
               "image": "IMAGES/4-BONS/i was the final boss/cover.jpg",
               "loading": "lazy",
               "alt": "Image : I Was The Final Boss"
           },
           {
             "title": "I'll Be the Matriarch in This Life",
+            "aliases": ["I Shall Master This Family", "I Will Become the Mistress of This Life", "La nouvelle cheffe de clan", " I'll Become the Head of the Family", " Sere la Matriarca en esta Vida"],
             "image": "IMAGES/4-BONS/i'll be the matriarch in this life/cover.jpg",
             "loading": "lazy",
             "alt": "Image : I'll Be the Matriarch in This Life"
           },
           {
               "title": "I'm Not A Regressor",
+              "aliases": ["I am not a Regressor"],
               "image": "IMAGES/4-BONS/i'm not a regressor/cover.jpg",
               "loading": "lazy",
               "alt": "Image : I'm Not A Regressor"
           },
           {
               "title": "In The Night Consumed By Blades",
+              "aliases": ["In the Night Consumed by Blades, I Walk", "A Dance of Swords in the Night", "Dans la Nuit Consumée par les Lames, j’avance", "Sword Fanatic Wanders Through the Night", "Une Danse des Lames dans les Ténèbres"],
               "image": "IMAGES/4-BONS/in the night consumed by blades/cover.avif",
               "loading": "lazy",
               "alt": "Image : In The Night Consumed By Blades"
           },
           {
             "title": "Is This Hero for Real?",
+            "aliases": ["Is This Warrior for Real?", "Is This Warrior Real?"],
             "image": "IMAGES/4-BONS/is this hero for real/cover.jpg",
             "alt": "Image : Is This Hero for Real?"
           },
           {
             "title": "Junevile Law",
+            "aliases": ["Juvenile Law", "Boy Law", "Dead Mansion", "Laws of the Good Child"],
             "image": "IMAGES/4-BONS/junevile law/cover.avif",
             "loading": "lazy",
             "alt": "Image : Junevile Law"
           },
           {
               "title": "Kill The Dragon",
+              "aliases": ["Slay the Dragon"],
               "image": "IMAGES/4-BONS/kill the dragon/cover.webp",
               "loading": "lazy",
               "alt": "Image : Kill The Dragon"
           },
           {
             "title": "King of the Arena",
+            "aliases": ["King of Violence"],
             "image": "IMAGES/4-BONS/king of the arena/cover.webp",
             "loading": "lazy",
             "alt": "Image : King of the Arena"
           },
           {
               "title": "Knight King Who Returned With A God",
+              "aliases": ["The King Knight Who Returned with a God", "The Knight King Who Returned with a God"],
               "image": "IMAGES/4-BONS/knight king who returned with a god/cover.webp",
               "loading": "lazy",
               "alt": "Image : Knight King Who Returned With A God"
@@ -931,36 +951,42 @@
           },
           {
             "title": "La Magicienne aux Cheveux d'Or",
+            "aliases": ["The Golden Haired Mage", "The Golden Haired Wizard", "La chica rubia que controla los elementos", "The Golden Haired Elementalist", "The Golden-Haired Summoner"],
             "image": "IMAGES/4-BONS/la magicienne aux cheveux d'or/cover.jpg",
             "loading": "lazy",
             "alt": "Image : La Magicienne aux Cheveux d'Or"
           },
           {
               "title": "L'Artéfact Dévoreur",
+              "aliases": ["Dungeons & Artifacts", "Dungeons and Artifacts"],
               "image": "IMAGES/4-BONS/l'artéfact dévoreur/cover.jpg",
               "loading": "lazy",
               "alt": "Image : L'Artéfact Dévoreur"
           },
           {
               "title": "Legendary Youngest Son",
+              "aliases": ["Legendary Youngest Son of the Marquis House", "Des Fürsten verrücktes Nesthäkchen", "El Legendario Hijo Menor De La Casa Del Marques", "Jack Be Invincible", "Jack Valentier", "The Margravial Household's Phenomenal Youngest Son", "The Marquess's Youngest Son", "The Youngest Son of a Marquis"],
               "image": "IMAGES/4-BONS/legendary youngest son/cover.avif",
               "loading": "lazy",
               "alt": "Image : Legendary Youngest Son"
           },
           {
               "title": "Leveling Up With The Sword",
+              "aliases": ["Disciple of the Holy Sword", "L'Élu de l'épée sacrée", "Leveling Up With A Sword", "Overpowered Sword"],
               "image": "IMAGES/4-BONS/leveling up with the sword/cover.webp",
               "loading": "lazy",
               "alt": "Image : Leveling Up With The Sword"
           },
           {
               "title": "L'Expert de la Tour Tutoriel",
+              "aliases": ["The Advanced Player of the Tutorial Tower", "The Master of Tutorial Tower", "The Tutorial Tower's Advanced Player", "The Tutorial Tower of the Advanced Player"],
               "image": "IMAGES/4-BONS/l'expert de la tour tutoriel/cover.png",
               "loading": "lazy",
               "alt": "Image : L'Expert de la Tour Tutoriel"
           },
           {
             "title": "Logging 10,000 Years into the Future",
+            "aliases": ["Apex Future Martial Arts", "Logging 10000 Years into the Future", "Martial Art: Future's Ten Thousand Years"],
             "image": "IMAGES/4-BONS/logging 10,000 years into the future/cover.avif",
             "loading": "lazy",
             "alt": "Image : Logging 10,000 Years into the Future"
