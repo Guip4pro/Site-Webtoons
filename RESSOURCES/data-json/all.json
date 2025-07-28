@@ -578,29 +578,34 @@
           },
           {
             "title": "Académie Transcendance",
+            "aliases": ["Transcension Academyl", "Enrolling in the Transcendent Academy", "I Became a Student at the Transcension Academy"],
             "image": "IMAGES/4-BONS/académie transcendance/cover.avif",
             "alt": "Image : Académie Transcendance"
           },
           {
             "title": "Academy's Genius Swordmaster",
+            "aliases": ["Academy’s Genius Swordsman", "L'épéiste prodige de l'Académie", "The Academy's Genius Swordsman"],
             "image": "IMAGES/4-BONS/academy's genius swordmaster/cover.jpg",
             "loading": "lazy",
             "alt": "Image : Academy's Genius Swordmaster"
           },
           {
             "title": "Archmage Streamer",
+            "aliases": ["BJ Archmage"],
             "image": "IMAGES/4-BONS/archmage streamer/cover.jpg",
             "loading": "lazy",
             "alt": "Image : Archmage Streamer"
           },
           {
             "title": "Archmage Transcending Through Regression",
+            "aliases": ["Archmage Who Transcends by Returning", "El archimago que trascendiendo a través de la regresión", "L'archimage transcende par revenir en le temps", "La Transcendance du grand mage", "Ma pháp sư vĩ đại hồi quy", "The Great Wizard Transcendent"],
             "image": "IMAGES/4-BONS/archmage transcending through regression/cover.webp",
             "loading": "lazy",
             "alt": "Image : Archmage Transcending Through Regression"
           },
           {
             "title": "Auto-Hunting With My Clones",
+            "aliases": ["Auto Hunting As A Clone", "Auto-Hunting With Clones"],
             "image": "IMAGES/4-BONS/auto-hunting with my clones/cover.webp",
             "loading": "lazy",
             "alt": "Image : Auto-Hunting With My Clones"
@@ -613,6 +618,7 @@
           },
           {
             "title": "Bastard Son Was The Emperor",
+            "aliases": [" Ian the Illegitimate Son Was an Emperor", "Margrave's Bastard Son was The Emperor", "The Margrave's Bastard Used To Be The Emperor"],
             "image": "IMAGES/4-BONS/bastard son was the emperor/cover.avif",
             "loading": "lazy",
             "alt": "Image : Bastard Son Was The Emperor"
@@ -625,66 +631,77 @@
           },
           {
             "title": "Chaotic Guard Captain in a Fantasy World",
+            "aliases": ["The Chaotic Guard Captain in a Fantasy World", "A Rogue Guard in a Medieval Fantasy", "Roguish Guard in a Medieval Fantasy", "The Rogue Captain of the Guards in a Medieval Fantasy World", "The Roguish Guard in a Medieval Fantasy", "Un guardia de seguridad loco en una fantasía medieval"],
             "image": "IMAGES/4-BONS/chaotic guard captain in a fantasy world/cover.webp",
             "loading": "lazy",
             "alt": "Image : Chaotic Guard Captain in a Fantasy World"
           },
           {
             "title": "Childhood Friend of the Zenith",
+            "aliases": ["The Best Childhood Friend in the World"],
             "image": "IMAGES/4-BONS/childhood friend of the zenith/cover.avif",
             "loading": "lazy",
             "alt": "Image : Childhood friend of the Zenith"
           },
           {
             "title": "Children of the Rune",
+            "aliases": ["Children of the Rune – Winterer", "Children of the Rune, Winterer ", " Children of the Rune: Winterer", "Children of the Rune Winterer"],
             "image": "IMAGES/4-BONS/children of the rune/cover.webp",
             "loading": "lazy",
             "alt": "Image : Children of the Rune"
           },
           {
             "title": "Chronicles of Heavenly Demon",
+            "aliases": ["Biên Niên Sử Của Thiên Quỷ", "Chronicles of the Heavenly Demon", "Chroniques Démoniaques", "Heavenly Demon Reborn!", "The Chronicles of Heavenly Demon"],
             "image": "IMAGES/4-BONS/chronicles of heavenly demon/cover.webp",
             "loading": "lazy",
             "alt": "Image : Chronicles of Heavenly Demon"
           },
           {
             "title": "Chronicles of the Martial God's Return",
+            "aliases": ["Chronicles Of The Martial God", "Le retour du Dieu Martial", "Record of the Heavenly Demon's Comeback", "Return of the War God"],
             "image": "IMAGES/4-BONS/chronicles of the martial god's return/cover.avif",
             "loading": "lazy",
             "alt": "Image : Chronicles of the Martial God's Return"
           },
           {
             "title": "Chronicles of the Reincarnated Demon God",
+            "aliases": ["Legend of the Reincarnated Demon God"],
             "image": "IMAGES/4-BONS/chronicles of the reincarnated demon god/cover.avif",
             "loading": "lazy",
             "alt": "Image : Chronicles of the Reincarnated Demon God"
           },
           {
             "title": "Demon Lord's Martial Arts Ascension",
+            "aliases": ["Martial Demon King", "The Demon King Levels Up", "The Demon Lord Levels Up With Martial Arts"],
             "image": "IMAGES/4-BONS/demon lord's martial arts ascension/cover.jpg",
             "loading": "lazy",
             "alt": "Image : Demon Lord's Martial Arts Ascension"
           },
           {
             "title": "Descent of the Demonic Master",
+            "aliases": ["Return of the Demonic Master", "The Return of the Demon Master", "The Descent of the Demonic Master"],
             "image": "IMAGES/4-BONS/descent of the demonic master/cover.jpg",
             "loading": "lazy",
             "alt": "Image : Descent of the Demonic Master"
           },
           {
             "title": "Devil Returns to School Days",
+            "aliases": ["L'école du mal", "Le diable revient à l'époque de l'école", "School of Evil", "School of the Malice"],
             "image": "IMAGES/4-BONS/devil returns to school days/cover.webp",
             "loading": "lazy",
             "alt": "Image : Devil Returns to School Days"
           },
           {
-            "title": "Divine Surgeon",
+            "title": "The Divine Surgeon",
+            "aliases": ["A Wounded Surgeon", "I Reincarnated as a Legendary Surgeon", "Trọng Sinh Thành Thần Y Thời Tam Quốc"],
             "image": "IMAGES/4-BONS/divine surgeon/cover.webp",
             "loading": "lazy",
             "alt": "Image : Divine Surgeon"
           },
           {
             "title": "Doctor Player",
+            "aliases": ["Doctor's Player", "Dr. Player"],
             "image": "IMAGES/4-BONS/doctor player/cover.jpg",
             "loading": "lazy",
             "alt": "Image : Doctor Player"
@@ -697,24 +714,28 @@
           },
           {
             "title": "Dragon-Devouring Mage",
+            "aliases": ["Dragon Devoring Mage", "Le Mage Dévoreur de Dragon", "The Mage: Swallowed the Dragon"],
             "image": "IMAGES/4-BONS/dragon-devouring mage/cover.avif",
             "loading": "lazy",
             "alt": "Image : Dragon-Devouring Mage"
           },
           {
             "title": "Dragonslayer's Peerless Regression",
+            "aliases": ["A Dragonslayer's Peerless Regression", "Dragonslayer's Class Regression"],
             "image": "IMAGES/4-BONS/dragonslayer's peerless regression/covergif.gif",
             "loading": "lazy",
             "alt": "Image : Dragonslayer's Peerless Regression"
           },
           {
             "title": "Dungeon Odyssey",
+            "aliases": ["Chroniques du donjon", "Dungeon Experience Book"],
             "image": "IMAGES/4-BONS/dungeon odyssey/cover.webp",
             "loading": "lazy",
             "alt": "Image : Dungeon Odyssey"
           },
           {
             "title": "Duke Pendragon",
+            "aliases": ["Duc Pendragon", "White Dragon Duke: Pendragon"],
             "image": "IMAGES/4-BONS/duke pendragon/cover.avif",
             "loading": "lazy",
             "alt": "Image : Duke Pendragon"
@@ -726,24 +747,28 @@
           },
           {
             "title": "Everyone Else is a Returnee",
+            "aliases": ["orever Alone Hero", "Last on Earth", "Trừ Tôi Tất Cả Đều Là Quy Hồi Giả"],
             "image": "IMAGES/4-BONS/everyone else is a returnee/cover.jpg",
             "loading": "lazy",
             "alt": "Image : Everyone Else is a Returnee"
           },
           {
             "title": "Everyone Regressed Except Me",
+            "aliases": ["The Everyone Regressed Except Me"],
             "image": "IMAGES/4-BONS/everyone regressed except me/cover.webp",
             "loading": "lazy",
             "alt": "Image : Everyone Regressed Except Me"
           },
           {
             "title": "F-Class Destiny Hunter",
+            "aliases": ["F-Rank Fortune Hunter"],
             "image": "IMAGES/4-BONS/f-class destiny hunter/cover.webp",
             "loading": "lazy",
             "alt": "Image : F-Class Destiny Hunter"
           },
           {
             "title": "Fox-Eyed Villain of the Demon Academ",
+            "aliases": ["The Fox-Eye Villain of the Demon Academy", "The Fox-Eyed Villain of the Demon Academy", "The Narrow-Eyed Villain of the Demon Academy"],
             "image": "IMAGES/4-BONS/fox-eyed villain of the demon academ/cover.webp",
             "loading": "lazy",
             "alt": "Image : Fox-Eyed Villain of the Demon Academ"
@@ -756,12 +781,14 @@
           },
           {
             "title": "Genius Assassin Who Takes It All",
+            "aliases": ["Honja Da Hae Meongneun Cheonjae Amsalja", "The Genius Assassin Who Eats All By Himself", "The Genius Assassin Who Eats Everything", "The Genius Assassin Who Eats Everything Alone"],
             "image": "IMAGES/4-BONS/genius assassin who takes it all/cover.webp",
             "loading": "lazy",
             "alt": "Image : Genius Assassin Who Takes It All"
           },
           {
             "title": "Genius Prismatic Mage",
+            "aliases": ["Mago prismático genio", "The Genius Magician who Sees the Rainbow"],
             "image": "IMAGES/4-BONS/genius prismatic mage/cover.webp",
             "loading": "lazy",
             "alt": "Image : Genius Prismatic Mage"
