@@ -28,7 +28,7 @@
           },
           {
             "title": "Descended From Divinity",
-            "aliases": "The Heavenly Demon Can’t Live a Normal Life",
+            "aliases": ["The Heavenly Demon Can’t Live a Normal Life"],
             "image": "IMAGES/2-EXCELLENTS/descended from divinity/cover.avif",
             "alt": "Image : Descended From Divinity"
           },
@@ -75,7 +75,7 @@
           },
           {
             "title": "Star-Embracing Swordmaster",
-            "aliases": "The Stellar Swordmaster",
+            "aliases": ["The Stellar Swordmaster"],
             "image": "IMAGES/2-EXCELLENTS/star-embracing swordmaster/cover.avif",
             "alt": "Image : Star-Embracing Swordmaster"
           },
@@ -87,7 +87,7 @@
           },
           {
             "title": "The Beginning After the End",
-            "aliases": "TBATE",
+            "aliases": ["TBATE"],
             "image": "IMAGES/2-EXCELLENTS/the beginning after the end/cover.avif",
             "alt": "Image : The Beginning After the End"
           },
@@ -143,7 +143,7 @@
           },
           {
             "title": "Drug-Eating Genius Mage",
-            "aliases": "Medicine Genius Wizard",
+            "aliases": ["Medicine Genius Wizard"],
             "image": "IMAGES/3-TRES BONS/drug-eating genius mage/cover.jpg",
             "alt": "Image : Drug-Eating Genius Mage"
           },
@@ -172,13 +172,13 @@
           },
           {
             "title": "FFF-Class Witch Doctor",
-            "aliases": "I Returned as an FFF-Class Witch Doctor",
+            "aliases": ["I Returned as an FFF-Class Witch Doctor"],
             "image": "IMAGES/3-TRES BONS/fff-class witch doctor/cover.avif",
             "alt": "Image : FFF-Class Witch Doctor"
           },
           {
             "title": "Genius of the Unique Lineage",
-            "aliases": "Prodige Hors Norme",
+            "aliases": ["Prodige Hors Norme"],
             "image": "IMAGES/3-TRES BONS/genius of the unique lineage/cover.avif",
             "alt": "Image : Genius of the Unique Lineage"
           },
@@ -202,7 +202,7 @@
           },
           {
             "title": "Jungle Juice",
-            "aliases": "jungo de jungla",
+            "aliases": ["jungo de jungla"],
             "image": "IMAGES/3-TRES BONS/jungle juice/cover.jpg",
             "alt": "Image : Jungle Juice"
           },
@@ -231,7 +231,7 @@
           },
           {
             "title": "Le Sens de l'Épée",
-            "aliases": "Absolute Sword Sense",
+            "aliases": ["Absolute Sword Sense"],
             "image": "IMAGES/3-TRES BONS/le sens de l'épée/covergif.gif",
             "alt": "Image : Le Sens de l'Épée"
           },
@@ -255,7 +255,7 @@
           },
           {
             "title": "Leviathan",
-            "aliases": "Deep Sea Monster",
+            "aliases": ["Deep Sea Monster"],
             "image": "IMAGES/3-TRES BONS/leviathan/cover.avif",
             "alt": "Image : Leviathan"
           },
@@ -283,7 +283,7 @@
           },
           {
             "title": "My Exclusive Tower Guide",
-            "aliases": "My Very Own Tower Strategy Guide",
+            "aliases": ["My Very Own Tower Strategy Guide"],
             "image": "IMAGES/3-TRES BONS/my exclusive tower guide/cover.webp",
             "alt": "Image : My Exclusive Tower Guide"
           },
@@ -330,7 +330,7 @@
           },
           {
             "title": "Reality Quest",
-            "aliases": "Real Life Quest",
+            "aliases": ["Real Life Quest"],
             "image": "IMAGES/3-TRES BONS/reality quest/cover.jpeg",
             "alt": "Image : Reality Quest"
           },
@@ -371,7 +371,7 @@
           },
           {
             "title": "Return Survival",
-            "aliases": "re: Survival",
+            "aliases": ["re: Survival"],
             "image": "IMAGES/3-TRES BONS/return survival/cover.avif",
             "alt": "Image : Return Survival"
           },
@@ -443,7 +443,7 @@
           },
           {
             "title": "The Executioner",
-            "aliases": "Đao Phủ",
+            "aliases": ["Đao Phủ"],
             "image": "IMAGES/3-TRES BONS/the executioner/cover.avif",
             "alt": "Image : The Executioner"
           },
@@ -488,7 +488,7 @@
           },
           {
             "title": "The Newbie Is Too Strong",
-            "aliases": "The Overpowered Newbie",
+            "aliases": ["The Overpowered Newbie"],
             "image": "IMAGES/3-TRES BONS/the newbie is too strong/cover.avif",
             "alt": "Image : The Newbie Is Too Strong"
           },
@@ -518,7 +518,7 @@
           },
           {
             "title": "The Villain Wants to Live",
-            "aliases": "A Villain's Will to Survive",
+            "aliases": ["A Villain's Will to Survive"],
             "image": "IMAGES/3-TRES BONS/the villain wants to live/cover.avif",
             "alt": "Image : The Villain Wants to Live"
           },
@@ -535,13 +535,13 @@
           },
           {
             "title": "Warrior High School",
-            "aliases": [" Escola de Guerreiros", "Le lycée des guerriers", "Yongsa High: Dungeon Raiders"],
+            "aliases": ["Escola de Guerreiros", "Le lycée des guerriers", "Yongsa High: Dungeon Raiders"],
             "image": "IMAGES/3-TRES BONS/warrior high school/cover.avif",
             "alt": "Image : Warrior High School"
           },
           {
             "title": "Wind Breaker",
-            "aliases": "Wind Breaker Vélo",
+            "aliases": ["Wind Breaker Vélo"],
             "image": "IMAGES/3-TRES BONS/wind breaker/cover.avif",
             "alt": "Image : Wind Breaker"
           },
@@ -558,12 +558,14 @@
         "webtoons": [
           {
             "title": "A Returner's Magic Should Be Special",
+            "aliases": ["Kikan-sha no mahou wa tokubetsudesu", "La magia de un retornado debe ser especial", "Magician who Reversing Time"],
             "image": "IMAGES/4-BONS/a returner’s magic should be special/cover.jpg",
             "loading": "lazy",
             "alt": "Image : A Returner's Magic Should Be Special"
           },
           {
             "title": "Absolute Necromancer",
+            "aliases": ["All Master Necromancer", "All-Master Necromancer", "Unrivaled necromancer", "Necromancer Absoluto"],
             "image": "IMAGES/4-BONS/absolute necromancer/cover.webp",
             "loading": "lazy",
             "alt": "Image : Absolute Necromancer"
