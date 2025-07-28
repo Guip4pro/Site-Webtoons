@@ -998,37 +998,43 @@
             "alt": "Image : Love Letter from the Future"
           },
           {
-              "title": "Magic Academy Survival Guide",
-              "image": "IMAGES/4-BONS/magic academy survival guide/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : Magic Academy Survival Guide"
+            "title": "Magic Academy Survival Guide",
+            "aliases": ["Becoming a Magic School Mage", "Guide de survie à l'école de magie", "Guide de survie dans l’Académie de magie", "Guide de Survie de L’académie de Magie", "How to Live as a Magic School Wizard", "Life of a Magic Academy Mage", "Surviving as a Mage in a Magic Academy"],
+            "image": "IMAGES/4-BONS/magic academy survival guide/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Magic Academy Survival Guide"
           },
           {
             "title": "Manager Kim",
+            "aliases": ["Director Kim"],
             "image": "IMAGES/4-BONS/manager kim/cover.webp",
             "loading": "lazy",
             "alt": "Image : Manager Kim"
           },
           {
             "title": "Max Level Player",
+            "aliases": ["The Maxed-out Player"],
             "image": "IMAGES/4-BONS/max level player/cover.avif",
             "loading": "lazy",
             "alt": "Image : Max Level Player"
           },
           {
             "title": "Max Talented Player",
+            "aliases": ["A Talented Player"],
             "image": "IMAGES/4-BONS/max talented player/cover.jpeg",
             "loading": "lazy",
             "alt": "Image : Max Talented Player"
           },
           {
-              "title": "Mercenary Enrollment",
-              "image": "IMAGES/4-BONS/mercenary enrollment/cover.avif",
-              "loading": "lazy",
-              "alt": "Image : Mercenary Enrollment"
+            "title": "Mercenary Enrollment",
+            "aliases": ["High School Mercenary", "Teenage Mercenary", "Mercenario adolescente"],
+            "image": "IMAGES/4-BONS/mercenary enrollment/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Mercenary Enrollment"
           },
           {
             "title": "Mookhyang - Dark Lady",
+            "aliases": ["Mukhyang Dark Lady"],
             "image": "IMAGES/4-BONS/mookhyang - dark lady/cover.webp",
             "loading": "lazy",
             "alt": "Image : Mookhyang - Dark Lady"
@@ -1041,129 +1047,150 @@
           },
           {
               "title": "My Little Brother Is The Academy's Hotshot",
+              "aliases": ["The Dragon Slayer Academy's Hotshot", "The Hero's Younger Brother Is a Deceased Person in the Academy", "The Little Brother Is the Academy's Hotshot"],
               "image": "IMAGES/4-BONS/my little brother is the academy's hotshot/cover.webp",
               "loading": "lazy",
               "alt": "Image : My Little Brother Is The Academy's Hotshot"
           },
           {
               "title": "Night of the Soulless Heathens",
+              "aliases": ["The Shadowed Legacy of the Soulless Messenger"],
               "image": "IMAGES/4-BONS/night of the soulless heathens/cover.jpg",
               "loading": "lazy",
               "alt": "Image : Night of the Soulless Heathens"
           },
           {
               "title": "Player From Today Onwards",
+              "aliases": ["Player Starting From Today", "From Today, I'm a Player", "Le destin du player !", "The PLayer From The Today"],
               "image": "IMAGES/4-BONS/player from today onwards/cover.jpeg",
               "loading": "lazy",
               "alt": "Image : Player From Today Onwards"
           },
           {
               "title": "Player Who Can't Level Up",
+              "aliases": ["Celui qui ne pouvait pas monter de niveau", "El jugador que no puede subir de nivel", "The Player That Can't Level Up "],
               "image": "IMAGES/4-BONS/player who can't level up/cover.webp",
               "loading": "lazy",
               "alt": "Image : Player Who Can't Level Up"
           },
           {
-            "title": "Pour ne pas mourir",
+            "title": "Pour ne pas Mourir",
+            "aliases": ["To Not Die", "Ne pas Mourir"],
             "image": "IMAGES/4-BONS/pour ne pas mourir/cover.webp",
             "loading": "lazy",
             "alt": "Image : Pour ne pas Mourir / To not Die"
           },
           {
             "title": "Re: Life Player",
+            "aliases": ["不死身の狂戦士の回帰", "Relife Player "],
             "image": "IMAGES/4-BONS/re life player/cover.avif",
             "loading": "lazy",
             "alt": "Image : Re: Life Player"
           },
           {
-              "title": "Rebirth Of An 8th-Circled Wizard",
-              "image": "IMAGES/4-BONS/rebirth of an 8th-circled wizard/cover.jpg",
-              "loading": "lazy",
-              "alt": "Image : Rebirth Of An 8th-Circled Wizard"
+            "title": "Rebirth Of An 8th-Circled Wizard",
+            "aliases": ["8Seokeul Mabeobsaui Hwansaeng", "8th Circle Mage Reborn", "La Réincarnation de l'archimage de 8e cercle", " Return Of An 8th-Circled Wizard", "Return of the 8th Class Mage"],
+            "image": "IMAGES/4-BONS/rebirth of an 8th-circled wizard/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Rebirth Of An 8th-Circled Wizard"
           },
           {
-              "title": "Reborn As The Enemy Prince",
-              "image": "IMAGES/4-BONS/reborn as the enemy prince/cover.avif",
-              "loading": "lazy",
-              "alt": "Image : Reborn As The Enemy Prince"
+            "title": "Reborn As The Enemy Prince",
+            "aliases": ["Résurrection en prince rival", "Como vivir como el príncipe enemigo", "How to Live as the Enemy Prince", "Living as the Enemy Prince "],
+            "image": "IMAGES/4-BONS/reborn as the enemy prince/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Reborn As The Enemy Prince"
           },
           {
             "title": "Regressing As The Reincarnated Bastard Of The Sword Clan",
+            "aliases": ["Regressed life of the Sword Clan’s Ignoble Reincarnator", "How to Survive as the Bastard of the Regression Sword Clan", "La regresión del bastardo reencarnado del Clan de la Espada"],
             "image": "IMAGES/4-BONS/regressing as the reincarnated bastard of the sword clan/cover.webp",
             "loading": "lazy",
             "alt": "Image : Regressing As The Reincarnated Bastard Of The Sword Clan"
           },
           {
-              "title": "Regressing With The King's Power",
-              "image": "IMAGES/4-BONS/regressing with the king's power/cover.jpg",
-              "loading": "lazy",
-              "alt": "Image : Regressing With The King's Power"
+            "title": "Regressing With The King's Power",
+            "aliases": ["Return to the King's Power", "Return to the Power of the King", "Returned by the King"],
+            "image": "IMAGES/4-BONS/regressing with the king's power/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Regressing With The King's Power"
           },
           {
             "title": "Reincarnated as a Genius Prodigy of a Prestigious Family",
+            "aliases": ["Chuyển Sinh Thành Thiên Tài Xuất Chúng Của Danh Môn Thế Gia", "I Was Reincarnated as a Brilliant Genius of a Prestigious Lineage", "Reborn as the Greatest Talent of the Noble Family", "Reencarné como un genio de linaje prestigioso"],
             "image": "IMAGES/4-BONS/reincarnated as a genius prodigy of a prestigious family/cover.webp",
             "loading": "lazy",
             "alt": "Image : Reincarnated as a Genius Prodigy of a Prestigious Family"
           },
           {
             "title": "Reincarnated As A Legendary Grimoire",
+            "aliases": ["I Became a Legendary Arch Mage by Reading a Book", "I Become a Legendary Arch Mage by Reading a Book", "Just Read Me Already!", "Please Read It", "Please Read Me", "Please Read This"],
             "image": "IMAGES/4-BONS/reincarnated as a legendary grimoire/cover.avif",
             "loading": "lazy",
             "alt": "Image : Reincarnated As A Legendary Grimoire"
           },
           {
-              "title": "Reincarnation of the Warrior Party Archmage",
-              "image": "IMAGES/4-BONS/reincarnation of the warrior party archmage/cover.avif",
-              "loading": "lazy",
-              "alt": "Image : Reincarnation of the Warrior Party Archmage"
+            "title": "Reincarnation of the Warrior Party Archmage",
+            "aliases": ["Reincarnation of the Hero Party Archmage", "The Rebirth of the Hero's Party's Archmage"],
+            "image": "IMAGES/4-BONS/reincarnation of the warrior party archmage/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Reincarnation of the Warrior Party Archmage"
           },
           {
-              "title": "Return of the 8th Class Magician",
-              "image": "IMAGES/4-BONS/return of the 8th class magician/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : Return of the 8th Class Magician"
+            "title": "The Return of the 8th Class Magician",
+            "aliases": ["Le Retour du magicien de classe 8"],
+            "image": "IMAGES/4-BONS/return of the 8th class magician/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Return of the 8th Class Magician"
           },
           {
-              "title": "Return of the Broken Constellation",
-              "image": "IMAGES/4-BONS/return of the broken constellation/cover.jpg",
-              "loading": "lazy",
-              "alt": "Image : Return of the Broken Constellation"
+            "title": "Return of the Broken Constellation",
+            "aliases": ["Le Retour de la constellation brisée", "Return of the Shattered Constellation"],
+            "image": "IMAGES/4-BONS/return of the broken constellation/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Return of the Broken Constellation"
           },
           {
-              "title": "Return of the Frozen Player",
-              "image": "IMAGES/4-BONS/return of the frozen player/cover.avif",
-              "loading": "lazy",
-              "alt": "Image : Return of the Frozen Player"
+            "title": "Return of the Frozen Player",
+            "aliases": ["Le Retour du joueur gelé", "O Retorno do Jogador Congelado", "The Frozen Player Returns"],
+            "image": "IMAGES/4-BONS/return of the frozen player/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Return of the Frozen Player"
           },
           {
-              "title": "Return of the Legend",
-              "image": "IMAGES/4-BONS/return of the legend/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : Return of the Legend"
+            "title": "Return of the Legend",
+            "aliases": ["Le Retour de la légende"],
+            "image": "IMAGES/4-BONS/return of the legend/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Return of the Legend"
           },
           {
-              "title": "Return of the Legendary Ranker",
-              "image": "IMAGES/4-BONS/return of the legendary ranker/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : Return of the Legendary Ranker"
+            "title": "Return of the Legendary Ranker",
+            "aliases": ["Legendary Ranker's Comeback", "Return of the Top 0,001% Ranker"],
+            "image": "IMAGES/4-BONS/return of the legendary ranker/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Return of the Legendary Ranker"
           },
           {
-              "title": "Return of the Mad Demon",
-              "image": "IMAGES/4-BONS/return of the mad demon/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : Return of the Mad Demon"
+            "title": "Return of the Mad Demon",
+            "aliases": ["Gwangmahoegwi", "The Return of the Crazy Demon"],
+            "image": "IMAGES/4-BONS/return of the mad demon/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Return of the Mad Demon"
           },
           {
-              "title": "Return to Player",
-              "image": "IMAGES/4-BONS/return to player/cover.avif",
-              "loading": "lazy",
-              "alt": "Image : Return to Player"
+            "title": "Return to Player",
+            "aliases": ["The Return of the Player"],
+            "image": "IMAGES/4-BONS/return to player/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Return to Player"
           },
           {
-              "title": "Returned as the Duke",
-              "image": "IMAGES/4-BONS/returned as the duke/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : Returned as the Duke"
+            "title": "Returned as the Duke",
+            "aliases": ["I Regressed as the Duke"],
+            "image": "IMAGES/4-BONS/returned as the duke/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Returned as the Duke"
           },
           {
             "title": "Reverse Villain",
@@ -1172,35 +1199,41 @@
             "alt": "Image : reverse villain"
           },
           {
-              "title": "Seoul Station's Necromancer",
-              "image": "IMAGES/4-BONS/seoul station's necromancer/cover.jpg",
-              "loading": "lazy",
-              "alt": "Image : Seoul Station's Necromancer"
+            "title": "Seoul Station's Necromancer",
+            "aliases": ["Seoul Station Necromancer", "Seoul-yeog Necromancer"],
+            "image": "IMAGES/4-BONS/seoul station's necromancer/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Seoul Station's Necromancer"
           },
           {
-              "title": "Skeleton Soldier Couldn't Protect the Dungeon",
-              "image": "IMAGES/4-BONS/skeleton soldier couldn't protect the dungeon/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : Skeleton Soldier Couldn't Protect the Dungeon"
+            "title": "Skeleton Soldier Couldn't Protect the Dungeon",
+            "aliases": ["skeleton soldier couldn't defend the dongeon", "Soldado esqueleto", "The Skeleton Soldier Failed to Defend the Dungeon"],
+            "image": "IMAGES/4-BONS/skeleton soldier couldn't protect the dungeon/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Skeleton Soldier Couldn't Protect the Dungeon"
           },
           {
-              "title": "Sleeping Ranker",
-              "image": "IMAGES/4-BONS/sleeping ranker/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : Sleeping Ranker"
+            "title": "Sleeping Ranker",
+            "aliases": ["The Sleeping Ranker", "Even if I Sleep, I Rank", "Ranker Just By Sleeping"],
+            "image": "IMAGES/4-BONS/sleeping ranker/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Sleeping Ranker"
           },
           {
             "title": "Solo Farming in the Tower",
+            "aliases": ["Farming in the tower alone", "I'm the Only One Farming in the Dungeon"],
             "image": "IMAGES/4-BONS/solo farming in the tower/cover.avif",
             "alt": "Image : Solo Farming in the Tower"
           },
           {
             "title": "Solo of Emperor Play",
+            "aliases": ["The Emperor of Solo Play"],
             "image": "IMAGES/4-BONS/solo of emperor play/cover.webp",
             "alt": "Image : Solo of Emperor Play"
           },
           {
             "title": "Solo Resurrection",
+            "aliases": ["I Alone Resurrect", "I Am Resurrected Alone", "Tái Sinh Đơn Độc"],
             "image": "IMAGES/4-BONS/solo resurrection/cover.avif",
             "loading": "lazy",
             "alt": "Image : Solo Resurrection"
@@ -1212,140 +1245,161 @@
             "alt": "Image : Special Civil Servant"
           },
           {
-              "title": "Stuck in the Tower",
-              "image": "IMAGES/4-BONS/stuck in the tower/cover.jpeg",
-              "loading": "lazy",
-              "alt": "Image : Stuck in the Tower"
+            "title": "Stuck in the Tower",
+            "aliases": ["The Tower's Trapped Hunter", "Trapped in the Tower"],
+            "image": "IMAGES/4-BONS/stuck in the tower/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : Stuck in the Tower"
           },
           {
-              "title": "Talent-Swallowing Magician",
-              "image": "IMAGES/4-BONS/talent-swallowing magician/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : Talent-Swallowing Magician"
+            "title": "Talent-Swallowing Magician",
+            "aliases": ["Demon Devourer", "El Mago Devorador de Talentos", "Le Dévoreur de démons", "Talent Swallowing Magician", "The Mage Who Absorbs Abilities"],
+            "image": "IMAGES/4-BONS/talent-swallowing magician/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Talent-Swallowing Magician"
           },
           {
-              "title": "Terminally Ill Dark Knight",
-              "image": "IMAGES/4-BONS/terminally ill dark knight/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : Terminally Ill Dark Knight"
+            "title": "Terminally Ill Dark Knight",
+            "aliases": ["Terminally-Ill Genius Dark Knight", "Chevalier noir génial en phase terminale", "Time Limited Genius Dark Knighte, eTime-Limited Genius Dark Knight"],
+            "image": "IMAGES/4-BONS/terminally ill dark knight/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Terminally Ill Dark Knight"
           },
           {
-              "title": "The 31st Piece Turns the Tables",
-              "image": "IMAGES/4-BONS/the 31st piece turns the tables/cover.jpg",
-              "loading": "lazy",
-              "alt": "Image : The 31st Piece Turns the Tables"
+            "title": "The 31st Piece Turns the Tables",
+            "aliases": ["The 31st Piece Overturns the Board"],
+            "image": "IMAGES/4-BONS/the 31st piece turns the tables/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The 31st Piece Turns the Tables"
           },
           {
             "title": "The 100th Regression of the Max-Level Player",
+            "aliases": ["The Max-Level Player's 100th Regression"],
             "image": "IMAGES/4-BONS/the 100th regression of the max-level player/cover.avif",
+            "loading": "lazy",
             "alt": "Image : The 100th Regression of the Max-Level Player"
           },
           {
-              "title": "The Boxer",
-              "image": "IMAGES/4-BONS/the boxer/cover.jpg",
-              "loading": "lazy",
-              "alt": "Image : The Boxer"
+            "title": "The Boxer",
+            "image": "IMAGES/4-BONS/the boxer/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The Boxer"
           },
           {
-              "title": "The Constellation That Returned from Hell",
-              "image": "IMAGES/4-BONS/the constellation that returned from hell/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : The Constellation That Returned from Hell"
+            "title": "The Constellation That Returned from Hell",
+            "aliases": ["The Celestial Returned From Hell", "The Constellation Back from Hell"],
+            "image": "IMAGES/4-BONS/the constellation that returned from hell/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : The Constellation That Returned from Hell"
           },
           {
-              "title": "The Count's Youngest Son Is a Player",
-              "image": "IMAGES/4-BONS/the count's youngest son is a player/cover.jpg",
-              "loading": "lazy",
-              "alt": "Image : The Count's Youngest Son Is a Player"
+            "title": "The Count's Youngest Son Is a Player",
+            "aliases": ["The Youngest Son of the Count Is a Player"],
+            "image": "IMAGES/4-BONS/the count's youngest son is a player/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The Count's Youngest Son Is a Player"
           },
           {
-              "title": "The Creator Is on Hiatus",
-              "image": "IMAGES/4-BONS/the creator is on hiatus/cover.avif",
-              "loading": "lazy",
-              "alt": "Image : The Creator Is on Hiatus"
+            "title": "The Creator Is on Hiatus",
+            "aliases": [" I’ll be Taking a Break for Personal Reasons", "Temporarily Closed for Work Reasons"],
+            "image": "IMAGES/4-BONS/the creator is on hiatus/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : The Creator Is on Hiatus"
           },
           {
             "title": "The Demonic Cult Leader Is Too Reluctant",
+            "aliases": ["The Anxious Demon Sect Leader", "The Reluctant Demon Cult Leader"],
             "image": "IMAGES/4-BONS/the demonic cult leader is too reluctant/cover.avif",
             "alt": "Image : The Demonic Cult Leader Is Too Reluctant"
           },
           {
             "title": "The Emperor's Sword",
+            "aliases": ["L'épée de l'empereur", "Sword of the Emperor", "The Sword of Emperor", "The Sword of the Emperor"],
             "image": "IMAGES/4-BONS/the emperor's sword/cover.avif",
             "loading": "lazy",
             "alt": "Image : The Emperor's Sword"
           },
           {
-              "title": "The Extra Is Too Strong",
-              "image": "IMAGES/4-BONS/the extra is too strong/cover.avif",
-              "loading": "lazy",
-              "alt": "Image : The Extra Is Too Strong"
+            "title": "The Extra Is Too Strong",
+            "aliases": ["The Extra Is Too Powerful", "El Extra Es Demasiado Fuerte"],
+            "image": "IMAGES/4-BONS/the extra is too strong/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : The Extra Is Too Strong"
           },
           {
-              "title": "The God of Blackfield",
-              "image": "IMAGES/4-BONS/the god of blackfield/cover.avif",
-              "loading": "lazy",
-              "alt": "Image : The God of Blackfield"
+            "title": "The God of Blackfield",
+            "image": "IMAGES/4-BONS/the god of blackfield/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : The God of Blackfield"
           },
           {
-              "title": "The Hammer",
-              "image": "IMAGES/4-BONS/the hammer/cover.jpg",
-              "loading": "lazy",
-              "alt": "Image : The Hammer"
+            "title": "The Hammer",
+            "aliases": ["I Picked A Hammer To Save The World"],
+            "image": "IMAGES/4-BONS/the hammer/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The Hammer"
           },
           {
             "title": "The Hero Became the Duke's Eldest Son",
+            "aliases": ["Hero Becomes Duke's Eldest Son , Hero Becomes the Eldest Son of a Duke"],
             "image": "IMAGES/4-BONS/the hero became the duke's eldest son/cover.avif",
             "loading": "lazy",
             "alt": "Image : The Hero Became the Duke's Eldest Son"
           },
           {
-              "title": "The Last Adventurer",
-              "image": "IMAGES/4-BONS/the last adventurer/cover.jpg",
-              "loading": "lazy",
-              "alt": "Image : The Last Adventurer"
+            "title": "The Last Adventurer",
+            "image": "IMAGES/4-BONS/the last adventurer/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The Last Adventurer"
           },
           {
-              "title": "The Lord's Coins Aren't Decreasing",
-              "image": "IMAGES/4-BONS/the lord's coins aren't decreasing/cover.jpg",
-              "loading": "lazy",
-              "alt": "Image : The Lord's Coins Aren't Decreasing"
+            "title": "The Lord's Coins Aren't Decreasing",
+            "aliases": ["The Lord of Coins", "À jamais Riche !"],
+            "image": "IMAGES/4-BONS/the lord's coins aren't decreasing/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The Lord's Coins Aren't Decreasing"
           },
           {
-              "title": "The Max Level Hero Has Returned",
-              "image": "IMAGES/4-BONS/the max level hero has returned/cover.jpg",
-              "loading": "lazy",
-              "alt": "Image : The Max Level Hero Has Returned"
+            "title": "The Max Level Hero Has Returned",
+            "aliases": ["Max Level Hero Is Making a Comeback!", "The Max Level Hero Strikes Back", "The Max Leveled Hero Will Return!"],
+            "image": "IMAGES/4-BONS/the max level hero has returned/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The Max Level Hero Has Returned"
           },
           {
-              "title": "The Regressed Demon Lord Is Kind",
-              "image": "IMAGES/4-BONS/the regressed demon lord is kind/cover.avif",
-              "loading": "lazy",
-              "alt": "Image : The Regressed Demon Lord Is Kind"
+            "title": "The Regressed Demon Lord Is Kind",
+            "aliases": ["The Returning Devil Lives a Good Life"],
+            "image": "IMAGES/4-BONS/the regressed demon lord is kind/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : The Regressed Demon Lord Is Kind"
           },
           {
-              "title": "The Reincarnated Assassin Is a Genius Swordsman",
-              "image": "IMAGES/4-BONS/the reincarnated assassin is a genius swordsman/cover.avif",
-              "loading": "lazy",
-              "alt": "Image : The Reincarnated Assassin Is a Genius Swordsman"
+            "title": "The Reincarnated Assassin Is a Genius Swordsman",
+            "aliases": ["L'Assassin et le Maître épéiste", "The Reincarnated Assassin Is a Swordmaster"],
+            "image": "IMAGES/4-BONS/the reincarnated assassin is a genius swordsman/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : The Reincarnated Assassin Is a Genius Swordsman"
           },
           {
-              "title": "The Second Coming of Gluttony",
-              "image": "IMAGES/4-BONS/the second coming of gluttony/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : The Second Coming of Gluttony"
+            "title": "The Second Coming of Gluttony",
+            "aliases": ["The Second Coming of Avarice"],
+            "image": "IMAGES/4-BONS/the second coming of gluttony/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : The Second Coming of Gluttony"
           },
           {
-              "title": "Trash of the Count's Family",
-              "image": "IMAGES/4-BONS/trash of the count's family/cover.avif",
-              "loading": "lazy",
-              "alt": "Image : Trash of the Count's Family"
+            "title": "Trash of the Count's Family",
+            "aliases": ["The Lout of the count's family", "Je suis devenu le Voyou de la famille du Comte"],
+            "image": "IMAGES/4-BONS/trash of the count's family/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Trash of the Count's Family"
           },
           {
-              "title": "Tyrant of the Tower Defense Game",
-              "image": "IMAGES/4-BONS/tyrant of the tower defense game/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : Tyrant of the Tower Defense Game"
+            "title": "Tyrant of the Tower Defense Game",
+            "aliases": ["I Became the Tyrant of a Defense Game"],
+            "image": "IMAGES/4-BONS/tyrant of the tower defense game/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Tyrant of the Tower Defense Game"
           },
           {
             "title": "Valhalla Saga",
@@ -1354,58 +1408,65 @@
             "alt": "Image : Valhalla Saga"
           },
           {
-              "title": "Vice Lord's Rebirth",
-              "image": "IMAGES/4-BONS/vice lord's rebirth/cover.avif",
-              "loading": "lazy",
-              "alt": "Image : Vice Lord's Rebirth"
+            "title": "Vice Lord's Rebirth",
+            "aliases": ["Vice-Lord's Rebirth", "I Reincarnated As The Crazed Heir"],
+            "image": "IMAGES/4-BONS/vice lord's rebirth/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Vice Lord's Rebirth"
           },
           {
-              "title": "Villain to Kill",
-              "image": "IMAGES/4-BONS/villain to kill/cover.jpg",
-              "loading": "lazy",
-              "alt": "Image : Villain to Kill"
+            "title": "Villain to Kill",
+            "image": "IMAGES/4-BONS/villain to kill/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Villain to Kill"
           },
           {
             "title": "Villains Are Destined to Die",
+            "aliases": ["Death Is the Only Ending for the Villainess", "Phản phái nhân vật chỉ hữu tử vong kết cục", "Seule la mort attend la méchante", "Seule la mort attend la Vilaine", "The Villain's Ending Is Death"],
             "image": "IMAGES/4-BONS/villains are destined to die/cover.webp",
             "loading": "lazy",
             "alt": "Image : Villains Are Destined to Die"
           },
           {
             "title": "Weapon Creator",
+            "aliases": ["Weapon Maker", "Weapon Forger"],
             "image": "IMAGES/4-BONS/weapon creator/cover.jpeg",
             "loading": "lazy",
             "alt": "Image : Weapon Creator"
           },
           {
             "title": "Webtoon Character Na Kang Lim",
+            "aliases": ["Webtoon Character : Na Kang Lim"],
             "image": "IMAGES/4-BONS/webtoon character na kang lim/cover.avif",
             "loading": "lazy",
             "alt": "Image : Webtoon Character Na Kang Lim"
           },
           {
-              "title": "What's Our Hero Doing",
-              "image": "IMAGES/4-BONS/what's our hero doing/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : What's Our Hero Doing"
+            "title": "What's Our Hero Doing",
+            "image": "IMAGES/4-BONS/what's our hero doing/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : What's Our Hero Doing"
           },
           {
-              "title": "Why I Quit Being the Demon King",
-              "image": "IMAGES/4-BONS/why i quit being the demon king/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : Why I Quit Being the Demon King"
+            "title": "Why I Quit Being the Demon King",
+            "aliases": ["The reason I quit the Demon King", "The Reason Why I Quit Being the Demon King"],
+            "image": "IMAGES/4-BONS/why i quit being the demon king/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Why I Quit Being the Demon King"
           },
           {
-              "title": "Worn and Torn Newbie",
-              "image": "IMAGES/4-BONS/worn and torn newbie/cover.avif",
-              "loading": "lazy",
-              "alt": "Image : Worn and Torn Newbie"
+            "title": "Worn and Torn Newbie",
+            "aliases": ["Nolife - The Overpowered noob", "Solo Smurf", "The Worn and Torn Newbie"],
+            "image": "IMAGES/4-BONS/worn and torn newbie/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Worn and Torn Newbie"
           },
           {
-              "title": "Your Talent Is Mine",
-              "image": "IMAGES/4-BONS/your talent is mine/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : Your Talent Is Mine"
+            "title": "Your Talent Is Mine",
+            "aliases": ["I Can Copy Talents", "I Copy Talents", "Le collectionneur de talents"],
+            "image": "IMAGES/4-BONS/your talent is mine/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Your Talent Is Mine"
           }        
         ]
       },
