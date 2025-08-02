@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Mini-jeux Memory et Guess the webtoon </title>
     <link rel="stylesheet" type="text/css" href="../STYLES/mini-jeux.css">
+    <link rel="stylesheet" type="text/css" href="../STYLES/guesswebtoon.css">
     <script src="../SCRIPTS/mini-jeux.js" defer></script>
     <script src="../SCRIPTS/memory.js" type="module" defer></script>
+    <script src="../SCRIPTS/guesswebtoon.js" type="module" defer></script>
 </head>
 <body>
     <header>
@@ -32,7 +34,7 @@
             </div>
             <div class="game-button">
                 <img src="../RESSOURCES/icons/eyes1.webp" alt="Image du jeu Guess the Webtoon" />
-                <button> Guess the Webtoon </button>
+                <button onclick="startGuessTheWebtoon()"> Guess the Webtoon </button>
             </div>
         </div>
 
@@ -42,7 +44,7 @@
         <audio id="sound-match"     src="../RESSOURCES/sounds/match.mp3" preload="auto"></audio>  <!-- Arcade match -->
         <audio id="sound-win"       src="../RESSOURCES/sounds/win.mp3" preload="auto"></audio>  <!-- Game level complete -->
 
-        <div id="memory-game" class="memory-hidden">
+        <div id="memory-game" class="hidden">
             <div id="memory-controls">
                 <div id="memory-stats" class="hidden">
                     <span>⏱️ <strong>Temps :&nbsp;</strong> <span id="memory-timer">0</span><span>s</span></span>
@@ -72,7 +74,7 @@
 
 
         
-        <section id="leaderboard-section">
+        <section id="leaderboard-section" class="hidden">
             <h2> Classement </h2>
             <select id="difficulty-selector">
                 <option value="4x4">4x4</option>

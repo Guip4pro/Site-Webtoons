@@ -130,20 +130,26 @@ button.innerHTML = svgOn;
 
 // Un seul écouteur pour toggler le son et arrêter les éventuels sons en cours
 button.addEventListener('click', () => {
-  soundEnabled = !soundEnabled;
-  button.innerHTML = soundEnabled ? svgOn : svgOff;
+    soundEnabled = !soundEnabled;
+    button.innerHTML = soundEnabled ? svgOn : svgOff;
 
-  if (!soundEnabled) {
+    if (!soundEnabled) {
+        stopAllMemorySounds()
+    }
+});
+
+function stopAllMemorySounds() {
     // Si on désactive le son, on stoppe tous les sons en cours
     for (const key in sounds) {
-      const sound = sounds[key];
-      if (!sound.paused) {
+    const sound = sounds[key];
+    if (!sound.paused) {
         sound.pause();         // Arrête le son
         sound.currentTime = 0; // Le remet au début
-      }
     }
-  }
-});
+    }
+}
+
+window.stopAllMemorySounds = stopAllMemorySounds; // Pour l'utiliser dans mon autre fichier guesswebtoon.js
 
 function playSound(type) {
     if (!soundEnabled) return;  // Si le son est désactivé, on ne joue rien
@@ -157,10 +163,11 @@ function playSound(type) {
 
 function startMemoryGame() {
     const gameContainer = document.getElementById('memory-game');
-    gameContainer.classList.remove('memory-hidden');
+    gameContainer.classList.remove('hidden');
     gameContainer.classList.add('fade-in');
     document.getElementById('memory-difficulty-selector').classList.remove('hidden');
     document.getElementById('memory-stats').classList.remove('hidden');
+    document.getElementById('leaderboard-section').classList.remove('hidden');
     updateGameBoard();
 }
 
