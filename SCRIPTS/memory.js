@@ -159,7 +159,28 @@ function playSound(type) {
     s.play();   // Lance le son
 }
 
-  
+
+    // Fonction pour stopper le countdown avec startGuessTheWebtoon
+function stopAllMemoryTimers() {
+    // Stoppe le compte à rebours initial
+    if (countdownInterval) {
+        clearInterval(countdownInterval);
+        countdownInterval = null;
+    }
+
+    // Stoppe le chronomètre de jeu
+    if (timerInterval) {
+        clearInterval(timerInterval);
+        timerInterval = null;
+    }
+
+    // Remet à zéro l’affichage
+    document.getElementById('memory-countdown').classList.add('hidden');
+}
+// Rendre la fonction accessible depuis d’autres fichiers
+window.stopAllMemoryTimers = stopAllMemoryTimers;
+
+
 
 function startMemoryGame() {
     const gameContainer = document.getElementById('memory-game');
@@ -382,6 +403,12 @@ function showModal(messageHTML) {
     // Affiche le modal
     overlay.classList.remove('modal-hidden');
     overlay.classList.add('show');
+        // API Pour center le plateau de jeu
+        document.getElementById('leaderboard-list').scrollIntoView({
+            behavior: 'smooth',   // défilement animé
+            block:    'center',   // centre verticalement
+            inline:   'nearest'   // pas de décalage horizontal
+        });
 
     // Ferme après 15 secondes automatiquement
     setTimeout(() => {
