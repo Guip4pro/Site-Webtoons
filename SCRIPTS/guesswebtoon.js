@@ -51,24 +51,22 @@ accordions.forEach((acc) => {
 
 // Sous-accordéons
 const subAccordions = document.querySelectorAll('.sub-accordion');
-subAccordions.forEach((subAcc) => {
-    // Ajout de la flèche initiale
-    subAcc.textContent = `▸ ${subAcc.textContent.trim()}`;
 
-    subAcc.addEventListener('click', () => {
-        const subPanel = subAcc.nextElementSibling;
-        const isOpen = subPanel.style.display === 'flex';
-
-        subPanel.style.display = isOpen ? 'none' : 'flex';
-        subAcc.textContent = isOpen ? `▸ ${subAcc.textContent.slice(2).trim()}` : `▾ ${subAcc.textContent.slice(2).trim()}`;
-    });
+subAccordions.forEach((accordion) => {
+  accordion.addEventListener('click', () => {
+    accordion.classList.toggle('active');
+    const panel = accordion.nextElementSibling;
+    if (panel) {
+      panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
+    }
+  });
 });
+
 
 
 
 /*
 prochaines étapes :
-- M'occuper des boutons pour choisir son mode de jeu de Guess The Webtoon
 - Designer mon menu de jeu, juste avant de lancer une partie
     |-->    Prompt Chatgpt : 
 

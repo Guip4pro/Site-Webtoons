@@ -505,7 +505,7 @@ h1 {
 #àpropos-contact {
     background-color: #f9f9f9; /* Couleur de fond douce */
     padding: 20px;
-    margin: 40px 0; /* Espacement autour de la section */
+    margin: 40px 2.5em; /* Espacement autour de la section */
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Légère ombre pour un effet de profondeur */
 }

@@ -33,8 +33,40 @@
     display: none;
     flex-direction: column;
     margin-bottom: 15px;
-    cursor: pointer;
     text-align: left; /* Aligne le texte à gauche */
+}
+
+.genre-panel {
+    max-height: 200px;        /* ajuste la hauteur max selon tes besoins */
+    overflow-y: auto;         /* active le scroll vertical */
+    padding-right: 0.5em;     /* espace pour la barre de scroll */
+    margin-bottom: 1em;       /* un petit espacement en bas */
+    border-left: 2px solid #ddd;
+}
+
+.sub-accordion {
+    position: relative;
+    cursor: pointer;
+    margin-top: 1em;
+    padding-left: 1.5em; /* pour laisser de la place au triangle */
+    transition: color 0.3s;
+}
+
+.sub-accordion::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1em;
+    transition: transform 0.3s ease;
+    color: #555; /* couleur du triangle */
+}
+
+/* Quand la section est ouverte, fais tourner le triangle */
+.sub-accordion.active::before {
+    transform: translateY(-50%) rotate(90deg);
+    color: #4CAF50;
 }
 
 .sub-panel {
@@ -45,14 +77,29 @@
 }
 
 
-.genre-scroll-box {
-    max-height: 120px;
-    overflow-y: auto;
-    padding-right: 10px;
-    margin-top: 8px;
+.scroll-item {
+    position: relative;      /* pour positionner la balle */
+    padding-left: 1.2em;     /* espace pour la balle */
+    cursor: pointer;         /* indique que c’est cliquable */
+    color: #333;
+    transition: background-color 0.2s;
+    margin-top: 1em;
 }
 
-.scroll-item {
-    padding: 4px 0;
-    color: #333;
+.scroll-item:hover {
+    background-color: #f0f0f0;
+}
+
+.scroll-item::before {
+    content: '●';            /* injecte la balle avant le texte */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #4CAF50;
+    font-size: 0.8em;
+}
+
+.contre-espacement {
+    margin-bottom: 1em;
 }
