@@ -86,6 +86,7 @@
     margin-top: 1em;
 }
 
+
 .scroll-item:hover {
     background-color: #f0f0f0;
 }
@@ -103,3 +104,190 @@
 .contre-espacement {
     margin-bottom: 1em;
 }
+
+
+
+/* POP-UP DE DEMARRAGE */
+
+/* Overlay flouté sombre */
+.gtw-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Pop-up principale */
+.gtw-popup {
+    background: linear-gradient(to bottom right, #ffffff, #f9f9f9);
+    border: 3px solid gold;
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.6), 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 2rem;
+    max-width: 480px;
+    width: 90%;
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: all 0.4s ease;
+    font-family: 'Segoe UI', sans-serif;
+    position: relative;
+}
+
+/* Apparition animée */
+.gtw-popup.gtw-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* En-tête */
+.gtw-header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.gtw-header h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    pointer-events: none;
+}
+
+.gtw-header .gtw-close {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #888;
+    transition: color 0.3s ease;
+    margin-left: auto; /* ← force l'alignement à droite */
+}
+
+.gtw-header .gtw-close:hover {
+    color: crimson;
+}
+
+
+/* Affichage de la difficulté */
+.gtw-difficulty {
+    background: linear-gradient(to right, #f5f5f5, #fafafa);
+    padding: 0.6rem 1rem;
+    border-left: 5px solid gold;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #444;
+    box-shadow: inset 0 0 5px rgba(255, 215, 0, 0.5);
+}
+
+.gtw-difficulty.gtw-facile { border-color: #4caf50; }
+.gtw-difficulty.gtw-moyen { border-color: #ffc107; }
+.gtw-difficulty.gtw-difficile { border-color: #f44336; }
+
+/* Bloc de consignes */
+.gtw-instructions {
+    display: flex;
+    align-items: center;
+    background: #fefbea;
+    border: 1px solid #ffe58f;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+}
+
+.gtw-mascotte {
+    width: 60px;
+    height: 60px;
+    margin-right: 1rem;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 8px gold;
+}
+
+.gtw-text {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+/* Exemple visuel */
+.gtw-example {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.gtw-example-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #666;
+}
+
+.gtw-example img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+/* Bouton JOUER */
+.gtw-start-button {
+    display: block;
+    width: 100%;
+    padding: 0.9rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #27ae60, 0 0 30px #27ae60;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.gtw-start-button:hover {
+    background: #2ecc71;
+    box-shadow: 0 0 12px #2ecc71, 0 0 40px #2ecc71;
+    transform: scale(1.05);
+}
+
+
+
+/*
+
+CONSIGNE :
+
+Peux-tu me construire la pop-up complètement en JavaScript. 
+
+Cadre orné : Bordure dorée avec ornements décoratifs aux coins
+Image centrale : Encadrée avec effet de brillance au survol
+Matériaux nobles : Textures dégradées simulant du métal et du papier ancien
+
+✨ Détails visuels élégants :
+
+Arrière-plan mystique : Orbes dorées flottantes et texture papier
+Typographie classic : look authentique
+Animations subtiles : Rotation 3D, effets de brillance, pulsations dorées
+Couleurs premium : Or, bronze, et dégradés métalliques
+Feedback premium : Notifications avec bordures colorées
+Voici les éléments qui devront être présent dans mon affichage d'avant-jeu : 
+- En-tête "Guess the Webtoon" ou "Devine le webtoon"
+- Une croix pour fermer la pop-up à droite du titre
+- Rappel de la difficulté choisie, avec un visuel ou une couleur différente. (ex : "MOYEN")
+- Mettre un encadré consigne / explication avec mascotte Ex :
+    (en GRAS) **Prêt à tester tes connaissances ?**
+    Tu auras **15s** pour retrouver le nom du **webtoon** correspondant à l'image parmi 4 propositions.
+- Un bouton start "JOUER" animé (pas de lancement automatique) 
+- Petit son et effet simple au démarrage de la pop-up
+- Exemple illustratif (facultatif) : Montrer une image "brouillée" ou un exemple pour donner une idée.
+
+*/

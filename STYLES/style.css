@@ -504,8 +504,8 @@ h1 {
     /* A Propos / Contact */
 #àpropos-contact {
     background-color: #f9f9f9; /* Couleur de fond douce */
-    padding: 20px;
-    margin: 40px 2.5em; /* Espacement autour de la section */
+    padding: 2.5em;
+    margin: 40px 7em; /* Espacement vertical - horizontal */
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Légère ombre pour un effet de profondeur */
 }
@@ -536,27 +536,27 @@ h1 {
     display: block;
     font-weight: bold;
     margin-bottom: 0.5rem;
-    color: #333;
+    color: #017605; /* vert plus foncé pour titres */
 }
 
 .contact-form input[type="email"], .contact-form textarea {
     width: 100%;
     padding: 0.75rem;
     margin-bottom: 1.5rem;
-    border: 1px solid #ccc;
+    border: 1px solid #a5d6a7; /* vert clair */
     border-radius: 0.75rem;
     background-color: #fff;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact-form input[type="email"]:focus, .contact-form textarea:focus {
-    border-color: #7ccc7c;
+    border-color: #7ccc7c; /* vert vif */
     box-shadow: 0 0 0 3px rgba(178, 231, 178, 0.3);
     outline: none;
 }
 
 .contact-form button {
-    background-color: #b2e7b2;
+    background-color: #b2e7b2; /* vert pastel clair */
     color: #222;
     padding: 0.75rem 1.5rem;
     border: none;
@@ -564,14 +564,50 @@ h1 {
     cursor: pointer;
     font-size: 1rem;
     font-weight: bold;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .contact-form button:hover {
-    background-color: #a0dba0;
+    background-color: #9dd89d; /* vert un peu plus foncé */
     transform: scale(1.02);
 }
+
+/* Le compteur de caractères */
+.contact-form p#char-count {
+    font-size: 0.9em;
+    color: #3a7d3a; /* vert moyen */
+    margin-top: 3px;
+}
+
+/* Message de Confirmation d'envoi du mail (formulaire) */
+#popup-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(136, 225, 136, 0.95); /* vert clair semi-transparent */
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+    border: 3px solid #297e29; /* vert vif pour bordure */
+    animation: blink-border 1s infinite;
+}
+
+#popup-message.popup-visible {
+    opacity: 1;
+}
+
+@keyframes blink-border {
+    0%, 100% { border-color: #297e29; } /* vert vif */
+    50%      { border-color: #a6d8a6; } /* vert pastel */
+}
+
 
 
 
@@ -586,6 +622,10 @@ h1 {
     }
     #pinterest-icon {
         margin-left: 2px;
+    }
+    #àpropos-contact {
+    margin: 40px 0;   /* Espacement vertical - horizontal */
+
     }
 }
 

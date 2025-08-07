@@ -164,3 +164,123 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Formulaire
+    const form = document.querySelector('.contact-form');
+    const inputs = document.querySelectorAll(".contact-form input[maxlength], .contact-form textarea[maxlength]");
+
+    // Initialise les compteurs de caractères
+    const countersMap = new Map();
+
+    inputs.forEach(input => {
+        const max = input.getAttribute("maxlength");
+        // On cherche un <p> avec la classe .char-count dans le parent
+        const counter = input.parentElement.querySelector("p.char-count");
+        if (counter) {
+            const updateCount = () => {
+                const remaining = max - input.value.length;
+                counter.textContent = `Caractères restants : ${remaining}`;
+            };
+            input.addEventListener("input", updateCount);
+            updateCount();  // Initialisation
+
+            // Sauvegarde la fonction pour réutilisation après reset
+            countersMap.set(input, updateCount);
+        }
+    });
+
+
+    // Gestion de la soumission du formulaire
+    form.addEventListener('submit', async function (e) {
+        e.preventDefault();
+        console.log('🟢 submit event fired');
+
+        const formData = new FormData(form);
+        try {
+            const response = await fetch(form.action, {
+                method: form.method,
+                body: formData,
+                headers: { 'Accept': 'application/json' }
+            });
+            console.log('Fetch response:', response);
+
+            if (response.ok) {
+                console.log('✅ Envoi réussi');
+                form.reset();
+
+                // Forcer la mise à jour des compteurs après reset
+                countersMap.forEach((updateCount, input) => updateCount());
+
+                // Affichage du popup
+                const popup = document.getElementById('popup-message');
+                popup.classList.add('popup-visible');
+
+                setTimeout(() => {
+                    popup.classList.remove('popup-visible');
+                }, 3000);
+            } else {
+                console.error('❌ Envoi échoué, status:', response.status);
+                alert("Une erreur s'est produite. Statut : " + response.status);
+            }
+        } catch (err) {
+            console.error('🚨 Erreur fetch():', err);
+            alert("Erreur réseau : vérifie la console");
+        }
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('.contact-form');
+    const inputs = form.querySelectorAll("input[maxlength], textarea[maxlength]");
+    const countersMap = new Map();
+
+    inputs.forEach(input => {
+        const max = parseInt(input.getAttribute("maxlength"), 10);
+
+        // on remonte au .form-group parent, puis on y cherche le .char-count
+        const group   = input.closest('.form-group');
+        const counter = group?.querySelector('.char-count');
+
+        if (counter) {
+        const updateCount = () => {
+            const remaining = max - input.value.length;
+            counter.textContent = `Caractères restants : ${remaining}`;
+        };
+        input.addEventListener('input', updateCount);
+        updateCount();  // initialisation
+        countersMap.set(input, updateCount);
+        }
+    });
+
+    form.addEventListener('submit', async e => {
+        e.preventDefault();
+        const formData = new FormData(form);
+
+        try {
+        const res = await fetch(form.action, {
+            method: form.method,
+            body: formData,
+            headers: { 'Accept': 'application/json' }
+        });
+        if (res.ok) {
+            form.reset();
+            // on rafraîchit tous les compteurs
+            countersMap.forEach(fn => fn());
+            const popup = document.getElementById('popup-message');
+            popup.classList.add('popup-visible');
+            setTimeout(() => popup.classList.remove('popup-visible'), 3000);
+        } else {
+            alert("Erreur d'envoi (status " + res.status + ")");
+        }
+        } catch {
+        alert("Erreur réseau, vois la console");
+        }
+    });
+});
+
+
