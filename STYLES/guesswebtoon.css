@@ -191,6 +191,8 @@
 .gtw-difficulty.gtw-facile { border-color: #4caf50; }
 .gtw-difficulty.gtw-moyen { border-color: #ffc107; }
 .gtw-difficulty.gtw-difficile { border-color: #f44336; }
+.gtw-difficulty.gtw-enfer { border-color: #1e1a1a; }
+
 
 /* Bloc de consignes */
 .gtw-instructions {
@@ -266,8 +268,6 @@
 
 CONSIGNE :
 
-Peux-tu me construire la pop-up complètement en JavaScript. 
-
 Cadre orné : Bordure dorée avec ornements décoratifs aux coins
 Image centrale : Encadrée avec effet de brillance au survol
 Matériaux nobles : Textures dégradées simulant du métal et du papier ancien
@@ -279,15 +279,5 @@ Typographie classic : look authentique
 Animations subtiles : Rotation 3D, effets de brillance, pulsations dorées
 Couleurs premium : Or, bronze, et dégradés métalliques
 Feedback premium : Notifications avec bordures colorées
-Voici les éléments qui devront être présent dans mon affichage d'avant-jeu : 
-- En-tête "Guess the Webtoon" ou "Devine le webtoon"
-- Une croix pour fermer la pop-up à droite du titre
-- Rappel de la difficulté choisie, avec un visuel ou une couleur différente. (ex : "MOYEN")
-- Mettre un encadré consigne / explication avec mascotte Ex :
-    (en GRAS) **Prêt à tester tes connaissances ?**
-    Tu auras **15s** pour retrouver le nom du **webtoon** correspondant à l'image parmi 4 propositions.
-- Un bouton start "JOUER" animé (pas de lancement automatique) 
-- Petit son et effet simple au démarrage de la pop-up
-- Exemple illustratif (facultatif) : Montrer une image "brouillée" ou un exemple pour donner une idée.
 
 */

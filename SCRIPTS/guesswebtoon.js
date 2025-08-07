@@ -123,7 +123,7 @@ function initGuessTheWebtoonPopup() {
         const instructions = document.createElement('div');
         instructions.className = 'gtw-instructions';
         instructions.innerHTML = `
-            <img src="../RESSOURCES/background-mini-jeux.jpg" alt="Mascotte" class="gtw-mascotte" />
+            <img src="../RESSOURCES/icons/icon3-consigne.jpg" alt="Mascotte" class="gtw-mascotte" />
             <div class="gtw-text">
                 <strong>Prêt à tester tes connaissances ?</strong><br>
                 Tu auras <strong>15s</strong> pour retrouver le nom du <strong>webtoon</strong> correspondant à l'image parmi 4 propositions.
@@ -164,7 +164,7 @@ function initGuessTheWebtoonPopup() {
         // Démarrage du jeu
         playButton.addEventListener('click', () => {
             overlay.remove();
-            startGuessTheWebtoonGame(); // Cette fonction doit exister quelque part
+            startGuessTheWebtoonGame();     // Fonction lançant le vrai jeu
         });
     };
 }
@@ -173,7 +173,6 @@ function initGuessTheWebtoonPopup() {
 
 function startGuessTheWebtoonGame() {
     console.log("Le jeu Guess the Webtoon commence ici !");
-
 }
 
 
@@ -183,29 +182,107 @@ function startGuessTheWebtoonGame() {
 prochaines étapes :
 - Designer mon menu de jeu, juste avant de lancer une partie
     |-->    Prompt Chatgpt : 
-- Montrer que c'est ce mode de jeu qui a été sélectionné
+- Son : quand le joueur clique sur une catégorie, et quand il clique sur "JOUER"
 
 
 Faire un toggle pour l'apparition de l'entièreté du jeu "Guess The Webtoon"
 
 Autour du plateau de jeu :
-- Mascotte qui donne des conseils ou réagit
+- Prendre une mascotte (préférence barbare Bjorn fisl de Yandel), et déterminer en image à l'aide de l'IA ses différentes expressions
 - Motifs autour du plateau (bulles, effets de papier, cadres illustrés)
 
-Dans mon affichage d'avant-jeu :
-- En-tête "Guess the Webtoon" ou "Devine le webtoon"
-- Une croix pour fermer la pop-up à droite du titre
-- Rappel de la difficulté choisie, avec un visuel ou une couleur différente. (ex : "MOYEN")
-- Mettre un encadré consigne / explication avec mascotte Ex :
-    (en GRAS) **Prêt à tester tes connaissances ?**
-    Tu auras **15s** pour retrouver le nom du **webtoon** correspondant à l'image parmi 4 propositions.
-- Un bouton start (pas de lancement automatique)
-- Petit son et effet simple au démarrage de la pop-up
-- Exemple illustratif (facultatif) : Montrer une image "brouillée" ou un exemple pour donner une idée.
 
-Deuxième plateau de jeu :
-- Score-board : Il n'y aura pas vraiment de score, mais une barre de progression avec un chiffre inqiquant à combien de webtoon est le joueur sur 10.
-- Pendant le jeu, le joueur pourra savoir le nombre de webtoons qu'il a réussi à deviner, ainsi que le nombre de webtoon qu'il n'a pas réussi à deviner.
-- Sons
-- Boutons valider et passer en bas
+
+
+PROMPT !!! (utiliser "raisonner"):
+
+Je souhaite créer la seconde page d'un jeu en ligne appelé "Devine le Webtoon", qui s'affiche après que l'utilisateur ait cliqué sur le bouton "JOUER" dans une première pop-up d'introduction.
+
+Cette nouvelle page (toujours en pop-up) est l'espace de jeu principal, et doit reprendre le même style premium que la première :
+
+Design noble et raffiné (matériaux luxueux, touches dorées)
+
+Arrière-plan mystique
+
+Animations subtiles, ombrages doux
+
+Feedback visuels et sonores "haut de gamme"
+
+Responsive et moderne
+
+✅ À inclure dans cette interface de jeu :
+🔷 En-tête (header) :
+Un titre principal ("Devine le Webtoon")
+
+Une croix de fermeture à droite
+
+La difficulté sélectionnée (ex : "Facile", "Moyen", etc.)
+
+🔷 Scoreboard :
+Barre de progression (représentant l’avancée sur 10 questions)
+
+Un texte dynamique de type : "Question 3/10"
+
+Un winstreak indicator avec un émoji 🔥 suivi de : "Streak : x3"
+
+🔷 Corps du jeu :
+Une image mystère (représentant le Webtoon à deviner)
+
+Une liste de choix (QCM) sous forme de boutons ou éléments interactifs
+
+Un bouton "Valider" en bas
+
+🔷 Feedback joueur :
+Message animé :
+
+Bonne réponse → "🎉 Bonne réponse !"
+
+Mauvaise réponse → "❌ Ce n’est pas ça..."
+
+Petites animations du fond ou de l’élément (ex : vibration en cas d’erreur)
+
+Effets sonores pour les réponses correctes / incorrectes
+
+🏁 Écran final après 10 questions :
+Résumé des résultats :
+
+Nombre de Webtoons devinés vs ratés
+
+Record de winstreak pendant cette partie
+
+Message de fin personnalisé :
+
+10/10 à 6/10 → Félicitations ("Tu es un maître des Webtoons !")
+
+5/10 → Message neutre
+
+4/10 à 1/10 → Message de déception douce
+
+0/10 → Message de grosse déception (humoristique ou piquant)
+
+Mascotte aléatoire selon le score (choisie parmi 4 catégories)
+
+Boutons :
+
+"Rejouer"
+
+"Partager mon score"
+
+📦 Bonus :
+L’ensemble doit rester cohérent avec la pop-up initiale, mais s’adapter à ce nouveau contexte interactif de quiz. Les transitions doivent être douces, élégantes, premium.
+
+🎨 Tu peux te laisser une part de créativité pour améliorer l'interface ou l'expérience si certaines idées te viennent.
+
+⚙️ Enfin, ce prompt concerne uniquement la partie design et affichage (HTML/CSS/JS côté front). La logique de gestion des données (comme le JSON des questions, le système de validation, ou le compteur de réponses) sera intégrée plus tard : tu peux donc utiliser des placeholders ({{question}}, {{choices}}, etc.) sans problème.
+
+Et enfin, après avoir écrit ton prompt, j'aimerais te poser une question : là ce que ce prompt va faire, c'est éssentiellement s'occuper de l'affichage, cet aspect design. Mais il faut qu'il y ait un système pour gérer le json, etc...Je veux juste savoir si cela posera problème lors de la création de l'affichage ?
+
+
+
+
+- Prendre le json correspondant à la catégorie, et pour les autres réponses "fausses". Pour la réponse "bonne", il faudra utiliser le chemin du nom du fichier, qui comprend directement le nom du webtoon.
+- Ma méthode est-elle bonne, ou y a t il une méthode plus simple et efficace ?
+
+AUTRE :
+- faire une catégorie "eyes" et "personnage flouté ou couverture floutée"
 */
