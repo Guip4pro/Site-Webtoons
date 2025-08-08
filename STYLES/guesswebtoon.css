@@ -340,13 +340,73 @@
     margin-left: 0.3rem;
 }
 
+
 /* 7) Image mystère */
 .gtw-question-image {
     width: 14rem;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     margin-bottom: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s;
 }
+.gtw-question-image:hover {
+    transform: scale(1.05);
+}
+
+/* Modal */
+.gtw-image-modal {
+    display: none; /* caché par défaut */
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Image agrandie */
+.gtw-modal-content {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 8px;
+    margin-top: 5%;
+}
+
+/* Bouton fermer */
+.gtw-close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Zone boutons dans le modal */
+.gtw-modal-buttons {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Bouton upload */
+.gtw-upload-btn {
+    display: inline-block;
+    background: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.gtw-upload-btn:hover {
+    background: #45a049;
+}
+
 
 /* 8) Choix QCM */
 .gtw-choices {

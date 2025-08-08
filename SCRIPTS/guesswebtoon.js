@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function startGuessTheWebtoonGame(difficulty = 'facile') {
     // Normalise difficulty & chemin vers le json
     const diffKey = String(difficulty).toLowerCase();
-    const filePath = `/RESSOURCES/json-guessthewebtoon/cover-${diffKey}.json`;
+    const filePath = `../RESSOURCES/json-guessthewebtoon/cover-${diffKey}.json`;
 
     // Si pop-up déjà ouverte, on ne recrée pas (tu peux forcer un restart en fermant d'abord)
     if (document.querySelector('.gtw-overlay-game')) {
@@ -291,8 +291,48 @@ document.addEventListener('DOMContentLoaded', () => {
     // Image mystère
     const img = document.createElement('img');
     img.className = 'gtw-question-image';
+    img.id = 'gtw-image';
     img.alt = 'Image mystère';
     popup.appendChild(img);
+
+    // IMAGE CLIQUABLE
+    const modal = document.getElementById("gtw-image-modal");
+    const modalImg = document.getElementById("gtw-modal-img");
+    const closeBtn = document.querySelector(".gtw-close");
+    const uploadInput = document.getElementById("gtw-upload");
+
+    // Ouvrir le modal
+    img.onclick = function() {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+    };
+
+    // Fermer le modal
+    closeBtn.onclick = function() {
+        modal.style.display = "none";
+    };
+
+    // Fermer si on clique en dehors de l'image
+    modal.onclick = function(e) {
+        if (e.target === modal) {
+            modal.style.display = "none";
+        }
+    };
+
+    // Changer l'image avec upload
+    uploadInput.addEventListener("change", function(e) {
+        const file = e.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function(evt) {
+                img.src = evt.target.result;
+                modalImg.src = evt.target.result;
+            };
+            reader.readAsDataURL(file);
+        }
+    });
+
+
 
     // Conteneur choix
     const choicesContainer = document.createElement('div');
@@ -499,16 +539,17 @@ document.addEventListener('DOMContentLoaded', () => {
     loadNextQuestion();
     } // end startGuessTheWebtoonGame
 
-
 });
+
+
 
 
 
 /*
 prochaines étapes :
 - Permettre de cliquer sur l'image pour l'agrandir, avec un bouton croix pour fermer l'image et un autre pour upload l'image.
-- Peut-être mettre les propositions sur 2 lignes. 2 par 2
 - Augmenter la taille de l'image sur les petits écrans
+- Mettre une image pour "partager"
 - Trouver une icône pour mon site Guillaume Marolleau "Tous mes projets"
 - Son : quand le joueur clique sur une catégorie, et quand il clique sur "JOUER"
 - Régler,problème de clé API visible.
