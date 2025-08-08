@@ -550,7 +550,8 @@ prochaines étapes :
 - Augmenter la taille de l'image sur les petits écrans
 - Mettre une image pour "partager"
 - Modif images "The Boxer", "The Greatest Estate Developper", "Sweet Home" crop bas
-- Trouver une icône pour mon site Guillaume Marolleau "Tous mes projets"
+- Modifier mes messages quand j'ai trouvé ou non le bon titre, pour qu'il s'affiche centré au milieu de ma pop-up, avec une animation d'entrée et de sortie type "machine à écrire" (et qui aura donc aussi une animation de sortie type machine à écrire)
+- Trouver une icône pour mon site Guillaume Marolleau "Tous mes projets" ainsi qu'une deuxième pour ma partie "mini-jeux" de mon site de webtoon
 - Son : quand le joueur clique sur une catégorie, et quand il clique sur "JOUER"
 - Régler,problème de clé API visible.
 

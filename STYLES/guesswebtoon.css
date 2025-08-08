@@ -164,7 +164,7 @@
 }
 
 .gtw-header .gtw-close {
-    font-size: 1.5rem;
+    font-size: 3rem;
     cursor: pointer;
     color: #888;
     transition: color 0.3s ease;
@@ -361,6 +361,7 @@
     z-index: 4;
     left: 0;
     top: 0;
+    bottom: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.8);
@@ -383,7 +384,7 @@
     top: 20px;
     right: 20px;
     color: #fff;
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight: bold;
     cursor: pointer;
 }
@@ -391,14 +392,14 @@
 /* Bouton upload icône */
 .gtw-upload-btn {
     position: absolute;
-    top: 1.6rem;
-    right: 4rem; /* pour le mettre à gauche de la croix */
+    top: 2.15rem;
+    right: 5rem; /* pour le mettre à gauche de la croix */
     cursor: pointer;
     color: white;   /* Pour le titre alternatif */
 }
 
 .gtw-upload-btn img {
-    width: 1.3rem;
+    width: 2rem;
     height: auto;
     display: block;
 }
@@ -463,6 +464,26 @@
 .gtw-validate:hover {
     background: #2ecc71;
 }
+
+
+
+
+@media (max-width: 600px) {
+    .gtw-question-image {
+        margin-bottom: 20px; /* espace sous l'image pour éviter pb de responsive avec le navigateur */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
