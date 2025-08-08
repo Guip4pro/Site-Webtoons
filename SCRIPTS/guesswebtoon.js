@@ -338,6 +338,7 @@ document.addEventListener('DOMContentLoaded', () => {
 prochaines étapes :
 - Pb qu'une seule image et qcm
 - Permettre de cliquer sur l'image pour l'agrandir, avec un bouton croix pour fermer l'image et un autre pour upload l'image.
+- Peut-être mettre les propositions sur 2 lignes. 2 par 2
 - Augmenter la taille de l'image sur les petits écrans
 - Trouver une icône pour mon site Guillaume Marolleau "Tous mes projets"
 - Son : quand le joueur clique sur une catégorie, et quand il clique sur "JOUER"
