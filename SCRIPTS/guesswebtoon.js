@@ -547,9 +547,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /*
 prochaines étapes :
-- Permettre de cliquer sur l'image pour l'agrandir, avec un bouton croix pour fermer l'image et un autre pour upload l'image.
 - Augmenter la taille de l'image sur les petits écrans
 - Mettre une image pour "partager"
+- Modif images "The Boxer", "The Greatest Estate Developper", "Sweet Home" crop bas
 - Trouver une icône pour mon site Guillaume Marolleau "Tous mes projets"
 - Son : quand le joueur clique sur une catégorie, et quand il clique sur "JOUER"
 - Régler,problème de clé API visible.
@@ -558,7 +558,7 @@ prochaines étapes :
 Faire un toggle pour l'apparition de l'entièreté du jeu "Guess The Webtoon"
 
 Autour du plateau de jeu :
-- Prendre une mascotte (préférence barbare Bjorn fisl de Yandel), et déterminer en image à l'aide de l'IA ses différentes expressions
+- Prendre une mascotte (préférence barbare Bjorn fils de Yandel), et déterminer en image à l'aide de l'IA ses différentes expressions
 - Motifs autour du plateau (bulles, effets de papier, cadres illustrés)
 
 
