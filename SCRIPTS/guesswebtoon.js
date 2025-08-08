@@ -182,10 +182,10 @@ document.addEventListener('DOMContentLoaded', () => {
     async function startGuessTheWebtoonGame(difficulty) {
         try {
             // Charger le JSON correspondant à la difficulté
-            const filePath = `../RESSOURCES/json-guessthewebtoon/cover-${difficulty}.json`;
+            const filePath = `../RESSOURCES/json-guessthewebtoon/cover-${difficulty.toLowerCase()}.json`;
             const response = await fetch(filePath);
             if (!response.ok) {
-            throw new Error(`Erreur HTTP : ${response.status} - ${response.statusText}`);
+            throw new Error(`Erreur HTTP : ${response.status} - ${response.statusText}. En gros mon fichier est introuvable, sûrement à cause d'un mauvais lien`);
             }
             const data = await response.json();
 
@@ -339,6 +339,7 @@ prochaines étapes :
 - Pb qu'une seule image et qcm
 - Permettre de cliquer sur l'image pour l'agrandir, avec un bouton croix pour fermer l'image et un autre pour upload l'image.
 - Augmenter la taille de l'image sur les petits écrans
+- Trouver une icône pour mon site Guillaume Marolleau "Tous mes projets"
 - Son : quand le joueur clique sur une catégorie, et quand il clique sur "JOUER"
 - Régler,problème de clé API visible.
 
