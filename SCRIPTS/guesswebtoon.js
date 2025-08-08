@@ -271,48 +271,51 @@ document.addEventListener('DOMContentLoaded', () => {
             choicesContainer.className = 'gtw-choices';
             popup.appendChild(choicesContainer);
 
-            let selectedBtn = null;
+            const feedback = document.createElement('div');
+            feedback.className = 'gtw-feedback';
+            popup.appendChild(feedback);
+
+            let answered = false; // pour bloquer plusieurs réponses par question
+
             allOptions.forEach(option => {
                 const btn = document.createElement('button');
                 btn.className = 'gtw-choice';
                 btn.textContent = formatTitle(option.name);
                 btn.addEventListener('click', () => {
-                    if (selectedBtn) selectedBtn.classList.remove('selected');
-                    btn.classList.add('selected');
-                    selectedBtn = btn;
+                    if (answered) return; // ignore si déjà répondu
+                    answered = true;
+
+                    const isCorrect = btn.textContent.toLowerCase() === formatTitle(gameData.correctName).toLowerCase();
+                    
+                    feedback.textContent = isCorrect ? '🎉 Bonne réponse !' : '❌ Ce n’est pas ça...';
+                    feedback.classList.add('show');
+
+                    // Optionnel : ajoute une classe pour couleur/vibration selon correct ou pas
+                    btn.classList.add(isCorrect ? 'correct' : 'incorrect');
+
+                    // Mise à jour du jeu
+                    gameData.current++;
+                    gameData.streak = isCorrect ? gameData.streak + 1 : 0;
+
+                    // Mise à jour scoreboard
+                    board.querySelector('.gtw-info').textContent = 
+                        `Question ${Math.min(gameData.current, gameData.total)}/${gameData.total}`;
+                    board.querySelector('.gtw-progress-bar').style.width =
+                        `${((gameData.current - 1) / gameData.total) * 100}%`;
+
+                    // Après délai, préparer la question suivante (ou fin du jeu)
+                    setTimeout(() => {
+                        feedback.classList.remove('show');
+                        btn.classList.remove('correct', 'incorrect');
+                        answered = false;
+                        // Ici tu peux rappeler ta fonction de chargement de question pour continuer
+                        // Exemple : startGuessTheWebtoonGame(gameData.difficulty);
+                        // Ou afficher écran final si current > total
+                    }, 1500);
                 });
                 choicesContainer.appendChild(btn);
             });
 
-            // === 8) Feedback ===
-            const feedback = document.createElement('div');
-            feedback.className = 'gtw-feedback';
-            popup.appendChild(feedback);
-
-            // === 9) Bouton valider ===
-            const validate = document.createElement('button');
-            validate.className = 'gtw-validate';
-            validate.textContent = 'Valider';
-            popup.appendChild(validate);
-
-            validate.addEventListener('click', () => {
-                if (!selectedBtn) return;
-
-                const isCorrect = selectedBtn.textContent.toLowerCase() === formatTitle(gameData.correctName).toLowerCase();
-                feedback.textContent = isCorrect ? '🎉 Bonne réponse !' : '❌ Ce n’est pas ça...';
-                feedback.classList.add('show');
-                setTimeout(() => feedback.classList.remove('show'), 1500);
-
-                // Mise à jour du jeu
-                gameData.current++;
-                gameData.streak = isCorrect ? gameData.streak + 1 : 0;
-
-                // Mise à jour scoreboard
-                board.querySelector('.gtw-info').textContent = 
-                    `Question ${Math.min(gameData.current, gameData.total)}/${gameData.total}`;
-                board.querySelector('.gtw-progress-bar').style.width =
-                    `${((gameData.current - 1) / gameData.total) * 100}%`;
-            });
 
             // === 10) Apparition animée ===
             setTimeout(() => popup.classList.add('gtw-visible'), 10);
@@ -329,9 +332,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /*
 prochaines étapes :
-- Enlever valider, et faire en sorte que lorsque l'utilisateur clique sur l'une des 4 propositions, cela compte comme la réponse choisie
-- Permettre de cliquer sur l'image
+- Pb qu'une seule image et qcm
+- Permettre de cliquer sur l'image pour l'agrandir, avec un bouton croix pour fermer l'image et un autre pour upload l'image.
+- Augmenter la taille de l'image sur les petits écrans
 - Son : quand le joueur clique sur une catégorie, et quand il clique sur "JOUER"
+- Régler,problème de clé API visible.
 
 
 Faire un toggle pour l'apparition de l'entièreté du jeu "Guess The Webtoon"
