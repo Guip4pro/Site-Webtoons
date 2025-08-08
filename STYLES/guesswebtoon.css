@@ -176,6 +176,8 @@
 }
 
 
+
+
 /* Affichage de la difficulté */
 .gtw-difficulty {
     background: linear-gradient(to right, #f5f5f5, #fafafa);
@@ -188,10 +190,10 @@
     box-shadow: inset 0 0 5px rgba(255, 215, 0, 0.5);
 }
 
-.gtw-difficulty.gtw-facile { border-color: #4caf50; }
-.gtw-difficulty.gtw-moyen { border-color: #ffc107; }
+.gtw-difficulty.gtw-facile    { border-color: #4caf50; }
+.gtw-difficulty.gtw-moyen     { border-color: #ffc107; }
 .gtw-difficulty.gtw-difficile { border-color: #f44336; }
-.gtw-difficulty.gtw-enfer { border-color: #1e1a1a; }
+.gtw-difficulty.gtw-enfer     { border-color: #1e1a1a; }
 
 
 /* Bloc de consignes */
@@ -263,6 +265,148 @@
 }
 
 
+/* SECONDE POP-UP */
+
+/* 1) Overlay central */
+.gtw-overlay-game {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+/* 2) Container principal */
+.gtw-popup-game {
+    background: linear-gradient(to bottom right, #ffffff, #f9f9f9);
+    border: 3px solid gold;
+    border-radius: 20px;
+    padding: 2rem;
+    max-width: 480px;
+    width: 90%;
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.6),
+                0 0 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: all 0.4s ease;
+    font-family: 'Segoe UI', sans-serif;
+    position: relative;
+}
+
+/* 3) Animation d’apparition */
+.gtw-popup-game.gtw-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 6) Scoreboard */
+.gtw-scoreboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.gtw-progress {
+    flex: 1;
+    height: 8px;
+    background: #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 0.5rem;
+}
+
+.gtw-progress-bar {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(to right, #f1c40f, #e67e22);
+    transition: width 0.3s ease;
+}
+
+.gtw-info {
+    font-size: 0.9rem;
+}
+
+.gtw-streak {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.gtw-streak span {
+    margin-left: 0.3rem;
+}
+
+/* 7) Image mystère */
+.gtw-question-image {
+    width: 10vw;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+
+/* 8) Choix QCM */
+.gtw-choices {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+    }
+
+.gtw-choice {
+    padding: 0.8rem;
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.gtw-choice:hover {
+    background: #f0e6d6;
+    border-color: gold;
+}
+
+/* mettre en avant le choix sélectionné */
+.gtw-choice.selected {
+    border-color: #4caf50;
+}
+
+/* 9) Feedback */
+.gtw-feedback {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gtw-feedback.show {
+    opacity: 1;
+}
+
+/* 10) Bouton Valider */
+.gtw-validate {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    background: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.gtw-validate:hover {
+    background: #2ecc71;
+}
+
+
 
 /*
 
@@ -280,4 +424,140 @@ Animations subtiles : Rotation 3D, effets de brillance, pulsations dorées
 Couleurs premium : Or, bronze, et dégradés métalliques
 Feedback premium : Notifications avec bordures colorées
 
+_______________________________________________________________________________________________
+
+Tu devras écrire ton code javascript à partir de cette fonction :
+    function startGuessTheWebtoonGame() {
+    // Le vrai jeu de la seconde pop-up
+    }
+});
+
+Je souhaite créer la seconde page d'un jeu en ligne appelé "Devine le Webtoon", qui s'affiche après que l'utilisateur ait cliqué sur le bouton "JOUER" dans une première pop-up d'introduction.
+
+Cette nouvelle page (toujours en pop-up) est l'espace de jeu principal, et doit reprendre le même style premium que la première :
+
+Design noble et raffiné (matériaux luxueux, touches dorées)
+
+Arrière-plan mystique
+
+Animations subtiles, ombrages doux
+
+Feedback visuels et sonores "haut de gamme"
+
+Responsive et moderne
+
+✅ À inclure dans cette interface de jeu :
+🔷 En-tête (header) :
+Un titre principal ("Devine le Webtoon")
+
+Une croix de fermeture à droite
+
+La difficulté sélectionnée (ex : "Facile", "Moyen", etc.)
+
+J'ai déjà écrit le css pour cela, tu as juste à le reprendre et à le réutiliser dans ton js :
+
+.gtw-header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.gtw-header h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    pointer-events: none;
+}
+
+.gtw-header .gtw-close {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #888;
+    transition: color 0.3s ease;
+    margin-left: auto;
+}
+
+.gtw-header .gtw-close:hover {
+    color: crimson;
+}
+
+
+Affichage de la difficulté
+.gtw-difficulty {
+    background: linear-gradient(to right, #f5f5f5, #fafafa);
+    padding: 0.6rem 1rem;
+    border-left: 5px solid gold;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #444;
+    box-shadow: inset 0 0 5px rgba(255, 215, 0, 0.5);
+}
+
+.gtw-difficulty.gtw-facile { border-color: #4caf50; }
+.gtw-difficulty.gtw-moyen { border-color: #ffc107; }
+.gtw-difficulty.gtw-difficile { border-color: #f44336; }
+.gtw-difficulty.gtw-enfer { border-color: #1e1a1a; }
+
+
+🔷 Scoreboard :
+Barre de progression (représentant l’avancée sur 10 questions)
+
+Un texte dynamique de type : "Question 3/10"
+
+Un winstreak indicator avec un émoji 🔥 suivi de : "Streak : x3". Cela correspond au nombre de fois d'affilée où le joueur a répondu juste
+
+🔷 Corps du jeu :
+Une image mystère (représentant le Webtoon à deviner)
+
+Une liste de choix (QCM) sous forme de boutons ou éléments interactifs. Dès que le joueur appuie sur le bouton, cela compte comme une réponse validée
+
+🔷 Feedback joueur :
+Message animé :
+
+Bonne réponse → "🎉 Bonne réponse !"
+
+Mauvaise réponse → "❌ Ce n’est pas ça..."
+
+Petites animations du fond ou de l’élément (ex : vibration en cas d’erreur)
+
+Effets sonores pour les réponses correctes / incorrectes
+
+🏁 Écran final après 10 questions :
+Résumé des résultats :
+
+Nombre de Webtoons devinés vs ratés
+
+Record de winstreak pendant cette partie
+
+Message de fin personnalisé :
+
+10/10 à 6/10 → Félicitations ("Tu es un maître des Webtoons !")
+
+5/10 → Message neutre
+
+4/10 à 1/10 → Message de déception douce
+
+0/10 → Message de grosse déception (humoristique ou piquant)
+
+Mascotte aléatoire selon le score (choisie parmi 4 catégories)
+
+Boutons :
+
+"Rejouer"
+
+"Partager mon score"
+
+📦 Bonus :
+L’ensemble doit rester cohérent avec la pop-up initiale, mais s’adapter à ce nouveau contexte interactif de quiz. Les transitions doivent être douces, élégantes, premium. Le tout responsive
+
+🎨 Tu peux te laisser une part de créativité pour améliorer l'interface ou l'expérience si certaines idées te viennent.
+
+⚙️ Enfin, ce prompt concerne uniquement la partie design et affichage (HTML/CSS/JS côté front). La logique de gestion des données (comme le JSON des questions, le système de validation, ou le compteur de réponses) sera intégrée plus tard : tu peux donc utiliser des placeholders ({{question}}, {{choices}}, etc.) sans problème.
 */
