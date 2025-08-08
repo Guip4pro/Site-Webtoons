@@ -189,7 +189,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             const data = await response.json();
 
-
             if (data.length < 4) {
                 console.error("Pas assez de données pour cette catégorie");
                 return;
@@ -266,7 +265,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const img = document.createElement('img');
             img.className = 'gtw-question-image';
             // Si ton JSON a juste un nom de fichier → adapte ici le chemin
-            img.src = '/' + correctItem.image.replace(/^\/+/, '');
+            img.src = '../' + correctItem.image.replace(/^\/+/, '');
             img.alt = formatTitle(correctItem.name);
             popup.appendChild(img);
 
