@@ -184,7 +184,11 @@ document.addEventListener('DOMContentLoaded', () => {
             // Charger le JSON correspondant à la difficulté
             const filePath = `../RESSOURCES/json-guessthewebtoon/cover-${difficulty}.json`;
             const response = await fetch(filePath);
+            if (!response.ok) {
+            throw new Error(`Erreur HTTP : ${response.status} - ${response.statusText}`);
+            }
             const data = await response.json();
+
 
             if (data.length < 4) {
                 console.error("Pas assez de données pour cette catégorie");
