@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!imgPath) return '';
     imgPath = String(imgPath).replace(/^\/+/, ''); // retire slash de début
     if (imgPath.startsWith('http')) return imgPath;
-    return '/' + imgPath; // chemin absolu à partir de la racine du site
+    return '../' + imgPath; // chemin absolu à partir de la racine du site
     }
 
     /* ---------------------------
@@ -298,7 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // IMAGE CLIQUABLE
     const modal = document.getElementById("gtw-image-modal");
     const modalImg = document.getElementById("gtw-modal-img");
-    const closeBtn = document.querySelector(".gtw-close");
+    const closeBtn = document.querySelector(".gtw-close-modal");
     const uploadInput = document.getElementById("gtw-upload");
 
     // Ouvrir le modal
