@@ -284,7 +284,7 @@
     background: linear-gradient(to bottom right, #ffffff, #f9f9f9);
     border: 3px solid gold;
     border-radius: 20px;
-    padding: 2rem;
+    padding: 1.5rem;
     max-width: 480px;
     width: 90%;
     box-shadow: 0 0 25px rgba(255, 215, 0, 0.6),
@@ -342,7 +342,7 @@
 
 /* 7) Image mystère */
 .gtw-question-image {
-    width: 12vw;
+    width: 14rem;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     margin-bottom: 1rem;
@@ -350,11 +350,11 @@
 
 /* 8) Choix QCM */
 .gtw-choices {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
     gap: 0.6rem;
     margin-bottom: 1rem;
-    }
+}
 
 .gtw-choice {
     padding: 0.8rem;
@@ -363,6 +363,7 @@
     border-radius: 8px;
     cursor: pointer;
     transition: background 0.2s, border-color 0.2s;
+    text-align: center; /* centrer le texte */
 }
 
 .gtw-choice:hover {

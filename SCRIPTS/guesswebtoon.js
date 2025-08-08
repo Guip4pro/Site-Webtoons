@@ -172,161 +172,332 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-    // Fonction utilitaire pour formater les titres
+    // Fonction pour formater les titres
     function formatTitle(str) {
-        return str
-            .replace(/-/g, ' ')                 // Remplace tirets par espaces
-            .replace(/\b\w/g, l => l.toUpperCase()); // Met première lettre de chaque mot en majuscule
+    if (!str) return '';
+    return str
+        .replace(/-/g, ' ') // Remplacement les tirets par des espaces
+        .replace(/\b\w/g, l => l.toUpperCase());    // Met première lettre de chaque mot en majuscule
     }
 
-    async function startGuessTheWebtoonGame(difficulty) {
-        try {
-            // Charger le JSON correspondant à la difficulté
-            const filePath = `../RESSOURCES/json-guessthewebtoon/cover-${difficulty.toLowerCase()}.json`;
-            const response = await fetch(filePath);
-            if (!response.ok) {
-            throw new Error(`Erreur HTTP : ${response.status} - ${response.statusText}. En gros mon fichier est introuvable, sûrement à cause d'un mauvais lien`);
+
+    /* ---------------------------
+    UTILITAIRE : résout le chemin d'image
+    - Si le chemin commence par http ou / : on l'utilise tel quel
+    - Sinon on le transforme en chemin à partir de la racine : "/RESSOURCES/..."
+    (tu peux adapter selon ta structure serveur si besoin)
+    --------------------------- */
+    function resolveImagePath(imgPath) {
+    if (!imgPath) return '';
+    imgPath = String(imgPath).replace(/^\/+/, ''); // retire slash de début
+    if (imgPath.startsWith('http')) return imgPath;
+    return '/' + imgPath; // chemin absolu à partir de la racine du site
+    }
+
+    /* ---------------------------
+    Fonction principale : démarre / instancie le jeu
+    - charge le JSON (une fois)
+    - crée l'UI (une seule fois)
+    - gère l'enchaînement des questions
+    --------------------------- */
+    async function startGuessTheWebtoonGame(difficulty = 'facile') {
+    // Normalise difficulty & chemin vers le json
+    const diffKey = String(difficulty).toLowerCase();
+    const filePath = `/RESSOURCES/json-guessthewebtoon/cover-${diffKey}.json`;
+
+    // Si pop-up déjà ouverte, on ne recrée pas (tu peux forcer un restart en fermant d'abord)
+    if (document.querySelector('.gtw-overlay-game')) {
+        console.warn('Le jeu est déjà en cours.');
+        return;
+    }
+
+    // Chargement JSON (une seule fois)
+    let data;
+    try {
+        const res = await fetch(filePath);
+        if (!res.ok) throw new Error(`Erreur HTTP ${res.status} - ${res.statusText}`);
+        data = await res.json();
+    } catch (err) {
+        console.error('Erreur de chargement du JSON :', err);
+        alert("Impossible de charger les questions pour cette catégorie. Vérifie le chemin du JSON.");
+        return;
+    }
+
+    if (!Array.isArray(data) || data.length < 1) {
+        console.error('JSON vide ou mal formé');
+        alert('Pas de données disponibles pour cette catégorie.');
+        return;
+    }
+
+    /* ---------------------------
+        ÉTAT DU JEU (persistant pendant la pop-up)
+        - data: tableau chargé
+        - remaining: indices encore non utilisés (pour éviter doublons)
+        - total: nombre de questions dans la partie (max 10 ou moins si pas assez d'items)
+        - current: index de progression (1-based)
+        - streak & maxStreak
+        --------------------------- */
+    const gameState = {
+        difficulty: diffKey,
+        data: data, // tableau d'objets { name, image, ... }
+        remaining: Array.from({ length: data.length }, (_, i) => i),
+        total: Math.min(10, data.length),
+        current: 1,
+        streak: 0,
+        maxStreak: 0,
+        answered: false // flag local par question
+    };
+
+    /* ---------------------------
+        Création de l'UI de la pop-up (une seule fois)
+        --------------------------- */
+    const overlay = document.createElement('div');
+    overlay.className = 'gtw-overlay-game';
+
+    const popup = document.createElement('div');
+    popup.className = 'gtw-popup-game';
+
+    // Header
+    const header = document.createElement('div');
+    header.className = 'gtw-header';
+    header.innerHTML = `
+        <h2>Devine le Webtoon</h2>
+        <span class="gtw-close" title="Fermer">&times;</span>
+    `;
+    popup.appendChild(header);
+
+    // Fermeture
+    header.querySelector('.gtw-close').addEventListener('click', () => {
+        document.body.removeChild(overlay);
+        // Nettoyage (si besoin)
+    });
+
+    // Difficulty display
+    const diffBox = document.createElement('div');
+    diffBox.className = `gtw-difficulty gtw-${gameState.difficulty}`;
+    diffBox.textContent = `Difficulté : ${formatTitle(gameState.difficulty)}`;
+    popup.appendChild(diffBox);
+
+    // Scoreboard
+    const board = document.createElement('div');
+    board.className = 'gtw-scoreboard';
+    board.innerHTML = `
+        <div class="gtw-progress"><div class="gtw-progress-bar" style="width:0%"></div></div>
+        <div class="gtw-info">Question 1/${gameState.total}</div>
+        <div class="gtw-streak">🔥 Streak : <span>0</span></div>
+    `;
+    popup.appendChild(board);
+
+    // Image mystère
+    const img = document.createElement('img');
+    img.className = 'gtw-question-image';
+    img.alt = 'Image mystère';
+    popup.appendChild(img);
+
+    // Conteneur choix
+    const choicesContainer = document.createElement('div');
+    choicesContainer.className = 'gtw-choices';
+    popup.appendChild(choicesContainer);
+
+    // Feedback
+    const feedback = document.createElement('div');
+    feedback.className = 'gtw-feedback';
+    popup.appendChild(feedback);
+
+    // Ecran final (cache par défaut)
+    const endScreen = document.createElement('div');
+    endScreen.className = 'gtw-endscreen';
+    endScreen.style.display = 'none';
+    endScreen.innerHTML = `
+        <h3>Partie terminée</h3>
+        <div class="gtw-results"></div>
+        <div style="margin-top:12px;">
+        <button class="gtw-replay">Rejouer</button>
+        <button class="gtw-share">Partager</button>
+        </div>
+    `;
+    popup.appendChild(endScreen);
+
+    // Ajout à la page
+    overlay.appendChild(popup);
+    document.body.appendChild(overlay);
+
+    // Animation d'apparition (si css attend .gtw-visible)
+    setTimeout(() => popup.classList.add('gtw-visible'), 10);
+
+    /* ---------------------------
+        Fonctions internes : choisir et afficher une question
+        --------------------------- */
+
+    // Sélectionne aléatoirement un index dans gameState.remaining et le retire (évite doublons)
+    function popRandomIndex() {
+        const r = gameState.remaining;
+        const randomPos = Math.floor(Math.random() * r.length);
+        const index = r.splice(randomPos, 1)[0];
+        return index;
+    }
+
+    // Affiche une question à partir de l'item correct et des options
+    function displayQuestion(correctItem, optionItems) {
+        // Image
+        img.src = resolveImagePath(correctItem.image);
+        img.alt = formatTitle(correctItem.name);
+
+        // Reset feedback, options
+        feedback.classList.remove('show');
+        feedback.textContent = '';
+        choicesContainer.innerHTML = '';
+        gameState.answered = false;
+
+        // Créer boutons options
+        optionItems.forEach(opt => {
+        const btn = document.createElement('button');
+        btn.className = 'gtw-choice';
+        btn.textContent = formatTitle(opt.name);
+        btn.disabled = false;
+
+        btn.addEventListener('click', () => {
+            if (gameState.answered) return;
+            gameState.answered = true;
+
+            const isCorrect = String(opt.name).toLowerCase() === String(correctItem.name).toLowerCase();
+
+            // Visuel / feedback
+            feedback.textContent = isCorrect ? '🎉 Bonne réponse !' : '❌ Ce n’est pas ça...';
+            feedback.classList.add('show');
+
+            // update streaks
+            if (isCorrect) {
+            gameState.streak++;
+            gameState.maxStreak = Math.max(gameState.maxStreak, gameState.streak);
+            btn.classList.add('correct');
+            } else {
+            gameState.streak = 0;
+            btn.classList.add('incorrect');
+            // petite vibration si dispo
+            if (navigator.vibrate) navigator.vibrate(100);
             }
-            const data = await response.json();
 
-            if (data.length < 4) {
-                console.error("Pas assez de données pour cette catégorie");
-                return;
-            }
+            // update scoreboard values
+            const infoEl = board.querySelector('.gtw-info');
+            const barEl = board.querySelector('.gtw-progress-bar');
+            const streakSpan = board.querySelector('.gtw-streak span');
 
-            // Sélection aléatoire de la bonne réponse
-            const correctIndex = Math.floor(Math.random() * data.length);
-            const correctItem = data[correctIndex];
+            // on incrémente current (on affiche la prochaine question index)
+            gameState.current++;
+            infoEl.textContent = `Question ${Math.min(gameState.current, gameState.total)}/${gameState.total}`;
+            barEl.style.width = `${((gameState.current - 1) / gameState.total) * 100}%`;
+            streakSpan.textContent = gameState.streak;
 
-            // Sélection aléatoire des mauvaises réponses
-            const wrongItems = data
-                .filter((_, i) => i !== correctIndex)
-                .sort(() => 0.5 - Math.random())
-                .slice(0, 3);
+            // désactiver tous les boutons pour éviter spam
+            choicesContainer.querySelectorAll('.gtw-choice').forEach(b => b.disabled = true);
 
-            // Mélanger toutes les réponses
-            const allOptions = [...wrongItems, correctItem].sort(() => 0.5 - Math.random());
-
-            // Si la pop-up est déjà ouverte, on ne la recrée pas
-            if (document.querySelector('.gtw-overlay-game')) return;
-
-            // === Données de jeu ===
-            const gameData = {
-                difficulty: difficulty,
-                current: 1,
-                total: 10,
-                streak: 0,
-                correctName: correctItem.name
-            };
-
-            // === 1) Overlay ===
-            const overlay = document.createElement('div');
-            overlay.className = 'gtw-overlay-game';
-            document.body.appendChild(overlay);
-
-            // === 2) Pop-up ===
-            const popup = document.createElement('div');
-            popup.className = 'gtw-popup-game';
-            overlay.appendChild(popup);
-
-            // === 3) Header ===
-            const header = document.createElement('div');
-            header.className = 'gtw-header';
-            header.innerHTML = `
-                <h2>Devine le Webtoon</h2>
-                <span class="gtw-close">&times;</span>
-            `;
-            popup.appendChild(header);
-            header.querySelector('.gtw-close')
-                .addEventListener('click', () => document.body.removeChild(overlay));
-
-            // === 4) Difficulté ===
-            const diff = document.createElement('div');
-            diff.className = `gtw-difficulty gtw-${gameData.difficulty.toLowerCase()}`;
-            diff.textContent = `Difficulté : ${gameData.difficulty}`;
-            popup.appendChild(diff);
-
-            // === 5) Scoreboard ===
-            const board = document.createElement('div');
-            board.className = 'gtw-scoreboard';
-            board.innerHTML = `
-                <div class="gtw-progress">
-                    <div class="gtw-progress-bar" style="width:0%"></div>
-                </div>
-                <div class="gtw-info">Question ${gameData.current}/${gameData.total}</div>
-                <div class="gtw-streak">🔥 Streak : <span>${gameData.streak}</span></div>
-            `;
-            popup.appendChild(board);
-
-            // === 6) Image mystère ===
-            // Déterminer le chemin en fonction du JSON utilisé
-            const jsonFileName = filePath.split('/').pop().replace('.json', '');
-            const selectedCategoryPath = jsonFileName.replace('-', '/').toLowerCase();
-            const img = document.createElement('img');
-            img.className = 'gtw-question-image';
-            // Si ton JSON a juste un nom de fichier → adapte ici le chemin
-            img.src = '../' + correctItem.image.replace(/^\/+/, '');
-            img.alt = formatTitle(correctItem.name);
-            popup.appendChild(img);
-
-            // === 7) Choix QCM ===
-            const choicesContainer = document.createElement('div');
-            choicesContainer.className = 'gtw-choices';
-            popup.appendChild(choicesContainer);
-
-            const feedback = document.createElement('div');
-            feedback.className = 'gtw-feedback';
-            popup.appendChild(feedback);
-
-            let answered = false; // pour bloquer plusieurs réponses par question
-
-            allOptions.forEach(option => {
-                const btn = document.createElement('button');
-                btn.className = 'gtw-choice';
-                btn.textContent = formatTitle(option.name);
-                btn.addEventListener('click', () => {
-                    if (answered) return; // ignore si déjà répondu
-                    answered = true;
-
-                    const isCorrect = btn.textContent.toLowerCase() === formatTitle(gameData.correctName).toLowerCase();
-                    
-                    feedback.textContent = isCorrect ? '🎉 Bonne réponse !' : '❌ Ce n’est pas ça...';
-                    feedback.classList.add('show');
-
-                    // Optionnel : ajoute une classe pour couleur/vibration selon correct ou pas
-                    btn.classList.add(isCorrect ? 'correct' : 'incorrect');
-
-                    // Mise à jour du jeu
-                    gameData.current++;
-                    gameData.streak = isCorrect ? gameData.streak + 1 : 0;
-
-                    // Mise à jour scoreboard
-                    board.querySelector('.gtw-info').textContent = 
-                        `Question ${Math.min(gameData.current, gameData.total)}/${gameData.total}`;
-                    board.querySelector('.gtw-progress-bar').style.width =
-                        `${((gameData.current - 1) / gameData.total) * 100}%`;
-
-                    // Après délai, préparer la question suivante (ou fin du jeu)
-                    setTimeout(() => {
-                        feedback.classList.remove('show');
-                        btn.classList.remove('correct', 'incorrect');
-                        answered = false;
-                        // Ici tu peux rappeler ta fonction de chargement de question pour continuer
-                        // Exemple : startGuessTheWebtoonGame(gameData.difficulty);
-                        // Ou afficher écran final si current > total
-                    }, 1500);
-                });
-                choicesContainer.appendChild(btn);
+            // Après délai, soit prochaine question, soit écran final
+            setTimeout(() => {
+            feedback.classList.remove('show');
+            // nettoyer classes
+            choicesContainer.querySelectorAll('.gtw-choice').forEach(b => {
+                b.classList.remove('correct', 'incorrect');
+                b.disabled = false;
             });
 
+            if (gameState.current > gameState.total) {
+                showEndScreen();
+            } else {
+                loadNextQuestion();
+            }
+            }, 1200);
+        });
 
-            // === 10) Apparition animée ===
-            setTimeout(() => popup.classList.add('gtw-visible'), 10);
-
-        } catch (error) {
-            console.error("Erreur de chargement :", error);
-        }
+        choicesContainer.appendChild(btn);
+        });
     }
+
+    // Charge la prochaine question : choisit correct + 3 mauvaises réponses aléatoires
+    function loadNextQuestion() {
+        if (gameState.remaining.length === 0) {
+        // Si on a épuisé tout le data (mais current <= total), on peut re-remplir remaining
+        gameState.remaining = Array.from({ length: gameState.data.length }, (_, i) => i);
+        }
+
+        // 1) choisir correct
+        const correctIdx = popRandomIndex();
+        const correctItem = gameState.data[correctIdx];
+
+        // 2) choisir 3 mauvaises réponses dans le reste des indices (ou parmi tout si peu d'items)
+        // Construire un pool temporaire (indices restants + si nécessaire, repiquer dans tout)
+        const pool = gameState.data
+        .map((d, i) => ({ d, i }))
+        .filter(x => x.i !== correctIdx)
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 3)
+        .map(x => x.d);
+
+        // 3) mélanger et afficher (mélange correct+pool)
+        const optionItems = [...pool, correctItem].sort(() => 0.5 - Math.random());
+
+        // afficher
+        displayQuestion(correctItem, optionItems);
+    }
+
+    // Affiche l'écran final
+    function showEndScreen() {
+        // Masquer éléments de jeu
+        img.style.display = 'none';
+        choicesContainer.style.display = 'none';
+        feedback.style.display = 'none';
+        diffBox.style.display = 'none';
+
+        // Remplir résultat
+        const results = endScreen.querySelector('.gtw-results');
+        const correctCount = Math.max(0, gameState.total - (gameState.current - 1) + (gameState.streak ? 0 : 0)); 
+        // Note : on n'a pas compté explicitement les bonnes réponses séparément, on peut suivre un compteur si tu veux.
+        // Je propose d'ajouter un champ correctCount qui s'incrémente sur bonne réponse pour être précis.
+        // Pour l'instant, on calcule approximativement (meilleur est d'ajouter correctCount dans gameState).
+
+        // Je vais plutôt afficher un bilan plus utile (total, maxStreak)
+        results.innerHTML = `
+        <p>Tu as répondu à <strong>${gameState.total}</strong> questions.</p>
+        <p>Winstreak maximal : <strong>${gameState.maxStreak}</strong></p>
+        <p>Merci d'avoir joué !</p>
+        `;
+
+        endScreen.style.display = 'block';
+
+        // Boutons
+        endScreen.querySelector('.gtw-replay').addEventListener('click', () => {
+        // réinitialiser le jeu : recréer remaining + reset counters + masquer endScreen + afficher UI
+        gameState.remaining = Array.from({ length: gameState.data.length }, (_, i) => i);
+        gameState.current = 1;
+        gameState.streak = 0;
+        gameState.maxStreak = 0;
+        img.style.display = '';
+        choicesContainer.style.display = '';
+        feedback.style.display = '';
+        diffBox.style.display = '';
+        endScreen.style.display = 'none';
+        board.querySelector('.gtw-info').textContent = `Question 1/${gameState.total}`;
+        board.querySelector('.gtw-progress-bar').style.width = '0%';
+        board.querySelector('.gtw-streak span').textContent = '0';
+        loadNextQuestion();
+        });
+
+        endScreen.querySelector('.gtw-share').addEventListener('click', () => {
+        // exemple simple : partager via navigator.share si dispo
+        const shareText = `J'ai joué à Devine le Webtoon ! J'ai fait un max streak de ${gameState.maxStreak}.`;
+        if (navigator.share) {
+            navigator.share({ title: 'Devine le Webtoon', text: shareText }).catch(() => {});
+        } else {
+            // fallback : copier dans le presse-papiers
+            navigator.clipboard?.writeText(shareText);
+            alert('Score copié dans le presse-papiers (fallback).');
+        }
+        });
+    }
+
+    // Lance la première question
+    loadNextQuestion();
+    } // end startGuessTheWebtoonGame
 
 
 });
@@ -335,7 +506,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /*
 prochaines étapes :
-- Pb qu'une seule image et qcm
 - Permettre de cliquer sur l'image pour l'agrandir, avec un bouton croix pour fermer l'image et un autre pour upload l'image.
 - Peut-être mettre les propositions sur 2 lignes. 2 par 2
 - Augmenter la taille de l'image sur les petits écrans
