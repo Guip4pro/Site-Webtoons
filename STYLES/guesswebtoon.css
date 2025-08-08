@@ -350,6 +350,7 @@
     cursor: pointer;
     transition: transform 0.2s;
 }
+
 .gtw-question-image:hover {
     transform: scale(1.05);
 }
@@ -377,6 +378,12 @@
     border-radius: 8px;
 }
 
+.image-modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* espace constant entre les éléments */
+}
 
 /* Bouton fermer */
 .gtw-close-modal {
@@ -471,6 +478,9 @@
 @media (max-width: 600px) {
     .gtw-question-image {
         margin-bottom: 20px; /* espace sous l'image pour éviter pb de responsive avec le navigateur */
+    }
+    .gtw-question-image {   /* Image question */
+        width: 9rem;
     }
 }
 

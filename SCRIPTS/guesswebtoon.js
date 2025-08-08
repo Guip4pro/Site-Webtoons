@@ -1,5 +1,4 @@
 
-
 function startGuessTheWebtoon() {
     const gameContainer = document.getElementById('memory-game');
     gameContainer.classList.add('hidden');
@@ -7,7 +6,8 @@ function startGuessTheWebtoon() {
     document.getElementById('memory-difficulty-selector').classList.add('hidden');
     document.getElementById('memory-stats').classList.add('hidden');
     document.getElementById('leaderboard-section').classList.add('hidden');
-    // document.getElementById('accordion-container').toggle('hidden');
+    document.querySelector('.accordion-container').classList.toggle('hidden');
+
 
         // Si la fonction existe (par sécurité), on stoppe les sons du Memory
     if (typeof stopAllMemorySounds === 'function') {
@@ -547,7 +547,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /*
 prochaines étapes :
-- Augmenter la taille de l'image sur les petits écrans
+- faire un scroll auto vers le "niveau de difficulté"
 - Mettre une image pour "partager"
 - Modif images "The Boxer", "The Greatest Estate Developper", "Sweet Home" crop bas
 - Modifier mes messages quand j'ai trouvé ou non le bon titre, pour qu'il s'affiche centré au milieu de ma pop-up, avec une animation d'entrée et de sortie type "machine à écrire" (et qui aura donc aussi une animation de sortie type machine à écrire)

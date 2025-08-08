@@ -103,7 +103,7 @@
 
 
 
-        <div class="accordion-container">
+        <div class="accordion-container hidden">
 
             <button class="accordion">Niveau de difficulté</button>
             <div class="panel genre-panel">
@@ -199,11 +199,13 @@
 
         <!-- Modal Image cliquable -->
         <div id="gtw-image-modal" class="gtw-image-modal">
-            <label for="gtw-upload" class="gtw-upload-btn">     <!-- Upload -->
-                <img src="../RESSOURCES/icons/img1-upload-white.png" alt="Upload">
-            </label>
-            <input type="file" id="gtw-upload" accept="image/*" style="display: none;">
-            <span class="gtw-close-modal">&times;</span>
+            <div class="image-modal-container">
+                <label for="gtw-upload" class="gtw-upload-btn">     <!-- Upload -->
+                    <img src="../RESSOURCES/icons/img1-upload-white.png" alt="Upload">
+                </label>
+                <input type="file" id="gtw-upload" accept="image/*" style="display: none;">
+                <span class="gtw-close-modal">&times;</span>
+            </div>
             <img class="gtw-modal-content" id="gtw-modal-img">  <!-- Image -->
         </div>
 
