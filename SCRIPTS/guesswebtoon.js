@@ -145,8 +145,8 @@ document.addEventListener('DOMContentLoaded', () => {
             example.innerHTML = `
                 <div class="gtw-example-title">Exemple :</div>
                 <div class="gtw-example-images">
-                    <img src="../RESSOURCES/img-guessthewebtoon/exemple_flou.png" class="gtw-example-image" alt="Exemple flou" />
-                    <img src="../RESSOURCES/img-guessthewebtoon/READY.png" class="gtw-ready-image" alt="Prêt" />
+                    <img src="../RESSOURCES/img-guessthewebtoon/characters-icons/exemple_flou.png" class="gtw-example-image" alt="Exemple flou" />
+                    <img src="../RESSOURCES/img-guessthewebtoon/characters-icons/READY.png" class="gtw-ready-image" alt="Prêt" />
                 </div>
             `;
             popup.appendChild(example);
@@ -225,11 +225,11 @@ document.addEventListener('DOMContentLoaded', () => {
     (adapte les chemins si nécessaire)
     --------------------------- */
     function selectCharacterImage(score) {
-    if (score === 10) return resolveImagePath('RESSOURCES/img-guessthewebtoon/characters/char-10.png');
-    if (score >= 6 && score <= 9) return resolveImagePath('RESSOURCES/img-guessthewebtoon/characters/char-9-6.png');
-    if (score === 5) return resolveImagePath('RESSOURCES/img-guessthewebtoon/characters/char-5.png');
-    if (score >= 1 && score <= 4) return resolveImagePath('RESSOURCES/img-guessthewebtoon/characters/char-4-1.png');
-    return resolveImagePath('RESSOURCES/img-guessthewebtoon/characters/char-0.png');
+    if (score === 10) return resolveImagePath('../RESSOURCES/img-guessthewebtoon/characters-icons/10trone/char-10.png');
+    if (score >= 6 && score <= 9) return resolveImagePath('../RESSOURCES/img-guessthewebtoon/characters-icons/9-6maitre/char-9-6.png');
+    if (score === 5) return resolveImagePath('../RESSOURCES/img-guessthewebtoon/characters-icons/5paspersoprincipal/char-5.png');
+    if (score >= 1 && score <= 4) return resolveImagePath('../RESSOURCES/img-guessthewebtoon/characters-icons/4-1creatif/char-4-1.png');
+    return resolveImagePath('../RESSOURCES/img-guessthewebtoon/characters-icons/0abrutifini/char-0.png');
     }
 
     /* ---------------------------
@@ -406,12 +406,12 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="gtw-end-grid">
         <div class="gtw-end-left">
             <div class="gtw-character-wrap">
-            <img class="gtw-character" src="" alt="Personnage rigolo">
+            <img class="gtw-character" src="" alt="">
             </div>
         </div>
 
         <div class="gtw-end-right">
-            <h3 class="gtw-end-title">Partie terminée</h3>
+            <h3 class="gtw-end-title"></h3>
             <div class="gtw-end-details">
             <p class="gtw-end-scoreline"></p>
             <p class="gtw-end-winstreak"></p>
@@ -541,15 +541,19 @@ document.addEventListener('DOMContentLoaded', () => {
         const total = gameState.total;
         const percent = Math.round((correctCount / total) * 100);
 
-        // Titre header (on y met le message personnalisé de fin)
         const titleEl = popup.querySelector('.gtw-title');
         const endMsg = getEndMessage(correctCount);
-        titleEl.textContent = endMsg; // <-- voilà le changement demandé
+        // header affiche maintenant "Partie terminée"
+        if (titleEl) titleEl.textContent = 'Partie terminée';
+        // écrire le message personnalisé DANS le titre de l'écran final (h3)
+        const endTitle = endScreen.querySelector('.gtw-end-title');
+        if (endTitle) endTitle.textContent = endMsg;
+
 
         // Remplir endScreen (sans percent ni difficulty)
         const scoreLine = endScreen.querySelector('.gtw-end-scoreline');
         const streakLine = endScreen.querySelector('.gtw-end-winstreak');
-        scoreLine.innerHTML = `<strong>${correctCount}/${total}</strong> bonnes réponses`;
+        scoreLine.innerHTML = `bonnes réponses : <strong>${correctCount}/${total}</strong>`;
         streakLine.innerHTML = `Winstreak max : <strong>${gameState.maxStreak}</strong>`;
 
         // mettre le petit personnage
@@ -583,9 +587,10 @@ document.addEventListener('DOMContentLoaded', () => {
             gameState.maxStreak = 0;
             gameState.correctCount = 0;
 
-            // remettre titre par défaut
-            const titleDefault = popup.querySelector('.gtw-title');
-            titleDefault.textContent = 'Devine le Webtoon';
+            // remettre le h3 de l'écran final à son texte par défaut
+            const endTitle = endScreen.querySelector('.gtw-end-title');
+            if (endTitle) endTitle.textContent = 'Partie terminée';
+
 
             // restaurer UI
             img.style.display = '';
@@ -622,27 +627,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /*
 prochaines étapes :
-- Faire mise en page du bloc de fin de jeu :
-    - Remplacer le titre "Devine le Webtoon" qui est généré en javascript par le message personnalisé de fin de jeu :
-        - 10/10 → Le trône des Webtoons est à toi 👑
-        - 9/10 à 6/10 → Félicitations ! Tu es un maître des Webtoons 🔥
-        - 5/10 → Pas mal… mais t’es pas encore le personnage principal !
-        - 4/10 à 1/10 → Tes réponses étaient… créatives 😏
-        - 0/10 → Tu viens de débloquer l’achievement : 'Je n’ai rien compris' 🏆
-    - Pas besoin de toucher à la croix de fermeture et à la barre de progression (gtw-scoreboard)
-    - Placer le nombre de winstreak maximal. (déjà mis en place, pas besoin d'y toucher)
-    - Afficher un score en pourcentage en fonction du nombre de bonnes réponses sur 10 qu'il a eu.
-    - Styliser les boutons "Rejouer" et "Partager dans le même style"
-    - Mascotte    
-    - Animation courte et smooth de confettis
-    - Animations subtiles, ombrages doux
-    L’ensemble doit rester cohérent avec la pop-up initiale, mais s’adapter à ce nouveau contexte interactif de quiz. Les transitions doivent être douces, élégantes, premium. Le design noble et raffiné. Le tout responsive
 
-- Lui demander s'il y a des incohérences dans mon css, et de fixer ce problème d'incohérence si nécessaire
 - Faire en sorte que l'image à deviner soit bloqué à un certain nombre de pixels, qu'elle ne peut pas dépasser.
 - Mettre une image pour "partager" qui reprend exactement l'image de fin de jeu
 - Modifier mes messages quand j'ai trouvé ou non le bon titre, pour qu'il s'affiche centré au milieu de ma pop-up, avec une animation d'entrée et de sortie type "machine à écrire" (et qui aura donc aussi une animation de sortie type machine à écrire)
-- Webtoon The Boxer enlever le titre au milieu de l'image
+- Webtoon The Boxer enlever le titre au milieu de l'image. Wind breaker qui ne s'affiche pas
 - Animation sobre et douce rouge sur la case où le joueur s'est trompée, et verte sur la case où la case de la bonne réponse. Ne pas oublier de mettre aussi une animation douce et sobre verte sur la case de la bonne réponse, quand l'utilisateur s'est trompée de case.
 - Trouver une icône pour ma partie "mini-jeux" de mon site de webtoon
 - Son : quand le joueur clique sur une catégorie, et quand il clique sur "JOUER"
