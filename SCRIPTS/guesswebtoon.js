@@ -183,20 +183,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-    // Fonction pour formater les titres
-    function formatTitle(str) {
-    if (!str) return '';
-    return str
-        .replace(/-/g, ' ') // Remplacement les tirets par des espaces
-        .replace(/\b\w/g, l => l.toUpperCase());    // Met première lettre de chaque mot en majuscule
-    }
-
-
     /* ---------------------------
     UTILITAIRE : résout le chemin d'image
     - Si le chemin commence par http ou / : on l'utilise tel quel
     - Sinon on le transforme en chemin à partir de la racine : "/RESSOURCES/..."
     (tu peux adapter selon ta structure serveur si besoin)
+    --------------------------- */
+    // Fonction pour formater les titres
+    function formatTitle(str) {
+    if (!str) return '';
+    return str
+        .replace(/-/g, ' ') // Remplacement les tirets par des espaces
+        .replace(/\b\w/g, l => l.toUpperCase()); // Met première lettre de chaque mot en majuscule
+    }
+
+    /* ---------------------------
+    UTILITAIRE : résout le chemin d'image
+    - Si le chemin commence par http ou / : on l'utilise tel quel
+    - Sinon on le transforme en chemin à partir de la racine : "/RESSOURCES/..."
     --------------------------- */
     function resolveImagePath(imgPath) {
     if (!imgPath) return '';
@@ -206,23 +210,81 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /* ---------------------------
+    Renvoie le message final selon le score (0..10)
+    --------------------------- */
+    function getEndMessage(score) {
+    if (score === 10) return "Le trône des Webtoons est à toi 👑";
+    if (score >= 6 && score <= 9) return "Félicitations ! Tu es un maître des Webtoons 🔥";
+    if (score === 5) return "Pas mal… mais t’es pas encore le personnage principal !";
+    if (score >= 1 && score <= 4) return "Tes réponses étaient… créatives 😏";
+    return "Tu viens de débloquer l’achievement : 'Je n’ai rien compris' 🏆";
+    }
+
+    /* ---------------------------
+    Choisit l'image du petit personnage selon le score
+    (adapte les chemins si nécessaire)
+    --------------------------- */
+    function selectCharacterImage(score) {
+    if (score === 10) return resolveImagePath('RESSOURCES/img-guessthewebtoon/characters/char-10.png');
+    if (score >= 6 && score <= 9) return resolveImagePath('RESSOURCES/img-guessthewebtoon/characters/char-9-6.png');
+    if (score === 5) return resolveImagePath('RESSOURCES/img-guessthewebtoon/characters/char-5.png');
+    if (score >= 1 && score <= 4) return resolveImagePath('RESSOURCES/img-guessthewebtoon/characters/char-4-1.png');
+    return resolveImagePath('RESSOURCES/img-guessthewebtoon/characters/char-0.png');
+    }
+
+    /* ---------------------------
+    Crée une animation courte de confettis (éléments DOM + CSS keyframes)
+    - popupEl : le container de la pop-up pour y ajouter les confettis
+    - duration ms
+    --------------------------- */
+
+    function createConfetti(duration = 1600) {
+        // crée le container global
+        const confettiContainer = document.createElement('div');
+        confettiContainer.className = 'gtw-confetti-container gtw-confetti-global';
+        document.body.appendChild(confettiContainer);
+
+        const count = 40;
+        for (let i = 0; i < count; i++) {
+            const c = document.createElement('div');
+            c.className = 'gtw-confetti';
+            // position horizontale
+            c.style.left = `${Math.random() * 100}%`;
+            // taille variante
+            const s = 6 + Math.random() * 12;
+            c.style.width = `${s}px`;
+            c.style.height = `${Math.max(8, s + 4)}px`;
+            // décalage d'animation
+            c.style.animationDelay = `${Math.random() * 400}ms`;
+            // rotation initiale aléatoire
+            c.style.transform = `rotate(${Math.random() * 360}deg)`;
+            confettiContainer.appendChild(c);
+        }
+
+        // suppression automatique
+        setTimeout(() => {
+            confettiContainer.classList.add('gtw-confetti--hide');
+            setTimeout(() => {
+            if (confettiContainer && confettiContainer.parentNode) confettiContainer.parentNode.removeChild(confettiContainer);
+            }, 600);
+        }, duration);
+    }
+
+
+
+    /* ---------------------------
     Fonction principale : démarre / instancie le jeu
-    - charge le JSON (une fois)
-    - crée l'UI (une seule fois)
-    - gère l'enchaînement des questions
     --------------------------- */
     async function startGuessTheWebtoonGame(difficulty = 'facile') {
-    // Normalise difficulty & chemin vers le json
     const diffKey = String(difficulty).toLowerCase();
     const filePath = `../RESSOURCES/json-guessthewebtoon/cover-${diffKey}.json`;
 
-    // Si pop-up déjà ouverte, on ne recrée pas (tu peux forcer un restart en fermant d'abord)
     if (document.querySelector('.gtw-overlay-game')) {
         console.warn('Le jeu est déjà en cours.');
         return;
     }
 
-    // Chargement JSON (une seule fois)
+    // Chargement JSON
     let data;
     try {
         const res = await fetch(filePath);
@@ -240,56 +302,46 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    /* ---------------------------
-        ÉTAT DU JEU (persistant pendant la pop-up)
-        - data: tableau chargé
-        - remaining: indices encore non utilisés (pour éviter doublons)
-        - total: nombre de questions dans la partie (max 10 ou moins si pas assez d'items)
-        - current: index de progression (1-based)
-        - streak & maxStreak
-        --------------------------- */
+    // État du jeu
     const gameState = {
         difficulty: diffKey,
-        data: data, // tableau d'objets { name, image, ... }
+        data: data,
         remaining: Array.from({ length: data.length }, (_, i) => i),
         total: Math.min(10, data.length),
         current: 1,
         streak: 0,
         maxStreak: 0,
-        answered: false // flag local par question
+        correctCount: 0,
+        answered: false
     };
 
-    /* ---------------------------
-        Création de l'UI de la pop-up (une seule fois)
-        --------------------------- */
+    // Création de l'UI
     const overlay = document.createElement('div');
     overlay.className = 'gtw-overlay-game';
 
     const popup = document.createElement('div');
     popup.className = 'gtw-popup-game';
 
-    // Header
+    // Header (le h2 sera mis à jour dynamiquement)
     const header = document.createElement('div');
     header.className = 'gtw-header';
     header.innerHTML = `
-        <h2>Devine le Webtoon</h2>
+        <h2 class="gtw-title">Devine le Webtoon</h2>
         <span class="gtw-close" title="Fermer">&times;</span>
     `;
     popup.appendChild(header);
 
-    // Fermeture
     header.querySelector('.gtw-close').addEventListener('click', () => {
         document.body.removeChild(overlay);
-        // Nettoyage (si besoin)
     });
 
-    // Difficulty display
+    // Difficulty display (on garde visible également à l'écran final)
     const diffBox = document.createElement('div');
     diffBox.className = `gtw-difficulty gtw-${gameState.difficulty}`;
     diffBox.textContent = `Difficulté : ${formatTitle(gameState.difficulty)}`;
     popup.appendChild(diffBox);
 
-    // Scoreboard
+    // Scoreboard (NE PAS toucher la structure, on la garde)
     const board = document.createElement('div');
     board.className = 'gtw-scoreboard';
     board.innerHTML = `
@@ -306,44 +358,35 @@ document.addEventListener('DOMContentLoaded', () => {
     img.alt = 'Image mystère';
     popup.appendChild(img);
 
-    // IMAGE CLIQUABLE
+    // Modal (si tu utilises les ids existants dans ta page)
     const modal = document.getElementById("gtw-image-modal");
     const modalImg = document.getElementById("gtw-modal-img");
     const closeBtn = document.querySelector(".gtw-close-modal");
     const uploadInput = document.getElementById("gtw-upload");
 
-    // Ouvrir le modal
-    img.onclick = function() {
+    if (modal && modalImg && closeBtn && uploadInput) {
+        img.onclick = function() {
         modal.style.display = "block";
         modalImg.src = this.src;
-    };
-
-    // Fermer le modal
-    closeBtn.onclick = function() {
+        };
+        closeBtn.onclick = function() {
         modal.style.display = "none";
-    };
-
-    // Fermer si on clique en dehors de l'image
-    modal.onclick = function(e) {
-        if (e.target === modal) {
-            modal.style.display = "none";
-        }
-    };
-
-    // Changer l'image avec upload
-    uploadInput.addEventListener("change", function(e) {
+        };
+        modal.onclick = function(e) {
+        if (e.target === modal) modal.style.display = "none";
+        };
+        uploadInput.addEventListener("change", function(e) {
         const file = e.target.files[0];
         if (file) {
             const reader = new FileReader();
             reader.onload = function(evt) {
-                img.src = evt.target.result;
-                modalImg.src = evt.target.result;
+            img.src = evt.target.result;
+            modalImg.src = evt.target.result;
             };
             reader.readAsDataURL(file);
         }
-    });
-
-
+        });
+    }
 
     // Conteneur choix
     const choicesContainer = document.createElement('div');
@@ -360,11 +403,24 @@ document.addEventListener('DOMContentLoaded', () => {
     endScreen.className = 'gtw-endscreen';
     endScreen.style.display = 'none';
     endScreen.innerHTML = `
-        <h3>Partie terminée</h3>
-        <div class="gtw-results"></div>
-        <div style="margin-top:12px;">
-        <button class="gtw-replay">Rejouer</button>
-        <button class="gtw-share">Partager</button>
+        <div class="gtw-end-grid">
+        <div class="gtw-end-left">
+            <div class="gtw-character-wrap">
+            <img class="gtw-character" src="" alt="Personnage rigolo">
+            </div>
+        </div>
+
+        <div class="gtw-end-right">
+            <h3 class="gtw-end-title">Partie terminée</h3>
+            <div class="gtw-end-details">
+            <p class="gtw-end-scoreline"></p>
+            <p class="gtw-end-winstreak"></p>
+            </div>
+            <div class="gtw-end-actions">
+            <button class="gtw-btn gtw-replay">Rejouer</button>
+            <button class="gtw-btn gtw-share">Partager</button>
+            </div>
+        </div>
         </div>
     `;
     popup.appendChild(endScreen);
@@ -373,14 +429,13 @@ document.addEventListener('DOMContentLoaded', () => {
     overlay.appendChild(popup);
     document.body.appendChild(overlay);
 
-    // Animation d'apparition (si css attend .gtw-visible)
+    // apparition douce
     setTimeout(() => popup.classList.add('gtw-visible'), 10);
 
     /* ---------------------------
-        Fonctions internes : choisir et afficher une question
-        --------------------------- */
+    Fonctions internes
+    --------------------------- */
 
-    // Sélectionne aléatoirement un index dans gameState.remaining et le retire (évite doublons)
     function popRandomIndex() {
         const r = gameState.remaining;
         const randomPos = Math.floor(Math.random() * r.length);
@@ -388,19 +443,15 @@ document.addEventListener('DOMContentLoaded', () => {
         return index;
     }
 
-    // Affiche une question à partir de l'item correct et des options
     function displayQuestion(correctItem, optionItems) {
-        // Image
         img.src = resolveImagePath(correctItem.image);
         img.alt = formatTitle(correctItem.name);
 
-        // Reset feedback, options
         feedback.classList.remove('show');
         feedback.textContent = '';
         choicesContainer.innerHTML = '';
         gameState.answered = false;
 
-        // Créer boutons options
         optionItems.forEach(opt => {
         const btn = document.createElement('button');
         btn.className = 'gtw-choice';
@@ -413,19 +464,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const isCorrect = String(opt.name).toLowerCase() === String(correctItem.name).toLowerCase();
 
-            // Visuel / feedback
             feedback.textContent = isCorrect ? '🎉 Bonne réponse !' : '❌ Ce n’est pas ça...';
             feedback.classList.add('show');
 
-            // update streaks
             if (isCorrect) {
             gameState.streak++;
             gameState.maxStreak = Math.max(gameState.maxStreak, gameState.streak);
+            gameState.correctCount++;
             btn.classList.add('correct');
             } else {
             gameState.streak = 0;
             btn.classList.add('incorrect');
-            // petite vibration si dispo
             if (navigator.vibrate) navigator.vibrate(100);
             }
 
@@ -434,7 +483,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const barEl = board.querySelector('.gtw-progress-bar');
             const streakSpan = board.querySelector('.gtw-streak span');
 
-            // on incrémente current (on affiche la prochaine question index)
             gameState.current++;
             infoEl.textContent = `Question ${Math.min(gameState.current, gameState.total)}/${gameState.total}`;
             barEl.style.width = `${((gameState.current - 1) / gameState.total) * 100}%`;
@@ -443,10 +491,8 @@ document.addEventListener('DOMContentLoaded', () => {
             // désactiver tous les boutons pour éviter spam
             choicesContainer.querySelectorAll('.gtw-choice').forEach(b => b.disabled = true);
 
-            // Après délai, soit prochaine question, soit écran final
             setTimeout(() => {
             feedback.classList.remove('show');
-            // nettoyer classes
             choicesContainer.querySelectorAll('.gtw-choice').forEach(b => {
                 b.classList.remove('correct', 'incorrect');
                 b.disabled = false;
@@ -464,19 +510,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Charge la prochaine question : choisit correct + 3 mauvaises réponses aléatoires
     function loadNextQuestion() {
         if (gameState.remaining.length === 0) {
-        // Si on a épuisé tout le data (mais current <= total), on peut re-remplir remaining
         gameState.remaining = Array.from({ length: gameState.data.length }, (_, i) => i);
         }
 
-        // 1) choisir correct
         const correctIdx = popRandomIndex();
         const correctItem = gameState.data[correctIdx];
 
-        // 2) choisir 3 mauvaises réponses dans le reste des indices (ou parmi tout si peu d'items)
-        // Construire un pool temporaire (indices restants + si nécessaire, repiquer dans tout)
         const pool = gameState.data
         .map((d, i) => ({ d, i }))
         .filter(x => x.i !== correctIdx)
@@ -484,96 +525,140 @@ document.addEventListener('DOMContentLoaded', () => {
         .slice(0, 3)
         .map(x => x.d);
 
-        // 3) mélanger et afficher (mélange correct+pool)
         const optionItems = [...pool, correctItem].sort(() => 0.5 - Math.random());
 
-        // afficher
         displayQuestion(correctItem, optionItems);
     }
 
-    // Affiche l'écran final
     function showEndScreen() {
-        // Masquer éléments de jeu
+        // Masquer UI jeu (garder la difficulty visible si tu le souhaites)
         img.style.display = 'none';
         choicesContainer.style.display = 'none';
         feedback.style.display = 'none';
-        diffBox.style.display = 'none';
 
-        // Remplir résultat
-        const results = endScreen.querySelector('.gtw-results');
-        const correctCount = Math.max(0, gameState.total - (gameState.current - 1) + (gameState.streak ? 0 : 0)); 
-        // Note : on n'a pas compté explicitement les bonnes réponses séparément, on peut suivre un compteur si tu veux.
-        // Je propose d'ajouter un champ correctCount qui s'incrémente sur bonne réponse pour être précis.
-        // Pour l'instant, on calcule approximativement (meilleur est d'ajouter correctCount dans gameState).
+        // Calcul score précis
+        const correctCount = gameState.correctCount;
+        const total = gameState.total;
+        const percent = Math.round((correctCount / total) * 100);
 
-        // Je vais plutôt afficher un bilan plus utile (total, maxStreak)
-        results.innerHTML = `
-        <p>Tu as répondu à <strong>${gameState.total}</strong> questions.</p>
-        <p>Winstreak maximal : <strong>${gameState.maxStreak}</strong></p>
-        <p>Merci d'avoir joué !</p>
-        `;
+        // Titre header (on y met le message personnalisé de fin)
+        const titleEl = popup.querySelector('.gtw-title');
+        const endMsg = getEndMessage(correctCount);
+        titleEl.textContent = endMsg; // <-- voilà le changement demandé
 
+        // Remplir endScreen (sans percent ni difficulty)
+        const scoreLine = endScreen.querySelector('.gtw-end-scoreline');
+        const streakLine = endScreen.querySelector('.gtw-end-winstreak');
+        scoreLine.innerHTML = `<strong>${correctCount}/${total}</strong> bonnes réponses`;
+        streakLine.innerHTML = `Winstreak max : <strong>${gameState.maxStreak}</strong>`;
+
+        // mettre le petit personnage
+        const charImg = endScreen.querySelector('.gtw-character');
+        charImg.src = selectCharacterImage(correctCount);
+        charImg.alt = endMsg;
+
+        // afficher endScreen
         endScreen.style.display = 'block';
 
-        // Boutons
-        endScreen.querySelector('.gtw-replay').addEventListener('click', () => {
-        // réinitialiser le jeu : recréer remaining + reset counters + masquer endScreen + afficher UI
-        gameState.remaining = Array.from({ length: gameState.data.length }, (_, i) => i);
-        gameState.current = 1;
-        gameState.streak = 0;
-        gameState.maxStreak = 0;
-        img.style.display = '';
-        choicesContainer.style.display = '';
-        feedback.style.display = '';
-        diffBox.style.display = '';
-        endScreen.style.display = 'none';
-        board.querySelector('.gtw-info').textContent = `Question 1/${gameState.total}`;
-        board.querySelector('.gtw-progress-bar').style.width = '0%';
-        board.querySelector('.gtw-streak span').textContent = '0';
-        loadNextQuestion();
+        // Confettis full page pour bonnes performances (>=6)
+        if (correctCount >= 6) {
+            createConfetti(2000);
+        }
+
+        // Boutons : remplacer listeners proprement (cloneNode technique déjà en place)
+        const replayBtn = endScreen.querySelector('.gtw-replay');
+        const shareBtn = endScreen.querySelector('.gtw-share');
+
+        replayBtn.replaceWith(replayBtn.cloneNode(true));
+        shareBtn.replaceWith(shareBtn.cloneNode(true));
+
+        const newReplay = endScreen.querySelector('.gtw-replay');
+        const newShare = endScreen.querySelector('.gtw-share');
+
+        newReplay.addEventListener('click', () => {
+            // reset
+            gameState.remaining = Array.from({ length: gameState.data.length }, (_, i) => i);
+            gameState.current = 1;
+            gameState.streak = 0;
+            gameState.maxStreak = 0;
+            gameState.correctCount = 0;
+
+            // remettre titre par défaut
+            const titleDefault = popup.querySelector('.gtw-title');
+            titleDefault.textContent = 'Devine le Webtoon';
+
+            // restaurer UI
+            img.style.display = '';
+            choicesContainer.style.display = '';
+            feedback.style.display = '';
+            endScreen.style.display = 'none';
+            board.querySelector('.gtw-info').textContent = `Question 1/${gameState.total}`;
+            board.querySelector('.gtw-progress-bar').style.width = '0%';
+            board.querySelector('.gtw-streak span').textContent = '0';
+            loadNextQuestion();
         });
 
-        endScreen.querySelector('.gtw-share').addEventListener('click', () => {
-        // exemple simple : partager via navigator.share si dispo
-        const shareText = `J'ai joué à Devine le Webtoon ! J'ai fait un max streak de ${gameState.maxStreak}.`;
-        if (navigator.share) {
+        newShare.addEventListener('click', () => {
+            const shareText = `J'ai joué à Devine le Webtoon — ${correctCount}/${total} (${percent}%). Winstreak max: ${gameState.maxStreak}.`;
+            if (navigator.share) {
             navigator.share({ title: 'Devine le Webtoon', text: shareText }).catch(() => {});
-        } else {
-            // fallback : copier dans le presse-papiers
+            } else {
             navigator.clipboard?.writeText(shareText);
             alert('Score copié dans le presse-papiers (fallback).');
-        }
+            }
         });
     }
+
 
     // Lance la première question
     loadNextQuestion();
     } // end startGuessTheWebtoonGame
+
 
 });
 
 
 
 
-
 /*
 prochaines étapes :
-- Faire mise en page du bloc de fin de jeu
-- Mettre une image pour "partager"
+- Faire mise en page du bloc de fin de jeu :
+    - Remplacer le titre "Devine le Webtoon" qui est généré en javascript par le message personnalisé de fin de jeu :
+        - 10/10 → Le trône des Webtoons est à toi 👑
+        - 9/10 à 6/10 → Félicitations ! Tu es un maître des Webtoons 🔥
+        - 5/10 → Pas mal… mais t’es pas encore le personnage principal !
+        - 4/10 à 1/10 → Tes réponses étaient… créatives 😏
+        - 0/10 → Tu viens de débloquer l’achievement : 'Je n’ai rien compris' 🏆
+    - Pas besoin de toucher à la croix de fermeture et à la barre de progression (gtw-scoreboard)
+    - Placer le nombre de winstreak maximal. (déjà mis en place, pas besoin d'y toucher)
+    - Afficher un score en pourcentage en fonction du nombre de bonnes réponses sur 10 qu'il a eu.
+    - Styliser les boutons "Rejouer" et "Partager dans le même style"
+    - Mascotte    
+    - Animation courte et smooth de confettis
+    - Animations subtiles, ombrages doux
+    L’ensemble doit rester cohérent avec la pop-up initiale, mais s’adapter à ce nouveau contexte interactif de quiz. Les transitions doivent être douces, élégantes, premium. Le design noble et raffiné. Le tout responsive
+
+- Lui demander s'il y a des incohérences dans mon css, et de fixer ce problème d'incohérence si nécessaire
+- Faire en sorte que l'image à deviner soit bloqué à un certain nombre de pixels, qu'elle ne peut pas dépasser.
+- Mettre une image pour "partager" qui reprend exactement l'image de fin de jeu
 - Modifier mes messages quand j'ai trouvé ou non le bon titre, pour qu'il s'affiche centré au milieu de ma pop-up, avec une animation d'entrée et de sortie type "machine à écrire" (et qui aura donc aussi une animation de sortie type machine à écrire)
+- Webtoon The Boxer enlever le titre au milieu de l'image
+- Animation sobre et douce rouge sur la case où le joueur s'est trompée, et verte sur la case où la case de la bonne réponse. Ne pas oublier de mettre aussi une animation douce et sobre verte sur la case de la bonne réponse, quand l'utilisateur s'est trompée de case.
 - Trouver une icône pour ma partie "mini-jeux" de mon site de webtoon
 - Son : quand le joueur clique sur une catégorie, et quand il clique sur "JOUER"
-- Régler,problème de clé API visible.
-
+- Régler problème de clé API visible.
+- Vol affichage nb de chapitres en fr et en engl : 🇫🇷 70  🇬🇧 180
 
 Autour du plateau de jeu :
-- Prendre une mascotte (préférence barbare Bjorn fils de Yandel), et déterminer en image à l'aide de l'IA ses différentes expressions
 - Motifs autour du plateau (bulles, effets de papier, cadres illustrés)
 
 
-- Prendre le json correspondant à la catégorie, et pour les autres réponses "fausses". Pour la réponse "bonne", il faudra utiliser le chemin du nom du fichier, qui comprend directement le nom du webtoon.
-- Ma méthode est-elle bonne, ou y a t il une méthode plus simple et efficace ?
-
 AUTRE :
 - faire une catégorie "eyes" et "personnage flouté ou couverture floutée"
+
+
+MOTS DE VOCABULAIRE :
+Images :
+- Fluide, raffinée, élégante, sobre, épurée, claire, douce (smooth)
+
 */
