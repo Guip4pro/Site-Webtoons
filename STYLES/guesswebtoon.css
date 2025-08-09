@@ -225,7 +225,7 @@
 
 /* Exemple visuel */
 .gtw-example {
-    margin: 1rem 0;
+    margin: 1.5rem 0;
     text-align: center;
 }
 
@@ -233,13 +233,46 @@
     font-weight: bold;
     margin-bottom: 0.5rem;
     color: #666;
+    font-size: 1.1rem;
 }
 
-.gtw-example img {
-    max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+/* Conteneur des deux images côte à côte */
+.gtw-example-images {
+    display: flex;
+    justify-content: center;
+    gap: 3rem; /* Espace entre les images */
+    align-items: center;
+    margin-top: 0.8rem;
 }
+
+/* Image floutée */
+.gtw-example-image {
+    max-width: 150px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    filter: blur(4px);
+    transition: transform 0.3s ease, filter 0.3s ease;
+    opacity: 0.9;
+}
+
+.gtw-example-image:hover {
+    transform: scale(1.03);
+    filter: blur(3px);
+    opacity: 1;
+}
+
+/* Nouvelle image "READY" */
+.gtw-ready-image {
+    max-height: 150px; /* Aligne la hauteur avec l'autre image */
+    width: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    object-fit: contain;
+    cursor: default;
+}
+
+
 
 /* Bouton JOUER */
 .gtw-start-button {

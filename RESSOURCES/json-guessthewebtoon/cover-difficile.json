@@ -4,8 +4,12 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/-genius-archer's-streaming.jpg"
     },
     {
+        "name": "-the-player-hides-his-past - Copie",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/-the-player-hides-his-past - Copie.jpg"
+    },
+    {
         "name": "-the-player-hides-his-past",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/-the-player-hides-his-past.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/-the-player-hides-his-past.webp"
     },
     {
         "name": "dragonslayer's-peerless-regression",
@@ -13,23 +17,31 @@
     },
     {
         "name": "dungeon-architect",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/dungeon-architect.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/dungeon-architect.webp"
     },
     {
         "name": "entomologist-in-sichuan-tang-clan",
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/entomologist-in-sichuan-tang-clan.jpg"
     },
     {
+        "name": "I'm-Going-to-Destroy-This-Country - Copie",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/I'm-Going-to-Destroy-This-Country - Copie.jpg"
+    },
+    {
         "name": "I'm-Going-to-Destroy-This-Country",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/I'm-Going-to-Destroy-This-Country.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/I'm-Going-to-Destroy-This-Country.webp"
     },
     {
         "name": "juvenile-law",
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/juvenile-law.jpg"
     },
     {
+        "name": "Legendary-Blacksmith's-Vengeance - Copie",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/Legendary-Blacksmith's-Vengeance - Copie.jpg"
+    },
+    {
         "name": "Legendary-Blacksmith's-Vengeance",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/Legendary-Blacksmith's-Vengeance.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/Legendary-Blacksmith's-Vengeance.webp"
     },
     {
         "name": "Master-Villainess-the-Invincible",
@@ -42,6 +54,10 @@
     {
         "name": "reincarnation-of-the-warrior-party-archmage",
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/reincarnation-of-the-warrior-party-archmage.jpg"
+    },
+    {
+        "name": "the-blood-knights-villain",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-blood-knights-villain.webp"
     },
     {
         "name": "The-Book-of-Lagier",
@@ -69,11 +85,15 @@
     },
     {
         "name": "The-Reincarnated-Assassin-Is-a-Genius-Swordsman",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/The-Reincarnated-Assassin-Is-a-Genius-Swordsman.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/The-Reincarnated-Assassin-Is-a-Genius-Swordsman.webp"
+    },
+    {
+        "name": "the-return-of-the-frozen-player - Copie",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-return-of-the-frozen-player - Copie.jpg"
     },
     {
         "name": "the-return-of-the-frozen-player",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-return-of-the-frozen-player.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-return-of-the-frozen-player.webp"
     },
     {
         "name": "valhalla-saga",

@@ -6,7 +6,14 @@ function startGuessTheWebtoon() {
     document.getElementById('memory-difficulty-selector').classList.add('hidden');
     document.getElementById('memory-stats').classList.add('hidden');
     document.getElementById('leaderboard-section').classList.add('hidden');
-    document.querySelector('.accordion-container').classList.toggle('hidden');
+    const ScrollAccordion = document.querySelector('.accordion-container');
+    ScrollAccordion.classList.toggle('hidden');
+        // API pour centrer le plateau de jeu
+    ScrollAccordion.scrollIntoView({
+        behavior: 'smooth',   // défilement animé
+        block:    'center',   // centre verticalement
+        inline:   'nearest'   // pas de décalage horizontal
+    });
 
 
         // Si la fonction existe (par sécurité), on stoppe les sons du Memory
@@ -137,9 +144,13 @@ document.addEventListener('DOMContentLoaded', () => {
             example.className = 'gtw-example';
             example.innerHTML = `
                 <div class="gtw-example-title">Exemple :</div>
-                <img src="images/exemple_flou.png" alt="Exemple flou" />
+                <div class="gtw-example-images">
+                    <img src="../RESSOURCES/img-guessthewebtoon/exemple_flou.png" class="gtw-example-image" alt="Exemple flou" />
+                    <img src="../RESSOURCES/img-guessthewebtoon/READY.png" class="gtw-ready-image" alt="Prêt" />
+                </div>
             `;
             popup.appendChild(example);
+
 
             // Bouton "JOUER"
             const playButton = document.createElement('button');
@@ -547,16 +558,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /*
 prochaines étapes :
-- faire un scroll auto vers le "niveau de difficulté"
+- Faire mise en page du bloc de fin de jeu
 - Mettre une image pour "partager"
-- Modif images "The Boxer", "The Greatest Estate Developper", "Sweet Home" crop bas
 - Modifier mes messages quand j'ai trouvé ou non le bon titre, pour qu'il s'affiche centré au milieu de ma pop-up, avec une animation d'entrée et de sortie type "machine à écrire" (et qui aura donc aussi une animation de sortie type machine à écrire)
-- Trouver une icône pour mon site Guillaume Marolleau "Tous mes projets" ainsi qu'une deuxième pour ma partie "mini-jeux" de mon site de webtoon
+- Trouver une icône pour ma partie "mini-jeux" de mon site de webtoon
 - Son : quand le joueur clique sur une catégorie, et quand il clique sur "JOUER"
 - Régler,problème de clé API visible.
 
-
-Faire un toggle pour l'apparition de l'entièreté du jeu "Guess The Webtoon"
 
 Autour du plateau de jeu :
 - Prendre une mascotte (préférence barbare Bjorn fils de Yandel), et déterminer en image à l'aide de l'IA ses différentes expressions

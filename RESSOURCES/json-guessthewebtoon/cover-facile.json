@@ -73,11 +73,11 @@
     },
     {
         "name": "pick-me-up",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/facile/pick-me-up.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/facile/pick-me-up.webp"
     },
     {
         "name": "player-who-can't-level-up",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/facile/player-who-can't-level-up.webp"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/facile/player-who-can't-level-up.avif"
     },
     {
         "name": "player-who-returned-10000-years-later",
@@ -101,7 +101,7 @@
     },
     {
         "name": "return-of-the-disaster-class-hero",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/facile/return-of-the-disaster-class-hero.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/facile/return-of-the-disaster-class-hero.avif"
     },
     {
         "name": "return-of-the-mount-hua-sect",
@@ -205,7 +205,7 @@
     },
     {
         "name": "white-blood",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/facile/white-blood.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/facile/white-blood.webp"
     },
     {
         "name": "wind-breaker",

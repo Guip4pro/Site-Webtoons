@@ -217,12 +217,12 @@ async function updateGameBoard() {
     const gameBoard = document.getElementById('memory-game-board');
     const countdownElement = document.getElementById('memory-countdown');
     const gameContainer = document.getElementById('memory-game');
-        // API pour centrer le plateau de jeu
-        gameContainer.scrollIntoView({
-            behavior: 'smooth',   // défilement animé
-            block:    'center',   // centre verticalement
-            inline:   'nearest'   // pas de décalage horizontal
-        });
+    // API pour centrer le plateau de jeu
+    gameContainer.scrollIntoView({
+        behavior: 'smooth',   // défilement animé
+        block:    'center',   // centre verticalement
+        inline:   'nearest'   // pas de décalage horizontal
+    });
     
 
     // Réinitialisation du plateau
