@@ -224,13 +224,63 @@ document.addEventListener('DOMContentLoaded', () => {
     Choisit l'image du petit personnage selon le score
     (adapte les chemins si nécessaire)
     --------------------------- */
-    function selectCharacterImage(score) {
+    /*function selectCharacterImage(score) {
     if (score === 10) return resolveImagePath('../RESSOURCES/img-guessthewebtoon/characters-icons/10trone/char-10.png');
     if (score >= 6 && score <= 9) return resolveImagePath('../RESSOURCES/img-guessthewebtoon/characters-icons/9-6maitre/char-9-6.png');
     if (score === 5) return resolveImagePath('../RESSOURCES/img-guessthewebtoon/characters-icons/5paspersoprincipal/char-5.png');
     if (score >= 1 && score <= 4) return resolveImagePath('../RESSOURCES/img-guessthewebtoon/characters-icons/4-1creatif/char-4-1.png');
     return resolveImagePath('../RESSOURCES/img-guessthewebtoon/characters-icons/0abrutifini/char-0.png');
+    }*/
+
+
+
+
+// Fonction utilitaire pour récupérer un JSON et choisir une image aléatoire
+async function getRandomImageFromJson(jsonPath, folderPath) {
+    try {
+        const response = await fetch(jsonPath);
+        if (!response.ok) throw new Error(`Erreur chargement ${jsonPath}`);
+        const images = await response.json();
+        if (!images.length) throw new Error(`Aucune image dans ${jsonPath}`);
+
+        const randomIndex = Math.floor(Math.random() * images.length);
+        const imageName = images[randomIndex];
+        return `${folderPath}/${imageName}`;
+    } catch (error) {
+        console.error(error);
+        return null;  // fallback si erreur
     }
+}
+
+// Fonction async principale pour récupérer l'image selon le score
+async function selectCharacterImage(score) {
+    if (score === 10) {
+        return await getRandomImageFromJson(
+        '../RESSOURCES/data-json/characters-php/10trone.json',
+        '../RESSOURCES/img-guessthewebtoon/characters-icons/10trone'
+        );
+    } else if (score >= 6 && score <= 9) {
+        return await getRandomImageFromJson(
+        '../RESSOURCES/data-json/characters-php/9-6maitre.json',
+        '../RESSOURCES/img-guessthewebtoon/characters-icons/9-6maitre'
+        );
+    } else if (score === 5) {
+        return await getRandomImageFromJson(
+        '../RESSOURCES/data-json/characters-php/5paspersoprincipal.json',
+        '../RESSOURCES/img-guessthewebtoon/characters-icons/5paspersoprincipal'
+        );
+    } else if (score >= 1 && score <= 4) {
+        return await getRandomImageFromJson(
+        '../RESSOURCES/data-json/characters-php/4-1creatif.json',
+        '../RESSOURCES/img-guessthewebtoon/characters-icons/4-1creatif'
+        );
+    } else {
+        return await getRandomImageFromJson(
+        '../RESSOURCES/data-json/characters-php/0abrutifini.json',
+        '../RESSOURCES/img-guessthewebtoon/characters-icons/0abrutifini'
+        );
+    }
+}
 
     /* ---------------------------
     Crée une animation courte de confettis (éléments DOM + CSS keyframes)
@@ -396,7 +446,32 @@ document.addEventListener('DOMContentLoaded', () => {
     // Feedback
     const feedback = document.createElement('div');
     feedback.className = 'gtw-feedback';
+    feedback.setAttribute('role', 'status');        // accessibilité
+    feedback.setAttribute('aria-live', 'polite');   // pour lecteurs d'écran
     popup.appendChild(feedback);
+
+    // Helper : affiche un message au-dessus de la popup, annule l'affichage précédent si besoin
+    function showFeedbackMessage(message, duration = 1200) {
+        // annuler timer précédent si existant
+        if (feedback._timeoutId) {
+            clearTimeout(feedback._timeoutId);
+            feedback._timeoutId = null;
+        }
+
+        // mettre le texte et afficher
+        feedback.textContent = message;
+        feedback.classList.add('show');
+
+        // programmer la disparition
+        feedback._timeoutId = setTimeout(() => {
+            feedback.classList.remove('show');
+            feedback._timeoutId = null;
+        }, duration);
+    }
+
+
+
+
 
     // Ecran final (cache par défaut)
     const endScreen = document.createElement('div');
@@ -464,8 +539,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const isCorrect = String(opt.name).toLowerCase() === String(correctItem.name).toLowerCase();
 
+            // ancien :
+            /*
             feedback.textContent = isCorrect ? '🎉 Bonne réponse !' : '❌ Ce n’est pas ça...';
             feedback.classList.add('show');
+            */
+
+            // nouveau : utiliser la fonction
+            const message = isCorrect ? '🎉 Bonne réponse !' : '❌ Ce n’est pas ça...';
+            showFeedbackMessage(message, 1200);
+
+
+
 
             if (isCorrect) {
             gameState.streak++;
@@ -558,7 +643,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // mettre le petit personnage
         const charImg = endScreen.querySelector('.gtw-character');
-        charImg.src = selectCharacterImage(correctCount);
+        (async () => {
+            const imgPath = await selectCharacterImage(correctCount);
+            if(imgPath) {
+                charImg.src = resolveImagePath(imgPath);
+            }
+        })();
+        // charImg.src = selectCharacterImage(correctCount);
         charImg.alt = endMsg;
 
         // afficher endScreen
@@ -604,14 +695,21 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         newShare.addEventListener('click', () => {
+            const charImg = document.querySelector('.gtw-character');
             const shareText = `J'ai joué à Devine le Webtoon — ${correctCount}/${total} (${percent}%). Winstreak max: ${gameState.maxStreak}.`;
+
             if (navigator.share) {
-            navigator.share({ title: 'Devine le Webtoon', text: shareText }).catch(() => {});
+                navigator.share({
+                    title: 'Devine le Webtoon',
+                    text: shareText,
+                    url: charImg.src // lien direct vers l'image
+                }).catch(() => {});
             } else {
-            navigator.clipboard?.writeText(shareText);
-            alert('Score copié dans le presse-papiers (fallback).');
+                navigator.clipboard?.writeText(`${shareText}\n${charImg.src}`);
+                alert('Score + image copiés dans le presse-papiers (fallback).');
             }
         });
+
     }
 
 
@@ -627,7 +725,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /*
 prochaines étapes :
-
+- Confettis pop-up de victoire
+- Changer Les descriptions des webtoons
 - Faire en sorte que l'image à deviner soit bloqué à un certain nombre de pixels, qu'elle ne peut pas dépasser.
 - Mettre une image pour "partager" qui reprend exactement l'image de fin de jeu
 - Modifier mes messages quand j'ai trouvé ou non le bon titre, pour qu'il s'affiche centré au milieu de ma pop-up, avec une animation d'entrée et de sortie type "machine à écrire" (et qui aura donc aussi une animation de sortie type machine à écrire)
@@ -636,7 +735,9 @@ prochaines étapes :
 - Trouver une icône pour ma partie "mini-jeux" de mon site de webtoon
 - Son : quand le joueur clique sur une catégorie, et quand il clique sur "JOUER"
 - Régler problème de clé API visible.
+- Régler pb responsive pop-up tier-list webtoons
 - Vol affichage nb de chapitres en fr et en engl : 🇫🇷 70  🇬🇧 180
+- Faire un script qui convertit automatiquement mes fichiers en webp, à part s'ils sont déjà en avif
 
 Autour du plateau de jeu :
 - Motifs autour du plateau (bulles, effets de papier, cadres illustrés)
