@@ -220,19 +220,6 @@ document.addEventListener('DOMContentLoaded', () => {
     return "Tu viens de débloquer l’achievement : 'Je n’ai rien compris' 🏆";
     }
 
-    /* ---------------------------
-    Choisit l'image du petit personnage selon le score
-    (adapte les chemins si nécessaire)
-    --------------------------- */
-    /*function selectCharacterImage(score) {
-    if (score === 10) return resolveImagePath('../RESSOURCES/img-guessthewebtoon/characters-icons/10trone/char-10.png');
-    if (score >= 6 && score <= 9) return resolveImagePath('../RESSOURCES/img-guessthewebtoon/characters-icons/9-6maitre/char-9-6.png');
-    if (score === 5) return resolveImagePath('../RESSOURCES/img-guessthewebtoon/characters-icons/5paspersoprincipal/char-5.png');
-    if (score >= 1 && score <= 4) return resolveImagePath('../RESSOURCES/img-guessthewebtoon/characters-icons/4-1creatif/char-4-1.png');
-    return resolveImagePath('../RESSOURCES/img-guessthewebtoon/characters-icons/0abrutifini/char-0.png');
-    }*/
-
-
 
 
 // Fonction utilitaire pour récupérer un JSON et choisir une image aléatoire
@@ -257,27 +244,27 @@ async function selectCharacterImage(score) {
     if (score === 10) {
         return await getRandomImageFromJson(
         '../RESSOURCES/data-json/characters-php/10trone.json',
-        '../RESSOURCES/img-guessthewebtoon/characters-icons/10trone'
+        'RESSOURCES/img-guessthewebtoon/characters-icons/10trone'
         );
     } else if (score >= 6 && score <= 9) {
         return await getRandomImageFromJson(
         '../RESSOURCES/data-json/characters-php/9-6maitre.json',
-        '../RESSOURCES/img-guessthewebtoon/characters-icons/9-6maitre'
+        'RESSOURCES/img-guessthewebtoon/characters-icons/9-6maitre'
         );
     } else if (score === 5) {
         return await getRandomImageFromJson(
         '../RESSOURCES/data-json/characters-php/5paspersoprincipal.json',
-        '../RESSOURCES/img-guessthewebtoon/characters-icons/5paspersoprincipal'
+        'RESSOURCES/img-guessthewebtoon/characters-icons/5paspersoprincipal'
         );
     } else if (score >= 1 && score <= 4) {
         return await getRandomImageFromJson(
         '../RESSOURCES/data-json/characters-php/4-1creatif.json',
-        '../RESSOURCES/img-guessthewebtoon/characters-icons/4-1creatif'
+        'RESSOURCES/img-guessthewebtoon/characters-icons/4-1creatif'
         );
     } else {
         return await getRandomImageFromJson(
         '../RESSOURCES/data-json/characters-php/0abrutifini.json',
-        '../RESSOURCES/img-guessthewebtoon/characters-icons/0abrutifini'
+        'RESSOURCES/img-guessthewebtoon/characters-icons/0abrutifini'
         );
     }
 }
@@ -450,24 +437,61 @@ async function selectCharacterImage(score) {
     feedback.setAttribute('aria-live', 'polite');   // pour lecteurs d'écran
     popup.appendChild(feedback);
 
-    // Helper : affiche un message au-dessus de la popup, annule l'affichage précédent si besoin
-    function showFeedbackMessage(message, duration = 1200) {
+    // Helper : affiche un message au-dessus de la popup, annule l'affichage précédent si besoin    */
+    /**
+     * Affiche le feedback au-dessus de la popup.
+     * @param {string} message - Le texte à afficher
+     * @param {number} duration - durée en ms avant disparition
+     * @param {'success'|'error'|null} type - ajoute une classe de style .success ou .error (optionnel)
+     */
+    function showFeedbackMessage(message, duration = 1200, type = null) {
         // annuler timer précédent si existant
         if (feedback._timeoutId) {
             clearTimeout(feedback._timeoutId);
             feedback._timeoutId = null;
         }
 
-        // mettre le texte et afficher
-        feedback.textContent = message;
+        // retirer anciennes classes de type
+        feedback.classList.remove('success', 'error', 'white');
+
+        // définir le texte
+        feedback.textContent = '';
+
+        // si tu veux une icône à gauche, tu peux la créer ici
+        if (type === 'success') {
+            feedback.innerHTML = `<span class="fw-ico">✅</span>` + escapeHtml(message);
+        } else if (type === 'error') {
+            feedback.innerHTML = `<span class="fw-ico">❌</span>` + escapeHtml(message);
+        } else {
+            feedback.textContent = message;
+        }
+
+        // appliquer la classe de style si fournie
+        if (type === 'success') feedback.classList.add('success');
+        if (type === 'error') feedback.classList.add('error');
+
+        // optionnel : texte blanc si tu veux plus de contraste
+        // feedback.classList.add('white');
+
+        // montrer
         feedback.classList.add('show');
 
-        // programmer la disparition
+        // programmer la disparition et nettoyage des classes
         feedback._timeoutId = setTimeout(() => {
             feedback.classList.remove('show');
+            // nettoyer les classes de type après la transition (délais 320ms correspond au CSS)
+            setTimeout(() => {
+            feedback.classList.remove('success', 'error', 'white');
+            }, 340);
             feedback._timeoutId = null;
         }, duration);
     }
+
+    // helper simple pour éviter injections si message provient de l'extérieur
+    function escapeHtml(str) {
+        return String(str).replace(/[&<>"']/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[s]));
+    }
+
 
 
 
@@ -649,7 +673,6 @@ async function selectCharacterImage(score) {
                 charImg.src = resolveImagePath(imgPath);
             }
         })();
-        // charImg.src = selectCharacterImage(correctCount);
         charImg.alt = endMsg;
 
         // afficher endScreen

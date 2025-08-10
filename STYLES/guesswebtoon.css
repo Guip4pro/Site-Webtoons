@@ -478,7 +478,10 @@
 }
 
 
-/* Feedback : message qui s'affiche au-dessus de la popup, centré */
+
+
+
+/* FEEDBACK : message qui s'affiche au-dessus de la popup, centré */
 .gtw-feedback {
     position: absolute;
     top: 12.5em;                    /* placement vertical du message */
@@ -505,10 +508,41 @@
     opacity: 1;
 }
 
-/* Responsive : réduire la taille sur petits écrans et autoriser retour à la ligne */
-@media (max-width: 420px) {
-  .gtw-feedback { font-size: 0.95rem; white-space: normal; padding: 8px 10px; max-width: 90vw; }
+
+/* Feedback success / error */
+.gtw-feedback.success {
+  background: linear-gradient(180deg, #e6ffef, #dff8ea); /* léger vert */
+  color: #064b2a; /* texte sombre */
+  border: 1px solid rgba(6,75,42,0.12);
+  box-shadow: 0 8px 28px rgba(6,75,42,0.06);
 }
+
+.gtw-feedback.error {
+  background: linear-gradient(180deg, #ffe6e6, #ffdede); /* léger rouge */
+  color: #6b0b0b; /* texte sombre rouge foncé */
+  border: 1px solid rgba(107,11,11,0.12);
+  box-shadow: 0 8px 28px rgba(107,11,11,0.06);
+}
+
+/* Si tu veux du texte blanc plus contrasté */
+.gtw-feedback.success.white,
+.gtw-feedback.error.white {
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.12);
+}
+
+/* Petite icône à gauche (optionnel) */
+.gtw-feedback .fw-ico {
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+  font-size: 1.05rem;
+  opacity: 0.95;
+}
+
+
+
+
 
 
 /* 10) Bouton Valider */
@@ -715,7 +749,6 @@
     }
 }
 
-/* responsive */
 @media (max-width: 520px) {
     .gtw-end-grid { grid-template-columns: 96px 1fr; gap: 0.6rem; }
     .gtw-popup-game { padding: 1rem; max-width: 94%; }
@@ -724,7 +757,10 @@
 }
 
 
-
+/* réduire la taille sur petits écrans et autoriser retour à la ligne */
+@media (max-width: 420px) {
+  .gtw-feedback { font-size: 0.95rem; white-space: normal; padding: 8px 10px; max-width: 90vw; }
+}
 
 
 
