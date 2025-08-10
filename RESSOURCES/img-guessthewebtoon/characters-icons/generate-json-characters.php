@@ -1,7 +1,6 @@
 <?php
 /**
- * Script PHP pour générer des fichiers JSON listant les images
- * pour chaque dossier d'images.
+ * Script PHP pour générer des fichiers JSON listant les images pour chaque dossier d'images.
  * 
  * Arborescence des dossiers (par rapport à ce fichier PHP) :
  *  - ./10trone
@@ -11,6 +10,8 @@
  *  - ./0abrutifini
  * 
  * Les fichiers JSON seront générés dans ../../data-json
+ * 
+ * Script à lancer dans le terminal dans le bon dossier : php generate-json-characters.php
  */
 
 // Liste des dossiers à analyser
@@ -26,7 +27,7 @@ $folders = [
 $allowedExtensions = ['jpeg', 'jpg', 'png', 'webp', 'avif'];
 
 // Chemin du dossier de sortie pour les JSON
-$outputDir = __DIR__ . '/../../data-json';
+$outputDir = __DIR__ . '/../../data-json/characters-php';
 
 // S'assurer que le dossier de sortie existe
 if (!is_dir($outputDir)) {
