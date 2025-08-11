@@ -556,17 +556,6 @@ async function selectCharacterImage(score) {
 
             const isCorrect = String(opt.name).toLowerCase() === String(correctItem.name).toLowerCase();
 
-            // ancien :
-            /*
-            feedback.textContent = isCorrect ? '🎉 Bonne réponse !' : '❌ Ce n’est pas ça...';
-            feedback.classList.add('show');
-            
-
-            nouveau : utiliser la fonction
-            const message = isCorrect ? '🎉 Bonne réponse !' : '❌ Ce n’est pas ça...';
-            showFeedbackMessage(message, 1200);
-            */
-
             if (isCorrect) {
                 showFeedbackMessage('🎉 Bonne réponse !', 1200, 'success');
             } else {
@@ -574,8 +563,6 @@ async function selectCharacterImage(score) {
                 // optionnel : vibration courte sur mobile
                 if (navigator.vibrate) navigator.vibrate(80);
             }
-
-
 
 
 
@@ -720,21 +707,54 @@ async function selectCharacterImage(score) {
             loadNextQuestion();
         });
 
-        newShare.addEventListener('click', () => {
-            const charImg = document.querySelector('.gtw-character');
-            const shareText = `J'ai joué à Devine le Webtoon — ${correctCount}/${total} (${percent}%). Winstreak max: ${gameState.maxStreak}.`;
+        newShare.addEventListener('click', async () => {
+            const popup = document.querySelector('.gtw-popup-game'); // ou .gtw-overlay-game selon le cas
 
-            if (navigator.share) {
-                navigator.share({
-                    title: 'Devine le Webtoon',
-                    text: shareText,
-                    url: charImg.src // lien direct vers l'image
-                }).catch(() => {});
-            } else {
-                navigator.clipboard?.writeText(`${shareText}\n${charImg.src}`);
-                alert('Score + image copiés dans le presse-papiers (fallback).');
+            // 1. Charger html2canvas (si pas déjà inclus)
+            if (typeof html2canvas === 'undefined') {
+                await loadHtml2Canvas();
             }
+
+            // 2. Capturer en image
+            html2canvas(popup).then(canvas => {
+                canvas.toBlob(async blob => {
+                    const file = new File([blob], "resultat-webtoon.png", { type: "image/png" });
+
+                    const shareText = `J'ai joué à Devine le Webtoon — ${correctCount}/${total} (${percent}%). Winstreak max: ${gameState.maxStreak}.`;
+
+                    // 3. Si API de partage avec fichiers dispo
+                    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+                        navigator.share({
+                            title: 'Devine le Webtoon',
+                            text: shareText,
+                            files: [file]
+                        }).catch(() => {});
+                    } else {
+                        // Fallback → téléchargement direct
+                        const url = URL.createObjectURL(file);
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.download = "resultat-webtoon.png";
+                        a.click();
+                        URL.revokeObjectURL(url);
+                        alert("Image téléchargée (partage direct non supporté sur ton navigateur)");
+                    }
+                });
+            });
         });
+
+        // Petit helper pour charger html2canvas dynamiquement
+        function loadHtml2Canvas() {
+            return new Promise((resolve, reject) => {
+                const script = document.createElement('script');
+                    // Lib js qui pgotographie un élément html et le convertit en canvas
+                script.src = "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js";
+                script.onload = resolve;
+                script.onerror = reject;
+                document.body.appendChild(script);
+            });
+        }
+
 
     }
 
@@ -751,17 +771,14 @@ async function selectCharacterImage(score) {
 
 /*
 prochaines étapes :
-- Confettis pop-up de victoire
 - Mettre une image pour "partager" qui reprend exactement l'image de fin de jeu
+- Propositions aux contours vert mais au fond orangée
 - Animation sobre et douce rouge sur la case où le joueur s'est trompée, et verte sur la case où la case de la bonne réponse. Ne pas oublier de mettre aussi une animation douce et sobre verte sur la case de la bonne réponse, quand l'utilisateur s'est trompée de case.
+- Régler pb responsive pop-up tier-list webtoons
 - Son : quand le joueur clique sur une catégorie, et quand il clique sur "JOUER"
 - Régler problème de clé API visible.
-- Régler pb responsive pop-up tier-list webtoons
 - Vol affichage nb de chapitres en fr et en engl : 🇫🇷 70  🇬🇧 180
-- Faire un script qui convertit automatiquement mes fichiers en webp, à part s'ils sont déjà en avif
-
-Autour du plateau de jeu :
-- Motifs autour du plateau (bulles, effets de papier, cadres illustrés)
+- Faire un script qui convertit automatiquement mes fichiers en webp, à part s'ils sont déjà en avif ou en gif
 
 
 AUTRE :
@@ -771,5 +788,8 @@ AUTRE :
 MOTS DE VOCABULAIRE :
 Images :
 - Fluide, raffinée, élégante, sobre, épurée, claire, douce (smooth)
+
+PROJETS FUTURS :
+- Projet de site qui convertit et compresse des images
 
 */
