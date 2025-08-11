@@ -4,7 +4,7 @@ import json
 # Dossier source des images
 BASE_DIR = "RESSOURCES/img-guessthewebtoon/cover"
 # Dossier de sortie pour les JSON
-OUTPUT_DIR = "RESSOURCES/json-guessthewebtoon"
+OUTPUT_DIR = "RESSOURCES/data-json/guess-webtoon-py"
 
 # Crée le dossier de sortie s'il n'existe pas
 os.makedirs(OUTPUT_DIR, exist_ok=True)

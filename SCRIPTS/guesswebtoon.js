@@ -314,7 +314,7 @@ async function selectCharacterImage(score) {
     --------------------------- */
     async function startGuessTheWebtoonGame(difficulty = 'facile') {
     const diffKey = String(difficulty).toLowerCase();
-    const filePath = `../RESSOURCES/json-guessthewebtoon/cover-${diffKey}.json`;
+    const filePath = `../RESSOURCES/data-json/guess-webtoon-py/cover-${diffKey}.json`;
 
     if (document.querySelector('.gtw-overlay-game')) {
         console.warn('Le jeu est déjà en cours.');
@@ -457,14 +457,7 @@ async function selectCharacterImage(score) {
         // définir le texte
         feedback.textContent = '';
 
-        // si tu veux une icône à gauche, tu peux la créer ici
-        if (type === 'success') {
-            feedback.innerHTML = `<span class="fw-ico">✅</span>` + escapeHtml(message);
-        } else if (type === 'error') {
-            feedback.innerHTML = `<span class="fw-ico">❌</span>` + escapeHtml(message);
-        } else {
-            feedback.textContent = message;
-        }
+        feedback.textContent = message;
 
         // appliquer la classe de style si fournie
         if (type === 'success') feedback.classList.add('success');
@@ -567,11 +560,21 @@ async function selectCharacterImage(score) {
             /*
             feedback.textContent = isCorrect ? '🎉 Bonne réponse !' : '❌ Ce n’est pas ça...';
             feedback.classList.add('show');
-            */
+            
 
-            // nouveau : utiliser la fonction
+            nouveau : utiliser la fonction
             const message = isCorrect ? '🎉 Bonne réponse !' : '❌ Ce n’est pas ça...';
             showFeedbackMessage(message, 1200);
+            */
+
+            if (isCorrect) {
+                showFeedbackMessage('🎉 Bonne réponse !', 1200, 'success');
+            } else {
+                showFeedbackMessage('❌ Ce n’est pas ça...', 1400, 'error');
+                // optionnel : vibration courte sur mobile
+                if (navigator.vibrate) navigator.vibrate(80);
+            }
+
 
 
 
@@ -749,13 +752,8 @@ async function selectCharacterImage(score) {
 /*
 prochaines étapes :
 - Confettis pop-up de victoire
-- Changer Les descriptions des webtoons
-- Faire en sorte que l'image à deviner soit bloqué à un certain nombre de pixels, qu'elle ne peut pas dépasser.
 - Mettre une image pour "partager" qui reprend exactement l'image de fin de jeu
-- Modifier mes messages quand j'ai trouvé ou non le bon titre, pour qu'il s'affiche centré au milieu de ma pop-up, avec une animation d'entrée et de sortie type "machine à écrire" (et qui aura donc aussi une animation de sortie type machine à écrire)
-- Webtoon The Boxer enlever le titre au milieu de l'image. Wind breaker qui ne s'affiche pas
 - Animation sobre et douce rouge sur la case où le joueur s'est trompée, et verte sur la case où la case de la bonne réponse. Ne pas oublier de mettre aussi une animation douce et sobre verte sur la case de la bonne réponse, quand l'utilisateur s'est trompée de case.
-- Trouver une icône pour ma partie "mini-jeux" de mon site de webtoon
 - Son : quand le joueur clique sur une catégorie, et quand il clique sur "JOUER"
 - Régler problème de clé API visible.
 - Régler pb responsive pop-up tier-list webtoons
