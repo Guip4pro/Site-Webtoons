@@ -1,3 +1,18 @@
+:root{
+  --gtw-hover-bg: #f0e6d6;  /* choices */
+  --gtw-hover-border: gold;
+
+  --gtw-correct-bg: linear-gradient(180deg,#e8fbef,#f3fff8);
+  --gtw-correct-border: rgba(46,204,113,0.26);
+  --gtw-correct-color: #0b6b3a;
+
+  --gtw-incorrect-bg: linear-gradient(180deg,#ffecec,#ffe3e3);
+  --gtw-incorrect-border: rgba(231,76,60,0.22);
+  --gtw-incorrect-color: #7a1a1a;
+}
+
+
+
 .accordion-container {
     width: 50%;
     max-width: 600px;
@@ -449,33 +464,64 @@
 
 
 
-/* 8) Choix QCM */
+
+/* 8) Choix QCM - base */
 .gtw-choices {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
-    gap: 0.6rem;
-    margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.6rem;
+  margin-bottom: 1rem;
 }
 
 .gtw-choice {
-    padding: 0.8rem;
-    background: #fff;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.2s, border-color 0.2s;
-    text-align: center; /* centrer le texte */
+  padding: 0.8rem;
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 220ms ease, border-color 220ms ease, box-shadow 180ms ease, transform 180ms ease, color 180ms ease;
+  /* garde la cohérence visuelle */
 }
 
-.gtw-choice:hover {
-    background: #f0e6d6;
-    border-color: gold;
+/* hover uniquement pour les choix non marqués */
+.gtw-choice:not(.correct):not(.incorrect):hover {
+  background: var(--gtw-hover-bg);
+  border-color: var(--gtw-hover-border);
 }
 
-/* mettre en avant le choix sélectionné */
-.gtw-choice.selected {
-    border-color: #4caf50;
+/* état correct : fond vert clair, bordure verte douce */
+.gtw-choice.correct {
+  background: var(--gtw-correct-bg);
+  border-color: var(--gtw-correct-border);
+  color: var(--gtw-correct-color);
+  box-shadow: 0 6px 14px rgba(46,204,113,0.14);
 }
+
+/* état incorrect : fond rouge clair, bordure rouge douce */
+.gtw-choice.incorrect {
+  background: var(--gtw-incorrect-bg);
+  border-color: var(--gtw-incorrect-border);
+  color: var(--gtw-incorrect-color);
+  box-shadow: 0 6px 14px rgba(231,76,60,0.12);
+}
+
+/* style quand tous les choix sont déjà répondus (optionnel mais propre) */
+.gtw-choices.answered .gtw-choice:not(.correct):not(.incorrect) {
+  opacity: 0.78;
+  transform: scale(0.995);
+}
+
+/* disabled look */
+.gtw-choice:disabled {
+  cursor: default;
+  filter: saturate(0.98);
+}
+
+
+
+
+
 
 
 
@@ -709,18 +755,7 @@
     box-shadow: 0 10px 26px rgba(0,0,0,0.10); 
 }
 
-/* Style des choix */
-.gtw-choice { 
-    transition: transform 0.18s ease, box-shadow 0.18s; 
-}
-.gtw-choice.correct { 
-    box-shadow: 0 6px 14px rgba(46,204,113,0.14); 
-    border-color: rgba(46,204,113,0.26); 
-}
-.gtw-choice.incorrect { 
-    box-shadow: 0 6px 14px rgba(231,76,60,0.12); 
-    border-color: rgba(231,76,60,0.22); 
-}
+
 
 
 

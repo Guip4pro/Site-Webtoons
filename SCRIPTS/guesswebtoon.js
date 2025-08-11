@@ -567,14 +567,16 @@ async function selectCharacterImage(score) {
 
 
             if (isCorrect) {
-            gameState.streak++;
-            gameState.maxStreak = Math.max(gameState.maxStreak, gameState.streak);
-            gameState.correctCount++;
-            btn.classList.add('correct');
+                gameState.streak++;
+                gameState.maxStreak = Math.max(gameState.maxStreak, gameState.streak);
+                gameState.correctCount++;
+                btn.classList.add('correct');
             } else {
-            gameState.streak = 0;
-            btn.classList.add('incorrect');
-            if (navigator.vibrate) navigator.vibrate(100);
+                gameState.streak = 0;
+                btn.classList.add('incorrect');
+                // montrer que la question a été répondue (pour atténuer les autres choix)
+                choicesContainer.classList.add('answered');
+                if (navigator.vibrate) navigator.vibrate(100);
             }
 
             // update scoreboard values
@@ -591,18 +593,19 @@ async function selectCharacterImage(score) {
             choicesContainer.querySelectorAll('.gtw-choice').forEach(b => b.disabled = true);
 
             setTimeout(() => {
-            feedback.classList.remove('show');
-            choicesContainer.querySelectorAll('.gtw-choice').forEach(b => {
-                b.classList.remove('correct', 'incorrect');
-                b.disabled = false;
-            });
+                feedback.classList.remove('show');
+                choicesContainer.querySelectorAll('.gtw-choice').forEach(b => {
+                    b.classList.remove('correct', 'incorrect');
+                    b.disabled = false;
+                });
+                choicesContainer.classList.remove('answered');
 
-            if (gameState.current > gameState.total) {
-                showEndScreen();
-            } else {
-                loadNextQuestion();
-            }
-            }, 1200);
+                if (gameState.current > gameState.total) {
+                    showEndScreen();
+                } else {
+                    loadNextQuestion();
+                }
+                }, 1200);
         });
 
         choicesContainer.appendChild(btn);
@@ -771,11 +774,11 @@ async function selectCharacterImage(score) {
 
 /*
 prochaines étapes :
-- Mettre une image pour "partager" qui reprend exactement l'image de fin de jeu
 - Propositions aux contours vert mais au fond orangée
 - Animation sobre et douce rouge sur la case où le joueur s'est trompée, et verte sur la case où la case de la bonne réponse. Ne pas oublier de mettre aussi une animation douce et sobre verte sur la case de la bonne réponse, quand l'utilisateur s'est trompée de case.
 - Régler pb responsive pop-up tier-list webtoons
 - Son : quand le joueur clique sur une catégorie, et quand il clique sur "JOUER"
+- Ajouter images new catégorie
 - Régler problème de clé API visible.
 - Vol affichage nb de chapitres en fr et en engl : 🇫🇷 70  🇬🇧 180
 - Faire un script qui convertit automatiquement mes fichiers en webp, à part s'ils sont déjà en avif ou en gif
