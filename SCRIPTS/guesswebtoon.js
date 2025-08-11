@@ -548,6 +548,7 @@ async function selectCharacterImage(score) {
         const btn = document.createElement('button');
         btn.className = 'gtw-choice';
         btn.textContent = formatTitle(opt.name);
+        btn.dataset.value = String(opt.name).toLowerCase();
         btn.disabled = false;
 
         btn.addEventListener('click', () => {
@@ -571,9 +572,21 @@ async function selectCharacterImage(score) {
                 gameState.maxStreak = Math.max(gameState.maxStreak, gameState.streak);
                 gameState.correctCount++;
                 btn.classList.add('correct');
+                // Marquer aussi le bon bouton vert (au cas où c’est pas celui cliqué)
+                choicesContainer.querySelectorAll('.gtw-choice').forEach(b => {
+                    if (b.dataset.value === String(correctItem.name).toLowerCase()) {
+                        b.classList.add('correct');
+                    }
+                });
             } else {
                 gameState.streak = 0;
                 btn.classList.add('incorrect');
+                // Afficher la bonne réponse immédiatement aussi
+                choicesContainer.querySelectorAll('.gtw-choice').forEach(b => {
+                    if (b.dataset.value === String(correctItem.name).toLowerCase()) {
+                        b.classList.add('correct');
+                    }
+                });
                 // montrer que la question a été répondue (pour atténuer les autres choix)
                 choicesContainer.classList.add('answered');
                 if (navigator.vibrate) navigator.vibrate(100);
@@ -774,7 +787,6 @@ async function selectCharacterImage(score) {
 
 /*
 prochaines étapes :
-- Propositions aux contours vert mais au fond orangée
 - Animation sobre et douce rouge sur la case où le joueur s'est trompée, et verte sur la case où la case de la bonne réponse. Ne pas oublier de mettre aussi une animation douce et sobre verte sur la case de la bonne réponse, quand l'utilisateur s'est trompée de case.
 - Régler pb responsive pop-up tier-list webtoons
 - Son : quand le joueur clique sur une catégorie, et quand il clique sur "JOUER"

@@ -4,10 +4,6 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/-genius-archer's-streaming.jpg"
     },
     {
-        "name": "-the-player-hides-his-past - Copie",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/-the-player-hides-his-past - Copie.jpg"
-    },
-    {
         "name": "-the-player-hides-his-past",
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/-the-player-hides-his-past.webp"
     },
@@ -24,8 +20,8 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/entomologist-in-sichuan-tang-clan.jpg"
     },
     {
-        "name": "I'm-Going-to-Destroy-This-Country - Copie",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/I'm-Going-to-Destroy-This-Country - Copie.jpg"
+        "name": "hand-over-the-money",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/hand-over-the-money.avif"
     },
     {
         "name": "I'm-Going-to-Destroy-This-Country",
@@ -36,12 +32,12 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/juvenile-law.jpg"
     },
     {
-        "name": "Legendary-Blacksmith's-Vengeance - Copie",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/Legendary-Blacksmith's-Vengeance - Copie.jpg"
-    },
-    {
         "name": "Legendary-Blacksmith's-Vengeance",
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/Legendary-Blacksmith's-Vengeance.webp"
+    },
+    {
+        "name": "lightning-degree",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/lightning-degree.webp"
     },
     {
         "name": "Master-Villainess-the-Invincible",
@@ -50,6 +46,10 @@
     {
         "name": "necromancer-academy-and-the-genius-summoner",
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/necromancer-academy-and-the-genius-summoner.jpg"
+    },
+    {
+        "name": "raising-hell",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/raising-hell.webp"
     },
     {
         "name": "reincarnation-of-the-warrior-party-archmage",
@@ -88,12 +88,12 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/The-Reincarnated-Assassin-Is-a-Genius-Swordsman.webp"
     },
     {
-        "name": "the-return-of-the-frozen-player - Copie",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-return-of-the-frozen-player - Copie.jpg"
-    },
-    {
         "name": "the-return-of-the-frozen-player",
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-return-of-the-frozen-player.webp"
+    },
+    {
+        "name": "the-strong-man-from-the-mental-hospital",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-strong-man-from-the-mental-hospital.webp"
     },
     {
         "name": "valhalla-saga",

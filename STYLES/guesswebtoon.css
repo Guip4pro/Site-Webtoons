@@ -467,58 +467,63 @@
 
 /* 8) Choix QCM - base */
 .gtw-choices {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.6rem;
-  margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+    margin-bottom: 1rem;
 }
 
 .gtw-choice {
-  padding: 0.8rem;
-  background: #fff;
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  cursor: pointer;
-  text-align: center;
-  transition: background 220ms ease, border-color 220ms ease, box-shadow 180ms ease, transform 180ms ease, color 180ms ease;
-  /* garde la cohérence visuelle */
+    padding: 0.8rem;
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 220ms ease, border-color 220ms ease, box-shadow 180ms ease, transform 180ms ease, color 180ms ease;
+    /* garde la cohérence visuelle */
 }
 
 /* hover uniquement pour les choix non marqués */
 .gtw-choice:not(.correct):not(.incorrect):hover {
-  background: var(--gtw-hover-bg);
-  border-color: var(--gtw-hover-border);
+    background: var(--gtw-hover-bg);
+    border-color: var(--gtw-hover-border);
 }
 
 /* état correct : fond vert clair, bordure verte douce */
 .gtw-choice.correct {
-  background: var(--gtw-correct-bg);
-  border-color: var(--gtw-correct-border);
-  color: var(--gtw-correct-color);
-  box-shadow: 0 6px 14px rgba(46,204,113,0.14);
+    background: var(--gtw-correct-bg);
+    border-color: var(--gtw-correct-border);
+    color: var(--gtw-correct-color);
+    box-shadow: 0 6px 14px rgba(46,204,113,0.14);
 }
 
 /* état incorrect : fond rouge clair, bordure rouge douce */
 .gtw-choice.incorrect {
-  background: var(--gtw-incorrect-bg);
-  border-color: var(--gtw-incorrect-border);
-  color: var(--gtw-incorrect-color);
-  box-shadow: 0 6px 14px rgba(231,76,60,0.12);
+    background: var(--gtw-incorrect-bg);
+    border-color: var(--gtw-incorrect-border);
+    color: var(--gtw-incorrect-color);
+    box-shadow: 0 6px 14px rgba(231,76,60,0.12);
+    animation: gtw-pulse 420ms cubic-bezier(.2,.9,.2,1);
 }
 
 /* style quand tous les choix sont déjà répondus (optionnel mais propre) */
 .gtw-choices.answered .gtw-choice:not(.correct):not(.incorrect) {
-  opacity: 0.78;
-  transform: scale(0.995);
+    opacity: 0.78;
+    transform: scale(0.995);
 }
 
 /* disabled look */
 .gtw-choice:disabled {
-  cursor: default;
-  filter: saturate(0.98);
+    cursor: default;
+    filter: saturate(0.98);
 }
 
-
+@keyframes gtw-pulse {
+    0% { transform: scale(0.985); box-shadow: 0 4px 10px rgba(46,204,113,0.06); }
+    60% { transform: scale(1.02); }
+    100% { transform: scale(1); }
+}
 
 
 
