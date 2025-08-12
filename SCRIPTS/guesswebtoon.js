@@ -8,6 +8,8 @@ function startGuessTheWebtoon() {
     document.getElementById('leaderboard-section').classList.add('hidden');
     const ScrollAccordion = document.querySelector('.accordion-container');
     ScrollAccordion.classList.toggle('hidden');
+
+    alert("Catégories opérationnelles : COVER")
         // API pour centrer le plateau de jeu
     ScrollAccordion.scrollIntoView({
         behavior: 'smooth',   // défilement animé
@@ -38,37 +40,50 @@ function startGuessTheWebtoon() {
     }
 }
 
-/*console.log('guesswebtoon.js chargé — startGuessTheWebtoon:', typeof startGuessTheWebtoon);
-window.startGuessTheWebtoon = startGuessTheWebtoon; */// exposer
-
 
 // Accordéons principaux
 const accordions = document.querySelectorAll('.accordion');
+
 accordions.forEach((acc) => {
+    // sauvegarder le label original (évite les slice fragile)
+    const label = acc.textContent.trim();
+    acc.dataset.label = label;
+
     // Ajout de la flèche initiale
-    acc.textContent = `▸ ${acc.textContent.trim()}`;
+    acc.textContent = `▸ ${label}`;
 
     acc.addEventListener('click', () => {
         acc.classList.toggle('active');
         const panel = acc.nextElementSibling;
         const isOpen = panel.style.display === 'flex';
 
+        // toggle visuel
         panel.style.display = isOpen ? 'none' : 'flex';
-        acc.textContent = isOpen ? `▸ ${acc.textContent.slice(2).trim()}` : `▾ ${acc.textContent.slice(2).trim()}`;
+        acc.textContent = isOpen ? `▸ ${acc.dataset.label}` : `▾ ${acc.dataset.label}`;
+
+        // si on vient d'ouvrir, scroller pour centrer l'accordion
+        if (!isOpen) {
+        acc.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center',
+            inline: 'nearest'
+        });
+        }
     });
 });
+
 
 // Sous-accordéons
 const subAccordions = document.querySelectorAll('.sub-accordion');
 
 subAccordions.forEach((accordion) => {
-  accordion.addEventListener('click', () => {
-    accordion.classList.toggle('active');
-    const panel = accordion.nextElementSibling;
-    if (panel) {
-      panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
-    }
-  });
+    accordion.addEventListener('click', () => {
+        accordion.classList.toggle('active');
+        const panel = accordion.nextElementSibling;
+        if (panel) {
+        panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
+        }
+    });
 });
 
 
@@ -326,493 +341,497 @@ async function selectCharacterImage(score) {
     Fonction principale : démarre / instancie le jeu
     --------------------------- */
     async function startGuessTheWebtoonGame(difficulty = 'facile') {
-    const diffKey = String(difficulty).toLowerCase();
-    const filePath = `../RESSOURCES/data-json/guess-webtoon-py/cover-${diffKey}.json`;
+        const diffKey = String(difficulty).toLowerCase();
+        const filePath = `../RESSOURCES/data-json/guess-webtoon-py/cover-${diffKey}.json`;
 
-    if (document.querySelector('.gtw-overlay-game')) {
-        console.warn('Le jeu est déjà en cours.');
-        return;
-    }
-
-    // Chargement JSON
-    let data;
-    try {
-        const res = await fetch(filePath);
-        if (!res.ok) throw new Error(`Erreur HTTP ${res.status} - ${res.statusText}`);
-        data = await res.json();
-    } catch (err) {
-        console.error('Erreur de chargement du JSON :', err);
-        alert("Impossible de charger les questions pour cette catégorie. Vérifie le chemin du JSON.");
-        return;
-    }
-
-    if (!Array.isArray(data) || data.length < 1) {
-        console.error('JSON vide ou mal formé');
-        alert('Pas de données disponibles pour cette catégorie.');
-        return;
-    }
-
-    // État du jeu
-    const gameState = {
-        difficulty: diffKey,
-        data: data,
-        remaining: Array.from({ length: data.length }, (_, i) => i),
-        total: Math.min(10, data.length),
-        current: 1,
-        streak: 0,
-        maxStreak: 0,
-        correctCount: 0,
-        answered: false
-    };
-
-    const goodSound = new Audio('../RESSOURCES/sounds/beep-6-96243.mp3');
-    const badSound = new Audio('../RESSOURCES/sounds/476177__unadamlar__wrong-choice.wav');
-    const btnJouerSound = new Audio('../RESSOURCES/sounds/transition-base-new.m4a');    // btn jouer / rejouer notification-beep-229154.mp3
-    const endWinSound = new Audio('../RESSOURCES/sounds/brass-new-level-151765.mp3');    // Pop-up de fin de jeu
-    const endLooseSound = new Audio('../RESSOURCES/sounds/656394__nikos34__select-2.wav');    // Pop-up de fin de jeu
-    const shareSound = new Audio ('../RESSOURCES/sounds/share-sound.m4a');   // Btn partager
-
-
-
-    // Création de l'UI
-    const overlay = document.createElement('div');
-    overlay.className = 'gtw-overlay-game';
-
-    const popup = document.createElement('div');
-    popup.className = 'gtw-popup-game';
-
-    // Header (le h2 sera mis à jour dynamiquement)
-    const header = document.createElement('div');
-    header.className = 'gtw-header';
-    header.innerHTML = `
-        <h2 class="gtw-title">Devine le Webtoon</h2>
-        <span class="gtw-close" title="Fermer">&times;</span>
-    `;
-    popup.appendChild(header);
-
-    header.querySelector('.gtw-close').addEventListener('click', () => {
-        document.body.removeChild(overlay);
-    });
-
-    // Difficulty display (on garde visible également à l'écran final)
-    const diffBox = document.createElement('div');
-    diffBox.className = `gtw-difficulty gtw-${gameState.difficulty}`;
-    diffBox.textContent = `Difficulté : ${formatTitle(gameState.difficulty)}`;
-    popup.appendChild(diffBox);
-
-    // Scoreboard (NE PAS toucher la structure, on la garde)
-    const board = document.createElement('div');
-    board.className = 'gtw-scoreboard';
-    board.innerHTML = `
-        <div class="gtw-progress"><div class="gtw-progress-bar" style="width:0%"></div></div>
-        <div class="gtw-info">Question 1/${gameState.total}</div>
-        <div class="gtw-streak">🔥 Streak : <span>0</span></div>
-    `;
-    popup.appendChild(board);
-
-    // Image mystère
-    const img = document.createElement('img');
-    img.className = 'gtw-question-image';
-    img.id = 'gtw-image';
-    img.alt = 'Image mystère';
-    popup.appendChild(img);
-
-    // Modal (si tu utilises les ids existants dans ta page)
-    const modal = document.getElementById("gtw-image-modal");
-    const modalImg = document.getElementById("gtw-modal-img");
-    const closeBtn = document.querySelector(".gtw-close-modal");
-    const uploadInput = document.getElementById("gtw-upload");
-
-    if (modal && modalImg && closeBtn && uploadInput) {
-        img.onclick = function() {
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        };
-        closeBtn.onclick = function() {
-        modal.style.display = "none";
-        };
-        modal.onclick = function(e) {
-        if (e.target === modal) modal.style.display = "none";
-        };
-        uploadInput.addEventListener("change", function(e) {
-        const file = e.target.files[0];
-        if (file) {
-            const reader = new FileReader();
-            reader.onload = function(evt) {
-            img.src = evt.target.result;
-            modalImg.src = evt.target.result;
-            };
-            reader.readAsDataURL(file);
+        if (document.querySelector('.gtw-overlay-game')) {
+            console.warn('Le jeu est déjà en cours.');
+            return;
         }
+
+        // Chargement JSON
+        let data;
+        try {
+            const res = await fetch(filePath);
+            if (!res.ok) throw new Error(`Erreur HTTP ${res.status} - ${res.statusText}`);
+            data = await res.json();
+        } catch (err) {
+            console.error('Erreur de chargement du JSON :', err);
+            alert("Impossible de charger les questions pour cette catégorie. Vérifie le chemin du JSON.");
+            return;
+        }
+
+        if (!Array.isArray(data) || data.length < 1) {
+            console.error('JSON vide ou mal formé');
+            alert('Pas de données disponibles pour cette catégorie.');
+            return;
+        }
+
+        // État du jeu
+        const gameState = {
+            difficulty: diffKey,
+            data: data,
+            remaining: Array.from({ length: data.length }, (_, i) => i),
+            total: Math.min(10, data.length),
+            current: 1,
+            streak: 0,
+            maxStreak: 0,
+            correctCount: 0,
+            answered: false
+        };
+
+        const goodSound = new Audio('../RESSOURCES/sounds/beep-6-96243.mp3');
+        const badSound = new Audio('../RESSOURCES/sounds/476177__unadamlar__wrong-choice.wav');
+        const btnJouerSound = new Audio('../RESSOURCES/sounds/transition-base-new.m4a');    // btn jouer / rejouer notification-beep-229154.mp3
+        const endWinSound = new Audio('../RESSOURCES/sounds/brass-new-level-151765.mp3');    // Pop-up de fin de jeu
+        const endLooseSound = new Audio('../RESSOURCES/sounds/656394__nikos34__select-2.wav');    // Pop-up de fin de jeu
+        const shareSound = new Audio ('../RESSOURCES/sounds/share-sound.m4a');   // Btn partager
+
+
+
+        // Création de l'UI
+        const overlay = document.createElement('div');
+        overlay.className = 'gtw-overlay-game';
+
+        const popup = document.createElement('div');
+        popup.className = 'gtw-popup-game';
+
+        // Header (le h2 sera mis à jour dynamiquement)
+        const header = document.createElement('div');
+        header.className = 'gtw-header';
+        header.innerHTML = `
+            <h2 class="gtw-title">Devine le Webtoon</h2>
+            <span class="gtw-close" title="Fermer">&times;</span>
+        `;
+        popup.appendChild(header);
+
+        header.querySelector('.gtw-close').addEventListener('click', () => {
+            document.body.removeChild(overlay);
         });
-    }
 
-    // Conteneur choix
-    const choicesContainer = document.createElement('div');
-    choicesContainer.className = 'gtw-choices';
-    popup.appendChild(choicesContainer);
+        // Difficulty display (on garde visible également à l'écran final)
+        const diffBox = document.createElement('div');
+        diffBox.className = `gtw-difficulty gtw-${gameState.difficulty}`;
+        diffBox.textContent = `Difficulté : ${formatTitle(gameState.difficulty)}`;
+        popup.appendChild(diffBox);
 
-    // Feedback
-    const feedback = document.createElement('div');
-    feedback.className = 'gtw-feedback';
-    feedback.setAttribute('role', 'status');        // accessibilité
-    feedback.setAttribute('aria-live', 'polite');   // pour lecteurs d'écran
-    popup.appendChild(feedback);
+        // Scoreboard (NE PAS toucher la structure, on la garde)
+        const board = document.createElement('div');
+        board.className = 'gtw-scoreboard';
+        board.innerHTML = `
+            <div class="gtw-progress"><div class="gtw-progress-bar" style="width:0%"></div></div>
+            <div class="gtw-info">Question 1/${gameState.total}</div>
+            <div class="gtw-streak">🔥 Streak : <span>0</span></div>
+        `;
+        popup.appendChild(board);
 
-    // Helper : affiche un message au-dessus de la popup, annule l'affichage précédent si besoin    */
-    /**
-     * Affiche le feedback au-dessus de la popup.
-     * @param {string} message - Le texte à afficher
-     * @param {number} duration - durée en ms avant disparition
-     * @param {'success'|'error'|null} type - ajoute une classe de style .success ou .error (optionnel)
-     */
-    function showFeedbackMessage(message, duration = 1200, type = null) {
-        // annuler timer précédent si existant
-        if (feedback._timeoutId) {
-            clearTimeout(feedback._timeoutId);
-            feedback._timeoutId = null;
+        // Image mystère
+        const img = document.createElement('img');
+        img.className = 'gtw-question-image';
+        img.id = 'gtw-image';
+        img.alt = 'Image mystère';
+        popup.appendChild(img);
+
+        // Modal (si tu utilises les ids existants dans ta page)
+        const modal = document.getElementById("gtw-image-modal");
+        const modalImg = document.getElementById("gtw-modal-img");
+        const closeBtn = document.querySelector(".gtw-close-modal");
+        const uploadInput = document.getElementById("gtw-upload");
+
+        if (modal && modalImg && closeBtn && uploadInput) {
+            img.onclick = function() {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            };
+            closeBtn.onclick = function() {
+            modal.style.display = "none";
+            };
+            modal.onclick = function(e) {
+            if (e.target === modal) modal.style.display = "none";
+            };
+            uploadInput.addEventListener("change", function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(evt) {
+                img.src = evt.target.result;
+                modalImg.src = evt.target.result;
+                };
+                reader.readAsDataURL(file);
+            }
+            });
         }
 
-        // retirer anciennes classes de type
-        feedback.classList.remove('success', 'error', 'white');
+        // Conteneur choix
+        const choicesContainer = document.createElement('div');
+        choicesContainer.className = 'gtw-choices';
+        popup.appendChild(choicesContainer);
 
-        // définir le texte
-        feedback.textContent = '';
+        // Feedback
+        const feedback = document.createElement('div');
+        feedback.className = 'gtw-feedback';
+        feedback.setAttribute('role', 'status');        // accessibilité
+        feedback.setAttribute('aria-live', 'polite');   // pour lecteurs d'écran
+        popup.appendChild(feedback);
 
-        feedback.textContent = message;
+        // Helper : affiche un message au-dessus de la popup, annule l'affichage précédent si besoin    */
+        /**
+         * Affiche le feedback au-dessus de la popup.
+         * @param {string} message - Le texte à afficher
+         * @param {number} duration - durée en ms avant disparition
+         * @param {'success'|'error'|null} type - ajoute une classe de style .success ou .error (optionnel)
+         */
+        function showFeedbackMessage(message, duration = 1200, type = null) {
+            // annuler timer précédent si existant
+            if (feedback._timeoutId) {
+                clearTimeout(feedback._timeoutId);
+                feedback._timeoutId = null;
+            }
 
-        // appliquer la classe de style si fournie
-        if (type === 'success') feedback.classList.add('success');
-        if (type === 'error') feedback.classList.add('error');
-
-        // optionnel : texte blanc si tu veux plus de contraste
-        // feedback.classList.add('white');
-
-        // montrer
-        feedback.classList.add('show');
-
-        // programmer la disparition et nettoyage des classes
-        feedback._timeoutId = setTimeout(() => {
-            feedback.classList.remove('show');
-            // nettoyer les classes de type après la transition (délais 320ms correspond au CSS)
-            setTimeout(() => {
+            // retirer anciennes classes de type
             feedback.classList.remove('success', 'error', 'white');
-            }, 340);
-            feedback._timeoutId = null;
-        }, duration);
-    }
 
-    // helper simple pour éviter injections si message provient de l'extérieur
-    function escapeHtml(str) {
-        return String(str).replace(/[&<>"']/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[s]));
-    }
+            // définir le texte
+            feedback.textContent = '';
 
+            feedback.textContent = message;
 
+            // appliquer la classe de style si fournie
+            if (type === 'success') feedback.classList.add('success');
+            if (type === 'error') feedback.classList.add('error');
 
+            // optionnel : texte blanc si tu veux plus de contraste
+            // feedback.classList.add('white');
 
+            // montrer
+            feedback.classList.add('show');
 
-
-    // Ecran final (cache par défaut)
-    const endScreen = document.createElement('div');
-    endScreen.className = 'gtw-endscreen';
-    endScreen.style.display = 'none';
-    endScreen.innerHTML = `
-        <div class="gtw-end-grid">
-        <div class="gtw-end-left">
-            <div class="gtw-character-wrap">
-            <img class="gtw-character" src="" alt="">
-            </div>
-        </div>
-
-        <div class="gtw-end-right">
-            <h3 class="gtw-end-title"></h3>
-            <div class="gtw-end-details">
-            <p class="gtw-end-scoreline"></p>
-            <p class="gtw-end-winstreak"></p>
-            </div>
-            <div class="gtw-end-actions">
-            <button class="gtw-btn gtw-replay">Rejouer</button>
-            <button class="gtw-btn gtw-share">Partager</button>
-            </div>
-        </div>
-        </div>
-    `;
-    popup.appendChild(endScreen);
-
-    // Ajout à la page
-    overlay.appendChild(popup);
-    document.body.appendChild(overlay);
-
-    // apparition douce
-    setTimeout(() => popup.classList.add('gtw-visible'), 10);
-
-    /* ---------------------------
-    Fonctions internes
-    --------------------------- */
-
-    function popRandomIndex() {
-        const r = gameState.remaining;
-        const randomPos = Math.floor(Math.random() * r.length);
-        const index = r.splice(randomPos, 1)[0];
-        return index;
-    }
-
-    function displayQuestion(correctItem, optionItems) {
-        img.src = resolveImagePath(correctItem.image);
-        img.alt = formatTitle(correctItem.name);
-
-        feedback.classList.remove('show');
-        feedback.textContent = '';
-        choicesContainer.innerHTML = '';
-        gameState.answered = false;
-
-        optionItems.forEach(opt => {
-            const btn = document.createElement('button');
-            btn.className = 'gtw-choice';
-            btn.textContent = formatTitle(opt.name);
-            btn.dataset.value = String(opt.name).toLowerCase();
-            btn.disabled = false;
-
-            btn.addEventListener('click', () => {
-                if (gameState.answered) return;
-                gameState.answered = true;
-
-                const isCorrect = String(opt.name).toLowerCase() === String(correctItem.name).toLowerCase();
-
-                if (isCorrect) {
-                    goodSound.currentTime = 0; // remet au début du son
-                    goodSound.play().catch(() => {}); // joue le son
-                    showFeedbackMessage('🎉 Bonne réponse !', 1200, 'success');
-                } else {
-                    badSound.currentTime = 0; // remet au début du son
-                    badSound.play().catch(() => {}); // joue le son
-                    showFeedbackMessage('❌ Ce n’est pas ça...', 1400, 'error');
-                    // optionnel : vibration courte sur mobile
-                    if (navigator.vibrate) navigator.vibrate(80);
-                }
-
-
-
-                if (isCorrect) {
-                    gameState.streak++;
-                    gameState.maxStreak = Math.max(gameState.maxStreak, gameState.streak);
-                    gameState.correctCount++;
-                    btn.classList.add('correct');
-                    // Marquer aussi le bon bouton vert (au cas où c’est pas celui cliqué)
-                    choicesContainer.querySelectorAll('.gtw-choice').forEach(b => {
-                        if (b.dataset.value === String(correctItem.name).toLowerCase()) {
-                            b.classList.add('correct');
-                        }
-                    });
-                } else {
-                    gameState.streak = 0;
-                    btn.classList.add('incorrect');
-                    // Afficher la bonne réponse immédiatement aussi
-                    choicesContainer.querySelectorAll('.gtw-choice').forEach(b => {
-                        if (b.dataset.value === String(correctItem.name).toLowerCase()) {
-                            b.classList.add('correct');
-                        }
-                    });
-                    // montrer que la question a été répondue (pour atténuer les autres choix)
-                    choicesContainer.classList.add('answered');
-                    if (navigator.vibrate) navigator.vibrate(100);
-                }
-
-                // update scoreboard values
-                const infoEl = board.querySelector('.gtw-info');
-                const barEl = board.querySelector('.gtw-progress-bar');
-                const streakSpan = board.querySelector('.gtw-streak span');
-
-                gameState.current++;
-                infoEl.textContent = `Question ${Math.min(gameState.current, gameState.total)}/${gameState.total}`;
-                barEl.style.width = `${((gameState.current - 1) / gameState.total) * 100}%`;
-                streakSpan.textContent = gameState.streak;
-
-                // désactiver tous les boutons pour éviter spam
-                choicesContainer.querySelectorAll('.gtw-choice').forEach(b => b.disabled = true);
-
+            // programmer la disparition et nettoyage des classes
+            feedback._timeoutId = setTimeout(() => {
+                feedback.classList.remove('show');
+                // nettoyer les classes de type après la transition (délais 320ms correspond au CSS)
                 setTimeout(() => {
-                    feedback.classList.remove('show');
-                    choicesContainer.querySelectorAll('.gtw-choice').forEach(b => {
-                        b.classList.remove('correct', 'incorrect');
-                        b.disabled = false;
-                    });
-                    choicesContainer.classList.remove('answered');
+                feedback.classList.remove('success', 'error', 'white');
+                }, 340);
+                feedback._timeoutId = null;
+            }, duration);
+        }
 
-                    if (gameState.current > gameState.total) {
-                        showEndScreen();
+        // helper simple pour éviter injections si message provient de l'extérieur
+        function escapeHtml(str) {
+            return String(str).replace(/[&<>"']/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[s]));
+        }
+
+
+
+
+
+
+        // Ecran final (cache par défaut)
+        const endScreen = document.createElement('div');
+        endScreen.className = 'gtw-endscreen';
+        endScreen.style.display = 'none';
+        endScreen.innerHTML = `
+            <div class="gtw-end-grid">
+            <div class="gtw-end-left">
+                <div class="gtw-character-wrap">
+                <img class="gtw-character" src="" alt="">
+                </div>
+            </div>
+
+            <div class="gtw-end-right">
+                <h3 class="gtw-end-title"></h3>
+                <div class="gtw-end-details">
+                <p class="gtw-end-scoreline"></p>
+                <p class="gtw-end-winstreak"></p>
+                </div>
+                <div class="gtw-end-actions">
+                <button class="gtw-btn gtw-replay">Rejouer</button>
+                <button class="gtw-btn gtw-share">Partager</button>
+                </div>
+            </div>
+            </div>
+        `;
+        popup.appendChild(endScreen);
+
+        // Ajout à la page
+        overlay.appendChild(popup);
+        document.body.appendChild(overlay);
+
+        // apparition douce
+        setTimeout(() => popup.classList.add('gtw-visible'), 10);
+
+        /* ---------------------------
+        Fonctions internes
+        --------------------------- */
+
+        function popRandomIndex() {
+            const r = gameState.remaining;
+            const randomPos = Math.floor(Math.random() * r.length);
+            const index = r.splice(randomPos, 1)[0];
+            return index;
+        }
+
+        function displayQuestion(correctItem, optionItems) {
+            img.src = resolveImagePath(correctItem.image);
+            img.alt = formatTitle(correctItem.name);
+
+            feedback.classList.remove('show');
+            feedback.textContent = '';
+            choicesContainer.innerHTML = '';
+            gameState.answered = false;
+
+            optionItems.forEach(opt => {
+                const btn = document.createElement('button');
+                btn.className = 'gtw-choice';
+                btn.textContent = formatTitle(opt.name);
+                btn.dataset.value = String(opt.name).toLowerCase();
+                btn.disabled = false;
+
+                btn.addEventListener('click', () => {
+                    if (gameState.answered) return;
+                    gameState.answered = true;
+
+                    const isCorrect = String(opt.name).toLowerCase() === String(correctItem.name).toLowerCase();
+
+                    if (isCorrect) {
+                        goodSound.currentTime = 0; // remet au début du son
+                        goodSound.play().catch(() => {}); // joue le son
+                        showFeedbackMessage('🎉 Bonne réponse !', 1200, 'success');
                     } else {
-                        loadNextQuestion();
+                        badSound.currentTime = 0; // remet au début du son
+                        badSound.play().catch(() => {}); // joue le son
+                        showFeedbackMessage('❌ Ce n’est pas ça...', 1400, 'error');
+                        // optionnel : vibration courte sur mobile
+                        if (navigator.vibrate) navigator.vibrate(80);
                     }
-                    }, 1200);
+
+
+
+                    if (isCorrect) {
+                        gameState.streak++;
+                        gameState.maxStreak = Math.max(gameState.maxStreak, gameState.streak);
+                        gameState.correctCount++;
+                        btn.classList.add('correct');
+                        // Marquer aussi le bon bouton vert (au cas où c’est pas celui cliqué)
+                        choicesContainer.querySelectorAll('.gtw-choice').forEach(b => {
+                            if (b.dataset.value === String(correctItem.name).toLowerCase()) {
+                                b.classList.add('correct');
+                            }
+                        });
+                    } else {
+                        gameState.streak = 0;
+                        btn.classList.add('incorrect');
+                        // Afficher la bonne réponse immédiatement aussi
+                        choicesContainer.querySelectorAll('.gtw-choice').forEach(b => {
+                            if (b.dataset.value === String(correctItem.name).toLowerCase()) {
+                                b.classList.add('correct');
+                            }
+                        });
+                        // montrer que la question a été répondue (pour atténuer les autres choix)
+                        choicesContainer.classList.add('answered');
+                        if (navigator.vibrate) navigator.vibrate(100);
+                    }
+
+                    // update scoreboard values
+                    const infoEl = board.querySelector('.gtw-info');
+                    const barEl = board.querySelector('.gtw-progress-bar');
+                    const streakSpan = board.querySelector('.gtw-streak span');
+
+                    gameState.current++;
+                    infoEl.textContent = `Question ${Math.min(gameState.current, gameState.total)}/${gameState.total}`;
+                    barEl.style.width = `${((gameState.current - 1) / gameState.total) * 100}%`;
+                    streakSpan.textContent = gameState.streak;
+
+                    // désactiver tous les boutons pour éviter spam
+                    choicesContainer.querySelectorAll('.gtw-choice').forEach(b => b.disabled = true);
+
+                    setTimeout(() => {
+                        feedback.classList.remove('show');
+                        choicesContainer.querySelectorAll('.gtw-choice').forEach(b => {
+                            b.classList.remove('correct', 'incorrect');
+                            b.disabled = false;
+                        });
+                        choicesContainer.classList.remove('answered');
+
+                        if (gameState.current > gameState.total) {
+                            showEndScreen();
+                        } else {
+                            loadNextQuestion();
+                        }
+                        }, 1200);
+                });
+
+                choicesContainer.appendChild(btn);
+            });
+        }
+
+        function loadNextQuestion() {
+            if (gameState.remaining.length === 0) {
+            gameState.remaining = Array.from({ length: gameState.data.length }, (_, i) => i);
+            }
+
+            const correctIdx = popRandomIndex();
+            const correctItem = gameState.data[correctIdx];
+
+            const pool = gameState.data
+            .map((d, i) => ({ d, i }))
+            .filter(x => x.i !== correctIdx)
+            .sort(() => 0.5 - Math.random())
+            .slice(0, 3)
+            .map(x => x.d);
+
+            const optionItems = [...pool, correctItem].sort(() => 0.5 - Math.random());
+
+            displayQuestion(correctItem, optionItems);
+        }
+
+        function showEndScreen() {
+            // Masquer UI jeu (garder la difficulty visible si tu le souhaites)
+            img.style.display = 'none';
+            choicesContainer.style.display = 'none';
+            feedback.style.display = 'none';
+
+            // Calcul score précis
+            const correctCount = gameState.correctCount;
+            const total = gameState.total;
+            const percent = Math.round((correctCount / total) * 100);
+
+            const titleEl = popup.querySelector('.gtw-title');
+            const endMsg = getEndMessage(correctCount);
+            // header affiche maintenant "Partie terminée"
+            if (titleEl) titleEl.textContent = 'Partie terminée';
+            // écrire le message personnalisé DANS le titre de l'écran final (h3)
+            const endTitle = endScreen.querySelector('.gtw-end-title');
+            if (endTitle) endTitle.textContent = endMsg;
+
+
+            // Remplir endScreen (sans percent ni difficulty)
+            const scoreLine = endScreen.querySelector('.gtw-end-scoreline');
+            const streakLine = endScreen.querySelector('.gtw-end-winstreak');
+            scoreLine.innerHTML = `bonnes réponses : <strong>${correctCount}/${total}</strong>`;
+            streakLine.innerHTML = `Winstreak max : <strong>${gameState.maxStreak}</strong>`;
+
+            // mettre le petit personnage
+            const charImg = endScreen.querySelector('.gtw-character');
+            (async () => {
+                const imgPath = await selectCharacterImage(correctCount);
+                if(imgPath) {
+                    charImg.src = resolveImagePath(imgPath);
+                }
+            })();
+            charImg.alt = endMsg;
+
+            // afficher endScreen
+            endScreen.style.display = 'block';
+            endWinSound.currentTime = 0; // remet au début du son
+            endLooseSound.currentTime = 0; // remet au début du son
+
+            // Confettis full page pour bonnes performances (>=6)
+            if (correctCount >= 5) {
+                endWinSound.play().catch(() => {}); // joue le son
+                createConfetti(2000);
+            } else {
+                endLooseSound.play().catch(() => {}); // joue le son
+            }
+
+
+            // Boutons : remplacer listeners proprement (cloneNode technique déjà en place)
+            const replayBtn = endScreen.querySelector('.gtw-replay');
+            const shareBtn = endScreen.querySelector('.gtw-share');
+
+            replayBtn.replaceWith(replayBtn.cloneNode(true));
+            shareBtn.replaceWith(shareBtn.cloneNode(true));
+
+            const newReplay = endScreen.querySelector('.gtw-replay');
+            const newShare = endScreen.querySelector('.gtw-share');
+
+            newReplay.addEventListener('click', () => {
+                // reset
+                btnJouerSound.currentTime = 0; // remet au début du son
+                btnJouerSound.play().catch(() => {}); // joue le son
+                gameState.remaining = Array.from({ length: gameState.data.length }, (_, i) => i);
+                gameState.current = 1;
+                gameState.streak = 0;
+                gameState.maxStreak = 0;
+                gameState.correctCount = 0;
+
+                // remettre le titre du header (popup) à sa valeur par défaut
+                const headerTitle = popup.querySelector('.gtw-title');
+                if (headerTitle) headerTitle.textContent = 'Devine le Webtoon';
+
+                // remettre le h3 de l'écran final à son texte par défaut
+                const endTitle = endScreen.querySelector('.gtw-end-title');
+                if (endTitle) endTitle.textContent = 'Partie terminée';
+
+
+                // restauration UI et restart
+                img.style.display = '';
+                choicesContainer.style.display = '';
+                feedback.style.display = '';
+                endScreen.style.display = 'none';
+                board.querySelector('.gtw-info').textContent = `Question 1/${gameState.total}`;
+                board.querySelector('.gtw-progress-bar').style.width = '0%';
+                board.querySelector('.gtw-streak span').textContent = '0';
+                loadNextQuestion();
             });
 
-            choicesContainer.appendChild(btn);
-        });
-    }
+            newShare.addEventListener('click', async () => {
+                shareSound.currentTime = 0; // remet au début du son
+                shareSound.play().catch(() => {}); // joue le son
+                const popup = document.querySelector('.gtw-popup-game'); // ou .gtw-overlay-game selon le cas
 
-    function loadNextQuestion() {
-        if (gameState.remaining.length === 0) {
-        gameState.remaining = Array.from({ length: gameState.data.length }, (_, i) => i);
-        }
+                // 1. Charger html2canvas (si pas déjà inclus)
+                if (typeof html2canvas === 'undefined') {
+                    await loadHtml2Canvas();
+                }
 
-        const correctIdx = popRandomIndex();
-        const correctItem = gameState.data[correctIdx];
+                // 2. Capturer en image
+                html2canvas(popup).then(canvas => {
+                    canvas.toBlob(async blob => {
+                        const file = new File([blob], "resultat-webtoon.png", { type: "image/png" });
 
-        const pool = gameState.data
-        .map((d, i) => ({ d, i }))
-        .filter(x => x.i !== correctIdx)
-        .sort(() => 0.5 - Math.random())
-        .slice(0, 3)
-        .map(x => x.d);
+                        const shareText = `J'ai joué à Devine le Webtoon — ${correctCount}/${total} (${percent}%). Winstreak max: ${gameState.maxStreak}.`;
 
-        const optionItems = [...pool, correctItem].sort(() => 0.5 - Math.random());
-
-        displayQuestion(correctItem, optionItems);
-    }
-
-    function showEndScreen() {
-        // Masquer UI jeu (garder la difficulty visible si tu le souhaites)
-        img.style.display = 'none';
-        choicesContainer.style.display = 'none';
-        feedback.style.display = 'none';
-
-        // Calcul score précis
-        const correctCount = gameState.correctCount;
-        const total = gameState.total;
-        const percent = Math.round((correctCount / total) * 100);
-
-        const titleEl = popup.querySelector('.gtw-title');
-        const endMsg = getEndMessage(correctCount);
-        // header affiche maintenant "Partie terminée"
-        if (titleEl) titleEl.textContent = 'Partie terminée';
-        // écrire le message personnalisé DANS le titre de l'écran final (h3)
-        const endTitle = endScreen.querySelector('.gtw-end-title');
-        if (endTitle) endTitle.textContent = endMsg;
-
-
-        // Remplir endScreen (sans percent ni difficulty)
-        const scoreLine = endScreen.querySelector('.gtw-end-scoreline');
-        const streakLine = endScreen.querySelector('.gtw-end-winstreak');
-        scoreLine.innerHTML = `bonnes réponses : <strong>${correctCount}/${total}</strong>`;
-        streakLine.innerHTML = `Winstreak max : <strong>${gameState.maxStreak}</strong>`;
-
-        // mettre le petit personnage
-        const charImg = endScreen.querySelector('.gtw-character');
-        (async () => {
-            const imgPath = await selectCharacterImage(correctCount);
-            if(imgPath) {
-                charImg.src = resolveImagePath(imgPath);
-            }
-        })();
-        charImg.alt = endMsg;
-
-        // afficher endScreen
-        endScreen.style.display = 'block';
-        endWinSound.currentTime = 0; // remet au début du son
-        endLooseSound.currentTime = 0; // remet au début du son
-
-        // Confettis full page pour bonnes performances (>=6)
-        if (correctCount >= 5) {
-            endWinSound.play().catch(() => {}); // joue le son
-            createConfetti(2000);
-        } else {
-            endLooseSound.play().catch(() => {}); // joue le son
-        }
-
-
-        // Boutons : remplacer listeners proprement (cloneNode technique déjà en place)
-        const replayBtn = endScreen.querySelector('.gtw-replay');
-        const shareBtn = endScreen.querySelector('.gtw-share');
-
-        replayBtn.replaceWith(replayBtn.cloneNode(true));
-        shareBtn.replaceWith(shareBtn.cloneNode(true));
-
-        const newReplay = endScreen.querySelector('.gtw-replay');
-        const newShare = endScreen.querySelector('.gtw-share');
-
-        newReplay.addEventListener('click', () => {
-            // reset
-            btnJouerSound.currentTime = 0; // remet au début du son
-            btnJouerSound.play().catch(() => {}); // joue le son
-            gameState.remaining = Array.from({ length: gameState.data.length }, (_, i) => i);
-            gameState.current = 1;
-            gameState.streak = 0;
-            gameState.maxStreak = 0;
-            gameState.correctCount = 0;
-
-            // remettre le h3 de l'écran final à son texte par défaut
-            const endTitle = endScreen.querySelector('.gtw-end-title');
-            if (endTitle) endTitle.textContent = 'Partie terminée';
-
-
-            // restaurer UI
-            img.style.display = '';
-            choicesContainer.style.display = '';
-            feedback.style.display = '';
-            endScreen.style.display = 'none';
-            board.querySelector('.gtw-info').textContent = `Question 1/${gameState.total}`;
-            board.querySelector('.gtw-progress-bar').style.width = '0%';
-            board.querySelector('.gtw-streak span').textContent = '0';
-            loadNextQuestion();
-        });
-
-        newShare.addEventListener('click', async () => {
-            shareSound.currentTime = 0; // remet au début du son
-            shareSound.play().catch(() => {}); // joue le son
-            const popup = document.querySelector('.gtw-popup-game'); // ou .gtw-overlay-game selon le cas
-
-            // 1. Charger html2canvas (si pas déjà inclus)
-            if (typeof html2canvas === 'undefined') {
-                await loadHtml2Canvas();
-            }
-
-            // 2. Capturer en image
-            html2canvas(popup).then(canvas => {
-                canvas.toBlob(async blob => {
-                    const file = new File([blob], "resultat-webtoon.png", { type: "image/png" });
-
-                    const shareText = `J'ai joué à Devine le Webtoon — ${correctCount}/${total} (${percent}%). Winstreak max: ${gameState.maxStreak}.`;
-
-                    // 3. Si API de partage avec fichiers dispo
-                    if (navigator.canShare && navigator.canShare({ files: [file] })) {
-                        navigator.share({
-                            title: 'Devine le Webtoon',
-                            text: shareText,
-                            files: [file]
-                        }).catch(() => {});
-                    } else {
-                        // Fallback → téléchargement direct
-                        const url = URL.createObjectURL(file);
-                        const a = document.createElement('a');
-                        a.href = url;
-                        a.download = "resultat-webtoon.png";
-                        a.click();
-                        URL.revokeObjectURL(url);
-                        alert("Image téléchargée (partage direct non supporté sur ton navigateur)");
-                    }
+                        // 3. Si API de partage avec fichiers dispo
+                        if (navigator.canShare && navigator.canShare({ files: [file] })) {
+                            navigator.share({
+                                title: 'Devine le Webtoon',
+                                text: shareText,
+                                files: [file]
+                            }).catch(() => {});
+                        } else {
+                            // Fallback → téléchargement direct
+                            const url = URL.createObjectURL(file);
+                            const a = document.createElement('a');
+                            a.href = url;
+                            a.download = "resultat-webtoon.png";
+                            a.click();
+                            URL.revokeObjectURL(url);
+                            alert("Image téléchargée (partage direct non supporté sur ton navigateur)");
+                        }
+                    });
                 });
             });
-        });
 
-        // Petit helper pour charger html2canvas dynamiquement
-        function loadHtml2Canvas() {
-            return new Promise((resolve, reject) => {
-                const script = document.createElement('script');
-                    // Lib js qui pgotographie un élément html et le convertit en canvas
-                script.src = "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js";
-                script.onload = resolve;
-                script.onerror = reject;
-                document.body.appendChild(script);
-            });
+            // Petit helper pour charger html2canvas dynamiquement
+            function loadHtml2Canvas() {
+                return new Promise((resolve, reject) => {
+                    const script = document.createElement('script');
+                        // Lib js qui pgotographie un élément html et le convertit en canvas
+                    script.src = "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js";
+                    script.onload = resolve;
+                    script.onerror = reject;
+                    document.body.appendChild(script);
+                });
+            }
+
+
         }
 
 
-    }
-
-
-    // Lance la première question
-    loadNextQuestion();
+        // Lance la première question
+        loadNextQuestion();
     } // end startGuessTheWebtoonGame
 
 
@@ -823,13 +842,14 @@ async function selectCharacterImage(score) {
 
 /*
 prochaines étapes :
-- Régler pb responsive pop-up tier-list webtoons
+
 - Ajouter images new catégorie
 - Régler problème de clé API visible.
 - Vol affichage nb de chapitres en fr et en engl : 🇫🇷 70  🇬🇧 180
 - Faire un script qui convertit automatiquement mes fichiers en webp, à part s'ils sont déjà en avif ou en gif
 - Chercher comment optimiser l'apparition d'une page web, pour qu'elle soit plus rapide. Notamment les images
 - Poster sur un vrai site
+- Régler pb responsive pop-up tier-list webtoons. Essayer caler les sites en-dessous de l'image
 
 
 AUTRE :

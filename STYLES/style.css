@@ -377,7 +377,6 @@ h1 {
 	margin-bottom: 25px;
 }
 
-
     /* Contenu de la pop-up des webtoons */
 .details-content {
     display: flex;           /* Utilise Flexbox pour aligner l'image et le texte */
@@ -399,7 +398,7 @@ h1 {
 
 .details-text {
     flex: 1;                 /* Prend le reste de l'espace disponible pour le texte */
-	font-size: 95%;
+	font-size: 90%;
 }
 
 .img-popup {    /* Le conteneur */
@@ -436,10 +435,6 @@ h1 {
     color: red; /* Changer la couleur au survol */
     transform: scale(1.1); /* Agrandir légèrement au survol */
 }
-
-
-
-
 
 
 

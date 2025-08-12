@@ -281,6 +281,5 @@ document.addEventListener('DOMContentLoaded', () => {
         alert("Erreur réseau, vois la console");
         }
     });
+
 });
-
-
