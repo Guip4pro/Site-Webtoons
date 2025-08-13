@@ -843,12 +843,11 @@ async function selectCharacterImage(score) {
 /*
 prochaines étapes :
 
-- Ajouter images new catégorie
+- Ajouter images new catégorie et voir si ça fonctionne dans le jeu guess the webtoon
 - Vol affichage nb de chapitres en fr et en engl : 🇫🇷 70  🇬🇧 180
 - Faire un script qui convertit automatiquement mes fichiers en webp, à part s'ils sont déjà en avif ou en gif
 - Chercher comment optimiser l'apparition d'une page web, pour qu'elle soit plus rapide. Notamment les images
 - Poster sur un vrai site
-- Régler pb responsive pop-up tier-list webtoons. Essayer caler les sites en-dessous de l'image
 
 
 AUTRE :
