@@ -92,7 +92,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-
         // Filtrer au fur et à mesure de la saisie
     document.getElementById('search-webtoon').addEventListener('input', function () {
         const query = this.value.trim().toLowerCase();
@@ -103,6 +102,86 @@ document.addEventListener('DOMContentLoaded', function () {
             link.style.display = match ? '' : 'none';
         });
     });
+
+    // Fonction texte sites de lecture petit-écran
+    (function() {
+        const BREAKPOINT = 720; // px -> adapte si tu veux
+        let resizeTimer = null;
+
+        function syncSitesForAllPopups() {
+            document.querySelectorAll('.webtoon-details').forEach(popup => {
+            const detailsContent = popup.querySelector('.details-content');
+            const detailsText = popup.querySelector('.details-text');
+            if (!detailsContent || !detailsText) return;
+
+            const orig = popup.querySelector('.sites-container');   // élément original (dans details-text)
+            const mobile = popup.querySelector('.sites-mobile');    // élément mobile (après details-content)
+
+            // --- mobile view ---
+            if (window.innerWidth <= BREAKPOINT) {
+                // si déjà déplacé, on s'assure qu'il y a bien un .sites-mobile
+                if (!mobile) {
+                // si orig existe -> on conserve son contenu, puis on le retire et on crée mobile
+                if (orig) {
+                    // stocker le HTML + class dans dataset pour restauration future
+                    popup.dataset.sitesOriginalInner = orig.innerHTML;
+                    popup.dataset.sitesOriginalClass = orig.className || 'sites-container';
+                    // retirer l'original (suppression comme demandé)
+                    orig.remove();
+                }
+                // créer le bloc mobile (à partir de la copie stockée si possible)
+                const newMobile = document.createElement('div');
+                newMobile.className = 'sites-mobile';
+                newMobile.innerHTML = popup.dataset.sitesOriginalInner || '<p class="sites-list"><strong>Sites de lecture :</strong></p>';
+                // insérer juste en-dessous de .details-content
+                detailsContent.parentNode.insertBefore(newMobile, detailsContent.nextSibling || null);
+                }
+                // sinon mobile déjà présent -> rien à faire
+                return;
+            }
+
+            // --- desktop view (restauration) ---
+            if (window.innerWidth > BREAKPOINT) {
+                // si mobile existe -> supprimer
+                if (mobile) mobile.remove();
+
+                // si original absent mais on a le contenu stocké -> recréer dans details-text
+                if (!orig && popup.dataset.sitesOriginalInner) {
+                const restored = document.createElement('div');
+                restored.className = popup.dataset.sitesOriginalClass || 'sites-container';
+                restored.innerHTML = popup.dataset.sitesOriginalInner;
+                detailsText.appendChild(restored);
+                // on laisse les dataset au cas où (utile si on veut toggler plusieurs fois)
+                }
+            }
+            });
+        }
+
+        // appel initial
+        document.addEventListener('DOMContentLoaded', syncSitesForAllPopups);
+
+        // resize (debounced)
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(syncSitesForAllPopups, 120);
+        });
+
+        // si tu ajoutes dynamiquement des .webtoon-details (via le JSON), on observe et on relance
+        const observer = new MutationObserver((mutations) => {
+            for (const m of mutations) {
+            if ([...m.addedNodes].some(n => n.nodeType === 1 && n.matches && n.matches('.webtoon-details'))) {
+                setTimeout(syncSitesForAllPopups, 60);
+                break;
+            }
+            }
+        });
+        observer.observe(document.body, { childList: true, subtree: true });
+
+        // Exécution immédiate si le DOM est déjà prêt (utile si le script est chargé après DOMContentLoaded)
+        if (document.readyState === 'interactive' || document.readyState === 'complete') {
+            setTimeout(syncSitesForAllPopups, 30);
+        }
+    })();
 
 });
 

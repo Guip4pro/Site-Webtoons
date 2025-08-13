@@ -482,6 +482,38 @@ h1 {
 
 
 
+/* style du bloc mobile nouvellement créé */
+.sites-mobile {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+}
+
+/* si besoin, styliser le contenu interne */
+.sites-mobile .sites-list {
+    margin: 0 0 6px 0;
+    font-weight: 700;
+}
+.sites-mobile .sites-ul {
+    margin: 6px 0 0 1rem;
+    padding: 0;
+    list-style: disc inside;
+}
+.sites-mobile .sites-ul li {
+    margin: 6px 0;
+    font-size: 0.95rem;
+}
+
+/* desktop safety: si jamais .sites-container reste, garder l'apparence d'origine */
+.sites-container {
+    margin-top: 0.6rem;
+}
+
+
 
 
 
@@ -493,8 +525,6 @@ h1 {
     margin-top: 70px;
     border: none;
 }
-
-
 
     /* A Propos / Contact */
 #àpropos-contact {

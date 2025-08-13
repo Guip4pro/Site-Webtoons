@@ -844,7 +844,6 @@ async function selectCharacterImage(score) {
 prochaines étapes :
 
 - Ajouter images new catégorie
-- Régler problème de clé API visible.
 - Vol affichage nb de chapitres en fr et en engl : 🇫🇷 70  🇬🇧 180
 - Faire un script qui convertit automatiquement mes fichiers en webp, à part s'ils sont déjà en avif ou en gif
 - Chercher comment optimiser l'apparition d'une page web, pour qu'elle soit plus rapide. Notamment les images
@@ -853,7 +852,7 @@ prochaines étapes :
 
 
 AUTRE :
-- faire une catégorie "eyes" et "personnage flouté ou couverture floutée"
+- faire une catégorie "eyes", "finances" et "personnage flouté ou couverture floutée"
 
 
 MOTS DE VOCABULAIRE :
@@ -862,5 +861,31 @@ Images :
 
 PROJETS FUTURS :
 - Projet de site qui convertit et compresse des images
+
+
+Academy** (Academy of Magic and Swordsmanship) : Facile / Moyen / Difficile
+I Killed an Academy Player ; Infinite Mage ; Revenge of the Iron-Blooded Sword Hound ; Love letter from the future, The Novel's extra (remake),
+Academy's Undercover Professor, Warrior High School, The Villain Wants to Live, Extra's Academy Survival Guide ; Magic Academy Survival Guide ;
+M'y School Life Pretending to Be a Worthless Person ;  Magic Academy's Genius Blinker ; I Took Over the Academy With a Single Sashimi Knife ;
+Legendary Hero is an Academy Honours Student ; The Demon Prince Goes to the Academy ; Academy's Genius Swordmaster ; The Little Brother is the Academy's Hotshot ;
+Jungle Juice ; Necromancer Academy's Genius Summoner ; Catastrophic Necromancer ; Talent Swallowing Magician ; Dragon Devouring Mage ; I Obtained a Mythic Item ;
+A Returners Magic Should Be Special ; Academie Transcendance ; The Genius Taler of the Academy ; I Obtained a Mythic Item ; Bad Born Blood ; Damn Reincarnation ;
+The Beginning After the End ; Eleceed ; Helmut ; I Obtained a Mythic Item ; Return of the Legendary Spear Knight ; Standard of Reincarnation ; The Dark Mage's Return to Enlishment ;
+The Great Mage Returns After 4000 Years ; Reformation of the Deadbeat Noble ; The Regressed Son of the Duke is an Assassin ; UnOrdinary ;
+Dragonslayer's Peerless Regression ; Fox-eyed Villain of the Demon Academ ; I'm Going to Destroy This Country ; Is This Hero for Real ?! ; Kill The Dragon ;
+Legendary Youngest Son of the Marquis House ; Leveling Up With the Sword ; Regressing as the Reincarnated Bastard of the Sword Clan ;
+Reincarnation of the Warrior Party Archmage ; The Extra is too Strong ; The Lord's Coins aren't decreasing ; the'reincarnated-assassin-is-a-genius-swordman ;
+Fated to be Loved By Villains ; The Book Eating Magician ; Mightiest Melee Magician ; Necromancer's Evolutionnary Traits ; Regression of the Close Combat Mage ; The Return of the Mythical Archmage ; Archmage Streamer ; the-academy's-genius-tamer
+
+
+"Swordmaster's Youngest Son" ; "Talent Swallowing Magician" "Superhuman Battlefield" ; "Auto-Hunting with my Clones" ; "Bastard Son Was the Emperor" ; "Children of the Rune"
+
+
+School Life :
+Mercenary Enrollment ; To Not Die ; Lookism ; Reality Quest ; Questism ; Webtoon-character-na-kang-lim ; the-challenger ; Viral Hit
+
+
+Pets / Animals :
+Reincarnation of the Warrior Party Archmage ; dragon-devouring-mage ; returned-as-martial-genius ; taming-master ; archmage-streamer ; 
 
 */
