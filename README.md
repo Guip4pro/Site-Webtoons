@@ -1,4 +1,10 @@
-﻿![Webtoons Site Banner](RESSOURCES/scrolling-banners/returner.avif)
+﻿![Webtoons Site Banner](RESSOURCES/scrolling-banners/banner-solo-necromancy.png)
+ <!-- 
+ enius-swordman.jpg
+ returner.avif
+ Eleceed-1.webp
+ banner4.jpg
+ -->
 
 # Webtoons Site
 
@@ -55,5 +61,6 @@ You can contact me via the contact form in my site or by opening an [issue](http
 
 Currently, no open-source license is applied.
 Contributions, issues and feature requests are welcome.
+
 
 
