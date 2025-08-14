@@ -130,12 +130,6 @@
             "alt": "Image : Best Teacher Baek"
           },
           {
-            "title": "Boundless Necromancer",
-            "aliases": ["The Boundless Necromancer", "Boundless Ascension"],
-            "image": "IMAGES/3-TRES BONS/boundless necromancer/cover.avif",
-            "alt": "Image : Boundless Necromancer"
-          },
-          {
             "title": "Chronicles of the Demon Faction",
             "image": "IMAGES/3-TRES BONS/chronicles of the demon faction/cover.webp",
             "alt": "Image : Chronicles of the Demon Faction"
@@ -633,6 +627,13 @@
             "image": "IMAGES/4-BONS/blood knight's villains/cover.avif",
             "loading": "lazy",
             "alt": "Image : Blood Knight's Villains"
+          },
+          {
+            "title": "Boundless Necromancer",
+            "aliases": ["The Boundless Necromancer", "Boundless Ascension"],
+            "image": "IMAGES/3-TRES BONS/boundless necromancer/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Boundless Necromancer"
           },
           {
             "title": "Chaotic Guard Captain in a Fantasy World",
