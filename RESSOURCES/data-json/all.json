@@ -103,6 +103,11 @@
         "name": "Tres Bons",
         "webtoons": [
           {
+            "title": "Absolute Regression",
+            "image": "IMAGES/5-TRES BONS/absolute regression/cover.webp",
+            "alt": "Image : Absolute Regression"
+          },
+          {
             "title": "Academy's Undercover Professor",
             "aliases": ["I Got a Fake Job at the Academy, The Academy's Undercover Professor"],
             "image": "IMAGES/3-TRES BONS/academy's undercover professor/cover.webp",
@@ -157,6 +162,12 @@
             "title": "Eleceed",
             "image": "IMAGES/3-TRES BONS/eleceed/cover.jpg",
             "alt": "Image : Eleceed"
+          },
+          {
+            "title": "The Emperor of Solo Play",
+            "aliases": ["A Knight Who Eternally Regresses", "The Knight Only Lives Today", "The Knight Who Only Lives Today"],
+            "image": "IMAGES/3-TRES BONS/emperor of solo play/cover.webp",
+            "alt": "Image : Emperor of Solo Play"
           },
           {
             "title": "Eternally Regressing Knight",
@@ -507,7 +518,7 @@
           {
             "title": "The Return of the Disaster-Class Hero",
             "aliases": ["A Disaster Class Hero Has Returned ", "Resurrection of the Catastrophic Hero "],
-            "image": "IMAGES/3-TRES BONS/the return of the disaster-class hero/cover.avif",
+            "image": "IMAGES/3-TRES BONS/the return of the disaster-class hero/cover.webp",
             "alt": "Image : The Return of the Disaster-Class Hero"
           },
           {
@@ -569,12 +580,6 @@
             "image": "IMAGES/4-BONS/absolute necromancer/cover.webp",
             "loading": "lazy",
             "alt": "Image : Absolute Necromancer"
-          },
-          {
-            "title": "Absolute Regression",
-            "image": "IMAGES/4-BONS/absolute regression/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : Absolute Regression"
           },
           {
             "title": "Académie Transcendance",
@@ -903,6 +908,13 @@
               "alt": "Image : I'm Not A Regressor"
           },
           {
+              "title": "I'm Not That Kind of Talent",
+              "aliases": ["I'm Not That Kind of Person", "Je ne suis pas ce genre de personne", "Je ne suis pas celui que vous croyez", "Não tenho o talento que dizem!", "Ta Không Tài Giỏi Đến Vậy Đâu"],
+              "image": "IMAGES/4-BONS/i'm not that kind of talent/cover.webp",
+              "loading": "lazy",
+              "alt": "Image : I'm Not That Kind of Talent"
+          },
+          {
               "title": "In The Night Consumed By Blades",
               "aliases": ["In the Night Consumed by Blades, I Walk", "A Dance of Swords in the Night", "Dans la Nuit Consumée par les Lames, j’avance", "Sword Fanatic Wanders Through the Night", "Une Danse des Lames dans les Ténèbres"],
               "image": "IMAGES/4-BONS/in the night consumed by blades/cover.avif",
@@ -1046,6 +1058,13 @@
             "alt": "Image : Mount Hua Sect's Genius Phantom Swordsman"
           },
           {
+            "title": "Murim Loginn",
+            "aliases": ["Log-in Murim"],
+            "image": "IMAGES/4-BONS/murim login/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Murim Login"
+          },
+          {
               "title": "My Little Brother Is The Academy's Hotshot",
               "aliases": ["The Dragon Slayer Academy's Hotshot", "The Hero's Younger Brother Is a Deceased Person in the Academy", "The Little Brother Is the Academy's Hotshot"],
               "image": "IMAGES/4-BONS/my little brother is the academy's hotshot/cover.webp",
@@ -1102,6 +1121,13 @@
             "alt": "Image : Reborn As The Enemy Prince"
           },
           {
+            "title": "The Regressed Mercenary's Machination",
+            "aliases": ["Every Returned Mercenary Has a Plan", "L'intrigue surprenante d'un mercenaire régresseur", "Las conspiraciones del mercenario regresado", "The Regressed Mercenary Has a Plan"],
+            "image": "IMAGES/4-BONS/regressed mercenary's machination/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Regressed Mercenary's Machinations"
+          },
+          {
             "title": "Regressing As The Reincarnated Bastard Of The Sword Clan",
             "aliases": ["Regressed life of the Sword Clan’s Ignoble Reincarnator", "How to Survive as the Bastard of the Regression Sword Clan", "La regresión del bastardo reencarnado del Clan de la Espada"],
             "image": "IMAGES/4-BONS/regressing as the reincarnated bastard of the sword clan/cover.webp",
@@ -1145,10 +1171,17 @@
           },
           {
             "title": "Return of the Broken Constellation",
-            "aliases": ["Le Retour de la constellation brisée", "Return of the Shattered Constellation"],
+            "aliases": ["Return of the Apocalypse-Class Death Knight"],
             "image": "IMAGES/4-BONS/return of the broken constellation/cover.jpg",
             "loading": "lazy",
             "alt": "Image : Return of the Broken Constellation"
+          },
+          {
+            "title": "Return of the Calamity-Class Death Knight",
+            "aliases": ["Le Retour de la constellation brisée", "Return of the Shattered Constellation"],
+            "image": "IMAGES/4-BONS/return of the calamity-class death knight/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Return of the Calamity-Class Death Knight"
           },
           {
             "title": "Return of the Frozen Player",
@@ -1224,12 +1257,6 @@
             "aliases": ["Farming in the tower alone", "I'm the Only One Farming in the Dungeon"],
             "image": "IMAGES/4-BONS/solo farming in the tower/cover.avif",
             "alt": "Image : Solo Farming in the Tower"
-          },
-          {
-            "title": "Solo of Emperor Play",
-            "aliases": ["The Emperor of Solo Play"],
-            "image": "IMAGES/4-BONS/solo of emperor play/cover.webp",
-            "alt": "Image : Solo of Emperor Play"
           },
           {
             "title": "Solo Resurrection",
@@ -1388,6 +1415,13 @@
             "alt": "Image : The Second Coming of Gluttony"
           },
           {
+            "title": "Trait Hoarder",
+            "aliases": ["Ultimate Tutorial Warrior", "Warrior Kim Builds up His Characteristics", "Kim Jeonsa Accumulates Characteristics"],
+            "image": "IMAGES/4-BONS/trait hoarder/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Trait Hoarder"
+          },
+          {
             "title": "Trash of the Count's Family",
             "aliases": ["The Lout of the count's family", "Je suis devenu le Voyou de la famille du Comte"],
             "image": "IMAGES/4-BONS/trash of the count's family/cover.avif",
@@ -1527,6 +1561,13 @@
             "image": "IMAGES/5-INTERMEDIAIRES/belle-mère en mode survie/cover.webp",
             "loading": "lazy",
             "alt": "Image : Belle-mère en Mode Survie"
+          },
+          {
+            "title": "Bloodhound's Regression Instinct",
+            "aliases": ["Return of the Hound", "The Return Instinct of the Hunting Dog", "The Returning Instinct of a Hount's So Easy to Avoid Death"],
+            "image": "IMAGES/5-INTERMEDIAIRES/bloodhound's regression instinct/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Bloodhound's Regression Instinct"
           },
           {
             "title": "Bones",
@@ -2084,6 +2125,13 @@
             "alt": "Image : The Genius Gamer's Livestream"
           },
           {
+            "title": "The Indomitable Wanderer",
+            "aliases": ["Immortal Vagabond"],
+            "image": "IMAGES/5-INTERMEDIAIRES/the indomitable wanderer/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : The Indomitable Wanderer"
+          },
+          {
             "title": "The Iron-Blooded Necromancer Has Returned",
             "image": "IMAGES/5-INTERMEDIAIRES/the iron-blooded necromancer has returned/cover.webp",
             "loading": "lazy",
@@ -2133,10 +2181,17 @@
           },
           {
             "title": "The Sweet Life of a Former Pro",
-            "aliases": ["How a Former Pro Takes Advantage by Doing an Easy Job"],
+            "aliases": [" Top-Notch Fate, Secretly Practicing Asceticism in Millenniums", "Lucky Me: I Secretly Cultivated for 1,000 Years", "Dǐngjí Qìyùn, Qiāoqiāo Xiūliàn Qiānnián", "Dingji Qiyun, Qiaoqiao Xiulian Qiannian"],
             "image": "IMAGES/5-INTERMEDIAIRES/the sweet life of a former pro/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Sweet Life of a Former Pro"
+          },
+          {
+            "title": "Top Tier Providence: Secretly Cultivate for a Thousand Years",
+            "aliases": ["How a Former Pro Takes Advantage by Doing an Easy Job"],
+            "image": "IMAGES/5-INTERMEDIAIRES/top tier providence/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Top Tier Providence: Secretly Cultivate for a Thousand Years"
           },
           {
             "title": "The Ultimate of All Ages",
@@ -2144,6 +2199,13 @@
             "image": "IMAGES/5-INTERMEDIAIRES/ultimate of all ages/cover.webp",
             "loading": "lazy",
             "alt": "Image : Ultimate of All Ages"
+          },
+          {
+            "title": "The Ultimate Shut-In",
+            "aliases": ["Absolute Dweller", "Absolute Person in Every Corner", "El soberano del hogar", "The Absolute Ruler of the House"],
+            "image": "IMAGES/5-INTERMEDIAIRES/ultimate shut-in/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : The Ultimate Shut-In"
           },
           {
             "title": "Viral Hit",
