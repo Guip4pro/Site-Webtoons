@@ -113,95 +113,110 @@
 
         <div class="accordion-container hidden">
 
+            <!-- Difficulté globale -->
             <button class="accordion">Niveau de difficulté</button>
             <div class="panel genre-panel">
-                <div class="scroll-item">Facile</div>
-                <div class="scroll-item">Moyen</div>
-                <div class="scroll-item">Difficile</div>
-                <div class="scroll-item contre-espacement">Enfer</div>
+                <div class="scroll-item" data-category="cover" data-diff="facile">Facile</div>
+                <div class="scroll-item" data-category="cover" data-diff="moyen">Moyen</div>
+                <div class="scroll-item" data-category="cover" data-diff="difficile">Difficile</div>
+                <div class="scroll-item contre-espacement" data-category="cover" data-diff="enfer">Enfer</div>
             </div>
 
+            <!-- Genres -->
             <button class="accordion">Genre</button>
             <div class="panel genre-panel">
+
                 <div class="sub-accordion">Academy</div>
                 <div class="sub-panel">
-                    <div class="scroll-item">Facile</div>
-                    <div class="scroll-item">Moyen</div>
+                <div class="scroll-item" data-category="genre" data-sub="academy" data-diff="facile">Facile</div>
+                <div class="scroll-item" data-category="genre" data-sub="academy" data-diff="moyen">Moyen</div>
                 </div>
+
                 <div class="sub-accordion">Action</div>
                 <div class="sub-panel">
-                    <div class="scroll-item">Facile</div>
-                    <div class="scroll-item">Moyen</div>
+                <div class="scroll-item" data-category="genre" data-sub="action" data-diff="facile">Facile</div>
+                <div class="scroll-item" data-category="genre" data-sub="action" data-diff="moyen">Moyen</div>
                 </div>
+
                 <div class="sub-accordion">Female Characters</div>
                 <div class="sub-panel">
-                    <div class="scroll-item">Facile</div>
-                    <div class="scroll-item">Moyen</div>
+                <div class="scroll-item" data-category="genre" data-sub="female-characters" data-diff="facile">Facile</div>
+                <div class="scroll-item" data-category="genre" data-sub="female-characters" data-diff="moyen">Moyen</div>
                 </div>
+
                 <div class="sub-accordion">Pets / Animals</div>
                 <div class="sub-panel">
-                    <div class="scroll-item">Facile</div>
-                    <div class="scroll-item">Moyen</div>
+                <div class="scroll-item" data-category="genre" data-sub="pets-animals" data-diff="facile">Facile</div>
+                <div class="scroll-item" data-category="genre" data-sub="pets-animals" data-diff="moyen">Moyen</div>
                 </div>
+
                 <div class="sub-accordion">Reincarnation / Regression</div>
                 <div class="sub-panel">
-                    <div class="scroll-item">Facile</div>
-                    <div class="scroll-item">Moyen</div>
+                <div class="scroll-item" data-category="genre" data-sub="reincarnation-regression" data-diff="facile">Facile</div>
+                <div class="scroll-item" data-category="genre" data-sub="reincarnation-regression" data-diff="moyen">Moyen</div>
                 </div>
+
                 <div class="sub-accordion">Romance</div>
                 <div class="sub-panel">
-                    <div class="scroll-item">Facile</div>
-                    <div class="scroll-item">Moyen</div>
+                <div class="scroll-item" data-category="genre" data-sub="romance" data-diff="facile">Facile</div>
+                <div class="scroll-item" data-category="genre" data-sub="romance" data-diff="moyen">Moyen</div>
                 </div>
+
                 <div class="sub-accordion">System</div>
                 <div class="sub-panel">
-                    <div class="scroll-item">Facile</div>
-                    <div class="scroll-item">Moyen</div>
+                <div class="scroll-item" data-category="genre" data-sub="system" data-diff="facile">Facile</div>
+                <div class="scroll-item" data-category="genre" data-sub="system" data-diff="moyen">Moyen</div>
                 </div>
-                <div class="scroll-item">Child</div>
-                <div class="scroll-item">Cultivator</div>
-                <div class="scroll-item">Characters Eyes</div>
-                <div class="scroll-item">Fantasy Worlds</div>
-                <div class="scroll-item">Magic</div>
-                <div class="scroll-item">Murim</div>
-                <div class="scroll-item">School Life (lookism, UnOrdinary)</div>
-                <div class="scroll-item">Swordsmanship</div>
-                <div class="scroll-item">Tower</div>
-                <div class="scroll-item">Video games</div>
-                <div class="scroll-item contre-espacement">Villain</div>
+
+                <!-- Catégories simples sans difficulté -->
+                <div class="scroll-item" data-category="genre" data-sub="child">Child</div>
+                <div class="scroll-item" data-category="genre" data-sub="cultivator">Cultivator</div>
+                <div class="scroll-item" data-category="genre" data-sub="characters-eyes">Characters Eyes</div>
+                <div class="scroll-item" data-category="genre" data-sub="fantasy-worlds">Fantasy Worlds</div>
+                <div class="scroll-item" data-category="genre" data-sub="magic">Magic</div>
+                <div class="scroll-item" data-category="genre" data-sub="murim">Murim</div>
+                <div class="scroll-item" data-category="genre" data-sub="school-life">School Life (lookism, UnOrdinary)</div>
+                <div class="scroll-item" data-category="genre" data-sub="swordsmanship">Swordsmanship</div>
+                <div class="scroll-item" data-category="genre" data-sub="tower">Tower</div>
+                <div class="scroll-item" data-category="genre" data-sub="video-games">Video games</div>
+                <div class="scroll-item contre-espacement" data-category="genre" data-sub="villain">Villain</div>
             </div>
 
-
+            <!-- Générations -->
             <button class="accordion">Générations</button>
             <div class="panel genre-panel">
-                <div class="scroll-item">2015 - 2016 - 2017</div>
-                <div class="scroll-item">2018 - 2019 - 2020</div>
-                <div class="scroll-item">2021 - 2022 - 2023</div>
-                <div class="scroll-item contre-espacement">2024 - 2025 - 2026</div>
+                <div class="scroll-item" data-category="generation" data-sub="2015-2017">2015 - 2016 - 2017</div>
+                <div class="scroll-item" data-category="generation" data-sub="2018-2020">2018 - 2019 - 2020</div>
+                <div class="scroll-item" data-category="generation" data-sub="2021-2023">2021 - 2022 - 2023</div>
+                <div class="scroll-item contre-espacement" data-category="generation" data-sub="2024-2026">2024 - 2025 - 2026</div>
             </div>
 
+            <!-- Origine -->
             <button class="accordion">Origine (ou type jsp)</button>
             <div class="panel genre-panel">
-                <div class="scroll-item">Manhwa</div>
-                <div class="scroll-item">Manhua</div>
-                <div class="scroll-item contre-espacement">Manga</div>
+                <div class="scroll-item" data-category="origin" data-sub="manhwa">Manhwa</div>
+                <div class="scroll-item" data-category="origin" data-sub="manhua">Manhua</div>
+                <div class="scroll-item contre-espacement" data-category="origin" data-sub="manga">Manga</div>
             </div>
 
+            <!-- Covers -->
             <button class="accordion">Cover</button>
             <div class="panel genre-panel">
-                <div class="scroll-item">Facile</div>
-                <div class="scroll-item">Moyen</div>
-                <div class="scroll-item contre-espacement">Difficile</div>
+                <div class="scroll-item" data-category="cover" data-diff="facile">Facile</div>
+                <div class="scroll-item" data-category="cover" data-diff="moyen">Moyen</div>
+                <div class="scroll-item contre-espacement" data-category="cover" data-diff="difficile">Difficile</div>
             </div>
 
+            <!-- Autres -->
             <button class="accordion">Autres</button>
             <div class="panel genre-panel">
-                <div class="scroll-item">Aléatoire</div>
-                <div class="scroll-item">Fuck / Doigt d'Honneur</div>
-                <div class="scroll-item contre-espacement">Great Artwork</div>
+                <div class="scroll-item" data-category="autres" data-sub="aleatoire">Aléatoire</div>
+                <div class="scroll-item" data-category="autres" data-sub="fuck">Fuck / Doigt d'Honneur</div>
+                <div class="scroll-item contre-espacement" data-category="autres" data-sub="great-artwork">Great Artwork</div>
             </div>
 
         </div>
+
 
 
 

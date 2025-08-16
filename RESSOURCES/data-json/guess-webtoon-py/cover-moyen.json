@@ -4,6 +4,30 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/A-Dragonslayer's-Peerless-Regression.webp"
     },
     {
+        "name": "Academys-Genius-Swordmaster",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/Academys-Genius-Swordmaster.webp"
+    },
+    {
+        "name": "Eternally-Regressing-Knight",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/Eternally-Regressing-Knight.webp"
+    },
+    {
+        "name": "I-Failed-to-Abandon-the-Villain",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/I-Failed-to-Abandon-the-Villain.jpg"
+    },
+    {
+        "name": "Legendary-Hero-is-an-Academy-Honors-tudent",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/Legendary-Hero-is-an-Academy-Honors-tudent.jpg"
+    },
+    {
+        "name": "Reformation-of-the-Deadbeat-Noble",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/Reformation-of-the-Deadbeat-Noble.webp"
+    },
+    {
+        "name": "The-Regressed-Mercenary's-Machinations",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/The-Regressed-Mercenary's-Machinations.jpg"
+    },
+    {
         "name": "absolute-dominion",
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/absolute-dominion.jpg"
     },
@@ -22,10 +46,6 @@
     {
         "name": "academy's-undercover-professor",
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/academy's-undercover-professor.webp"
-    },
-    {
-        "name": "Academys-Genius-Swordmaster",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/Academys-Genius-Swordmaster.webp"
     },
     {
         "name": "archmage-transcending-through-regression",
@@ -48,10 +68,6 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/dungeon-odyssey.webp"
     },
     {
-        "name": "Eternally-Regressing-Knight",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/Eternally-Regressing-Knight.webp"
-    },
-    {
         "name": "fated-to-be-loved-by-villains",
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/fated-to-be-loved-by-villains.jpg"
     },
@@ -72,20 +88,12 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/i-am-the-fated-villain.webp"
     },
     {
-        "name": "I-Failed-to-Abandon-the-Villain",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/I-Failed-to-Abandon-the-Villain.jpg"
-    },
-    {
         "name": "i-obtained-a-mythic-item",
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/i-obtained-a-mythic-item.webp"
     },
     {
         "name": "kill-the-hero",
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/kill-the-hero.webp"
-    },
-    {
-        "name": "Legendary-Hero-is-an-Academy-Honors-tudent",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/Legendary-Hero-is-an-Academy-Honors-tudent.jpg"
     },
     {
         "name": "leveling-up-with-the-gods",
@@ -98,6 +106,10 @@
     {
         "name": "logging-10000-years-into-the-future",
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/logging-10000-years-into-the-future.webp"
+    },
+    {
+        "name": "love-letter-from-the-future",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/love-letter-from-the-future.jpg"
     },
     {
         "name": "magic-academy's-genius-blinker",
@@ -124,8 +136,8 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/myst-might-mayhem.jpg"
     },
     {
-        "name": "Reformation-of-the-Deadbeat-Noble",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/Reformation-of-the-Deadbeat-Noble.webp"
+        "name": "necromancer-academy-and-the-genius-summoner",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/necromancer-academy-and-the-genius-summoner.jpg"
     },
     {
         "name": "regressing-with-the-king's-power",
@@ -202,10 +214,6 @@
     {
         "name": "the-player-hides-his-past",
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/the-player-hides-his-past.webp"
-    },
-    {
-        "name": "The-Regressed-Mercenary's-Machinations",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/The-Regressed-Mercenary's-Machinations.jpg"
     },
     {
         "name": "the-regressed-son-of-a-duke-is-an-assassin",

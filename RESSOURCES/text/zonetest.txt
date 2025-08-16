@@ -168,83 +168,6 @@ function loadWebtoonsFromJson(jsonFile) {
 }
 
 
-    
-    // Appeler la fonction pour charger les webtoons à partir du fichier JSON
-    loadWebtoonsFromJson('https://guip4pro.github.io/Site-Webtoons/RESSOURCES/data-json/all.json');   // ancien chemin relatif : '../RESSOURCES/data-json/all.json'
-
-    // (Ancien système de fermeture :) Fermer le pop-up en cliquant à l'extérieur du contenu
-    /*window.addEventListener('click', function(event) {
-        const openPopup = document.querySelector('.webtoon-details[style*="display: block"]');
-        if (openPopup && !openPopup.contains(event.target) && !event.target.matches('.tier-grid img')) {
-            openPopup.style.display = 'none';
-        }
-    });*/
-
-});
-
-
-
-
-
-
-
-
-
-    /* BARRE DE NAVIGATION LATERALE */
-function toggleNav() {
-    const nav = document.getElementById("sidebarNav");
-    if (nav.style.width === "250px") {
-        nav.style.width = "0";
-    } else {
-        nav.style.width = "250px";
-    }
-}
-
-    /* CREER SA PROPRE TIER LIST */
-function tierlistMaker() {
-    alert("Fonctionnalité en cours de développement");
-}
-
-
-
-
-    // Zoom sur Image
-// Créer le modal et ses éléments
-const modal = document.createElement("div");
-modal.className = "modal";
-const closeModal = document.createElement("span");
-closeModal.className = "close";
-closeModal.innerHTML = "&times;";
-const modalImg = document.createElement("img");
-modalImg.className = "modal-content";
-
-// Ajouter les éléments au modal
-modal.appendChild(closeModal);
-modal.appendChild(modalImg);
-document.body.appendChild(modal);
-
-// Récupérer toutes les images avec la classe "thumbnail"
-const images = document.querySelectorAll(".thumbnail");
-
-// Ajouter un événement de clic à chaque image
-images.forEach(img => {
-    img.onclick = function() {
-        modal.style.display = "block";
-        modalImg.src = this.src; // Mettre la source de l'image dans le modal
-    }
-});
-
-// Lorsque l'utilisateur clique sur (x), fermer le modal
-closeModal.onclick = function() {
-    modal.style.display = "none";
-}
-
-// Fermer le modal si l'utilisateur clique en dehors de l'image
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
 
 
 
@@ -273,3 +196,95 @@ const filePath = `${repoBase}/RESSOURCES/json-guessthewebtoon/cover-${diffKey}.j
 // Exemple sur GH Pages: "/Site-Webtoons/RESSOURCES/json-guessthewebtoon/cover-facile.json"
 // Exemple local (repoBase=''): "/RESSOURCES/json-guessthewebtoon/cover-facile.json"
 // Si tu préfères chemin relatif local (sans slash initial), adapte repoBase => '' ou '.' selon ta structure
+
+
+
+
+______________________________________________________________
+
+Ancien script python generate-all-json
+
+import os
+import json
+
+# Dossier source des images
+BASE_DIR = "RESSOURCES/img-guessthewebtoon/cover"
+# Dossier de sortie pour les JSON
+OUTPUT_DIR = "RESSOURCES/data-json/guess-webtoon-py"
+
+# Crée le dossier de sortie s'il n'existe pas
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# Parcourt tous les dossiers dans le dossier "cover"
+for subfolder in os.listdir(BASE_DIR):
+    subfolder_path = os.path.join(BASE_DIR, subfolder)
+
+    if os.path.isdir(subfolder_path):
+        image_list = []
+
+        for filename in os.listdir(subfolder_path):
+            if filename.lower().endswith((".png", ".jpg", ".jpeg", ".webp", ".avif")):
+                image_path = os.path.join(subfolder_path, filename)
+                image_name = os.path.splitext(filename)[0]
+
+                image_data = {
+                    "name": image_name,
+                    "image": image_path.replace("\\", "/")  # Pour que le chemin fonctionne dans les URLs
+                }
+
+                image_list.append(image_data)
+
+        # Crée le fichier JSON correspondant au sous-dossier
+        json_filename = f"cover-{subfolder}.json"
+        json_path = os.path.join(OUTPUT_DIR, json_filename)
+
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(image_list, f, indent=4, ensure_ascii=False)
+
+        print(f"✅ Fichier JSON généré : {json_filename} ({len(image_list)} images)")
+
+# Commande : python generate-all-json.py
+
+
+
+ANCIEN guessthewebtoon.js :
+
+    async function startGuessTheWebtoonGame(difficulty = 'facile') {
+        const diffKey = String(difficulty).toLowerCase();
+        const filePath = `../RESSOURCES/data-json/guess-webtoon-py/cover-${diffKey}.json`;
+
+        if (document.querySelector('.gtw-overlay-game')) {
+            console.warn('Le jeu est déjà en cours.');
+            return;
+        }
+
+        // Chargement JSON
+        let data;
+        try {
+            const res = await fetch(filePath);
+            if (!res.ok) throw new Error(`Erreur HTTP ${res.status} - ${res.statusText}`);
+            data = await res.json();
+        } catch (err) {
+            console.error('Erreur de chargement du JSON :', err);
+            alert("Impossible de charger les questions pour cette catégorie. Vérifie le chemin du JSON.");
+            return;
+        }
+
+        if (!Array.isArray(data) || data.length < 1) {
+            console.error('JSON vide ou mal formé');
+            alert('Pas de données disponibles pour cette catégorie.');
+            return;
+        }
+
+        // État du jeu
+        const gameState = {
+            difficulty: diffKey,
+            data: data,
+            remaining: Array.from({ length: data.length }, (_, i) => i),
+            total: Math.min(10, data.length),
+            current: 1,
+            streak: 0,
+            maxStreak: 0,
+            correctCount: 0,
+            answered: false
+        };

@@ -1,0 +1,14 @@
+[
+    {
+        "name": "READY",
+        "image": "RESSOURCES/img-guessthewebtoon/characters-icons/READY.png"
+    },
+    {
+        "name": "exemple_flou",
+        "image": "RESSOURCES/img-guessthewebtoon/characters-icons/exemple_flou.png"
+    },
+    {
+        "name": "z99",
+        "image": "RESSOURCES/img-guessthewebtoon/characters-icons/z99.jpg"
+    }
+]

@@ -1,0 +1,93 @@
+[
+    {
+        "json": "z-en-attente.json",
+        "category": "Z-EN ATTENTE",
+        "relative_folder": ".",
+        "count": 12,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/z-en-attente.json"
+    },
+    {
+        "json": "characters-icons.json",
+        "category": "characters-icons",
+        "relative_folder": ".",
+        "count": 3,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/characters-icons.json"
+    },
+    {
+        "json": "characters-icons-0abrutifini.json",
+        "category": "characters-icons",
+        "relative_folder": "0abrutifini",
+        "count": 44,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/characters-icons-0abrutifini.json"
+    },
+    {
+        "json": "characters-icons-10trone.json",
+        "category": "characters-icons",
+        "relative_folder": "10trone",
+        "count": 21,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/characters-icons-10trone.json"
+    },
+    {
+        "json": "characters-icons-4-1creatif.json",
+        "category": "characters-icons",
+        "relative_folder": "4-1creatif",
+        "count": 24,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/characters-icons-4-1creatif.json"
+    },
+    {
+        "json": "characters-icons-5paspersoprincipal.json",
+        "category": "characters-icons",
+        "relative_folder": "5paspersoprincipal",
+        "count": 39,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/characters-icons-5paspersoprincipal.json"
+    },
+    {
+        "json": "characters-icons-9-6maitre.json",
+        "category": "characters-icons",
+        "relative_folder": "9-6maitre",
+        "count": 23,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/characters-icons-9-6maitre.json"
+    },
+    {
+        "json": "cover-difficile.json",
+        "category": "cover",
+        "relative_folder": "difficile",
+        "count": 26,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/cover-difficile.json"
+    },
+    {
+        "json": "cover-facile.json",
+        "category": "cover",
+        "relative_folder": "facile",
+        "count": 54,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/cover-facile.json"
+    },
+    {
+        "json": "cover-moyen.json",
+        "category": "cover",
+        "relative_folder": "moyen",
+        "count": 60,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/cover-moyen.json"
+    },
+    {
+        "json": "genre-academy.json",
+        "category": "genre",
+        "relative_folder": "academy",
+        "count": 1,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-academy.json"
+    },
+    {
+        "json": "genre-academy-facile.json",
+        "category": "genre",
+        "relative_folder": "academy/facile",
+        "count": 55,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-academy-facile.json"
+    },
+    {
+        "json": "genre-academy-moyen.json",
+        "category": "genre",
+        "relative_folder": "academy/moyen",
+        "count": 47,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-academy-moyen.json"
+    }
+]

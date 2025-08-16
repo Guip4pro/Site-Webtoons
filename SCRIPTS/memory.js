@@ -641,43 +641,5 @@ async function afficherClassementPour(difficulty) {
 }
 
 
-// Rajouter un système où le rang du joueur, s'il n'est pas dans le top 10 qui est affiché, est affiché en bas du classement quand même.
-
-// Faire le formulaire Google Sheets pour rentrer les nouveaux webtoons sur le site (avec Blackbox AI directement intégré à VSCode)
-
-// S'occuper du responsive (aspect mobile dégeulasse) (avec Blackbox AI directement intégré à VSCode)
-
-// Faire le Guess the Webtooon (avec Blackbox AI directement intégré à VSCode)
-
-/* (Intéressant pour mon site)
-Firebase AI Logic : Construire des fonctionnalités d'IA intelligentes :
-- Génération de contenu : Votre application pourrait générer automatiquement des descriptions de produits, des légendes pour des photos, des résumés d'articles, ou même des histoires créatives.
-- Chatbots et assistants virtuels : Créez des interfaces de conversation intelligentes qui peuvent interagir avec les utilisateurs, répondre à des questions ou les guider.
-- Traitement du langage naturel (TLN) : Analysez et comprenez le texte des utilisateurs pour des expériences plus personnalisées, comme résumer des notes ou traduire du contenu.
-- Expériences créatives : Imaginez des jeux où l'IA génère des quêtes ou des dialogues uniques, ou des outils qui aident les utilisateurs à brainstormer des idées.
-/*
-
-
-
-
-  
   
 
-
-
-/*
-    5. Tâches :
-    
-    Système de classement entre les joueurs :
-    - A la fin de la partie, demander le nom du joueur s'il ne l'a pas déjà rentré auparavant
-    - Classement en ligne (via une base de données + back-end léger), prend en compte le pseudo du joueur, le niveau de difficulté, le nombre de coups / le temps, la date
-    - Envoyer les infos à cette API, puis les récup
-    - Demander à Chatgpt des conseils pour améliorer ce classement
-    - Sûrement avec Firebase (simple et rapide)
-
-    Animations au retournement de la carte.
-
-    Code responsive (adapté à d'autres tailles d'écran)
-
-    Jeu à 2 joueurs
-*/

@@ -94,22 +94,42 @@ document.addEventListener('DOMContentLoaded', () => {
     if (startBtn) startBtn.addEventListener('click', () => startGuessTheWebtoon());
 
 
+    let lastClickedEl = null;
+
     // Initialise la pop-up (et sa fonction globale)
     initGuessTheWebtoonPopup();
+
 
     document.querySelectorAll('.scroll-item').forEach(item => {
         item.addEventListener('click', () => {
             console.log("Tu as cliqué sur :", item.textContent.trim());
-
-            // Appelle ici ta fonction perso
+            lastClickedEl = item; // sauvegarde l’élément cliqué
             handleScrollItemClick(item);
         });
     });
 
     function handleScrollItemClick(el) {
-        const difficulty = el.textContent.trim(); // On suppose que le texte contient la difficulté
-        console.log("Lancement du jeu avec difficulté :", difficulty);
-        showGuessTheWebtoonPopup(difficulty); // Appelle la fonction globale créée
+        // Récupère les infos stockées dans les data-attributes
+        const category = el.dataset.category; // "cover" ou "genre"
+        const sub = el.dataset.sub;           // "academy" (facultatif)
+        const diff = el.dataset.diff || el.textContent.trim(); // fallback
+
+        // Debug
+        console.log("Handler -> category:", category, "sub:", sub, "difficulty:", diff);
+
+        // Sauvegarde l'élément cliqué pour que le bouton JOUER sache quoi lancer
+        lastClickedEl = el;
+
+        // Ouvre la popup (affiche la difficulté choisie)
+        // showGuessTheWebtoonPopup doit accepter un argument difficulty à afficher
+        if (typeof showGuessTheWebtoonPopup === "function") {
+            showGuessTheWebtoonPopup(diff);
+        } else {
+            // fallback: si la popup n'existe pas, lance directement le jeu (au cas où)
+            // mais normalement on ne devrait pas arriver ici
+            if (sub) startGuessTheWebtoonGame(category, sub, diff);
+            else startGuessTheWebtoonGame(category, diff);
+        }
     }
 
 
@@ -204,7 +224,20 @@ document.addEventListener('DOMContentLoaded', () => {
             playButton.addEventListener('click', () => {
                 btnJouerSound.play().catch(() => {});
                 overlay.remove();
-                startGuessTheWebtoonGame(difficulty);     // Fonction lançant le vrai jeu
+
+                if (lastClickedEl) {
+                    const category = lastClickedEl.dataset.category;
+                    const sub = lastClickedEl.dataset.sub;
+                    const diff = lastClickedEl.dataset.diff || lastClickedEl.textContent.trim();
+
+                    console.log('Play pressed -> launching', { category, sub, diff });
+
+                    if (sub) startGuessTheWebtoonGame(category, sub, diff);
+                    else startGuessTheWebtoonGame(category, diff);
+                } else {
+                    // fallback : si rien n'a été cliqué, lance un jeu par défaut
+                    startGuessTheWebtoonGame('cover', 'facile');
+                }
             });
         };
     }
@@ -337,48 +370,105 @@ async function selectCharacterImage(score) {
 
 
 
-    /* ---------------------------
-    Fonction principale : démarre / instancie le jeu
-    --------------------------- */
-    async function startGuessTheWebtoonGame(difficulty = 'facile') {
-        const diffKey = String(difficulty).toLowerCase();
-        const filePath = `../RESSOURCES/data-json/guess-webtoon-py/cover-${diffKey}.json`;
 
-        if (document.querySelector('.gtw-overlay-game')) {
-            console.warn('Le jeu est déjà en cours.');
-            return;
+// Construit le chemin du JSON (path) en fonction de plusieurs parties (parts)
+function buildGuessJsonPath(...parts) {
+    const slug = parts.map(p => slugPart(p)).filter(Boolean).join("-");
+    return `../RESSOURCES/data-json/guess-webtoon-py/${slug}.json`;
+}
+
+// Nettoie une partie de chemin (slug)
+function slugPart(str) {
+    return String(str)
+        .normalize("NFD")        // enlève les accents
+        .replace(/[\u0300-\u036f]/g, "") // supprime diacritiques
+        .toLowerCase()
+        .replace(/\s+/g, "-")    // espaces -> tirets
+        .replace(/[^a-z0-9\-]/g, ""); // supprime tout ce qui n’est pas alphanumérique ou tiret
+}
+
+/**
+ * startGuessTheWebtoonGame(...)
+ * - Usage explicite multi-catégorie :
+ *     startGuessTheWebtoonGame('cover', 'facile')   // -> cover-facile.json
+ *     startGuessTheWebtoonGame('genre','academy','facile') // -> genre-academy-facile.json
+ */
+async function startGuessTheWebtoonGame(/* variable args */) {
+    const args = Array.from(arguments);
+    let parts = [];
+
+    if (args.length === 0) {
+        parts = ['cover', 'facile'];
+    } else if (args.length === 1) {
+        const only = args[0];
+
+        if (Array.isArray(only)) {
+        parts = only;
+        } else if (typeof only === 'string') {
+        const s = only.trim();
+        if (s.includes('-')) {
+            // si on reçoit un slug 'genre-academy-facile'
+            parts = s.split('-').map(p => p.trim()).filter(Boolean);
+        } else {
+            // comportement rétro-compatible : 'facile' -> cover-facile
+            parts = ['cover', s];
         }
-
-        // Chargement JSON
-        let data;
-        try {
-            const res = await fetch(filePath);
-            if (!res.ok) throw new Error(`Erreur HTTP ${res.status} - ${res.statusText}`);
-            data = await res.json();
-        } catch (err) {
-            console.error('Erreur de chargement du JSON :', err);
-            alert("Impossible de charger les questions pour cette catégorie. Vérifie le chemin du JSON.");
-            return;
+        } else {
+        throw new Error('Invalid argument to startGuessTheWebtoonGame');
         }
+    } else {
+        // plusieurs arguments passés séparément
+        parts = args;
+    }
 
-        if (!Array.isArray(data) || data.length < 1) {
-            console.error('JSON vide ou mal formé');
-            alert('Pas de données disponibles pour cette catégorie.');
-            return;
-        }
+    // DEBUG: affichage utile pour vérifier ce qu'on construit
+    const filePath = buildGuessJsonPath(...parts);
+    console.debug('startGuessTheWebtoonGame -> parts:', parts, ' filePath:', filePath);
 
-        // État du jeu
-        const gameState = {
-            difficulty: diffKey,
-            data: data,
-            remaining: Array.from({ length: data.length }, (_, i) => i),
-            total: Math.min(10, data.length),
-            current: 1,
-            streak: 0,
-            maxStreak: 0,
-            correctCount: 0,
-            answered: false
-        };
+    const diffKey = slugPart(parts[parts.length - 1]);
+
+    if (document.querySelector('.gtw-overlay-game')) {
+        console.warn('Le jeu est déjà en cours.');
+        return;
+    }
+
+    // Chargement JSON
+    let data;
+    try {
+        const res = await fetch(filePath);
+        if (!res.ok) throw new Error(`HTTP ${res.status} - ${res.statusText} (tried ${filePath})`);
+        data = await res.json();
+    } catch (err) {
+        console.error('Erreur de chargement du JSON :', err);
+        alert(`Impossible de charger les questions pour cette catégorie (${filePath}). Vérifie que le fichier existe et le chemin.`);
+        return;
+    }
+
+    if (!Array.isArray(data) || data.length < 1) {
+        console.error('JSON vide ou mal formé', filePath);
+        alert('Pas de données disponibles pour cette catégorie.');
+        return;
+    }
+
+    const gameState = {
+        categoryParts: parts.slice(),
+        difficulty: diffKey,
+        data,
+        remaining: Array.from({ length: data.length }, (_, i) => i),
+        total: Math.min(10, data.length),
+        current: 1,
+        streak: 0,
+        maxStreak: 0,
+        correctCount: 0,
+        answered: false
+    };
+
+    console.log('Game started with', filePath, gameState);
+
+
+
+    // Ex: appelle ici ta fonction qui construit l'UI à partir de gameState.data
+    // initGameUI(gameState);
 
         const goodSound = new Audio('../RESSOURCES/sounds/beep-6-96243.mp3');
         const badSound = new Audio('../RESSOURCES/sounds/476177__unadamlar__wrong-choice.wav');
@@ -844,14 +934,33 @@ async function selectCharacterImage(score) {
 prochaines étapes :
 
 - Ajouter images new catégorie et voir si ça fonctionne dans le jeu guess the webtoon
+- Modifier pour éviter qu'on retrouve 2 fois le même titre de webtoon dans les propositions.
+- To change novels links in tier list 
 - Vol affichage nb de chapitres en fr et en engl : 🇫🇷 70  🇬🇧 180
 - Faire un script qui convertit automatiquement mes fichiers en webp, à part s'ils sont déjà en avif ou en gif
 - Chercher comment optimiser l'apparition d'une page web, pour qu'elle soit plus rapide. Notamment les images
 - Poster sur un vrai site
+- Rajouter un système où le rang du joueur, s'il n'est pas dans le top 10 qui est affiché, est affiché en bas du classement quand même.
+    Site -> console -> lighthouse | GT metrix (les 2 pour tester la vitesse de mon site. Sinon s'il met plus de 3s à charger -> trop lent)
+- Faire le formulaire Google Sheets pour rentrer les nouveaux webtoons sur le site (avec Blackbox AI directement intégré à VSCode)
+- Modifier pour générer mes pop-ups de tier-list en js et json. Puis essayer de géénrer une pop-up pour chaque webtoon de ma tier-list de façon automatisée
+
+    (Intéressant pour mon site) :
+Firebase AI Logic : Construire des fonctionnalités d'IA intelligentes :
+- Génération de contenu : Votre application pourrait générer automatiquement des descriptions de produits, des légendes pour des photos, des résumés d'articles, ou même des histoires créatives.
+- Chatbots et assistants virtuels : Créez des interfaces de conversation intelligentes qui peuvent interagir avec les utilisateurs, répondre à des questions ou les guider.
+- Traitement du langage naturel (TLN) : Analysez et comprenez le texte des utilisateurs pour des expériences plus personnalisées, comme résumer des notes ou traduire du contenu.
+- Expériences créatives : Imaginez des jeux où l'IA génère des quêtes ou des dialogues uniques, ou des outils qui aident les utilisateurs à brainstormer des idées.
+
+
+
+
+
 
 
 AUTRE :
-- faire une catégorie "eyes", "finances" et "personnage flouté ou couverture floutée"
+- faire une catégorie "eyes", "finances" et "personnage flouté ou couverture floutée", "Le BAC de Webtoons" ou "Webtoons type BAC" ou alors "BAC +5"
+
 
 
 MOTS DE VOCABULAIRE :
@@ -862,14 +971,15 @@ PROJETS FUTURS :
 - Projet de site qui convertit et compresse des images
 
 
-Academy** (Academy of Magic and Swordsmanship) : Facile / Moyen / Difficile
+Academy** (Academy of Magic and Swordsmanship) : Facile / Moyen
 I Killed an Academy Player ; Infinite Mage ; Revenge of the Iron-Blooded Sword Hound ; Love letter from the future, The Novel's extra (remake),
 Academy's Undercover Professor, Warrior High School, The Villain Wants to Live, Extra's Academy Survival Guide ; Magic Academy Survival Guide ;
-M'y School Life Pretending to Be a Worthless Person ;  Magic Academy's Genius Blinker ; I Took Over the Academy With a Single Sashimi Knife ;
+M'y School Life Pretending to Be a Worthless Person ; Magic Academy's Genius Blinker ; I Took Over the Academy With a Single Sashimi Knife ;
 Legendary Hero is an Academy Honours Student ; The Demon Prince Goes to the Academy ; Academy's Genius Swordmaster ; The Little Brother is the Academy's Hotshot ;
 Jungle Juice ; Necromancer Academy's Genius Summoner ; Catastrophic Necromancer ; Talent Swallowing Magician ; Dragon Devouring Mage ; I Obtained a Mythic Item ;
-A Returners Magic Should Be Special ; Academie Transcendance ; The Genius Taler of the Academy ; I Obtained a Mythic Item ; Bad Born Blood ; Damn Reincarnation ;
-The Beginning After the End ; Eleceed ; Helmut ; I Obtained a Mythic Item ; Return of the Legendary Spear Knight ; Standard of Reincarnation ; The Dark Mage's Return to Enlishment ;
+A Returners Magic Should Be Special ; Academie Transcendance ; The Genius Tamer of the Academy ; Bad Born Blood ; Damn Reincarnation ;
+The Beginning After the End ; Eleceed ;
+-> Helmut ; Return of the Legendary Spear Knight ; Standard of Reincarnation ; The Dark Mage's Return to Enlishment ;
 The Great Mage Returns After 4000 Years ; Reformation of the Deadbeat Noble ; The Regressed Son of the Duke is an Assassin ; UnOrdinary ;
 Dragonslayer's Peerless Regression ; Fox-eyed Villain of the Demon Academ ; I'm Going to Destroy This Country ; Is This Hero for Real ?! ; Kill The Dragon ;
 Legendary Youngest Son of the Marquis House ; Leveling Up With the Sword ; Regressing as the Reincarnated Bastard of the Sword Clan ;
@@ -885,6 +995,6 @@ Mercenary Enrollment ; To Not Die ; Lookism ; Reality Quest ; Questism ; Webtoon
 
 
 Pets / Animals :
-Reincarnation of the Warrior Party Archmage ; dragon-devouring-mage ; returned-as-martial-genius ; taming-master ; archmage-streamer ; 
+Reincarnation of the Warrior Party Archmage ; dragon-devouring-mage ; taming-master ; archmage-streamer ; Eleceed ; The Genius Tamer of the Academy
 
 */
