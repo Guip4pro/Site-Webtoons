@@ -36,6 +36,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-eleceed.jpg"
     },
     {
+        "name": "-helmut-the-forsaken-child",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-helmut-the-forsaken-child.jpg"
+    },
+    {
         "name": "-i-killed-an-academy-player",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-i-killed-an-academy-player.jpg"
     },
@@ -58,6 +62,14 @@
     {
         "name": "-magic-academy-survival-guide",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-magic-academy-survival-guide.jpg"
+    },
+    {
+        "name": "-reformation-of-the-deadbeat-noble",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-reformation-of-the-deadbeat-noble.jpg"
+    },
+    {
+        "name": "-standard-of-reincarnation",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-standard-of-reincarnation.jpg"
     },
     {
         "name": "-talent-swallowing-magician",
@@ -84,12 +96,20 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-the-legendary-hero-is-an-academy-honours-student.jpg"
     },
     {
+        "name": "-the-regressed-son-of-the-duke-is-an-assassin",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-the-regressed-son-of-the-duke-is-an-assassin.jpg"
+    },
+    {
         "name": "-the-villain-wants-to-live",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-the-villain-wants-to-live.jpg"
     },
     {
         "name": "-transcension-academy",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-transcension-academy.jpg"
+    },
+    {
+        "name": "-unordinary",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-unordinary.jpg"
     },
     {
         "name": "a-returners-magic-should-be-special",
@@ -124,6 +144,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/eleceed.jpg"
     },
     {
+        "name": "helmut-the-forsaken-child",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/helmut-the-forsaken-child.jpg"
+    },
+    {
         "name": "i-killed-an-academy-player-",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/i-killed-an-academy-player-.jpg"
     },
@@ -152,6 +176,14 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/jungle-juice.jpg"
     },
     {
+        "name": "kill-the-dragon-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/kill-the-dragon-.jpg"
+    },
+    {
+        "name": "kill-the-dragon",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/kill-the-dragon.jpg"
+    },
+    {
         "name": "magic-academy's-genius-blinker-",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/magic-academy's-genius-blinker-.jpg"
     },
@@ -172,12 +204,28 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/necromancer-academy's-genius-summoner.jpg"
     },
     {
+        "name": "reformation-of-the-deadbeat-noble",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/reformation-of-the-deadbeat-noble.jpg"
+    },
+    {
+        "name": "return-of-the-legendary-spear-knight-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/return-of-the-legendary-spear-knight-.jpg"
+    },
+    {
+        "name": "return-of-the-legendary-spear-knight",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/return-of-the-legendary-spear-knight.jpg"
+    },
+    {
         "name": "revenge-of-the-iron-blooded-sword-hound-",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/revenge-of-the-iron-blooded-sword-hound-.jpg"
     },
     {
         "name": "revenge-of-the-iron-blooded-sword-hound",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/revenge-of-the-iron-blooded-sword-hound.jpg"
+    },
+    {
+        "name": "standard-of-reincarnation",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/standard-of-reincarnation.jpg"
     },
     {
         "name": "talent-swallowing-magician-",
@@ -204,8 +252,20 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/the-extra's-academy-survival-guide-.jpg"
     },
     {
+        "name": "the-great-mage-returns-after-4000-years-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/the-great-mage-returns-after-4000-years-.jpg"
+    },
+    {
+        "name": "the-great-mage-returns-after-4000-years",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/the-great-mage-returns-after-4000-years.jpg"
+    },
+    {
         "name": "the-novel's-extra-(remake)",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/the-novel's-extra-(remake).jpg"
+    },
+    {
+        "name": "the-regressed-son-of-the-duke-is-an-assassin-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/the-regressed-son-of-the-duke-is-an-assassin-.jpg"
     },
     {
         "name": "the-villain-wants-to-live-",
@@ -214,6 +274,10 @@
     {
         "name": "transcension-academy",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/transcension-academy.jpg"
+    },
+    {
+        "name": "unordinary",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/unordinary.jpg"
     },
     {
         "name": "warrior-high-school",

@@ -978,13 +978,13 @@ M'y School Life Pretending to Be a Worthless Person ; Magic Academy's Genius Bli
 Legendary Hero is an Academy Honours Student ; The Demon Prince Goes to the Academy ; Academy's Genius Swordmaster ; The Little Brother is the Academy's Hotshot ;
 Jungle Juice ; Necromancer Academy's Genius Summoner ; Catastrophic Necromancer ; Talent Swallowing Magician ; Dragon Devouring Mage ; I Obtained a Mythic Item ;
 A Returners Magic Should Be Special ; Academie Transcendance ; The Genius Tamer of the Academy ; Bad Born Blood ; Damn Reincarnation ;
-The Beginning After the End ; Eleceed ;
--> Helmut ; Return of the Legendary Spear Knight ; Standard of Reincarnation ; The Dark Mage's Return to Enlishment ;
+The Beginning After the End ; Eleceed ; Helmut ; Return of the Legendary Spear Knight ; Standard of Reincarnation ; The Dark Mage's Return to Enlishment ;
 The Great Mage Returns After 4000 Years ; Reformation of the Deadbeat Noble ; The Regressed Son of the Duke is an Assassin ; UnOrdinary ;
 Dragonslayer's Peerless Regression ; Fox-eyed Villain of the Demon Academ ; I'm Going to Destroy This Country ; Is This Hero for Real ?! ; Kill The Dragon ;
-Legendary Youngest Son of the Marquis House ; Leveling Up With the Sword ; Regressing as the Reincarnated Bastard of the Sword Clan ;
+-> Legendary Youngest Son of the Marquis House ; Leveling Up With the Sword ; Regressing as the Reincarnated Bastard of the Sword Clan ;
 Reincarnation of the Warrior Party Archmage ; The Extra is too Strong ; The Lord's Coins aren't decreasing ; the'reincarnated-assassin-is-a-genius-swordman ;
-Fated to be Loved By Villains ; The Book Eating Magician ; Mightiest Melee Magician ; Necromancer's Evolutionnary Traits ; Regression of the Close Combat Mage ; The Return of the Mythical Archmage ; Archmage Streamer ; the-academy's-genius-tamer
+Fated to be Loved By Villains ; The Book Eating Magician ; Mightiest Melee Magician ; Necromancer's Evolutionnary Traits ; Regression of the Close Combat Mage ;
+The Return of the Mythical Archmage ; Archmage Streamer ; the-academy's-genius-tamer ; barbarian to the academy
 
 
 "Swordmaster's Youngest Son" ; "Talent Swallowing Magician" "Superhuman Battlefield" ; "Auto-Hunting with my Clones" ; "Bastard Son Was the Emperor" ; "Children of the Rune"
