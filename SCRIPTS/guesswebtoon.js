@@ -6,10 +6,10 @@ function startGuessTheWebtoon() {
     document.getElementById('memory-difficulty-selector').classList.add('hidden');
     document.getElementById('memory-stats').classList.add('hidden');
     document.getElementById('leaderboard-section').classList.add('hidden');
+    document.getElementById('phr-temp').classList.toggle('hidden')
     const ScrollAccordion = document.querySelector('.accordion-container');
     ScrollAccordion.classList.toggle('hidden');
 
-    alert("Catégories opérationnelles : COVER")
         // API pour centrer le plateau de jeu
     ScrollAccordion.scrollIntoView({
         behavior: 'smooth',   // défilement animé
@@ -984,11 +984,12 @@ Dragonslayer's Peerless Regression ; Fox-eyed Villain of the Demon Academ ; I'm 
 -> Legendary Youngest Son of the Marquis House ; Leveling Up With the Sword ; Regressing as the Reincarnated Bastard of the Sword Clan ;
 Reincarnation of the Warrior Party Archmage ; The Extra is too Strong ; The Lord's Coins aren't decreasing ; the'reincarnated-assassin-is-a-genius-swordman ;
 Fated to be Loved By Villains ; The Book Eating Magician ; Mightiest Melee Magician ; Necromancer's Evolutionnary Traits ; Regression of the Close Combat Mage ;
-The Return of the Mythical Archmage ; Archmage Streamer ; the-academy's-genius-tamer ; barbarian to the academy
+The Return of the Mythical Archmage ; the-academy's-genius-tamer ; barbarian to the academy
 
 
 "Swordmaster's Youngest Son" ; "Talent Swallowing Magician" "Superhuman Battlefield" ; "Auto-Hunting with my Clones" ; "Bastard Son Was the Emperor" ; "Children of the Rune"
 
+System : Archmage Streamer ; 
 
 School Life :
 Mercenary Enrollment ; To Not Die ; Lookism ; Reality Quest ; Questism ; Webtoon-character-na-kang-lim ; the-challenger ; Viral Hit

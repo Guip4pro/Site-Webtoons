@@ -190,6 +190,7 @@ function startMemoryGame() {
     document.getElementById('memory-stats').classList.remove('hidden');
     document.getElementById('leaderboard-section').classList.remove('hidden');
     document.querySelector('.accordion-container').classList.add('hidden');
+    document.getElementById('phr-temp').classList.add('hidden')
     updateGameBoard();
 }
 
