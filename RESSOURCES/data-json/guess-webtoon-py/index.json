@@ -66,21 +66,21 @@
         "json": "cover-moyen.json",
         "category": "cover",
         "relative_folder": "moyen",
-        "count": 60,
+        "count": 61,
         "path": "RESSOURCES/data-json/guess-webtoon-py/cover-moyen.json"
     },
     {
         "json": "genre-academy-facile.json",
         "category": "genre",
         "relative_folder": "academy/facile",
-        "count": 71,
+        "count": 80,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-academy-facile.json"
     },
     {
         "json": "genre-academy-moyen.json",
         "category": "genre",
         "relative_folder": "academy/moyen",
-        "count": 67,
+        "count": 88,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-academy-moyen.json"
     }
 ]

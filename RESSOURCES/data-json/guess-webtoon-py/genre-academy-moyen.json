@@ -68,6 +68,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/-magic-academy's-genius-blinker.jpg"
     },
     {
+        "name": "-mightiest-melee-magician",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/-mightiest-melee-magician.jpg"
+    },
+    {
         "name": "-necromancer-academy's-genius-summoner-",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/-necromancer-academy's-genius-summoner-.jpg"
     },
@@ -78,6 +82,10 @@
     {
         "name": "-talent-swallowing-magician-",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/-talent-swallowing-magician-.jpg"
+    },
+    {
+        "name": "-the-book-eating-magician",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/-the-book-eating-magician.jpg"
     },
     {
         "name": "-the-demon-prince-goes-to-the-academy",
@@ -94,6 +102,18 @@
     {
         "name": "-the-little-brother-is-the-academy's-hotshot",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/-the-little-brother-is-the-academy's-hotshot.jpg"
+    },
+    {
+        "name": "Capture d'écran 2025-08-18 210737",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/Capture d'écran 2025-08-18 210737.png"
+    },
+    {
+        "name": "Capture d'écran 2025-08-18 210833",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/Capture d'écran 2025-08-18 210833.png"
+    },
+    {
+        "name": "a-barbarian-was-admitted-to-the-academy",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/a-barbarian-was-admitted-to-the-academy.png"
     },
     {
         "name": "a-returners-magic-should-be-special-",
@@ -140,6 +160,14 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/dragonslayer's-peerless-regression.jpg"
     },
     {
+        "name": "fated-to-be-loved-by-villains-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/fated-to-be-loved-by-villains-.jpg"
+    },
+    {
+        "name": "fated-to-be-loved-by-villains",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/fated-to-be-loved-by-villains.jpg"
+    },
+    {
         "name": "fox-eyed-villain-of-the-demon-academ-",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/fox-eyed-villain-of-the-demon-academ-.jpg"
     },
@@ -180,6 +208,14 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/jungle-juice--.jpg"
     },
     {
+        "name": "legendary-youngest-son-of-the-marquis-house-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/legendary-youngest-son-of-the-marquis-house-.jpg"
+    },
+    {
+        "name": "leveling-up-with-the-sword--",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/leveling-up-with-the-sword--.jpg"
+    },
+    {
         "name": "love-letter-from-the-future-",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/love-letter-from-the-future-.jpg"
     },
@@ -196,6 +232,18 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/magic-academy-survival-guide.jpg"
     },
     {
+        "name": "mightiest-melee-magician",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/mightiest-melee-magician.jpg"
+    },
+    {
+        "name": "necromancer's-evolutionnary-traits-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/necromancer's-evolutionnary-traits-.jpg"
+    },
+    {
+        "name": "necromancer's-evolutionnary-traits",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/necromancer's-evolutionnary-traits.jpg"
+    },
+    {
         "name": "reformation-of-the-deadbeat-noble-",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/reformation-of-the-deadbeat-noble-.jpg"
     },
@@ -204,12 +252,32 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/reformation-of-the-deadbeat-noble.jpg"
     },
     {
+        "name": "regression-of-the-close-combat-mage-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/regression-of-the-close-combat-mage-.jpg"
+    },
+    {
+        "name": "regression-of-the-close-combat-mage",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/regression-of-the-close-combat-mage.jpg"
+    },
+    {
+        "name": "reincarnation-of-the-warrior-party-archmage-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/reincarnation-of-the-warrior-party-archmage-.jpg"
+    },
+    {
+        "name": "reincarnation-of-the-warrior-party-archmage",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/reincarnation-of-the-warrior-party-archmage.jpg"
+    },
+    {
         "name": "standard-of-reincarnation-",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/standard-of-reincarnation-.jpg"
     },
     {
         "name": "the-beginning-after-the-end-",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/the-beginning-after-the-end-.jpg"
+    },
+    {
+        "name": "the-book-eating-magician",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/the-book-eating-magician.jpg"
     },
     {
         "name": "the-dark-mage's-return-to-enlishment",
@@ -248,6 +316,14 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/the-little-brother-is-the-academy's-hotshot.jpg"
     },
     {
+        "name": "the-lord's-coins-aren't-decreasing-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/the-lord's-coins-aren't-decreasing-.jpg"
+    },
+    {
+        "name": "the-lord's-coins-aren't-decreasing",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/the-lord's-coins-aren't-decreasing.jpg"
+    },
+    {
         "name": "the-novel's-extra-(remake)-",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/the-novel's-extra-(remake)-.jpg"
     },
@@ -258,6 +334,14 @@
     {
         "name": "the-regressed-son-of-the-duke-is-an-assassin",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/the-regressed-son-of-the-duke-is-an-assassin.jpg"
+    },
+    {
+        "name": "the-reincarnated-assassin-is-a-genius-swordman-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/the-reincarnated-assassin-is-a-genius-swordman-.jpg"
+    },
+    {
+        "name": "the-return-of-the-mythical-archmage",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/the-return-of-the-mythical-archmage.jpg"
     },
     {
         "name": "the-villain-wants-to-live",

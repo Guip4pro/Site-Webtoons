@@ -32,10 +32,6 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-eleceed-.jpg"
     },
     {
-        "name": "-eleceed",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-eleceed.jpg"
-    },
-    {
         "name": "-helmut-the-forsaken-child",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-helmut-the-forsaken-child.jpg"
     },
@@ -60,12 +56,24 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-infinite-mage.jpg"
     },
     {
+        "name": "-legendary-youngest-son-of-the-marquis-house",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-legendary-youngest-son-of-the-marquis-house.jpg"
+    },
+    {
+        "name": "-leveling-up-with-the-sword-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-leveling-up-with-the-sword-.jpg"
+    },
+    {
         "name": "-magic-academy-survival-guide",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-magic-academy-survival-guide.jpg"
     },
     {
         "name": "-reformation-of-the-deadbeat-noble",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-reformation-of-the-deadbeat-noble.jpg"
+    },
+    {
+        "name": "-regressing-as-the-reincarnated-bastard-of-the-sword-clan",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-regressing-as-the-reincarnated-bastard-of-the-sword-clan.jpg"
     },
     {
         "name": "-standard-of-reincarnation",
@@ -98,6 +106,10 @@
     {
         "name": "-the-regressed-son-of-the-duke-is-an-assassin",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-the-regressed-son-of-the-duke-is-an-assassin.jpg"
+    },
+    {
+        "name": "-the-reincarnated-assassin-is-a-genius-swordman",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/-the-reincarnated-assassin-is-a-genius-swordman.jpg"
     },
     {
         "name": "-the-villain-wants-to-live",
@@ -184,6 +196,18 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/kill-the-dragon.jpg"
     },
     {
+        "name": "legendary-youngest-son-of-the-marquis-house",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/legendary-youngest-son-of-the-marquis-house.jpg"
+    },
+    {
+        "name": "leveling-up-with-the-sword-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/leveling-up-with-the-sword-.jpg"
+    },
+    {
+        "name": "leveling-up-with-the-sword",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/leveling-up-with-the-sword.jpg"
+    },
+    {
         "name": "magic-academy's-genius-blinker-",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/magic-academy's-genius-blinker-.jpg"
     },
@@ -206,6 +230,14 @@
     {
         "name": "reformation-of-the-deadbeat-noble",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/reformation-of-the-deadbeat-noble.jpg"
+    },
+    {
+        "name": "regressing-as-the-reincarnated-bastard-of-the-sword-clan-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/regressing-as-the-reincarnated-bastard-of-the-sword-clan-.jpg"
+    },
+    {
+        "name": "regressing-as-the-reincarnated-bastard-of-the-sword-clan",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/regressing-as-the-reincarnated-bastard-of-the-sword-clan.jpg"
     },
     {
         "name": "return-of-the-legendary-spear-knight-",
@@ -266,6 +298,10 @@
     {
         "name": "the-regressed-son-of-the-duke-is-an-assassin-",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/the-regressed-son-of-the-duke-is-an-assassin-.jpg"
+    },
+    {
+        "name": "the-reincarnated-assassin-is-a-genius-swordman",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/facile/the-reincarnated-assassin-is-a-genius-swordman.jpg"
     },
     {
         "name": "the-villain-wants-to-live-",
