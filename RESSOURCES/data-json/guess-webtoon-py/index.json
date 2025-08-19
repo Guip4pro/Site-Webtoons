@@ -7,6 +7,13 @@
         "path": "RESSOURCES/data-json/guess-webtoon-py/z-en-attente.json"
     },
     {
+        "json": "autres-fuck-doigt-dhonneur.json",
+        "category": "autres",
+        "relative_folder": "fuck-doigt-d'honneur",
+        "count": 28,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/autres-fuck-doigt-dhonneur.json"
+    },
+    {
         "json": "characters-icons.json",
         "category": "characters-icons",
         "relative_folder": ".",
