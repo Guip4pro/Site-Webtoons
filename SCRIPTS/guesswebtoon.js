@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Récupère les infos stockées dans les data-attributes
         const category = el.dataset.category; // "cover" ou "genre"
         const sub = el.dataset.sub;           // "academy" (facultatif)
-        const diff = el.dataset.diff || el.textContent.trim(); // fallback
+        const diff = el.dataset.diff || el.textContent.trim(); // fallback. En gros si pas de data-diff, prend le nom du div
 
         // Debug
         console.log("Handler -> category:", category, "sub:", sub, "difficulty:", diff);
@@ -394,27 +394,49 @@ function slugPart(str) {
  *     startGuessTheWebtoonGame('genre','academy','facile') // -> genre-academy-facile.json
  */
 async function startGuessTheWebtoonGame(/* variable args */) {
+    // On récupère tous les arguments passés à la fonction sous forme de tableau
     const args = Array.from(arguments);
     let parts = [];
 
-    if (args.length === 0) {
-        parts = ['cover', 'facile'];
+// === CAS 1 : Aucun argument passé ===
+if (args.length === 0) {
+    // Si aucun argument n’est donné, on définit une valeur par défaut :
+    // ['cover', 'facile']
+    parts = ['cover', 'facile'];
+
+    // === CAS 2 : Un seul argument passé ===
     } else if (args.length === 1) {
+        // On récupère cet argument unique
         const only = args[0];
 
+        // --- Cas 2a : si c’est déjà un tableau
         if (Array.isArray(only)) {
-        parts = only;
+            // On l’utilise directement comme valeur de "parts"
+            parts = only;
+
+        // --- Cas 2b : si c’est une chaîne de caractères
         } else if (typeof only === 'string') {
-        const s = only.trim();
-        if (s.includes('-')) {
-            // si on reçoit un slug 'genre-academy-facile'
-            parts = s.split('-').map(p => p.trim()).filter(Boolean);
+            // On nettoie la chaîne en supprimant les espaces inutiles au début/fin
+            const s = only.trim();
+
+            // Si la chaîne contient un tiret (-), on suppose que c’est un "slug"
+            if (s.includes('-')) {
+                // On découpe la chaîne en morceaux sur chaque tiret
+                // Exemple : "genre-academy-facile" -> ["genre", "academy", "facile"]
+                // On enlève aussi les espaces autour de chaque morceau (p.trim())
+                // et on filtre les éventuels morceaux vides (filter(Boolean)).
+                parts = s.split('-').map(p => p.trim()).filter(Boolean);
+
+            } else {
+                // Sinon, pour rester compatible avec un ancien comportement :
+                // Exemple : "facile" devient ["cover", "facile"]
+                parts = ['cover', s];
+            }
+
+        // --- Cas 2c : si l’argument n’est ni tableau ni string
         } else {
-            // comportement rétro-compatible : 'facile' -> cover-facile
-            parts = ['cover', s];
-        }
-        } else {
-        throw new Error('Invalid argument to startGuessTheWebtoonGame');
+            // On lève une erreur car le type n’est pas reconnu
+            throw new Error('Invalid argument to startGuessTheWebtoonGame');
         }
     } else {
         // plusieurs arguments passés séparément
