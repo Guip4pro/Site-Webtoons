@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (lastClickedEl) {
                     const category = lastClickedEl.dataset.category;
                     const sub = lastClickedEl.dataset.sub;
-                    const diff = lastClickedEl.dataset.diff || lastClickedEl.textContent.trim();
+                    const diff = lastClickedEl.dataset.diff ?? lastClickedEl.textContent.trim();    // ?? est comme un "ou" mais différent de || car il ne considère pas "" comme une valeur vide
 
                     console.log('Play pressed -> launching', { category, sub, diff });
 
@@ -420,6 +420,7 @@ if (args.length === 0) {
             const s = only.trim();
 
             // Si la chaîne contient un tiret (-), on suppose que c’est un "slug"
+            // Exemple : "genre-academy-facile"
             if (s.includes('-')) {
                 // On découpe la chaîne en morceaux sur chaque tiret
                 // Exemple : "genre-academy-facile" -> ["genre", "academy", "facile"]
