@@ -10,7 +10,7 @@
         "json": "autres-doigt.json",
         "category": "autres",
         "relative_folder": "doigt",
-        "count": 28,
+        "count": 30,
         "path": "RESSOURCES/data-json/guess-webtoon-py/autres-doigt.json"
     },
     {
@@ -89,5 +89,33 @@
         "relative_folder": "academy/moyen",
         "count": 88,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-academy-moyen.json"
+    },
+    {
+        "json": "niveau-de-difficulte-difficile.json",
+        "category": "niveau-de-difficulte",
+        "relative_folder": "difficile",
+        "count": 1,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-difficile.json"
+    },
+    {
+        "json": "niveau-de-difficulte-enfer.json",
+        "category": "niveau-de-difficulte",
+        "relative_folder": "enfer",
+        "count": 1,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-enfer.json"
+    },
+    {
+        "json": "niveau-de-difficulte-facile.json",
+        "category": "niveau-de-difficulte",
+        "relative_folder": "facile",
+        "count": 4,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-facile.json"
+    },
+    {
+        "json": "niveau-de-difficulte-moyen.json",
+        "category": "niveau-de-difficulte",
+        "relative_folder": "moyen",
+        "count": 8,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-moyen.json"
     }
 ]

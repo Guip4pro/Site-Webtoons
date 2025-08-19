@@ -1,0 +1,18 @@
+[
+    {
+        "name": "jungle-juice",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/jungle-juice.jpg"
+    },
+    {
+        "name": "return-of-the-disaster-class-hero",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/return-of-the-disaster-class-hero.jpg"
+    },
+    {
+        "name": "return-of-the-mount-hua-sect",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/return-of-the-mount-hua-sect.jpg"
+    },
+    {
+        "name": "unordinary",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/unordinary.jpg"
+    }
+]

@@ -1,5 +1,9 @@
 [
     {
+        "name": "-99-reinforced-wooden-stick",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/-99-reinforced-wooden-stick.jpg"
+    },
+    {
         "name": "-damn-reincarnation",
         "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/-damn-reincarnation.jpg"
     },
@@ -14,6 +18,10 @@
     {
         "name": "-top-tier-providence",
         "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/-top-tier-providence.jpg"
+    },
+    {
+        "name": "99-reinforced-wooden-stick",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/99-reinforced-wooden-stick.jpg"
     },
     {
         "name": "damn-reincarnation-",
