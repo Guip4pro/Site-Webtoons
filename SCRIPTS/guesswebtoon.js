@@ -956,7 +956,6 @@ if (args.length === 0) {
 /*
 prochaines étapes :
 
-- Ajouter images new catégorie et voir si ça fonctionne dans le jeu guess the webtoon
 - Modifier pour éviter qu'on retrouve 2 fois le même titre de webtoon dans les propositions.
 - To change novels links in tier list 
 - Vol affichage nb de chapitres en fr et en engl : 🇫🇷 70  🇬🇧 180
@@ -975,8 +974,10 @@ Firebase AI Logic : Construire des fonctionnalités d'IA intelligentes :
 - Traitement du langage naturel (TLN) : Analysez et comprenez le texte des utilisateurs pour des expériences plus personnalisées, comme résumer des notes ou traduire du contenu.
 - Expériences créatives : Imaginez des jeux où l'IA génère des quêtes ou des dialogues uniques, ou des outils qui aident les utilisateurs à brainstormer des idées.
 
-
-
+- API pour intégrer un chatbot : https://aistudio.google.com/welcome
+    chatbot, bouton de traduction pour des utilisateurs étrangers, génération de descriptions à partir d'un titre,
+    recommander des webtoons en fonction des goûts de l'utilisateur...
+- Créer une messagerie sécurisée
 
 
 
