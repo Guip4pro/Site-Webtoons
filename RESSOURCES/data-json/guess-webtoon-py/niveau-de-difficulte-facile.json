@@ -1,7 +1,39 @@
 [
     {
+        "name": "-infinite-mage",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/-infinite-mage.jpg"
+    },
+    {
+        "name": "damn-reincarnation",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/damn-reincarnation.jpg"
+    },
+    {
+        "name": "doom-breaker-",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/doom-breaker-.jpg"
+    },
+    {
+        "name": "doom-breaker",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/doom-breaker.jpg"
+    },
+    {
+        "name": "infinite-mage-",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/infinite-mage-.jpg"
+    },
+    {
         "name": "jungle-juice",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/jungle-juice.jpg"
+    },
+    {
+        "name": "latna-saga-survival-story-of-a-sword-king",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/latna-saga-survival-story-of-a-sword-king.jpg"
+    },
+    {
+        "name": "legend-of-the-northern-blade",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/legend-of-the-northern-blade.jpg"
+    },
+    {
+        "name": "omniscient-reader's-viewpoint",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/omniscient-reader's-viewpoint.jpg"
     },
     {
         "name": "return-of-the-disaster-class-hero",
@@ -10,6 +42,30 @@
     {
         "name": "return-of-the-mount-hua-sect",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/return-of-the-mount-hua-sect.jpg"
+    },
+    {
+        "name": "solo-leveling-",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/solo-leveling-.jpg"
+    },
+    {
+        "name": "solo-leveling",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/solo-leveling.jpg"
+    },
+    {
+        "name": "subzero",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/subzero.jpg"
+    },
+    {
+        "name": "sweet-home",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/sweet-home.jpg"
+    },
+    {
+        "name": "the-beginning-after-the-end",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/the-beginning-after-the-end.jpg"
+    },
+    {
+        "name": "tower-of-god",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/tower-of-god.jpg"
     },
     {
         "name": "unordinary",

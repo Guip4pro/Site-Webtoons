@@ -4,12 +4,40 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/99-reinforced-wooden-stick.jpg"
     },
     {
+        "name": "academy's-undercover-professor",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/academy's-undercover-professor.jpg"
+    },
+    {
         "name": "childhood-friend-of-the-zenith",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/childhood-friend-of-the-zenith.jpg"
     },
     {
         "name": "chronicles-of-the-demon-faction",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/chronicles-of-the-demon-faction.jpg"
+    },
+    {
+        "name": "duke-pendragon",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/duke-pendragon.jpg"
+    },
+    {
+        "name": "dungeon-cleaning-life",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/dungeon-cleaning-life.jpg"
+    },
+    {
+        "name": "i-am-the-fated-villain",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/i-am-the-fated-villain.jpg"
+    },
+    {
+        "name": "i-obtained-a-mythic-item-",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/i-obtained-a-mythic-item-.jpg"
+    },
+    {
+        "name": "i-obtained-a-mythic-item",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/i-obtained-a-mythic-item.jpg"
+    },
+    {
+        "name": "infinite-mage",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/infinite-mage.jpg"
     },
     {
         "name": "moon-shadow-sword-emperor",
@@ -24,11 +52,23 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/solo-max-level-newbie.jpg"
     },
     {
-        "name": "top-tier-providence",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/top-tier-providence.jpg"
+        "name": "the-book-eating-magician",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/the-book-eating-magician.jpg"
     },
     {
-        "name": "why-i-quit-being-the-demon-king",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/why-i-quit-being-the-demon-king.jpg"
+        "name": "the-executioner",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/the-executioner.jpg"
+    },
+    {
+        "name": "the-indomitable-martial-king",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/the-indomitable-martial-king.jpg"
+    },
+    {
+        "name": "the-reaper-of-the-drifting-moon",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/the-reaper-of-the-drifting-moon.jpg"
+    },
+    {
+        "name": "your-talent-is-mine",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/your-talent-is-mine.jpg"
     }
 ]

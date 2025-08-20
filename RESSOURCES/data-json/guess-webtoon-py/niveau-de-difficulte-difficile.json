@@ -1,6 +1,22 @@
 [
     {
+        "name": "emperor-of-solo-play",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/emperor-of-solo-play.jpg"
+    },
+    {
         "name": "swordmaster's-youngest-son-",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/swordmaster's-youngest-son-.jpg"
+    },
+    {
+        "name": "top-tier-providence",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/top-tier-providence.jpg"
+    },
+    {
+        "name": "valhalla-saga",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/valhalla-saga.jpg"
+    },
+    {
+        "name": "why-i-quit-being-the-demon-king",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/why-i-quit-being-the-demon-king.jpg"
     }
 ]
