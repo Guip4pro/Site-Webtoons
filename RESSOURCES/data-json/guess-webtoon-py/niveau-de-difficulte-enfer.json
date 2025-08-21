@@ -1,6 +1,22 @@
 [
     {
+        "name": "absolute-sword-sense",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/absolute-sword-sense.jpg"
+    },
+    {
+        "name": "god's-web-novel",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/god's-web-novel.jpg"
+    },
+    {
+        "name": "sword-sweath's-child",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/sword-sweath's-child.jpg"
+    },
+    {
         "name": "swordmaster's-youngest-son",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/swordmaster's-youngest-son.jpg"
+    },
+    {
+        "name": "the-book-of-lagier",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/the-book-of-lagier.jpg"
     }
 ]

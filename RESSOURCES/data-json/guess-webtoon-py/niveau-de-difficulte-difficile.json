@@ -1,11 +1,39 @@
 [
     {
+        "name": "bad-ending-maker",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/bad-ending-maker.jpg"
+    },
+    {
+        "name": "dungeon-odyssey",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/dungeon-odyssey.jpg"
+    },
+    {
         "name": "emperor-of-solo-play",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/emperor-of-solo-play.jpg"
     },
     {
+        "name": "i'm-being-raised-by-villains",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/i'm-being-raised-by-villains.jpg"
+    },
+    {
+        "name": "i-became-an-evolving-space-monster",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/i-became-an-evolving-space-monster.jpg"
+    },
+    {
+        "name": "player-who-returned-10,000-years-later",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/player-who-returned-10,000-years-later.jpg"
+    },
+    {
+        "name": "regressor-instruction-manual",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/regressor-instruction-manual.jpg"
+    },
+    {
         "name": "swordmaster's-youngest-son-",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/swordmaster's-youngest-son-.jpg"
+    },
+    {
+        "name": "the-emperor's-sword",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-emperor's-sword.jpg"
     },
     {
         "name": "top-tier-providence",
@@ -14,6 +42,10 @@
     {
         "name": "valhalla-saga",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/valhalla-saga.jpg"
+    },
+    {
+        "name": "what-a-bountiful-harvest,-demon-lord",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/what-a-bountiful-harvest,-demon-lord.jpg"
     },
     {
         "name": "why-i-quit-being-the-demon-king",

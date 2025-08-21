@@ -24,6 +24,14 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/dungeon-cleaning-life.jpg"
     },
     {
+        "name": "eternally-regressing-knight",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/eternally-regressing-knight.jpg"
+    },
+    {
+        "name": "fayed-to-be-loved-by-villains",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/fayed-to-be-loved-by-villains.jpg"
+    },
+    {
         "name": "i-am-the-fated-villain",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/i-am-the-fated-villain.jpg"
     },
@@ -42,6 +50,10 @@
     {
         "name": "moon-shadow-sword-emperor",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/moon-shadow-sword-emperor.jpg"
+    },
+    {
+        "name": "mount-hua-sect's-genius-phantom-swordsman",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/mount-hua-sect's-genius-phantom-swordsman.jpg"
     },
     {
         "name": "player-who-returned-10,000-years-later",

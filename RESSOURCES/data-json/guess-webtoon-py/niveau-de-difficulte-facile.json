@@ -64,8 +64,16 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/the-beginning-after-the-end.jpg"
     },
     {
+        "name": "the-extra's-academy-survival-guide",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/the-extra's-academy-survival-guide.jpg"
+    },
+    {
         "name": "tower-of-god",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/tower-of-god.jpg"
+    },
+    {
+        "name": "téléchargement",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/téléchargement.jpg"
     },
     {
         "name": "unordinary",
