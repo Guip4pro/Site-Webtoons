@@ -101,28 +101,28 @@
         "json": "niveau-de-difficulte-difficile.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "difficile",
-        "count": 13,
+        "count": 18,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-difficile.json"
     },
     {
         "json": "niveau-de-difficulte-enfer.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "enfer",
-        "count": 5,
+        "count": 7,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-enfer.json"
     },
     {
         "json": "niveau-de-difficulte-facile.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "facile",
-        "count": 20,
+        "count": 21,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-facile.json"
     },
     {
         "json": "niveau-de-difficulte-moyen.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "moyen",
-        "count": 21,
+        "count": 24,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-moyen.json"
     },
     {

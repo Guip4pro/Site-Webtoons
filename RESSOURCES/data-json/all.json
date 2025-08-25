@@ -1066,32 +1066,39 @@
             "alt": "Image : Murim Login"
           },
           {
-              "title": "My Little Brother Is The Academy's Hotshot",
-              "aliases": ["The Dragon Slayer Academy's Hotshot", "The Hero's Younger Brother Is a Deceased Person in the Academy", "The Little Brother Is the Academy's Hotshot"],
-              "image": "IMAGES/4-BONS/my little brother is the academy's hotshot/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : My Little Brother Is The Academy's Hotshot"
+            "title": "My Little Brother Is The Academy's Hotshot",
+            "aliases": ["The Dragon Slayer Academy's Hotshot", "The Hero's Younger Brother Is a Deceased Person in the Academy", "The Little Brother Is the Academy's Hotshot"],
+            "image": "IMAGES/4-BONS/my little brother is the academy's hotshot/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : My Little Brother Is The Academy's Hotshot"
           },
           {
-              "title": "Night of the Soulless Heathens",
-              "aliases": ["The Shadowed Legacy of the Soulless Messenger"],
-              "image": "IMAGES/4-BONS/night of the soulless heathens/cover.jpg",
-              "loading": "lazy",
-              "alt": "Image : Night of the Soulless Heathens"
+            "title": "The Nebula's Civilization",
+            "aliases": ["A Civilização da Nebulosa"],
+            "image": "IMAGES/4-BONS/nebula's civilization/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Nebula's Civilization"
           },
           {
-              "title": "Player From Today Onwards",
-              "aliases": ["Player Starting From Today", "From Today, I'm a Player", "Le destin du player !", "The PLayer From The Today"],
-              "image": "IMAGES/4-BONS/player from today onwards/cover.jpeg",
-              "loading": "lazy",
-              "alt": "Image : Player From Today Onwards"
+            "title": "Night of the Soulless Heathens",
+            "aliases": ["The Shadowed Legacy of the Soulless Messenger"],
+            "image": "IMAGES/4-BONS/night of the soulless heathens/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Night of the Soulless Heathens"
           },
           {
-              "title": "Player Who Can't Level Up",
-              "aliases": ["Celui qui ne pouvait pas monter de niveau", "El jugador que no puede subir de nivel", "The Player That Can't Level Up "],
-              "image": "IMAGES/4-BONS/player who can't level up/cover.webp",
-              "loading": "lazy",
-              "alt": "Image : Player Who Can't Level Up"
+            "title": "Player From Today Onwards",
+            "aliases": ["Player Starting From Today", "From Today, I'm a Player", "Le destin du player !", "The PLayer From The Today"],
+            "image": "IMAGES/4-BONS/player from today onwards/cover.jpeg",
+            "loading": "lazy",
+            "alt": "Image : Player From Today Onwards"
+          },
+          {
+            "title": "Player Who Can't Level Up",
+            "aliases": ["Celui qui ne pouvait pas monter de niveau", "El jugador que no puede subir de nivel", "The Player That Can't Level Up "],
+            "image": "IMAGES/4-BONS/player who can't level up/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Player Who Can't Level Up"
           },
           {
             "title": "Pour ne pas Mourir",
@@ -1523,6 +1530,13 @@
             "alt": "Image : A Barbarian was admitted to the Academy"
           },
           {
+            "title": "A Modern Man Who Transmigrated Into the Murim World",
+            "aliases": ["A Modern Man Who Got Transmigrated Into the Murim World", "Modern Dude in the Murim", "Modern Man Falling Into the World of Murim", "Un homme des temps modernes se fait Isekai dans le monde des Murim"],
+            "image": "IMAGES/5-INTERMEDIAIRES/a modern man who transmigrated into the murim world/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : A Modern Man Who Transmigrated Into the Murim World"
+          },
+          {
             "title": "Absolute Dominion",
             "aliases": ["Absolute Domination", "Absolute Reign", "Dominio absoluto"],
             "image": "IMAGES/5-INTERMEDIAIRES/absolute dominion/cover.webp",
@@ -1894,6 +1908,13 @@
             "alt": "Image : Millionaire Lady"
           },
           {
+            "title": "Monster Eater",
+            "aliases": ["Demon-Eating Adventurer", "Demon Eating Adventurer", "Mamono Kurai no Boukensha - Ore Dake Mamono wo Kuratte Tsuyoku Naru", "Monster Eater", "Monster Eater Adventurer", "Monster-Eater Adventurer"],
+            "image": "IMAGES/5-INTERMEDIAIRES/monster eater/cover.png",
+            "loading": "lazy",
+            "alt": "Image : Monster Eater"
+          },
+          {
             "title": "Monster Pet Evolution",
             "aliases": ["Divine Pet Evolution", "God Pet Evolution"],
             "image": "IMAGES/5-INTERMEDIAIRES/monster pet evolution/cover.jpg",
@@ -2070,6 +2091,13 @@
             "image": "IMAGES/5-INTERMEDIAIRES/surviving as a fish/cover.webp",
             "loading": "lazy",
             "alt": "Image : Surviving as a Fish"
+          },
+          {
+            "title": "Surviving as a Barbarian in a Fantasy World",
+            "aliases": ["A Barbarian's Adventure in a Fantasy World"],
+            "image": "IMAGES/5-INTERMEDIAIRES/surviving as a barbarian in a fantasy world/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Surviving as a Barbarian in a Fantasy World"
           },
           {
             "title": "Surviving as a Genius on Borrowed Time",
@@ -2284,10 +2312,17 @@
           },
           {
             "title": "Chasser des Golems",
-            "aliases": ["Capture the Golem and Escape Poverty", "Capture the Golem to Escape Clutches of Poverty "],
+            "aliases": ["Capture the Golem and Escape Poverty", "Capture the Golem to Escape Clutches of Poverty"],
             "image": "IMAGES/6-MOYENS/chasser des golems/cover.jpg",
             "loading": "lazy",
             "alt": "Image : Chasser des Golems"
+          },
+          {
+            "title": "Child of the Sheath",
+            "aliases": ["The Sword Sheath's Child", "Anak dari Rumah Pedang", "Anak Pedang", "Child of Scabbard", "Child of the House of Blades", "Child of the Sheath", "Galjib'eui Ai", "Kenshou no Ko"],
+            "image": "IMAGES/6-MOYENS/child of the sheath/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Child of the Sheath"
           },
           {
             "title": "Darkness Revenge",
@@ -2308,6 +2343,13 @@
             "image": "IMAGES/6-MOYENS/dream sharing/cover.jpg",
             "loading": "lazy",
             "alt": "Image : Dream Sharing"
+          },
+          {
+            "title": "Dumped by my Girldriend I Turned to Martial Arts",
+            "aliases": ["Dumped by my Girldriend, I Turned to Martial Arts", "After the School Belle Dumped Me, I Became a Martial Arts God", "After Being Dumped by the School Beauty, I Directly Achieved Godhood Through Martial Arts", "After Breaking Up With the School Beauty, I Became a Martial Arts Master", "Après que la reine du lycée m'a largué, je suis devenu un dieu des arts martiaux", "Bèi Xiàohuā Fēnshǒu Hòu, Wǒ Zhíjiē Wǔdào Tōng Shén"],
+            "image": "IMAGES/6-MOYENS/dumped by my girldriend i turned to martial arts/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Dumped by my Girldriend I Turned to Martial Arts"
           },
           {
             "title": "Dungeon Kurashi",
@@ -2508,6 +2550,13 @@
             "image": "IMAGES/6-MOYENS/my child will have a different father/cover.webp",
             "loading": "lazy",
             "alt": "Image : My Child will have a Different Father"
+          },
+          {
+            "title": "My Path to Killing Gods in Another World",
+            "aliases": ["Assassin in Another World", "I Walk on a Road to Slay Enemies in My Way in Other World", "My Way of Killing Gods in Another World", "Sát Thần Chi Lộ Tại Dị Giới", "Wo Zai Yijie De Shi Shen Zhi Lu"],
+            "image": "IMAGES/6-MOYENS/my path to killing gods in another world/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : My Path to Killing Gods in Another World"
           },
           {
             "title": "Nihonkoku Shoukan",

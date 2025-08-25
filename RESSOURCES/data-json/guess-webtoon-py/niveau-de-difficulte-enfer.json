@@ -8,6 +8,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/god's-web-novel.jpg"
     },
     {
+        "name": "i-became-an-evolving-space-monster",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/i-became-an-evolving-space-monster.jpg"
+    },
+    {
         "name": "sword-sweath's-child",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/sword-sweath's-child.jpg"
     },
@@ -18,5 +22,9 @@
     {
         "name": "the-book-of-lagier",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/the-book-of-lagier.jpg"
+    },
+    {
+        "name": "top-tier-providence",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/top-tier-providence.jpg"
     }
 ]

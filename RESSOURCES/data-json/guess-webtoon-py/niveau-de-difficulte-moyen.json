@@ -32,6 +32,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/fayed-to-be-loved-by-villains.jpg"
     },
     {
+        "name": "god's-gambit",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/god's-gambit.jpg"
+    },
+    {
         "name": "i-am-the-fated-villain",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/i-am-the-fated-villain.jpg"
     },
@@ -56,12 +60,20 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/mount-hua-sect's-genius-phantom-swordsman.jpg"
     },
     {
+        "name": "nebula's-civilization",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/nebula's-civilization.jpg"
+    },
+    {
         "name": "player-who-returned-10,000-years-later",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/player-who-returned-10,000-years-later.jpg"
     },
     {
         "name": "solo-max-level-newbie",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/solo-max-level-newbie.jpg"
+    },
+    {
+        "name": "star-embracing-swordmaster",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/star-embracing-swordmaster.jpg"
     },
     {
         "name": "the-book-eating-magician",

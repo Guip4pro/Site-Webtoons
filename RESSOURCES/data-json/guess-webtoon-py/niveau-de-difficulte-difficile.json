@@ -12,6 +12,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/emperor-of-solo-play.jpg"
     },
     {
+        "name": "genius-prismatic-mage",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/genius-prismatic-mage.jpg"
+    },
+    {
         "name": "i'm-being-raised-by-villains",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/i'm-being-raised-by-villains.jpg"
     },
@@ -24,8 +28,20 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/player-who-returned-10,000-years-later.jpg"
     },
     {
+        "name": "reborn-rich",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/reborn-rich.jpg"
+    },
+    {
         "name": "regressor-instruction-manual",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/regressor-instruction-manual.jpg"
+    },
+    {
+        "name": "return-of-the-sss-class-ranker",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/return-of-the-sss-class-ranker.jpg"
+    },
+    {
+        "name": "solo-resurrection",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/solo-resurrection.jpg"
     },
     {
         "name": "swordmaster's-youngest-son-",
@@ -34,6 +50,10 @@
     {
         "name": "the-emperor's-sword",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-emperor's-sword.jpg"
+    },
+    {
+        "name": "the-world-after-the-fall",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-world-after-the-fall.jpg"
     },
     {
         "name": "top-tier-providence",

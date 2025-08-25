@@ -36,6 +36,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/omniscient-reader's-viewpoint.jpg"
     },
     {
+        "name": "pick-me-up",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/pick-me-up.jpg"
+    },
+    {
         "name": "return-of-the-disaster-class-hero",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/return-of-the-disaster-class-hero.jpg"
     },
