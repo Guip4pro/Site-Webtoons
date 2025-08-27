@@ -375,6 +375,15 @@ function tierlistMaker() {
 
 
     // Zoom sur Image
+// écouteur global qui intercepte les clics sur toute image
+// ayant la classe thumbnail, même celles créées plus tard
+document.addEventListener("click", function(e) {
+    if (e.target.classList.contains("thumbnail")) {
+        modal.style.display = "block";
+        modalImg.src = e.target.src;
+    }
+});
+
 // Créer le modal et ses éléments
 const modal = document.createElement("div");
 modal.className = "modal";
@@ -411,6 +420,7 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
 
 
 

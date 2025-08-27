@@ -309,10 +309,10 @@
           "image": "IMAGES/2-EXCELLENTS/lecteur omniscient/cover.avif",
           "alt": "Image : Lecteur Omniscient",
           "details": {
-            "title": "Lecteur Omniscient",
+            "title": "Omniscient Reader's Viewpoint",
             "banner": "IMAGES/2-EXCELLENTS/lecteur omniscient/banner4.jpg",
             "cover": "IMAGES/2-EXCELLENTS/lecteur omniscient/cover.avif",
-            "alt": "Image de Lecteur Omniscient",
+            "alt": "Image de ORV",
             "type": "Manhwa",
             "genre": [
               "Action",
@@ -416,7 +416,7 @@
           "details": {
             "title": "Pick Me Up",
             "banner": "IMAGES/2-EXCELLENTS/pick me up/bannière.avif",
-            "cover": "IMAGES/2-EXCELLENTS/pick me up/cover.avif",
+            "cover": "IMAGES/2-EXCELLENTS/pick me up/cover1.webp",
             "alt": "Image de Pick Me Up",
             "type": "Manhwa",
             "genre": [
@@ -777,7 +777,7 @@
             "alt": "Image : Absolute Regression",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/absolute regression/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -896,8 +896,8 @@
             "alt": "Image : Designated Bully",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/3-TRES BONS/designated bully/banner1.webp",
+              "cover": "IMAGES/3-TRES BONS/designated bully/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -912,12 +912,12 @@
           {
             "title": "Drug-Eating Genius Mage",
             "aliases": ["Medicine Genius Wizard"],
-            "image": "IMAGES/3-TRES BONS/drug-eating genius mage/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/drug-eating genius mage/covergif.webp",
             "alt": "Image : Drug-Eating Genius Mage",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/3-TRES BONS/drug-eating genius mage/cover.jpg",
               "alt": "",
               "type": "",
               "genre": [],
@@ -956,7 +956,7 @@
             "alt": "Image : Eleceed",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/eleceed/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -971,7 +971,7 @@
           },
           {
             "title": "The Emperor of Solo Play",
-            "aliases": ["A Knight Who Eternally Regresses", "The Knight Only Lives Today", "The Knight Who Only Lives Today"],
+            "aliases": ["Solo of Emperor Play"],
             "image": "IMAGES/3-TRES BONS/emperor of solo play/cover.webp",
             "alt": "Image : Emperor of Solo Play",
             "details": {
@@ -996,8 +996,8 @@
             "alt": "Image : Eternally Regressing Knight",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/3-TRES BONS/eternally regressing knight/Banner.png",
+              "cover": "IMAGES/3-TRES BONS/eternally regressing knight/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -1005,7 +1005,14 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/eternally regressing knight/img1.png",
+                "IMAGES/3-TRES BONS/eternally regressing knight/img2.png",
+                "IMAGES/3-TRES BONS/eternally regressing knight/img3.png",
+                "IMAGES/3-TRES BONS/eternally regressing knight/img4.png",
+                "IMAGES/3-TRES BONS/eternally regressing knight/img5.png",
+                "IMAGES/3-TRES BONS/eternally regressing knight/img6.png"
+              ],
               "adaptations": []
             }
           },
@@ -1116,7 +1123,7 @@
             "alt": "Image : I Obtained a Mythic Item",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/i obtained a mythic item/banner.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1216,7 +1223,7 @@
             "alt": "Image : Latna Saga",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/latna saga/banner1.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1236,8 +1243,8 @@
             "alt": "Image : Le Sens de l'Épée",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/3-TRES BONS/le sens de l'épée/banner.jpg",
+              "cover": "IMAGES/3-TRES BONS/le sens de l'épée/cover.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -1256,7 +1263,7 @@
             "alt": "Image : Legend of Asura",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/legend of asura/banner.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1296,7 +1303,7 @@
             "alt": "Image : Leveling Up with the Gods",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/leveling up with the gods/bannière.avif",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1516,7 +1523,7 @@
             "alt": "Image : Player Who Returned 10,000 Years Later",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/player who returned 10000 years later/banner1.png",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1545,7 +1552,10 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/priest of corruption/img1.png",
+                "IMAGES/3-TRES BONS/priest of corruption/img2.png"
+              ],
               "adaptations": []
             }
           },
@@ -1617,7 +1627,7 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/3-TRES BONS/regressor instruction manual/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -1636,8 +1646,8 @@
             "alt": "Image : Regressor of the Fallen Family",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/3-TRES BONS/regressor of the fallen family/banner1.webp",
+              "cover": "IMAGES/3-TRES BONS/regressor of the fallen family/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -1657,7 +1667,7 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/cover.avif",
               "alt": "",
               "type": "",
               "genre": [],
@@ -1756,7 +1766,7 @@
             "alt": "Image : Solo Max-Level Newbie",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/solo max-level newbie/bannière.avif",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1776,7 +1786,7 @@
             "alt": "Image : Solo Necromancy",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/solo necromancy/bannière.avif",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1796,7 +1806,7 @@
             "alt": "Image : SSS-Class Suicide Hunter",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/sss-class suicide hunter/bannière.avif",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1876,7 +1886,7 @@
             "alt": "Image : The Academy’s Sashimi Sword Master",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/the academy’s sashimi sword master/banner.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1896,7 +1906,7 @@
             "alt": "Image : The Constellations Are My Disciples",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/the constellations are my disciples/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1956,7 +1966,7 @@
             "alt": "Image : The Executioner",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/the executioner/banner1.png",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1996,7 +2006,7 @@
             "alt": "Image : The Great Mage Returns After 4000 Years",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/the great mage returns after 4000 years/banner3.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2036,7 +2046,7 @@
             "alt": "Image : The Indomitable Martial King",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/the indomitable martial king/banner.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2096,8 +2106,8 @@
             "alt": "Image : The Martial God Who Regressed to Level 2",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/3-TRES BONS/the martial god who regressed to level 2/banner1.png",
+              "cover": "IMAGES/3-TRES BONS/the martial god who regressed to level 2/cover.jpg",
               "alt": "",
               "type": "",
               "genre": [],
@@ -2116,8 +2126,28 @@
             "alt": "Image : The Newbie Is Too Strong",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/the newbie is too strong/banner.jpg",
               "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Novel's Extra",
+            "aliases": ["The Novel's Extra (Remake)", "Extra in the Novel (2022)", "The Ghost Writing Hero", "The Novel's Extra (2022)"],
+            "image": "IMAGES/3-TRES BONS/the novel's extra/cover.webp",
+            "alt": "Image : The Novel's Extra",
+            "details": {
+              "title": "The Novel's Extra (Remake)",
+              "banner": "IMAGES/3-TRES BONS/the novel's extra/banner1.avif",
+              "cover": "IMAGES/3-TRES BONS/the novel's extra/cover1.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -2156,7 +2186,7 @@
             "alt": "Image : The Reborn Young Lord Is an Assassin",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/the reborn young lord is an assassin/banner1.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2176,7 +2206,7 @@
             "alt": "Image : The Return of the Disaster-Class Hero",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/the return of the disaster-class hero/banner3.avif",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2342,7 +2372,7 @@
             "alt": "Image : A Returner's Magic Should Be Special",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/a returner’s magic should be special/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2510,7 +2540,7 @@
             "alt": "Image : Bastard Son Was The Emperor",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/bastard son was the emperor/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2594,7 +2624,7 @@
             "alt": "Image : Childhood friend of the Zenith",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/childhood friend of the zenith/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2657,7 +2687,7 @@
             "alt": "Image : Chronicles of the Martial God's Return",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/chronicles of the martial god's return/banner1.png",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2720,7 +2750,7 @@
             "alt": "Image : Descent of the Demonic Master",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/descent of the demonic master/banner1.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2762,7 +2792,7 @@
             "alt": "Image : Divine Surgeon",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/divine surgeon/banner1.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2783,7 +2813,7 @@
             "alt": "Image : Doctor Player",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/doctor player/banner1.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3013,7 +3043,7 @@
             "alt": "Image : Genius Archer's Streaming",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/genius archer's streaming/bannière.avif",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3034,7 +3064,7 @@
             "alt": "Image : Genius Assassin Who Takes It All",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/genius assassin who takes it all/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3043,7 +3073,9 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/4-BONS/hand over the money/img1.jpg"
+              ],
               "adaptations": []
             }
           },
@@ -3158,7 +3190,7 @@
             "alt": "Image : Hero Killer",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/hero killer/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3347,7 +3379,7 @@
             "alt": "Image : I Was The Final Boss",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/i was the final boss/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3536,7 +3568,7 @@
             "alt": "Image : Knight King Who Returned With A God",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/knight king who returned with a god/banner1.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3599,7 +3631,7 @@
             "alt": "Image : L'Artéfact Dévoreur",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/l'artéfact dévoreur/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3621,6 +3653,27 @@
             "details": {
               "title": "",
               "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Level up Alone",
+            "aliases": [],
+            "image": "IMAGES/4-BONS/level up alone/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : Leveling up Alone",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/level up alone/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3662,7 +3715,7 @@
             "alt": "Image : L'Expert de la Tour Tutoriel",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/l'expert de la tour tutoriel/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3746,7 +3799,7 @@
             "alt": "Image : Manager Kim",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/manager kim/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3970,14 +4023,14 @@
             }
           },
           {
-            "title": "Player Who Can't Level Up",
+            "title": "The Player Who Can't Level Up",
             "aliases": ["Celui qui ne pouvait pas monter de niveau", "El jugador que no puede subir de nivel", "The Player That Can't Level Up "],
             "image": "IMAGES/4-BONS/player who can't level up/cover.webp",
             "loading": "lazy",
             "alt": "Image : Player Who Can't Level Up",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/player who can't level up/banner1.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4124,7 +4177,7 @@
             "alt": "Image : Regressing With The King's Power",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/regressing with the king's power/banner1.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4208,7 +4261,7 @@
             "alt": "Image : Return of the 8th Class Magician",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/return of the 8th class magician/banner1.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4229,7 +4282,7 @@
             "alt": "Image : Return of the Broken Constellation",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/return of the broken constellation/banner1.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4334,7 +4387,7 @@
             "alt": "Image : Return of the Mad Demon",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/return of the mad demon/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4355,7 +4408,7 @@
             "alt": "Image : Return to Player",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/return to player/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4376,7 +4429,7 @@
             "alt": "Image : Returned as the Duke",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/returned as the duke/banner1.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4418,7 +4471,7 @@
             "alt": "Image : Seoul Station's Necromancer",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/seoul station's necromancer/banner1.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4439,7 +4492,7 @@
             "alt": "Image : Skeleton Soldier Couldn't Protect the Dungeon",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/skeleton soldier couldn't protect the dungeon/banner1.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4522,7 +4575,7 @@
             "alt": "Image : Special Civil Servant",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/special civil servant/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4627,7 +4680,7 @@
             "alt": "Image : The 100th Regression of the Max-Level Player",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/the 100th regression of the max-level player/banner1.png",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4648,7 +4701,7 @@
             "alt": "Image : The Boxer",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/the boxer/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4857,7 +4910,7 @@
             "alt": "Image : The Last Adventurer",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/the last adventurer/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4941,7 +4994,7 @@
             "alt": "Image : The Reincarnated Assassin Is a Genius Swordsman",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/the reincarnated assassin is a genius swordsman/banner1.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4962,7 +5015,7 @@
             "alt": "Image : The Second Coming of Gluttony",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/the second coming of gluttony/banner1.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5004,7 +5057,7 @@
             "alt": "Image : Trash of the Count's Family",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/trash of the count's family/banner.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5025,7 +5078,7 @@
             "alt": "Image : Tyrant of the Tower Defense Game",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/tyrant of the tower defense game/banner.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5088,7 +5141,7 @@
             "alt": "Image : Villain to Kill",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/villain to kill/banner2.png",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5193,7 +5246,7 @@
             "alt": "Image : Why I Quit Being the Demon King",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/why i quit being the demon king/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5214,7 +5267,7 @@
             "alt": "Image : Worn and Torn Newbie",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/worn and torn newbie/banner.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5261,7 +5314,7 @@
             "alt": "Image : 10-Star Player's Lucky Draw",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/10-star player's lucky draw/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5387,7 +5440,7 @@
             "alt": "Image : Angelic Lady",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/angelic lady/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5702,7 +5755,7 @@
             "alt": "Image : Estio",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/estio/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -6395,7 +6448,7 @@
             "alt": "Image : Lightning Degree",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/lightning degree/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -6542,7 +6595,7 @@
             "alt": "Image : Monster Streamer For Gods",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/monster streamer for gods/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -6647,7 +6700,7 @@
             "alt": "Image : Newbie Management",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/newbie management/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -6710,7 +6763,7 @@
             "alt": "Image : Reborn Rich",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/reborn rich/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -6794,7 +6847,7 @@
             "alt": "Image : Reincarnation Path of the Underworld King",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/reincarnation path of the underworld king/bannière.png",
               "cover": "",
               "alt": "",
               "type": "",
@@ -6878,7 +6931,7 @@
             "alt": "Image : Return Your Soul",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/return your soul/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -6920,7 +6973,7 @@
             "alt": "Image : Roxana",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/roxana/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -6941,7 +6994,7 @@
             "alt": "Image : School Life Pretending to Be a Worthless Person",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/school life pretending to be a worthless person/bannière.jpeg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -6962,7 +7015,7 @@
             "alt": "Image : Solo Leveling Ragnarok",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/solo leveling ragnarok/banner1.avif",
               "cover": "",
               "alt": "",
               "type": "",
@@ -7004,7 +7057,7 @@
             "alt": "Image : Super Genius DNA",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/super genius dna/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -7193,7 +7246,7 @@
             "alt": "Image : The Crown Prince That Sells Medicine",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/the crown prince that sells medicine/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -7891,7 +7944,7 @@
             "alt": "Image : God's Web Novel",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/god's web novel/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8038,7 +8091,7 @@
             "alt": "Image : Into the Light Once Again",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/into the light once again/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8185,7 +8238,7 @@
             "alt": "Image : La Vilaine est un Maître Invincible",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/la vilaine est un maître invincible/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8227,7 +8280,7 @@
             "alt": "Image : Lady Chef Royale",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/lady chef royale/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8290,7 +8343,7 @@
             "alt": "Image : Limit Breaker",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/limit breaker/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8333,6 +8386,27 @@
             "details": {
               "title": "",
               "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "La Lady Solitaire",
+            "aliases": ["untouchable lady", "solitary lady", "dama inaccesible"],
+            "image": "IMAGES/6-MOYENS/la lady solitaire/cover.jpg",
+            "loading": "lazy",
+            "alt": "Image : La Lady Solitaire",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/6-MOYENS/la lady solitaire/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8416,7 +8490,7 @@
             "alt": "Image : My Child will have a Different Father",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/my child will have a different father/banner1.png",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8605,7 +8679,7 @@
             "alt": "Image : Sangs et Papillons",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/sangs et papillons",
               "cover": "",
               "alt": "",
               "type": "",
@@ -9030,7 +9104,7 @@
             "alt": "Image : My Secretly Hot Husband",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/7-ENNUYANTS/my secretly hot husband/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",

@@ -956,8 +956,7 @@ if (args.length === 0) {
 prochaines étapes :
 
 - Modifier pour éviter qu'on retrouve 2 fois le même titre de webtoon dans les propositions.
-- Générer TOUTES les pop-up des webtoons en js et par json.
-- Vol affichage nb de chapitres en fr et en engl : 🇫🇷 70  🇬🇧 180
+- Vol affichage nb de chapitres en fr et en engl : 🇫🇷 70  US 180
 - Faire un script qui convertit automatiquement mes fichiers en webp, à part s'ils sont déjà en avif ou en gif
 - Chercher comment optimiser l'apparition d'une page web, pour qu'elle soit plus rapide. Notamment les images
 - Poster sur un vrai site
