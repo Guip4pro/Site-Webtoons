@@ -1,189 +1,357 @@
-// Attend que tout le contenu HTML soit entièrement chargé avant d'exécuter le JS
-document.addEventListener('DOMContentLoaded', function () {
-    const webtoonLinks = document.querySelectorAll('.tier-grid a');
-    const tierContainer = document.getElementById("intermediaires");
+// Génération dynamique des miniatures + pop-ups à partir d'un seul all.json
+document.addEventListener('DOMContentLoaded', () => {
+    const JSON_FILE = 'https://guip4pro.github.io/Site-Webtoons/RESSOURCES/data-json/all.json';
+    const CACHE_BUST = true; // false en prod
+    const BREAKPOINT_MOBILE = 720;
 
-    
-    // Ouvre un pop-up lorsque l'image est cliquée
-    webtoonLinks.forEach(link => {
-        link.addEventListener('click', function (event) {
-            event.preventDefault();
-            const targetID = this.getAttribute('href').substring(1);
-            const targetDetail = document.getElementById(targetID);
-            if (targetDetail) {
-                targetDetail.style.display = 'block';
-            }
-        });
-    });
-
-
-
-    // Liste pour stocker tous les liens webtoons
-    const allWebtoonLinks = [];
-
-    function loadWebtoonsFromJson(jsonFile) {
-        fetch(`${jsonFile}?v=${Date.now()}`)    // Ajout du paramètre pour éviter le cache
-            .then(response => response.json())
-            .then(data => {
-                console.log("JSON chargé :", data);     // Afficher le contenu entier du json
-                data.categories.forEach(category => {
-                    const container = document.getElementById(
-                        category.name.toLowerCase()
-                            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-                            .replace(/\s+/g, '-')
-                    );
-
-                    if (container) {
-                        category.webtoons.forEach(webtoon => {
-                            const link = document.createElement('a');
-                            link.href = `#webtoon-${webtoon.title.replace(/\s+/g, '-').toLowerCase()}-details`;     // toLowerCase convertit la chaîne de caractère en minuscule
-
-                            // Génère une liste de tous les noms (titre + alias)
-                            const aliases = [
-                                webtoon.title,
-                                ...(Array.isArray(webtoon.aliases) ? webtoon.aliases : [])
-                            ].map(name => name.toLowerCase());
-
-                            // Stocke les alias pour la recherche
-                            link.dataset.aliases = aliases.join(',');
-
-                            const img = document.createElement('img');
-                            img.src = webtoon.image;
-                            if (webtoon.loading) img.loading = webtoon.loading;
-                            img.alt = webtoon.alt;
-
-                            link.appendChild(img);
-                            container.appendChild(link);
-
-                            // 3) Sauvegarder ce lien dans la liste
-                            allWebtoonLinks.push(link);
-                            
-                            // 4) Ajout du click handler pour le pop‑up
-                            link.addEventListener('click', function (event) {
-                                event.preventDefault();
-                                const targetID = this.getAttribute('href').substring(1);
-                                const targetDetail = document.getElementById(targetID);
-                                if (targetDetail) {
-                                    targetDetail.style.display = 'block';
-                                    const closePopup = targetDetail.querySelector('.close-popup');      // Récupérer la croix de fermeture
-                                    closePopup.onclick = () => targetDetail.style.display = 'none';     // Fermer le pop-up
-                                }
-                            });
-                        });
-                    }
-                });
-            })
-            .catch(error => console.error('Erreur lors du chargement du JSON :', error));
+    /* ---------- utilitaires ---------- */
+    function slugify(text = '') {
+        return String(text)
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase().trim()
+        .replace(/['"’”“`]/g, '')
+        .replace(/[^a-z0-9\s-]/g, '')
+        .replace(/\s+/g, '-')
+        .replace(/-+/g, '-');
+    }
+    function normalizeContainerId(name = '') {
+        return String(name).toLowerCase()
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        .replace(/\s+/g, '-');
     }
 
+    /* ---------- stockage ---------- */
+    // (accessible dans la console pour debug si besoin)
+    window.__allWebtoonLinks = []; // intentionally global for easy debugging
+    const webtoonIndex = new Map(); // slug -> webtoon object (from all.json)
 
-    
-    // Appel
-    loadWebtoonsFromJson('https://guip4pro.github.io/Site-Webtoons/RESSOURCES/data-json/all.json');   // ancien chemin relatif : '../RESSOURCES/data-json/all.json'
+    /* ---------- création d'un élément .webtoon-details ---------- */
+    function buildDetailElement(slug, webtoon) {
+        // data source: prefer webtoon.details if present, else use top-level fields
+        const d = webtoon.details || {};
+        const title = d.title || webtoon.title || '';
+        const banner = d.banner || '';
+        const cover = d.cover || webtoon.cover || webtoon.image || '';
+        const alt = d.alt || webtoon.alt || title;
+        const type = d.type || webtoon.type || '';
+        const genre = d.genre || webtoon.genre || [];
+        const status = d.status || webtoon.status || '';
+        const chapters = d.chapters || webtoon.chapters || '';
+        const sites = d.sites || webtoon.sites || [];
+        const synopsis = d.synopsis || webtoon.synopsis || '';
+        const previews = d.previewImages || webtoon.previewImages || [];
+        const adaptations = d.adaptations || webtoon.adaptations || '';
 
-    // (Ancien système de fermeture :) Fermer le pop-up en cliquant à l'extérieur du contenu
-    /*window.addEventListener('click', function(event) {
-        const openPopup = document.querySelector('.webtoon-details[style*="display: block"]');
-        if (openPopup && !openPopup.contains(event.target) && !event.target.matches('.tier-grid img')) {
-            openPopup.style.display = 'none';
+        // wrapper
+        const wrapper = document.createElement('div');
+        wrapper.className = 'webtoon-details';
+        wrapper.id = `webtoon-${slug}-details`;
+        wrapper.style.display = 'none'; // hidden by default
+
+        // close
+        const close = document.createElement('span');
+        close.className = 'close-popup';
+        close.setAttribute('aria-label', 'Fermer');
+        close.innerHTML = '&times;';
+        wrapper.appendChild(close);
+
+        // titres/bannières
+        const titres = document.createElement('div');
+        titres.className = 'titres_bannières';
+        const h3 = document.createElement('h3');
+        h3.textContent = title;
+        titres.appendChild(h3);
+        if (banner) {
+        const b = document.createElement('img');
+        b.src = banner;
+        b.loading = 'lazy';
+        b.alt = `${title} banner`;
+        b.className = 'banner';
+        titres.appendChild(b);
         }
-    });*/
+        wrapper.appendChild(titres);
 
+        // details-content
+        const detailsContent = document.createElement('div');
+        detailsContent.className = 'details-content';
 
+        if (cover) {
+        const img = document.createElement('img');
+        img.src = cover;
+        img.loading = 'lazy';
+        img.alt = alt || title;
+        img.className = 'thumbnail';
+        detailsContent.appendChild(img);
+        }
 
+        const detailsText = document.createElement('div');
+        detailsText.className = 'details-text';
 
-        // Filtrer au fur et à mesure de la saisie
-    document.getElementById('search-webtoon').addEventListener('input', function () {
-        const query = this.value.trim().toLowerCase();
+        if (type) {
+        const p = document.createElement('p');
+        p.innerHTML = `<strong>Type :</strong> ${type}`;
+        detailsText.appendChild(p);
+        }
+        if (genre && (Array.isArray(genre) ? genre.length : genre)) {
+        const p = document.createElement('p');
+        const g = Array.isArray(genre) ? genre.join(' / ') : genre;
+        p.innerHTML = `<strong>Genre :</strong> ${g}`;
+        detailsText.appendChild(p);
+        }
+        if (status) {
+        const p = document.createElement('p');
+        p.innerHTML = `<strong>Statut :</strong> ${status}`;
+        detailsText.appendChild(p);
+        }
+        if (chapters) {
+        const p = document.createElement('p');
+        p.innerHTML = `<strong>Nombre de chapitres :</strong> ${chapters}`;
+        detailsText.appendChild(p);
+        }
 
-        allWebtoonLinks.forEach(link => {
-            const aliases = link.dataset.aliases?.split(',') || [];
-            const match = aliases.some(alias => alias.includes(query));
-            link.style.display = match ? '' : 'none';
+        // sites-container
+        if (sites && sites.length) {
+        const container = document.createElement('div');
+        container.className = 'sites-container';
+        const titleSites = document.createElement('p');
+        titleSites.className = 'sites-list';
+        titleSites.innerHTML = '<strong>Sites de lecture :</strong>';
+        container.appendChild(titleSites);
+        const ul = document.createElement('ul');
+        ul.className = 'sites-ul';
+        sites.forEach(s => {
+            const li = document.createElement('li');
+            if (s.url) {
+            const a = document.createElement('a');
+            a.href = s.url;
+            a.target = '_blank';
+            a.rel = 'noopener';
+            a.textContent = s.name || s.url;
+            li.appendChild(a);
+            if (s.note) {
+                const em = document.createElement('em');
+                em.textContent = ` (${s.note})`;
+                li.appendChild(em);
+            }
+            } else {
+            li.textContent = s.name || '';
+            }
+            ul.appendChild(li);
         });
-    });
+        container.appendChild(ul);
+        detailsText.appendChild(container);
+        }
 
-    // Fonction texte sites de lecture petit-écran
-    (function() {
-        const BREAKPOINT = 720; // px -> adapte si tu veux
-        let resizeTimer = null;
+        detailsContent.appendChild(detailsText);
+        wrapper.appendChild(detailsContent);
 
-        function syncSitesForAllPopups() {
-            document.querySelectorAll('.webtoon-details').forEach(popup => {
-            const detailsContent = popup.querySelector('.details-content');
-            const detailsText = popup.querySelector('.details-text');
-            if (!detailsContent || !detailsText) return;
+        // Synopsis
+        if (synopsis) {
+        const pTitle = document.createElement('p');
+        pTitle.innerHTML = '<strong>Synopsis :</strong>';
+        wrapper.appendChild(pTitle);
+        const pSyn = document.createElement('p');
+        pSyn.innerHTML = synopsis;
+        wrapper.appendChild(pSyn);
+        }
 
-            const orig = popup.querySelector('.sites-container');   // élément original (dans details-text)
-            const mobile = popup.querySelector('.sites-mobile');    // élément mobile (après details-content)
+        // Previews
+        if (previews && previews.length) {
+        const pTitle = document.createElement('p');
+        pTitle.innerHTML = '<strong>Prévisualisation :</strong>';
+        wrapper.appendChild(pTitle);
+        const divImgs = document.createElement('div');
+        divImgs.className = 'img-popup';
+        previews.forEach(src => {
+            const im = document.createElement('img');
+            im.className = 'thumbnail';
+            im.loading = 'lazy';
+            im.alt = 'image preview';
+            im.src = src;
+            divImgs.appendChild(im);
+        });
+        wrapper.appendChild(divImgs);
+        }
 
-            // --- mobile view ---
-            if (window.innerWidth <= BREAKPOINT) {
-                // si déjà déplacé, on s'assure qu'il y a bien un .sites-mobile
-                if (!mobile) {
-                // si orig existe -> on conserve son contenu, puis on le retire et on crée mobile
-                if (orig) {
-                    // stocker le HTML + class dans dataset pour restauration future
-                    popup.dataset.sitesOriginalInner = orig.innerHTML;
-                    popup.dataset.sitesOriginalClass = orig.className || 'sites-container';
-                    // retirer l'original (suppression comme demandé)
-                    orig.remove();
-                }
-                // créer le bloc mobile (à partir de la copie stockée si possible)
-                const newMobile = document.createElement('div');
-                newMobile.className = 'sites-mobile';
-                newMobile.innerHTML = popup.dataset.sitesOriginalInner || '<p class="sites-list"><strong>Sites de lecture :</strong></p>';
-                // insérer juste en-dessous de .details-content
-                detailsContent.parentNode.insertBefore(newMobile, detailsContent.nextSibling || null);
-                }
-                // sinon mobile déjà présent -> rien à faire
-                return;
-            }
+        // Adaptation
+        if (adaptations && (Array.isArray(adaptations) ? adaptations.length : adaptations)) {
+        const p = document.createElement('p');
+        p.innerHTML = `<strong>Adaptation :</strong> ${Array.isArray(adaptations) ? adaptations.join(', ') : adaptations}`;
+        wrapper.appendChild(p);
+        }
 
-            // --- desktop view (restauration) ---
-            if (window.innerWidth > BREAKPOINT) {
-                // si mobile existe -> supprimer
-                if (mobile) mobile.remove();
+        // evenement fermeture (croix)
+        close.addEventListener('click', () => closePopup(wrapper));
+        // fermeture clic extérieur
+        wrapper.addEventListener('click', (ev) => {
+        if (ev.target === wrapper) closePopup(wrapper);
+        });
 
-                // si original absent mais on a le contenu stocké -> recréer dans details-text
-                if (!orig && popup.dataset.sitesOriginalInner) {
-                const restored = document.createElement('div');
-                restored.className = popup.dataset.sitesOriginalClass || 'sites-container';
-                restored.innerHTML = popup.dataset.sitesOriginalInner;
-                detailsText.appendChild(restored);
-                // on laisse les dataset au cas où (utile si on veut toggler plusieurs fois)
-                }
-            }
+        return wrapper;
+    }
+
+    /* ---------- ouvrir / fermer ---------- */
+    function openPopupById(id) {
+        const el = document.getElementById(id);
+        if (!el) return;
+        el.style.display = 'block';
+        // focus close button for accessibility
+        const closeBtn = el.querySelector('.close-popup');
+        if (closeBtn) closeBtn.focus();
+        // ESC binding
+        const esc = (e) => { if (e.key === 'Escape') closePopup(el); };
+        document.addEventListener('keydown', esc);
+        el._escHandler = esc;
+    }
+    function closePopup(el) {
+        if (!el) return;
+        el.style.display = 'none';
+        if (el._escHandler) {
+        document.removeEventListener('keydown', el._escHandler);
+        delete el._escHandler;
+        }
+    }
+
+    /* ---------- lecture all.json et génération ---------- */
+    async function loadWebtoonsFromJson(jsonFile) {
+        try {
+        const url = jsonFile + (CACHE_BUST ? `?v=${Date.now()}` : '');
+        const res = await fetch(url);
+        if (!res.ok) throw new Error('Erreur ' + res.status);
+        const data = await res.json();
+
+        // container où placer les popups (aside si présent, sinon body)
+        const popupContainer = document.querySelector('aside') || document.body;
+
+        // pour chaque catégorie
+        (data.categories || []).forEach(category => {
+            const containerId = normalizeContainerId(category.name);
+            const grid = document.getElementById(containerId);
+            if (!grid) return;
+
+            (category.webtoons || []).forEach(webtoon => {
+            const slug = webtoon.id || slugify(webtoon.title);
+            webtoonIndex.set(slug, webtoon);
+
+            // 1) créer la vignette <a><img></a>
+            const a = document.createElement('a');
+            a.href = `#webtoon-${slug}-details`;
+            a.dataset.webtoonId = slug;
+            const aliases = [webtoon.title, ...(Array.isArray(webtoon.aliases) ? webtoon.aliases : [])].map(s => s.toLowerCase());
+            a.dataset.aliases = aliases.join(',');
+
+            const img = document.createElement('img');
+            img.src = webtoon.image || webtoon.cover || '';
+            if (webtoon.loading) img.loading = webtoon.loading;
+            img.alt = webtoon.alt || webtoon.title || '';
+            a.appendChild(img);
+
+            grid.appendChild(a);
+            window.__allWebtoonLinks.push(a);
+
+            // 2) créer le bloc .webtoon-details et l'ajouter au DOM
+            const detailEl = buildDetailElement(slug, webtoon);
+            popupContainer.appendChild(detailEl);
+            });
+        });
+
+        // délégation: clic sur une vignette -> ouvrir le popup correspondant
+        const tierList = document.querySelector('.tier-list');
+        if (tierList) {
+            tierList.addEventListener('click', (e) => {
+            const a = e.target.closest('a');
+            if (!a) return;
+            const slug = a.dataset.webtoonId || (a.getAttribute('href') || '').replace(/^#webtoon-/, '').replace(/-details$/, '');
+            if (!slug) return;
+            e.preventDefault();
+            openPopupById(`webtoon-${slug}-details`);
             });
         }
 
-        // appel initial
-        document.addEventListener('DOMContentLoaded', syncSitesForAllPopups);
-
-        // resize (debounced)
-        window.addEventListener('resize', () => {
-            clearTimeout(resizeTimer);
-            resizeTimer = setTimeout(syncSitesForAllPopups, 120);
-        });
-
-        // si tu ajoutes dynamiquement des .webtoon-details (via le JSON), on observe et on relance
-        const observer = new MutationObserver((mutations) => {
-            for (const m of mutations) {
-            if ([...m.addedNodes].some(n => n.nodeType === 1 && n.matches && n.matches('.webtoon-details'))) {
-                setTimeout(syncSitesForAllPopups, 60);
-                break;
-            }
-            }
-        });
-        observer.observe(document.body, { childList: true, subtree: true });
-
-        // Exécution immédiate si le DOM est déjà prêt (utile si le script est chargé après DOMContentLoaded)
-        if (document.readyState === 'interactive' || document.readyState === 'complete') {
-            setTimeout(syncSitesForAllPopups, 30);
+        } catch (err) {
+        console.error('Erreur lors du chargement du JSON :', err);
         }
-    })();
+    }
 
+    /* ---------- recherche ---------- */
+    const searchInput = document.getElementById('search-webtoon');
+    if (searchInput) {
+        searchInput.addEventListener('input', function () {
+        const q = this.value.trim().toLowerCase();
+        window.__allWebtoonLinks.forEach(link => {
+            const aliases = (link.dataset.aliases || '').split(',');
+            const match = q === '' || aliases.some(a => a.includes(q));
+            link.style.display = match ? '' : 'none';
+        });
+        });
+    }
+
+    /* ---------- responsive : sites-container -> sites-mobile ---------- */
+    function syncSitesForAllPopups() {
+        document.querySelectorAll('.webtoon-details').forEach(popup => {
+        const detailsContent = popup.querySelector('.details-content');
+        const detailsText = popup.querySelector('.details-text');
+        if (!detailsContent || !detailsText) return;
+        const orig = popup.querySelector('.sites-container');
+        const mobile = popup.querySelector('.sites-mobile');
+
+        if (window.innerWidth <= BREAKPOINT_MOBILE) {
+            if (!mobile) {
+            if (orig) {
+                popup.dataset.sitesOriginalInner = orig.innerHTML;
+                popup.dataset.sitesOriginalClass = orig.className || 'sites-container';
+                orig.remove();
+            }
+            const newMobile = document.createElement('div');
+            newMobile.className = 'sites-mobile';
+            newMobile.innerHTML = popup.dataset.sitesOriginalInner || '<p class="sites-list"><strong>Sites de lecture :</strong></p>';
+            detailsContent.parentNode.insertBefore(newMobile, detailsContent.nextSibling || null);
+            }
+            return;
+        }
+
+        if (window.innerWidth > BREAKPOINT_MOBILE) {
+            if (mobile) mobile.remove();
+            if (!orig && popup.dataset.sitesOriginalInner) {
+            const restored = document.createElement('div');
+            restored.className = popup.dataset.sitesOriginalClass || 'sites-container';
+            restored.innerHTML = popup.dataset.sitesOriginalInner;
+            detailsText.appendChild(restored);
+            }
+        }
+        });
+    }
+
+    // resize debounced
+    let resizeTimer = null;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(syncSitesForAllPopups, 120);
+    });
+
+    // observe DOM in case other scripts add .webtoon-details
+    const observer = new MutationObserver((muts) => {
+        for (const m of muts) {
+        if ([...m.addedNodes].some(n => n.nodeType === 1 && n.matches && n.matches('.webtoon-details'))) {
+            setTimeout(syncSitesForAllPopups, 60);
+            break;
+        }
+        }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    /* ---------- fermer tous les popups si hashchange (optionnel) ---------- */
+    window.addEventListener('hashchange', () => {
+        document.querySelectorAll('.webtoon-details').forEach(d => { if (d.style.display === 'block') closePopup(d); });
+    });
+
+    /* ---------- kick off ---------- */
+    loadWebtoonsFromJson(JSON_FILE);
+    setTimeout(syncSitesForAllPopups, 100);
 });
+
+
+
 
 
 
