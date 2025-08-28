@@ -817,8 +817,8 @@
             "alt": "Image : Bad Born Blood",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/3-TRES BONS/bad born blood/banner1.webp",
+              "cover": "IMAGES/3-TRES BONS/bad born blood/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -1364,7 +1364,7 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/3-TRES BONS/magic academy's genius blinker/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -1524,7 +1524,7 @@
             "details": {
               "title": "",
               "banner": "IMAGES/3-TRES BONS/player who returned 10000 years later/banner1.png",
-              "cover": "",
+              "cover": "IMAGES/3-TRES BONS/player who returned 10000 years later/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -2413,7 +2413,7 @@
             "loading": "lazy",
             "alt": "Image : Académie Transcendance",
             "details": {
-              "title": "",
+              "title": "Transcension Academy",
               "banner": "",
               "cover": "",
               "alt": "",
