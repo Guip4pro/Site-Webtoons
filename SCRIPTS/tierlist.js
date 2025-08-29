@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
         container.className = 'sites-container';
         const titleSites = document.createElement('p');
         titleSites.className = 'sites-list';
-        titleSites.innerHTML = '<strong>Sites de lecture :</strong>';
+        titleSites.innerHTML = '<strong>Sites de lecture français :</strong>';
         container.appendChild(titleSites);
         const ul = document.createElement('ul');
         ul.className = 'sites-ul';
@@ -304,7 +304,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             const newMobile = document.createElement('div');
             newMobile.className = 'sites-mobile';
-            newMobile.innerHTML = popup.dataset.sitesOriginalInner || '<p class="sites-list"><strong>Sites de lecture :</strong></p>';
+            newMobile.innerHTML = popup.dataset.sitesOriginalInner || '<p class="sites-list"><strong>Sites de lecture français :</strong></p>';
             detailsContent.parentNode.insertBefore(newMobile, detailsContent.nextSibling || null);
             }
             return;

@@ -786,7 +786,16 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/absolute regression/img1.webp",
+                "IMAGES/3-TRES BONS/absolute regression/img2.webp",
+                "IMAGES/3-TRES BONS/absolute regression/img3.webp",
+                "IMAGES/3-TRES BONS/absolute regression/img4.webp",
+                "IMAGES/3-TRES BONS/absolute regression/img5.webp",
+                "IMAGES/3-TRES BONS/absolute regression/img6.webp",
+                "IMAGES/3-TRES BONS/absolute regression/img7.webp",
+                "IMAGES/3-TRES BONS/absolute regression/img8.webp"
+              ],
               "adaptations": []
             }
           },
@@ -797,7 +806,7 @@
             "alt": "Image : Academy's Undercover Professor",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/academy's undercover professor/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -806,19 +815,28 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/academy's undercover professor/img1.webp",
+                "IMAGES/3-TRES BONS/academy's undercover professor/img2.webp",
+                "IMAGES/3-TRES BONS/academy's undercover professor/img3.webp",
+                "IMAGES/3-TRES BONS/academy's undercover professor/img4.webp",
+                "IMAGES/3-TRES BONS/academy's undercover professor/img5.webp",
+                "IMAGES/3-TRES BONS/academy's undercover professor/img6.webp",
+                "IMAGES/3-TRES BONS/academy's undercover professor/img7.webp",
+                "IMAGES/3-TRES BONS/academy's undercover professor/img8.webp"
+              ],
               "adaptations": []
             }
           },
           {
             "title": "Bad Born Blood",
             "aliases": [],
-            "image": "IMAGES/3-TRES BONS/bad born blood/cover.webp",
+            "image": "IMAGES/3-TRES BONS/bad born blood/cover.avif",
             "alt": "Image : Bad Born Blood",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/bad born blood/banner1.webp",
-              "cover": "IMAGES/3-TRES BONS/bad born blood/cover2.webp",
+              "banner": "IMAGES/3-TRES BONS/bad born blood/banner1.avif",
+              "cover": "IMAGES/3-TRES BONS/bad born blood/cover2.avif",
               "alt": "",
               "type": "",
               "genre": [],
@@ -826,14 +844,23 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/bad born blood/img1.webp",
+                "IMAGES/3-TRES BONS/bad born blood/img2.webp",
+                "IMAGES/3-TRES BONS/bad born blood/img3.webp",
+                "IMAGES/3-TRES BONS/bad born blood/img4.webp",
+                "IMAGES/3-TRES BONS/bad born blood/img5.webp",
+                "IMAGES/3-TRES BONS/bad born blood/img6.webp",
+                "IMAGES/3-TRES BONS/bad born blood/img7.webp",
+                "IMAGES/3-TRES BONS/bad born blood/img8.webp"
+              ],
               "adaptations": []
             }
           },
           {
             "title": "Barbarian Quest",
             "aliases": [],
-            "image": "IMAGES/3-TRES BONS/barbarian quest/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/barbarian quest/cover.webp",
             "alt": "Image : Barbarian Quest",
             "details": {
               "title": "",
@@ -842,11 +869,20 @@
               "alt": "",
               "type": "",
               "genre": [],
-              "status": "",
+              "status": "abandonné",
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/barbarian quest/img1.webp",
+                "IMAGES/3-TRES BONS/barbarian quest/img2.webp",
+                "IMAGES/3-TRES BONS/barbarian quest/img3.webp",
+                "IMAGES/3-TRES BONS/barbarian quest/img4.webp",
+                "IMAGES/3-TRES BONS/barbarian quest/img5.webp",
+                "IMAGES/3-TRES BONS/barbarian quest/img6.webp",
+                "IMAGES/3-TRES BONS/barbarian quest/img7.webp",
+                "IMAGES/3-TRES BONS/barbarian quest/img8.webp"
+              ],
               "adaptations": []
             }
           },
@@ -910,12 +946,15 @@
             }
           },
           {
-            "title": "Drug-Eating Genius Mage",
-            "aliases": ["Medicine Genius Wizard"],
+            "title": "The Drug-Eating Genius Mage",
+            "aliases": [
+              "The Medicine Genius Wizard",
+              "The Genius Medicinal Mage"
+            ],
             "image": "IMAGES/3-TRES BONS/drug-eating genius mage/covergif.webp",
             "alt": "Image : Drug-Eating Genius Mage",
             "details": {
-              "title": "",
+              "title": "Drug-Eating Genius Mage",
               "banner": "",
               "cover": "IMAGES/3-TRES BONS/drug-eating genius mage/cover.jpg",
               "alt": "",

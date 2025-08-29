@@ -956,6 +956,12 @@ if (args.length === 0) {
 prochaines étapes :
 
 - Modifier pour éviter qu'on retrouve 2 fois le même titre de webtoon dans les propositions.
+- Chatgpt nom de la discussion (description etc... pris sur MangaDex) : Choix fichier JSON*
+- Faire une IA pour les sites de lectures français : L'une va cherché si d'abord le chapitre existe sur Phenixscans,
+    Sinon sur ScanManga en libre accès, Sinon sur CrunchyScans, Sinon écrire "pas trouvé". (Ou alors si c'est possible regardé les crédits des chaps récents pour savoir quelle team s'en occupe)
+     Pour la version officielle, chercher d'abord sur Webtoon, puis sur Ono, puis sur Delitoon, (puis d'autres
+    versions officielles), Sinon écrire "pas trouvé".
+     Pour les novels : (on verra)
 - Vol affichage nb de chapitres en fr et en engl : 🇫🇷 70  US 180
 - Faire un script qui convertit automatiquement mes fichiers en webp, à part s'ils sont déjà en avif ou en gif
 - Chercher comment optimiser l'apparition d'une page web, pour qu'elle soit plus rapide. Notamment les images
