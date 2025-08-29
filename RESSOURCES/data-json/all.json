@@ -19,9 +19,21 @@
             "status": "En pause",
             "chapters": "151 - 19 Février 2025",
             "sites": [
-              { "name": "Phenixscans", "url": "https://www.phenix-scans.com/manga/return-of-the-mount-hua-sect", "note": "team de Scantrad" },
-              { "name": "Webtoon", "url": "https://www.webtoons.com/fr/fantasy/return-of-the-blossoming-blade/list?title_no=4335", "note": "version officielle \"Le Retour du Clan Hwasan\"" },
-              { "name": "Roman en ligne", "url": "https://phenixscans.fr/manga/v768469-return-of-the-mount-hua-sect-novel-v77458306/", "note": "" }
+              {
+                "name": "Phenixscans",
+                "url": "https://www.phenix-scans.com/manga/return-of-the-mount-hua-sect",
+                "note": "(team de Scantrad)"
+              },
+              {
+                "name": "Webtoon",
+                "url": "https://www.webtoons.com/fr/fantasy/return-of-the-blossoming-blade/list?title_no=4335",
+                "note": "(version officielle \"Le Retour du Clan Hwasan\")"
+              },
+              {
+                "name": "Roman en ligne",
+                "url": "https://phenixscans.fr/manga/v768469-return-of-the-mount-hua-sect-novel-v77458306/",
+                "note": ""
+              }
             ],
             "synopsis": "Cheong Myeong, un maître épéiste inégalé du clan Hwasan, perd ses alliés et sa vie dans une bataille contre le chef suprême des démons, Cheon Ma. Mais quand il ouvre ses yeux, il se retrouve réincarné 100 ans plus tard dans le corps d’un enfant mendiant. Décidé à ne pas se laisser abattre, il tente de reprendre les choses en main et retrouver la gloire passée de son clan, Hwasan.",
             "previewImages": [
@@ -149,7 +161,7 @@
               "IMAGES/2-EXCELLENTS/demonic emperor/img8.avif"
             ],
             "adaptations": [
-              "format papier (Amazon.fr)"
+              "format papier sur Amazon normalement"
             ]
           }
         },
@@ -276,7 +288,7 @@
             "chapters": "128 - 23 Juillet 2025",
             "sites": [
               {
-                "name": "Scan-Manga (mirror)",
+                "name": "Scan-Manga",
                 "url": "https://m.scan-manga.com/11902-75559/Infinite-Mage.html",
                 "note": "team de Scantrad"
               }
@@ -382,7 +394,7 @@
                 "note": "team de Scantrad"
               },
               {
-                "name": "Webtoon (officiel)",
+                "name": "Webtoon",
                 "url": "https://www.webtoons.com/fr/fantasy/nano-mashin/list?title_no=4341",
                 "note": "version officielle"
               }
@@ -553,7 +565,7 @@
               "format papier",
               "anime",
               "jeu vidéo",
-              "spin-offs webtoons"
+              "2 autres webtoons : Solo Leveling Ragnarok et Solo Leveling Arise."
             ]
           }
         },
@@ -690,9 +702,9 @@
                 "note": "team de Scantrad"
               },
               {
-                "name": "Delitoon (lien partagé)",
+                "name": "Delitoon",
                 "url": "https://share.google/rkC34phpR909m5Pjr",
-                "note": "version officielle (lien partagé)"
+                "note": "(version officielle)"
               },
               {
                 "name": "Roman en ligne",
@@ -712,8 +724,7 @@
               "IMAGES/2-EXCELLENTS/the beginning after the end/img8.avif"
             ],
             "adaptations": [
-              "format papier",
-              "anime (prévu avril 2025)"
+              "format papier et anime"
             ]
           }
         },
@@ -747,6 +758,11 @@
                 "name": "Scan-Manga",
                 "url": "https://m.scan-manga.com/10834-03807/Swordmaster-s-Youngest-Son.html",
                 "note": "team de Scantrad"
+              },
+              {
+                "name": "Roman en ligne",
+                "url": "https://chireads.com/category/translatedtales/le-plus-jeune-fils-du-maitre-epeiste-swordmasters-youngest-son-%ea%b2%80%ec%88%a0%eb%aa%85%ea%b0%80-%eb%a7%89%eb%82%b4%ec%95%84%eb%93%a4/",
+                "note": ""
               }
             ],
             "synopsis": "Dernier-né d'un puissant clan d'épéistes, Jin est chassé pour cause de nullité mais découvre un don pour la magie. Après un pacte avec le dieu de l'ombre et une réapparition dans le passé, il a une seconde chance pour briller.",
@@ -2007,7 +2023,7 @@
             "details": {
               "title": "",
               "banner": "IMAGES/3-TRES BONS/the great mage returns after 4000 years/banner3.jpg",
-              "cover": "",
+              "cover": "IMAGES/3-TRES BONS/the great mage returns after 4000 years/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -3410,10 +3426,28 @@
               "genre": [],
               "status": "",
               "chapters": "",
-              "sites": [],
+              "sites": [
+                {
+                "name": "Poseidonscans",
+                "url": "https://poseidonscans.com/serie/ill-be-the-matriarch-in-this-life",
+                "note": "(team de Scantrad)"
+                },
+                {
+                  "name": "Ono",
+                  "url": "https://www.ono.live/webtoon/la-nouvelle-cheffe-de-clan",
+                  "note": "(version officielle n°1)"
+                },
+                {
+                  "name": "Lezhin",
+                  "url": "https://www.lezhinfr.com/detail/daf_1000914",
+                  "note": "(version officielle n°2)"
+                }
+              ],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": [
+                "Format papier"
+              ]
             }
           },
           {
@@ -3557,10 +3591,28 @@
               "genre": [],
               "status": "",
               "chapters": "",
-              "sites": [],
+              "sites": [
+                {
+                "name": "Crunchyscans",
+                "url": "https://crunchyscan.fr/lecture-en-ligne/arena/",
+                "note": "Voleurs"
+                },
+                {
+                  "name": "Ono",
+                  "url": "https://www.ono.live/webtoon/arena",
+                  "note": "(version officielle n°1)"
+                },
+                {
+                  "name": "Webtoon",
+                  "url": "https://www.webtoons.com/fr/action/arena/list?title_no=6891",
+                  "note": "(version officielle n°2)"
+                }
+              ],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": [
+                "Format papier en France"
+              ]
             }
           },
           {
@@ -4450,9 +4502,9 @@
             "loading": "lazy",
             "alt": "Image : Return of the Mad Demon",
             "details": {
-              "title": "",
+              "title": "The Return of the Mad Demon",
               "banner": "IMAGES/4-BONS/return of the mad demon/banner1.webp",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/return of the mad demon/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5259,10 +5311,28 @@
               "genre": [],
               "status": "",
               "chapters": "",
-              "sites": [],
+              "sites": [
+                {
+                  "name": "https://manga-scantrad.io/manga/death-is-the-only-ending-for-the-villainess/",
+                  "url": "",
+                  "note": "(Voleurs)"
+                },
+                {
+                  "name": "Ono",
+                  "url": "https://www.ono.live/webtoon/seule-la-mort-attend-la-vilaine",
+                  "note": "(version officielle n°1)"
+                },
+                {
+                  "name": "Lezhin",
+                  "url": "https://www.lezhinfr.com/detail/daf_0000358",
+                  "note": "(version officielle n°2)"
+                }
+              ],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": [
+                "Format papier"
+              ]
             }
           },
           {
@@ -5310,7 +5380,7 @@
           {
             "title": "What a Bountiful Harvest Demon Lord",
             "aliases": ["What a Bountiful Harvest, Demon Lord!"],
-            "image": "IMAGES/4-BONS/what a bountiful harvest demon lord",
+            "image": "IMAGES/4-BONS/what a bountiful harvest demon lord/cover.webp",
             "loading": "lazy",
             "alt": "Image : What a Bountiful Harvest Demon Lord",
             "details": {
@@ -6156,7 +6226,7 @@
           },
           {
             "title": "I am the Sorcerer king",
-            "aliases": ["I’m The Sorcerer King"],
+            "aliases": ["I’m The Sorcerer King", "Le Roi des Sorciers"],
             "image": "IMAGES/5-INTERMEDIAIRES/i am the sorcerer king/cover.jpg",
             "loading": "lazy",
             "alt": "Image : I am the Sorcerer king",
@@ -6167,9 +6237,15 @@
               "alt": "",
               "type": "",
               "genre": [],
-              "status": "",
+              "status": "Terminé",
               "chapters": "",
-              "sites": [],
+              "sites": [
+                {
+                  "name": "Ono",
+                  "url": "https://www.ono.live/webtoon/le-roi-des-sorciers",
+                  "note": "(version officielle)"
+                }
+              ],
               "synopsis": "",
               "previewImages": [],
               "adaptations": []
@@ -7135,7 +7211,18 @@
               "genre": [],
               "status": "",
               "chapters": "",
-              "sites": [],
+              "sites": [
+                {
+                "name": "Phenixscans",
+                "url": "https://www.phenix-scans.com/manga/solo-leveling-ragnarok",
+                "note": "(team de Scantrad)"
+                },
+                {
+                  "name": "Ono",
+                  "url": "https://www.ono.live/webtoon/solo-leveling-ragnarok",
+                  "note": "(version officielle)"
+                }
+              ],
               "synopsis": "",
               "previewImages": [],
               "adaptations": []
@@ -7763,8 +7850,8 @@
             "alt": "Image : 990k Ex-Life Hunter",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/6-MOYENS/990k ex-life hunter/cover.webp",
+              "cover": "IMAGES/6-MOYENS/990k ex-life hunter/cover2.jpg",
               "alt": "",
               "type": "",
               "genre": [],
