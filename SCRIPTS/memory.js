@@ -183,6 +183,7 @@ window.stopAllMemoryTimers = stopAllMemoryTimers;
 
 
 function startMemoryGame() {
+    document.getElementById('bannière').src = "../RESSOURCES/scrolling-banners/1-SSS6Class Revival Hunter.webp";
     const gameContainer = document.getElementById('memory-game');
     gameContainer.classList.remove('hidden');
     gameContainer.classList.add('fade-in');

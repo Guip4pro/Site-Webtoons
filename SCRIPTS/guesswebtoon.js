@@ -7,6 +7,7 @@ function startGuessTheWebtoon() {
     document.getElementById('memory-stats').classList.add('hidden');
     document.getElementById('leaderboard-section').classList.add('hidden');
     document.getElementById('phr-temp').classList.toggle('hidden')
+    document.getElementById('bannière').src = "../RESSOURCES/scrolling-banners/banner3.jpg";
     const ScrollAccordion = document.querySelector('.accordion-container');
     ScrollAccordion.classList.toggle('hidden');
 
@@ -905,7 +906,7 @@ if (args.length === 0) {
 
                         const shareText = `J'ai joué à Devine le Webtoon — ${correctCount}/${total} (${percent}%). Winstreak max: ${gameState.maxStreak}.`;
 
-                        // 3. Si API de partage avec fichiers dispo
+                        // 3. Si le navigateur et l’appareil supportent le partage natif avec fichiers
                         if (navigator.canShare && navigator.canShare({ files: [file] })) {
                             navigator.share({
                                 title: 'Devine le Webtoon',
@@ -964,7 +965,7 @@ prochaines étapes :
      Pour les novels : (on verra)
      Pour tout type d'infos : Nautiljon
     avec scrapper nautiljon : https://github.com/barthofu/nautiljon-scraper ou même API non-officielle https://github.com/iambluedev1/nautiljon-api
-- Vol affichage nb de chapitres en fr et en engl : 🇫🇷 70  US 180
+- Vol affichage nb de chapitres en fr et en engl : 🇫🇷 70  US 180. Via les serveurs discord et les sites de redistribution (scan-manga et manga-scantrad.io)
 - Faire un script qui convertit automatiquement mes fichiers en webp, à part s'ils sont déjà en avif ou en gif
 - Chercher comment optimiser l'apparition d'une page web, pour qu'elle soit plus rapide. Notamment les images
 - Poster sur un vrai site
@@ -1027,5 +1028,9 @@ Mercenary Enrollment ; To Not Die ; Lookism ; Reality Quest ; Questism ; Webtoon
 
 Pets / Animals :
 Reincarnation of the Warrior Party Archmage ; dragon-devouring-mage ; taming-master ; archmage-streamer ; Eleceed ; The Genius Tamer of the Academy
+
+
+Reincarnation :
+reincarnation-path-of-the-underworld-king
 
 */

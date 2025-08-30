@@ -918,7 +918,16 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/best teacher baek/img1.webp",
+                "IMAGES/3-TRES BONS/best teacher baek/img2.webp",
+                "IMAGES/3-TRES BONS/best teacher baek/img3.webp",
+                "IMAGES/3-TRES BONS/best teacher baek/img4.webp",
+                "IMAGES/3-TRES BONS/best teacher baek/img5.webp",
+                "IMAGES/3-TRES BONS/best teacher baek/img6.webp",
+                "IMAGES/3-TRES BONS/best teacher baek/img7.webp",
+                "IMAGES/3-TRES BONS/best teacher baek/img8.webp"
+              ],
               "adaptations": []
             }
           },
@@ -1956,7 +1965,7 @@
             }
           },
           {
-            "title": "The Dark Magician Transmigrates After 66,666",
+            "title": "The Dark Magician Transmigrates After 66,666 years",
             "aliases": ["66,666 Years: Advent of the Dark Mage", "A Black Wizard Reincarnated After 66666 Years", "The Black Mage Transmigrates After 66666 Years", "The Dark Magician Reincarnates After 66666 Years"],
             "image": "IMAGES/3-TRES BONS/the dark magician transmigrates after 66666 years/cover.webp",
             "alt": "Image : The Dark Magician Transmigrates After 66,666",
@@ -4229,7 +4238,7 @@
             "loading": "lazy",
             "alt": "Image : Regressed Mercenary's Machinations",
             "details": {
-              "title": "",
+              "title": "Regressed Mercenary's Machination",
               "banner": "",
               "cover": "",
               "alt": "",
