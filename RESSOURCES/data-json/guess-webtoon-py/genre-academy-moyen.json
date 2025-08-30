@@ -92,24 +92,16 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/-the-demon-prince-goes-to-the-academy.jpg"
     },
     {
+        "name": "-the-extra-is-too-strong",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/-the-extra-is-too-strong.png"
+    },
+    {
         "name": "-the-legendary-hero-is-an-academy-honours-student--",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/-the-legendary-hero-is-an-academy-honours-student--.jpg"
     },
     {
-        "name": "-the-legendary-hero-is-an-academy-honours-student-",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/-the-legendary-hero-is-an-academy-honours-student-.jpg"
-    },
-    {
         "name": "-the-little-brother-is-the-academy's-hotshot",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/-the-little-brother-is-the-academy's-hotshot.jpg"
-    },
-    {
-        "name": "Capture d'écran 2025-08-18 210737",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/Capture d'écran 2025-08-18 210737.png"
-    },
-    {
-        "name": "Capture d'écran 2025-08-18 210833",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/Capture d'écran 2025-08-18 210833.png"
     },
     {
         "name": "a-barbarian-was-admitted-to-the-academy",
@@ -290,6 +282,10 @@
     {
         "name": "the-extra's-academy-survival-guide",
         "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/the-extra's-academy-survival-guide.jpg"
+    },
+    {
+        "name": "the-extra-is-too-strong",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/academy/moyen/the-extra-is-too-strong.png"
     },
     {
         "name": "the-genius-tamer-of-the-academy-",

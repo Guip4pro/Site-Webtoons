@@ -12,12 +12,20 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/i-became-an-evolving-space-monster.jpg"
     },
     {
+        "name": "killer-peter",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/killer-peter.jpg"
+    },
+    {
         "name": "sword-sweath's-child",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/sword-sweath's-child.jpg"
     },
     {
         "name": "swordmaster's-youngest-son",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/swordmaster's-youngest-son.jpg"
+    },
+    {
+        "name": "the-archmage's-restaurant",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/the-archmage's-restaurant.jpg"
     },
     {
         "name": "the-book-of-lagier",

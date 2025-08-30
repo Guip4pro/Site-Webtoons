@@ -87,8 +87,22 @@
         "json": "genre-academy-moyen.json",
         "category": "genre",
         "relative_folder": "academy/moyen",
-        "count": 88,
+        "count": 87,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-academy-moyen.json"
+    },
+    {
+        "json": "genre-action-facile.json",
+        "category": "genre",
+        "relative_folder": "action/facile",
+        "count": 45,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-action-facile.json"
+    },
+    {
+        "json": "genre-action-moyen.json",
+        "category": "genre",
+        "relative_folder": "action/moyen",
+        "count": 33,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-action-moyen.json"
     },
     {
         "json": "genre-female-characters.json",
@@ -101,14 +115,14 @@
         "json": "niveau-de-difficulte-difficile.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "difficile",
-        "count": 18,
+        "count": 20,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-difficile.json"
     },
     {
         "json": "niveau-de-difficulte-enfer.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "enfer",
-        "count": 7,
+        "count": 9,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-enfer.json"
     },
     {
@@ -122,7 +136,7 @@
         "json": "niveau-de-difficulte-moyen.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "moyen",
-        "count": 24,
+        "count": 25,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-moyen.json"
     },
     {

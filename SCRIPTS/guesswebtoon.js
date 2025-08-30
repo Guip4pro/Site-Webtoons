@@ -1033,4 +1033,87 @@ Reincarnation of the Warrior Party Archmage ; dragon-devouring-mage ; taming-mas
 Reincarnation :
 reincarnation-path-of-the-underworld-king
 
+
+
+
+
+
+Bien, le test a été concluant. Tu vas recommencer mais tu devras faire la même chose mais avec le json entier (de la catégorie Très Bons jusqu'à Caca Suprême), et me fournir à la fin un fichier au format json prêt à être téléchargé.
+Je t'envoie mon json (nommé all.json). Tout d'abord lis-le entièrement et intensément.
+Une fois cela fait, recherche les infos en **français** de chaque webtoon, en priorité sur Nautiljon. Si tu ne trouves pas le webtoon sur nautiljon avec le titre principal, c'est possible qu'il soit reférencé sous un autre nom. Utilise les "aliases" présent dans le json.
+
+Les infos à rechercher et à remplir sont :
+- Le type (si c'est un manhwa, un manhua ou un manga)
+- Le genre (ça va être les thèmes comme par exemple action, romance, réincarnation, arts martiaux et encore d'aytres...)
+- Le statut (status) (si le webtoon est en cours, en pause, complété, abandonné ou autre...)
+- Le synopsis (résumé en gros)
+- Les adaptations (en livres, anime et autres...)
+attention, ce n'est pas parce que tu ne dois retranscrire que ces infos que tu dois supprimer les actégories non-remplies, comme par exemples sites ou previewImages. Tu dois même laisser tel quel les catégories vides.
+C'est l'érreur que tu avais fait précédemment. Suis bien la structure
+
+Voici un exemple de structure d'un webtoon sur mon json :
+
+{
+          "id": "damn-reincarnation",
+          "title": "Damn Reincarnation",
+          "aliases": [
+            "Fichue Réincarnation",
+            "My Blasted Reincarnated Life"
+          ],
+          "image": "IMAGES/2-EXCELLENTS/damn reincarnation/cover.webp",
+          "alt": "Image : Damn Reincarnation",
+          "details": {
+            "title": "Damn Reincarnation",
+            "banner": "IMAGES/2-EXCELLENTS/damn reincarnation/bannière.webp",
+            "cover": "IMAGES/2-EXCELLENTS/damn reincarnation/cover.webp",
+            "alt": "Image de Damn Reincarnation",
+            "type": "Manhwa",
+            "genre": [
+              "Action",
+              "Réincarnation"
+            ],
+            "status": "Abandonné (mais future reprise à 0 par un autre studio)",
+            "chapters": "81 - 25 Août 2024",
+            "sites": [
+              {
+                "name": "Phenixscans",
+                "url": "https://www.phenix-scans.com/manga/damn-reincarnation",
+                "note": "team de Scantrad"
+              },
+              {
+                "name": "Piccoma (anciennement)",
+                "url": "",
+                "note": "version officielle (ancienne)"
+              },
+              {
+                "name": "Roman en ligne",
+                "url": "https://world-novel.fr/oeuvres/damn-reincarnation",
+                "note": ""
+              }
+            ],
+            "synopsis": "Hamel, un guerrier qui partit en voyage avec ses camarades pour anéantir le roi démon, mourut juste avant de pouvoir le rencontrer. Il se réincarna alors en tant que descendant de son compagnon héros, Vermouth.\nHamel, se prénommant maintenant Eugène Lionhart, a hérité du sang du grand Vermouth. Grâce à ses connaissances antérieures, il façonne un corps à l’image de la puissance qu’il aura besoin pour essayer de comprendre ce qui a pu arriver après sa mort. Et surtout comprendre pourquoi les humains et les mages coexistent avec les démons.\nFace à tant d’interrogations, il emprunte le corps d’Eugène et commence à parcourir le voyage inachevé de sa vie antérieure.",
+            "previewImages": [
+              "IMAGES/2-EXCELLENTS/damn reincarnation/img1.webp",
+              "IMAGES/2-EXCELLENTS/damn reincarnation/img2.avif",
+              "IMAGES/2-EXCELLENTS/damn reincarnation/img3.webp",
+              "IMAGES/2-EXCELLENTS/damn reincarnation/img4.webp",
+              "IMAGES/2-EXCELLENTS/damn reincarnation/img5.avif",
+              "IMAGES/2-EXCELLENTS/damn reincarnation/img6.webp",
+              "IMAGES/2-EXCELLENTS/damn reincarnation/img7.avif",
+              "IMAGES/2-EXCELLENTS/damn reincarnation/img8.jpg"
+            ],
+            "adaptations": [
+              "format papier"
+            ]
+          }
+
+
+
+Complète dans un premier temps (pour tester) la catégorie "Très Bons"
+Rempli seulement les champs listés précédemment.
+La manière dont les genres seront listés ressembleront à ça, par exemple pour "action" ce sera "Action", pour les mots séparés par des tirets comme par exemple "arts-martiaux" ce sera "Arts-Martiaux"
+
+Pour ce faire tu devras utiliser ton outil de recherche approfondie
+
+
 */
