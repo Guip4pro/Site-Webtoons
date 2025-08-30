@@ -966,7 +966,16 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/chronicles of the demon faction/img1.webp",
+                "IMAGES/3-TRES BONS/chronicles of the demon faction/img2.webp",
+                "IMAGES/3-TRES BONS/chronicles of the demon faction/img3.webp",
+                "IMAGES/3-TRES BONS/chronicles of the demon faction/img4.webp",
+                "IMAGES/3-TRES BONS/chronicles of the demon faction/img5.webp",
+                "IMAGES/3-TRES BONS/chronicles of the demon faction/img6.webp",
+                "IMAGES/3-TRES BONS/chronicles of the demon faction/img7.webp",
+                "IMAGES/3-TRES BONS/chronicles of the demon faction/img8.webp"
+              ],
               "adaptations": []
             }
           },
@@ -981,7 +990,7 @@
             "details": {
               "title": "Drug-Eating Genius Mage",
               "banner": "",
-              "cover": "IMAGES/3-TRES BONS/drug-eating genius mage/cover.jpg",
+              "cover": "IMAGES/3-TRES BONS/drug-eating genius mage/cover3.jpeg",
               "alt": "",
               "type": "",
               "genre": [],
@@ -1009,7 +1018,16 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/designated bully/img1.webp",
+                "IMAGES/3-TRES BONS/designated bully/img2.webp",
+                "IMAGES/3-TRES BONS/designated bully/img3.webp",
+                "IMAGES/3-TRES BONS/designated bully/img4.webp",
+                "IMAGES/3-TRES BONS/designated bully/img5.webp",
+                "IMAGES/3-TRES BONS/designated bully/img6.webp",
+                "IMAGES/3-TRES BONS/designated bully/img7.webp",
+                "IMAGES/3-TRES BONS/designated bully/img8.webp"
+              ],
               "adaptations": []
             }
           },

@@ -112,24 +112,38 @@
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-female-characters.json"
     },
     {
+        "json": "genre-murim-facile.json",
+        "category": "genre",
+        "relative_folder": "murim/facile",
+        "count": 2,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-murim-facile.json"
+    },
+    {
+        "json": "genre-murim-moyen.json",
+        "category": "genre",
+        "relative_folder": "murim/moyen",
+        "count": 1,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-murim-moyen.json"
+    },
+    {
         "json": "niveau-de-difficulte-difficile.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "difficile",
-        "count": 20,
+        "count": 21,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-difficile.json"
     },
     {
         "json": "niveau-de-difficulte-enfer.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "enfer",
-        "count": 9,
+        "count": 13,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-enfer.json"
     },
     {
         "json": "niveau-de-difficulte-facile.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "facile",
-        "count": 21,
+        "count": 22,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-facile.json"
     },
     {
