@@ -957,7 +957,6 @@ if (args.length === 0) {
 prochaines étapes :
 
 - Modifier pour éviter qu'on retrouve 2 fois le même titre de webtoon dans les propositions.
-- Chatgpt nom de la discussion (description etc... pris sur MangaDex) : Choix fichier JSON*
 - Faire une IA pour les sites de lectures français : L'une va cherché si d'abord le chapitre existe sur Phenixscans,
     Sinon sur ScanManga en libre accès, Sinon sur CrunchyScans, Sinon écrire "pas trouvé". (Ou alors si c'est possible regardé les crédits des chaps récents pour savoir quelle team s'en occupe)
      Pour la version officielle, chercher d'abord sur Webtoon, puis sur Ono, puis sur Delitoon, (puis d'autres
@@ -972,7 +971,6 @@ prochaines étapes :
 - Rajouter un système où le rang du joueur, s'il n'est pas dans le top 10 qui est affiché, est affiché en bas du classement quand même.
     Site -> console -> lighthouse | GT metrix (les 2 pour tester la vitesse de mon site. Sinon s'il met plus de 3s à charger -> trop lent)
 - Faire le formulaire Google Sheets pour rentrer les nouveaux webtoons sur le site (avec Blackbox AI directement intégré à VSCode)
-- Modifier pour générer mes pop-ups de tier-list en js et json. Puis essayer de géénrer une pop-up pour chaque webtoon de ma tier-list de façon automatisée
 
     (Intéressant pour mon site) :
 Firebase AI Logic : Construire des fonctionnalités d'IA intelligentes :
@@ -987,10 +985,13 @@ Firebase AI Logic : Construire des fonctionnalités d'IA intelligentes :
 - Créer une messagerie sécurisée
 
 
+OPTIMISATION SITE IMAGE :
+- Convertir tes images en WebP/AVIF toi-même (avec ton script ou Squoosh).
+- Mettre ton domaine derrière Cloudflare gratuit pour profiter du CDN/cache.
 
 
 AUTRE :
-- faire une catégorie "eyes", "finances" et "personnage flouté ou couverture floutée", "Le BAC de Webtoons" ou "Webtoons type BAC" ou alors "BAC +5"
+- faire une catégorie "eyes", "finances" et "personnage flouté ou couverture floutée", "guess the character's name", Le BAC de Webtoons" ou "Webtoons type BAC" ou alors "BAC +5"
 
 
 
@@ -1038,7 +1039,10 @@ reincarnation-path-of-the-underworld-king
 
 
 
-Bien, le test a été concluant. Tu vas recommencer mais tu devras faire la même chose mais avec le json entier (de la catégorie Très Bons jusqu'à Caca Suprême), et me fournir à la fin un fichier au format json prêt à être téléchargé.
+Tu as bien remplie les informations sans retirer de catégories, mais pour bad born blood et academy's undercover professor tu as retiré les liens des images. Ce n'est pas bon
+On va tout reprendre depuis le début, respècte bien ma consigne. Tu es libre de me poser des questions si ce n'est pas assez clair.
+
+
 Je t'envoie mon json (nommé all.json). Tout d'abord lis-le entièrement et intensément.
 Une fois cela fait, recherche les infos en **français** de chaque webtoon, en priorité sur Nautiljon. Si tu ne trouves pas le webtoon sur nautiljon avec le titre principal, c'est possible qu'il soit reférencé sous un autre nom. Utilise les "aliases" présent dans le json.
 
@@ -1048,8 +1052,8 @@ Les infos à rechercher et à remplir sont :
 - Le statut (status) (si le webtoon est en cours, en pause, complété, abandonné ou autre...)
 - Le synopsis (résumé en gros)
 - Les adaptations (en livres, anime et autres...)
-attention, ce n'est pas parce que tu ne dois retranscrire que ces infos que tu dois supprimer les actégories non-remplies, comme par exemples sites ou previewImages. Tu dois même laisser tel quel les catégories vides.
-C'est l'érreur que tu avais fait précédemment. Suis bien la structure
+attention, ce n'est pas parce que tu ne dois retranscrire que ces infos que tu dois supprimer les catégories non-remplies, comme par exemples sites ou previewImages. Tu dois même laisser tel quel les catégories vides. 
+
 
 Voici un exemple de structure d'un webtoon sur mon json :
 
@@ -1109,11 +1113,16 @@ Voici un exemple de structure d'un webtoon sur mon json :
 
 
 
-Complète dans un premier temps (pour tester) la catégorie "Très Bons"
+Complète tous les webtoons des catégories Très Bons jusqu'à Ennuyants.
 Rempli seulement les champs listés précédemment.
 La manière dont les genres seront listés ressembleront à ça, par exemple pour "action" ce sera "Action", pour les mots séparés par des tirets comme par exemple "arts-martiaux" ce sera "Arts-Martiaux"
 
-Pour ce faire tu devras utiliser ton outil de recherche approfondie
+Pour ce faire tu devras utiliser ton outil de recherche approfondie, et avant de commencer, envoie-moi un exemple de ce que tu à compris de ce que tu dois faire pour que je puisse vérifier que c'est bien ce que je souhaite.
+
+
+
+
+
 
 
 */

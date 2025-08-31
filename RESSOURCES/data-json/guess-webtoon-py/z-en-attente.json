@@ -12,10 +12,6 @@
         "image": "RESSOURCES/img-guessthewebtoon/Z-EN ATTENTE/damn-reincarnation-Ciel-lionheart.jpg"
     },
     {
-        "name": "damn-reincarnation-Senya",
-        "image": "RESSOURCES/img-guessthewebtoon/Z-EN ATTENTE/damn-reincarnation-Senya.jpg"
-    },
-    {
         "name": "damn-reincarnation-ameliaMerwin",
         "image": "RESSOURCES/img-guessthewebtoon/Z-EN ATTENTE/damn-reincarnation-ameliaMerwin.jpg"
     },
@@ -30,9 +26,5 @@
     {
         "name": "img-memory19",
         "image": "RESSOURCES/img-guessthewebtoon/Z-EN ATTENTE/img-memory19.webp"
-    },
-    {
-        "name": "return-mount-hua-sect-yu-iseol",
-        "image": "RESSOURCES/img-guessthewebtoon/Z-EN ATTENTE/return-mount-hua-sect-yu-iseol.jpg"
     }
 ]

@@ -3,7 +3,7 @@
         "json": "z-en-attente.json",
         "category": "Z-EN ATTENTE",
         "relative_folder": ".",
-        "count": 9,
+        "count": 7,
         "path": "RESSOURCES/data-json/guess-webtoon-py/z-en-attente.json"
     },
     {
@@ -73,7 +73,7 @@
         "json": "cover-moyen.json",
         "category": "cover",
         "relative_folder": "moyen",
-        "count": 61,
+        "count": 63,
         "path": "RESSOURCES/data-json/guess-webtoon-py/cover-moyen.json"
     },
     {
@@ -105,11 +105,32 @@
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-action-moyen.json"
     },
     {
-        "json": "genre-female-characters.json",
+        "json": "genre-child.json",
         "category": "genre",
-        "relative_folder": "female-characters",
+        "relative_folder": "child",
         "count": 2,
-        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-female-characters.json"
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-child.json"
+    },
+    {
+        "json": "genre-comedy.json",
+        "category": "genre",
+        "relative_folder": "comedy",
+        "count": 1,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-comedy.json"
+    },
+    {
+        "json": "genre-female-characters-facile.json",
+        "category": "genre",
+        "relative_folder": "female-characters/facile",
+        "count": 39,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-female-characters-facile.json"
+    },
+    {
+        "json": "genre-female-characters-moyen.json",
+        "category": "genre",
+        "relative_folder": "female-characters/moyen",
+        "count": 28,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-female-characters-moyen.json"
     },
     {
         "json": "genre-murim-facile.json",
@@ -122,7 +143,7 @@
         "json": "genre-murim-moyen.json",
         "category": "genre",
         "relative_folder": "murim/moyen",
-        "count": 1,
+        "count": 2,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-murim-moyen.json"
     },
     {
