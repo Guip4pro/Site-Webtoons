@@ -6,12 +6,12 @@
         {
           "title": "The Return of the Mount Hua Sect",
           "aliases": ["The Return of the Blossoming Blade", "Le Retour du Clan Hwasan"],
-          "image": "IMAGES/1-SSS/return of the mount hua sect/covergif.gif",
+          "image": "IMAGES/1-SSS/return of the mount hua sect/covergif.webp",
           "alt": "Image : The Return of the Mount Hua Sect",
           "id": "return-of-the-mount-hua-sect",
           "details": {
             "title": "The Return of the Mount Hua Sect",
-            "banner": "", 
+            "banner": "IMAGES/1-SSS/return of the mount hua sect/Cheongmyeong format bannière.jpeg", 
             "cover": "IMAGES/1-SSS/return of the mount hua sect/cover.avif",
             "alt": "Image de Mount Hua Sect",
             "type": "Manhwa",
@@ -116,7 +116,7 @@
             "Demonic Emperor",
             "The Steward Demonic Emperor"
           ],
-          "image": "IMAGES/2-EXCELLENTS/demonic emperor/1covergif.gif",
+          "image": "IMAGES/2-EXCELLENTS/demonic emperor/1covergif.webp",
           "alt": "Image : Demonic Emperor",
           "details": {
             "title": "Demonic Emperor",
@@ -1645,7 +1645,7 @@
           {
             "title": "Reaper of the Drifting Moon",
             "aliases": [],
-            "image": "IMAGES/3-TRES BONS/reaper of the drifting moon/cover.gif",
+            "image": "IMAGES/3-TRES BONS/reaper of the drifting moon/cover.webp",
             "alt": "Image : Reaper of the Drifting Moon",
             "details": {
               "title": "",
@@ -1705,7 +1705,7 @@
           {
             "title": "Reincarnation of the Suicidal Battle God",
             "aliases": ["The Battle God's Return", "A Battle God's Second Chance", "Doom Breaker"],
-            "image": "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/cover.gif",
+            "image": "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/cover1gif.webp",
             "alt": "Image : Reincarnation of the Suicidal Battle God",
             "details": {
               "title": "",
@@ -2917,7 +2917,7 @@
           {
             "title": "Dragonslayer's Peerless Regression",
             "aliases": ["A Dragonslayer's Peerless Regression", "Dragonslayer's Class Regression"],
-            "image": "IMAGES/4-BONS/dragonslayer's peerless regression/covergif.gif",
+            "image": "IMAGES/4-BONS/dragonslayer's peerless regression/covergif1.webp",
             "loading": "lazy",
             "alt": "Image : Dragonslayer's Peerless Regression",
             "details": {
@@ -3441,7 +3441,7 @@
           {
             "title": "I'll Be the Matriarch in This Life",
             "aliases": ["I Shall Master This Family", "I Will Become the Mistress of This Life", "La nouvelle cheffe de clan", " I'll Become the Head of the Family", " Sere la Matriarca en esta Vida"],
-            "image": "IMAGES/4-BONS/i'll be the matriarch in this life/cover.jpg",
+            "image": "IMAGES/4-BONS/i'll be the matriarch in this life/cover.webp",
             "loading": "lazy",
             "alt": "Image : I'll Be the Matriarch in This Life",
             "details": {
