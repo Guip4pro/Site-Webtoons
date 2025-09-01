@@ -193,8 +193,8 @@ document.addEventListener('DOMContentLoaded', () => {
             example.innerHTML = `
                 <div class="gtw-example-title">Exemple :</div>
                 <div class="gtw-example-images">
-                    <img src="../RESSOURCES/img-guessthewebtoon/characters-icons/exemple_flou.png" class="gtw-example-image" alt="Exemple flou" />
-                    <img src="../RESSOURCES/img-guessthewebtoon/characters-icons/READY.png" class="gtw-ready-image" alt="Prêt" />
+                    <img src="../RESSOURCES/img-guessthewebtoon/characters-icons/exemple_flou.webp" class="gtw-example-image" alt="Exemple flou" />
+                    <img src="../RESSOURCES/img-guessthewebtoon/characters-icons/READY.webp" class="gtw-ready-image" alt="Prêt" />
                 </div>
             `;
             popup.appendChild(example);
