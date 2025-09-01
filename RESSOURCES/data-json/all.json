@@ -1973,26 +1973,6 @@
             }
           },
           {
-            "title": "The Constellations Are My Disciples",
-            "aliases": ["Les Saints sont mes Disciples", "Meus Discípulos são Constelações"],
-            "image": "IMAGES/3-TRES BONS/the constellations are my disciples/cover.webp",
-            "alt": "Image : The Constellations Are My Disciples",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/3-TRES BONS/the constellations are my disciples/bannière.jpg",
-              "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
             "title": "The Dark Mage's Return to Enlistment",
             "aliases": ["I Returned, But It Was the Day Before My Enlistment", "Returned to the Day I Joined the Army"],
             "image": "IMAGES/3-TRES BONS/the dark mage's return to enlistment/cover.avif",
@@ -4890,6 +4870,26 @@
             "details": {
               "title": "",
               "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Constellations Are My Disciples",
+            "aliases": ["Les Saints sont mes Disciples", "Meus Discípulos são Constelações"],
+            "image": "IMAGES/4-BONS/the constellations are my disciples/cover.webp",
+            "alt": "Image : The Constellations Are My Disciples",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/the constellations are my disciples/bannière.jpg",
               "cover": "",
               "alt": "",
               "type": "",
