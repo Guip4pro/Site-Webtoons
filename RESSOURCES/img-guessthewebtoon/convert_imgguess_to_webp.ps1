@@ -1,7 +1,6 @@
 <#
 .SYNOPSIS
-  Convertit toutes les images .jpg/.jpeg/.png en .webp (qualité 80)
-  uniquement dans genre/academy/facile et genre/academy/moyen (récursif).
+  Convertit toutes les images .jpg/.jpeg/.png en .webp
   Commande de lancement du script : .\convert_imgguess_to_webp.ps1
 
 #>

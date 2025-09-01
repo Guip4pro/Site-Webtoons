@@ -1,4 +1,3 @@
-# delete_old_images.ps1
 # Supprime les fichiers .jpg, .jpeg, .png s'ils ont bien été convertis en .webp
 # Commande : .\delete_old_images.ps1
 
