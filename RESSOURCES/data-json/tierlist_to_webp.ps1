@@ -1,13 +1,14 @@
 <#
 .SYNOPSIS
-  Convertit toutes les images .jpg/.jpeg/.png en .webp
-  Commande de lancement du script : .\tierlist_to_webp.ps1
-
+  Convertit toutes les images .jpg/.jpeg/.png en .webp (nom de sortie : <nomfichier>.<ext>.webp)
+  Usage : .\tierlist_to_webp.ps1
 #>
 
 # ----- CONFIG -----
+# chemin racine (relatif au dossier courant ou absolute). Exemple: "../../IMAGES"
 $Root = "../../IMAGES"
-$Quality = 70   # qualité WebP
+$Quality = 70   # qualité WebP (0-100)
+$Overwrite = $false  # true pour forcer l'écrasement des .webp existants
 # -------------------
 
 function Test-Cwebp {
@@ -43,16 +44,25 @@ Write-Host "Début de la conversion de $($allFiles.Count) fichier(s)..." -Foregr
 
 foreach ($file in $allFiles) {
     $input = $file.FullName
-    $output = [System.IO.Path]::ChangeExtension($input, ".webp")
+    # Sortie : on garde l'extension d'origine dans le nom -> évite les collisions
+    # ex: C:\...\cover.jpg  -> C:\...\cover.jpg.webp
+    $output = "$input.webp"
+
+    # si existant et pas d'overwrite -> on skip
+    if ((Test-Path $output) -and (-not $Overwrite)) {
+        Write-Host "[SKIP] $output existe déjà" -ForegroundColor DarkYellow
+        continue
+    }
 
     try {
-        $processInfo = Start-Process -FilePath "cwebp" -ArgumentList @("-q",$Quality,$input,"-o",$output) -NoNewWindow -Wait -PassThru -ErrorAction Stop
-        if ($processInfo.ExitCode -eq 0) {
+        # utilisation de l'opérateur & pour bien gérer les chemins contenant des espaces
+        & cwebp -q $Quality "$input" -o "$output"
+        if ($LASTEXITCODE -eq 0) {
             $converted++
             Write-Host "[OK] $input -> $output"
         } else {
             $failed++
-            Write-Host "[ERREUR] $input (exit $($processInfo.ExitCode))" -ForegroundColor Red
+            Write-Host "[ERREUR] $input (exit $LASTEXITCODE)" -ForegroundColor Red
         }
     } catch {
         $failed++

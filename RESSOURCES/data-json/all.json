@@ -3665,7 +3665,7 @@
           {
             "title": "L.A.G",
             "aliases": [],
-            "image": "IMAGES/4-BONS/l.a.g/cover.jpeg",
+            "image": "IMAGES/4-BONS/l.a.g/cover.webp",
             "loading": "lazy",
             "alt": "Image : L.A.G",
             "details": {
@@ -4889,7 +4889,7 @@
             "alt": "Image : The Constellations Are My Disciples",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/the constellations are my disciples/bannière.jpg",
+              "banner": "IMAGES/4-BONS/the constellations are my disciples/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5747,7 +5747,7 @@
           {
             "title": "Bones",
             "aliases": [],
-            "image": "IMAGES/5-INTERMEDIAIRES/bones/cover.jpeg",
+            "image": "IMAGES/5-INTERMEDIAIRES/bones/cover.webp",
             "loading": "lazy",
             "alt": "Image : Bones",
             "details": {
@@ -5915,7 +5915,7 @@
           {
             "title": "Eirth",
             "aliases": ["Eirth, Apprenti du Roi Démon !"],
-            "image": "IMAGES/5-INTERMEDIAIRES/eirth/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/eirth/cover.webp",
             "loading": "lazy",
             "alt": "Image : Eirth",
             "details": {
@@ -5978,12 +5978,12 @@
           {
             "title": "Estio",
             "aliases": [],
-            "image": "IMAGES/5-INTERMEDIAIRES/estio/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/estio/cover.webp",
             "loading": "lazy",
             "alt": "Image : Estio",
             "details": {
               "title": "",
-              "banner": "IMAGES/5-INTERMEDIAIRES/estio/bannière.jpg",
+              "banner": "IMAGES/5-INTERMEDIAIRES/estio/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -7202,12 +7202,12 @@
           {
             "title": "Roxana",
             "aliases": ["The Way to Keep the Older Brother of the Heroine Safe", "The Way to Protect the Female Lead's Older Brother "],
-            "image": "IMAGES/5-INTERMEDIAIRES/roxana/cover.png",
+            "image": "IMAGES/5-INTERMEDIAIRES/roxana/cover.webp",
             "loading": "lazy",
             "alt": "Image : Roxana",
             "details": {
               "title": "",
-              "banner": "IMAGES/5-INTERMEDIAIRES/roxana/bannière.jpg",
+              "banner": "IMAGES/5-INTERMEDIAIRES/roxana/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -9197,7 +9197,7 @@
           {
             "title": "Apotheosis",
             "aliases": ["Apotheosis – Ascension to Godhood", "Apotheosis - Elevation to the Status of a God", "Principles of Heavens—Zen’s Cultivation of Immortality"],
-            "image": "IMAGES/7-ENNUYANTS/apotheosis/cover.jpg",
+            "image": "IMAGES/7-ENNUYANTS/apotheosis/cover.webp",
             "loading": "lazy",
             "alt": "Image : Apotheosis",
             "details": {
