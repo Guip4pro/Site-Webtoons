@@ -11,7 +11,7 @@
           "id": "return-of-the-mount-hua-sect",
           "details": {
             "title": "The Return of the Mount Hua Sect",
-            "banner": "IMAGES/1-SSS/return of the mount hua sect/Cheongmyeong format bannière.jpeg", 
+            "banner": "IMAGES/1-SSS/return of the mount hua sect/Cheongmyeong format bannière.webp", 
             "cover": "IMAGES/1-SSS/return of the mount hua sect/cover.avif",
             "alt": "Image de Mount Hua Sect",
             "type": "Manhwa",
@@ -102,7 +102,7 @@
               "IMAGES/2-EXCELLENTS/damn reincarnation/img5.avif",
               "IMAGES/2-EXCELLENTS/damn reincarnation/img6.webp",
               "IMAGES/2-EXCELLENTS/damn reincarnation/img7.avif",
-              "IMAGES/2-EXCELLENTS/damn reincarnation/img8.jpg"
+              "IMAGES/2-EXCELLENTS/damn reincarnation/img8.webp"
             ],
             "adaptations": [
               "format papier"
@@ -682,7 +682,7 @@
           "alt": "Image : The Beginning After the End",
           "details": {
             "title": "The Beginning After the End",
-            "banner": "IMAGES/2-EXCELLENTS/the beginning after the end/bannière2.jpg",
+            "banner": "IMAGES/2-EXCELLENTS/the beginning after the end/bannière2.webp",
             "cover": "IMAGES/2-EXCELLENTS/the beginning after the end/cover2.avif",
             "alt": "Image de TBATE",
             "type": "Manhwa",
@@ -937,7 +937,7 @@
             "alt": "Image : Chronicles of the Demon Faction",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/chronicles of the demon faction/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -999,7 +999,7 @@
             "details": {
               "title": "Drug-Eating Genius Mage",
               "banner": "",
-              "cover": "IMAGES/3-TRES BONS/drug-eating genius mage/cover3.jpeg",
+              "cover": "IMAGES/3-TRES BONS/drug-eating genius mage/cover3.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -1034,7 +1034,7 @@
           {
             "title": "Eleceed",
             "aliases": [],
-            "image": "IMAGES/3-TRES BONS/eleceed/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/eleceed/cover.webp",
             "alt": "Image : Eleceed",
             "details": {
               "title": "",
@@ -1078,7 +1078,7 @@
             "alt": "Image : Eternally Regressing Knight",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/eternally regressing knight/Banner.png",
+              "banner": "IMAGES/3-TRES BONS/eternally regressing knight/Banner.webp",
               "cover": "IMAGES/3-TRES BONS/eternally regressing knight/cover2.webp",
               "alt": "",
               "type": "",
@@ -1088,12 +1088,12 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [
-                "IMAGES/3-TRES BONS/eternally regressing knight/img1.png",
-                "IMAGES/3-TRES BONS/eternally regressing knight/img2.png",
-                "IMAGES/3-TRES BONS/eternally regressing knight/img3.png",
-                "IMAGES/3-TRES BONS/eternally regressing knight/img4.png",
-                "IMAGES/3-TRES BONS/eternally regressing knight/img5.png",
-                "IMAGES/3-TRES BONS/eternally regressing knight/img6.png"
+                "IMAGES/3-TRES BONS/eternally regressing knight/img1.webp",
+                "IMAGES/3-TRES BONS/eternally regressing knight/img2.webp",
+                "IMAGES/3-TRES BONS/eternally regressing knight/img3.webp",
+                "IMAGES/3-TRES BONS/eternally regressing knight/img4.webp",
+                "IMAGES/3-TRES BONS/eternally regressing knight/img5.webp",
+                "IMAGES/3-TRES BONS/eternally regressing knight/img6.webp"
               ],
               "adaptations": []
             }
@@ -1101,7 +1101,7 @@
           {
             "title": "Evolution Begins with a Big Tree",
             "aliases": ["Evolution From a Tree", "Evolution From the Big Tree"],
-            "image": "IMAGES/3-TRES BONS/evolution begins with a big tree/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/evolution begins with a big tree/cover.webp",
             "alt": "Image : Evolution Begins with a Big Tree",
             "details": {
               "title": "",
@@ -1310,11 +1310,11 @@
           {
             "title": "Latna Saga",
             "aliases": ["Latna Saga: Survival of a Sword King", "Survival Story of a Sword King in a Fantasy World", "The Survival Record of the Sword King in Another World"],
-            "image": "IMAGES/3-TRES BONS/latna saga/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/latna saga/cover.webp",
             "alt": "Image : Latna Saga",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/latna saga/banner1.jpg",
+              "banner": "IMAGES/3-TRES BONS/latna saga/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1334,7 +1334,7 @@
             "alt": "Image : Le Sens de l'Épée",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/le sens de l'épée/banner.jpg",
+              "banner": "IMAGES/3-TRES BONS/le sens de l'épée/banner.webp",
               "cover": "IMAGES/3-TRES BONS/le sens de l'épée/cover.webp",
               "alt": "",
               "type": "",
@@ -1354,7 +1354,7 @@
             "alt": "Image : Legend of Asura",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/legend of asura/banner.jpg",
+              "banner": "IMAGES/3-TRES BONS/legend of asura/banner.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1370,7 +1370,7 @@
           {
             "title": "Legend of the Northern Blade",
             "aliases": ["Chronicles of the Northern Sword", "The Legend of the Northern Blade"],
-            "image": "IMAGES/3-TRES BONS/legend of the northern blade/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/legend of the northern blade/cover.webp",
             "alt": "Image : Legend of Asura",
             "details": {
               "title": "",
@@ -1390,7 +1390,7 @@
           {
             "title": "Leveling Up with the Gods",
             "aliases": ["Level Up With the Gods", "Leveling With the Gods"],
-            "image": "IMAGES/3-TRES BONS/leveling up with the gods/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/leveling up with the gods/cover.webp",
             "alt": "Image : Leveling Up with the Gods",
             "details": {
               "title": "",
@@ -1451,7 +1451,7 @@
           {
             "title": "Moon-Shadow Sword Emperor",
             "aliases": ["Absolute Master of the Senate", "L'Empereur de l'ombre lunaire", "Moon Shadow Sword Emperor"],
-            "image": "IMAGES/3-TRES BONS/moon-shadow sword emperor/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/moon-shadow sword emperor/cover.webp",
             "alt": "Image : Moon-Shadow Sword Emperor",
             "details": {
               "title": "",
@@ -1575,7 +1575,7 @@
             "alt": "Image : Player Who Returned 10,000 Years Later",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/player who returned 10000 years later/banner1.png",
+              "banner": "IMAGES/3-TRES BONS/player who returned 10000 years later/banner1.pwebwebp",
               "cover": "IMAGES/3-TRES BONS/player who returned 10000 years later/cover2.webp",
               "alt": "",
               "type": "",
@@ -1605,8 +1605,8 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [
-                "IMAGES/3-TRES BONS/priest of corruption/img1.png",
-                "IMAGES/3-TRES BONS/priest of corruption/img2.png"
+                "IMAGES/3-TRES BONS/priest of corruption/img1.webp",
+                "IMAGES/3-TRES BONS/priest of corruption/img2.webp"
               ],
               "adaptations": []
             }
@@ -1634,7 +1634,7 @@
           {
             "title": "Reality Quest",
             "aliases": ["Real Life Quest"],
-            "image": "IMAGES/3-TRES BONS/reality quest/cover.jpeg",
+            "image": "IMAGES/3-TRES BONS/reality quest/cover.webp",
             "alt": "Image : Reality Quest",
             "details": {
               "title": "",
@@ -1855,7 +1855,7 @@
           {
             "title": "Solo Necromancy",
             "aliases": ["Only I Am a Necromancer", "The Lone Necromancer", "The Only Necromancer"],
-            "image": "IMAGES/3-TRES BONS/solo necromancy/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/solo necromancy/cover.webp",
             "alt": "Image : Solo Necromancy",
             "details": {
               "title": "",
@@ -1935,7 +1935,7 @@
           {
             "title": "Sweet Home",
             "aliases": ["ㅎㅗㅁ SWEET HOME", "Home Sweet Home"],
-            "image": "IMAGES/3-TRES BONS/sweet home/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/sweet home/cover.webp",
             "alt": "Image : Sweet Home",
             "details": {
               "title": "",
@@ -1959,7 +1959,7 @@
             "alt": "Image : The Academy’s Sashimi Sword Master",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/the academy’s sashimi sword master/banner.jpg",
+              "banner": "IMAGES/3-TRES BONS/the academy’s sashimi sword master/banner.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2019,7 +2019,7 @@
             "alt": "Image : The Executioner",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/the executioner/banner1.png",
+              "banner": "IMAGES/3-TRES BONS/the executioner/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2059,7 +2059,7 @@
             "alt": "Image : The Great Mage Returns After 4000 Years",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/the great mage returns after 4000 years/banner3.jpg",
+              "banner": "IMAGES/3-TRES BONS/the great mage returns after 4000 years/banner3.webp",
               "cover": "IMAGES/3-TRES BONS/the great mage returns after 4000 years/cover2.webp",
               "alt": "",
               "type": "",
@@ -2075,7 +2075,7 @@
           {
             "title": "The Greatest Estate Developer",
             "aliases": ["The Greatest Escale Real Designer", "The Greatest Estate Designer", "The World’S Best Engineer", "The World's Best Engineer"],
-            "image": "IMAGES/3-TRES BONS/the greatest estate developer/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/the greatest estate developer/cover.webp",
             "alt": "Image : The Greatest Estate Developer",
             "details": {
               "title": "",
@@ -2162,8 +2162,8 @@
             "alt": "Image : The Martial God Who Regressed to Level 2",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/the martial god who regressed to level 2/banner1.png",
-              "cover": "IMAGES/3-TRES BONS/the martial god who regressed to level 2/cover.jpg",
+              "banner": "IMAGES/3-TRES BONS/the martial god who regressed to level 2/banner1.webp",
+              "cover": "IMAGES/3-TRES BONS/the martial god who regressed to level 2/cover.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -2182,7 +2182,7 @@
             "alt": "Image : The Newbie Is Too Strong",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/the newbie is too strong/banner.jpg",
+              "banner": "IMAGES/3-TRES BONS/the newbie is too strong/banner.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2242,7 +2242,7 @@
             "alt": "Image : The Reborn Young Lord Is an Assassin",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/the reborn young lord is an assassin/banner1.jpg",
+              "banner": "IMAGES/3-TRES BONS/the reborn young lord is an assassin/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2318,7 +2318,7 @@
           {
             "title": "unOrdinary",
             "aliases": [],
-            "image": "IMAGES/3-TRES BONS/unOrdinary/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/unOrdinary/cover.webp",
             "alt": "Image : unOrdinary",
             "details": {
               "title": "",
@@ -2381,7 +2381,7 @@
             "image": "IMAGES/3-TRES BONS/world after fall/cover.avif",
             "alt": "Image : World After Fall",
             "details": {
-              "title": "",
+              "title": "The World After the Fall",
               "banner": "",
               "cover": "",
               "alt": "",
@@ -2403,12 +2403,12 @@
           {
             "title": "A Returner's Magic Should Be Special",
             "aliases": ["Kikan-sha no mahou wa tokubetsudesu", "La magia de un retornado debe ser especial", "Magician who Reversing Time"],
-            "image": "IMAGES/4-BONS/a returner’s magic should be special/cover.jpg",
+            "image": "IMAGES/4-BONS/a returner’s magic should be special/cover.webp",
             "loading": "lazy",
             "alt": "Image : A Returner's Magic Should Be Special",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/a returner’s magic should be special/bannière.jpg",
+              "banner": "IMAGES/4-BONS/a returner’s magic should be special/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2466,7 +2466,7 @@
           {
             "title": "Academy's Genius Swordmaster",
             "aliases": ["Academy’s Genius Swordsman", "L'épéiste prodige de l'Académie", "The Academy's Genius Swordsman"],
-            "image": "IMAGES/4-BONS/academy's genius swordmaster/cover.jpg",
+            "image": "IMAGES/4-BONS/academy's genius swordmaster/cover.webp",
             "loading": "lazy",
             "alt": "Image : Academy's Genius Swordmaster",
             "details": {
@@ -2487,7 +2487,7 @@
           {
             "title": "Archmage Streamer",
             "aliases": ["BJ Archmage"],
-            "image": "IMAGES/4-BONS/archmage streamer/cover.jpg",
+            "image": "IMAGES/4-BONS/archmage streamer/cover.webp",
             "loading": "lazy",
             "alt": "Image : Archmage Streamer",
             "details": {
@@ -2723,7 +2723,7 @@
             "alt": "Image : Chronicles of the Martial God's Return",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/chronicles of the martial god's return/banner1.png",
+              "banner": "IMAGES/4-BONS/chronicles of the martial god's return/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2760,7 +2760,7 @@
           {
             "title": "Demon Lord's Martial Arts Ascension",
             "aliases": ["Martial Demon King", "The Demon King Levels Up", "The Demon Lord Levels Up With Martial Arts"],
-            "image": "IMAGES/4-BONS/demon lord's martial arts ascension/cover.jpg",
+            "image": "IMAGES/4-BONS/demon lord's martial arts ascension/cover.webp",
             "loading": "lazy",
             "alt": "Image : Demon Lord's Martial Arts Ascension",
             "details": {
@@ -2781,12 +2781,12 @@
           {
             "title": "Descent of the Demonic Master",
             "aliases": ["Return of the Demonic Master", "The Return of the Demon Master", "The Descent of the Demonic Master"],
-            "image": "IMAGES/4-BONS/descent of the demonic master/cover.jpg",
+            "image": "IMAGES/4-BONS/descent of the demonic master/cover.webp",
             "loading": "lazy",
             "alt": "Image : Descent of the Demonic Master",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/descent of the demonic master/banner1.jpg",
+              "banner": "IMAGES/4-BONS/descent of the demonic master/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2828,7 +2828,7 @@
             "alt": "Image : Divine Surgeon",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/divine surgeon/banner1.jpg",
+              "banner": "IMAGES/4-BONS/divine surgeon/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2844,12 +2844,12 @@
           {
             "title": "Doctor Player",
             "aliases": ["Doctor's Player", "Dr. Player"],
-            "image": "IMAGES/4-BONS/doctor player/cover.jpg",
+            "image": "IMAGES/4-BONS/doctor player/cover.webp",
             "loading": "lazy",
             "alt": "Image : Doctor Player",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/doctor player/banner1.jpg",
+              "banner": "IMAGES/4-BONS/doctor player/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2865,7 +2865,7 @@
           {
             "title": "Doctor's Rebirth",
             "aliases": [],
-            "image": "IMAGES/4-BONS/doctor's rebirth/cover.jpg",
+            "image": "IMAGES/4-BONS/doctor's rebirth/cover.webp",
             "loading": "lazy",
             "alt": "Image : Doctor's Rebirth",
             "details": {
@@ -2970,7 +2970,7 @@
           {
             "title": "Dungeon Reset",
             "aliases": [],
-            "image": "IMAGES/4-BONS/dungeon reset/cover.jpg",
+            "image": "IMAGES/4-BONS/dungeon reset/cover.webp",
             "alt": "Image : Dungeon Reset",
             "details": {
               "title": "",
@@ -2990,7 +2990,7 @@
           {
             "title": "Everyone Else is a Returnee",
             "aliases": ["orever Alone Hero", "Last on Earth", "Trừ Tôi Tất Cả Đều Là Quy Hồi Giả"],
-            "image": "IMAGES/4-BONS/everyone else is a returnee/cover.jpg",
+            "image": "IMAGES/4-BONS/everyone else is a returnee/cover.webp",
             "loading": "lazy",
             "alt": "Image : Everyone Else is a Returnee",
             "details": {
@@ -3074,7 +3074,7 @@
           {
             "title": "Genius Archer's Streaming",
             "aliases": [],
-            "image": "IMAGES/4-BONS/genius archer's streaming/cover.jpg",
+            "image": "IMAGES/4-BONS/genius archer's streaming/cover.webp",
             "loading": "lazy",
             "alt": "Image : Genius Archer's Streaming",
             "details": {
@@ -3100,7 +3100,7 @@
             "alt": "Image : Genius Assassin Who Takes It All",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/genius assassin who takes it all/bannière.jpg",
+              "banner": "IMAGES/4-BONS/genius assassin who takes it all/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3110,7 +3110,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [
-                "IMAGES/4-BONS/hand over the money/img1.jpg"
+                "IMAGES/4-BONS/hand over the money/img1.webp"
               ],
               "adaptations": []
             }
@@ -3193,7 +3193,9 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/4-BONS/hand over the money/img1.webp"
+              ],
               "adaptations": []
             }
           },
@@ -3368,7 +3370,7 @@
           {
             "title": "I Grow Stronger By Eating",
             "aliases": ["Appétit Féroce", "Gewaltiger Hunger", "I Get Stronger the More I Eat", "Je deviens plus fort en mangeant !"],
-            "image": "IMAGES/4-BONS/i grow stronger by eating/cover.jpg",
+            "image": "IMAGES/4-BONS/i grow stronger by eating/cover.webp",
             "loading": "lazy",
             "alt": "Image : I Grow Stronger By Eating",
             "details": {
@@ -3410,12 +3412,12 @@
           {
             "title": "I Was The Final Boss",
             "aliases": ["Ancien Boss of The Abyss", "Ancient Boss of the Abyss", "I Used to Be a Boss"],
-            "image": "IMAGES/4-BONS/i was the final boss/cover.jpg",
+            "image": "IMAGES/4-BONS/i was the final boss/cover.webp",
             "loading": "lazy",
             "alt": "Image : I Was The Final Boss",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/i was the final boss/bannière.jpg",
+              "banner": "IMAGES/4-BONS/i was the final boss/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3479,7 +3481,7 @@
           {
             "title": "I'm Not A Regressor",
             "aliases": ["I am not a Regressor"],
-            "image": "IMAGES/4-BONS/i'm not a regressor/cover.jpg",
+            "image": "IMAGES/4-BONS/i'm not a regressor/cover.webp",
             "loading": "lazy",
             "alt": "Image : I'm Not A Regressor",
             "details": {
@@ -3542,7 +3544,7 @@
           {
             "title": "Is This Hero for Real?",
             "aliases": ["Is This Warrior for Real?", "Is This Warrior Real?"],
-            "image": "IMAGES/4-BONS/is this hero for real/cover.jpg",
+            "image": "IMAGES/4-BONS/is this hero for real/cover.webp",
             "loading": "lazy",
             "alt": "Image : Is This Hero for Real?",
             "details": {
@@ -3649,7 +3651,7 @@
             "alt": "Image : Knight King Who Returned With A God",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/knight king who returned with a god/banner1.jpg",
+              "banner": "IMAGES/4-BONS/knight king who returned with a god/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3683,15 +3685,16 @@
               "adaptations": []
             }
           },
+          
           {
-            "title": "La Magicienne aux Cheveux d'Or",
-            "aliases": ["The Golden Haired Mage", "The Golden Haired Wizard", "La chica rubia que controla los elementos", "The Golden Haired Elementalist", "The Golden-Haired Summoner"],
-            "image": "IMAGES/4-BONS/la magicienne aux cheveux d'or/cover.jpg",
+            "title": "L'Artéfact Dévoreur",
+            "aliases": ["Dungeons & Artifacts", "Dungeons and Artifacts"],
+            "image": "IMAGES/4-BONS/l'artéfact dévoreur/cover.webp",
             "loading": "lazy",
-            "alt": "Image : La Magicienne aux Cheveux d'Or",
+            "alt": "Image : L'Artéfact Dévoreur",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/l'artéfact dévoreur/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3705,14 +3708,35 @@
             }
           },
           {
-            "title": "L'Artéfact Dévoreur",
-            "aliases": ["Dungeons & Artifacts", "Dungeons and Artifacts"],
-            "image": "IMAGES/4-BONS/l'artéfact dévoreur/cover.jpg",
+            "title": "L'Expert de la Tour Tutoriel",
+            "aliases": ["The Advanced Player of the Tutorial Tower", "The Master of Tutorial Tower", "The Tutorial Tower's Advanced Player", "The Tutorial Tower of the Advanced Player"],
+            "image": "IMAGES/4-BONS/l'expert de la tour tutoriel/cover.webp",
             "loading": "lazy",
-            "alt": "Image : L'Artéfact Dévoreur",
+            "alt": "Image : L'Expert de la Tour Tutoriel",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/l'artéfact dévoreur/bannière.webp",
+              "banner": "IMAGES/4-BONS/l'expert de la tour tutoriel/bannière.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "La Magicienne aux Cheveux d'Or",
+            "aliases": ["The Golden Haired Mage", "The Golden Haired Wizard", "La chica rubia que controla los elementos", "The Golden Haired Elementalist", "The Golden-Haired Summoner"],
+            "image": "IMAGES/4-BONS/la magicienne aux cheveux d'or/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : La Magicienne aux Cheveux d'Or",
+            "details": {
+              "title": "",
+              "banner": "",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3749,12 +3773,12 @@
           {
             "title": "Level up Alone",
             "aliases": [],
-            "image": "IMAGES/4-BONS/level up alone/cover.jpg",
+            "image": "IMAGES/4-BONS/level up alone/cover.webp",
             "loading": "lazy",
             "alt": "Image : Leveling up Alone",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/level up alone/bannière.jpg",
+              "banner": "IMAGES/4-BONS/level up alone/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3776,27 +3800,6 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "L'Expert de la Tour Tutoriel",
-            "aliases": ["The Advanced Player of the Tutorial Tower", "The Master of Tutorial Tower", "The Tutorial Tower's Advanced Player", "The Tutorial Tower of the Advanced Player"],
-            "image": "IMAGES/4-BONS/l'expert de la tour tutoriel/cover.png",
-            "loading": "lazy",
-            "alt": "Image : L'Expert de la Tour Tutoriel",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/4-BONS/l'expert de la tour tutoriel/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3957,7 +3960,7 @@
           {
             "title": "Max Talented Player",
             "aliases": ["A Talented Player"],
-            "image": "IMAGES/4-BONS/max talented player/cover.jpeg",
+            "image": "IMAGES/4-BONS/max talented player/cover.webp",
             "loading": "lazy",
             "alt": "Image : Max Talented Player",
             "details": {
@@ -4104,7 +4107,7 @@
           {
             "title": "Night of the Soulless Heathens",
             "aliases": ["The Shadowed Legacy of the Soulless Messenger"],
-            "image": "IMAGES/4-BONS/night of the soulless heathens/cover.jpg",
+            "image": "IMAGES/4-BONS/night of the soulless heathens/cover.webp",
             "loading": "lazy",
             "alt": "Image : Night of the Soulless Heathens",
             "details": {
@@ -4125,7 +4128,7 @@
           {
             "title": "Player From Today Onwards",
             "aliases": ["Player Starting From Today", "From Today, I'm a Player", "Le destin du player !", "The PLayer From The Today"],
-            "image": "IMAGES/4-BONS/player from today onwards/cover.jpeg",
+            "image": "IMAGES/4-BONS/player from today onwards/cover.webp",
             "loading": "lazy",
             "alt": "Image : Player From Today Onwards",
             "details": {
@@ -4151,7 +4154,7 @@
             "alt": "Image : Player Who Can't Level Up",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/player who can't level up/banner1.jpg",
+              "banner": "IMAGES/4-BONS/player who can't level up/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4209,7 +4212,7 @@
           {
             "title": "Rebirth Of An 8th-Circled Wizard",
             "aliases": ["8Seokeul Mabeobsaui Hwansaeng", "8th Circle Mage Reborn", "La Réincarnation de l'archimage de 8e cercle", " Return Of An 8th-Circled Wizard", "Return of the 8th Class Mage"],
-            "image": "IMAGES/4-BONS/rebirth of an 8th-circled wizard/cover.jpg",
+            "image": "IMAGES/4-BONS/rebirth of an 8th-circled wizard/cover.webp",
             "loading": "lazy",
             "alt": "Image : Rebirth Of An 8th-Circled Wizard",
             "details": {
@@ -4293,12 +4296,12 @@
           {
             "title": "Regressing With The King's Power",
             "aliases": ["Return to the King's Power", "Return to the Power of the King", "Returned by the King"],
-            "image": "IMAGES/4-BONS/regressing with the king's power/cover.jpg",
+            "image": "IMAGES/4-BONS/regressing with the king's power/cover.webp",
             "loading": "lazy",
             "alt": "Image : Regressing With The King's Power",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/regressing with the king's power/banner1.jpg",
+              "banner": "IMAGES/4-BONS/regressing with the king's power/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4403,7 +4406,7 @@
             "alt": "Image : Return of the 8th Class Magician",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/return of the 8th class magician/banner1.jpg",
+              "banner": "IMAGES/4-BONS/return of the 8th class magician/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4419,12 +4422,12 @@
           {
             "title": "Return of the Broken Constellation",
             "aliases": ["Return of the Apocalypse-Class Death Knight"],
-            "image": "IMAGES/4-BONS/return of the broken constellation/cover.jpg",
+            "image": "IMAGES/4-BONS/return of the broken constellation/cover.webp",
             "loading": "lazy",
             "alt": "Image : Return of the Broken Constellation",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/return of the broken constellation/banner1.jpg",
+              "banner": "IMAGES/4-BONS/return of the broken constellation/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4550,7 +4553,7 @@
             "alt": "Image : Returned as the Duke",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/returned as the duke/banner1.jpg",
+              "banner": "IMAGES/4-BONS/returned as the duke/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4613,12 +4616,12 @@
           {
             "title": "Seoul Station's Necromancer",
             "aliases": ["Seoul Station Necromancer", "Seoul-yeog Necromancer"],
-            "image": "IMAGES/4-BONS/seoul station's necromancer/cover.jpg",
+            "image": "IMAGES/4-BONS/seoul station's necromancer/cover.webp",
             "loading": "lazy",
             "alt": "Image : Seoul Station's Necromancer",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/seoul station's necromancer/banner1.jpg",
+              "banner": "IMAGES/4-BONS/seoul station's necromancer/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4639,7 +4642,7 @@
             "alt": "Image : Skeleton Soldier Couldn't Protect the Dungeon",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/skeleton soldier couldn't protect the dungeon/banner1.jpg",
+              "banner": "IMAGES/4-BONS/skeleton soldier couldn't protect the dungeon/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4738,7 +4741,7 @@
           {
             "title": "Stuck in the Tower",
             "aliases": ["The Tower's Trapped Hunter", "Trapped in the Tower"],
-            "image": "IMAGES/4-BONS/stuck in the tower/cover.jpeg",
+            "image": "IMAGES/4-BONS/stuck in the tower/cover.webp",
             "loading": "lazy",
             "alt": "Image : Stuck in the Tower",
             "details": {
@@ -4801,7 +4804,7 @@
           {
             "title": "The 31st Piece Turns the Tables",
             "aliases": ["The 31st Piece Overturns the Board"],
-            "image": "IMAGES/4-BONS/the 31st piece turns the tables/cover.jpg",
+            "image": "IMAGES/4-BONS/the 31st piece turns the tables/cover.webp",
             "loading": "lazy",
             "alt": "Image : The 31st Piece Turns the Tables",
             "details": {
@@ -4827,7 +4830,7 @@
             "alt": "Image : The 100th Regression of the Max-Level Player",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/the 100th regression of the max-level player/banner1.png",
+              "banner": "IMAGES/4-BONS/the 100th regression of the max-level player/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4843,12 +4846,12 @@
           {
             "title": "The Boxer",
             "aliases": [],
-            "image": "IMAGES/4-BONS/the boxer/cover.jpg",
+            "image": "IMAGES/4-BONS/the boxer/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Boxer",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/the boxer/bannière.jpg",
+              "banner": "IMAGES/4-BONS/the boxer/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4905,7 +4908,7 @@
           {
             "title": "The Count's Youngest Son Is a Player",
             "aliases": ["The Youngest Son of the Count Is a Player"],
-            "image": "IMAGES/4-BONS/the count's youngest son is a player/cover.jpg",
+            "image": "IMAGES/4-BONS/the count's youngest son is a player/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Count's Youngest Son Is a Player",
             "details": {
@@ -5030,7 +5033,7 @@
           {
             "title": "The Hammer",
             "aliases": ["I Picked A Hammer To Save The World"],
-            "image": "IMAGES/4-BONS/the hammer/cover.jpg",
+            "image": "IMAGES/4-BONS/the hammer/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Hammer",
             "details": {
@@ -5072,12 +5075,12 @@
           {
             "title": "The Last Adventurer",
             "aliases": [],
-            "image": "IMAGES/4-BONS/the last adventurer/cover.jpg",
+            "image": "IMAGES/4-BONS/the last adventurer/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Last Adventurer",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/the last adventurer/bannière.jpg",
+              "banner": "IMAGES/4-BONS/the last adventurer/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5093,7 +5096,7 @@
           {
             "title": "The Lord's Coins Aren't Decreasing",
             "aliases": ["The Lord of Coins", "À jamais Riche !"],
-            "image": "IMAGES/4-BONS/the lord's coins aren't decreasing/cover.jpg",
+            "image": "IMAGES/4-BONS/the lord's coins aren't decreasing/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Lord's Coins Aren't Decreasing",
             "details": {
@@ -5114,7 +5117,7 @@
           {
             "title": "The Max Level Hero Has Returned",
             "aliases": ["Max Level Hero Is Making a Comeback!", "The Max Level Hero Strikes Back", "The Max Leveled Hero Will Return!"],
-            "image": "IMAGES/4-BONS/the max level hero has returned/cover.jpg",
+            "image": "IMAGES/4-BONS/the max level hero has returned/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Max Level Hero Has Returned",
             "details": {
@@ -5161,7 +5164,7 @@
             "alt": "Image : The Reincarnated Assassin Is a Genius Swordsman",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/the reincarnated assassin is a genius swordsman/banner1.jpg",
+              "banner": "IMAGES/4-BONS/the reincarnated assassin is a genius swordsman/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5182,7 +5185,7 @@
             "alt": "Image : The Second Coming of Gluttony",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/the second coming of gluttony/banner1.jpg",
+              "banner": "IMAGES/4-BONS/the second coming of gluttony/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5244,7 +5247,7 @@
             "alt": "Image : Trash of the Count's Family",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/trash of the count's family/banner.jpg",
+              "banner": "IMAGES/4-BONS/trash of the count's family/banner.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5265,7 +5268,7 @@
             "alt": "Image : Tyrant of the Tower Defense Game",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/tyrant of the tower defense game/banner.jpg",
+              "banner": "IMAGES/4-BONS/tyrant of the tower defense game/banner.jwebppg",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5323,12 +5326,12 @@
           {
             "title": "Villain to Kill",
             "aliases": [],
-            "image": "IMAGES/4-BONS/villain to kill/cover.jpg",
+            "image": "IMAGES/4-BONS/villain to kill/cover.webp",
             "loading": "lazy",
             "alt": "Image : Villain to Kill",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/villain to kill/banner2.png",
+              "banner": "IMAGES/4-BONS/villain to kill/banner2.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5349,7 +5352,7 @@
             "alt": "Image : Villains Are Destined to Die",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/villains are destined to die/banner1.jpg",
+              "banner": "IMAGES/4-BONS/villains are destined to die/banner1.webp",
               "cover": "IMAGES/4-BONS/villains are destined to die/cover2.webp",
               "alt": "",
               "type": "",
@@ -5383,7 +5386,7 @@
           {
             "title": "Weapon Creator",
             "aliases": ["Weapon Maker", "Weapon Forger"],
-            "image": "IMAGES/4-BONS/weapon creator/cover.jpeg",
+            "image": "IMAGES/4-BONS/weapon creator/cover.webp",
             "loading": "lazy",
             "alt": "Image : Weapon Creator",
             "details": {
@@ -5474,7 +5477,7 @@
             "alt": "Image : Why I Quit Being the Demon King",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/why i quit being the demon king/bannière.jpg",
+              "banner": "IMAGES/4-BONS/why i quit being the demon king/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5495,7 +5498,7 @@
             "alt": "Image : Worn and Torn Newbie",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/worn and torn newbie/banner.jpg",
+              "banner": "IMAGES/4-BONS/worn and torn newbie/banner.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5542,7 +5545,7 @@
             "alt": "Image : 10-Star Player's Lucky Draw",
             "details": {
               "title": "",
-              "banner": "IMAGES/5-INTERMEDIAIRES/10-star player's lucky draw/bannière.jpg",
+              "banner": "IMAGES/5-INTERMEDIAIRES/10-star player's lucky draw/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5558,7 +5561,7 @@
           {
             "title": "A Barbarian was admitted to the Academy",
             "aliases": ["A Barbarian Entered the Academy", "Entered the Academy as a Barbarian"],
-            "image": "IMAGES/5-INTERMEDIAIRES/a barbarian was admitted to the academy/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/a barbarian was admitted to the academy/cover.webp",
             "loading": "lazy",
             "alt": "Image : A Barbarian was admitted to the Academy",
             "details": {
@@ -5789,7 +5792,7 @@
           {
             "title": "Catastrophic Necromancer",
             "aliases": ["Disastrous Necromancer"],
-            "image": "IMAGES/5-INTERMEDIAIRES/catastrophic necromancer/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/catastrophic necromancer/cover.webp",
             "loading": "lazy",
             "alt": "Image : Catastrophic Necromancer",
             "details": {
@@ -5831,7 +5834,7 @@
           {
             "title": "Comment Cacher le Fils de l'Empereur",
             "aliases": ["How to Hide the Emperor's Child"],
-            "image": "IMAGES/5-INTERMEDIAIRES/comment cacher le fils de l'empereur/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/comment cacher le fils de l'empereur/cover.webp",
             "loading": "lazy",
             "alt": "Image : Comment Cacher le Fils de l'Empereur",
             "details": {
@@ -5852,7 +5855,7 @@
           {
             "title": "Demon Evolution",
             "aliases": ["Demonic Evolution", "Me, Evolution, and the Demons"],
-            "image": "IMAGES/5-INTERMEDIAIRES/demon evolution/cover.jpeg",
+            "image": "IMAGES/5-INTERMEDIAIRES/demon evolution/cover.webp",
             "loading": "lazy",
             "alt": "Image : Demon Evolution",
             "details": {
@@ -5873,30 +5876,9 @@
           {
             "title": "Dream Sharing",
             "aliases": ["Counter Cube", "Dream-Sharing", "Shared Dream"],
-            "image": "IMAGES/5-INTERMEDIAIRES/dream sharing/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/dream sharing/cover.webp",
             "loading": "lazy",
             "alt": "Image : Dream Sharing",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Dungeon Tou de Yadoya Wo Yarou",
-            "aliases": [],
-            "image": "IMAGES/5-INTERMEDIAIRES/dungeon tou de yadoya wo yarou/cover.jpg",
-            "loading": "lazy",
-            "alt": "Image : Dungeon Tou de Yadoya Wo Yarou",
             "details": {
               "title": "",
               "banner": "",
@@ -5957,7 +5939,7 @@
           {
             "title": "Entomologist in Sichuan Tang Clan",
             "aliases": ["A Poison Master in the Sichuan Tang Clan", "El maestro del veneno del Clan Tang Sichuan", "The Poison Master of Sacheon Tang Clan", "The Poison Master of Sacheondang Clan", "The Sichuan Tang Clan's Entomologist"],
-            "image": "IMAGES/5-INTERMEDIAIRES/entomologist in sichuan tang clan/cover.png",
+            "image": "IMAGES/5-INTERMEDIAIRES/entomologist in sichuan tang clan/cover.webp",
             "loading": "lazy",
             "alt": "Image : Entomologist in Sichuan Tang Clan",
             "details": {
@@ -6041,7 +6023,7 @@
           {
             "title": "From Goblin To Goblin Gold",
             "aliases": [],
-            "image": "IMAGES/5-INTERMEDIAIRES/from goblin to goblin gold/cover.png",
+            "image": "IMAGES/5-INTERMEDIAIRES/from goblin to goblin gold/cover.webp",
             "loading": "lazy",
             "alt": "Image : From Goblin To Goblin Gold",
             "details": {
@@ -6104,7 +6086,7 @@
           {
             "title": "Heavenly Demon Cultivation Simulation",
             "aliases": ["Cultivation of Heaven", "Murim RPG Simulation"],
-            "image": "IMAGES/5-INTERMEDIAIRES/heavenly demon cultivation simulation/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/heavenly demon cultivation simulation/cover.webp",
             "loading": "lazy",
             "alt": "Image : Heavenly Demon Cultivation Simulation",
             "details": {
@@ -6167,7 +6149,7 @@
           {
             "title": "Heavenly Sword's Grand Saga",
             "aliases": ["Heavenly Sword's Grand Saga", "Thousand Sword Techniques"],
-            "image": "IMAGES/5-INTERMEDIAIRES/heavenly sword's grand saga/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/heavenly sword's grand saga/cover.webp",
             "loading": "lazy",
             "alt": "Image : Heavenly Sword's Grand Saga",
             "details": {
@@ -6230,7 +6212,7 @@
           {
             "title": "Holy Emperor's Grandson Is A Necromancer",
             "aliases": ["Grandson of the Holy Emperor is a Necromance", "Reincarned In A Youngest Prince Necromancer"],
-            "image": "IMAGES/5-INTERMEDIAIRES/holy emperor's grandson is a necromancer/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/holy emperor's grandson is a necromancer/cover.webp",
             "loading": "lazy",
             "alt": "Image : Holy Emperor's Grandson Is A Necromancer",
             "details": {
@@ -6251,7 +6233,7 @@
           {
             "title": "I Am Invincible In This World",
             "aliases": ["I'm Invincible in This World", "I Rely on My Invincibility to Deal Tons of Damage Passively!", "My Passive Skills Are Invincible"],
-            "image": "IMAGES/5-INTERMEDIAIRES/i am invincible in this world/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/i am invincible in this world/cover.webp",
             "loading": "lazy",
             "alt": "Image : I Am Invincible In This World",
             "details": {
@@ -6272,7 +6254,7 @@
           {
             "title": "I am the Sorcerer king",
             "aliases": ["I’m The Sorcerer King", "Le Roi des Sorciers"],
-            "image": "IMAGES/5-INTERMEDIAIRES/i am the sorcerer king/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/i am the sorcerer king/cover.webp",
             "loading": "lazy",
             "alt": "Image : I am the Sorcerer king",
             "details": {
@@ -6299,7 +6281,7 @@
           {
             "title": "I Am The Strongest Transcendent",
             "aliases": ["I'm the Strongest Transcendent", "I Am The Strongest Awakeners, Recognized By All of The World's Cheat", "I am the Most Powerful Transcendent Being", "I Am The Strongest Awakeners"],
-            "image": "IMAGES/5-INTERMEDIAIRES/i am the strongest transcendent/cover.jpeg",
+            "image": "IMAGES/5-INTERMEDIAIRES/i am the strongest transcendent/cover.webp",
             "loading": "lazy",
             "alt": "Image : I Am The Strongest Transcendent",
             "details": {
@@ -6320,7 +6302,7 @@
           {
             "title": "I Regressed To My Ruined Family",
             "aliases": ["When I Returned Home, My Family Was Ruined", "The Fallen House of Ardan"],
-            "image": "IMAGES/5-INTERMEDIAIRES/i regressed to my ruined family/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/i regressed to my ruined family/cover.webp",
             "loading": "lazy",
             "alt": "Image : I Regressed To My Ruined Family",
             "details": {
@@ -6341,7 +6323,7 @@
           {
             "title": "I Become The Villain's Poison Taster",
             "aliases": ["I Will Become a Poison Detector in the Dark World", "I Will Become a Poison Detector of Darkness", "I Will Become the Villain's Poison Detector"],
-            "image": "IMAGES/5-INTERMEDIAIRES/i will become the villain's poison taster/cover.jpeg",
+            "image": "IMAGES/5-INTERMEDIAIRES/i will become the villain's poison taster/cover.webp",
             "loading": "lazy",
             "alt": "Image : I Become The Villain's Poison Taster",
             "details": {
@@ -6362,7 +6344,7 @@
           {
             "title": "I'll Retire After Saving The World",
             "aliases": ["For My Own Good", "I Will Save the World And Then Retire"],
-            "image": "IMAGES/5-INTERMEDIAIRES/i'll retire after saving the world/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/i'll retire after saving the world/cover.webp",
             "loading": "lazy",
             "alt": "Image : I'll Retire After Saving The World",
             "details": {
@@ -6446,7 +6428,7 @@
           {
             "title": "L'Obscurité en Moi",
             "aliases": [],
-            "image": "IMAGES/5-INTERMEDIAIRES/l'obscurité en moi/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/l'obscurité en moi/cover.webp",
             "loading": "lazy",
             "alt": "Image : L'Obscurité en Moi",
             "details": {
@@ -6473,7 +6455,7 @@
             "details": {
               "title": "The Frost Flower Knight",
               "banner": "",
-              "cover": "IMAGES/5-INTERMEDIAIRES/la chevalière à la fleur de glace/cover2.jpg",
+              "cover": "IMAGES/5-INTERMEDIAIRES/la chevalière à la fleur de glace/cover2.jwebppg",
               "alt": "",
               "type": "",
               "genre": [],
@@ -6551,7 +6533,7 @@
           {
             "title": "Le Démon du Mont Hua",
             "aliases": ["The Demon in Mount Hua", "Demon in Mount Hwa"],
-            "image": "IMAGES/5-INTERMEDIAIRES/le démon du mont hua/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/le démon du mont hua/cover.webp",
             "loading": "lazy",
             "alt": "Image : Le Démon du Mont Hua",
             "details": {
@@ -6614,7 +6596,7 @@
           {
             "title": "Level Up With Skills",
             "aliases": ["Ascension Through Skills", "Skill Masters Level Up"],
-            "image": "IMAGES/5-INTERMEDIAIRES/level up with skills/cover.jpeg",
+            "image": "IMAGES/5-INTERMEDIAIRES/level up with skills/cover.webp",
             "loading": "lazy",
             "alt": "Image : Level Up With Skills",
             "details": {
@@ -6635,7 +6617,7 @@
           {
             "title": "Leveling Up By Only Eating",
             "aliases": ["Gourmet Gaming", "I Level Up, by Eating!", "Leveling Up through Eating", "Monter de niveau, en ne faisant que manger !"],
-            "image": "IMAGES/5-INTERMEDIAIRES/leveling up by only eating/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/leveling up by only eating/cover.webp",
             "loading": "lazy",
             "alt": "Image : Leveling Up By Only Eating",
             "details": {
@@ -6656,7 +6638,7 @@
           {
             "title": "Leveling Up My Isekai'd Abs",
             "aliases": [],
-            "image": "IMAGES/5-INTERMEDIAIRES/leveling up my isekai'd abs/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/leveling up my isekai'd abs/cover.webp",
             "loading": "lazy",
             "alt": "Image : Leveling Up My Isekai'd Abs",
             "details": {
@@ -6677,12 +6659,12 @@
           {
             "title": "Lightning Degree",
             "aliases": ["Lightning Sword", "Masters of Lightning Knives"],
-            "image": "IMAGES/5-INTERMEDIAIRES/lightning degree/cover.jpeg",
+            "image": "IMAGES/5-INTERMEDIAIRES/lightning degree/cover.webp",
             "loading": "lazy",
             "alt": "Image : Lightning Degree",
             "details": {
               "title": "",
-              "banner": "IMAGES/5-INTERMEDIAIRES/lightning degree/bannière.jpg",
+              "banner": "IMAGES/5-INTERMEDIAIRES/lightning degree/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -6740,7 +6722,7 @@
           {
             "title": "Mightiest Melee Magician",
             "aliases": ["All-Strength Magician"],
-            "image": "IMAGES/5-INTERMEDIAIRES/mightiest melee magician/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/mightiest melee magician/cover.webp",
             "loading": "lazy",
             "alt": "Image : Mightiest Melee Magician",
             "details": {
@@ -6782,7 +6764,7 @@
           {
             "title": "Monster Eater",
             "aliases": ["Demon-Eating Adventurer", "Demon Eating Adventurer", "Mamono Kurai no Boukensha - Ore Dake Mamono wo Kuratte Tsuyoku Naru", "Monster Eater", "Monster Eater Adventurer", "Monster-Eater Adventurer"],
-            "image": "IMAGES/5-INTERMEDIAIRES/monster eater/cover.png",
+            "image": "IMAGES/5-INTERMEDIAIRES/monster eater/cover.webp",
             "loading": "lazy",
             "alt": "Image : Monster Eater",
             "details": {
@@ -6803,7 +6785,7 @@
           {
             "title": "Monster Pet Evolution",
             "aliases": ["Divine Pet Evolution", "God Pet Evolution"],
-            "image": "IMAGES/5-INTERMEDIAIRES/monster pet evolution/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/monster pet evolution/cover.webp",
             "loading": "lazy",
             "alt": "Image : Monster Pet Evolution",
             "details": {
@@ -6824,12 +6806,12 @@
           {
             "title": "Monster Streamer For Gods",
             "aliases": [],
-            "image": "IMAGES/5-INTERMEDIAIRES/monster streamer for gods/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/monster streamer for gods/cover.webp",
             "loading": "lazy",
             "alt": "Image : Monster Streamer For Gods",
             "details": {
               "title": "",
-              "banner": "IMAGES/5-INTERMEDIAIRES/monster streamer for gods/bannière.jpg",
+              "banner": "IMAGES/5-INTERMEDIAIRES/monster streamer for gods/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -6908,7 +6890,7 @@
           {
             "title": "Necromancer's Evolutionary Traits",
             "aliases": ["The Strongest Evolutionary Necromancer", "The Strongest Necromancer With Evolutionary Characteristics", "Necromancer’s Evolution"],
-            "image": "IMAGES/5-INTERMEDIAIRES/necromancer's evolutionary traits/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/necromancer's evolutionary traits/cover.webp",
             "loading": "lazy",
             "alt": "Image : Necromancer's Evoliutionary Traits",
             "details": {
@@ -6934,7 +6916,7 @@
             "alt": "Image : Newbie Management",
             "details": {
               "title": "",
-              "banner": "IMAGES/5-INTERMEDIAIRES/newbie management/bannière.jpg",
+              "banner": "IMAGES/5-INTERMEDIAIRES/newbie management/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -7055,7 +7037,7 @@
           {
             "title": "Reincarnation of the Swordmaster",
             "aliases": [],
-            "image": "IMAGES/5-INTERMEDIAIRES/reincarnation of the swordmaster/cover.png",
+            "image": "IMAGES/5-INTERMEDIAIRES/reincarnation of the swordmaster/cover.webp",
             "loading": "lazy",
             "alt": "Image : Reincarnation of the Swordmaster",
             "details": {
@@ -7076,12 +7058,12 @@
           {
             "title": "Reincarnation Path of the Underworld King",
             "aliases": ["Return of the Hell King", "The Descent of the Underworld King"],
-            "image": "IMAGES/5-INTERMEDIAIRES/reincarnation path of the underworld king/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/reincarnation path of the underworld king/cover.webp",
             "loading": "lazy",
             "alt": "Image : Reincarnation Path of the Underworld King",
             "details": {
               "title": "",
-              "banner": "IMAGES/5-INTERMEDIAIRES/reincarnation path of the underworld king/bannière.png",
+              "banner": "IMAGES/5-INTERMEDIAIRES/reincarnation path of the underworld king/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -7097,7 +7079,7 @@
           {
             "title": "Release That Witch",
             "aliases": ["Release the Witch", "Fang Kai Na Ge Nu Wu", "Relâchez cette sorcière"],
-            "image": "IMAGES/5-INTERMEDIAIRES/release that witch/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/release that witch/cover.webp",
             "loading": "lazy",
             "alt": "Image : Release That Witch",
             "details": {
@@ -7118,7 +7100,7 @@
           {
             "title": "The Return of the Mythical Archmage",
             "aliases": ["The Rebirth of the Legendary Archmage", "The Reincarnation of the Great Mage in Myth"],
-            "image": "IMAGES/5-INTERMEDIAIRES/return of the mythical archmage/cover.jpeg",
+            "image": "IMAGES/5-INTERMEDIAIRES/return of the mythical archmage/cover.webp",
             "loading": "lazy",
             "alt": "Image : Return of the Mythical Archmage",
             "details": {
@@ -7139,7 +7121,7 @@
           {
             "title": "Return of the Ninth-Class Swordmaster",
             "aliases": ["The Ninth-Rank Sword Master: Conquering the Sword Forms", "9th Class Sword Master: Sword Seeker", "Class 9 Sword Master: Sword Seeker"],
-            "image": "IMAGES/5-INTERMEDIAIRES/return of the ninth-class swordmaster/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/return of the ninth-class swordmaster/cover.webp",
             "loading": "lazy",
             "alt": "Image : Return of the Ninth-Class Swordmaster",
             "details": {
@@ -7228,7 +7210,7 @@
             "alt": "Image : School Life Pretending to Be a Worthless Person",
             "details": {
               "title": "",
-              "banner": "IMAGES/5-INTERMEDIAIRES/school life pretending to be a worthless person/bannière.jpeg",
+              "banner": "IMAGES/5-INTERMEDIAIRES/school life pretending to be a worthless person/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -7244,7 +7226,7 @@
           {
             "title": "Solo Leveling Ragnarok",
             "aliases": ["Solo Leveling : Ragnarok"],
-            "image": "IMAGES/5-INTERMEDIAIRES/solo leveling ragnarok/cover.png",
+            "image": "IMAGES/5-INTERMEDIAIRES/solo leveling ragnarok/cover.webp",
             "loading": "lazy",
             "alt": "Image : Solo Leveling Ragnarok",
             "details": {
@@ -7302,7 +7284,7 @@
             "alt": "Image : Super Genius DNA",
             "details": {
               "title": "",
-              "banner": "IMAGES/5-INTERMEDIAIRES/super genius dna/bannière.jpg",
+              "banner": "IMAGES/5-INTERMEDIAIRES/super genius dna/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -7318,7 +7300,7 @@
           {
             "title": "Surinvoqué et Surpuissant",
             "aliases": ["Meccha Shoukan Sareta Kudan THE COMIC", "Oversummoned, Overpowered, and Over It!", "Summoned to a Parallel Fantasy World Many Times THE COMIC", "Surinvoqué & Surpuissant"],
-            "image": "IMAGES/5-INTERMEDIAIRES/surinvoque et surpuissant/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/surinvoque et surpuissant/cover.webp",
             "loading": "lazy",
             "alt": "Image : Surinvoqué et Surpuissant",
             "details": {
@@ -7423,7 +7405,7 @@
           {
             "title": "The Academy's Genius Tamer",
             "aliases": ["The Genius Tamer of the Academy"],
-            "image": "IMAGES/5-INTERMEDIAIRES/the academy's genius tamer/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/the academy's genius tamer/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Academy's Genius Tamer",
             "details": {
@@ -7444,7 +7426,7 @@
           {
             "title": "The Book of Lagier",
             "aliases": [],
-            "image": "IMAGES/5-INTERMEDIAIRES/the book of lagier/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/the book of lagier/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Book of Lagier",
             "details": {
@@ -7491,7 +7473,7 @@
             "alt": "Image : The Crown Prince That Sells Medicine",
             "details": {
               "title": "",
-              "banner": "IMAGES/5-INTERMEDIAIRES/the crown prince that sells medicine/bannière.jpg",
+              "banner": "IMAGES/5-INTERMEDIAIRES/the crown prince that sells medicine/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -7507,7 +7489,7 @@
           {
             "title": "The Eminence in Shadow",
             "aliases": ["Kage no Jitsuryokusha ni Naritakute!", "To Be a Power in the Shadows!"],
-            "image": "IMAGES/5-INTERMEDIAIRES/the eminence in shadow/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/the eminence in shadow/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Eminence in Shadow",
             "details": {
@@ -7549,7 +7531,7 @@
           {
             "title": "The Indomitable Wanderer",
             "aliases": ["Immortal Vagabond"],
-            "image": "IMAGES/5-INTERMEDIAIRES/the indomitable wanderer/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/the indomitable wanderer/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Indomitable Wanderer",
             "details": {
@@ -7591,7 +7573,7 @@
           {
             "title": "The Lady Wants to Rest",
             "aliases": ["La Lady veut se reposer", "The Lady Needs a Break"],
-            "image": "IMAGES/5-INTERMEDIAIRES/the lady wants to rest/cover.jpeg",
+            "image": "IMAGES/5-INTERMEDIAIRES/the lady wants to rest/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Lady Wants to Rest",
             "details": {
@@ -7612,7 +7594,7 @@
           {
             "title": "The Lazy Swordmaster",
             "aliases": ["Sword God is on Vacation"],
-            "image": "IMAGES/5-INTERMEDIAIRES/the lazy swordmaster/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/the lazy swordmaster/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Lazy Swordmaster",
             "details": {
@@ -7633,7 +7615,7 @@
           {
             "title": "The Man Who Devoured the Light",
             "aliases": ["The Light Gobbler"],
-            "image": "IMAGES/5-INTERMEDIAIRES/the man who devoured the light/cover.png",
+            "image": "IMAGES/5-INTERMEDIAIRES/the man who devoured the light/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Man Who Devoured the Light",
             "details": {
@@ -7654,7 +7636,7 @@
           {
             "title": "The S-Classes That I Raised",
             "aliases": ["The S-Ranks That I Raised", "My S-Class Hunters"],
-            "image": "IMAGES/5-INTERMEDIAIRES/the s-classes that i raised/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/the s-classes that i raised/cover.webp",
             "loading": "lazy",
             "alt": "Image : The S-Classes That I Raised",
             "details": {
@@ -7675,7 +7657,7 @@
           {
             "title": "The Strong Man from the Mental Hospital",
             "aliases": ["L'homme fort de l'hôpital psychiatrique", "The Mighty Warrior From a Mental Hospital"],
-            "image": "IMAGES/5-INTERMEDIAIRES/the strong man from the mental hospital/cover.jpeg",
+            "image": "IMAGES/5-INTERMEDIAIRES/the strong man from the mental hospital/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Strong Man from the Mental Hospital",
             "details": {
@@ -7801,7 +7783,7 @@
           {
             "title": "Viral Hit",
             "aliases": ["How to Fight"],
-            "image": "IMAGES/5-INTERMEDIAIRES/viral hit/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/viral hit/cover.webp",
             "loading": "lazy",
             "alt": "Image : Viral Hit",
             "details": {
@@ -7843,7 +7825,7 @@
           {
             "title": "White Blood",
             "aliases": ["Queen of Thorns", "Sangre vengadora", "Unholy Blood"],
-            "image": "IMAGES/5-INTERMEDIAIRES/white blood/cover.jpg",
+            "image": "IMAGES/5-INTERMEDIAIRES/white blood/cover.webp",
             "loading": "lazy",
             "alt": "Image : White Blood",
             "details": {
@@ -7890,13 +7872,13 @@
           {
             "title": "990k Ex-Life Hunter",
             "aliases": ["My 990 Thousand Past Lives Help Me , My 990,000 Past Lives Help Me"],
-            "image": "IMAGES/6-MOYENS/990k ex-life hunter/cover.jpg",
+            "image": "IMAGES/6-MOYENS/990k ex-life hunter/cover.webp",
             "loading": "lazy",
             "alt": "Image : 990k Ex-Life Hunter",
             "details": {
               "title": "",
               "banner": "IMAGES/6-MOYENS/990k ex-life hunter/cover.webp",
-              "cover": "IMAGES/6-MOYENS/990k ex-life hunter/cover2.jpg",
+              "cover": "IMAGES/6-MOYENS/990k ex-life hunter/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -7932,7 +7914,7 @@
           {
             "title": "Aventures of an Undead who Became a Paladin",
             "aliases": ["The Lich Paladin", "Even Skeletons Want to be Knights!", "Lich: Glory Knight"],
-            "image": "IMAGES/6-MOYENS/aventures of an undead who became a paladin/cover.png",
+            "image": "IMAGES/6-MOYENS/aventures of an undead who became a paladin/cover.webp",
             "loading": "lazy",
             "alt": "Image : Aventures of an Undead who Became a Paladin",
             "details": {
@@ -7953,7 +7935,7 @@
           {
             "title": "Berserk of Gluttony",
             "aliases": ["The One That Exceeds The Concept of Levels", "Boushoku no Berserk - Ore Dake Level to Iu Gainen o Toppa Suru", "Boushoku no Berserk : Ore Dake Level to Iu Gainen wo Toppa Suru"],
-            "image": "IMAGES/6-MOYENS/berserk of gluttony/cover.jpg",
+            "image": "IMAGES/6-MOYENS/berserk of gluttony/cover.webp",
             "loading": "lazy",
             "alt": "Image : Berserk of Gluttony",
             "details": {
@@ -7974,7 +7956,7 @@
           {
             "title": "Ce Mariage est Raté",
             "aliases": [],
-            "image": "IMAGES/6-MOYENS/ce mariage est raté/cover.jpg",
+            "image": "IMAGES/6-MOYENS/ce mariage est raté/cover.webp",
             "loading": "lazy",
             "alt": "Image : Ce Mariage est Raté",
             "details": {
@@ -7995,7 +7977,7 @@
           {
             "title": "Charlotte et ses 5 Disciples",
             "aliases": ["Charlotte Has Five Disciples", "Charlotte and Her 5 Disciples", "Charlotte And Her Five Disciples"],
-            "image": "IMAGES/6-MOYENS/charlotte et ses 5 disciples/cover.jpg",
+            "image": "IMAGES/6-MOYENS/charlotte et ses 5 disciples/cover.webp",
             "loading": "lazy",
             "alt": "Image : Charlotte et ses 5 Disciples",
             "details": {
@@ -8016,7 +7998,7 @@
           {
             "title": "Chasser des Golems",
             "aliases": ["Capture the Golem and Escape Poverty", "Capture the Golem to Escape Clutches of Poverty"],
-            "image": "IMAGES/6-MOYENS/chasser des golems/cover.jpg",
+            "image": "IMAGES/6-MOYENS/chasser des golems/cover.webp",
             "loading": "lazy",
             "alt": "Image : Chasser des Golems",
             "details": {
@@ -8079,7 +8061,7 @@
           {
             "title": "Dragon Son-in-law God of War",
             "aliases": ["Dragon Son-In-Law War God ", "Dragon Son in law God of War"],
-            "image": "IMAGES/6-MOYENS/dragon son-in-law god of war/cover.jpg",
+            "image": "IMAGES/6-MOYENS/dragon son-in-law god of war/cover.webp",
             "loading": "lazy",
             "alt": "Image : Dragon Son-in-law God of War",
             "details": {
@@ -8163,7 +8145,7 @@
           {
             "title": "Épée et Quêtes",
             "aliases": [],
-            "image": "IMAGES/6-MOYENS/épée et quêtes/cover.jpg",
+            "image": "IMAGES/6-MOYENS/épée et quêtes/cover.webp",
             "loading": "lazy",
             "alt": "Image : Épée et Quêtes",
             "details": {
@@ -8184,12 +8166,12 @@
           {
             "title": "God's Web Novel",
             "aliases": ["God's Webnovel"],
-            "image": "IMAGES/6-MOYENS/god's web novel/cover.jpg",
+            "image": "IMAGES/6-MOYENS/god's web novel/cover.webp",
             "loading": "lazy",
             "alt": "Image : God's Web Novel",
             "details": {
               "title": "",
-              "banner": "IMAGES/6-MOYENS/god's web novel/bannière.jpg",
+              "banner": "IMAGES/6-MOYENS/god's web novel/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8205,7 +8187,7 @@
           {
             "title": "Her Majesty's Swarm",
             "aliases": ["Joou Heika no Isekai Strategy"],
-            "image": "IMAGES/6-MOYENS/her majesty's swarm/cover.jpg",
+            "image": "IMAGES/6-MOYENS/her majesty's swarm/cover.webp",
             "loading": "lazy",
             "alt": "Image : Her Majesty's Swarm",
             "details": {
@@ -8247,7 +8229,7 @@
           {
             "title": "I Failed to Abandon the Villain",
             "aliases": [" I Failed to Abandon the Wirepuller", "I Failed to Oust the Villain!", "I Failed to Throw the Villain Away", "Tôi thất bại trong việc vứt bỏ nhân vật phản diện"],
-            "image": "IMAGES/6-MOYENS/i failed to abandon the villain/cover.jpeg",
+            "image": "IMAGES/6-MOYENS/i failed to abandon the villain/cover.webp",
             "loading": "lazy",
             "alt": "Image : I Failed to Abandon the Villain",
             "details": {
@@ -8268,7 +8250,7 @@
           {
             "title": "I Reincarnated as an SSS-Ranked Goblin",
             "aliases": ["Tensei Shitara SSS-Kyuu Goblin ni Narimashita", "When Reincarnated, I Was a SSS Class Goblin"],
-            "image": "IMAGES/6-MOYENS/i reincarnated as an sss-ranked goblin/cover.png",
+            "image": "IMAGES/6-MOYENS/i reincarnated as an sss-ranked goblin/cover.webp",
             "loading": "lazy",
             "alt": "Image : I Reincarnated as an SSS-Ranked Goblin",
             "details": {
@@ -8310,7 +8292,7 @@
           {
             "title": "I'm the Queen in This Life",
             "aliases": ["Sister, I Am the Queen in This Life"],
-            "image": "IMAGES/6-MOYENS/i'm the queen in this life/cover.jpg",
+            "image": "IMAGES/6-MOYENS/i'm the queen in this life/cover.webp",
             "loading": "lazy",
             "alt": "Image : I'm the Queen in This Life",
             "details": {
@@ -8336,7 +8318,7 @@
             "alt": "Image : Into the Light Once Again",
             "details": {
               "title": "",
-              "banner": "IMAGES/6-MOYENS/into the light once again/bannière.jpg",
+              "banner": "IMAGES/6-MOYENS/into the light once again/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8415,7 +8397,7 @@
           {
             "title": "La Mariée du roi Dragon",
             "aliases": ["The Dragon King's Bride", "Predatory Bride", "Kidnapped Bride"],
-            "image": "IMAGES/6-MOYENS/la mariee du roi dragon/cover.jpg",
+            "image": "IMAGES/6-MOYENS/la mariee du roi dragon/cover.webp",
             "loading": "lazy",
             "alt": "Image : La Mariée du roi Dragon",
             "details": {
@@ -8436,7 +8418,7 @@
           {
             "title": "La Petite Princesse Bien-Aimée",
             "aliases": ["The Beloved Little Princess", "The Youngest Princess"],
-            "image": "IMAGES/6-MOYENS/la petite princesse bien-aimée/cover.jpg",
+            "image": "IMAGES/6-MOYENS/la petite princesse bien-aimée/cover.webp",
             "loading": "lazy",
             "alt": "Image : La Petite Princesse Bien-Aimée",
             "details": {
@@ -8525,7 +8507,7 @@
             "alt": "Image : Lady Chef Royale",
             "details": {
               "title": "",
-              "banner": "IMAGES/6-MOYENS/lady chef royale/bannière.jpg",
+              "banner": "IMAGES/6-MOYENS/lady chef royale/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8562,7 +8544,7 @@
           {
             "title": "Level 1 Player",
             "aliases": ["Forever Level One", "Player Level 1"],
-            "image": "IMAGES/6-MOYENS/level 1 player/cover.jpeg",
+            "image": "IMAGES/6-MOYENS/level 1 player/cover.webp",
             "loading": "lazy",
             "alt": "Image : Level 1 Player",
             "details": {
@@ -8583,7 +8565,7 @@
           {
             "title": "Limit Breaker",
             "aliases": ["Beyond Max Level"],
-            "image": "IMAGES/6-MOYENS/limit breaker/cover.png",
+            "image": "IMAGES/6-MOYENS/limit breaker/cover.webp",
             "loading": "lazy",
             "alt": "Image : Limit Breaker",
             "details": {
@@ -8625,7 +8607,7 @@
           {
             "title": "L'Impératrice Remariée",
             "aliases": ["The Remarried Empress"],
-            "image": "IMAGES/6-MOYENS/l'imperatrice remariee/cover.jpeg",
+            "image": "IMAGES/6-MOYENS/l'imperatrice remariee/cover.webp",
             "loading": "lazy",
             "alt": "Image : L'Impératrice Remariée",
             "details": {
@@ -8646,12 +8628,12 @@
           {
             "title": "La Lady Solitaire",
             "aliases": ["untouchable lady", "solitary lady", "dama inaccesible"],
-            "image": "IMAGES/6-MOYENS/la lady solitaire/cover.jpg",
+            "image": "IMAGES/6-MOYENS/la lady solitaire/cover.webp",
             "loading": "lazy",
             "alt": "Image : La Lady Solitaire",
             "details": {
               "title": "",
-              "banner": "IMAGES/6-MOYENS/la lady solitaire/bannière.jpg",
+              "banner": "IMAGES/6-MOYENS/la lady solitaire/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8667,7 +8649,7 @@
           {
             "title": "Magic Sword Saint : the Legend Reborn",
             "aliases": ["Legendary Return of the Magic Sword Saint"],
-            "image": "IMAGES/6-MOYENS/magic sword saint-the legend reborn/cover.jpg",
+            "image": "IMAGES/6-MOYENS/magic sword saint-the legend reborn/cover.webp",
             "loading": "lazy",
             "alt": "Image : Magic Sword Saint : the Legend Reborn",
             "details": {
@@ -8709,7 +8691,7 @@
           {
             "title": "Moto Shogun no Undead Knight",
             "aliases": ["Former General Is Undead Knightn"],
-            "image": "IMAGES/6-MOYENS/moto shogun no undead knight/cover.jpg",
+            "image": "IMAGES/6-MOYENS/moto shogun no undead knight/cover.webp",
             "loading": "lazy",
             "alt": "Image : Moto Shogun no Undead Knight",
             "details": {
@@ -8735,7 +8717,7 @@
             "alt": "Image : My Child will have a Different Father",
             "details": {
               "title": "",
-              "banner": "IMAGES/6-MOYENS/my child will have a different father/banner1.png",
+              "banner": "IMAGES/6-MOYENS/my child will have a different father/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8793,7 +8775,7 @@
           {
             "title": "Otherworldly Skeleton Evolution",
             "aliases": ["Skeleton Evolution: It Starts With Being Summoned by a Goddess", "Skeleton Evolution: Starting From Being Summoned By the Sorceress"],
-            "image": "IMAGES/6-MOYENS/otherworldly skeleton evolution/cover.jpg",
+            "image": "IMAGES/6-MOYENS/otherworldly skeleton evolution/cover.webp",
             "loading": "lazy",
             "alt": "Image : Otherworldly Skeleton Evolution",
             "details": {
@@ -8877,7 +8859,7 @@
           {
             "title": "Reincarnation of the Murim Clan's Former Ranker",
             "aliases": ["The Previous Life Murim Ranker", "The Reborn Ranker Chronicles"],
-            "image": "IMAGES/6-MOYENS/reincarnation of the murim clan's former ranker/cover.jpg",
+            "image": "IMAGES/6-MOYENS/reincarnation of the murim clan's former ranker/cover.webp",
             "loading": "lazy",
             "alt": "Image : Reincarnation of the Murim Clan's Former Ranker",
             "details": {
@@ -8898,7 +8880,7 @@
           {
             "title": "Ruins of Gallia",
             "aliases": [],
-            "image": "IMAGES/6-MOYENS/ruins of gallia/cover.jpeg",
+            "image": "IMAGES/6-MOYENS/ruins of gallia/cover.webp",
             "loading": "lazy",
             "alt": "Image : Ruins of Gallia",
             "details": {
@@ -8919,7 +8901,7 @@
           {
             "title": "Sangs et Papillons",
             "aliases": ["The Blood of the Butterfly", "Blood and Butterflies", "Blood and Butterfly"],
-            "image": "IMAGES/6-MOYENS/sangs et papillons/cover.jpg",
+            "image": "IMAGES/6-MOYENS/sangs et papillons/cover.webp",
             "loading": "lazy",
             "alt": "Image : Sangs et Papillons",
             "details": {
@@ -9024,7 +9006,7 @@
           {
             "title": "The Ex-Number One Beginner",
             "aliases": ["The Formerly Number One Ranked Rookie"],
-            "image": "IMAGES/6-MOYENS/the ex-number one beginner/cover.jpg",
+            "image": "IMAGES/6-MOYENS/the ex-number one beginner/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Ex-Number One Beginner",
             "details": {
@@ -9066,7 +9048,7 @@
           {
             "title": "The Gamer",
             "aliases": [],
-            "image": "IMAGES/6-MOYENS/the gamer/cover.jpg",
+            "image": "IMAGES/6-MOYENS/the gamer/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Gamer",
             "details": {
@@ -9150,7 +9132,7 @@
           {
             "title": "Une Réincarnation Presque Ordinaire",
             "aliases": ["I Thought It's a Common Possession", "I Thought It Was a Common Transmigration", "Not Your Typical Isekai Story", "Not Your Typical Reincarnation Story"],
-            "image": "IMAGES/6-MOYENS/une réincarnation presque ordinaire/cover.jpg",
+            "image": "IMAGES/6-MOYENS/une réincarnation presque ordinaire/cover.webp",
             "loading": "lazy",
             "alt": "Image : Une Réincarnation Presque Ordinaire",
             "details": {
@@ -9349,7 +9331,7 @@
             "alt": "Image : My Secretly Hot Husband",
             "details": {
               "title": "",
-              "banner": "IMAGES/7-ENNUYANTS/my secretly hot husband/bannière.jpg",
+              "banner": "IMAGES/7-ENNUYANTS/my secretly hot husband/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -9407,7 +9389,7 @@
           {
             "title": "The Ghostly Doctor",
             "aliases": ["Gui Yi Feng Jiu", "Mesmerizing Ghost Doctor", "Fascinante Doctor Fantasma"],
-            "image": "IMAGES/7-ENNUYANTS/the ghostly doctor/cover.jpg",
+            "image": "IMAGES/7-ENNUYANTS/the ghostly doctor/cover.webp",
             "loading": "lazy",
             "alt": "Image : The Ghostly Doctor",
             "details": {
