@@ -1184,9 +1184,9 @@
             "image": "IMAGES/3-TRES BONS/helmut/cover.avif",
             "alt": "Image : Helmut",
             "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
+              "title": "Helmut : The Forsaken Child",
+              "banner": "IMAGES/3-TRES BONS/helmut/banner1.webp",
+              "cover": "IMAGES/3-TRES BONS/helmut/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -1221,11 +1221,11 @@
           {
             "title": "Jungle Juice",
             "aliases": ["jungo de jungla"],
-            "image": "IMAGES/3-TRES BONS/jungle juice/cover.jpg",
+            "image": "IMAGES/3-TRES BONS/jungle juice/cover.webp",
             "alt": "Image : Jungle Juice",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/jungle juice/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1234,7 +1234,16 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/jungle juice/img1.webp",
+                "IMAGES/3-TRES BONS/jungle juice/img2.webp",
+                "IMAGES/3-TRES BONS/jungle juice/img3.webp",
+                "IMAGES/3-TRES BONS/jungle juice/img4.webp",
+                "IMAGES/3-TRES BONS/jungle juice/img5.webp",
+                "IMAGES/3-TRES BONS/jungle juice/img6.webp",
+                "IMAGES/3-TRES BONS/jungle juice/img7.webp",
+                "IMAGES/3-TRES BONS/jungle juice/img8.webp"
+              ],
               "adaptations": []
             }
           },
@@ -1705,7 +1714,7 @@
           {
             "title": "Reincarnation of the Suicidal Battle God",
             "aliases": ["The Battle God's Return", "A Battle God's Second Chance", "Doom Breaker"],
-            "image": "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/cover1gif.webp",
+            "image": "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/covergif1.webp",
             "alt": "Image : Reincarnation of the Suicidal Battle God",
             "details": {
               "title": "",
@@ -1731,6 +1740,27 @@
               "title": "",
               "banner": "",
               "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Return of the Mad Demon",
+            "aliases": ["Gwangmahoegwi", "The Return of the Crazy Demon"],
+            "image": "IMAGES/3-TRES BONS/return of the mad demon/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Return of the Mad Demon",
+            "details": {
+              "title": "The Return of the Mad Demon",
+              "banner": "IMAGES/3-TRES BONS/return of the mad demon/banner1.webp",
+              "cover": "IMAGES/3-TRES BONS/return of the mad demon/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -1990,7 +2020,7 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/3-TRES BONS/the dark magician transmigrates after 66666 years/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -2253,26 +2283,6 @@
             "details": {
               "title": "",
               "banner": "IMAGES/3-TRES BONS/the return of the disaster-class hero/banner3.avif",
-              "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "The Tutorial Is Too Hard",
-            "aliases": ["The Tutorial is Too Tough", "The Tutorial is Too Hard!"],
-            "image": "IMAGES/3-TRES BONS/the tutorial is too hard/cover.avif",
-            "alt": "Image : The Tutorial Is Too Hard",
-            "details": {
-              "title": "",
-              "banner": "",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4266,7 +4276,7 @@
             "alt": "Image : Regressed Mercenary's Machinations",
             "details": {
               "title": "Regressed Mercenary's Machination",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/regressed mercenary's machination/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4520,27 +4530,6 @@
               "title": "",
               "banner": "",
               "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Return of the Mad Demon",
-            "aliases": ["Gwangmahoegwi", "The Return of the Crazy Demon"],
-            "image": "IMAGES/4-BONS/return of the mad demon/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : Return of the Mad Demon",
-            "details": {
-              "title": "The Return of the Mad Demon",
-              "banner": "IMAGES/4-BONS/return of the mad demon/banner1.webp",
-              "cover": "IMAGES/4-BONS/return of the mad demon/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5194,6 +5183,26 @@
             "details": {
               "title": "",
               "banner": "IMAGES/4-BONS/the second coming of gluttony/banner1.jpg",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Tutorial Is Too Hard",
+            "aliases": ["The Tutorial is Too Tough", "The Tutorial is Too Hard!"],
+            "image": "IMAGES/4-BONS/the tutorial is too hard/cover.avif",
+            "alt": "Image : The Tutorial Is Too Hard",
+            "details": {
+              "title": "",
+              "banner": "",
               "cover": "",
               "alt": "",
               "type": "",

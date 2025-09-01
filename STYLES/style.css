@@ -686,6 +686,15 @@ h1 {
         width: 3.57rem; /* ~64px */
         border-radius: 0.3rem;
     }
+
+    .img-popup {
+        gap: 5px; /* réduit l’espacement horizontal */
+    }
+    .img-popup img {
+        margin: 2px; /* réduit l’espacement autour des images */
+        flex: 1 1 calc(50% - 5px); /* 2 images par ligne */
+        max-width: 80px; /* taille */
+    }
 }
 
 
