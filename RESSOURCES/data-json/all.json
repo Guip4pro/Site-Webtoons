@@ -411,7 +411,7 @@
               "IMAGES/2-EXCELLENTS/nano machine/img8.avif"
             ],
             "adaptations": [
-              "Aucune"
+              "Format papier"
             ]
           }
         },
@@ -899,7 +899,7 @@
                 "IMAGES/3-TRES BONS/barbarian quest/img7.webp",
                 "IMAGES/3-TRES BONS/barbarian quest/img8.webp"
               ],
-              "adaptations": []
+              "adaptations": ["Format papier"]
             }
           },
           {
@@ -1003,11 +1003,20 @@
               "alt": "",
               "type": "",
               "genre": [],
-              "status": "",
+              "status": "En pause",
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/drug-eating genius mage/img1.webp",
+                "IMAGES/3-TRES BONS/drug-eating genius mage/img2.webp",
+                "IMAGES/3-TRES BONS/drug-eating genius mage/img3.webp",
+                "IMAGES/3-TRES BONS/drug-eating genius mage/img4.webp",
+                "IMAGES/3-TRES BONS/drug-eating genius mage/img5.webp",
+                "IMAGES/3-TRES BONS/drug-eating genius mage/img6.webp",
+                "IMAGES/3-TRES BONS/drug-eating genius mage/img7.webp",
+                "IMAGES/3-TRES BONS/drug-eating genius mage/img8.webp"
+              ],
               "adaptations": []
             }
           },
@@ -1027,7 +1036,16 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/dungeon cleaning life/img1.webp",
+                "IMAGES/3-TRES BONS/dungeon cleaning life/img2.webp",
+                "IMAGES/3-TRES BONS/dungeon cleaning life/img3.webp",
+                "IMAGES/3-TRES BONS/dungeon cleaning life/img4.webp",
+                "IMAGES/3-TRES BONS/dungeon cleaning life/img5.webp",
+                "IMAGES/3-TRES BONS/dungeon cleaning life/img6.webp",
+                "IMAGES/3-TRES BONS/dungeon cleaning life/img7.webp",
+                "IMAGES/3-TRES BONS/dungeon cleaning life/img8.webp"
+              ],
               "adaptations": []
             }
           },
@@ -1048,7 +1066,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -1200,7 +1218,7 @@
           },
           {
             "title": "I Obtained a Mythic Item",
-            "aliases": ["À moi, l'item légendaire", "Mythic Item Obtained"],
+            "aliases": ["À moi, l'item légendaire", "Mythic Item Obtained", "Legendary Item Obtained"],
             "image": "IMAGES/3-TRES BONS/i obtained a mythic item/cover.avif",
             "alt": "Image : I Obtained a Mythic Item",
             "details": {
@@ -1215,7 +1233,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -1244,7 +1262,7 @@
                 "IMAGES/3-TRES BONS/jungle juice/img7.webp",
                 "IMAGES/3-TRES BONS/jungle juice/img8.webp"
               ],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -1269,7 +1287,7 @@
           },
           {
             "title": "Killer Peter",
-            "aliases": ["Killer Badro", "Killer Baedro", "Killer Pedro", "Killer Pietro", "Pedro Killer"],
+            "aliases": ["Killer Badro", "Killer Peter", "Killer Baedro", "Killer Pedro", "Killer Pietro", "Pedro Killer"],
             "image": "IMAGES/3-TRES BONS/killer peter/cover.avif",
             "alt": "Image : Killer Peter",
             "details": {
@@ -1284,7 +1302,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -1409,7 +1427,7 @@
           },
           {
             "title": "Leviathan",
-            "aliases": ["Deep Sea Monster"],
+            "aliases": ["Deep Sea Monster", "Léviathan", "Leviathan Deep Water"],
             "image": "IMAGES/3-TRES BONS/leviathan/cover.avif",
             "alt": "Image : Leviathan",
             "details": {
@@ -1424,7 +1442,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -1444,7 +1462,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           
@@ -1545,7 +1563,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -1648,7 +1666,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -1728,7 +1746,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -1809,7 +1827,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -1829,7 +1847,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -1924,12 +1942,12 @@
               "alt": "",
               "type": "",
               "genre": [],
-              "status": "",
+              "status": "Terminée",
               "chapters": "",
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -1949,7 +1967,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -2212,7 +2230,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -2296,6 +2314,26 @@
             }
           },
           {
+            "title": "Tomb Raider King",
+            "aliases": ["El Rey de las Tumbas", "King of Excavation", "King of Thief", "The King of Robbers", "Tomb Raider", "Tomb RaIder (Yoonz)", "Toukutsuou"],
+            "image": "IMAGES/3-TRES BONS/tomb raider king/cover1.webp",
+            "alt": "Image : Tomb Raider King",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/3-TRES BONS/tomb raider king/banner1.webp",
+              "cover": "IMAGES/3-TRES BONS/tomb raider king/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "Complétée",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": ["Format papier en français"]
+            }
+          },
+          {
             "title": "Tower of God",
             "aliases": ["Torre de Deus", "Torre de Dios"],
             "image": "IMAGES/3-TRES BONS/tower of god/cover.avif",
@@ -2312,7 +2350,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -2392,7 +2430,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           }          
         ]
@@ -2418,7 +2456,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -2780,7 +2818,7 @@
           },
           {
             "title": "Descent of the Demonic Master",
-            "aliases": ["Return of the Demonic Master", "The Return of the Demon Master", "The Descent of the Demonic Master"],
+            "aliases": ["The Return of the Demonic Master", "The Return of the Demon Master", "The Descent of the Demonic Master"],
             "image": "IMAGES/4-BONS/descent of the demonic master/cover.webp",
             "loading": "lazy",
             "alt": "Image : Descent of the Demonic Master",
@@ -2796,7 +2834,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -3619,28 +3657,10 @@
               "genre": [],
               "status": "",
               "chapters": "",
-              "sites": [
-                {
-                "name": "Crunchyscans",
-                "url": "https://crunchyscan.fr/lecture-en-ligne/arena/",
-                "note": "Voleurs"
-                },
-                {
-                  "name": "Ono",
-                  "url": "https://www.ono.live/webtoon/arena",
-                  "note": "(version officielle n°1)"
-                },
-                {
-                  "name": "Webtoon",
-                  "url": "https://www.webtoons.com/fr/action/arena/list?title_no=6891",
-                  "note": "(version officielle n°2)"
-                }
-              ],
+              "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": [
-                "Format papier en France"
-              ]
+              "adaptations": []
             }
           },
           {
@@ -3725,7 +3745,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -3996,7 +4016,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -4164,7 +4184,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -4861,7 +4881,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -4965,6 +4985,26 @@
               "synopsis": "",
               "previewImages": [],
               "adaptations": []
+            }
+          },
+          {
+            "title": "The Druid of the Seoul's Station",
+            "aliases": ["The Druid of Seoul Station", "Seoul Station Druid"],
+            "image": "IMAGES/4-BONS/the druid of the seoul's station/cover1.webp",
+            "alt": "Image : The Druid of the Seoul's Station",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/the druid of the seoul's station/banner1.webp",
+              "cover": "IMAGES/4-BONS/the druid of the seoul's station/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -5341,7 +5381,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -5699,16 +5739,32 @@
               "genre": [],
               "status": "",
               "chapters": "",
-              "sites": [],
+              "sites": [
+                {
+                "name": "Crunchyscans",
+                "url": "https://crunchyscan.fr/lecture-en-ligne/arena/",
+                "note": "Voleurs"
+                },
+                {
+                  "name": "Ono",
+                  "url": "https://www.ono.live/webtoon/arena",
+                  "note": "(version officielle n°1)"
+                },
+                {
+                  "name": "Webtoon",
+                  "url": "https://www.webtoons.com/fr/action/arena/list?title_no=6891",
+                  "note": "(version officielle n°2)"
+                }
+              ],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
             "title": "Belle-mère en Mode Survie",
             "aliases": ["Living as the Villain's Stepmother", "It's So Easy to Avoid Death", "The Evil Stepmother Lives On", "I'm a Stepmother, It's So Easy to Avoid Death"],
-            "image": "IMAGES/5-INTERMEDIAIRES/belle-mère en mode survie/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/belle-mère en mode survie/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Belle-mère en Mode Survie",
             "details": {
@@ -5996,7 +6052,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -6386,13 +6442,13 @@
           {
             "title": "Kill the Villainess",
             "aliases": ["How to Kill the Villainess", "Comment tuer la vilaine", "Elimina a la Dama Villana", "Lady Eris: Nur der Tod Kann Mich Erlösen"],
-            "image": "IMAGES/5-INTERMEDIAIRES/kill the villainess/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/kill the villainess/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Kill the Villainess",
             "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
+              "title": "How to Kill the Villainess",
+              "banner": "IMAGES/5-INTERMEDIAIRES/kill the villainess/banner2.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/kill the villainess/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -6401,7 +6457,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -7756,7 +7812,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -7840,7 +7896,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -8333,12 +8389,12 @@
           },
           {
             "title": "J'ai Élevé un Servant Obsessif",
-            "aliases": ["The Rise of an Obsessive Servant", "I Raised an Obsessive Servant"],
+            "aliases": ["The Rise of an Obsessive Servant", "I Raised an Obsessive Servant", "My Ray of Hope"],
             "image": "IMAGES/6-MOYENS/j'ai élevé un servant obsessif/cover.webp",
             "loading": "lazy",
             "alt": "Image : J'ai Élevé un Servant Obsessif",
             "details": {
-              "title": "",
+              "title": "I Raised an Obsessive Servant",
               "banner": "",
               "cover": "",
               "alt": "",
@@ -8412,7 +8468,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -8617,7 +8673,7 @@
               "alt": "",
               "type": "",
               "genre": [],
-              "status": "",
+              "status": "Terminé",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -8643,7 +8699,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -8916,7 +8972,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -9063,7 +9119,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -9341,7 +9397,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier en français"]
             }
           },
           {

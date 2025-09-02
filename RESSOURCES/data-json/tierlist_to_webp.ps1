@@ -46,7 +46,7 @@ foreach ($file in $allFiles) {
     $input = $file.FullName
     # Sortie : on garde l'extension d'origine dans le nom -> évite les collisions
     # ex: C:\...\cover.jpg  -> C:\...\cover.jpg.webp
-    $output = "$input.webp"
+    $output = [System.IO.Path]::ChangeExtension($input, ".webp")
 
     # si existant et pas d'overwrite -> on skip
     if ((Test-Path $output) -and (-not $Overwrite)) {
