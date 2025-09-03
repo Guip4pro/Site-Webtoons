@@ -1,86 +1,90 @@
 [
     {
         "name": "bad-ending-maker",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/bad-ending-maker.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/bad-ending-maker.webp"
     },
     {
         "name": "dungeon-odyssey",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/dungeon-odyssey.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/dungeon-odyssey.webp"
     },
     {
         "name": "emperor-of-solo-play",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/emperor-of-solo-play.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/emperor-of-solo-play.webp"
     },
     {
         "name": "genius-prismatic-mage",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/genius-prismatic-mage.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/genius-prismatic-mage.webp"
     },
     {
         "name": "helmut-the-forsaken-child",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/helmut-the-forsaken-child.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/helmut-the-forsaken-child.webp"
     },
     {
         "name": "i'm-being-raised-by-villains",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/i'm-being-raised-by-villains.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/i'm-being-raised-by-villains.webp"
     },
     {
         "name": "i-became-an-evolving-space-monster",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/i-became-an-evolving-space-monster.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/i-became-an-evolving-space-monster.webp"
+    },
+    {
+        "name": "jungle-juice",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/jungle-juice.jpg"
     },
     {
         "name": "overgeared",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/overgeared.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/overgeared.webp"
     },
     {
         "name": "player-who-returned-10,000-years-later",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/player-who-returned-10,000-years-later.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/player-who-returned-10,000-years-later.webp"
     },
     {
         "name": "reborn-rich",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/reborn-rich.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/reborn-rich.webp"
     },
     {
         "name": "regressor-instruction-manual",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/regressor-instruction-manual.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/regressor-instruction-manual.webp"
     },
     {
         "name": "reincarnation-of-the-fist-king",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/reincarnation-of-the-fist-king.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/reincarnation-of-the-fist-king.webp"
     },
     {
         "name": "return-of-the-sss-class-ranker",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/return-of-the-sss-class-ranker.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/return-of-the-sss-class-ranker.webp"
     },
     {
         "name": "solo-resurrection",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/solo-resurrection.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/solo-resurrection.webp"
     },
     {
         "name": "swordmaster's-youngest-son-",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/swordmaster's-youngest-son-.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/swordmaster's-youngest-son-.webp"
     },
     {
         "name": "the-emperor's-sword",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-emperor's-sword.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-emperor's-sword.webp"
     },
     {
         "name": "the-world-after-the-fall",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-world-after-the-fall.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-world-after-the-fall.webp"
     },
     {
         "name": "top-tier-providence",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/top-tier-providence.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/top-tier-providence.webp"
     },
     {
         "name": "valhalla-saga",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/valhalla-saga.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/valhalla-saga.webp"
     },
     {
         "name": "what-a-bountiful-harvest,-demon-lord",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/what-a-bountiful-harvest,-demon-lord.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/what-a-bountiful-harvest,-demon-lord.webp"
     },
     {
         "name": "why-i-quit-being-the-demon-king",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/why-i-quit-being-the-demon-king.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/why-i-quit-being-the-demon-king.webp"
     }
 ]

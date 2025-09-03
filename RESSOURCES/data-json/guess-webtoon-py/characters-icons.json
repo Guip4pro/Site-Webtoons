@@ -1,14 +1,14 @@
 [
     {
         "name": "READY",
-        "image": "RESSOURCES/img-guessthewebtoon/characters-icons/READY.png"
+        "image": "RESSOURCES/img-guessthewebtoon/characters-icons/READY.webp"
     },
     {
         "name": "exemple_flou",
-        "image": "RESSOURCES/img-guessthewebtoon/characters-icons/exemple_flou.png"
+        "image": "RESSOURCES/img-guessthewebtoon/characters-icons/exemple_flou.webp"
     },
     {
         "name": "z99",
-        "image": "RESSOURCES/img-guessthewebtoon/characters-icons/z99.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/characters-icons/z99.webp"
     }
 ]

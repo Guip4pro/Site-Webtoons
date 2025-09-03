@@ -1,7 +1,7 @@
 [
     {
         "name": "-genius-archer's-streaming",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/-genius-archer's-streaming.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/-genius-archer's-streaming.webp"
     },
     {
         "name": "-the-player-hides-his-past",
@@ -41,7 +41,7 @@
     },
     {
         "name": "dragonslayer's-peerless-regression",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/dragonslayer's-peerless-regression.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/dragonslayer's-peerless-regression.webp"
     },
     {
         "name": "dungeon-architect",
@@ -49,15 +49,19 @@
     },
     {
         "name": "entomologist-in-sichuan-tang-clan",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/entomologist-in-sichuan-tang-clan.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/entomologist-in-sichuan-tang-clan.webp"
     },
     {
         "name": "hand-over-the-money",
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/hand-over-the-money.avif"
     },
     {
+        "name": "i-will-become-the-villain's-poison-taster",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/i-will-become-the-villain's-poison-taster.webp"
+    },
+    {
         "name": "juvenile-law",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/juvenile-law.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/juvenile-law.webp"
     },
     {
         "name": "lightning-degree",
@@ -65,11 +69,11 @@
     },
     {
         "name": "martial-arts-reings",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/martial-arts-reings.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/martial-arts-reings.webp"
     },
     {
         "name": "necromancer-academy-and-the-genius-summoner",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/necromancer-academy-and-the-genius-summoner.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/necromancer-academy-and-the-genius-summoner.webp"
     },
     {
         "name": "raising-hell",
@@ -77,7 +81,7 @@
     },
     {
         "name": "reincarnation-of-the-warrior-party-archmage",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/reincarnation-of-the-warrior-party-archmage.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/reincarnation-of-the-warrior-party-archmage.webp"
     },
     {
         "name": "the-blood-knights-villain",
@@ -85,15 +89,19 @@
     },
     {
         "name": "the-creator-is-on-hiatus",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-creator-is-on-hiatus.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-creator-is-on-hiatus.webp"
+    },
+    {
+        "name": "the-frost-flower-knight",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-frost-flower-knight.webp"
     },
     {
         "name": "the-little-brother-is-the-academy's-htoshot",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-little-brother-is-the-academy's-htoshot.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-little-brother-is-the-academy's-htoshot.webp"
     },
     {
         "name": "the-newbie-is-too-strong",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-newbie-is-too-strong.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-newbie-is-too-strong.webp"
     },
     {
         "name": "the-return-of-the-frozen-player",
@@ -105,6 +113,6 @@
     },
     {
         "name": "valhalla-saga",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/valhalla-saga.jpg"
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/valhalla-saga.webp"
     }
 ]
