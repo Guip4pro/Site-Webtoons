@@ -1,6 +1,7 @@
 <#
 .SYNOPSIS
-  Convertit toutes les images .jpg/.jpeg/.png en .webp (nom de sortie : <nomfichier>.<ext>.webp)
+  Script de CONVERSION de toutes les images de la tier-list
+  Convertit toutes les images .jpg/.jpeg/.png en .webp (nom de sortie : <nomfichier>.webp)
   Usage : .\tierlist_to_webp.ps1
 #>
 

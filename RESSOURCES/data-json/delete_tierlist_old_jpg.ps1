@@ -1,3 +1,4 @@
+# Script de SUPPRESSION de toutes les images de la tier-list
 # Supprime les fichiers .jpg, .jpeg, .png s'ils ont bien été convertis en .webp
 # Commande : .\delete_tierlist_old_jpg.ps1
 

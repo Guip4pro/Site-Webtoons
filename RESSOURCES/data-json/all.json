@@ -1065,7 +1065,16 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/eleceed/img1.webp",
+                "IMAGES/3-TRES BONS/eleceed/img2.webp",
+                "IMAGES/3-TRES BONS/eleceed/img3.webp",
+                "IMAGES/3-TRES BONS/eleceed/img4.webp",
+                "IMAGES/3-TRES BONS/eleceed/img5.webp",
+                "IMAGES/3-TRES BONS/eleceed/img6.webp",
+                "IMAGES/3-TRES BONS/eleceed/img7.webp",
+                "IMAGES/3-TRES BONS/eleceed/img8.webp"
+              ],
               "adaptations": ["Format papier en français"]
             }
           },
