@@ -11,7 +11,7 @@
           "id": "return-of-the-mount-hua-sect",
           "details": {
             "title": "The Return of the Mount Hua Sect",
-            "banner": "IMAGES/1-SSS/return of the mount hua sect/Cheongmyeong format bannière.webp", 
+            "banner": "IMAGES/1-SSS/return of the mount hua sect/banner2.webp", 
             "cover": "IMAGES/1-SSS/return of the mount hua sect/cover.avif",
             "alt": "Image de Mount Hua Sect",
             "type": "Manhwa",
@@ -22,17 +22,17 @@
               {
                 "name": "Phenixscans",
                 "url": "https://www.phenix-scans.com/manga/return-of-the-mount-hua-sect",
-                "note": "(team de Scantrad)"
+                "note": "team de Scantrad"
               },
               {
                 "name": "Webtoon",
                 "url": "https://www.webtoons.com/fr/fantasy/return-of-the-blossoming-blade/list?title_no=4335",
-                "note": "(version officielle \"Le Retour du Clan Hwasan\")"
+                "note": "version officielle \"Le Retour du Clan Hwasan\""
               },
               {
                 "name": "Roman en ligne",
                 "url": "https://phenixscans.fr/manga/v768469-return-of-the-mount-hua-sect-novel-v77458306/",
-                "note": ""
+                "note": "Site supprimé"
               }
             ],
             "synopsis": "Cheong Myeong, un maître épéiste inégalé du clan Hwasan, perd ses alliés et sa vie dans une bataille contre le chef suprême des démons, Cheon Ma. Mais quand il ouvre ses yeux, il se retrouve réincarné 100 ans plus tard dans le corps d’un enfant mendiant. Décidé à ne pas se laisser abattre, il tente de reprendre les choses en main et retrouver la gloire passée de son clan, Hwasan.",
@@ -85,7 +85,7 @@
               {
                 "name": "Piccoma (anciennement)",
                 "url": "",
-                "note": "version officielle (ancienne)"
+                "note": "version officielle / site fermé"
               },
               {
                 "name": "Roman en ligne",
@@ -704,7 +704,7 @@
               {
                 "name": "Delitoon",
                 "url": "https://share.google/rkC34phpR909m5Pjr",
-                "note": "(version officielle)"
+                "note": "version officielle"
               },
               {
                 "name": "Roman en ligne",
@@ -1080,11 +1080,11 @@
           },
           {
             "title": "The Emperor of Solo Play",
-            "aliases": ["Solo of Emperor Play"],
+            "aliases": ["Solo of Emperor Play", "Emperor Solo Play", "Emperor Play Alone", "Emperorofsoloplay"],
             "image": "IMAGES/3-TRES BONS/emperor of solo play/cover.webp",
             "alt": "Image : Emperor of Solo Play",
             "details": {
-              "title": "",
+              "title": "Emperor of Solo Play",
               "banner": "",
               "cover": "",
               "alt": "",
@@ -1094,7 +1094,16 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/emperor of solo play/img1.webp",
+                "IMAGES/3-TRES BONS/emperor of solo play/img2.webp",
+                "IMAGES/3-TRES BONS/emperor of solo play/img3.webp",
+                "IMAGES/3-TRES BONS/emperor of solo play/img4.webp",
+                "IMAGES/3-TRES BONS/emperor of solo play/img5.webp",
+                "IMAGES/3-TRES BONS/emperor of solo play/img6.webp",
+                "IMAGES/3-TRES BONS/emperor of solo play/img7.webp",
+                "IMAGES/3-TRES BONS/emperor of solo play/img8.webp"
+              ],
               "adaptations": []
             }
           },
@@ -1283,7 +1292,7 @@
             "alt": "Image : Kill the Hero",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/kill the hero/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1303,7 +1312,7 @@
             "alt": "Image : Killer Peter",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/killer peter/banner1.avif",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2982,7 +2991,7 @@
             "alt": "Image : Dungeon Odyssey",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/dungeon odyssey/banner1.webp",
               "cover": "IMAGES/4-BONS/dungeon odyssey/cover.webp",
               "alt": "",
               "type": "",
@@ -5796,13 +5805,13 @@
           {
             "title": "Bloodhound's Regression Instinct",
             "aliases": ["Return of the Hound", "The Return Instinct of the Hunting Dog", "The Returning Instinct of a Hount's So Easy to Avoid Death"],
-            "image": "IMAGES/5-INTERMEDIAIRES/bloodhound's regression instinct/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/bloodhound's regression instinct/cover2.webp",
             "loading": "lazy",
             "alt": "Image : Bloodhound's Regression Instinct",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/5-INTERMEDIAIRES/bloodhound's regression instinct/cover.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -6516,13 +6525,13 @@
           {
             "title": "La Chevalière à la Fleur de Glace",
             "aliases": ["Le Chevalier de la Fleur Glacée", "The Frost Flower Knight", "Knight of the Frozen Flower"],
-            "image": "IMAGES/5-INTERMEDIAIRES/la chevalière à la fleur de glace/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/la chevalière à la fleur de glace/cover2.webp",
             "loading": "lazy",
             "alt": "Image : La Chevalière à la Fleur de Glace",
             "details": {
               "title": "The Frost Flower Knight",
               "banner": "",
-              "cover": "IMAGES/5-INTERMEDIAIRES/la chevalière à la fleur de glace/cover2.jwebppg",
+              "cover": "IMAGES/5-INTERMEDIAIRES/la chevalière à la fleur de glace/cover.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -6600,13 +6609,13 @@
           {
             "title": "Le Démon du Mont Hua",
             "aliases": ["The Demon in Mount Hua", "Demon in Mount Hwa"],
-            "image": "IMAGES/5-INTERMEDIAIRES/le démon du mont hua/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/le démon du mont hua/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Le Démon du Mont Hua",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/5-INTERMEDIAIRES/le démon du mont hua/cover.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -6999,13 +7008,13 @@
           {
             "title": "Pas Mon Enfant Destin",
             "aliases": ["They Wish to Take Away My Child"],
-            "image": "IMAGES/5-INTERMEDIAIRES/pas mon enfant destin/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/pas mon enfant destin/cover2.webp",
             "loading": "lazy",
             "alt": "Image : Pas Mon Enfant Destin",
             "details": {
-              "title": "",
+              "title": "They Wish to Take Away My Child",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/5-INTERMEDIAIRES/pas mon enfant destin/cover.webp",
               "alt": "",
               "type": "",
               "genre": [],
