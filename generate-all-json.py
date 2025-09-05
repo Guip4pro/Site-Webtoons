@@ -1,3 +1,5 @@
+# commande : python generate-all-json.py
+
 #!/usr/bin/env python3
 import os
 import json
@@ -82,5 +84,3 @@ if GENERATE_INDEX:
     with open(index_path, "w", encoding="utf-8") as f:
         json.dump(generated, f, indent=4, ensure_ascii=False)
     print(f"📚 Index generated: {os.path.basename(index_path)} ({len(generated)} files)")
-
-# commande : python generate-all-json.py

@@ -12,6 +12,10 @@
 }
 
 
+.empty-category {
+    color: red !important;
+}
+
 
 .accordion-container {
     width: 50%;

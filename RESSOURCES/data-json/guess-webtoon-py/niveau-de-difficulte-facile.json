@@ -16,6 +16,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/doom-breaker.webp"
     },
     {
+        "name": "hero-killer",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/hero-killer.webp"
+    },
+    {
         "name": "i-obtained-a-mythic-item",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/i-obtained-a-mythic-item.webp"
     },
@@ -78,10 +82,6 @@
     {
         "name": "tower-of-god",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/tower-of-god.webp"
-    },
-    {
-        "name": "hero-killer",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/hero-killer.webp"
     },
     {
         "name": "unordinary",

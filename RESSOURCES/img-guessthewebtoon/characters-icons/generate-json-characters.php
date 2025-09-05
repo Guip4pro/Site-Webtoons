@@ -11,7 +11,7 @@
  * 
  * Les fichiers JSON seront générés dans ../../data-json
  * 
- * Script à lancer dans le terminal dans le bon dossier : php generate-json-characters.php
+ * Script à lancer dans le terminal dans le dossier characters-icons : php generate-json-characters.php
  */
 
 // Liste des dossiers à analyser

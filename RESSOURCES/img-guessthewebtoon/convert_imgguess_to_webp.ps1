@@ -2,7 +2,7 @@
 .SYNOPSIS
   Convertit les images de img-guessthewebtoon
   Convertit toutes les images .jpg/.jpeg/.png en .webp
-  Commande de lancement du script : .\convert_imgguess_to_webp.ps1
+  Commande de lancement du script : .\convert_imgguess_to_webp.ps1 dans le dossier img-guessthewebtoon
 
 #>
 

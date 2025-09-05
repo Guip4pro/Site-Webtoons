@@ -56,6 +56,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/leveling-up-with-gods.webp"
     },
     {
+        "name": "limitless-ascension-strength-amid-adversity",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/limitless-ascension-strength-amid-adversity.webp"
+    },
+    {
         "name": "logging-10,000-years-into-the-future",
         "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/logging-10,000-years-into-the-future.webp"
     },
@@ -138,5 +142,9 @@
     {
         "name": "trait-hoarder",
         "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/trait-hoarder.webp"
+    },
+    {
+        "name": "villain-to-kill",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/villain-to-kill.webp"
     }
 ]

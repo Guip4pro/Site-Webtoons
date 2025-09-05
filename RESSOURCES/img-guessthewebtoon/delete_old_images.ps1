@@ -1,6 +1,6 @@
 # Script de SUPPRESSION du mini-jeu Guess the Webtoon
 # Supprime les fichiers .jpg, .jpeg, .png s'ils ont bien été convertis en .webp
-# Commande : .\delete_old_images.ps1
+# Commande : .\delete_old_images.ps1 dans le dossier img-guessthewebtoon
 
 
 $baseDir = "C:\xampp\htdocs\Site-Webtoons\RESSOURCES\img-guessthewebtoon"

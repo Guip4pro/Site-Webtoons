@@ -52,6 +52,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/academy's-undercover-professor.webp"
     },
     {
+        "name": "archmage-streamer",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/archmage-streamer.webp"
+    },
+    {
         "name": "archmage-transcending-through-regression",
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/archmage-transcending-through-regression.webp"
     },
@@ -62,10 +66,6 @@
     {
         "name": "children-of-the-rune",
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/children-of-the-rune.webp"
-    },
-    {
-        "name": "cover acrhmage-streamer",
-        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/cover acrhmage-streamer.jpg"
     },
     {
         "name": "descended-from-divinity",
