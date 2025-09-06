@@ -1327,11 +1327,11 @@
           },
           {
             "title": "La Saga du Clan Mudang",
-            "aliases": ["Mugang: The Path of Shaman", "The Mudang Clan Saga", "The Grand Mudang Saga"],
+            "aliases": ["Mugang: The Path of Shaman", "Path of the Shaman", "The Mudang Clan Saga", "The Grand Mudang Saga"],
             "image": "IMAGES/3-TRES BONS/la saga du clan mudang/cover.avif",
             "alt": "Image : La Saga du Clan Mudang",
             "details": {
-              "title": "",
+              "title": "Mugang Saga: The Path of Shaman",
               "banner": "",
               "cover": "",
               "alt": "",
@@ -2237,6 +2237,7 @@
             "title": "The Novel's Extra",
             "aliases": ["The Novel's Extra (Remake)", "Extra in the Novel (2022)", "The Ghost Writing Hero", "The Novel's Extra (2022)"],
             "image": "IMAGES/3-TRES BONS/the novel's extra/cover.webp",
+            "loading": "lazy",
             "alt": "Image : The Novel's Extra",
             "details": {
               "title": "The Novel's Extra (Remake)",
@@ -2257,6 +2258,7 @@
             "title": "The Player Hides His Past",
             "aliases": ["Le Player cache son passé", "The Player Hiding His Past", "The Player With a Hidden Past"],
             "image": "IMAGES/3-TRES BONS/the player hides his past/cover.avif",
+            "loading": "lazy",
             "alt": "Image : The Player Hides His Past",
             "details": {
               "title": "",
@@ -2277,6 +2279,7 @@
             "title": "The Reborn Young Lord Is an Assassin",
             "aliases": ["The Regressed Son of a Duke is an Assassin", "The Regressed Youngest Son of the Duke Is an Assassin"],
             "image": "IMAGES/3-TRES BONS/the reborn young lord is an assassin/cover.avif",
+            "loading": "lazy",
             "alt": "Image : The Reborn Young Lord Is an Assassin",
             "details": {
               "title": "",
@@ -2297,6 +2300,7 @@
             "title": "The Return of the Disaster-Class Hero",
             "aliases": ["A Disaster Class Hero Has Returned ", "Resurrection of the Catastrophic Hero "],
             "image": "IMAGES/3-TRES BONS/the return of the disaster-class hero/cover.webp",
+            "loading": "lazy",
             "alt": "Image : The Return of the Disaster-Class Hero",
             "details": {
               "title": "",
@@ -2317,6 +2321,7 @@
             "title": "The Villain Wants to Live",
             "aliases": ["A Villain's Will to Survive"],
             "image": "IMAGES/3-TRES BONS/the villain wants to live/cover.avif",
+            "loading": "lazy",
             "alt": "Image : The Villain Wants to Live",
             "details": {
               "title": "",
@@ -2337,6 +2342,7 @@
             "title": "Tomb Raider King",
             "aliases": ["El Rey de las Tumbas", "King of Excavation", "King of Thief", "The King of Robbers", "Tomb Raider", "Tomb RaIder (Yoonz)", "Toukutsuou"],
             "image": "IMAGES/3-TRES BONS/tomb raider king/cover1.webp",
+            "loading": "lazy",
             "alt": "Image : Tomb Raider King",
             "details": {
               "title": "",
@@ -2357,6 +2363,7 @@
             "title": "Tower of God",
             "aliases": ["Torre de Deus", "Torre de Dios"],
             "image": "IMAGES/3-TRES BONS/tower of god/cover.avif",
+            "loading": "lazy",
             "alt": "Image : Tower of God",
             "details": {
               "title": "",
@@ -2377,6 +2384,7 @@
             "title": "unOrdinary",
             "aliases": [],
             "image": "IMAGES/3-TRES BONS/unOrdinary/cover.webp",
+            "loading": "lazy",
             "alt": "Image : unOrdinary",
             "details": {
               "title": "",
@@ -2397,6 +2405,7 @@
             "title": "Warrior High School",
             "aliases": ["Escola de Guerreiros", "Le lycée des guerriers", "Yongsa High: Dungeon Raiders"],
             "image": "IMAGES/3-TRES BONS/warrior high school/cover.avif",
+            "loading": "lazy",
             "alt": "Image : Warrior High School",
             "details": {
               "title": "",
@@ -2417,6 +2426,7 @@
             "title": "Wind Breaker",
             "aliases": ["Wind Breaker Vélo"],
             "image": "IMAGES/3-TRES BONS/wind breaker/cover.avif",
+            "loading": "lazy",
             "alt": "Image : Wind Breaker",
             "details": {
               "title": "",
@@ -2437,6 +2447,7 @@
             "title": "World After Fall",
             "aliases": ["The World After the Fall", "Le monde Après la Chute", "The World After Destruction", "The World After the End"],
             "image": "IMAGES/3-TRES BONS/world after fall/cover.avif",
+            "loading": "lazy",
             "alt": "Image : World After Fall",
             "details": {
               "title": "The World After the Fall",

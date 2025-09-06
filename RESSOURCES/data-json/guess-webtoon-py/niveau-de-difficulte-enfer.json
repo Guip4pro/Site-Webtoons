@@ -1,15 +1,31 @@
 [
     {
+        "name": "-top-tier-providence",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/-top-tier-providence.webp"
+    },
+    {
         "name": "absolute-sword-sense",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/absolute-sword-sense.webp"
+    },
+    {
+        "name": "emperor-of-solo-play",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/emperor-of-solo-play.webp"
     },
     {
         "name": "god's-web-novel",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/god's-web-novel.webp"
     },
     {
+        "name": "gods-gambit",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/gods-gambit.webp"
+    },
+    {
         "name": "i-became-an-evolving-space-monster",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/i-became-an-evolving-space-monster.webp"
+    },
+    {
+        "name": "kill-the-dragon",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/kill-the-dragon.webp"
     },
     {
         "name": "killer-peter",

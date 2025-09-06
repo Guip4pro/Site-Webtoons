@@ -1,5 +1,9 @@
 [
     {
+        "name": "--top-tier-providence",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/--top-tier-providence.webp"
+    },
+    {
         "name": "-99-reinforced-wooden-stick",
         "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/-99-reinforced-wooden-stick.webp"
     },
@@ -78,6 +82,10 @@
     {
         "name": "regressor-instruction-manual",
         "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/regressor-instruction-manual.webp"
+    },
+    {
+        "name": "return-of-the-disaster-class-hero-",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/return-of-the-disaster-class-hero-.webp"
     },
     {
         "name": "return-of-the-disaster-class-hero",

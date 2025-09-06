@@ -8,6 +8,18 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/facile/+99-reinforced-wooden-stick.webp"
     },
     {
+        "name": "-regressor-instruction-manual",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/facile/-regressor-instruction-manual.webp"
+    },
+    {
+        "name": "-superhuman-battlefield",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/facile/-superhuman-battlefield.webp"
+    },
+    {
+        "name": "-why-i-quit-being-the-demon-king",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/facile/-why-i-quit-being-the-demon-king.webp"
+    },
+    {
         "name": "damn-reincarnation",
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/facile/damn-reincarnation.webp"
     },
@@ -22,6 +34,10 @@
     {
         "name": "down-to-earth",
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/facile/down-to-earth.webp"
+    },
+    {
+        "name": "dungeons-and-artifacts",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/facile/dungeons-and-artifacts.webp"
     },
     {
         "name": "eleceed",
@@ -106,6 +122,14 @@
     {
         "name": "subzero",
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/facile/subzero.webp"
+    },
+    {
+        "name": "superhuman-battlefield",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/facile/superhuman-battlefield.webp"
+    },
+    {
+        "name": "surviving-as-a-genius-on-borrowed-time-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/facile/surviving-as-a-genius-on-borrowed-time-.webp"
     },
     {
         "name": "surviving-the-game-as-a-barbarian",

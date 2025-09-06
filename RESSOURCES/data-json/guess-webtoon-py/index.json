@@ -10,7 +10,7 @@
         "json": "autres-doigt.json",
         "category": "autres",
         "relative_folder": "doigt",
-        "count": 37,
+        "count": 39,
         "path": "RESSOURCES/data-json/guess-webtoon-py/autres-doigt.json"
     },
     {
@@ -66,14 +66,14 @@
         "json": "cover-facile.json",
         "category": "cover",
         "relative_folder": "facile",
-        "count": 55,
+        "count": 56,
         "path": "RESSOURCES/data-json/guess-webtoon-py/cover-facile.json"
     },
     {
         "json": "cover-moyen.json",
         "category": "cover",
         "relative_folder": "moyen",
-        "count": 63,
+        "count": 62,
         "path": "RESSOURCES/data-json/guess-webtoon-py/cover-moyen.json"
     },
     {
@@ -108,28 +108,35 @@
         "json": "genre-child.json",
         "category": "genre",
         "relative_folder": "child",
-        "count": 2,
+        "count": 4,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-child.json"
     },
     {
-        "json": "genre-comedy.json",
+        "json": "genre-comedy-facile.json",
         "category": "genre",
-        "relative_folder": "comedy",
-        "count": 1,
-        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-comedy.json"
+        "relative_folder": "comedy/facile",
+        "count": 30,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-comedy-facile.json"
+    },
+    {
+        "json": "genre-comedy-moyen.json",
+        "category": "genre",
+        "relative_folder": "comedy/moyen",
+        "count": 31,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-comedy-moyen.json"
     },
     {
         "json": "genre-female-characters-facile.json",
         "category": "genre",
         "relative_folder": "female-characters/facile",
-        "count": 39,
+        "count": 45,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-female-characters-facile.json"
     },
     {
         "json": "genre-female-characters-moyen.json",
         "category": "genre",
         "relative_folder": "female-characters/moyen",
-        "count": 38,
+        "count": 42,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-female-characters-moyen.json"
     },
     {
@@ -157,7 +164,7 @@
         "json": "niveau-de-difficulte-enfer.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "enfer",
-        "count": 13,
+        "count": 17,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-enfer.json"
     },
     {
