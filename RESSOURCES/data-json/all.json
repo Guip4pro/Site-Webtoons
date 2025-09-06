@@ -11,7 +11,7 @@
           "id": "return-of-the-mount-hua-sect",
           "details": {
             "title": "The Return of the Mount Hua Sect",
-            "banner": "IMAGES/1-SSS/return of the mount hua sect/banner2.webp", 
+            "banner": "IMAGES/1-SSS/return of the mount hua sect/banner2.avif", 
             "cover": "IMAGES/1-SSS/return of the mount hua sect/cover.avif",
             "alt": "Image de Mount Hua Sect",
             "type": "Manhwa",
@@ -1327,7 +1327,7 @@
           },
           {
             "title": "La Saga du Clan Mudang",
-            "aliases": ["The Mudang Clan Saga", "The Grand Mudang Saga", "Mugang: The Path of Shaman"],
+            "aliases": ["Mugang: The Path of Shaman", "The Mudang Clan Saga", "The Grand Mudang Saga"],
             "image": "IMAGES/3-TRES BONS/la saga du clan mudang/cover.avif",
             "alt": "Image : La Saga du Clan Mudang",
             "details": {
@@ -1716,7 +1716,7 @@
             "alt": "Image : Regressor Instruction Manual",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/regressor instruction manual/banner1.avif",
               "cover": "IMAGES/3-TRES BONS/regressor instruction manual/cover2.webp",
               "alt": "",
               "type": "",
@@ -2970,7 +2970,7 @@
             "alt": "Image : Dragonslayer's Peerless Regression",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/dragonslayer's peerless regression/banner1.avif",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5668,7 +5668,7 @@
             "alt": "Image : Absolute Dominion",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/absolute dominion/banner1.avif",
               "cover": "",
               "alt": "",
               "type": "",
@@ -7444,7 +7444,7 @@
             "alt": "Image : Surviving as a Genius on Borrowed Time",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/surviving as a genius on borrowed time/banner1.avif",
               "cover": "",
               "alt": "",
               "type": "",
