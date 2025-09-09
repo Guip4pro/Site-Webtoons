@@ -1,6 +1,6 @@
 # Script de SUPPRESSION de toutes les images de la tier-list
 # Supprime les fichiers .jpg, .jpeg, .png s'ils ont bien été convertis en .webp
-# Commande : .\delete_tierlist_old_jpg.ps1
+# Commande : .\delete_tierlist_old_jpg.ps1 dans data-json
 
 
 $baseDir = "C:\xampp\htdocs\Site-Webtoons\IMAGES"
@@ -30,8 +30,8 @@ foreach ($ext in $extensions) {                         #Boucle sur chaque type 
 
 
 
-Write-Host "----- Résumé -----"
-Write-Host "Fichiers supprimes : $deleted"
+Write-Host "----- Resume -----"
+Write-Host "Fichiers supprimes : $deleted" -ForegroundColor Red
 Write-Host "Fichiers gardes    : $kept"
 
 #  Tableau recapitulatif des fichiers gardés

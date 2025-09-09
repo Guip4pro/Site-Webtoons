@@ -787,6 +787,37 @@
         "name": "Tres Bons",
         "webtoons": [
           {
+            "title": "99 reinforced wooden stick",
+            "aliases": [],
+            "image": "IMAGES/3-TRES BONS/99 reinforced wooden stick/cover1.webp",
+            "alt": "Image : 99 reinforced wooden stick",
+            "details": {
+              "title": "+99 Reinforced Wooden Stick",
+              "banner": "IMAGES/3-TRES BONS/99 reinforced wooden stick/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [
+                "IMAGES/3-TRES BONS/99 reinforced wooden stick/img1.webp",
+                "IMAGES/3-TRES BONS/99 reinforced wooden stick/img2.webp",
+                "IMAGES/3-TRES BONS/99 reinforced wooden stick/img3.webp",
+                "IMAGES/3-TRES BONS/99 reinforced wooden stick/img4.webp",
+                "IMAGES/3-TRES BONS/99 reinforced wooden stick/img5.webp",
+                "IMAGES/3-TRES BONS/99 reinforced wooden stick/img6.webp",
+                "IMAGES/3-TRES BONS/99 reinforced wooden stick/img7.webp",
+                "IMAGES/3-TRES BONS/99 reinforced wooden stick/img8.webp"
+              ],
+              "adaptations": [
+                "Format papier (mais pas en France)"
+              ]
+            }
+          },
+          {
             "title": "Absolute Regression",
             "aliases": [],
             "image": "IMAGES/3-TRES BONS/absolute regression/cover.webp",
@@ -1331,8 +1362,8 @@
             "image": "IMAGES/3-TRES BONS/la saga du clan mudang/cover.avif",
             "alt": "Image : La Saga du Clan Mudang",
             "details": {
-              "title": "Mugang Saga: The Path of Shaman",
-              "banner": "",
+              "title": "Mudang Saga: Path of the Shaman",
+              "banner": "IMAGES/3-TRES BONS/la saga du clan mudang/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1412,7 +1443,7 @@
             "alt": "Image : Legend of Asura",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/legend of the northern blade/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1472,7 +1503,7 @@
             "alt": "Image : Lookism",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/lookism/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1489,7 +1520,7 @@
           {
             "title": "Moon-Shadow Sword Emperor",
             "aliases": ["Absolute Master of the Senate", "L'Empereur de l'ombre lunaire", "Moon Shadow Sword Emperor"],
-            "image": "IMAGES/3-TRES BONS/moon-shadow sword emperor/cover.webp",
+            "image": "IMAGES/3-TRES BONS/moon-shadow sword emperor/cover1.webp",
             "alt": "Image : Moon-Shadow Sword Emperor",
             "details": {
               "title": "",
@@ -1509,7 +1540,7 @@
           {
             "title": "My Exclusive Tower Guide",
             "aliases": ["My Very Own Tower Strategy Guide"],
-            "image": "IMAGES/3-TRES BONS/my exclusive tower guide/cover.webp",
+            "image": "IMAGES/3-TRES BONS/my exclusive tower guide/cover1.webp",
             "alt": "Image : My Exclusive Tower Guide",
             "details": {
               "title": "",
@@ -1532,8 +1563,8 @@
             "image": "IMAGES/3-TRES BONS/myst myst mayhem/cover.avif",
             "alt": "Image : Myst Myst Mayhem",
             "details": {
-              "title": "",
-              "banner": "",
+              "title": "Myst, Might, Mayhem!",
+              "banner": "IMAGES/3-TRES BONS/myst myst mayhem/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1573,7 +1604,7 @@
             "alt": "Image : Overgeared",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/overgeared/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1613,7 +1644,7 @@
             "alt": "Image : Player Who Returned 10,000 Years Later",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/player who returned 10000 years later/banner1.pwebwebp",
+              "banner": "IMAGES/3-TRES BONS/player who returned 10000 years later/banner1.webp",
               "cover": "IMAGES/3-TRES BONS/player who returned 10000 years later/cover2.webp",
               "alt": "",
               "type": "",
@@ -1655,8 +1686,8 @@
             "image": "IMAGES/3-TRES BONS/ranker's return/cover.avif",
             "alt": "Image : Ranker's Return",
             "details": {
-              "title": "",
-              "banner": "",
+              "title": "Ranker's Return (Remake)",
+              "banner": "IMAGES/3-TRES BONS/ranker's return/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1665,7 +1696,11 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/ranker's return/imgb.jpg",
+                "IMAGES/3-TRES BONS/ranker's return/imgc.jpg",
+                "IMAGES/3-TRES BONS/ranker's return/imgd.jpg"
+              ],
               "adaptations": []
             }
           },
@@ -1676,8 +1711,8 @@
             "alt": "Image : Reality Quest",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/3-TRES BONS/reality quest/banner1.webp",
+              "cover": "IMAGES/3-TRES BONS/reality quest/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -1695,8 +1730,8 @@
             "image": "IMAGES/3-TRES BONS/reaper of the drifting moon/cover.webp",
             "alt": "Image : Reaper of the Drifting Moon",
             "details": {
-              "title": "",
-              "banner": "",
+              "title": "The Reaper of the Drifting Moon",
+              "banner": "IMAGES/3-TRES BONS/reaper of the drifting moon/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1777,7 +1812,7 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/3-TRES BONS/return of the legendary spear knight/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -4079,8 +4114,8 @@
             "alt": "Image : Mount Hua Sect's Genius Phantom Swordsman",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/4-BONS/mount hua sect's genius phantom swordsman/banner1.webp",
+              "cover": "IMAGES/4-BONS/mount hua sect's genius phantom swordsman/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -6236,7 +6271,7 @@
           {
             "title": "Heavenly Sword's Grand Saga",
             "aliases": ["Heavenly Sword's Grand Saga", "Thousand Sword Techniques"],
-            "image": "IMAGES/5-INTERMEDIAIRES/heavenly sword's grand saga/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/heavenly sword's grand saga/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Heavenly Sword's Grand Saga",
             "details": {
