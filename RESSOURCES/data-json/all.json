@@ -1515,7 +1515,10 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": ["Format papier en français"]
+              "adaptations": [
+                "Format papier",
+                "Anime"
+              ]
             }
           },
           
@@ -1699,9 +1702,9 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [
-                "IMAGES/3-TRES BONS/ranker's return/imgb.jpg",
-                "IMAGES/3-TRES BONS/ranker's return/imgc.jpg",
-                "IMAGES/3-TRES BONS/ranker's return/imgd.jpg"
+                "IMAGES/3-TRES BONS/ranker's return/imgb.webp",
+                "IMAGES/3-TRES BONS/ranker's return/imgc.webp",
+                "IMAGES/3-TRES BONS/ranker's return/imgd.webp"
               ],
               "adaptations": []
             }
@@ -2414,7 +2417,10 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": ["Format papier"]
+              "adaptations": [
+                "Format papier",
+                "Anime"
+              ]
             }
           },
           {
@@ -4074,7 +4080,7 @@
             "alt": "Image : Mercenary Enrollment",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/mercenary enrollment/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4180,7 +4186,7 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/nebula's civilization/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -4262,7 +4268,7 @@
             "loading": "lazy",
             "alt": "Image : Pour ne pas Mourir / To not Die",
             "details": {
-              "title": "",
+              "title": "To Not Die",
               "banner": "",
               "cover": "",
               "alt": "",
@@ -5335,7 +5341,7 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/trait hoarder/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5900,8 +5906,8 @@
             "alt": "Image : Book Eater",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/book eater/banner1.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/book eater/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
