@@ -31,8 +31,8 @@ foreach ($ext in $extensions) {                         #Boucle sur chaque type 
 
 
 Write-Host "----- Resume -----"
-Write-Host "Fichiers supprimes : $deleted" -ForegroundColor Red
-Write-Host "Fichiers gardes    : $kept"
+Write-Host "Fichiers supprimes : $deleted" -ForegroundColor Green
+Write-Host "Fichiers gardes    : $kept" -ForegroundColor Red
 
 #  Tableau recapitulatif des fichiers gardés
 if ($keptFiles.Count -gt 0) {

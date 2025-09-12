@@ -911,7 +911,7 @@
             "alt": "Image : Barbarian Quest",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/barbarian quest/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -940,7 +940,7 @@
             "alt": "Image : Best Teacher Baek",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/best teacher baek/banner2.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2512,6 +2512,33 @@
       {
         "name": "Bons",
         "webtoons": [
+          {
+            "title": "A Regressor’s Tale of Cultivation",
+            "aliases": ["A Regressor’s Tale of Cultivation", "La Leyenda de Cultivación de un Regresor", "Return Repair"],
+            "image": "IMAGES/4-BONS/a regressor’s tale of cultivation/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : A Regressor’s Tale of Cultivation",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/a regressor’s tale of cultivation/banner1.webp",
+              "cover": "IMAGES/4-BONS/a regressor’s tale of cultivation/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [
+                {
+                  "name": "Roman en ligne",
+                  "url": "https://massnovel.fr/novel/a-regressors-tale-of-cultivation/",
+                  "note": ""
+                }
+              ],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": [""]
+            }
+          },
           {
             "title": "A Returner's Magic Should Be Special",
             "aliases": ["Kikan-sha no mahou wa tokubetsudesu", "La magia de un retornado debe ser especial", "Magician who Reversing Time"],
@@ -6025,6 +6052,27 @@
             }
           },
           {
+            "title": "Dungeon Architect",
+            "aliases": ["The Dungeon Architect", "The Architect of the Dungeon"],
+            "image": "IMAGES/5-INTERMEDIAIRES/dungeon architect/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Dungeon Architect",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Eirth",
             "aliases": ["Eirth, Apprenti du Roi Démon !"],
             "image": "IMAGES/5-INTERMEDIAIRES/eirth/cover.webp",
@@ -6400,7 +6448,7 @@
                 {
                   "name": "Ono",
                   "url": "https://www.ono.live/webtoon/le-roi-des-sorciers",
-                  "note": "(version officielle)"
+                  "note": "version officielle"
                 }
               ],
               "synopsis": "",
@@ -6414,6 +6462,27 @@
             "image": "IMAGES/5-INTERMEDIAIRES/i am the strongest transcendent/cover.webp",
             "loading": "lazy",
             "alt": "Image : I Am The Strongest Transcendent",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "I Became a Renowned Family's Sword Prodigy",
+            "aliases": ["I Became a Renowned Familys Sword Prodigy"],
+            "image": "IMAGES/5-INTERMEDIAIRES/i became a renowned family's sword prodigy/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : I Became a Renowned Family's Sword Prodigy",
             "details": {
               "title": "",
               "banner": "",
@@ -7554,6 +7623,27 @@
             }
           },
           {
+            "title": "The Archmage's Restaurant",
+            "aliases": ["A Wizard's Restaurant", "Eoneu Mabeobsaui Sigdang", "Magician's Restaurant", "The Archmage’s Restaurant", "The Wizard's Restaurant"],
+            "image": "IMAGES/5-INTERMEDIAIRES/the archmage's restaurant/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The Archmage's Restaurant",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/the archmage's restaurant/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "The Book of Lagier",
             "aliases": [],
             "image": "IMAGES/5-INTERMEDIAIRES/the book of lagier/cover.webp",
@@ -8525,6 +8615,32 @@
             }
           },
           {
+            "title": "Je Suis un Assassin (Et Je Surpasse le Héro)",
+            "aliases": [
+              "Assassin de aru ore no Sutetasu ga Yuusha yori mo Akiraka ni Tsuyoi N", "Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni Tsuyoi no da ga", "Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni Tsuyoi no daga",
+              "Je suis un assassin (et je surpasse le héros)", "Mes compétences d'Assassin sont bien au-delà de celle du Héro", "Mes compétences en tant qu'Assassin sont bien au-delà de celles du Héros", "My Status as an Assassin Obviously Exceeds the Brave's", "My Status as an Assassin Obviously Exceeds the Hero's"
+            ],
+            "image": "IMAGES/6-MOYENS/je suis un assassin/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : ",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/6-MOYENS/je suis un assassin/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": [
+                "Format papier"
+              ]
+            }
+          },
+          {
             "title": "Konjiki no Moji Tsukai",
             "aliases": [],
             "image": "IMAGES/6-MOYENS/konjiki no moji tsukai/cover.webp",
@@ -8701,6 +8817,27 @@
             "details": {
               "title": "",
               "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Level 999 Goblin",
+            "aliases": [],
+            "image": "IMAGES/6-MOYENS/level 999 goblin/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Level 999 Goblin",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/6-MOYENS/level 999 goblin/banner1.jpg",
               "cover": "",
               "alt": "",
               "type": "",
