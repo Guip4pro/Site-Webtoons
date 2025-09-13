@@ -1623,14 +1623,14 @@
             }
           },
           {
-            "title": "Past Life Regressor",
-            "aliases": ["Past Life Regressor (Remake)", "Past Life Returner "],
-            "image": "IMAGES/3-TRES BONS/past life regressor/cover.webp",
+            "title": "Past Life Regressor (remake)",
+            "aliases": ["The Past Life Regressor (Remake)", "Past Life Returner"],
+            "image": "IMAGES/3-TRES BONS/past life regressor/cover1.webp",
             "alt": "Image : Past Life Regressor",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/3-TRES BONS/past life regressor/cover2.avif",
               "alt": "",
               "type": "",
               "genre": [],
@@ -2494,8 +2494,8 @@
             "alt": "Image : World After Fall",
             "details": {
               "title": "The World After the Fall",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/3-TRES BONS/world after fall/banner1.webp",
+              "cover": "IMAGES/3-TRES BONS/world after fall/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -2841,8 +2841,8 @@
             "alt": "Image : Chronicles of Heavenly Demon",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/4-BONS/chronicles of heavenly demon/banner1.webp",
+              "cover": "IMAGES/4-BONS/chronicles of heavenly demon/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -3850,15 +3850,15 @@
             }
           },
           {
-            "title": "La Magicienne aux Cheveux d'Or",
-            "aliases": ["The Golden Haired Mage", "The Golden Haired Wizard", "La chica rubia que controla los elementos", "The Golden Haired Elementalist", "The Golden-Haired Summoner"],
+            "title": "The Golden-Haired Summoner",
+            "aliases": ["The Golden Haired Mage", "The Golden Haired Wizard", "La chica rubia que controla los elementos", "The Golden Haired Elementalist", "The Golden-Haired Summoner", "the Golden Haired Summoner", "The Golden-Haired Mage"],
             "image": "IMAGES/4-BONS/la magicienne aux cheveux d'or/cover.webp",
             "loading": "lazy",
-            "alt": "Image : La Magicienne aux Cheveux d'Or",
+            "alt": "Image : Golden Haired Wizard",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/la magicienne aux cheveux d'or/banner1.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5700,6 +5700,27 @@
             }
           },
           {
+            "title": "990k Ex-Life Hunter",
+            "aliases": ["My 990 Thousand Past Lives Help Me , My 990,000 Past Lives Help Me"],
+            "image": "IMAGES/5-INTERMEDIAIRES/990k ex-life hunter/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : 990k Ex-Life Hunter",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "IMAGES/5-INTERMEDIAIRES/990k ex-life hunter/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "A Barbarian was admitted to the Academy",
             "aliases": ["A Barbarian Entered the Academy", "Entered the Academy as a Barbarian"],
             "image": "IMAGES/5-INTERMEDIAIRES/a barbarian was admitted to the academy/cover.webp",
@@ -6039,7 +6060,7 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/5-INTERMEDIAIRES/dream sharing/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -8110,27 +8131,6 @@
       {
         "name": "Moyens",
         "webtoons": [
-          {
-            "title": "990k Ex-Life Hunter",
-            "aliases": ["My 990 Thousand Past Lives Help Me , My 990,000 Past Lives Help Me"],
-            "image": "IMAGES/6-MOYENS/990k ex-life hunter/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : 990k Ex-Life Hunter",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/6-MOYENS/990k ex-life hunter/cover.webp",
-              "cover": "IMAGES/6-MOYENS/990k ex-life hunter/cover2.webp",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
           {
             "title": "Adorée des Villains",
             "aliases": ["Adored by Villains", "My Villainous Family Won't Let Me Be"],
