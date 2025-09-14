@@ -216,53 +216,6 @@
           }
         },
         {
-          "id": "i-killed-an-academy-player",
-          "title": "I Killed an Academy Player",
-          "aliases": [
-            "I Killed the Academy Player",
-            "I Killed the Main Player",
-            "I Killed the Player of the Academy"
-          ],
-          "image": "IMAGES/2-EXCELLENTS/i killed an academy player/cover.webp",
-          "alt": "Image : I Killed an Academy Player",
-          "details": {
-            "title": "I Killed an Academy Player",
-            "banner": "IMAGES/2-EXCELLENTS/i killed an academy player/bannière.webp",
-            "cover": "IMAGES/2-EXCELLENTS/i killed an academy player/cover.webp",
-            "alt": "Image de I Killed an Academy Player",
-            "type": "Manhwa",
-            "genre": [
-              "Action",
-              "Aventure",
-              "School life",
-              "Régression/Réincarnation"
-            ],
-            "status": "En cours",
-            "chapters": "76 - 23 Juillet 2025",
-            "sites": [
-              {
-                "name": "Phenixscans",
-                "url": "https://phenix-scans.com/manga/i-killed-an-academy-player",
-                "note": "team de Scantrad"
-              }
-            ],
-            "synopsis": "J’ai tué un joueur. C’était un vrai fils de pute…",
-            "previewImages": [
-              "IMAGES/2-EXCELLENTS/i killed an academy player/img1.avif",
-              "IMAGES/2-EXCELLENTS/i killed an academy player/img2.avif",
-              "IMAGES/2-EXCELLENTS/i killed an academy player/img3.avif",
-              "IMAGES/2-EXCELLENTS/i killed an academy player/img4.avif",
-              "IMAGES/2-EXCELLENTS/i killed an academy player/img5.avif",
-              "IMAGES/2-EXCELLENTS/i killed an academy player/img6.avif",
-              "IMAGES/2-EXCELLENTS/i killed an academy player/img7.avif",
-              "IMAGES/2-EXCELLENTS/i killed an academy player/img8.avif"
-            ],
-            "adaptations": [
-              "Aucune"
-            ]
-          }
-        },
-        {
           "id": "infinite-mage",
           "title": "Infinite Mage",
           "aliases": [
@@ -295,14 +248,14 @@
             ],
             "synopsis": "Quand les membres de la famille Ariane découvrent un bébé aux cheveux blonds abandonné dans leur étable, ils ne s’attendent pas à élever un véritable petit génie ! À l’âge de douze ans, le jeune Shirone découvre la magie dans un livre et rêve de devenir un grand mage. Cependant, au royaume de Thormia, il est hors de question de laisser un simple roturier apprendre cette noble discipline ! La détermination de Shirone suffira-t-elle pour accomplir son rêve dans ce monde impitoyable ?",
             "previewImages": [
-              "IMAGES/2-EXCELLENTS/infinite mage/img1.avif",
+              "IMAGES/2-EXCELLENTS/infinite mage/img1.webp",
               "IMAGES/2-EXCELLENTS/infinite mage/img2.avif",
               "IMAGES/2-EXCELLENTS/infinite mage/img3.avif",
               "IMAGES/2-EXCELLENTS/infinite mage/img4.avif",
               "IMAGES/2-EXCELLENTS/infinite mage/img5.avif",
               "IMAGES/2-EXCELLENTS/infinite mage/img6.avif",
               "IMAGES/2-EXCELLENTS/infinite mage/img7.avif",
-              "IMAGES/2-EXCELLENTS/infinite mage/img8.avif"
+              "IMAGES/2-EXCELLENTS/infinite mage/img8.webp"
             ],
             "adaptations": [
               "Aucune"
@@ -729,6 +682,40 @@
           }
         },
         {
+          "title": "The Greatest Estate Developer",
+          "aliases": ["The Greatest Escale Real Designer", "The Greatest Estate Designer", "The World’S Best Engineer", "The World's Best Engineer"],
+          "image": "IMAGES/2-EXCELLENTS/the greatest estate developer/cover1.webp",
+          "alt": "Image : The Greatest Estate Developer",
+          "details": {
+            "title": "",
+            "banner": "",
+            "cover": "IMAGES/2-EXCELLENTS/the greatest estate developer/cover2.webp",
+            "alt": "",
+            "type": "Manhwa",
+            "genre": [
+              "Fantasy",
+              "Action",
+              "Comédie",
+              "Transmigration"
+            ],
+            "status": "Bientôt Terminé",
+            "chapters": "",
+            "sites": [],
+            "synopsis": "",
+            "previewImages": [
+              "IMAGES/2-EXCELLENTS/the greatest estate developer/img1.webp",
+              "IMAGES/2-EXCELLENTS/the greatest estate developer/img2.webp",
+              "IMAGES/2-EXCELLENTS/the greatest estate developer/img3.webp",
+              "IMAGES/2-EXCELLENTS/the greatest estate developer/img4.webp",
+              "IMAGES/2-EXCELLENTS/the greatest estate developer/img5.webp",
+              "IMAGES/2-EXCELLENTS/the greatest estate developer/img6.webp",
+              "IMAGES/2-EXCELLENTS/the greatest estate developer/img7.webp",
+              "IMAGES/2-EXCELLENTS/the greatest estate developer/img8.webp"
+            ],
+            "adaptations": []
+          }
+        },
+        {
           "id": "the-swordmasters-youngest-son",
           "title": "Swordmaster's Youngest Son",
           "aliases": [
@@ -741,7 +728,7 @@
           "details": {
             "title": "Swordmaster's Youngest Son",
             "banner": "IMAGES/2-EXCELLENTS/the swordmaster's youngest son/bannière.avif",
-            "cover": "IMAGES/2-EXCELLENTS/the swordmaster's youngest son/cover.avif",
+            "cover": "IMAGES/2-EXCELLENTS/the swordmaster's youngest son/cover2.avif",
             "alt": "Image de Swordmaster's Youngest Son",
             "type": "Manhwa",
             "genre": [
@@ -1267,6 +1254,53 @@
               "adaptations": []
             }
           },
+          {
+          "id": "i-killed-an-academy-player",
+          "title": "I Killed an Academy Player",
+          "aliases": [
+            "I Killed the Academy Player",
+            "I Killed the Main Player",
+            "I Killed the Player of the Academy"
+          ],
+          "image": "IMAGES/3-TRES BONS/i killed an academy player/cover.webp",
+          "alt": "Image : I Killed an Academy Player",
+          "details": {
+            "title": "I Killed an Academy Player",
+            "banner": "IMAGES/3-TRES BONS/i killed an academy player/bannière.webp",
+            "cover": "IMAGES/3-TRES BONS/i killed an academy player/cover.webp",
+            "alt": "Image de I Killed an Academy Player",
+            "type": "Manhwa",
+            "genre": [
+              "Action",
+              "Aventure",
+              "School life",
+              "Régression/Réincarnation"
+            ],
+            "status": "En cours",
+            "chapters": "76 - 23 Juillet 2025",
+            "sites": [
+              {
+                "name": "Phenixscans",
+                "url": "https://phenix-scans.com/manga/i-killed-an-academy-player",
+                "note": "team de Scantrad"
+              }
+            ],
+            "synopsis": "J’ai tué un joueur. C’était un vrai fils de pute…",
+            "previewImages": [
+              "IMAGES/3-TRES BONS/i killed an academy player/img1.avif",
+              "IMAGES/3-TRES BONS/i killed an academy player/img2.avif",
+              "IMAGES/3-TRES BONS/i killed an academy player/img3.avif",
+              "IMAGES/3-TRES BONS/i killed an academy player/img4.avif",
+              "IMAGES/3-TRES BONS/i killed an academy player/img5.avif",
+              "IMAGES/3-TRES BONS/i killed an academy player/img6.avif",
+              "IMAGES/3-TRES BONS/i killed an academy player/img7.avif",
+              "IMAGES/3-TRES BONS/i killed an academy player/img8.avif"
+            ],
+            "adaptations": [
+              "Aucune"
+            ]
+          }
+        },
           {
             "title": "I Obtained a Mythic Item",
             "aliases": ["À moi, l'item légendaire", "Mythic Item Obtained", "Legendary Item Obtained"],
@@ -1964,7 +1998,13 @@
               "genre": [],
               "status": "",
               "chapters": "",
-              "sites": [],
+              "sites": [
+                {
+                  "name": "Roman en ligne",
+                  "url": "https://lightnovelfr.com/series/trash-of-the-counts-family/",
+                  "note": ""
+                }
+              ],
               "synopsis": "",
               "previewImages": [],
               "adaptations": []
@@ -2139,26 +2179,6 @@
               "title": "",
               "banner": "IMAGES/3-TRES BONS/the great mage returns after 4000 years/banner3.webp",
               "cover": "IMAGES/3-TRES BONS/the great mage returns after 4000 years/cover2.webp",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "The Greatest Estate Developer",
-            "aliases": ["The Greatest Escale Real Designer", "The Greatest Estate Designer", "The World’S Best Engineer", "The World's Best Engineer"],
-            "image": "IMAGES/3-TRES BONS/the greatest estate developer/cover.webp",
-            "alt": "Image : The Greatest Estate Developer",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
               "alt": "",
               "type": "",
               "genre": [],
@@ -2554,7 +2574,13 @@
               "genre": [],
               "status": "Terminé",
               "chapters": "",
-              "sites": [],
+              "sites": [
+                {
+                  "name": "Roman en ligne",
+                  "url": "https://world-novel.fr/oeuvres/a-returner's-magic-should-be-special",
+                  "note": ""
+                }
+              ],
               "synopsis": "",
               "previewImages": [],
               "adaptations": ["Format papier en français"]
@@ -2806,7 +2832,13 @@
               "genre": [],
               "status": "",
               "chapters": "",
-              "sites": [],
+              "sites": [
+                {
+                  "name": "Roman en ligne",
+                  "url": "https://world-novel.fr/oeuvres/childhood-friend-of-the-zenith",
+                  "note": ""
+                }
+              ],
               "synopsis": "",
               "previewImages": [],
               "adaptations": []
@@ -4937,7 +4969,13 @@
               "genre": [],
               "status": "",
               "chapters": "",
-              "sites": [],
+              "sites": [
+                {
+                  "name": "Roman en ligne",
+                  "url": "https://world-novel.fr/oeuvres/the-31st-piece-turns-the-tables",
+                  "note": ""
+                }
+              ],
               "synopsis": "",
               "previewImages": [],
               "adaptations": []
@@ -5395,7 +5433,13 @@
               "genre": [],
               "status": "",
               "chapters": "",
-              "sites": [],
+              "sites": [
+                {
+                  "name": "Roman en ligne",
+                  "url": "https://lightnovelfr.com/series/trash-of-the-counts-family/",
+                  "note": ""
+                }
+              ],
               "synopsis": "",
               "previewImages": [],
               "adaptations": []
@@ -5667,7 +5711,13 @@
               "genre": [],
               "status": "",
               "chapters": "",
-              "sites": [],
+              "sites": [
+                {
+                  "name": "Roman en ligne",
+                  "url": "https://lightnovelfr.com/series/your-talent-is-mine/",
+                  "note": ""
+                }
+              ],
               "synopsis": "",
               "previewImages": [],
               "adaptations": []
@@ -6776,11 +6826,11 @@
             "aliases": ["The Virtual Musketeer", "Arcane Sniper", "The Freeshooter", "Mystic Musketeer"],
             "image": "IMAGES/5-INTERMEDIAIRES/le mousquetaire virtuel/cover.webp",
             "loading": "lazy",
-            "alt": "Image : Le Mousquetaire Virtuel",
+            "alt": "Image : Arcane Sniper",
             "details": {
-              "title": "",
+              "title": "Arcane Sniper",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/5-INTERMEDIAIRES/le mousquetaire virtuel/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
