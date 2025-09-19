@@ -56,6 +56,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/facile/i-killed-an-academy-player.webp"
     },
     {
+        "name": "i-took-over-the-academy-with-a-single-sashimi-knife",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/facile/i-took-over-the-academy-with-a-single-sashimi-knife.webp"
+    },
+    {
         "name": "infinite-mage",
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/facile/infinite-mage.webp"
     },
@@ -172,8 +176,8 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/facile/vilains-are-destined-to-die.webp"
     },
     {
-        "name": "villain-ot-kill",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/facile/villain-ot-kill.webp"
+        "name": "villain-to-kill",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/facile/villain-to-kill.webp"
     },
     {
         "name": "villains-are-destined-to-die-",

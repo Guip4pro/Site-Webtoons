@@ -1,5 +1,9 @@
 [
     {
+        "name": "--the-legendary-hero-is-an-academy-honours-student",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/--the-legendary-hero-is-an-academy-honours-student.webp"
+    },
+    {
         "name": "bad-ending-maker",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/bad-ending-maker.webp"
     },
@@ -66,6 +70,14 @@
     {
         "name": "the-emperor's-sword",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-emperor's-sword.webp"
+    },
+    {
+        "name": "the-indomitable-martial-king",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-indomitable-martial-king.webp"
+    },
+    {
+        "name": "the-little-brother-is-the-academy's-hotshot-",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-little-brother-is-the-academy's-hotshot-.webp"
     },
     {
         "name": "the-world-after-the-fall",

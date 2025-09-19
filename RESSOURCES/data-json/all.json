@@ -459,7 +459,7 @@
               "IMAGES/2-EXCELLENTS/revenge of the iron-blooded sword hound/img8.avif"
             ],
             "adaptations": [
-              "Aucune"
+              "Format papier en français (octobre)"
             ]
           }
         },
@@ -9524,6 +9524,27 @@
               "title": "",
               "banner": "",
               "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Author of My Own Destiny",
+            "aliases": ["I Became the Wife of the Male Lead", "A férfi vezető felesége lettem", "Artefice del mio destino", "Autice de ma destinée", "Autrice de ma destinée", "Me convertí en la esposa del protagonista masculino", "Me Tornei a Esposa do Protagonista", "Tôi Đã Trở Thành Vợ Của Nam Chính", "Tôi Trở Thành Vợ Của Nam Chính", "Trở Thành Vợ Của Nam Chính"],
+            "image": "IMAGES/7-ENNUYANTS/author of my own destiny/cover2.webp",
+            "loading": "lazy",
+            "alt": "Image : Author of My Own Destiny",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/7-ENNUYANTS/author of my own destiny/banner1.webp",
+              "cover": "IMAGES/7-ENNUYANTS/author of my own destiny/cover1.webp",
               "alt": "",
               "type": "",
               "genre": [],

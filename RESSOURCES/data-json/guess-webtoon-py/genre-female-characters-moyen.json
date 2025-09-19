@@ -32,6 +32,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/moyen/boundless-necromancer.webp"
     },
     {
+        "name": "catastrophic-necromancer",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/moyen/catastrophic-necromancer.webp"
+    },
+    {
         "name": "damn-reincarnation",
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/moyen/damn-reincarnation.webp"
     },

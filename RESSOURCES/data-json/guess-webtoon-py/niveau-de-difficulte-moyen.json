@@ -1,5 +1,9 @@
 [
     {
+        "name": "-leveling-up-with-the-sword-",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/-leveling-up-with-the-sword-.webp"
+    },
+    {
         "name": "99-reinforced-wooden-stick",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/99-reinforced-wooden-stick.webp"
     },
@@ -52,6 +56,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/infinite-mage.webp"
     },
     {
+        "name": "magic-academy-survival-guide-",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/magic-academy-survival-guide-.webp"
+    },
+    {
         "name": "moon-shadow-sword-emperor",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/moon-shadow-sword-emperor.webp"
     },
@@ -72,12 +80,20 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/reaper-of-the-drifting-moon.webp"
     },
     {
+        "name": "regressing-as-the-reincarnated-bastard-of-the-sword-clan-",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/regressing-as-the-reincarnated-bastard-of-the-sword-clan-.webp"
+    },
+    {
         "name": "solo-max-level-newbie",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/solo-max-level-newbie.webp"
     },
     {
         "name": "star-embracing-swordmaster",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/star-embracing-swordmaster.webp"
+    },
+    {
+        "name": "talent-swallowing-magician",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/talent-swallowing-magician.webp"
     },
     {
         "name": "the-book-eating-magician",

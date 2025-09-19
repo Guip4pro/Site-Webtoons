@@ -77,17 +77,24 @@
         "path": "RESSOURCES/data-json/guess-webtoon-py/cover-moyen.json"
     },
     {
+        "json": "generations-2021-2022-2023.json",
+        "category": "generations",
+        "relative_folder": "2021-2022-2023",
+        "count": 1,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/generations-2021-2022-2023.json"
+    },
+    {
         "json": "genre-academy-facile.json",
         "category": "genre",
         "relative_folder": "academy/facile",
-        "count": 80,
+        "count": 67,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-academy-facile.json"
     },
     {
         "json": "genre-academy-moyen.json",
         "category": "genre",
         "relative_folder": "academy/moyen",
-        "count": 85,
+        "count": 77,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-academy-moyen.json"
     },
     {
@@ -108,7 +115,7 @@
         "json": "genre-child.json",
         "category": "genre",
         "relative_folder": "child",
-        "count": 4,
+        "count": 5,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-child.json"
     },
     {
@@ -126,18 +133,32 @@
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-comedy-moyen.json"
     },
     {
+        "json": "genre-fantasy-world-facile.json",
+        "category": "genre",
+        "relative_folder": "fantasy-world/facile",
+        "count": 3,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-fantasy-world-facile.json"
+    },
+    {
         "json": "genre-female-characters-facile.json",
         "category": "genre",
         "relative_folder": "female-characters/facile",
-        "count": 45,
+        "count": 46,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-female-characters-facile.json"
     },
     {
         "json": "genre-female-characters-moyen.json",
         "category": "genre",
         "relative_folder": "female-characters/moyen",
-        "count": 42,
+        "count": 43,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-female-characters-moyen.json"
+    },
+    {
+        "json": "genre-magic.json",
+        "category": "genre",
+        "relative_folder": "magic",
+        "count": 2,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-magic.json"
     },
     {
         "json": "genre-murim-facile.json",
@@ -154,31 +175,45 @@
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-murim-moyen.json"
     },
     {
+        "json": "genre-school-life.json",
+        "category": "genre",
+        "relative_folder": "school-life",
+        "count": 1,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-school-life.json"
+    },
+    {
+        "json": "genre-swordmanship.json",
+        "category": "genre",
+        "relative_folder": "swordmanship",
+        "count": 1,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-swordmanship.json"
+    },
+    {
         "json": "niveau-de-difficulte-difficile.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "difficile",
-        "count": 22,
+        "count": 25,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-difficile.json"
     },
     {
         "json": "niveau-de-difficulte-enfer.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "enfer",
-        "count": 17,
+        "count": 20,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-enfer.json"
     },
     {
         "json": "niveau-de-difficulte-facile.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "facile",
-        "count": 22,
+        "count": 23,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-facile.json"
     },
     {
         "json": "niveau-de-difficulte-moyen.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "moyen",
-        "count": 25,
+        "count": 29,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-moyen.json"
     },
     {

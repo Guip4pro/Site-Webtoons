@@ -32,6 +32,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/killer-peter.webp"
     },
     {
+        "name": "regressor-of-the-fallen-family",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/regressor-of-the-fallen-family.webp"
+    },
+    {
         "name": "sword-sweath's-child",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/sword-sweath's-child.webp"
     },
@@ -60,8 +64,16 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/the-legendary-hero-is-an-academy-honors-student.webp"
     },
     {
+        "name": "the-legendary-hero-is-an-academy-honours-student-",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/the-legendary-hero-is-an-academy-honours-student-.webp"
+    },
+    {
         "name": "the-martial-god-who-regressed-to-level-2",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/the-martial-god-who-regressed-to-level-2.webp"
+    },
+    {
+        "name": "the-ultimate-shut-in",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/the-ultimate-shut-in.webp"
     },
     {
         "name": "top-tier-providence",
