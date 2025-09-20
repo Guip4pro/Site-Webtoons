@@ -44,7 +44,8 @@
               "IMAGES/1-SSS/return of the mount hua sect/img5.avif",
               "IMAGES/1-SSS/return of the mount hua sect/img6.avif",
               "IMAGES/1-SSS/return of the mount hua sect/img7.avif",
-              "IMAGES/1-SSS/return of the mount hua sect/img8.avif"
+              "IMAGES/1-SSS/return of the mount hua sect/img8.avif",
+              "IMAGES/1-SSS/return of the mount hua sect/img_video.mp4"
             ],
             "adaptations": ["format papier (Booknode)", "anime (prochainement)"]
           }
@@ -3657,8 +3658,8 @@
             "alt": "Image : I'm Not A Regressor",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/4-BONS/i'm not a regressor/banner1.webp",
+              "cover": "IMAGES/4-BONS/i'm not a regressor/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -3848,7 +3849,7 @@
             "details": {
               "title": "",
               "banner": "IMAGES/4-BONS/l'artéfact dévoreur/bannière.webp",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/l'artéfact dévoreur/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -4434,7 +4435,7 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/regressing as the reincarnated bastard of the sword clan/banner1.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5275,13 +5276,13 @@
           {
             "title": "The Lord's Coins Aren't Decreasing",
             "aliases": ["The Lord of Coins", "À jamais Riche !"],
-            "image": "IMAGES/4-BONS/the lord's coins aren't decreasing/cover.webp",
+            "image": "IMAGES/4-BONS/the lord's coins aren't decreasing/cover1.webp",
             "loading": "lazy",
             "alt": "Image : The Lord's Coins Aren't Decreasing",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/4-BONS/the lord's coins aren't decreasing/banner1.jpg",
+              "cover": "IMAGES/4-BONS/the lord's coins aren't decreasing/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5469,13 +5470,13 @@
           {
             "title": "Valhalla Saga",
             "aliases": [],
-            "image": "IMAGES/4-BONS/valhalla saga/cover.avif",
+            "image": "IMAGES/4-BONS/valhalla saga/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Valhalla Saga",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/4-BONS/valhalla saga/banner1.webp",
+              "cover": "IMAGES/4-BONS/valhalla saga/cover2.avif",
               "alt": "",
               "type": "",
               "genre": [],
