@@ -1007,6 +1007,27 @@
             }
           },
           {
+            "title": "Dragonslayer's Peerless Regression",
+            "aliases": ["A Dragonslayer's Peerless Regression", "Dragonslayer's Class Regression"],
+            "image": "IMAGES/3-TRES BONS/dragonslayer's peerless regression/covergif1.webp",
+            "loading": "lazy",
+            "alt": "Image : Dragonslayer's Peerless Regression",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/3-TRES BONS/dragonslayer's peerless regression/banner1.avif",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "The Drug-Eating Genius Mage",
             "aliases": [
               "The Medicine Genius Wizard",
@@ -1394,7 +1415,7 @@
           },
           {
             "title": "La Saga du Clan Mudang",
-            "aliases": ["Mugang: The Path of Shaman", "Path of the Shaman", "The Mudang Clan Saga", "The Grand Mudang Saga"],
+            "aliases": ["Mugang: The Path of Shaman", "Mudang: Path of Shaman", "Path of the Shaman", "The Mudang Clan Saga", "The Grand Mudang Saga"],
             "image": "IMAGES/3-TRES BONS/la saga du clan mudang/cover.avif",
             "alt": "Image : La Saga du Clan Mudang",
             "details": {
@@ -2535,7 +2556,7 @@
           {
             "title": "A Regressor’s Tale of Cultivation",
             "aliases": ["A Regressor’s Tale of Cultivation", "La Leyenda de Cultivación de un Regresor", "Return Repair"],
-            "image": "IMAGES/4-BONS/a regressor’s tale of cultivation/cover1.webp",
+            "image": "IMAGES/4-BONS/a regressor’s tale of cultivation/cover1.avif",
             "loading": "lazy",
             "alt": "Image : A Regressor’s Tale of Cultivation",
             "details": {
@@ -3063,28 +3084,7 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Dragonslayer's Peerless Regression",
-            "aliases": ["A Dragonslayer's Peerless Regression", "Dragonslayer's Class Regression"],
-            "image": "IMAGES/4-BONS/dragonslayer's peerless regression/covergif1.webp",
-            "loading": "lazy",
-            "alt": "Image : Dragonslayer's Peerless Regression",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/4-BONS/dragonslayer's peerless regression/banner1.avif",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/dragon-devouring mage/cover2.avif",
               "alt": "",
               "type": "",
               "genre": [],
@@ -3224,7 +3224,7 @@
           {
             "title": "Fox-Eyed Villain of the Demon Academ",
             "aliases": ["The Fox-Eye Villain of the Demon Academy", "The Fox-Eyed Villain of the Demon Academy", "The Narrow-Eyed Villain of the Demon Academy"],
-            "image": "IMAGES/4-BONS/fox-eyed villain of the demon academ/cover.webp",
+            "image": "IMAGES/4-BONS/fox-eyed villain of the demon academ/cover1.avif",
             "loading": "lazy",
             "alt": "Image : Fox-Eyed Villain of the Demon Academ",
             "details": {
@@ -3799,7 +3799,7 @@
           {
             "title": "Knight King Who Returned With A God",
             "aliases": ["The King Knight Who Returned with a God", "The Knight King Who Returned with a God"],
-            "image": "IMAGES/4-BONS/knight king who returned with a god/cover.webp",
+            "image": "IMAGES/4-BONS/knight king who returned with a god/cover1.avif",
             "loading": "lazy",
             "alt": "Image : Knight King Who Returned With A God",
             "details": {
@@ -3841,14 +3841,14 @@
           
           {
             "title": "L'Artéfact Dévoreur",
-            "aliases": ["Dungeons & Artifacts", "Dungeons and Artifacts", "L'Artefact Devoreur"],
+            "aliases": ["Dungeons & Artifacts", "Dungeons and Artifacts", "Dungeon and Artifacts", "L'Artefact Devoreur"],
             "image": "IMAGES/4-BONS/l'artéfact dévoreur/cover.webp",
             "loading": "lazy",
             "alt": "Image : L'Artéfact Dévoreur",
             "details": {
               "title": "",
               "banner": "IMAGES/4-BONS/l'artéfact dévoreur/bannière.webp",
-              "cover": "IMAGES/4-BONS/l'artéfact dévoreur/cover2.webp",
+              "cover": "IMAGES/4-BONS/l'artéfact dévoreur/cover2.avif",
               "alt": "",
               "type": "",
               "genre": [],
@@ -4036,7 +4036,7 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "IMAGES/4-BONS/magic academy's genius blinker/cover2.webp",
+              "cover": "IMAGES/4-BONS/magic academy's genius blinker/cover2.avif",
               "alt": "",
               "type": "",
               "genre": [],
@@ -4182,7 +4182,7 @@
             "details": {
               "title": "",
               "banner": "IMAGES/4-BONS/mount hua sect's genius phantom swordsman/banner1.webp",
-              "cover": "IMAGES/4-BONS/mount hua sect's genius phantom swordsman/cover2.webp",
+              "cover": "IMAGES/4-BONS/mount hua sect's genius phantom swordsman/cover2.avif",
               "alt": "",
               "type": "",
               "genre": [],
@@ -4245,7 +4245,7 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "IMAGES/4-BONS/nebula's civilization/cover2.webp",
+              "cover": "IMAGES/4-BONS/nebula's civilization/cover2.avif",
               "alt": "",
               "type": "",
               "genre": [],
@@ -4512,12 +4512,12 @@
           {
             "title": "Reincarnation of the Fist King",
             "aliases": [],
-            "image": "IMAGES/4-BONS/reincarnation of the fist king/cover.webp",
+            "image": "IMAGES/4-BONS/reincarnation of the fist king/cover.avif",
             "loading": "lazy",
             "alt": "Image : Reincarnation of the Fist King",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/reincarnation of the fist king/banner1.webp",
+              "banner": "IMAGES/4-BONS/reincarnation of the fist king/banner1.avif",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4595,8 +4595,8 @@
           },
           {
             "title": "Return of the Calamity-Class Death Knight",
-            "aliases": ["Le Retour de la constellation brisée", "Return of the Shattered Constellation"],
-            "image": "IMAGES/4-BONS/return of the calamity-class death knight/cover.webp",
+            "aliases": ["Return of the Apocalypse-Class Death Knight", "Return of the Apocalypse Class Death Knight", "Return of the Calamity Class Death Knight"],
+            "image": "IMAGES/4-BONS/return of the calamity-class death knight/cover1.avif",
             "loading": "lazy",
             "alt": "Image : Return of the Calamity-Class Death Knight",
             "details": {
@@ -4748,7 +4748,7 @@
               "The 3rd Prince Of The Fallen Kingdom Returns",
               "The Three Princes of the Fallen Kingdom Have Returned"
             ],
-            "image": "IMAGES/4-BONS/rise of the fallen kingdom's third prince/cover.webp",
+            "image": "IMAGES/4-BONS/rise of the fallen kingdom's third prince/cover1.avif",
             "loading": "lazy",
             "alt": "Image : Rise of the Fallen Kingdom's Third Prince",
             "details": {
@@ -5400,13 +5400,13 @@
           {
             "title": "Trait Hoarder",
             "aliases": ["Ultimate Tutorial Warrior", "Warrior Kim Builds up His Characteristics", "Kim Jeonsa Accumulates Characteristics"],
-            "image": "IMAGES/4-BONS/trait hoarder/cover.webp",
+            "image": "IMAGES/4-BONS/trait hoarder/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Trait Hoarder",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "IMAGES/4-BONS/trait hoarder/cover2.webp",
+              "cover": "IMAGES/4-BONS/trait hoarder/cover2.avif",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5613,7 +5613,7 @@
           {
             "title": "What a Bountiful Harvest Demon Lord",
             "aliases": ["What a Bountiful Harvest, Demon Lord!"],
-            "image": "IMAGES/4-BONS/what a bountiful harvest demon lord/cover.webp",
+            "image": "IMAGES/4-BONS/what a bountiful harvest demon lord/cover1.avif",
             "loading": "lazy",
             "alt": "Image : What a Bountiful Harvest Demon Lord",
             "details": {

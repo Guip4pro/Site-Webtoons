@@ -52,6 +52,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/academy's-undercover-professor.webp"
     },
     {
+        "name": "act-like-a-boss-monster,-mr-swallow!",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/act-like-a-boss-monster,-mr-swallow!.webp"
+    },
+    {
         "name": "archmage-streamer",
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/archmage-streamer.webp"
     },
@@ -104,6 +108,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/kill-the-hero.webp"
     },
     {
+        "name": "legendary-youngest-son-of-the-marquis-house",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/legendary-youngest-son-of-the-marquis-house.webp"
+    },
+    {
         "name": "leveling-up-with-the-gods",
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/leveling-up-with-the-gods.webp"
     },
@@ -136,6 +144,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/maxed-out-leveling.webp"
     },
     {
+        "name": "mudang-path-of-the-shaman",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/mudang-path-of-the-shaman.webp"
+    },
+    {
         "name": "murim-login",
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/murim-login.webp"
     },
@@ -146,6 +158,10 @@
     {
         "name": "necromancer-academy's-genius-summoner",
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/necromancer-academy's-genius-summoner.webp"
+    },
+    {
+        "name": "re-life-player",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/re-life-player.webp"
     },
     {
         "name": "regressing-with-the-king's-power",
@@ -188,8 +204,20 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/talent-swallowing-magician.webp"
     },
     {
+        "name": "the-academy's-sashimi-sword-master",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/the-academy's-sashimi-sword-master.webp"
+    },
+    {
         "name": "the-archmage's-restaurant",
         "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/the-archmage's-restaurant.webp"
+    },
+    {
+        "name": "the-extra-is-too-powerful",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/the-extra-is-too-powerful.webp"
+    },
+    {
+        "name": "the-fallen-house-od-hardan",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/moyen/the-fallen-house-od-hardan.webp"
     },
     {
         "name": "the-ghost-writting-hero",

@@ -7,11 +7,18 @@
         "path": "RESSOURCES/data-json/guess-webtoon-py/z-en-attente.json"
     },
     {
-        "json": "autres-doigt.json",
+        "json": "autres-doigt-facile.json",
         "category": "autres",
-        "relative_folder": "doigt",
-        "count": 39,
-        "path": "RESSOURCES/data-json/guess-webtoon-py/autres-doigt.json"
+        "relative_folder": "doigt/facile",
+        "count": 19,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/autres-doigt-facile.json"
+    },
+    {
+        "json": "autres-doigt-moyen.json",
+        "category": "autres",
+        "relative_folder": "doigt/moyen",
+        "count": 23,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/autres-doigt-moyen.json"
     },
     {
         "json": "characters-icons.json",
@@ -59,21 +66,21 @@
         "json": "cover-difficile.json",
         "category": "cover",
         "relative_folder": "difficile",
-        "count": 29,
+        "count": 34,
         "path": "RESSOURCES/data-json/guess-webtoon-py/cover-difficile.json"
     },
     {
         "json": "cover-facile.json",
         "category": "cover",
         "relative_folder": "facile",
-        "count": 56,
+        "count": 59,
         "path": "RESSOURCES/data-json/guess-webtoon-py/cover-facile.json"
     },
     {
         "json": "cover-moyen.json",
         "category": "cover",
         "relative_folder": "moyen",
-        "count": 62,
+        "count": 69,
         "path": "RESSOURCES/data-json/guess-webtoon-py/cover-moyen.json"
     },
     {
@@ -122,7 +129,7 @@
         "json": "genre-comedy-facile.json",
         "category": "genre",
         "relative_folder": "comedy/facile",
-        "count": 30,
+        "count": 31,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-comedy-facile.json"
     },
     {

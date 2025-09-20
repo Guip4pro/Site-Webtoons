@@ -80,6 +80,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/facile/omniscient-reader's-viewpoint.webp"
     },
     {
+        "name": "overgeared",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/facile/overgeared.webp"
+    },
+    {
         "name": "pick-me-up",
         "image": "RESSOURCES/img-guessthewebtoon/cover/facile/pick-me-up.webp"
     },
@@ -106,6 +110,10 @@
     {
         "name": "reincarnation-of-the-suicidal-battle-god",
         "image": "RESSOURCES/img-guessthewebtoon/cover/facile/reincarnation-of-the-suicidal-battle-god.webp"
+    },
+    {
+        "name": "return-of-the-8th-class-magician",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/facile/return-of-the-8th-class-magician.webp"
     },
     {
         "name": "return-of-the-disaster-class-hero",
@@ -182,6 +190,10 @@
     {
         "name": "the-remarried-empress",
         "image": "RESSOURCES/img-guessthewebtoon/cover/facile/the-remarried-empress.webp"
+    },
+    {
+        "name": "the-return-of-the-frozen-player",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/facile/the-return-of-the-frozen-player.webp"
     },
     {
         "name": "the-return-of-the-mad-demon",

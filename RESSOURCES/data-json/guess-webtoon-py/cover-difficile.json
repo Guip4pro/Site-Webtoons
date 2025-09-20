@@ -56,6 +56,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/hand-over-the-money.avif"
     },
     {
+        "name": "hiding-a-logistics-center-in-the-apocalypse",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/hiding-a-logistics-center-in-the-apocalypse.webp"
+    },
+    {
         "name": "i-will-become-the-villain's-poison-taster",
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/i-will-become-the-villain's-poison-taster.webp"
     },
@@ -80,8 +84,20 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/raising-hell.webp"
     },
     {
+        "name": "re-life-player",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/re-life-player.webp"
+    },
+    {
+        "name": "regression-of-the-yong-clan-heir",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/regression-of-the-yong-clan-heir.webp"
+    },
+    {
         "name": "reincarnation-of-the-warrior-party-archmage",
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/reincarnation-of-the-warrior-party-archmage.webp"
+    },
+    {
+        "name": "the-31st-piece-turns-the-tables",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-31st-piece-turns-the-tables.webp"
     },
     {
         "name": "the-blood-knights-villain",
@@ -94,6 +110,10 @@
     {
         "name": "the-frost-flower-knight",
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-frost-flower-knight.webp"
+    },
+    {
+        "name": "the-little-brother-is-the-academy's-hotshot",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-little-brother-is-the-academy's-hotshot.webp"
     },
     {
         "name": "the-little-brother-is-the-academy's-htoshot",
