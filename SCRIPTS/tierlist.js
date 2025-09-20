@@ -157,20 +157,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Previews
         if (previews && previews.length) {
-        const pTitle = document.createElement('p');
-        pTitle.innerHTML = '<strong>Prévisualisation :</strong>';
-        wrapper.appendChild(pTitle);
-        const divImgs = document.createElement('div');
-        divImgs.className = 'img-popup';
-        previews.forEach(src => {
-            const im = document.createElement('img');
-            im.className = 'thumbnail';
-            im.loading = 'lazy';
-            im.alt = 'image preview';
-            im.src = src;
-            divImgs.appendChild(im);
-        });
-        wrapper.appendChild(divImgs);
+            const pTitle = document.createElement('p');
+            pTitle.innerHTML = '<strong>Prévisualisation :</strong>';
+            wrapper.appendChild(pTitle);
+
+            const divImgs = document.createElement('div');
+            divImgs.className = 'img-popup';
+
+            previews.forEach(src => {
+                if (src.endsWith(".mp4")) {
+                    // 🎥 Si c’est une vidéo
+                    const vid = document.createElement('video');
+                    vid.className = 'thumbnail';
+                    vid.controls = true;       // ajoute les boutons play/pause
+                    vid.muted = true;          // tu peux mettre autoplay si tu veux
+                    vid.loop = true;
+                    vid.src = src;
+                    divImgs.appendChild(vid);
+                } else {
+                    // 🖼️ Sinon c’est une image
+                    const im = document.createElement('img');
+                    im.className = 'thumbnail';
+                    im.loading = 'lazy';
+                    im.alt = 'image preview';
+                    im.src = src;
+                    divImgs.appendChild(im);
+                }
+            });
+
+            wrapper.appendChild(divImgs);
         }
 
         // Adaptation
@@ -374,15 +389,7 @@ function tierlistMaker() {
 
 
 
-    // Zoom sur Image
-// écouteur global qui intercepte les clics sur toute image
-// ayant la classe thumbnail, même celles créées plus tard
-document.addEventListener("click", function(e) {
-    if (e.target.classList.contains("thumbnail")) {
-        modal.style.display = "block";
-        modalImg.src = e.target.src;
-    }
-});
+    // Zoom sur Images (et Vidéos)
 
 // Créer le modal et ses éléments
 const modal = document.createElement("div");
@@ -390,36 +397,63 @@ modal.className = "modal";
 const closeModal = document.createElement("span");
 closeModal.className = "close";
 closeModal.innerHTML = "&times;";
+
+// Élément image pour zoom
 const modalImg = document.createElement("img");
 modalImg.className = "modal-content";
 
-// Ajouter les éléments au modal
+// Élément vidéo pour zoom
+const modalVideo = document.createElement("video");
+modalVideo.className = "modal-content";
+modalVideo.controls = true; // boutons lecture/pause/volume
+modalVideo.loop = true;
+
+// Ajouter au modal
 modal.appendChild(closeModal);
 modal.appendChild(modalImg);
+modal.appendChild(modalVideo);
 document.body.appendChild(modal);
 
-// Récupérer toutes les images avec la classe "thumbnail"
-const images = document.querySelectorAll(".thumbnail");
-
-// Ajouter un événement de clic à chaque image
-images.forEach(img => {
-    img.onclick = function() {
+// Clic global sur images/vidéos miniatures
+document.addEventListener("click", function(e) {
+    if (e.target.classList.contains("thumbnail")) {
         modal.style.display = "block";
-        modalImg.src = this.src; // Mettre la source de l'image dans le modal
+
+        if (e.target.tagName === "IMG") {
+            // Afficher image, cacher vidéo
+            modalImg.style.display = "block";
+            modalVideo.style.display = "none";
+            modalImg.src = e.target.src;
+
+        } else if (e.target.tagName === "VIDEO") {
+            // Afficher vidéo, cacher image
+            modalVideo.style.display = "block";
+            modalImg.style.display = "none";
+            modalVideo.src = e.target.src;
+
+            // Autoplay seulement quand ouvert
+            modalVideo.play().catch(() => {
+                // si autoplay bloqué, l'utilisateur devra cliquer
+            });
+        }
     }
 });
 
-// Lorsque l'utilisateur clique sur (x), fermer le modal
+// Fermer le modal au clic sur (x)
 closeModal.onclick = function() {
     modal.style.display = "none";
-}
+    modalVideo.pause(); // stop vidéo quand on ferme
+};
 
-// Fermer le modal si l'utilisateur clique en dehors de l'image
+// Fermer si clic en dehors
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
+        modalVideo.pause();
     }
-}
+};
+
+
 
 
 
