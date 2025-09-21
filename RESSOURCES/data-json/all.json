@@ -3863,13 +3863,13 @@
           {
             "title": "L'Expert de la Tour Tutoriel",
             "aliases": ["The Advanced Player of the Tutorial Tower", "The Master of Tutorial Tower", "The Tutorial Tower's Advanced Player", "The Tutorial Tower of the Advanced Player"],
-            "image": "IMAGES/4-BONS/l'expert de la tour tutoriel/cover.webp",
+            "image": "IMAGES/4-BONS/l'expert de la tour tutoriel/cover1.webp",
             "loading": "lazy",
             "alt": "Image : L'Expert de la Tour Tutoriel",
             "details": {
-              "title": "",
+              "title": "The Advanced Player of the Tutorial Tower",
               "banner": "IMAGES/4-BONS/l'expert de la tour tutoriel/bannière.webp",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/l'expert de la tour tutoriel/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -3888,9 +3888,9 @@
             "loading": "lazy",
             "alt": "Image : Golden Haired Wizard",
             "details": {
-              "title": "",
-              "banner": "",
-              "cover": "IMAGES/4-BONS/la magicienne aux cheveux d'or/banner1.webp",
+              "title": "The Golden-Haired Summoner",
+              "banner": "IMAGES/4-BONS/la magicienne aux cheveux d'or/banner1.webp",
+              "cover": "",
               "alt": "",
               "type": "",
               "genre": [],
@@ -4433,8 +4433,8 @@
             "alt": "Image : Regressing As The Reincarnated Bastard Of The Sword Clan",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "IMAGES/4-BONS/regressing as the reincarnated bastard of the sword clan/banner1.webp",
+              "banner": "IMAGES/4-BONS/regressing as the reincarnated bastard of the sword clan/banner1.webp",
+              "cover": "",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5191,13 +5191,13 @@
           {
             "title": "The God of Blackfield",
             "aliases": [],
-            "image": "IMAGES/4-BONS/the god of blackfield/cover.avif",
+            "image": "IMAGES/4-BONS/the god of blackfield/cover1.webp",
             "loading": "lazy",
             "alt": "Image : The God of Blackfield",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/4-BONS/the god of blackfield/banner1.webp",
+              "cover": "IMAGES/4-BONS/the god of blackfield/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5280,7 +5280,7 @@
             "alt": "Image : The Lord's Coins Aren't Decreasing",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/the lord's coins aren't decreasing/banner1.jpg",
+              "banner": "IMAGES/4-BONS/the lord's coins aren't decreasing/banner1.webp",
               "cover": "IMAGES/4-BONS/the lord's coins aren't decreasing/cover2.webp",
               "alt": "",
               "type": "",
@@ -7452,6 +7452,27 @@
             }
           },
           {
+            "title": "Returned C-Rank Tank Won't Die",
+            "aliases": ["회귀한 C급 탱커가 죽지 않아!", "Kembalinya Tank Rank-C Yang Tidak Akan Mati!", "The Returned C saRank Tank Won't Die !", "The C-Class Tank that Returned Won't Die!", "The Regressed C-Rank Tank Won’t Die!", "The Regressed C-Rank Tank Won't Die!", "The Regressed C-Rank Tanker Can't Be Killed!"],
+            "image": "IMAGES/5-INTERMEDIAIRES/returned c-rank tank won't die/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The Returned C-Rank Tank Won't Die!",
+            "details": {
+              "title": "The Returned C-Rank Tank Won't Die!",
+              "banner": "IMAGES/5-INTERMEDIAIRES/returned c-rank tank won't die/banner1.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/returned c-rank tank won't die/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Roxana",
             "aliases": ["The Way to Keep the Older Brother of the Heroine Safe", "The Way to Protect the Female Lead's Older Brother "],
             "image": "IMAGES/5-INTERMEDIAIRES/roxana/cover.webp",
@@ -9244,7 +9265,7 @@
             "alt": "Image : Sangs et Papillons",
             "details": {
               "title": "",
-              "banner": "IMAGES/6-MOYENS/sangs et papillons",
+              "banner": "IMAGES/6-MOYENS/sangs et papillons/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -9265,7 +9286,7 @@
             "alt": "Image : Savior of Blood Divine",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/savior of blood divine/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
