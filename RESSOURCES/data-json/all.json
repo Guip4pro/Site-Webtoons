@@ -566,7 +566,8 @@
               "IMAGES/2-EXCELLENTS/star-embracing swordmaster/img5.avif",
               "IMAGES/2-EXCELLENTS/star-embracing swordmaster/img6.avif",
               "IMAGES/2-EXCELLENTS/star-embracing swordmaster/img7.avif",
-              "IMAGES/2-EXCELLENTS/star-embracing swordmaster/img8.avif"
+              "IMAGES/2-EXCELLENTS/star-embracing swordmaster/img8.avif",
+              "IMAGES/2-EXCELLENTS/star-embracing swordmaster/video.mp4"
             ],
             "adaptations": [
               "Aucune"
@@ -710,7 +711,8 @@
               "IMAGES/2-EXCELLENTS/the greatest estate developer/img5.webp",
               "IMAGES/2-EXCELLENTS/the greatest estate developer/img6.webp",
               "IMAGES/2-EXCELLENTS/the greatest estate developer/img7.webp",
-              "IMAGES/2-EXCELLENTS/the greatest estate developer/img8.webp"
+              "IMAGES/2-EXCELLENTS/the greatest estate developer/img8.webp",
+              "IMAGES/2-EXCELLENTS/the greatest estate developer/video.mp4"
             ],
             "adaptations": []
           }
@@ -1409,7 +1411,9 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/killer peter/video.mp4"
+              ],
               "adaptations": ["Format papier en français"]
             }
           },
@@ -2420,6 +2424,27 @@
             }
           },
           {
+            "title": "The Warrior Returns",
+            "aliases": ["The Warrior Is Back", "The Hero Returns", "The Warrior Returns", "Warrior Returns", "Yongsa-ga Dorawatda", "Hero Has Returned"],
+            "image": "IMAGES/3-TRES BONS/the warrior returns/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : The Warrior Returns",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/3-TRES BONS/the warrior returns/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": ["Dépression"],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Tomb Raider King",
             "aliases": ["El Rey de las Tumbas", "King of Excavation", "King of Thief", "The King of Robbers", "Tomb Raider", "Tomb RaIder (Yoonz)", "Toukutsuou"],
             "image": "IMAGES/3-TRES BONS/tomb raider king/cover1.webp",
@@ -2523,7 +2548,9 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/wind breaker/video.mp4"
+              ],
               "adaptations": []
             }
           },
