@@ -87,6 +87,31 @@ subAccordions.forEach((accordion) => {
     });
 });
 
+// Bouton Générations : génère un texte temporaire puis revient au texte d'origine
+const genDate = document.getElementById('gen-date');
+let timeoutId = null; // Pour stocker l'identifiant du setTimeout en cours
+
+genDate.addEventListener('click', () => {
+    const originalText = "Générations"; // texte de base du bouton
+
+    // Si un timeout est déjà en cours, on l'annule
+    if (timeoutId) {
+        clearTimeout(timeoutId);
+        timeoutId = null;
+        genDate.textContent = originalText; // réinitialise immédiatement
+        return; // on sort de la fonction (clic sert juste à réinitialiser)
+    }
+
+    // Sinon, on génère un texte
+    genDate.textContent = "Générations (date de la version d'origine)";
+
+    // On programme la réinitialisation après 15 secondes
+    timeoutId = setTimeout(() => {
+        genDate.textContent = originalText;
+        timeoutId = null; // reset
+    }, 6000);
+});
+
 
 // Commencer le jeu
 document.addEventListener('DOMContentLoaded', () => {
@@ -992,7 +1017,7 @@ OPTIMISATION SITE IMAGE :
 
 AUTRE :
 - faire une catégorie "eyes", "finances" et "personnage flouté ou couverture floutée", "guess the character's name", Le BAC de Webtoons" ou "Webtoons type BAC" ou alors "BAC +5"
-
+- catégorie où il faut deviner la date de parution de la version d'origine
 
 
 MOTS DE VOCABULAIRE :
@@ -1003,20 +1028,8 @@ PROJETS FUTURS :
 - Projet de site qui convertit et compresse des images
 
 
-Academy** (Academy of Magic and Swordsmanship) : Facile / Moyen
-I Killed an Academy Player ; Infinite Mage ; Revenge of the Iron-Blooded Sword Hound ; Love letter from the future, The Novel's extra (remake),
-Academy's Undercover Professor, Warrior High School, The Villain Wants to Live, Extra's Academy Survival Guide ; Magic Academy Survival Guide ;
-M'y School Life Pretending to Be a Worthless Person ; Magic Academy's Genius Blinker ; I Took Over the Academy With a Single Sashimi Knife ;
-Legendary Hero is an Academy Honours Student ; The Demon Prince Goes to the Academy ; Academy's Genius Swordmaster ; The Little Brother is the Academy's Hotshot ;
-Jungle Juice ; Necromancer Academy's Genius Summoner ; Catastrophic Necromancer ; Talent Swallowing Magician ; Dragon Devouring Mage ; I Obtained a Mythic Item ;
-A Returners Magic Should Be Special ; Academie Transcendance ; The Genius Tamer of the Academy ; Bad Born Blood ; Damn Reincarnation ;
-The Beginning After the End ; Eleceed ; Helmut ; Return of the Legendary Spear Knight ; Standard of Reincarnation ; The Dark Mage's Return to Enlishment ;
-The Great Mage Returns After 4000 Years ; Reformation of the Deadbeat Noble ; The Regressed Son of the Duke is an Assassin ; UnOrdinary ;
-Dragonslayer's Peerless Regression ; Fox-eyed Villain of the Demon Academ ; I'm Going to Destroy This Country ; Is This Hero for Real ?! ; Kill The Dragon ;
--> Legendary Youngest Son of the Marquis House ; Leveling Up With the Sword ; Regressing as the Reincarnated Bastard of the Sword Clan ;
-Reincarnation of the Warrior Party Archmage ; The Extra is too Strong ; The Lord's Coins aren't decreasing ; the'reincarnated-assassin-is-a-genius-swordman ;
-Fated to be Loved By Villains ; The Book Eating Magician ; Mightiest Melee Magician ; Necromancer's Evolutionnary Traits ; Regression of the Close Combat Mage ;
-The Return of the Mythical Archmage ; the-academy's-genius-tamer ; barbarian to the academy
+Dragon :
+dragon-devouring mage ; swordmaster's youngest son (Murakan) ; 
 
 
 "Swordmaster's Youngest Son" ; "Talent Swallowing Magician" "Superhuman Battlefield" ; "Auto-Hunting with my Clones" ; "Bastard Son Was the Emperor" ; "Children of the Rune"
