@@ -3,7 +3,7 @@
         "json": "z-en-attente.json",
         "category": "Z-EN-ATTENTE",
         "relative_folder": ".",
-        "count": 7,
+        "count": 8,
         "path": "RESSOURCES/data-json/guess-webtoon-py/z-en-attente.json"
     },
     {
@@ -19,6 +19,13 @@
         "relative_folder": "doigt/moyen",
         "count": 23,
         "path": "RESSOURCES/data-json/guess-webtoon-py/autres-doigt-moyen.json"
+    },
+    {
+        "json": "autres-great-artwork.json",
+        "category": "autres",
+        "relative_folder": "great-artwork",
+        "count": 1,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/autres-great-artwork.json"
     },
     {
         "json": "characters-icons.json",
@@ -66,14 +73,14 @@
         "json": "cover-difficile.json",
         "category": "cover",
         "relative_folder": "difficile",
-        "count": 34,
+        "count": 35,
         "path": "RESSOURCES/data-json/guess-webtoon-py/cover-difficile.json"
     },
     {
         "json": "cover-facile.json",
         "category": "cover",
         "relative_folder": "facile",
-        "count": 59,
+        "count": 60,
         "path": "RESSOURCES/data-json/guess-webtoon-py/cover-facile.json"
     },
     {
@@ -136,7 +143,7 @@
         "json": "genre-child.json",
         "category": "genre",
         "relative_folder": "child",
-        "count": 13,
+        "count": 14,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-child.json"
     },
     {
@@ -161,6 +168,13 @@
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-fantasy-world-facile.json"
     },
     {
+        "json": "genre-fantasy-world-moyen.json",
+        "category": "genre",
+        "relative_folder": "fantasy-world/moyen",
+        "count": 1,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-fantasy-world-moyen.json"
+    },
+    {
         "json": "genre-female-characters-facile.json",
         "category": "genre",
         "relative_folder": "female-characters/facile",
@@ -178,7 +192,7 @@
         "json": "genre-magic.json",
         "category": "genre",
         "relative_folder": "magic",
-        "count": 2,
+        "count": 3,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-magic.json"
     },
     {
@@ -199,7 +213,7 @@
         "json": "genre-school-life.json",
         "category": "genre",
         "relative_folder": "school-life",
-        "count": 1,
+        "count": 3,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-school-life.json"
     },
     {
@@ -210,17 +224,38 @@
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-swordmanship.json"
     },
     {
+        "json": "genre-system-facile.json",
+        "category": "genre",
+        "relative_folder": "system/facile",
+        "count": 1,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-system-facile.json"
+    },
+    {
+        "json": "genre-system-moyen.json",
+        "category": "genre",
+        "relative_folder": "system/moyen",
+        "count": 1,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-system-moyen.json"
+    },
+    {
+        "json": "genre-tower.json",
+        "category": "genre",
+        "relative_folder": "tower",
+        "count": 1,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-tower.json"
+    },
+    {
         "json": "niveau-de-difficulte-difficile.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "difficile",
-        "count": 25,
+        "count": 26,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-difficile.json"
     },
     {
         "json": "niveau-de-difficulte-enfer.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "enfer",
-        "count": 20,
+        "count": 21,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-enfer.json"
     },
     {
@@ -243,5 +278,12 @@
         "relative_folder": "manhua",
         "count": 26,
         "path": "RESSOURCES/data-json/guess-webtoon-py/type-manhua.json"
+    },
+    {
+        "json": "type-manhwa.json",
+        "category": "type",
+        "relative_folder": "manhwa",
+        "count": 2,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/type-manhwa.json"
     }
 ]

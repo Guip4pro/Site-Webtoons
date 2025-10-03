@@ -2164,7 +2164,7 @@
             "details": {
               "title": "",
               "banner": "IMAGES/3-TRES BONS/the executioner/banner1.webp",
-              "cover": "",
+              "cover": "IMAGES/3-TRES BONS/the executioner/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -2705,8 +2705,8 @@
             "loading": "lazy",
             "alt": "Image : Act Like a Boss, Mr. Swallow!",
             "details": {
-              "title": "IMAGES/4-BONS/act like a boss, mr swallow/banner1.webp",
-              "banner": "",
+              "title": "",
+              "banner": "IMAGES/4-BONS/act like a boss, mr swallow/banner1.webp",
               "cover": "IMAGES/4-BONS/act like a boss, mr swallow/cover2.webp",
               "alt": "",
               "type": "",
@@ -3338,12 +3338,12 @@
           {
             "title": "Genius Prismatic Mage",
             "aliases": ["Mago prismático genio", "The Genius Magician who Sees the Rainbow"],
-            "image": "IMAGES/4-BONS/genius prismatic mage/cover.webp",
+            "image": "IMAGES/4-BONS/genius prismatic mage/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Genius Prismatic Mage",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/genius prismatic mage/banner2.webp",
+              "banner": "IMAGES/4-BONS/genius prismatic mage/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5974,12 +5974,12 @@
                 {
                   "name": "Ono",
                   "url": "https://www.ono.live/webtoon/arena",
-                  "note": "(version officielle n°1)"
+                  "note": "version officielle n°1"
                 },
                 {
                   "name": "Webtoon",
                   "url": "https://www.webtoons.com/fr/action/arena/list?title_no=6891",
-                  "note": "(version officielle n°2)"
+                  "note": "version officielle n°2"
                 }
               ],
               "synopsis": "",

@@ -134,5 +134,9 @@
     {
         "name": "valhalla-saga",
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/valhalla-saga.webp"
+    },
+    {
+        "name": "what-a-bountiful-harvest",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/what-a-bountiful-harvest.webp"
     }
 ]

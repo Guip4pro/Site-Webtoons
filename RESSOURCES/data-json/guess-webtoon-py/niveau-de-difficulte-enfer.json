@@ -12,6 +12,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/emperor-of-solo-play.webp"
     },
     {
+        "name": "genius-prismatic-mage-3",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/genius-prismatic-mage-3.webp"
+    },
+    {
         "name": "god's-web-novel",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/god's-web-novel.webp"
     },
@@ -56,10 +60,6 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/the-archmage's-restaurant.webp"
     },
     {
-        "name": "the-book-of-lagier",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/the-book-of-lagier.webp"
-    },
-    {
         "name": "the-legendary-hero-is-an-academy-honors-student",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/the-legendary-hero-is-an-academy-honors-student.webp"
     },
@@ -74,6 +74,10 @@
     {
         "name": "the-ultimate-shut-in",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/the-ultimate-shut-in.webp"
+    },
+    {
+        "name": "to-not-die",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/to-not-die.webp"
     },
     {
         "name": "top-tier-providence",
