@@ -690,7 +690,7 @@
           "alt": "Image : The Greatest Estate Developer",
           "details": {
             "title": "",
-            "banner": "",
+            "banner": "IMAGES/2-EXCELLENTS/the greatest estate developer/banner1.webp",
             "cover": "IMAGES/2-EXCELLENTS/the greatest estate developer/cover2.webp",
             "alt": "",
             "type": "Manhwa",
@@ -2043,7 +2043,7 @@
             "alt": "Image : Standard of Reincarnation",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/standard of reincarnation/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2540,7 +2540,7 @@
             "alt": "Image : Wind Breaker",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/wind breaker/banner.webp",
+              "banner": "IMAGES/3-TRES BONS/wind breaker/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2699,6 +2699,27 @@
             }
           },
           {
+            "title": "Act Like a Boss, Mr. Swallow!",
+            "aliases": ["Pls Act Like a Boss Monster, Mr. Swallow!", "Please Act Like a Boss Monster Mr. Swallow!", "Mr Swallow, Please Act Like a Boss", "Act Like a Boss, Mr. Swallow", "Actuando como un jefe final pero soy demasiado vago para ello", "Boss大人請振作", "Boss大人請振作!", "Mr Devourer Please Act Like a Final Boss", "Mr Devourer, Please Act Like a Final Boss", "The Unbeatable Dungeon’s Lazy Boss Monster", "The Unbeatable Dungeon's Lazy Boss Monster"],
+            "image": "IMAGES/4-BONS/act like a boss, mr swallow/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Act Like a Boss, Mr. Swallow!",
+            "details": {
+              "title": "IMAGES/4-BONS/act like a boss, mr swallow/banner1.webp",
+              "banner": "",
+              "cover": "IMAGES/4-BONS/act like a boss, mr swallow/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Archmage Streamer",
             "aliases": ["BJ Archmage"],
             "image": "IMAGES/4-BONS/archmage streamer/cover.webp",
@@ -2769,7 +2790,7 @@
             "alt": "Image : Bad Ending Maker",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/bad ending maker/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3322,7 +3343,7 @@
             "alt": "Image : Genius Prismatic Mage",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/genius prismatic mage/banner2.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3331,7 +3352,10 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/4-BONS/genius prismatic mage/img1.webp",
+                "IMAGES/4-BONS/genius prismatic mage/img2.webp"
+              ],
               "adaptations": []
             }
           },
@@ -3427,7 +3451,7 @@
             "alt": "Image : Hero Killer",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/hero killer/bannière.webp",
+              "banner": "IMAGES/4-BONS/hero killer/banner3.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3617,7 +3641,7 @@
             "details": {
               "title": "",
               "banner": "IMAGES/4-BONS/i was the final boss/bannière.webp",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/i was the final boss/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -4365,7 +4389,9 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/4-BONS/pour ne pas mourir/img1.webp"
+              ],
               "adaptations": []
             }
           },
@@ -5604,8 +5630,8 @@
             "alt": "Image : Weapon Creator",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/4-BONS/weapon creator/banner1.webp",
+              "cover": "IMAGES/4-BONS/weapon creator/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5957,7 +5983,10 @@
                 }
               ],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/5-INTERMEDIAIRES/arena/img1.webp",
+                "IMAGES/5-INTERMEDIAIRES/arena/img2.webp"
+              ],
               "adaptations": ["Format papier en français"]
             }
           },
@@ -6284,7 +6313,7 @@
             "alt": "Image : Fated to be Loved by Villains",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/fated to be loved by villains/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8180,6 +8209,30 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Warble",
+            "aliases": ["Warble"],
+            "image": "IMAGES/5-INTERMEDIAIRES/warble/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Warble",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/warble/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [
+                "IMAGES/5-INTERMEDIAIRES/warble/img1.webp",
+                "IMAGES/5-INTERMEDIAIRES/warble/img2.webp"
+              ],
               "adaptations": []
             }
           },
