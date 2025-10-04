@@ -1,7 +1,19 @@
 [
     {
+        "name": "a-returner's-magic-should-be-special",
+        "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/a-returner's-magic-should-be-special.webp"
+    },
+    {
         "name": "eleceed",
         "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/eleceed.webp"
+    },
+    {
+        "name": "fff-class-trashero",
+        "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/fff-class-trashero.webp"
+    },
+    {
+        "name": "jungle-juice",
+        "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/jungle-juice.webp"
     },
     {
         "name": "latna-saga-survival-story-of-a-sword-king",
@@ -24,6 +36,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/solo-leveling.webp"
     },
     {
+        "name": "sss-class-revival-hunter",
+        "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/sss-class-revival-hunter.webp"
+    },
+    {
         "name": "the-beginning-after-the-end",
         "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/the-beginning-after-the-end.webp"
     },
@@ -34,6 +50,10 @@
     {
         "name": "the-legend-of-the-northern-blade",
         "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/the-legend-of-the-northern-blade.webp"
+    },
+    {
+        "name": "the-second-coming-of-gluttony",
+        "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/the-second-coming-of-gluttony.webp"
     },
     {
         "name": "tomb-raider-king",

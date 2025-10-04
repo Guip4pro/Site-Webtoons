@@ -3,7 +3,7 @@
         "json": "z-en-attente.json",
         "category": "Z-EN-ATTENTE",
         "relative_folder": ".",
-        "count": 8,
+        "count": 9,
         "path": "RESSOURCES/data-json/guess-webtoon-py/z-en-attente.json"
     },
     {
@@ -87,29 +87,36 @@
         "json": "cover-moyen.json",
         "category": "cover",
         "relative_folder": "moyen",
-        "count": 69,
+        "count": 70,
         "path": "RESSOURCES/data-json/guess-webtoon-py/cover-moyen.json"
     },
     {
         "json": "generations-2015-2016-2017.json",
         "category": "generations",
         "relative_folder": "2015-2016-2017",
-        "count": 15,
+        "count": 16,
         "path": "RESSOURCES/data-json/guess-webtoon-py/generations-2015-2016-2017.json"
     },
     {
         "json": "generations-2018-2019-2020.json",
         "category": "generations",
         "relative_folder": "2018-2019-2020",
-        "count": 10,
+        "count": 15,
         "path": "RESSOURCES/data-json/guess-webtoon-py/generations-2018-2019-2020.json"
     },
     {
         "json": "generations-2021-2022-2023.json",
         "category": "generations",
         "relative_folder": "2021-2022-2023",
-        "count": 7,
+        "count": 11,
         "path": "RESSOURCES/data-json/guess-webtoon-py/generations-2021-2022-2023.json"
+    },
+    {
+        "json": "generations-2024-2025-2026.json",
+        "category": "generations",
+        "relative_folder": "2024-2025-2026",
+        "count": 1,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/generations-2024-2025-2026.json"
     },
     {
         "json": "genre-academy-facile.json",
@@ -185,7 +192,7 @@
         "json": "genre-female-characters-moyen.json",
         "category": "genre",
         "relative_folder": "female-characters/moyen",
-        "count": 43,
+        "count": 44,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-female-characters-moyen.json"
     },
     {
@@ -208,6 +215,13 @@
         "relative_folder": "murim/moyen",
         "count": 2,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-murim-moyen.json"
+    },
+    {
+        "json": "genre-reincarnation-regression-moyen.json",
+        "category": "genre",
+        "relative_folder": "reincarnation-regression/moyen",
+        "count": 1,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-reincarnation-regression-moyen.json"
     },
     {
         "json": "genre-school-life.json",
@@ -248,7 +262,7 @@
         "json": "niveau-de-difficulte-difficile.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "difficile",
-        "count": 26,
+        "count": 27,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-difficile.json"
     },
     {
@@ -262,7 +276,7 @@
         "json": "niveau-de-difficulte-facile.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "facile",
-        "count": 23,
+        "count": 24,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-facile.json"
     },
     {
