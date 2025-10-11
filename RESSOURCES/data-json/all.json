@@ -513,7 +513,8 @@
               "IMAGES/2-EXCELLENTS/solo leveling/img5.avif",
               "IMAGES/2-EXCELLENTS/solo leveling/img6.avif",
               "IMAGES/2-EXCELLENTS/solo leveling/img7.avif",
-              "IMAGES/2-EXCELLENTS/solo leveling/img8.avif"
+              "IMAGES/2-EXCELLENTS/solo leveling/img8.avif",
+              "IMAGES/2-EXCELLENTS/solo leveling/video.mp4"
             ],
             "adaptations": [
               "format papier",
@@ -731,7 +732,7 @@
           "details": {
             "title": "Swordmaster's Youngest Son",
             "banner": "IMAGES/2-EXCELLENTS/the swordmaster's youngest son/bannière.avif",
-            "cover": "IMAGES/2-EXCELLENTS/the swordmaster's youngest son/cover2.avif",
+            "cover": "IMAGES/2-EXCELLENTS/the swordmaster's youngest son/cover2.webp",
             "alt": "Image de Swordmaster's Youngest Son",
             "type": "Manhwa",
             "genre": [
@@ -5507,7 +5508,7 @@
             "alt": "Image : Tyrant of the Tower Defense Game",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/tyrant of the tower defense game/banner.jwebppg",
+              "banner": "IMAGES/4-BONS/tyrant of the tower defense game/banner.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8989,7 +8990,7 @@
             "alt": "Image : Level 999 Goblin",
             "details": {
               "title": "",
-              "banner": "IMAGES/6-MOYENS/level 999 goblin/banner1.jpg",
+              "banner": "IMAGES/6-MOYENS/level 999 goblin/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -9871,12 +9872,12 @@
         ]
       },
       {
-        "name": "Caca supreme",
+        "name": "Poubelle",
         "webtoons": [
           {
             "title": "The Hero Starts Over the Academy",
             "aliases": ["Moto Tensai Eiyuu", "Academy de Yarinaosu"],
-            "image": "IMAGES/8-CACA SUPREME/the hero starts over the academy/cover.webp",
+            "image": "IMAGES/8-POUBELLE/the hero starts over the academy/cover.webp",
             "loading": "lazy",
             "alt": "The Hero Starts Over the Academy",
             "details": {
