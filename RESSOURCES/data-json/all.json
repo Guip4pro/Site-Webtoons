@@ -2184,7 +2184,7 @@
             "alt": "Image : The Extra's Academy Survival Guide",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/the extra's academy survival guide/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2680,14 +2680,14 @@
           },
           {
             "title": "Academy's Genius Swordmaster",
-            "aliases": ["Academy’s Genius Swordsman", "L'épéiste prodige de l'Académie", "The Academy's Genius Swordsman"],
+            "aliases": ["The Academy’s Genius Swordsman", "L'épéiste prodige de l'Académie", "The Academy's Genius Swordsman"],
             "image": "IMAGES/4-BONS/academy's genius swordmaster/cover.webp",
             "loading": "lazy",
             "alt": "Image : Academy's Genius Swordmaster",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/academy's genius swordmaster/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -3466,14 +3466,14 @@
             }
           },
           {
-            "title": "Hero Returns",
+            "title": "The Hero Returns",
             "aliases": ["The Hero Returns"],
             "image": "IMAGES/4-BONS/hero returns/cover.webp",
             "loading": "lazy",
             "alt": "Image : Hero Returns",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/hero returns/banner2.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3594,13 +3594,13 @@
           {
             "title": "I Grow Stronger By Eating",
             "aliases": ["Appétit Féroce", "Gewaltiger Hunger", "I Get Stronger the More I Eat", "Je deviens plus fort en mangeant !"],
-            "image": "IMAGES/4-BONS/i grow stronger by eating/cover.webp",
+            "image": "IMAGES/4-BONS/i grow stronger by eating/cover2.webp",
             "loading": "lazy",
             "alt": "Image : I Grow Stronger By Eating",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/i grow stronger by eating/cover.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5356,7 +5356,7 @@
             "alt": "Image : The Max Level Hero Has Returned",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/the max level hero has returned/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -7181,7 +7181,7 @@
             "alt": "Image : My Daughter Is The Final Boss",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/my daughter is the final boss/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -7801,7 +7801,7 @@
             "alt": "Image : The Book of Lagier",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/the book of lagier/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8285,14 +8285,14 @@
         "name": "Moyens",
         "webtoons": [
           {
-            "title": "Adorée des Villains",
-            "aliases": ["Adored by Villains", "My Villainous Family Won't Let Me Be"],
+            "title": "My Villainous Family Won't Let Me Be",
+            "aliases": ["Adored by Villains", "Adorée des Villains"],
             "image": "IMAGES/6-MOYENS/adorée des villains/cover.webp",
             "loading": "lazy",
             "alt": "Image : Adorée des Villains",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/adorée des villains/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8691,7 +8691,7 @@
             "alt": "Image : I'm the Queen in This Life",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/i'm the queen in this life/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -9047,13 +9047,13 @@
           },
           {
             "title": "L'Impératrice Remariée",
-            "aliases": ["The Remarried Empress"],
+            "aliases": ["The Remarried Empress", "L'Impératrice Remariée", "L'Imperatrice remariee"],
             "image": "IMAGES/6-MOYENS/l'imperatrice remariee/cover.webp",
             "loading": "lazy",
             "alt": "Image : L'Impératrice Remariée",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/l'imperatrice remariee/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -9550,14 +9550,14 @@
             }
           },
           {
-            "title": "Une Famille pour Moi",
-            "aliases": ["Can We Become a Family?", "Family Is Needed", "How We Become A Family?"],
-            "image": "IMAGES/6-MOYENS/une famille pour moi/cover.webp",
+            "title": "How We Become A Family?",
+            "aliases": ["Can We Become a Family?", "Family Is Needed", "Une Famille pour Moi"],
+            "image": "IMAGES/6-MOYENS/une famille pour moi/cover2.webp",
             "loading": "lazy",
             "alt": "Image : Une Famille pour Moi",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/une famille pour moi/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -9594,13 +9594,13 @@
           {
             "title": "Yeon Lokheun",
             "aliases": ["His Majesty Secret Heroine", "His Majesty's Secret Heroine"],
-            "image": "IMAGES/6-MOYENS/yeon lokheun/cover.webp",
+            "image": "IMAGES/6-MOYENS/yeon lokheun/cover2.webp",
             "loading": "lazy",
             "alt": "Image : Yeon Lokheun",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/6-MOYENS/yeon lokheun/banner2.webp",
+              "cover": "IMAGES/6-MOYENS/yeon lokheun/cover1.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -9709,7 +9709,7 @@
             "alt": "Image : Je suis la précieuse fille du roi démon",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/7-ENNUYANTS/je suis la précieuse fille du roi démon/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
