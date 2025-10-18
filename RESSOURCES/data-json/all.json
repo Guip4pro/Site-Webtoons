@@ -3318,13 +3318,13 @@
           {
             "title": "Genius Assassin Who Takes It All",
             "aliases": ["Honja Da Hae Meongneun Cheonjae Amsalja", "The Genius Assassin Who Eats All By Himself", "The Genius Assassin Who Eats Everything", "The Genius Assassin Who Eats Everything Alone"],
-            "image": "IMAGES/4-BONS/genius assassin who takes it all/cover.webp",
+            "image": "IMAGES/4-BONS/genius assassin who takes it all/cover2.webp",
             "loading": "lazy",
             "alt": "Image : Genius Assassin Who Takes It All",
             "details": {
               "title": "",
               "banner": "IMAGES/4-BONS/genius assassin who takes it all/banner1.webp",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/genius assassin who takes it all/cover.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -3731,7 +3731,7 @@
             "alt": "Image : I'm Not That Kind of Talent",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/i'm not that kind of talent/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3752,7 +3752,7 @@
             "alt": "Image : In The Night Consumed By Blades",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/in the night consumed by blades/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4297,7 +4297,7 @@
             "alt": "Image : Nebula's Civilization",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/nebula's civilization/banner1.webp",
               "cover": "IMAGES/4-BONS/nebula's civilization/cover2.avif",
               "alt": "",
               "type": "",
@@ -5891,13 +5891,13 @@
           {
             "title": "Adoptée Par La Famille Des Assassins",
             "aliases": ["Adopted by a Murderous Duke Family"],
-            "image": "IMAGES/5-INTERMEDIAIRES/adoptee par la famille des assassins/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/adoptee par la famille des assassins/cover2.webp",
             "loading": "lazy",
             "alt": "Image : Adoptée Par La Famille Des Assassins",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/adoptee par la famille des assassins/banner1.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/adoptee par la famille des assassins/cover.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -8245,7 +8245,7 @@
             "alt": "Image : White Blood",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/white blood/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8369,14 +8369,14 @@
             }
           },
           {
-            "title": "Charlotte et ses 5 Disciples",
-            "aliases": ["Charlotte Has Five Disciples", "Charlotte and Her 5 Disciples", "Charlotte And Her Five Disciples"],
+            "title": "Charlotte and Her 5 Disciples",
+            "aliases": ["Charlotte Has Five Disciples", "Charlotte et ses 5 Disciples", "Charlotte And Her Five Disciples"],
             "image": "IMAGES/6-MOYENS/charlotte et ses 5 disciples/cover.webp",
             "loading": "lazy",
             "alt": "Image : Charlotte et ses 5 Disciples",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/charlotte et ses 5 disciples/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8413,13 +8413,13 @@
           {
             "title": "Child of the Sheath",
             "aliases": ["The Sword Sheath's Child", "Anak dari Rumah Pedang", "Anak Pedang", "Child of Scabbard", "Child of the House of Blades", "Child of the Sheath", "Galjib'eui Ai", "Kenshou no Ko"],
-            "image": "IMAGES/6-MOYENS/child of the sheath/cover.webp",
+            "image": "IMAGES/6-MOYENS/child of the sheath/cover2.webp",
             "loading": "lazy",
             "alt": "Image : Child of the Sheath",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/6-MOYENS/child of the sheath/banner1.webp",
+              "cover": "IMAGES/6-MOYENS/child of the sheath/cover.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -8628,8 +8628,8 @@
             "alt": "Image : I Failed to Abandon the Villain",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/6-MOYENS/i failed to abandon the villain/banner1.avif",
+              "cover": "IMAGES/6-MOYENS/i failed to abandon the villain/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -8637,7 +8637,9 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/6-MOYENS/i failed to abandon the villain/img1.avif"
+              ],
               "adaptations": []
             }
           },
@@ -8747,8 +8749,8 @@
             }
           },
           {
-            "title": "Je Souhaite Mourir",
-            "aliases": ["Hoping to Die", "I Hope to Die", "I Wish to Die, Please", "Hoping for My Death"],
+            "title": "I Hope to Die",
+            "aliases": ["Hoping to Die", "Je Souhaite Mourir", "I Wish to Die, Please", "Hoping for My Death"],
             "image": "IMAGES/6-MOYENS/je souhaite mourir/cover.webp",
             "loading": "lazy",
             "alt": "Image : Je Souhaite Mourir",
@@ -8815,8 +8817,8 @@
             }
           },
           {
-            "title": "La Mariée du roi Dragon",
-            "aliases": ["The Dragon King's Bride", "Predatory Bride", "Kidnapped Bride"],
+            "title": "The Dragon King's Bride",
+            "aliases": ["La Mariée du roi Dragon", "Predatory Bride", "Kidnapped Bride"],
             "image": "IMAGES/6-MOYENS/la mariee du roi dragon/cover.webp",
             "loading": "lazy",
             "alt": "Image : La Mariée du roi Dragon",
@@ -8843,8 +8845,8 @@
             "alt": "Image : La Petite Princesse Bien-Aimée",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/6-MOYENS/la petite princesse bien-aimée/banner1.webp",
+              "cover": "IMAGES/6-MOYENS/la petite princesse bien-aimée/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -8899,15 +8901,15 @@
             }
           },
           {
-            "title": "La Vraie C'est Moi",
-            "aliases": ["Actually, I Was the Real One ", "I Am the Real One"],
-            "image": "IMAGES/6-MOYENS/la vraie c'est moi/cover.webp",
+            "title": "I Am the Real One",
+            "aliases": ["Actually, I Was the Real One", "La Vraie C'est Moi"],
+            "image": "IMAGES/6-MOYENS/la vraie c'est moi/cover2.webp",
             "loading": "lazy",
             "alt": "Image : La Vraie C'est Moi",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/6-MOYENS/la vraie c'est moi/banner1.webp",
+              "cover": "IMAGES/6-MOYENS/la vraie c'est moi/cover.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -9600,7 +9602,7 @@
             "details": {
               "title": "",
               "banner": "IMAGES/6-MOYENS/yeon lokheun/banner2.webp",
-              "cover": "IMAGES/6-MOYENS/yeon lokheun/cover1.webp",
+              "cover": "IMAGES/6-MOYENS/yeon lokheun/cover.webp",
               "alt": "",
               "type": "",
               "genre": [],
