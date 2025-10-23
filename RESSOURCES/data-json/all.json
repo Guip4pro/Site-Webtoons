@@ -2105,7 +2105,7 @@
             "details": {
               "title": "",
               "banner": "IMAGES/3-TRES BONS/the academy’s sashimi sword master/banner.webp",
-              "cover": "",
+              "cover": "IMAGES/3-TRES BONS/the academy’s sashimi sword master/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -2644,7 +2644,7 @@
             "alt": "Image : Absolute Necromancer",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/absolute necromancer/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2854,8 +2854,8 @@
             "alt": "Image : Boundless Necromancer",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/4-BONS/boundless necromancer/banner1.webp",
+              "cover": "IMAGES/4-BONS/boundless necromancer/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5717,7 +5717,7 @@
             "alt": "Image : Why I Quit Being the Demon King",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/why i quit being the demon king/bannière.webp",
+              "banner": "IMAGES/4-BONS/why i quit being the demon king/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
