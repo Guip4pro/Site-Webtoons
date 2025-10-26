@@ -1730,7 +1730,7 @@
             "alt": "Image : Priest of Corruption",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/priest of corruption/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1958,7 +1958,7 @@
             "alt": "Image : Second Life Ranker",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/second life ranker/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2040,12 +2040,12 @@
           {
             "title": "Standard of Reincarnation",
             "aliases": ["Estándar de la Reencarnación", "The Art of Reincarnation", "The Essence of Reincarnation"],
-            "image": "IMAGES/3-TRES BONS/standard of reincarnation/cover.webp",
+            "image": "IMAGES/3-TRES BONS/standard of reincarnation/cover1.webp",
             "alt": "Image : Standard of Reincarnation",
             "details": {
               "title": "",
               "banner": "IMAGES/3-TRES BONS/standard of reincarnation/banner1.webp",
-              "cover": "",
+              "cover": "IMAGES/3-TRES BONS/standard of reincarnation/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -2064,7 +2064,7 @@
             "alt": "Image : Superhuman Battlefield",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/superhuman battlefield/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2770,7 +2770,7 @@
             "alt": "Image : Auto-Hunting With My Clones",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/auto-hunting with my clones/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3007,8 +3007,8 @@
             "alt": "Image : Demon Lord's Martial Arts Ascension",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/4-BONS/demon lord's martial arts ascension/banner1.webp",
+              "cover": "IMAGES/4-BONS/demon lord's martial arts ascension/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -3208,6 +3208,29 @@
               "adaptations": [
                 "Version papier"
               ]
+            }
+          },
+          {
+            "title": "Eat Before You Go",
+            "aliases": ["Eat and Go", "Eat & Go", "Eat and Leave", "Eat Before You Go", "Eat Then Leave", "Have a Meal Before You Go", "The Demon Slayer's Restaurant"],
+            "image": "IMAGES/4-BONS/eat before you go/cover1.webp",
+            "alt": "Image : Dungeon Reset",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/eat before you go/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [
+                "IMAGES/4-BONS/eat before you go/img1.webp",
+                "IMAGES/4-BONS/eat before you go/img2.webp"
+              ],
+              "adaptations": []
             }
           },
           {
@@ -3657,7 +3680,7 @@
           {
             "title": "I'll Be the Matriarch in This Life",
             "aliases": ["I Shall Master This Family", "I Will Become the Mistress of This Life", "La nouvelle cheffe de clan", " I'll Become the Head of the Family", " Sere la Matriarca en esta Vida"],
-            "image": "IMAGES/4-BONS/i'll be the matriarch in this life/cover.webp",
+            "image": "IMAGES/4-BONS/i'll be the matriarch in this life/cover1.webp",
             "loading": "lazy",
             "alt": "Image : I'll Be the Matriarch in This Life",
             "details": {
@@ -3964,27 +3987,6 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Level up Alone",
-            "aliases": [],
-            "image": "IMAGES/4-BONS/level up alone/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : Leveling up Alone",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/4-BONS/level up alone/bannière.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4567,13 +4569,13 @@
           {
             "title": "Reincarnation of the Fist King",
             "aliases": [],
-            "image": "IMAGES/4-BONS/reincarnation of the fist king/cover.avif",
+            "image": "IMAGES/4-BONS/reincarnation of the fist king/cover1.avif",
             "loading": "lazy",
             "alt": "Image : Reincarnation of the Fist King",
             "details": {
               "title": "",
               "banner": "IMAGES/4-BONS/reincarnation of the fist king/banner1.avif",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/reincarnation of the fist king/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -6903,13 +6905,34 @@
           {
             "title": "Legendary Hero is an Academy Honors Student",
             "aliases": [],
-            "image": "IMAGES/5-INTERMEDIAIRES/legendary hero is an academy honors student/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/legendary hero is an academy honors student/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Legendary Hero is an Academy Honors Student",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/legendary hero is an academy honors student/banner1.webp",
               "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Level up Alone",
+            "aliases": ["Leveling Up Alone", "Alone I Level Up"],
+            "image": "IMAGES/5-INTERMEDIAIRES/level up alone/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Leveling up Alone",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/level up alone/bannière.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/level up alone/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -8195,7 +8218,7 @@
           {
             "title": "Volcanic Age",
             "aliases": [" Mount Hua Reincarnation", "Volcanic Era", "Hwasan age"],
-            "image": "IMAGES/5-INTERMEDIAIRES/volcanic age/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/volcanic age/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Volcanic Age",
             "details": {
@@ -8294,6 +8317,27 @@
               "title": "",
               "banner": "IMAGES/6-MOYENS/adorée des villains/banner1.webp",
               "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Adventures of God",
+            "aliases": ["Adventures of Gods", "The God and Adventures"],
+            "image": "IMAGES/6-MOYENS/adventures of god/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Adorée des Villains",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/6-MOYENS/adventures of god/banner1.webp",
+              "cover": "IMAGES/6-MOYENS/adventures of god/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -9573,15 +9617,15 @@
             }
           },
           {
-            "title": "Une Réincarnation Presque Ordinaire",
-            "aliases": ["I Thought It's a Common Possession", "I Thought It Was a Common Transmigration", "Not Your Typical Isekai Story", "Not Your Typical Reincarnation Story"],
+            "title": "Not Your Typical Reincarnation Story",
+            "aliases": ["I Thought It's a Common Possession", "I Thought It Was a Common Transmigration", "Not Your Typical Isekai Story", "Une Réincarnation Presque Ordinaire"],
             "image": "IMAGES/6-MOYENS/une réincarnation presque ordinaire/cover.webp",
             "loading": "lazy",
             "alt": "Image : Une Réincarnation Presque Ordinaire",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/6-MOYENS/une réincarnation presque ordinaire/banner1.webp",
+              "cover": "IMAGES/6-MOYENS/une réincarnation presque ordinaire/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -9589,7 +9633,16 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/6-MOYENS/une réincarnation presque ordinaire/img1.webp",
+                "IMAGES/6-MOYENS/une réincarnation presque ordinaire/img2.webp",
+                "IMAGES/6-MOYENS/une réincarnation presque ordinaire/img3.webp",
+                "IMAGES/6-MOYENS/une réincarnation presque ordinaire/img4.webp",
+                "IMAGES/6-MOYENS/une réincarnation presque ordinaire/img5.webp",
+                "IMAGES/6-MOYENS/une réincarnation presque ordinaire/img6.webp",
+                "IMAGES/6-MOYENS/une réincarnation presque ordinaire/img7.webp",
+                "IMAGES/6-MOYENS/une réincarnation presque ordinaire/img8.webp"
+              ],
               "adaptations": []
             }
           },
