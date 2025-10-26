@@ -4971,13 +4971,13 @@
           },
           {
             "title": "Talent-Swallowing Magician",
-            "aliases": ["Demon Devourer", "El Mago Devorador de Talentos", "Le Dévoreur de démons", "Talent Swallowing Magician", "The Mage Who Absorbs Abilities"],
-            "image": "IMAGES/4-BONS/talent-swallowing magician/cover.webp",
+            "aliases": ["Demon Devourer", "Talent Swallowing Magician", "El Mago Devorador de Talentos", "Le Dévoreur de démons", "Talent Swallowing Magician", "The Mage Who Absorbs Abilities"],
+            "image": "IMAGES/4-BONS/talent-swallowing magician/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Talent-Swallowing Magician",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/talent-swallowing magician/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5437,12 +5437,12 @@
           {
             "title": "The Tutorial Is Too Hard",
             "aliases": ["The Tutorial is Too Tough", "The Tutorial is Too Hard!"],
-            "image": "IMAGES/4-BONS/the tutorial is too hard/cover.avif",
+            "image": "IMAGES/4-BONS/the tutorial is too hard/cover1.avif",
             "alt": "Image : The Tutorial Is Too Hard",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/4-BONS/the tutorial is too hard/banner1.avif",
+              "cover": "IMAGES/4-BONS/the tutorial is too hard/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5675,7 +5675,7 @@
             "alt": "Image : What a Bountiful Harvest Demon Lord",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/what a bountiful harvest demon lord/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5994,8 +5994,8 @@
             }
           },
           {
-            "title": "Belle-mère en Mode Survie",
-            "aliases": ["Living as the Villain's Stepmother", "It's So Easy to Avoid Death", "The Evil Stepmother Lives On", "I'm a Stepmother, It's So Easy to Avoid Death"],
+            "title": "Living as the Villain's Stepmother",
+            "aliases": ["Belle-mère en Mode Survie", "It's So Easy to Avoid Death", "The Evil Stepmother Lives On", "I'm a Stepmother, It's So Easy to Avoid Death"],
             "image": "IMAGES/5-INTERMEDIAIRES/belle-mère en mode survie/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Belle-mère en Mode Survie",
@@ -6120,8 +6120,8 @@
             }
           },
           {
-            "title": "Comment Cacher le Fils de l'Empereur",
-            "aliases": ["How to Hide the Emperor's Child"],
+            "title": "How to Hide the Emperor's Child",
+            "aliases": ["Comment Cacher le Fils de l'Empereur", "How to Hide the Emperor's Son4"],
             "image": "IMAGES/5-INTERMEDIAIRES/comment cacher le fils de l'empereur/cover.webp",
             "loading": "lazy",
             "alt": "Image : Comment Cacher le Fils de l'Empereur",
@@ -6142,13 +6142,13 @@
           },
           {
             "title": "Demon Evolution",
-            "aliases": ["Demonic Evolution", "Me, Evolution, and the Demons"],
+            "aliases": ["Demonic Evolution", "Me, Evolution, and the Demons", "Le Diable ne Pleure Jamais"],
             "image": "IMAGES/5-INTERMEDIAIRES/demon evolution/cover.webp",
             "loading": "lazy",
             "alt": "Image : Demon Evolution",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/demon evolution/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -6290,13 +6290,13 @@
           {
             "title": "Existence",
             "aliases": ["La Existencia", "Reason to Live"],
-            "image": "IMAGES/5-INTERMEDIAIRES/existence/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/existence/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Existence",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/5-INTERMEDIAIRES/existence/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -6521,7 +6521,7 @@
           {
             "title": "Holy Emperor's Grandson Is A Necromancer",
             "aliases": ["Grandson of the Holy Emperor is a Necromance", "Reincarned In A Youngest Prince Necromancer"],
-            "image": "IMAGES/5-INTERMEDIAIRES/holy emperor's grandson is a necromancer/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/holy emperor's grandson is a necromancer/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Holy Emperor's Grandson Is A Necromancer",
             "details": {
@@ -6658,7 +6658,7 @@
             "alt": "Image : I Become The Villain's Poison Taster",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/i will become the villain's poison taster/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -6735,15 +6735,15 @@
             }
           },
           {
-            "title": "L'Étoile Écarlate",
-            "aliases": ["Star of the Overlord", "The King's Star", "The Star of an Autocrat", "The Supreme Ruler's Starhe Scarlet Star", "The Star of a Supreme Ruler"],
-            "image": "IMAGES/5-INTERMEDIAIRES/l'étoile écarlate/cover.webp",
+            "title": "Star of the Overlord",
+            "aliases": ["L'Étoile Écarlate", "The King's Star", "The Star of an Autocrat", "The Supreme Ruler's Starhe Scarlet Star", "The Star of a Supreme Ruler"],
+            "image": "IMAGES/5-INTERMEDIAIRES/l'étoile écarlate/cover1.webp",
             "loading": "lazy",
             "alt": "Image : L'Étoile Écarlate",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/l'étoile écarlate/banner1.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/l'étoile écarlate/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -6798,14 +6798,14 @@
             }
           },
           {
-            "title": "La Princesse Cette Fleur Sauvage",
-            "aliases": ["La Princesse, Cette Fleur Sauvage", "Princess Blooms as a Crazy Flower", "Princess Blooms as a Mad Flower", "Princess Blooms into a Crazy Flower"],
-            "image": "IMAGES/5-INTERMEDIAIRES/la princesse cette fleur sauvage/cover.webp",
+            "title": "Melody : The Crazy Flower Blooms",
+            "aliases": ["La Princesse, Cette Fleur Sauvage", "Melody : The Crazy Flower Princess", "Melody : Princess Blooms as a Crazy Flower", "Melody : The Princess Blooms as a Mad Flower", "Melody Princess Blooms into a Crazy Flower"],
+            "image": "IMAGES/5-INTERMEDIAIRES/la princesse cette fleur sauvage/cover1.webp",
             "loading": "lazy",
             "alt": "Image : La Princesse, Cette Fleur Sauvage",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/la princesse cette fleur sauvage/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -6819,15 +6819,15 @@
             }
           },
           {
-            "title": "La Princesse Maléfique",
-            "aliases": ["The Wicked Little Princess", "The Evil Princess", "The Princess Is Evil"],
-            "image": "IMAGES/5-INTERMEDIAIRES/la princesse maléfique/cover.webp",
+            "title": "The Wicked Little Princess",
+            "aliases": ["La Princesse Maléfique", "The Evil Princess", "The Princess Is Evil"],
+            "image": "IMAGES/5-INTERMEDIAIRES/la princesse maléfique/cover1.webp",
             "loading": "lazy",
             "alt": "Image : La Princesse Maléfique",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/la princesse maléfique/banner1.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/la princesse maléfique/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -6840,15 +6840,15 @@
             }
           },
           {
-            "title": "l'Age de l'Arrogance",
-            "aliases": ["The Age of Arrogance", "The Era of Pride", "The Age of Pride", "City of Arrogance"],
-            "image": "IMAGES/5-INTERMEDIAIRES/l'age de l'arrogance/cover.webp",
+            "title": "The Age of Arrogance",
+            "aliases": ["l'Age de l'Arrogance", "The Era of Pride", "The Age of Pride", "City of Arrogance"],
+            "image": "IMAGES/5-INTERMEDIAIRES/l'age de l'arrogance/cover1.webp",
             "loading": "lazy",
             "alt": "Image : l'Age de l'Arrogance",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/l'age de l'arrogance/banner1.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/l'age de l'arrogance/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -6869,7 +6869,7 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "IMAGES/5-INTERMEDIAIRES/le démon du mont hua/cover.webp",
+              "cover": "",
               "alt": "",
               "type": "",
               "genre": [],
@@ -7430,12 +7430,12 @@
           {
             "title": "Release That Witch",
             "aliases": ["Release the Witch", "Fang Kai Na Ge Nu Wu", "Relâchez cette sorcière"],
-            "image": "IMAGES/5-INTERMEDIAIRES/release that witch/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/release that witch/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Release That Witch",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/release that witch/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -7635,7 +7635,7 @@
             "alt": "Image : SSS-Class Gacha Hunter",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/sss-class gacha hunter/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -7714,13 +7714,13 @@
           {
             "title": "Surviving as a Barbarian in a Fantasy World",
             "aliases": ["A Barbarian's Adventure in a Fantasy World"],
-            "image": "IMAGES/5-INTERMEDIAIRES/surviving as a barbarian in a fantasy world/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/surviving as a barbarian in a fantasy world/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Surviving as a Barbarian in a Fantasy World",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/5-INTERMEDIAIRES/surviving as a barbarian in a fantasy world/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -7777,13 +7777,13 @@
           {
             "title": "The Academy's Genius Tamer",
             "aliases": ["The Genius Tamer of the Academy"],
-            "image": "IMAGES/5-INTERMEDIAIRES/the academy's genius tamer/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/the academy's genius tamer/cover1.webp",
             "loading": "lazy",
             "alt": "Image : The Academy's Genius Tamer",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/the academy's genius tamer/banner1.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/the academy's genius tamer/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -8034,7 +8034,7 @@
             "alt": "Image : The S-Classes That I Raised",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/the s-classes that i raised/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8378,7 +8378,7 @@
             "alt": "Image : Berserk of Gluttony",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/berserk of gluttony/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8392,14 +8392,14 @@
             }
           },
           {
-            "title": "Ce Mariage est Raté",
-            "aliases": [],
-            "image": "IMAGES/6-MOYENS/ce mariage est raté/cover.webp",
+            "title": "I Think I Married the Wrong Guy",
+            "aliases": ["I Think I Married the Wrong Person", "Ce Mariage est Raté"],
+            "image": "IMAGES/6-MOYENS/ce mariage est raté/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Ce Mariage est Raté",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/ce mariage est raté/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8772,15 +8772,15 @@
             }
           },
           {
-            "title": "J'ai Élevé un Servant Obsessif",
-            "aliases": ["The Rise of an Obsessive Servant", "I Raised an Obsessive Servant", "My Ray of Hope"],
-            "image": "IMAGES/6-MOYENS/j'ai élevé un servant obsessif/cover.webp",
+            "title": "My Ray of Hope",
+            "aliases": ["The Rise of an Obsessive Servant", "I Raised an Obsessive Servant", "J'ai Élevé un Servant Obsessif"],
+            "image": "IMAGES/6-MOYENS/j'ai élevé un servant obsessif/cover2.webp",
             "loading": "lazy",
             "alt": "Image : J'ai Élevé un Servant Obsessif",
             "details": {
               "title": "I Raised an Obsessive Servant",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/6-MOYENS/j'ai élevé un servant obsessif/banner1.webp",
+              "cover": "IMAGES/6-MOYENS/j'ai élevé un servant obsessif/cover1.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -8795,7 +8795,7 @@
           {
             "title": "I Hope to Die",
             "aliases": ["Hoping to Die", "Je Souhaite Mourir", "I Wish to Die, Please", "Hoping for My Death"],
-            "image": "IMAGES/6-MOYENS/je souhaite mourir/cover.webp",
+            "image": "IMAGES/6-MOYENS/je souhaite mourir/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Je Souhaite Mourir",
             "details": {
@@ -8882,8 +8882,8 @@
             }
           },
           {
-            "title": "La Petite Princesse Bien-Aimée",
-            "aliases": ["The Beloved Little Princess", "The Youngest Princess"],
+            "title": "The Beloved Little Princess",
+            "aliases": ["La Petite Princesse Bien-Aimée", "The Youngest Princess"],
             "image": "IMAGES/6-MOYENS/la petite princesse bien-aimée/cover.webp",
             "loading": "lazy",
             "alt": "Image : La Petite Princesse Bien-Aimée",
@@ -8987,8 +8987,8 @@
             }
           },
           {
-            "title": "Les Chroniques du Disciple Dragon",
-            "aliases": ["The Chronicles of the Dragon Disciple", "Immortal Martial Emperor Venerable", "Banished Disciple's Counterattack"],
+            "title": "Chronicles of the Dragon Disciple",
+            "aliases": ["Les Chroniques du Disciple Dragon", "The Chronicles of the Dragon Disciple", "Immortal Martial Emperor Venerable", "Banished Disciple's Counterattack"],
             "image": "IMAGES/6-MOYENS/les chroniques du disciple dragon/cover.webp",
             "loading": "lazy",
             "alt": "Image : Les Chroniques du Disciple Dragon",
@@ -9071,15 +9071,15 @@
             }
           },
           {
-            "title": "L'Impératrice de l'Ombre",
-            "aliases": ["Shadow Queen", "La Reina de Las Sombras", "Queen in the Shadows", "Queen of the Shadows", "Shadow Empress"],
-            "image": "IMAGES/6-MOYENS/l'impératrice de l'ombre/cover.webp",
+            "title": "Shadow Queen",
+            "aliases": ["L'Impératrice de l'Ombre", "La Reina de Las Sombras", "Queen in the Shadows", "Queen of the Shadows", "Shadow Empress"],
+            "image": "IMAGES/6-MOYENS/l'impératrice de l'ombre/cover1.webp",
             "loading": "lazy",
             "alt": "Image : L'Impératrice de l'Ombre",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/6-MOYENS/l'impératrice de l'ombre/banner1.webp",
+              "cover": "IMAGES/6-MOYENS/l'impératrice de l'ombre/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -9577,12 +9577,12 @@
           {
             "title": "The Ranker's Guide to Live an Ordinary Life",
             "aliases": ["A Guide to the Right Life for Rankers", "A Ranker's Guide to the Good Life", "Le Guide Du Ranker Pour Vivre une Vie Ordinaire"],
-            "image": "IMAGES/6-MOYENS/the rankers guide to live an ordinary life/cover.webp",
+            "image": "IMAGES/6-MOYENS/the rankers guide to live an ordinary life/cover1.webp",
             "loading": "lazy",
             "alt": "Image : The Ranker's Guide to Live an Ordinary Life",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/the rankers guide to live an ordinary life/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
