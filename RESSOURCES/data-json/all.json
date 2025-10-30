@@ -959,7 +959,7 @@
             "alt": "Image : Chronicles of the Demon Faction",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/chronicles of the demon faction/banner1.webp",
+              "banner": "IMAGES/3-TRES BONS/chronicles of the demon faction/banner2.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1460,14 +1460,14 @@
             }
           },
           {
-            "title": "Le Sens de l'Épée",
-            "aliases": ["Absolute Sword Sense"],
+            "title": "Absolute Sword Sense",
+            "aliases": ["Le Sens de l'Epée", "The Sense of the Sword", "El espadachín absoluto", "Jeoldaegeomgam", "Perfect Sword Sense"],
             "image": "IMAGES/3-TRES BONS/le sens de l'épée/covergif.gif",
             "alt": "Image : Le Sens de l'Épée",
             "details": {
               "title": "",
               "banner": "IMAGES/3-TRES BONS/le sens de l'épée/banner.webp",
-              "cover": "IMAGES/3-TRES BONS/le sens de l'épée/cover.webp",
+              "cover": "IMAGES/3-TRES BONS/le sens de l'épée/cover1.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -1512,26 +1512,6 @@
               "type": "",
               "genre": [],
               "status": "Terminé",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Leveling Up with the Gods",
-            "aliases": ["Level Up With the Gods", "Leveling With the Gods"],
-            "image": "IMAGES/3-TRES BONS/leveling up with the gods/cover.webp",
-            "alt": "Image : Leveling Up with the Gods",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/3-TRES BONS/leveling up with the gods/bannière.avif",
-              "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -2412,7 +2392,7 @@
             "alt": "Image : The Villain Wants to Live",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/the villain wants to live/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2438,6 +2418,27 @@
               "alt": "",
               "type": "",
               "genre": ["Dépression"],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "There are no Bad Warriors in this World",
+            "aliases": ["There Are No Bad Heroes in This World", "There Are No Bad Warriors in The World", "There’s No Such Thing as a Bad Hero in the World"],
+            "image": "IMAGES/3-TRES BONS/there are no bad warriors in this world/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : There are no Bad Warriors in this World",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/3-TRES BONS/there are no bad warriors in this world/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
               "status": "",
               "chapters": "",
               "sites": [],
@@ -3133,7 +3134,7 @@
             "alt": "Image : Dragon-Devouring Mage",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/dragon-devouring mage/banner1.webp",
               "cover": "IMAGES/4-BONS/dragon-devouring mage/cover2.avif",
               "alt": "",
               "type": "",
@@ -3177,6 +3178,27 @@
               "title": "",
               "banner": "IMAGES/4-BONS/duke pendragon/banner1.webp",
               "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Dungeon Crawler Carl",
+            "aliases": ["Dungeon Explorer Carl", "Dungeon Raker Carl", "Dungeon Scavenger Carl"],
+            "image": "IMAGES/4-BONS/dungeon crawler carl/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Dungeon Crawler Carl",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/dungeon crawler carl/banner1.webp",
+              "cover": "IMAGES/4-BONS/dungeon crawler carl/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -3420,29 +3442,6 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Hand Over The Money",
-            "aliases": ["Give Me Money", "Give Me The Money"],
-            "image": "IMAGES/4-BONS/hand over the money/cover.avif",
-            "loading": "lazy",
-            "alt": "Image : Hand Over The Money",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [
-                "IMAGES/4-BONS/hand over the money/img1.webp"
-              ],
               "adaptations": []
             }
           },
@@ -3998,6 +3997,25 @@
               "previewImages": [],
               "adaptations": []
             }
+          },{
+            "title": "Leveling Up with the Gods",
+            "aliases": ["Level Up With the Gods", "Leveling With the Gods"],
+            "image": "IMAGES/4-BONS/leveling up with the gods/cover.webp",
+            "alt": "Image : Leveling Up with the Gods",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/leveling up with the gods/bannière.avif",
+              "cover": "IMAGES/4-BONS/leveling up with the gods/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
           },
           {
             "title": "Leveling Up With The Sword",
@@ -4401,13 +4419,13 @@
           {
             "title": "Re: Life Player",
             "aliases": ["不死身の狂戦士の回帰", "Relife Player "],
-            "image": "IMAGES/4-BONS/re life player/cover.avif",
+            "image": "IMAGES/4-BONS/re life player/cover2.webp",
             "loading": "lazy",
             "alt": "Image : Re: Life Player",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/re life player/cover.avif",
               "alt": "",
               "type": "",
               "genre": [],
@@ -4469,7 +4487,7 @@
             "alt": "Image : Regressed Mercenary's Machinations",
             "details": {
               "title": "Regressed Mercenary's Machination",
-              "banner": "IMAGES/4-BONS/regressed mercenary's machination/banner1.webp",
+              "banner": "IMAGES/4-BONS/regressed mercenary's machination/banner2.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5779,7 +5797,28 @@
               "previewImages": [],
               "adaptations": []
             }
-          }        
+          },
+          {
+            "title": "Zombie Dad",
+            "aliases": ["Zombie Papa", "Zombie Father"],
+            "image": "IMAGES/4-BONS/zombie dad/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Zombie Dad",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          }
         ]
       },
       {
@@ -6372,6 +6411,29 @@
             }
           },
           {
+            "title": "Hand Over The Money",
+            "aliases": ["Give Me Money", "Give Me The Money"],
+            "image": "IMAGES/5-INTERMEDIAIRES/hand over the money/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Hand Over The Money",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [
+                "IMAGES/5-INTERMEDIAIRES/hand over the money/img1.webp"
+              ],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Hardcore Leveling Warrior",
             "aliases": [],
             "image": "IMAGES/5-INTERMEDIAIRES/hardcore leveling warrior/cover.webp",
@@ -6632,7 +6694,7 @@
           {
             "title": "I Regressed To My Ruined Family",
             "aliases": ["When I Returned Home, My Family Was Ruined", "The Fallen House of Ardan"],
-            "image": "IMAGES/5-INTERMEDIAIRES/i regressed to my ruined family/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/i regressed to my ruined family/cover1.webp",
             "loading": "lazy",
             "alt": "Image : I Regressed To My Ruined Family",
             "details": {
@@ -9302,15 +9364,15 @@
             }
           },
           {
-            "title": "Princesse Faucon",
-            "aliases": ["The Falcon Princess", "Carrier Falcon Princess"],
-            "image": "IMAGES/6-MOYENS/princesse faucon/cover.webp",
+            "title": "The Falcon Princess",
+            "aliases": ["La Princesse Faucon", "Carrier Falcon Princess"],
+            "image": "IMAGES/6-MOYENS/princesse faucon/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Princesse Faucon",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/6-MOYENS/princesse faucon/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -9540,7 +9602,7 @@
             "alt": "Image : The Gamer",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/the gamer/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -9715,9 +9777,9 @@
             }
           },
           {
-            "title": "Divorcée mais pleine aux as",
-            "aliases": ["I'm Divorced, but I'm a Chaebol", "The Millionaire Divorcee", "I Got Divorced, but I'm Rich", "I Got Divorced, but I'm a Conglomerate"],
-            "image": "IMAGES/7-ENNUYANTS/divorcée mais pleine aux as/cover.webp",
+            "title": "The Millionaire Divorcee",
+            "aliases": ["La Divorcée Millionnaire", "I'm Divorced, but I'm a Chaebol", "Divorcée mais pleine aux as", "I Got Divorced, but I'm Rich", "I Got Divorced, but I'm a Conglomerate"],
+            "image": "IMAGES/7-ENNUYANTS/divorcée mais pleine aux as/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Divorcée mais pleine aux as",
             "details": {
@@ -9757,8 +9819,8 @@
             }
           },
           {
-            "title": "Je suis la précieuse fille du roi démon",
-            "aliases": ["Precious Daughter of the Greatest Villain in a Martial Arts Novel", "I Am the Precious Daughter of the Greatest Villain in the Fantasy World"],
+            "title": "Precious Daughter of the Greatest Villain",
+            "aliases": ["Je suis la Précieuse Fille du Roi Démon", "Precious Daughter of the Greatest Villain in a Martial Arts Novel", "I Am the Precious Daughter of the Greatest Villain in the Fantasy World"],
             "image": "IMAGES/7-ENNUYANTS/je suis la précieuse fille du roi démon/cover.webp",
             "loading": "lazy",
             "alt": "Image : Je suis la précieuse fille du roi démon",
@@ -9778,15 +9840,15 @@
             }
           },
           {
-            "title": "Judith l'incorruptible",
-            "aliases": ["A Red Knight Does Not Blindly Follow Money", "The Red Knight Seeks No Reward", "Um cavaleiro vermelho não segue o dinheiro cegamente", "Une chevalière rouge ne suit pas de l'argent"],
-            "image": "IMAGES/7-ENNUYANTS/judith l'incorruptible/cover.webp",
+            "title": "A Red Knight Does Not Blindly Follow Money",
+            "aliases": ["Judith l'incorruptible", "The Red Knight Seeks No Reward", "Um cavaleiro vermelho não segue o dinheiro cegamente", "Une chevalière rouge ne suit pas de l'argent"],
+            "image": "IMAGES/7-ENNUYANTS/judith l'incorruptible/cover2.webp",
             "loading": "lazy",
             "alt": "Image : Judith l'incorruptible",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/7-ENNUYANTS/judith l'incorruptible/cover.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -9799,14 +9861,14 @@
             }
           },
           {
-            "title": "La vilaine réécrit l'histoire",
-            "aliases": ["The Villainess Flips the Script", " I Will Make an Attempt to Change the Genre", "I Will Make an Effort to Change the Genre", "It's Time to Change the Genre "],
-            "image": "IMAGES/7-ENNUYANTS/la vilaine réécrit l'histoire/cover.webp",
+            "title": "The Villainess Flips the Script",
+            "aliases": ["La vilaine réécrit l'histoire", " I Will Make an Attempt to Change the Genre", "I Will Make an Effort to Change the Genre", "It's Time to Change the Genre "],
+            "image": "IMAGES/7-ENNUYANTS/la vilaine réécrit l'histoire/cover1.webp",
             "loading": "lazy",
             "alt": "Image : La vilaine réécrit l'histoire",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/7-ENNUYANTS/la vilaine réécrit l'histoire/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -9843,13 +9905,13 @@
           {
             "title": "My Secretly Hot Husband",
             "aliases": ["My Husband Hides His Beauty"],
-            "image": "IMAGES/7-ENNUYANTS/my secretly hot husband/cover.webp",
+            "image": "IMAGES/7-ENNUYANTS/my secretly hot husband/cover1.webp",
             "loading": "lazy",
             "alt": "Image : My Secretly Hot Husband",
             "details": {
               "title": "",
               "banner": "IMAGES/7-ENNUYANTS/my secretly hot husband/bannière.webp",
-              "cover": "",
+              "cover": "IMAGES/7-ENNUYANTS/my secretly hot husband/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -9883,15 +9945,15 @@
             }
           },
           {
-            "title": "Raga la renaissance de la branche morte",
-            "aliases": ["Melody of the Deadwood", "Aria of the Withered Branch", "Dry Branch Raga", "Dry Breach Raga", "Râga : La Renaissance de la Branche Morte", "Raga dari Ranting Kering", "Raga de ramas marchitas", "Raga of the Deadwood", "Raga of the Dry Branch", "Raga of Withered Branches"],
-            "image": "IMAGES/7-ENNUYANTS/raga la renaissance de la branche morte/cover.webp",
+            "title": "Raga of Withered Branches",
+            "aliases": ["Melody of the Deadwood", "Aria of the Withered Branch", "Dry Branch Raga", "Dry Breach Raga", "Râga : La Renaissance de la Branche Morte", "Raga dari Ranting Kering", "Raga de ramas marchitas", "Raga of the Deadwood", "Raga of the Dry Branch", "Raga la renaissance de la branche morte"],
+            "image": "IMAGES/7-ENNUYANTS/raga la renaissance de la branche morte/cover3.webp",
             "loading": "lazy",
-            "alt": "Image : Raga la renaissance de la branche morte",
+            "alt": "Image : Raga of Withered Branches",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/7-ENNUYANTS/raga la renaissance de la branche morte/cover1.webp",
               "alt": "",
               "type": "",
               "genre": [],
