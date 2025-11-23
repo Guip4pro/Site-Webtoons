@@ -584,11 +584,11 @@
             "Surviving as a Barbarian in the Game",
             "Survivre au jeu en tant que Barbare"
           ],
-          "image": "IMAGES/2-EXCELLENTS/surviving the game as a barbarian/cover.webp",
+          "image": "IMAGES/2-EXCELLENTS/surviving the game as a barbarian/cover2.webp",
           "alt": "Image : Surviving the Game as a Barbarian",
           "details": {
             "title": "Surviving the Game as a Barbarian",
-            "cover": "IMAGES/2-EXCELLENTS/surviving the game as a barbarian/cover.webp",
+            "cover": "IMAGES/2-EXCELLENTS/surviving the game as a barbarian/cover1.avif",
             "alt": "Image de Surviving the Game as a Barbarian",
             "type": "Manhwa",
             "genre": [
@@ -1334,7 +1334,7 @@
             "details": {
               "title": "",
               "banner": "IMAGES/3-TRES BONS/i obtained a mythic item/banner.webp",
-              "cover": "IMAGES/3-TRES BONS/i obtained a mythic item/cover2.webp",
+              "cover": "IMAGES/3-TRES BONS/i obtained a mythic item/cover3.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -1343,7 +1343,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [
-                "IMAGES/3-TRES BONS/i obtained a mythic item/cover2.webp"
+                "IMAGES/3-TRES BONS/i obtained a mythic item/img1.webp"
               ],
               "adaptations": ["Format papier en français"]
             }
@@ -1837,7 +1837,7 @@
             "alt": "Image : Reincarnation of the Suicidal Battle God",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/banner1.webp",
               "cover": "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/cover.avif",
               "alt": "",
               "type": "",
@@ -2223,11 +2223,11 @@
           {
             "title": "The Lazy Prince Becomes a Genius",
             "aliases": ["Der faule Lord meistert die Schwertkunst", "Reformation of the Deadbeat Noble", "The Lazy Lord Masters the Sword"],
-            "image": "IMAGES/3-TRES BONS/the lazy prince becomes a genius/cover.webp",
+            "image": "IMAGES/3-TRES BONS/the lazy prince becomes a genius/cover1.webp",
             "alt": "Image : The Lazy Prince Becomes a Genius",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/the lazy prince becomes a genius/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2330,7 +2330,7 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/3-TRES BONS/the player hides his past/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -4828,7 +4828,7 @@
             "alt": "Image : Rise of the Fallen Kingdom's Third Prince",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/rise of the fallen kingdom's third prince/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5951,27 +5951,6 @@
             }
           },
           {
-            "title": "All My Alter Egos are Tycoons",
-            "aliases": ["My Alter Ego’s Path to Greatness", "My Avatars' Path to Greatness", "My clone is becoming a giants", "My Kingpin Dopplegangers", "Sovereign of the Infinite Clones"],
-            "image": "IMAGES/5-INTERMEDIAIRES/all my alter egos are tycoons/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : All My Alter Egos are Tycoons",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
             "title": "Angelic Lady",
             "aliases": ["Angel or Villainess", "LA DAMA ANGELICAL"],
             "image": "IMAGES/5-INTERMEDIAIRES/angelic lady/cover.webp",
@@ -6161,13 +6140,13 @@
           {
             "title": "How to Hide the Emperor's Child",
             "aliases": ["Comment Cacher le Fils de l'Empereur", "How to Hide the Emperor's Son4"],
-            "image": "IMAGES/5-INTERMEDIAIRES/comment cacher le fils de l'empereur/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/comment cacher le fils de l'empereur/cover1.webp",
             "loading": "lazy",
-            "alt": "Image : Comment Cacher le Fils de l'Empereur",
+            "alt": "Image : How to Hide the Emperor's Child",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/5-INTERMEDIAIRES/comment cacher le fils de l'empereur/cover.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -6407,29 +6386,6 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Hand Over The Money",
-            "aliases": ["Give Me Money", "Give Me The Money"],
-            "image": "IMAGES/5-INTERMEDIAIRES/hand over the money/cover.avif",
-            "loading": "lazy",
-            "alt": "Image : Hand Over The Money",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [
-                "IMAGES/5-INTERMEDIAIRES/hand over the money/img1.webp"
-              ],
               "adaptations": []
             }
           },
@@ -8089,6 +8045,27 @@
             }
           },
           {
+            "title": "The Necromancer Family's Young Heir",
+            "aliases": ["El joven heredero de la familia de nigromantes , The Young Heir of the Necromancer Family"],
+            "image": "IMAGES/5-INTERMEDIAIRES/the necromancer family's young heir/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The Necromancer Family's Young Heir",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/the necromancer family's young heir/banner1.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/the necromancer family's young heir/cover3.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "The S-Classes That I Raised",
             "aliases": ["The S-Ranks That I Raised", "My S-Class Hunters"],
             "image": "IMAGES/5-INTERMEDIAIRES/the s-classes that i raised/cover.webp",
@@ -8412,6 +8389,48 @@
             }
           },
           {
+            "title": "All My Alter Egos are Tycoons",
+            "aliases": ["My Alter Ego’s Path to Greatness", "My Avatars' Path to Greatness", "My clone is becoming a giants", "My Kingpin Dopplegangers", "Sovereign of the Infinite Clones"],
+            "image": "IMAGES/6-MOYENS/all my alter egos are tycoons/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : All My Alter Egos are Tycoons",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Artifact-Devouring Player",
+            "aliases": ["The Artifact Devouring Player", "The Player That Devours Artifacts"],
+            "image": "IMAGES/6-MOYENS/artifact devouring player/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Artifact-Devouring Player",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/6-MOYENS/artifact devouring player/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Aventures of an Undead who Became a Paladin",
             "aliases": ["The Lich Paladin", "Even Skeletons Want to be Knights!", "Lich: Glory Knight"],
             "image": "IMAGES/6-MOYENS/aventures of an undead who became a paladin/cover.webp",
@@ -8681,6 +8700,29 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Hand Over The Money",
+            "aliases": ["Give Me Money", "Give Me The Money"],
+            "image": "IMAGES/6-MOYENS/hand over the money/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Hand Over The Money",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [
+                "IMAGES/6-MOYENS/hand over the money/img1.webp"
+              ],
               "adaptations": []
             }
           },
@@ -9154,8 +9196,8 @@
             }
           },
           {
-            "title": "L'Impératrice Remariée",
-            "aliases": ["The Remarried Empress", "L'Impératrice Remariée", "L'Imperatrice remariee"],
+            "title": "The Remarried Empress",
+            "aliases": ["La Impératrice Remariée", "L'Impératrice Remariée", "L'Imperatrice remariee"],
             "image": "IMAGES/6-MOYENS/l'imperatrice remariee/cover.webp",
             "loading": "lazy",
             "alt": "Image : L'Impératrice Remariée",
@@ -9175,8 +9217,8 @@
             }
           },
           {
-            "title": "La Lady Solitaire",
-            "aliases": ["untouchable lady", "solitary lady", "dama inaccesible"],
+            "title": "Untouchable Lady",
+            "aliases": ["La Lady Solitaire", "The solitary lady", "dama inaccesible", "The Untouchable Lady"],
             "image": "IMAGES/6-MOYENS/la lady solitaire/cover.webp",
             "loading": "lazy",
             "alt": "Image : La Lady Solitaire",
@@ -9954,6 +9996,27 @@
               "title": "",
               "banner": "",
               "cover": "IMAGES/7-ENNUYANTS/raga la renaissance de la branche morte/cover1.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Divine Ring Descends: The Strongest Otherworld",
+            "aliases": ["Become the Strongest Hero Through the Cheat System , Cheat System de Saikyou Yuusha ni Nariagaru , Divine Ring Descends: The Strongest in Another World , Divine Ring Descends: The Strongest Otherworld , L'Anneau Divin Descend: Le Plus Fort d'un Autre Monde"],
+            "image": "IMAGES/7-ENNUYANTS/the divine ring descends/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The Divine Ring Descends",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "IMAGES/7-ENNUYANTS/the divine ring descends/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
