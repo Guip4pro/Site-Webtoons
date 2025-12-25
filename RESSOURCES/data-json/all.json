@@ -459,7 +459,7 @@
               "IMAGES/2-EXCELLENTS/revenge of the iron-blooded sword hound/img8.avif"
             ],
             "adaptations": [
-              "Format papier en français (octobre)"
+              "Format papier en français"
             ]
           }
         },
@@ -535,7 +535,7 @@
           "details": {
             "title": "The Stellar Swordmaster",
             "banner": "IMAGES/2-EXCELLENTS/star-embracing swordmaster/bannière.avif",
-            "cover": "IMAGES/2-EXCELLENTS/star-embracing swordmaster/cover.avif",
+            "cover": "IMAGES/2-EXCELLENTS/star-embracing swordmaster/cover2.webp",
             "alt": "Image de The Stellar Swordmaster",
             "type": "Manhwa",
             "genre": [
@@ -1456,7 +1456,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier"]
             }
           },
           {
@@ -2583,6 +2583,27 @@
       {
         "name": "Bons",
         "webtoons": [
+          {
+            "title": "A Cadet Becomes a Prophet?!",
+            "aliases": ["A Cadet Becomes a Prophet??", "A Cadet Becomes a Prophet!?", "Forget the Textbooks", "I've Got a Prophecy", "I Read Prophecies Instead of Textbooks", "Prophecies Are My Textbooks", "¿¡Un codicioso convertido en profeta!?"],
+            "image": "IMAGES/4-BONS/a cadet becomes a prophet/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : A Cadet Becomes a Prophet?!",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": [""]
+            }
+          },
           {
             "title": "A Regressor’s Tale of Cultivation",
             "aliases": ["A Regressor’s Tale of Cultivation", "La Leyenda de Cultivación de un Regresor", "Return Repair"],
@@ -4014,7 +4035,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier"]
             }
           },
           {
@@ -4413,6 +4434,27 @@
               "previewImages": [
                 "IMAGES/4-BONS/pour ne pas mourir/img1.webp"
               ],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Raising the Princess to Overcome the Death",
+            "aliases": ["A Princess Is Raised After Death", "Criar a la princesa para vencer a la muerte", "Desperately Making Her a Princess", "Raising the Princess After Her Death", "The Princess Is Raised After She Dies"],
+            "image": "IMAGES/4-BONS/raising the princess to overcome the death/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Raising the Princess to Overcome the Death",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "IMAGES/4-BONS/raising the princess to overcome the death/cover.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
               "adaptations": []
             }
           },
@@ -9213,7 +9255,7 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
+              "adaptations": ["Format papier"]
             }
           },
           {
@@ -9845,6 +9887,27 @@
             "image": "IMAGES/7-ENNUYANTS/from holy knight to vampire/cover.webp",
             "loading": "lazy",
             "alt": "Image : From Holy Knight to Vampire",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Infinite Evolution Starting from Zero",
+            "aliases": ["Bắt Đầu Tiến Hoá Vô Hạn Từ Số Không", "Cóng Líng Kāishǐ Wúxiàn Jìnhuà", "Cong Ling Kaishi Wuxian Jinhua", "Infinite Evolution From Zero"],
+            "image": "IMAGES/7-ENNUYANTS/infinite evolution starting from zero/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Infinite Evolution Starting from Zero",
             "details": {
               "title": "",
               "banner": "",
