@@ -2784,14 +2784,14 @@
           },
           {
             "title": "Archmage Streamer",
-            "aliases": ["BJ Archmage"],
-            "image": "IMAGES/4-BONS/archmage streamer/cover.webp",
+            "aliases": ["BJ Archmage", "BJ Daemadosa", "BJ Grand Mage", "BJ대마도사", "Grand Warlock Streamer", "L'Archimage Streamer"],
+            "image": "IMAGES/4-BONS/archmage streamer/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Archmage Streamer",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/archmage streamer/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -6356,7 +6356,7 @@
           {
             "title": "How to Hide the Emperor's Child",
             "aliases": ["Comment Cacher le Fils de l'Empereur", "How to Hide the Emperor's Son4"],
-            "image": "IMAGES/5-INTERMEDIAIRES/comment cacher le fils de l'empereur/cover1vin.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/comment cacher le fils de l'empereur/cover1.webp",
             "loading": "lazy",
             "alt": "Image : How to Hide the Emperor's Child",
             "details": {
