@@ -1157,7 +1157,7 @@
             "alt": "Image : Eternally Regressing Knight",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/eternally regressing knight/Banner.webp",
+              "banner": "IMAGES/3-TRES BONS/eternally regressing knight/banner1.webp",
               "cover": "IMAGES/3-TRES BONS/eternally regressing knight/cover2.webp",
               "alt": "",
               "type": "",
@@ -1246,7 +1246,7 @@
             "alt": "Image : Heavenly Inquisition Sword",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/heavenly inquisition sword/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -1959,7 +1959,7 @@
             "details": {
               "title": "",
               "banner": "IMAGES/3-TRES BONS/solo max-level newbie/bannière.avif",
-              "cover": "",
+              "cover": "IMAGES/3-TRES BONS/solo max-level newbie/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -2104,8 +2104,8 @@
             "alt": "Image : The Dark Mage's Return to Enlistment",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/3-TRES BONS/the dark mage's return to enlistment/banner1.webp",
+              "cover": "IMAGES/3-TRES BONS/the dark mage's return to enlistment/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -2126,6 +2126,46 @@
               "title": "",
               "banner": "",
               "cover": "IMAGES/3-TRES BONS/the dark magician transmigrates after 66666 years/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Demon King Overrun by Heroes",
+            "aliases": ["I'm the Demon King, but There Are Too Many Heroes", "The Demon King Has Too Many Heroes", "The Demon King is Overrun by Heroes"],
+            "image": "IMAGES/3-TRES BONS/the demon king overrun by heroes/cover1.webp",
+            "alt": "Image : The Demon King Overrun by Heroes",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Divine Demon's Grand Ascension",
+            "aliases": ["The Divine Demon's Great Ascension", "The Divine Demon's Ascension", "The Divine Demon Grand Ascension", "The Great Emperor Shinmadae", "The Great Heavenly Demon Sovereign"],
+            "image": "IMAGES/3-TRES BONS/the divine demons grand ascension/cover1.webp",
+            "alt": "Image : The Divine Demon's Grand Ascension",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/3-TRES BONS/the divine demons grand ascension/banner1.webp",
+              "cover": "",
               "alt": "",
               "type": "",
               "genre": [],
@@ -3635,6 +3675,27 @@
             }
           },
           {
+            "title": "I Became the First Prince: Legend of Sword's Song",
+            "aliases": ["I Became the Degenerate First Prince", "I Became the First Prince: Legend of Sword’s Song", "I Became the Rogue First Prince", "I Became the Rouge First Prince: Legend of Sword's Song"],
+            "image": "IMAGES/4-BONS/i became the first prince _ legend of swords song/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : I Became the First Prince: Legend of Sword's Song",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "I Grow Stronger By Eating",
             "aliases": ["Appétit Féroce", "Gewaltiger Hunger", "I Get Stronger the More I Eat", "Je deviens plus fort en mangeant !"],
             "image": "IMAGES/4-BONS/i grow stronger by eating/cover2.webp",
@@ -4571,7 +4632,7 @@
             "alt": "Image : Regressing With The King's Power",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/regressing with the king's power/banner1.webp",
+              "banner": "IMAGES/4-BONS/regressing with the king's power/banner2.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4634,7 +4695,7 @@
             "alt": "Image : Reincarnation of the Fist King",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/reincarnation of the fist king/banner1.avif",
+              "banner": "IMAGES/4-BONS/reincarnation of the fist king/banner2.avif",
               "cover": "IMAGES/4-BONS/reincarnation of the fist king/cover2.webp",
               "alt": "",
               "type": "",
@@ -4643,7 +4704,16 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/4-BONS/reincarnation of the fist king/img1.webp",
+                "IMAGES/4-BONS/reincarnation of the fist king/img2.webp",
+                "IMAGES/4-BONS/reincarnation of the fist king/img3.webp",
+                "IMAGES/4-BONS/reincarnation of the fist king/img4.webp",
+                "IMAGES/4-BONS/reincarnation of the fist king/img5.webp",
+                "IMAGES/4-BONS/reincarnation of the fist king/img6.webp",
+                "IMAGES/4-BONS/reincarnation of the fist king/img7.webp",
+                "IMAGES/4-BONS/reincarnation of the fist king/img8.webp"
+              ],
               "adaptations": []
             }
           },
@@ -4678,6 +4748,27 @@
               "title": "",
               "banner": "IMAGES/4-BONS/return of the 8th class magician/banner1.webp",
               "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "Terminé",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Return of the Back Alley Mage",
+            "aliases": ["Return of the Back Alley Wizard", "A Back Alley Mage's Resurrection Life", "The Back Alley Mage's Second Life", "The Back-Alley Mage’s Return", "The Back-Alley Mage's Return", "The Back-Alley Mage's Second Life", "The Return of the Back Alley Sorcerer", "The Return of the Back-Alley Mage"],
+            "image": "IMAGES/4-BONS/return of the back alley mage/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Return of the Back Alley Mage",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "IMAGES/4-BONS/return of the back alley mage/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5120,6 +5211,27 @@
             }
           },
           {
+            "title": "The Apothecary Diaries",
+            "aliases": ["Kusuriya no Hitorigoto", "The Apothecary's Diary", "The Apothecary's Diaries", "Şifacı Günceleri", "Dược Sư Tự Sự", "Diários de uma Apotecária", "Die Tagebücher der Apothekerin - Geheimnisse am Kaiserhof", "El monólogo del farmacéutico", "I diari della speziale", "Il monologo della speziale", "Les Carnets de l'Apothicaire", "Los Diarios de la Boticaria", "The Pharmacist's Monologue", "The Pharmacist's Soliloquies", "Zapiski zielarki", "Diário de um Boticário", "Le Journal du Pharmacien"],
+            "image": "IMAGES/4-BONS/the apothecary diaries/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The Apothecary Diaries",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/the apothecary diaries/banner1.png",
+              "cover": "IMAGES/4-BONS/the apothecary diaries/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "The Boxer",
             "aliases": [],
             "image": "IMAGES/4-BONS/the boxer/cover.webp",
@@ -5495,6 +5607,27 @@
             }
           },
           {
+            "title": "The Shepherd Wizard",
+            "aliases": ["The Shepherd's Magic", "The Shepherd Mage"],
+            "image": "IMAGES/4-BONS/the shepherd wizard/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The Shepherd Wizard",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "IMAGES/4-BONS/the shepherd wizard/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "The Tutorial Is Too Hard",
             "aliases": ["The Tutorial is Too Tough", "The Tutorial is Too Hard!"],
             "image": "IMAGES/4-BONS/the tutorial is too hard/cover1.avif",
@@ -5503,6 +5636,26 @@
               "title": "",
               "banner": "IMAGES/4-BONS/the tutorial is too hard/banner1.avif",
               "cover": "IMAGES/4-BONS/the tutorial is too hard/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Wandering Knight's Survival Manual",
+            "aliases": ["How to Survive as a Wandering Knight", "The Way of the Wandering Knight"],
+            "image": "IMAGES/4-BONS/the wandering knights survival manual/cover1.webp",
+            "alt": "Image : The Wandering Knight's Survival Manual",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5581,6 +5734,27 @@
               "synopsis": "",
               "previewImages": [],
               "adaptations": []
+            }
+          },
+          {
+            "title": "The Ultimate of All Ages",
+            "aliases": ["The Ancient Sovereign of Eternity", "The Eternal Supreme"],
+            "image": "IMAGES/4-BONS/ultimate of all ages/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Ultimate of All Ages",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/ultimate of all ages/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -6082,7 +6256,7 @@
             "alt": "Image : Bloodhound's Regression Instinct",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/bloodhound's regression instinct/banner1.webp",
               "cover": "IMAGES/5-INTERMEDIAIRES/bloodhound's regression instinct/cover.webp",
               "alt": "",
               "type": "",
@@ -6146,7 +6320,7 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/5-INTERMEDIAIRES/catastrophic necromancer/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -7390,7 +7564,7 @@
             "alt": "Image : Reborn Rich",
             "details": {
               "title": "",
-              "banner": "IMAGES/5-INTERMEDIAIRES/reborn rich/bannière.webp",
+              "banner": "IMAGES/5-INTERMEDIAIRES/reborn rich/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -7940,6 +8114,27 @@
             }
           },
           {
+            "title": "The Dark Swordsman Returns",
+            "aliases": ["Hắc Ám Kiếm Sĩ Hồi Quy", "Kiếm Sĩ Hắc Ám Tái Xuất", "Retorno do Espadachim Sombrio", "Sự Trở Lại Của Kiếm Sĩ Bóng Đêm", "The Return of The DarkSlayer"],
+            "image": "IMAGES/5-INTERMEDIAIRES/the dark swordsman returns/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The Dark Swordsman Returns",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/the dark swordsman returns/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "The Eminence in Shadow",
             "aliases": ["Kage no Jitsuryokusha ni Naritakute!", "To Be a Power in the Shadows!"],
             "image": "IMAGES/5-INTERMEDIAIRES/the eminence in shadow/cover.webp",
@@ -8210,27 +8405,6 @@
               "synopsis": "",
               "previewImages": [],
               "adaptations": []
-            }
-          },
-          {
-            "title": "The Ultimate of All Ages",
-            "aliases": ["The Ancient Sovereign of Eternity", "The Eternal Supreme"],
-            "image": "IMAGES/5-INTERMEDIAIRES/ultimate of all ages/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : Ultimate of All Ages",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": ["Format papier en français"]
             }
           },
           {
