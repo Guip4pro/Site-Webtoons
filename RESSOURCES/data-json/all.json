@@ -3062,6 +3062,27 @@
             }
           },
           {
+            "title": "Crimson Reset",
+            "aliases": ["The Crimson Reset", "How to Live As the Vampire Lord", "뱀파이어 로드로 사는 법"],
+            "image": "IMAGES/4-BONS/crimson reset/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Crimson Reset",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/crimson reset/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Demon Lord's Martial Arts Ascension",
             "aliases": ["Martial Demon King", "The Demon King Levels Up", "The Demon Lord Levels Up With Martial Arts"],
             "image": "IMAGES/4-BONS/demon lord's martial arts ascension/cover.webp",
@@ -3468,11 +3489,11 @@
           },
           {
             "title": "Golden Mage",
-            "image": "IMAGES/4-BONS/golden mage/cover.avif",
+            "image": "IMAGES/4-BONS/golden mage/cover.webp",
             "alt": "Image : Golden Mage",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/golden mage/banner.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5121,6 +5142,27 @@
             }
           },
           {
+            "title": "Sword-Devouring Swordmaster",
+            "aliases": ["Kiếm Sư Thực Kiếm", "The Sword-Eating Swordmaster", "The Sword-Devouring Swordsman", "검 먹는 소드마스터", "Le Maître d'épée dévoreur d'épées", "El Maestro de Espadas Devorador de Espadas"],
+            "image": "IMAGES/4-BONS/sword-devouring swordmaster/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Sword-Devouring Swordmaster",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/sword-devouring swordmaster/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Talent-Swallowing Magician",
             "aliases": ["Demon Devourer", "Talent Swallowing Magician", "El Mago Devorador de Talentos", "Le Dévoreur de démons", "Talent Swallowing Magician", "The Mage Who Absorbs Abilities"],
             "image": "IMAGES/4-BONS/talent-swallowing magician/cover1.webp",
@@ -5489,7 +5531,7 @@
             "details": {
               "title": "",
               "banner": "IMAGES/4-BONS/the last adventurer/bannière.webp",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/the last adventurer/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5654,7 +5696,7 @@
             "alt": "Image : The Wandering Knight's Survival Manual",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/the wandering knights survival manual/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -7019,7 +7061,7 @@
             "details": {
               "title": "The Frost Flower Knight",
               "banner": "",
-              "cover": "IMAGES/5-INTERMEDIAIRES/la chevalière à la fleur de glace/cover.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/la chevalière à la fleur de glace/cover1.webp",
               "alt": "",
               "type": "",
               "genre": [],
