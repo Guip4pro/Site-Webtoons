@@ -4858,8 +4858,8 @@
             "alt": "Image : Resurrection Boy",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/resurrection boy/cover2.webp",
-              "cover": "",
+              "banner": "",
+              "cover": "IMAGES/4-BONS/resurrection boy/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5261,8 +5261,8 @@
             "alt": "Image : Sword of the Undying",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/sword of the undying/cover2.webp",
-              "cover": "",
+              "banner": "",
+              "cover": "IMAGES/4-BONS/sword of the undying/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5395,6 +5395,27 @@
               "title": "",
               "banner": "IMAGES/4-BONS/the apothecary diaries/banner1.png",
               "cover": "IMAGES/4-BONS/the apothecary diaries/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Berserker's Second Playthrough",
+            "aliases": ["Second Life of the Berserker", "The Berserker's Second Playthrough in the Game", "게임 속 2회차 광전사"],
+            "image": "IMAGES/4-BONS/the berserkers second playthrough/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The Berserker's Second Playthrough",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/the berserkers second playthrough/banner1.webp",
+              "cover": "",
               "alt": "",
               "type": "",
               "genre": [],
@@ -6641,7 +6662,7 @@
             "alt": "Image : Devil & Ice",
             "details": {
               "title": "",
-              "banner": "IMAGES/5-INTERMEDIAIRES/demon evolution/banner1.webp",
+              "banner": "",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8858,6 +8879,27 @@
             }
           },
           {
+            "title": "Veteran of the Apocalypse",
+            "aliases": ["아포칼립스의 고인물", "The Apocalypse’s Ultimate Veteran", "The Apocalypses Veteran"],
+            "image": "IMAGES/5-INTERMEDIAIRES/veteran of the apocalypse/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Veteran of the Apocalypse",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/veteran of the apocalypse/banner1.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/veteran of the apocalypse/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "Terminé",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Viral Hit",
             "aliases": ["How to Fight"],
             "image": "IMAGES/5-INTERMEDIAIRES/viral hit/cover.webp",
@@ -10387,7 +10429,7 @@
           {
             "title": "The Raider",
             "aliases": ["The Raider：超越者"],
-            "image": "IMAGES/6-MOYENS/the raider/cover1.jpg",
+            "image": "IMAGES/6-MOYENS/the raider/cover1.webp",
             "loading": "lazy",
             "alt": "Image : The Raider",
             "details": {
