@@ -216,6 +216,33 @@
           }
         },
         {
+            "title": "Eternally Regressing Knight",
+            "aliases": ["A Knight Who Eternally Regresses", "The Knight Only Lives Today", "The Knight Who Only Lives Today"],
+            "image": "IMAGES/2-EXCELLENTS/eternally regressing knight/cover.avif",
+            "alt": "Image : Eternally Regressing Knight",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/2-EXCELLENTS/eternally regressing knight/banner3.webp",
+              "cover": "IMAGES/2-EXCELLENTS/eternally regressing knight/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [
+                "IMAGES/2-EXCELLENTS/eternally regressing knight/img1.webp",
+                "IMAGES/2-EXCELLENTS/eternally regressing knight/img2.webp",
+                "IMAGES/2-EXCELLENTS/eternally regressing knight/img3.webp",
+                "IMAGES/2-EXCELLENTS/eternally regressing knight/img4.webp",
+                "IMAGES/2-EXCELLENTS/eternally regressing knight/img5.webp",
+                "IMAGES/2-EXCELLENTS/eternally regressing knight/img6.webp"
+              ],
+              "adaptations": []
+            }
+          },
+        {
           "id": "infinite-mage",
           "title": "Infinite Mage",
           "aliases": [
@@ -1151,33 +1178,6 @@
             }
           },
           {
-            "title": "Eternally Regressing Knight",
-            "aliases": ["A Knight Who Eternally Regresses", "The Knight Only Lives Today", "The Knight Who Only Lives Today"],
-            "image": "IMAGES/3-TRES BONS/eternally regressing knight/cover.avif",
-            "alt": "Image : Eternally Regressing Knight",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/3-TRES BONS/eternally regressing knight/banner1.webp",
-              "cover": "IMAGES/3-TRES BONS/eternally regressing knight/cover2.webp",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [
-                "IMAGES/3-TRES BONS/eternally regressing knight/img1.webp",
-                "IMAGES/3-TRES BONS/eternally regressing knight/img2.webp",
-                "IMAGES/3-TRES BONS/eternally regressing knight/img3.webp",
-                "IMAGES/3-TRES BONS/eternally regressing knight/img4.webp",
-                "IMAGES/3-TRES BONS/eternally regressing knight/img5.webp",
-                "IMAGES/3-TRES BONS/eternally regressing knight/img6.webp"
-              ],
-              "adaptations": []
-            }
-          },
-          {
             "title": "Evolution Begins with a Big Tree",
             "aliases": ["Evolution From a Tree", "Evolution From the Big Tree"],
             "image": "IMAGES/3-TRES BONS/evolution begins with a big tree/cover.webp",
@@ -1562,7 +1562,6 @@
               ]
             }
           },
-          
           {
             "title": "Moon-Shadow Sword Emperor",
             "aliases": ["Absolute Master of the Senate", "L'Empereur de l'ombre lunaire", "Moon Shadow Sword Emperor"],
@@ -1571,6 +1570,26 @@
             "details": {
               "title": "",
               "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Murim Psychopath",
+            "aliases": ["Psychopath in Murim", "싸이코패스 in 무림", "Kẻ Tâm Thần Tại Thế Giới Murim"],
+            "image": "IMAGES/3-TRES BONS/murim psychopath/cover1.webp",
+            "alt": "Image : Murim Psychopath",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/3-TRES BONS/murim psychopath/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2165,7 +2184,7 @@
             "details": {
               "title": "",
               "banner": "IMAGES/3-TRES BONS/the divine demons grand ascension/banner1.webp",
-              "cover": "",
+              "cover": "IMAGES/3-TRES BONS/the divine demons grand ascension/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -2268,7 +2287,7 @@
             "details": {
               "title": "",
               "banner": "IMAGES/3-TRES BONS/the lazy prince becomes a genius/banner1.webp",
-              "cover": "",
+              "cover": "IMAGES/3-TRES BONS/the lazy prince becomes a genius/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -2626,13 +2645,13 @@
           {
             "title": "A Cadet Becomes a Prophet?!",
             "aliases": ["A Cadet Becomes a Prophet??", "A Cadet Becomes a Prophet!?", "Forget the Textbooks", "I've Got a Prophecy", "I Read Prophecies Instead of Textbooks", "Prophecies Are My Textbooks", "¿¡Un codicioso convertido en profeta!?"],
-            "image": "IMAGES/4-BONS/a cadet becomes a prophet/cover.webp",
+            "image": "IMAGES/4-BONS/a cadet becomes a prophet/cover1.webp",
             "loading": "lazy",
             "alt": "Image : A Cadet Becomes a Prophet?!",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/a cadet becomes a prophet/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -3912,6 +3931,27 @@
             }
           },
           {
+            "title": "Island of Star and Chains",
+            "aliases": ["An island with stars and chains"],
+            "image": "IMAGES/4-BONS/island of star and chains/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Island of Star and Chains",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/island of star and chains/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "Terminé",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Junevile Law",
             "aliases": ["Juvenile Law", "Boy Law", "Dead Mansion", "Laws of the Good Child"],
             "image": "IMAGES/4-BONS/junevile law/cover.avif",
@@ -4357,7 +4397,7 @@
             "alt": "Image : Mount Hua Sect's Genius Phantom Swordsman",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/mount hua sect's genius phantom swordsman/banner1.webp",
+              "banner": "IMAGES/4-BONS/mount hua sect's genius phantom swordsman/banner2.webp",
               "cover": "IMAGES/4-BONS/mount hua sect's genius phantom swordsman/cover2.avif",
               "alt": "",
               "type": "",
@@ -4497,6 +4537,27 @@
             }
           },
           {
+            "title": "Playing the Perfect Fox-Eyed Villain",
+            "aliases": ["Acting As The Perfect Narrow Eyed Villain", "Playing the Perfect Silent Villain", "Я сыграю роль идеального злодея", "완벽한 실눈 악역을 연기하다", "瞇瞇眼反派怎麼這麼有禮貌？", "糸目の悪役キャラを完璧に演じます"],
+            "image": "IMAGES/4-BONS/playing the perfect fox eyed villain/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Playing the Perfect Fox-Eyed Villain",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Pour ne pas Mourir",
             "aliases": ["To Not Die", "Ne pas Mourir"],
             "image": "IMAGES/4-BONS/pour ne pas mourir/cover.webp",
@@ -4537,6 +4598,36 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Raising Villains the Right Way",
+            "aliases": ["Became a Supporter of Villains", "Became the Patron of Villains", "I Became a Patron of Villains", "I Became the Patron of Villains", "The Patron of Villains"],
+            "image": "IMAGES/4-BONS/raising villains the right way/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Raising Villains the Right Way",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/raising villains the right way/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [
+                "IMAGES/4-BONS/raising villains the right way/img1.webp",
+                "IMAGES/4-BONS/raising villains the right way/img2.webp",
+                "IMAGES/4-BONS/raising villains the right way/img3.webp",
+                "IMAGES/4-BONS/raising villains the right way/img4.webp",
+                "IMAGES/4-BONS/raising villains the right way/img5.webp",
+                "IMAGES/4-BONS/raising villains the right way/img6.webp",
+                "IMAGES/4-BONS/raising villains the right way/img7.webp",
+                "IMAGES/4-BONS/raising villains the right way/img8.webp"
+              ],
               "adaptations": []
             }
           },
@@ -4747,6 +4838,27 @@
             "details": {
               "title": "",
               "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Resurrection Boy",
+            "aliases": ["The Immortal Boy", "The Ressurrection Boy"],
+            "image": "IMAGES/4-BONS/resurrection boy/cover3.webp",
+            "loading": "lazy",
+            "alt": "Image : Resurrection Boy",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/resurrection boy/cover2.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5129,6 +5241,27 @@
             "details": {
               "title": "",
               "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Sword of the Undying",
+            "aliases": ["The Word of the Undying", "The Necromancer of a Renowned Sword Family", "Necromancer of a Prestigious Swordsmanship Family", "The Necromancer of a Swordsmanship Family"],
+            "image": "IMAGES/4-BONS/sword of the undying/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Sword of the Undying",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/sword of the undying/cover2.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -6167,6 +6300,27 @@
             }
           },
           {
+            "title": "A Wimp’s Strategy Guide to Conquer the Tower",
+            "aliases": ["A Wimp Strategy Guide to Conquer the Tower", "A Wimp’s Strategy Guide to Conquer the Tower", "A Wimp’s Tower Strategy Guide", "A Wimp's Tower Strategy Guide", "Guide to Beating the Weakling's Tower", "Weakling's Guide to Beating the Tower", "하남자의 탑 공략법", "วิธีพิชิตหอคอยฉบับผู้ชายห่วยๆ"],
+            "image": "IMAGES/5-INTERMEDIAIRES/A wimps strategy guide to conquer the tower/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : A Wimp’s Strategy Guide to Conquer the Tower",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Absolute Dominion",
             "aliases": ["Absolute Domination", "Absolute Reign", "Dominio absoluto"],
             "image": "IMAGES/5-INTERMEDIAIRES/absolute dominion/cover.webp",
@@ -6197,6 +6351,27 @@
               "title": "",
               "banner": "IMAGES/5-INTERMEDIAIRES/adoptee par la famille des assassins/banner1.webp",
               "cover": "IMAGES/5-INTERMEDIAIRES/adoptee par la famille des assassins/cover.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Ancient Animal Tales",
+            "aliases": [""],
+            "image": "IMAGES/5-INTERMEDIAIRES/ancient animal tales/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Ancient Animal Tales",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/ancient animal tales/banner1.webp",
+              "cover": "",
               "alt": "",
               "type": "",
               "genre": [],
@@ -6267,6 +6442,27 @@
                 "IMAGES/5-INTERMEDIAIRES/arena/img2.webp"
               ],
               "adaptations": ["Format papier en français"]
+            }
+          },
+          {
+            "title": "Artifact-Devouring Player",
+            "aliases": ["The Artifact Devouring Player", "The Player That Devours Artifacts"],
+            "image": "IMAGES/5-INTERMEDIAIRESS/artifact devouring player/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Artifact-Devouring Player",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/artifact devouring player/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
             }
           },
           {
@@ -6438,6 +6634,27 @@
             }
           },
           {
+            "title": "Devil & Ice",
+            "aliases": ["Devil and Ice", "Le démon et la sorcière de glace", "The Devil and the Ice Witch", "The Devil and the Witch"],
+            "image": "IMAGES/5-INTERMEDIAIRES/devil and ice/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Devil & Ice",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/demon evolution/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Dream Sharing",
             "aliases": ["Counter Cube", "Dream-Sharing", "Shared Dream"],
             "image": "IMAGES/5-INTERMEDIAIRES/dream sharing/cover.webp",
@@ -6447,6 +6664,27 @@
               "title": "",
               "banner": "",
               "cover": "IMAGES/5-INTERMEDIAIRES/dream sharing/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Dukedom's Legendary Prodigy",
+            "aliases": ["Dukedoms Legendary Prodigy", "Le génie légendaire", "The Legendary Prodigy Of The Duke", "O Prodígio Lendário do Ducado", "The Unprecedented Prodigy of the Duke's House", "공작가의 역대급 신동", "神童転生記 ～復讐は魔法で完遂する～", "公爵家的小神童"],
+            "image": "IMAGES/5-INTERMEDIAIRES/dukedoms legendary prodigy/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Dukedom's Legendary Prodigy",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/dukedoms legendary prodigy/banner1.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/dukedoms legendary prodigy/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -6627,6 +6865,48 @@
             }
           },
           {
+            "title": "From Old Country Bumpkin to Master Swordsman",
+            "aliases": [],
+            "image": "IMAGES/5-INTERMEDIAIRES/from old country bumpkin to master swordsman/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : From Old Country Bumpkin to Master Swordsman",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/from old country bumpkin to master swordsman/banner.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Genius Martial Arts Trainer",
+            "aliases": ["El entrenador genio de artes marciales", "El genio de artes marciales", "El genio entrenador de artes marciales", "Genius Murim Trainer", "The Genius Murim Fitness Trainer"],
+            "image": "IMAGES/5-INTERMEDIAIRES/genius martial arts trainer/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Genius Martial Arts Trainer",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "God's Gambit",
             "aliases": ["Does God Play Dice?"],
             "image": "IMAGES/5-INTERMEDIAIRES/god's gambit/cover.webp",
@@ -6644,6 +6924,29 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Hand Over The Money",
+            "aliases": ["Give Me Money", "Give Me The Money"],
+            "image": "IMAGES/5-INTERMEDIAIRES/hand over the money/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Hand Over The Money",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [
+                "IMAGES/5-INTERMEDIAIRES/hand over the money/img1.webp"
+              ],
               "adaptations": []
             }
           },
@@ -7293,6 +7596,27 @@
               "title": "",
               "banner": "IMAGES/5-INTERMEDIAIRES/lightning degree/bannière.webp",
               "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Lv. 99 Princess of Black Flame",
+            "aliases": ["LV. 99 The Princess of Dark Flare", "Lv.99 黒焔のプリンセス", "Lv.99 흑염의 프린세스", "Lv.99 Black Flame Princess", "Lv.99 Burning Flame Princess", "Lv.99黑焰公主"],
+            "image": "IMAGES/5-INTERMEDIAIRES/lv 99 princess of black flame/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Lv. 99 Princess of Black Flame",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "IMAGES/5-INTERMEDIAIRES/lv 99 princess of black flame/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -8240,6 +8564,27 @@
             }
           },
           {
+            "title": "The Investor Who Sees the Future",
+            "aliases": ["He Can See the Future and Gets Rich Fast!", "foresighting investor", "The Invsetor Who Can See the Future", "An Investor Who Sees the Future"],
+            "image": "IMAGES/5-INTERMEDIAIRES/the investor who sees the future/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The Investor Who Sees the Future",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "The Iron-Blooded Necromancer Has Returned",
             "aliases": [],
             "image": "IMAGES/5-INTERMEDIAIRES/the iron-blooded necromancer has returned/cover.webp",
@@ -8270,6 +8615,27 @@
               "title": "",
               "banner": "",
               "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Laws of Cultivation",
+            "aliases": [""],
+            "image": "IMAGES/5-INTERMEDIAIRES/the laws of cultivation/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The Laws of Cultivation",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/the laws of cultivation/banner1.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/the laws of cultivation/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -8607,7 +8973,7 @@
           {
             "title": "My Villainous Family Won't Let Me Be",
             "aliases": ["Adored by Villains", "Adorée des Villains"],
-            "image": "IMAGES/6-MOYENS/adorée des villains/cover.webp",
+            "image": "IMAGES/6-MOYENS/adoree des villains/cover.webp",
             "loading": "lazy",
             "alt": "Image : Adorée des Villains",
             "details": {
@@ -8655,27 +9021,6 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Artifact-Devouring Player",
-            "aliases": ["The Artifact Devouring Player", "The Player That Devours Artifacts"],
-            "image": "IMAGES/6-MOYENS/artifact devouring player/cover1.webp",
-            "loading": "lazy",
-            "alt": "Image : Artifact-Devouring Player",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/6-MOYENS/artifact devouring player/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8815,6 +9160,27 @@
             }
           },
           {
+            "title": "Chronicles of the Lazy Sovereign",
+            "aliases": ["The Chronicles of the Lazy Sovereign", "Secrets of the Grand Master , Taejon Birok"],
+            "image": "IMAGES/6-MOYENS/chronicles of the lazy sovereign/cover2.webp",
+            "loading": "lazy",
+            "alt": "Image : Chronicles of the Lazy Sovereign",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "IMAGES/6-MOYENS/chronicles of the lazy sovereign/cover1.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Darkness Revenge",
             "aliases": [],
             "image": "IMAGES/6-MOYENS/darkness revenge/cover.webp",
@@ -8941,6 +9307,27 @@
             }
           },
           {
+            "title": "Frozen Warrior",
+            "aliases": [],
+            "image": "IMAGES/6-MOYENS/frozen warrior/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Frozen Warrior",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "God's Web Novel",
             "aliases": ["God's Webnovel"],
             "image": "IMAGES/6-MOYENS/god's web novel/cover.webp",
@@ -8958,29 +9345,6 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Hand Over The Money",
-            "aliases": ["Give Me Money", "Give Me The Money"],
-            "image": "IMAGES/6-MOYENS/hand over the money/cover.avif",
-            "loading": "lazy",
-            "alt": "Image : Hand Over The Money",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [
-                "IMAGES/6-MOYENS/hand over the money/img1.webp"
-              ],
               "adaptations": []
             }
           },
@@ -9727,6 +10091,48 @@
             }
           },
           {
+            "title": "Return of the Devourer",
+            "aliases": ["The Glutton: Devourer of Kings", "Bạo Thực Giả", "Bàoshízhě", "Eater of All", "The Glutton"],
+            "image": "IMAGES/6-MOYENS/return of the devourer/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Return of the Devourer",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Return of the First Patriarch",
+            "aliases": ["Return of the First Patriarch: The Strongest Reincarnates into His Descendant 1000 Years Later", "O Retorno do Primeiro Patriarca: Renasci Mil Anos Depois Como Meu Próprio Descendente", "Reincarnates as His Descendant 1000 Years Later", "Return of the First Generation: The Strongest in History Reincarnates as His Descendant 1000 Years Later", "Shodai-sama no Kikan ~Shijou Saikyou ga 1000-nen Go no Shison ni Tensei Suru~", "The Return of the First Generation ~The Strongest in History Reincarnates as a Descendant 1000 Years Later~"],
+            "image": "IMAGES/6-MOYENS/return of the first partiarch/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Return of the First Patriarch",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "IMAGES/6-MOYENS/return of the first partiarch/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Ruins of Gallia",
             "aliases": [],
             "image": "IMAGES/6-MOYENS/ruins of gallia/cover.webp",
@@ -9853,6 +10259,48 @@
             }
           },
           {
+            "title": "System Rules",
+            "aliases": [""],
+            "image": "IMAGES/6-MOYENS/system rules/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : System Rules",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Butcher Blade That Pierces All Realms",
+            "aliases": ["A Pig-Slaughtering Knife Cutting Through All Realms - Makes Sense, Right?", "La Lame du Boucher qui Transperce Tous les Royaumes", "Pig Slayer"],
+            "image": "IMAGES/6-MOYENS/the butcher blade that pierces all realms/cover2.webp",
+            "loading": "lazy",
+            "alt": "Image : Pig Slayer",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "IMAGES/6-MOYENS/the butcher blade that pierces all realms/cover1.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "The Ex-Number One Beginner",
             "aliases": ["The Formerly Number One Ranked Rookie"],
             "image": "IMAGES/6-MOYENS/the ex-number one beginner/cover.webp",
@@ -9917,10 +10365,31 @@
           },
           {
             "title": "The King of Bug",
-            "aliases": ["Le Roi des Bugs", "The Debugging Master Enters the Game"],
+            "aliases": ["Le Roi des Bugs", "The Debugging Master Enters the Game", "The King of Bugs"],
             "image": "IMAGES/6-MOYENS/the king of bug/cover.webp",
             "loading": "lazy",
             "alt": "Image : The King of Bug",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Raider",
+            "aliases": ["The Raider：超越者"],
+            "image": "IMAGES/6-MOYENS/the raider/cover1.jpg",
+            "loading": "lazy",
+            "alt": "Image : The Raider",
             "details": {
               "title": "",
               "banner": "",
@@ -10211,6 +10680,27 @@
             "details": {
               "title": "",
               "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Lord of Summons",
+            "aliases": [""],
+            "image": "IMAGES/7-ENNUYANTS/lord of summons/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Lord of Summons",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/7-ENNUYANTS/lord of summons/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
