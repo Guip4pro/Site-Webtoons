@@ -1155,7 +1155,7 @@
             "alt": "Image : Emperor of Solo Play",
             "details": {
               "title": "Emperor of Solo Play",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/emperor of solo play/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -2183,7 +2183,7 @@
             "alt": "Image : The Divine Demon's Grand Ascension",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/the divine demons grand ascension/banner1.webp",
+              "banner": "IMAGES/3-TRES BONS/the divine demons grand ascension/banner2.webp",
               "cover": "IMAGES/3-TRES BONS/the divine demons grand ascension/cover2.webp",
               "alt": "",
               "type": "",
@@ -2559,7 +2559,7 @@
             "alt": "Image : unOrdinary",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/unOrdinary/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -3123,6 +3123,27 @@
             }
           },
           {
+            "title": "Demonic Beast Hunter Survival Guide",
+            "aliases": ["How a Demon Hunter Survives", "Life of a Demon Hunter", "마수 사냥꾼이 살아가는 법", "A Beast Hunter's Way of Life", "Guía de Supervivencia del Cazador de Bestias Demoníacas", "Guía de Supervivencia del Cazador de Bestias Demoníacas (novela)"],
+            "image": "IMAGES/4-BONS/demonic beast hunter survival guide/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Demonic Beast Hunter Survival Guide",
+            "details": {
+              "title": "",
+              "banner": "",
+                "cover": "IMAGES/4-BONS/demonic beast hunter survival guide/cover2.webp",
+                "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Descent of the Demonic Master",
             "aliases": ["The Return of the Demonic Master", "The Return of the Demon Master", "The Descent of the Demonic Master"],
             "image": "IMAGES/4-BONS/descent of the demonic master/cover.webp",
@@ -3503,6 +3524,27 @@
                 "IMAGES/4-BONS/genius prismatic mage/img1.webp",
                 "IMAGES/4-BONS/genius prismatic mage/img2.webp"
               ],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Goblin Inc",
+            "aliases": ["Goblin corporation", "Gobeurin Jusikhoesa", "Goblin Inc.", "Goblin Jusikoesa"],
+            "image": "IMAGES/4-BONS/goblin inc/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Goblin Inc",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
               "adaptations": []
             }
           },
@@ -5261,7 +5303,7 @@
             "alt": "Image : Sword of the Undying",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/sword of the undying/banner1.webp",
               "cover": "IMAGES/4-BONS/sword of the undying/cover2.webp",
               "alt": "",
               "type": "",
@@ -6328,7 +6370,7 @@
             "alt": "Image : A Wimp’s Strategy Guide to Conquer the Tower",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/A wimps strategy guide to conquer the tower/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -7209,6 +7251,27 @@
             }
           },
           {
+            "title": "I Became A Married Man in Another World",
+            "aliases": ["Eu Me Tornei Um Homem Casado Em Outro Mundo", "Isegye seo Yubunam Doen Sseol", "The Story of Becoming a Married Man in Another World", "Xuyên Không Thành Đàn Ông Đã Có Vợ"],
+            "image": "IMAGES/5-INTERMEDIAIRES/i became a married man in another world/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : I Became A Married Man in Another World",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "I Became a Renowned Family's Sword Prodigy",
             "aliases": ["I Became a Renowned Familys Sword Prodigy"],
             "image": "IMAGES/5-INTERMEDIAIRES/i became a renowned family's sword prodigy/cover1.webp",
@@ -7629,6 +7692,27 @@
             }
           },
           {
+            "title": "Limit-Breaking Genius Mage",
+            "aliases": ["A Genius Wizard Who Breaks Boundaries", "한계 찢는 천재마법사", "ไม่มีลิมิต ชีวิตจอมเวท", "突破極限的天才魔法師", "The Genius Wizard Who Breaks Limits"],
+            "image": "IMAGES/5-INTERMEDIAIRES/limit-breaking genius mage/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Limit-Breaking Genius Mage",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Lv. 99 Princess of Black Flame",
             "aliases": ["LV. 99 The Princess of Dark Flare", "Lv.99 黒焔のプリンセス", "Lv.99 흑염의 프린세스", "Lv.99 Black Flame Princess", "Lv.99 Burning Flame Princess", "Lv.99黑焰公主"],
             "image": "IMAGES/5-INTERMEDIAIRES/lv 99 princess of black flame/cover1.webp",
@@ -7931,6 +8015,27 @@
             "details": {
               "title": "",
               "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Reborn on the Demonic Cult Battlefield",
+            "aliases": ["13th Generation Flying Dragon of the Demonic Sect", "Demonic Cult Frontline, 13th Dragon Squad", "飞龙十三队", "Demonic Sect Frontline: Thirteen Flying Dragons", "魔教戰線飛龍十三隊", "마교전선 비룡십삼대", "Demonic Frontline: The 13th Flying Dragon Company"],
+            "image": "IMAGES/5-INTERMEDIAIRES/reborn on the demonic cult battlefield/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Reborn on the Demonic Cult Battlefield",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/reborn on the demonic cult battlefield/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8501,6 +8606,27 @@
             }
           },
           {
+            "title": "The Dang Clan’s Swordmaster Heir Just Wants a Normal Life",
+            "aliases": ["The Dang Clans Swordmaster Heir Just Wants a Normal Life", "Becoming the Sacheon Dang's Swordsmaster-Rank Young Lord", "Becoming the Sacheon Tang's Sword God Level Young Lord", "Becoming the Swordmaster of the Sichuan Tang Clan", "Becoming the Swordmaster Rank Young Lord of the Sichuan Tang Family", "Convirtiéndose en el Joven Señor con rango de Maestro de Espadas de la Familia Tang de Sichuan", "Convirtiéndose en el Maestro de Espadas de la Familia Tang", "El surgimiento del nuevo jefe de la Familia Tang de Sichuan", "He Became the Head of the Four Heavenly Dang Family", "He Became the Swordmaster-Rank Young Lord of the Tang Family of Sacheon", "The Dang Clan’s Swordmaster Heir Just Wants a Normal Life"],
+            "image": "IMAGES/5-INTERMEDIAIRES/the dang clans swordmaster heir just wants a normal life/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The Dang Clan’s Swordmaster Heir Just Wants a Normal Life",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/the dang clans swordmaster heir just wants a normal life/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "Terminé",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "The Dark Swordsman Returns",
             "aliases": ["Hắc Ám Kiếm Sĩ Hồi Quy", "Kiếm Sĩ Hắc Ám Tái Xuất", "Retorno do Espadachim Sombrio", "Sự Trở Lại Của Kiếm Sĩ Bóng Đêm", "The Return of The DarkSlayer"],
             "image": "IMAGES/5-INTERMEDIAIRES/the dark swordsman returns/cover1.webp",
@@ -8509,6 +8635,27 @@
             "details": {
               "title": "",
               "banner": "IMAGES/5-INTERMEDIAIRES/the dark swordsman returns/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Demonic Cult Instructor Returns",
+            "aliases": ["Demon Instructor Returns", "Demon Instructor's Return", "Ma Giáo Quan Hồi Quy", "Return of the Demonic Instructor", "帰還した魔教官", "귀환마교관"],
+            "image": "IMAGES/5-INTERMEDIAIRES/the demonic cult instructor returns/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The Demonic Cult Instructor Returns",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/the demonic cult instructor returns/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8552,6 +8699,27 @@
               "title": "",
               "banner": "",
               "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "Terminé",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Genius Who Sees Through the World",
+            "aliases": ["sous les yeux du génie", "sous les yeux du genie"],
+            "image": "IMAGES/5-INTERMEDIAIRES/the genius who sees through the world/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The Genius Who Sees Through the World",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "IMAGES/5-INTERMEDIAIRES/the genius who sees through the world/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -9012,6 +9180,27 @@
       {
         "name": "Moyens",
         "webtoons": [
+          {
+            "title": "A Livid Lady's Guide to Getting Even",
+            "aliases": ["A Livid Ladys Guide to Getting Even"],
+            "image": "IMAGES/6-MOYENS/a livid ladys guide to getting even/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : A Livid Ladys Guide to Getting Even",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/6-MOYENS/a livid ladys guide to getting even/banner1.avif",
+              "cover": "IMAGES/6-MOYENS/a livid ladys guide to getting even/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
           {
             "title": "My Villainous Family Won't Let Me Be",
             "aliases": ["Adored by Villains", "Adorée des Villains"],
@@ -10238,11 +10427,11 @@
             }
           },
           {
-            "title": "School Knight Level Up",
-            "aliases": [],
-            "image": "IMAGES/6-MOYENS/school knight level up/cover.webp",
+            "title": "Sichuan's Supreme King",
+            "aliases": ["sichuans supreme king", "Four Heavenly Kings", "O Rei Supremo de Sichuan", "Overlord of Sichuan", "Sacheonpaewang", "Sichuan Overlord", "Sichuan'ın Yüce Kralı", "The Iron Overlord of Sichuan", "四川霸王", "사천패왕"],
+            "image": "IMAGES/6-MOYENS/sichuans supreme king/cover1.webp",
             "loading": "lazy",
-            "alt": "Image : School Knight Level Up",
+            "alt": "Image : Sichuans Supreme King",
             "details": {
               "title": "",
               "banner": "",
