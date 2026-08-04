@@ -1,6 +1,74 @@
 [
     {
+        "name": "artifact-devouring-player",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/artifact-devouring-player.webp"
+    },
+    {
+        "name": "barbarian-quest",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/barbarian-quest.webp"
+    },
+    {
+        "name": "crimson-reset",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/crimson-reset.webp"
+    },
+    {
+        "name": "doom-breaker",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/doom-breaker.webp"
+    },
+    {
+        "name": "dungeon-architect",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/dungeon-architect.webp"
+    },
+    {
+        "name": "i-obtained-a-mythic-item",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/i-obtained-a-mythic-item.webp"
+    },
+    {
+        "name": "latna-saga",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/latna-saga.webp"
+    },
+    {
+        "name": "leviathan",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/leviathan.webp"
+    },
+    {
+        "name": "nano-machine",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/nano-machine.webp"
+    },
+    {
+        "name": "pick-me-up",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/pick-me-up.webp"
+    },
+    {
+        "name": "reincarnation-of-the-fist-king",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/reincarnation-of-the-fist-king.webp"
+    },
+    {
+        "name": "return-of-the-mad-demon",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/return-of-the-mad-demon.webp"
+    },
+    {
         "name": "the-beginning-after-the-end",
         "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/the-beginning-after-the-end.webp"
+    },
+    {
+        "name": "the-demon-king-overrun-by-heroes",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/the-demon-king-overrun-by-heroes.webp"
+    },
+    {
+        "name": "the-last-adventurer",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/the-last-adventurer.webp"
+    },
+    {
+        "name": "the-legendary-hero-is-an-academy-honors-student",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/the-legendary-hero-is-an-academy-honors-student.webp"
+    },
+    {
+        "name": "the-world-after-the-fall",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/the-world-after-the-fall.webp"
+    },
+    {
+        "name": "zombie-dad",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/zombie-dad.webp"
     }
 ]

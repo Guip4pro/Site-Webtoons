@@ -40,6 +40,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/The-Reincarnated-Assassin-Is-a-Genius-Swordsman.webp"
     },
     {
+        "name": "crimson-reset",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/crimson-reset.webp"
+    },
+    {
         "name": "dragonslayer's-peerless-regression",
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/dragonslayer's-peerless-regression.webp"
     },
@@ -68,6 +72,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/juvenile-law.webp"
     },
     {
+        "name": "kidnapped-dragons",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/kidnapped-dragons.webp"
+    },
+    {
         "name": "lightning-degree",
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/lightning-degree.webp"
     },
@@ -78,6 +86,10 @@
     {
         "name": "necromancer-academy-and-the-genius-summoner",
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/necromancer-academy-and-the-genius-summoner.webp"
+    },
+    {
+        "name": "past-life-regressor",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/past-life-regressor.webp"
     },
     {
         "name": "raising-hell",
@@ -96,8 +108,16 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/reincarnation-of-the-warrior-party-archmage.webp"
     },
     {
+        "name": "skeleton-soldier-couldn't-protect-the-dungeon",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/skeleton-soldier-couldn't-protect-the-dungeon.webp"
+    },
+    {
         "name": "the-31st-piece-turns-the-tables",
         "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-31st-piece-turns-the-tables.webp"
+    },
+    {
+        "name": "the-berserker's-second-playthrough",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/difficile/the-berserker's-second-playthrough.webp"
     },
     {
         "name": "the-blood-knights-villain",

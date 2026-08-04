@@ -1,5 +1,13 @@
 [
     {
+        "name": "+99-reinforced-wooden-stick",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/facile/+99-reinforced-wooden-stick.webp"
+    },
+    {
+        "name": "-+99-reinforced-wooden-stick-",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/facile/-+99-reinforced-wooden-stick-.webp"
+    },
+    {
         "name": "-damn-reincarnation",
         "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/facile/-damn-reincarnation.webp"
     },
@@ -10,6 +18,10 @@
     {
         "name": "99-reinforced-wooden-stick",
         "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/facile/99-reinforced-wooden-stick.webp"
+    },
+    {
+        "name": "bad-born-blood",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/doigt/facile/bad-born-blood.webp"
     },
     {
         "name": "damn-reincarnation-",

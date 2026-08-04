@@ -1240,26 +1240,6 @@
             }
           },
           {
-            "title": "Heavenly Inquisition Sword",
-            "aliases": ["The Nine Heavens Swordmaster", "Espada de la inquisición celestial"],
-            "image": "IMAGES/3-TRES BONS/heavenly inquisition sword/cover.avif",
-            "alt": "Image : Heavenly Inquisition Sword",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/3-TRES BONS/heavenly inquisition sword/banner1.webp",
-              "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
             "title": "Helmut",
             "aliases": ["Helmut: The Forsaken Child", "Helmut: L’enfant Abandonné", "Helmut: El Niño Abandonado"],
             "image": "IMAGES/3-TRES BONS/helmut/cover.avif",
@@ -1420,10 +1400,10 @@
             }
           },
           {
-            "title": "La Saga du Clan Mudang",
-            "aliases": ["Mugang: The Path of Shaman", "Mudang: Path of Shaman", "Path of the Shaman", "The Mudang Clan Saga", "The Grand Mudang Saga"],
+            "title": "Mugang: The Path of Shaman",
+            "aliases": ["La Saga du Clan Wudang", "Mudang: Path of Shaman", "Path of the Shaman", "The Mudang Clan Saga", "The Grand Mudang Saga"],
             "image": "IMAGES/3-TRES BONS/la saga du clan mudang/cover.avif",
-            "alt": "Image : La Saga du Clan Mudang",
+            "alt": "Image : Mugang: The Path of Shaman",
             "details": {
               "title": "Mudang Saga: Path of the Shaman",
               "banner": "IMAGES/3-TRES BONS/la saga du clan mudang/banner1.webp",
@@ -1435,7 +1415,16 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/la saga du clan mudang/img1.webp",
+                "IMAGES/3-TRES BONS/la saga du clan mudang/img2.webp",
+                "IMAGES/3-TRES BONS/la saga du clan mudang/img3.webp",
+                "IMAGES/3-TRES BONS/la saga du clan mudang/img4.webp",
+                "IMAGES/3-TRES BONS/la saga du clan mudang/img5.webp",
+                "IMAGES/3-TRES BONS/la saga du clan mudang/img6.webp",
+                "IMAGES/3-TRES BONS/la saga du clan mudang/img7.webp",
+                "IMAGES/3-TRES BONS/la saga du clan mudang/img8.webp"
+              ],
               "adaptations": []
             }
           },
@@ -1825,7 +1814,17 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/regressor instruction manual/img1.webp",
+                "IMAGES/3-TRES BONS/regressor instruction manual/img2.webp",
+                "IMAGES/3-TRES BONS/regressor instruction manual/img3.webp",
+                "IMAGES/3-TRES BONS/regressor instruction manual/img4.webp",
+                "IMAGES/3-TRES BONS/regressor instruction manual/img5.webp",
+                "IMAGES/3-TRES BONS/regressor instruction manual/img6.webp",
+                "IMAGES/3-TRES BONS/regressor instruction manual/img7.webp",
+                "IMAGES/3-TRES BONS/regressor instruction manual/img8.webp"
+                
+              ],
               "adaptations": []
             }
           },
@@ -1865,7 +1864,16 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/img1.webp",
+                "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/img2.webp",
+                "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/img3.webp",
+                "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/img4.webp",
+                "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/img5.webp",
+                "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/img6.webp",
+                "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/img7.webp",
+                "IMAGES/3-TRES BONS/reincarnation of the suicidal battle god/img8.webp"
+              ],
               "adaptations": ["Format papier en français"]
             }
           },
@@ -2097,6 +2105,27 @@
             }
           },
           {
+            "title": "Sword-Devouring Swordmaster",
+            "aliases": ["Kiếm Sư Thực Kiếm", "The Sword-Eating Swordmaster", "The Sword-Devouring Swordsman", "검 먹는 소드마스터", "Le Maître d'épée dévoreur d'épées", "El Maestro de Espadas Devorador de Espadas"],
+            "image": "IMAGES/3-TRES BONS/sword-devouring swordmaster/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Sword-Devouring Swordmaster",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/3-TRES BONS/sword-devouring swordmaster/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "The Academy’s Sashimi Sword Master",
             "aliases": ["Conquistando la Academia con solo un Cuchillo de Sashimi", "I Took Over the Academy With a Single Sashimi Knife", "Thống Lĩnh Học Viện Chỉ Bằng Dao Sashimi"],
             "image": "IMAGES/3-TRES BONS/the academy’s sashimi sword master/cover.avif",
@@ -2172,7 +2201,16 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/the demon king overrun by heroes/img1.webp",
+                "IMAGES/3-TRES BONS/the demon king overrun by heroes/img2.webp",
+                "IMAGES/3-TRES BONS/the demon king overrun by heroes/img3.webp",
+                "IMAGES/3-TRES BONS/the demon king overrun by heroes/img4.webp",
+                "IMAGES/3-TRES BONS/the demon king overrun by heroes/img5.webp",
+                "IMAGES/3-TRES BONS/the demon king overrun by heroes/img6.webp",
+                "IMAGES/3-TRES BONS/the demon king overrun by heroes/img7.webp",
+                "IMAGES/3-TRES BONS/the demon king overrun by heroes/img8.webp"
+              ],
               "adaptations": []
             }
           },
@@ -2320,26 +2358,6 @@
             }
           },
           {
-            "title": "The Martial God Who Regressed to Level 2",
-            "aliases": [],
-            "image": "IMAGES/3-TRES BONS/the martial god who regressed to level 2/cover.avif",
-            "alt": "Image : The Martial God Who Regressed to Level 2",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/3-TRES BONS/the martial god who regressed to level 2/banner1.webp",
-              "cover": "IMAGES/3-TRES BONS/the martial god who regressed to level 2/cover.webp",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
             "title": "The Newbie Is Too Strong",
             "aliases": ["The Overpowered Newbie"],
             "image": "IMAGES/3-TRES BONS/the newbie is too strong/cover.avif",
@@ -2376,7 +2394,16 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/the novel's extra/img1.webp",
+                "IMAGES/3-TRES BONS/the novel's extra/img2.webp",
+                "IMAGES/3-TRES BONS/the novel's extra/img3.webp",
+                "IMAGES/3-TRES BONS/the novel's extra/img4.webp",
+                "IMAGES/3-TRES BONS/the novel's extra/img5.webp",
+                "IMAGES/3-TRES BONS/the novel's extra/img6.webp",
+                "IMAGES/3-TRES BONS/the novel's extra/img7.webp",
+                "IMAGES/3-TRES BONS/the novel's extra/img8.webp"
+              ],
               "adaptations": ["Format papier en français"]
             }
           },
@@ -2573,6 +2600,36 @@
             }
           },
           {
+            "title": "Villain to Kill",
+            "aliases": [],
+            "image": "IMAGES/3-TRES BONS/villain to kill/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Villain to Kill",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/3-TRES BONS/villain to kill/banner2.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [
+                "IMAGES/3-TRES BONS/villain to kill/img1.webp",
+                "IMAGES/3-TRES BONS/villain to kill/img2.webp",
+                "IMAGES/3-TRES BONS/villain to kill/img3.webp",
+                "IMAGES/3-TRES BONS/villain to kill/img4.webp",
+                "IMAGES/3-TRES BONS/villain to kill/img5.webp",
+                "IMAGES/3-TRES BONS/villain to kill/img6.webp",
+                "IMAGES/3-TRES BONS/villain to kill/img7.webp",
+                "IMAGES/3-TRES BONS/villain to kill/img8.webp"
+              ],
+              "adaptations": ["Format papier en français"]
+            }
+          },
+          {
             "title": "Warrior High School",
             "aliases": ["Escola de Guerreiros", "Le lycée des guerriers", "Yongsa High: Dungeon Raiders"],
             "image": "IMAGES/3-TRES BONS/warrior high school/cover.avif",
@@ -2734,7 +2791,16 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/4-BONS/absolute necromancer/img1.webp",
+                "IMAGES/4-BONS/absolute necromancer/img2.webp",
+                "IMAGES/4-BONS/absolute necromancer/img3.webp",
+                "IMAGES/4-BONS/absolute necromancer/img4.webp",
+                "IMAGES/4-BONS/absolute necromancer/img5.webp",
+                "IMAGES/4-BONS/absolute necromancer/img6.webp",
+                "IMAGES/4-BONS/absolute necromancer/img7.webp",
+                "IMAGES/4-BONS/absolute necromancer/img8.webp"
+              ],
               "adaptations": []
             }
           },
@@ -3610,6 +3676,26 @@
             }
           },
           {
+            "title": "Heavenly Inquisition Sword",
+            "aliases": ["The Nine Heavens Swordmaster", "Espada de la inquisición celestial"],
+            "image": "IMAGES/4-BONS/heavenly inquisition sword/cover.avif",
+            "alt": "Image : Heavenly Inquisition Sword",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/heavenly inquisition sword/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Hero Killer",
             "aliases": [],
             "image": "IMAGES/4-BONS/hero killer/cover.webp",
@@ -3918,6 +4004,27 @@
             "details": {
               "title": "",
               "banner": "IMAGES/4-BONS/i'm not that kind of talent/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Immortal's Way of Life",
+            "aliases": ["불로불사로 산다는 것은", "Immortal’s Way of Life", "Living Immortally", "Living as the Immortal Lord", "What It Means to Live Undying and Immortal", "Immortal's Ascending Path", "Eternal Youth", "Crónicas de un Inmortal", "The Immortal's Way of Life", "How the Immortal Lives", "Living Immortally", "Living as the Immortal Lord", "What It Means to Live Undying and Immortal", "Immortal's Ascending Path", "Eternal Youth", "Bulmyeolja-ui Saraganeun Beop", "Cách Sống Của Kẻ Bất Tử", "Le Mode de Vie de l'Immortel", "La Forma de Vida del Inmortal", "Crónicas de un Inmortal", "O Modo de Vida do Imortal", "Cara Hidup Sang Abadi", "불멸자의 살아가는 법", "불로불사로 산다는 것은", "不滅者の生き方", "不朽者的生存之道", "不老不死地活着", "Образ жизни бессмертного", "طريقة حياة الخالد"],
+            "image": "IMAGES/4-BONS/immortals way of life/cover1.jpg",
+            "loading": "lazy",
+            "alt": "Image : Immortal's Way of Life",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/immortals way of life/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -4697,13 +4804,13 @@
           {
             "title": "Rebirth Of An 8th-Circled Wizard",
             "aliases": ["8Seokeul Mabeobsaui Hwansaeng", "8th Circle Mage Reborn", "La Réincarnation de l'archimage de 8e cercle", " Return Of An 8th-Circled Wizard", "Return of the 8th Class Mage"],
-            "image": "IMAGES/4-BONS/rebirth of an 8th-circled wizard/cover.webp",
+            "image": "IMAGES/4-BONS/rebirth of an 8th-circled wizard/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Rebirth Of An 8th-Circled Wizard",
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
+              "cover": "IMAGES/4-BONS/rebirth of an 8th-circled wizard/cover2.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -5317,27 +5424,6 @@
             }
           },
           {
-            "title": "Sword-Devouring Swordmaster",
-            "aliases": ["Kiếm Sư Thực Kiếm", "The Sword-Eating Swordmaster", "The Sword-Devouring Swordsman", "검 먹는 소드마스터", "Le Maître d'épée dévoreur d'épées", "El Maestro de Espadas Devorador de Espadas"],
-            "image": "IMAGES/4-BONS/sword-devouring swordmaster/cover1.webp",
-            "loading": "lazy",
-            "alt": "Image : Sword-Devouring Swordmaster",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/4-BONS/sword-devouring swordmaster/banner1.webp",
-              "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
             "title": "Talent-Swallowing Magician",
             "aliases": ["Demon Devourer", "Talent Swallowing Magician", "El Mago Devorador de Talentos", "Le Dévoreur de démons", "Talent Swallowing Magician", "The Mage Who Absorbs Abilities"],
             "image": "IMAGES/4-BONS/talent-swallowing magician/cover1.webp",
@@ -5519,6 +5605,27 @@
             "details": {
               "title": "",
               "banner": "IMAGES/4-BONS/the constellations are my disciples/bannière.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Corporate Underdog who does Everything Right",
+            "aliases": ["대기업 말단이 일을 잘함"],
+            "image": "IMAGES/4-BONS/the corporate underdog who does everything right/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The Corporate Underdog who does Everything Right",
+            "details": {
+              "title": "",
+              "banner": "",
               "cover": "",
               "alt": "",
               "type": "",
@@ -5749,6 +5856,46 @@
               "title": "",
               "banner": "IMAGES/4-BONS/the lord's coins aren't decreasing/banner1.webp",
               "cover": "IMAGES/4-BONS/the lord's coins aren't decreasing/cover2.webp",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Main Characters That Only I Know",
+            "aliases": [],
+            "image": "IMAGES/4-BONS/the main characters that only i know/cover.avif",
+            "alt": "Image : The Main Characters That Only I Know",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Martial God Who Regressed to Level 2",
+            "aliases": [],
+            "image": "IMAGES/4-BONS/the martial god who regressed to level 2/cover.avif",
+            "alt": "Image : The Martial God Who Regressed to Level 2",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/the martial god who regressed to level 2/banner1.webp",
+              "cover": "IMAGES/4-BONS/the martial god who regressed to level 2/cover.webp",
               "alt": "",
               "type": "",
               "genre": [],
@@ -6035,27 +6182,6 @@
               "synopsis": "",
               "previewImages": [],
               "adaptations": []
-            }
-          },
-          {
-            "title": "Villain to Kill",
-            "aliases": [],
-            "image": "IMAGES/4-BONS/villain to kill/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : Villain to Kill",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/4-BONS/villain to kill/banner2.webp",
-              "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": ["Format papier en français"]
             }
           },
           {
@@ -6559,27 +6685,6 @@
               "title": "",
               "banner": "IMAGES/5-INTERMEDIAIRES/bloodhound's regression instinct/banner1.webp",
               "cover": "IMAGES/5-INTERMEDIAIRES/bloodhound's regression instinct/cover.webp",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Bones",
-            "aliases": [],
-            "image": "IMAGES/5-INTERMEDIAIRES/bones/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : Bones",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
               "alt": "",
               "type": "",
               "genre": [],
@@ -7358,12 +7463,33 @@
           {
             "title": "Ice Lord",
             "aliases": ["Le Seigneur des Glaces", "Señor del Hielo", "The Royal Frozen"],
-            "image": "IMAGES/5-INTERMEDIAIRES/ice lord/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/ice lord/cover1.avif",
             "loading": "lazy",
             "alt": "Image : Ice Lord",
             "details": {
               "title": "",
               "banner": "",
+              "cover": "IMAGES/5-INTERMEDIAIRES/ice lord/cover2.avif",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Kidnapped Dragons",
+            "aliases": ["How to Kidnap a Dragon", "Kidnap a Dragon", "พลพรรคคนลักมังกร", "드래곤을 유괴하다", "Napchidoen Deuraegondeul", "Những Con Rồng Bị Bắt Cóc", "Dragons Kidnappés", "Dragones Secuestrados", "Dragões Sequestrados", "Naga-Naga yang Diculik", "Kaçurulan Ejderhalar", "납치된 드래곤들", "誘拐されたドラゴンたち", "被绑架的巨龙", "Похищенные драконы", "التنانين المختطفة ", "มังกรที่ถูกลักพาตัว"],
+            "image": "IMAGES/5-INTERMEDIAIRES/kidnapped dragons/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Kidnapped Dragons",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/kidnapped dragons/banner1.webp",
               "cover": "",
               "alt": "",
               "type": "",
@@ -8984,6 +9110,27 @@
             }
           },
           {
+            "title": "The Sword Emperor's Rise of Namgung",
+            "aliases": ["Sword Emperor's Namgung Rise", "The Sword Emperor's Path to Namgung", "The Sword Emperor’s Way of Establishing the Namgung Clan", "Geomjega Namgungsegareul Seuneun Beob", "Con Đường Gầy Dựng Namгун Của Kiếm Đế", "L'Ascension de Namgung par l'Empereur de l'Épée", "El Ascenso del Emperador de la Espada de Namgung", "El ascenso de Namgung", "el Emperador de la Espada", "A Ascensão de Namgung do Imperador da Espada", "Kebangkitan Namgung Sang Kaisar Pedang", "Kılıç İmparatorunun Namgung'un Yükselişi", "검제가 남궁세가를 세우는 법", "남궁가의 검제", "剣帝が南宮世家を建てる方法", "剑帝建立南宫世家的方法", "南宫家剑帝回归", "Восхождение Намгуна императора меча", "صعود نامجونج لإمبراطور السيف ", "เส้นทางสู่ความยิ่งใหญ่ของนัมุงโดยจักรพรรดิกระบี่"],
+            "image": "IMAGES/5-INTERMEDIAIRES/the sword emperors rise of namgung/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The Sword Emperor's Rise of Namgung",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/the sword emperors rise of namgung/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Top Tier Providence: Secretly Cultivate for a Thousand Years",
             "aliases": ["How a Former Pro Takes Advantage by Doing an Easy Job"],
             "image": "IMAGES/5-INTERMEDIAIRES/top tier providence/cover.webp",
@@ -9294,6 +9441,27 @@
             "details": {
               "title": "",
               "banner": "IMAGES/6-MOYENS/berserk of gluttony/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Bones",
+            "aliases": [],
+            "image": "IMAGES/6-MOYENS/bones/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Bones",
+            "details": {
+              "title": "",
+              "banner": "",
               "cover": "",
               "alt": "",
               "type": "",
@@ -9641,6 +9809,27 @@
               "previewImages": [
                 "IMAGES/6-MOYENS/i failed to abandon the villain/img1.avif"
               ],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "I Owe Billions in Debt, so I Was Forced to Work for an Evil God",
+            "aliases": ["I Owe Billions in Debt so I Was Forced to Work for an Evil God", "Au Service d'un Dieu Maléfique", "I Owe a Billion Dollars and I Am Forced to Become a Worker for an Evil God", "Owing Billions in Debt", "I Was Forced to Become a Devil God's Employee", "Qiàn Zhài Yì Wàn", "Wǒ Bèi Pò Chéngwéi Xiéshén Dǎgōng Rén", "Qian Zhai Yi Wan", "Wo Bei Po Chengwei Xieshen Dagong Ren"],
+            "image": "IMAGES/6-MOYENS/i owe billions in debt so i was forced to work for an evil god/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Ice Lord",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/6-MOYENS/i owe billions in debt so i was forced to work for an evil god/banner1.webp",
+              "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
               "adaptations": []
             }
           },
@@ -10604,6 +10793,27 @@
               "title": "",
               "banner": "",
               "cover": "",
+              "alt": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The One Within the Villainess",
+            "aliases": ["The person in a vilainess", "Akuyaku Reijō no Naka no Hito", "Danzai Sareta Tenseisha no Tame Usotsuki Heroine ni Fukushū Itashimasu"],
+            "image": "IMAGES/6-MOYENS/the one within the villainess/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The One Within the Villainess",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/6-MOYENS/the one within the villainess/banner1.webp",
+              "cover": "IMAGES/6-MOYENS/the one within the villainess/cover3.webp",
               "alt": "",
               "type": "",
               "genre": [],

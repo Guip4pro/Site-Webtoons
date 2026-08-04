@@ -1,5 +1,5 @@
-# Script générant les json contenant les images du jeu "Guess the Webtoon"
-# Commande : python generate-all-json.py
+# Script générant les json contenant les images du jeu "Guess the Webtoon" et les stockant dans data-json/guess-webtoon-py
+# Commande : python generate-all-json.py à lancer dans Site-Webtoons (à la racine)
 
 #!/usr/bin/env python3
 import os

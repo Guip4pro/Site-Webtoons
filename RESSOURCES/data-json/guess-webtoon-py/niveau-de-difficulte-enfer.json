@@ -4,8 +4,16 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/-top-tier-providence.webp"
     },
     {
+        "name": "absolute-regression",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/absolute-regression.webp"
+    },
+    {
         "name": "absolute-sword-sense",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/absolute-sword-sense.webp"
+    },
+    {
+        "name": "dungeon-odyssey",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/dungeon-odyssey.webp"
     },
     {
         "name": "emperor-of-solo-play",
@@ -28,6 +36,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/i-became-an-evolving-space-monster.webp"
     },
     {
+        "name": "kidnapped-dragons",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/kidnapped-dragons.webp"
+    },
+    {
         "name": "kill-the-dragon",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/kill-the-dragon.webp"
     },
@@ -38,6 +50,10 @@
     {
         "name": "regressor-of-the-fallen-family",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/regressor-of-the-fallen-family.webp"
+    },
+    {
+        "name": "reincarnation-of-the-fist-king",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/reincarnation-of-the-fist-king.webp"
     },
     {
         "name": "sword-sweath's-child",
@@ -58,6 +74,10 @@
     {
         "name": "the-archmage's-restaurant",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/the-archmage's-restaurant.webp"
+    },
+    {
+        "name": "the-indomitable-martial-king",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/the-indomitable-martial-king.webp"
     },
     {
         "name": "the-legendary-hero-is-an-academy-honors-student",

@@ -60,6 +60,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/reincarnation-of-the-fist-king.webp"
     },
     {
+        "name": "return-of-the-mad-demon",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/return-of-the-mad-demon.webp"
+    },
+    {
         "name": "return-of-the-sss-class-ranker",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/return-of-the-sss-class-ranker.webp"
     },
@@ -74,6 +78,14 @@
     {
         "name": "the-book-of-lagier",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-book-of-lagier.webp"
+    },
+    {
+        "name": "the-demon-king-overrun-by-heroes-",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-demon-king-overrun-by-heroes-.webp"
+    },
+    {
+        "name": "the-demon-king-overrun-by-heroes",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-demon-king-overrun-by-heroes.webp"
     },
     {
         "name": "the-emperor's-sword",

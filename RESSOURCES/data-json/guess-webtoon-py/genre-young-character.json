@@ -1,58 +1,62 @@
 [
     {
         "name": "-i'm-going-to-destroy-this-country-",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/child/-i'm-going-to-destroy-this-country-.webp"
+        "image": "RESSOURCES/img-guessthewebtoon/genre/young-character/-i'm-going-to-destroy-this-country-.webp"
     },
     {
         "name": "-revenge-of-the-iron-blooded-sword-hound",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/child/-revenge-of-the-iron-blooded-sword-hound.webp"
+        "image": "RESSOURCES/img-guessthewebtoon/genre/young-character/-revenge-of-the-iron-blooded-sword-hound.webp"
     },
     {
         "name": "-the-beginning-after-the-end",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/child/-the-beginning-after-the-end.webp"
+        "image": "RESSOURCES/img-guessthewebtoon/genre/young-character/-the-beginning-after-the-end.webp"
     },
     {
         "name": "childhood-friend-of-the-zenith",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/child/childhood-friend-of-the-zenith.webp"
+        "image": "RESSOURCES/img-guessthewebtoon/genre/young-character/childhood-friend-of-the-zenith.webp"
     },
     {
         "name": "genius-prismatic-mage",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/child/genius-prismatic-mage.webp"
+        "image": "RESSOURCES/img-guessthewebtoon/genre/young-character/genius-prismatic-mage.webp"
     },
     {
         "name": "i-picked-a-hammer-to-save-the-world",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/child/i-picked-a-hammer-to-save-the-world.webp"
+        "image": "RESSOURCES/img-guessthewebtoon/genre/young-character/i-picked-a-hammer-to-save-the-world.webp"
     },
     {
         "name": "kill-the-dragon",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/child/kill-the-dragon.webp"
+        "image": "RESSOURCES/img-guessthewebtoon/genre/young-character/kill-the-dragon.webp"
     },
     {
         "name": "regressor-instruction-manual",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/child/regressor-instruction-manual.webp"
+        "image": "RESSOURCES/img-guessthewebtoon/genre/young-character/regressor-instruction-manual.webp"
     },
     {
         "name": "return-of-the-mount-hua-sect",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/child/return-of-the-mount-hua-sect.webp"
+        "image": "RESSOURCES/img-guessthewebtoon/genre/young-character/return-of-the-mount-hua-sect.webp"
     },
     {
         "name": "revenge-of-the-iron-blooded-sword-hound",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/child/revenge-of-the-iron-blooded-sword-hound.webp"
+        "image": "RESSOURCES/img-guessthewebtoon/genre/young-character/revenge-of-the-iron-blooded-sword-hound.webp"
     },
     {
         "name": "swordmaster's-youngest-son",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/child/swordmaster's-youngest-son.webp"
+        "image": "RESSOURCES/img-guessthewebtoon/genre/young-character/swordmaster's-youngest-son.webp"
     },
     {
         "name": "the-beginning-after-the-end",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/child/the-beginning-after-the-end.webp"
+        "image": "RESSOURCES/img-guessthewebtoon/genre/young-character/the-beginning-after-the-end.webp"
+    },
+    {
+        "name": "the-demon-king-overrun-by-heroes",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/young-character/the-demon-king-overrun-by-heroes.webp"
     },
     {
         "name": "the-priest-of-corruption",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/child/the-priest-of-corruption.webp"
+        "image": "RESSOURCES/img-guessthewebtoon/genre/young-character/the-priest-of-corruption.webp"
     },
     {
         "name": "the-reborn-young-lord-is-an-assassin",
-        "image": "RESSOURCES/img-guessthewebtoon/genre/child/the-reborn-young-lord-is-an-assassin.webp"
+        "image": "RESSOURCES/img-guessthewebtoon/genre/young-character/the-reborn-young-lord-is-an-assassin.webp"
     }
 ]

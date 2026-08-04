@@ -20,6 +20,14 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/moyen/angel-or-villainess.webp"
     },
     {
+        "name": "bad-ending-maker-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/moyen/bad-ending-maker-.webp"
+    },
+    {
+        "name": "bad-ending-maker",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/moyen/bad-ending-maker.webp"
+    },
+    {
         "name": "barbarian-quest",
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/moyen/barbarian-quest.webp"
     },
@@ -46,6 +54,10 @@
     {
         "name": "dungeon-odyssey",
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/moyen/dungeon-odyssey.webp"
+    },
+    {
+        "name": "echoes-of-the-reverse-planet",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/moyen/echoes-of-the-reverse-planet.webp"
     },
     {
         "name": "entomologist-in-sichuan-tang-clan",
@@ -104,12 +116,20 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/moyen/necromancer-academy's-genius-summoner.webp"
     },
     {
+        "name": "necromancer-academy-and-the-genius-summoner",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/moyen/necromancer-academy-and-the-genius-summoner.webp"
+    },
+    {
         "name": "ranker's-return-(remake)",
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/moyen/ranker's-return-(remake).webp"
     },
     {
         "name": "regressor-instruction-manual",
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/moyen/regressor-instruction-manual.webp"
+    },
+    {
+        "name": "reincarnation-of-the-fist-king",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/moyen/reincarnation-of-the-fist-king.webp"
     },
     {
         "name": "reincarnation-path-of-the-underworld-king",
