@@ -2338,26 +2338,6 @@
             }
           },
           {
-            "title": "The Main Characters That Only I Know",
-            "aliases": [],
-            "image": "IMAGES/3-TRES BONS/the main characters that only i know/cover.avif",
-            "alt": "Image : The Main Characters That Only I Know",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
-              "alt": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
             "title": "The Newbie Is Too Strong",
             "aliases": ["The Overpowered Newbie"],
             "image": "IMAGES/3-TRES BONS/the newbie is too strong/cover.avif",
@@ -4019,7 +3999,7 @@
           {
             "title": "Immortal's Way of Life",
             "aliases": ["불로불사로 산다는 것은", "Immortal’s Way of Life", "Living Immortally", "Living as the Immortal Lord", "What It Means to Live Undying and Immortal", "Immortal's Ascending Path", "Eternal Youth", "Crónicas de un Inmortal", "The Immortal's Way of Life", "How the Immortal Lives", "Living Immortally", "Living as the Immortal Lord", "What It Means to Live Undying and Immortal", "Immortal's Ascending Path", "Eternal Youth", "Bulmyeolja-ui Saraganeun Beop", "Cách Sống Của Kẻ Bất Tử", "Le Mode de Vie de l'Immortel", "La Forma de Vida del Inmortal", "Crónicas de un Inmortal", "O Modo de Vida do Imortal", "Cara Hidup Sang Abadi", "불멸자의 살아가는 법", "불로불사로 산다는 것은", "不滅者の生き方", "不朽者的生存之道", "不老不死地活着", "Образ жизни бессмертного", "طريقة حياة الخالد"],
-            "image": "IMAGES/4-BONS/immortals way of life/cover1.jpg",
+            "image": "IMAGES/4-BONS/immortals way of life/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Immortal's Way of Life",
             "details": {
