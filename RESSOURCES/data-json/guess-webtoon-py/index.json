@@ -59,7 +59,7 @@
         "json": "autres-great-artwork.json",
         "category": "autres",
         "relative_folder": "great-artwork",
-        "count": 18,
+        "count": 34,
         "path": "RESSOURCES/data-json/guess-webtoon-py/autres-great-artwork.json"
     },
     {
@@ -122,7 +122,7 @@
         "json": "cover-moyen.json",
         "category": "cover",
         "relative_folder": "moyen",
-        "count": 72,
+        "count": 73,
         "path": "RESSOURCES/data-json/guess-webtoon-py/cover-moyen.json"
     },
     {
@@ -178,15 +178,22 @@
         "json": "genre-action-moyen.json",
         "category": "genre",
         "relative_folder": "action/moyen",
-        "count": 33,
+        "count": 34,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-action-moyen.json"
     },
     {
         "json": "genre-apocalypse.json",
         "category": "genre",
         "relative_folder": "apocalypse",
-        "count": 1,
+        "count": 2,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-apocalypse.json"
+    },
+    {
+        "json": "genre-civilisation-building.json",
+        "category": "genre",
+        "relative_folder": "civilisation-building",
+        "count": 1,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-civilisation-building.json"
     },
     {
         "json": "genre-comedy-facile.json",
@@ -199,42 +206,42 @@
         "json": "genre-comedy-moyen.json",
         "category": "genre",
         "relative_folder": "comedy/moyen",
-        "count": 32,
+        "count": 33,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-comedy-moyen.json"
     },
     {
         "json": "genre-fantasy-world-facile.json",
         "category": "genre",
         "relative_folder": "fantasy-world/facile",
-        "count": 3,
+        "count": 4,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-fantasy-world-facile.json"
     },
     {
         "json": "genre-fantasy-world-moyen.json",
         "category": "genre",
         "relative_folder": "fantasy-world/moyen",
-        "count": 1,
+        "count": 3,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-fantasy-world-moyen.json"
     },
     {
         "json": "genre-female-characters-facile.json",
         "category": "genre",
         "relative_folder": "female-characters/facile",
-        "count": 46,
+        "count": 47,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-female-characters-facile.json"
     },
     {
         "json": "genre-female-characters-moyen.json",
         "category": "genre",
         "relative_folder": "female-characters/moyen",
-        "count": 49,
+        "count": 51,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-female-characters-moyen.json"
     },
     {
         "json": "genre-magic.json",
         "category": "genre",
         "relative_folder": "magic",
-        "count": 3,
+        "count": 4,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-magic.json"
     },
     {
@@ -262,7 +269,7 @@
         "json": "genre-reincarnation-regression-facile.json",
         "category": "genre",
         "relative_folder": "reincarnation-regression/facile",
-        "count": 1,
+        "count": 2,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-reincarnation-regression-facile.json"
     },
     {
@@ -280,6 +287,13 @@
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-romance-facile.json"
     },
     {
+        "json": "genre-romance-moyen.json",
+        "category": "genre",
+        "relative_folder": "romance/moyen",
+        "count": 1,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-romance-moyen.json"
+    },
+    {
         "json": "genre-school-life.json",
         "category": "genre",
         "relative_folder": "school-life",
@@ -287,17 +301,24 @@
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-school-life.json"
     },
     {
+        "json": "genre-strategy-and-management.json",
+        "category": "genre",
+        "relative_folder": "strategy-and-management",
+        "count": 3,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/genre-strategy-and-management.json"
+    },
+    {
         "json": "genre-swordmanship.json",
         "category": "genre",
         "relative_folder": "swordmanship",
-        "count": 2,
+        "count": 4,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-swordmanship.json"
     },
     {
         "json": "genre-system-facile.json",
         "category": "genre",
         "relative_folder": "system/facile",
-        "count": 1,
+        "count": 2,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-system-facile.json"
     },
     {
@@ -311,7 +332,7 @@
         "json": "genre-tower.json",
         "category": "genre",
         "relative_folder": "tower",
-        "count": 1,
+        "count": 3,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-tower.json"
     },
     {
@@ -339,7 +360,7 @@
         "json": "niveau-de-difficulte-difficile.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "difficile",
-        "count": 30,
+        "count": 31,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-difficile.json"
     },
     {
@@ -353,7 +374,7 @@
         "json": "niveau-de-difficulte-facile.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "facile",
-        "count": 24,
+        "count": 25,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-facile.json"
     },
     {
@@ -374,7 +395,7 @@
         "json": "type-manhwa.json",
         "category": "type",
         "relative_folder": "manhwa",
-        "count": 2,
+        "count": 4,
         "path": "RESSOURCES/data-json/guess-webtoon-py/type-manhwa.json"
     }
 ]

@@ -4,7 +4,15 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/dragonslayer's-peerless-regression.webp"
     },
     {
+        "name": "eternally-regressing-knight",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/eternally-regressing-knight.webp"
+    },
+    {
         "name": "hero-killer",
         "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/hero-killer.webp"
+    },
+    {
+        "name": "swordmaster's-youngest-son",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/swordmaster's-youngest-son.webp"
     }
 ]

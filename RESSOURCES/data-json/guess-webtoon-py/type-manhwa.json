@@ -4,7 +4,15 @@
         "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/genius-prismatic-mage.webp"
     },
     {
+        "name": "return-of-the-iron-blooded-sword-hound",
+        "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/return-of-the-iron-blooded-sword-hound.webp"
+    },
+    {
         "name": "star-embracing-swordmaster",
         "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/star-embracing-swordmaster.webp"
+    },
+    {
+        "name": "the-executioner-",
+        "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/the-executioner-.webp"
     }
 ]

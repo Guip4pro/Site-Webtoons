@@ -1,6 +1,14 @@
 [
     {
+        "name": "absolute-necromancer",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/tower/absolute-necromancer.webp"
+    },
+    {
         "name": "the-tutorial-is-too-hard",
         "image": "RESSOURCES/img-guessthewebtoon/genre/tower/the-tutorial-is-too-hard.webp"
+    },
+    {
+        "name": "tower-of-god",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/tower/tower-of-god.webp"
     }
 ]

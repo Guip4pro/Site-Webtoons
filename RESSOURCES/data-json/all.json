@@ -2423,7 +2423,7 @@
               "banner": "IMAGES/3-TRES BONS/tomb raider king/banner2.webp",
               "cover": "IMAGES/3-TRES BONS/tomb raider king/cover2.webp",
               "type": "",
-              "genre": [],
+              "genre": ["Regression", "Aventure", "System", "Comedy"],
               "status": "Complétée",
               "chapters": "",
               "sites": [],

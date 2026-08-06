@@ -92,6 +92,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/tower-of-god.webp"
     },
     {
+        "name": "unholy-blood-",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/unholy-blood-.webp"
+    },
+    {
         "name": "unordinary",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/facile/unordinary.webp"
     }

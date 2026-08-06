@@ -20,6 +20,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/dungeon-architect.webp"
     },
     {
+        "name": "eleceed",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/eleceed.webp"
+    },
+    {
         "name": "i-obtained-a-mythic-item",
         "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/i-obtained-a-mythic-item.webp"
     },
@@ -32,12 +36,32 @@
         "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/leviathan.webp"
     },
     {
+        "name": "lore-olympus",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/lore-olympus.webp"
+    },
+    {
+        "name": "marionetta",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/marionetta.webp"
+    },
+    {
         "name": "nano-machine",
         "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/nano-machine.webp"
     },
     {
         "name": "pick-me-up",
         "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/pick-me-up.webp"
+    },
+    {
+        "name": "raising-villain-the-right-way",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/raising-villain-the-right-way.webp"
+    },
+    {
+        "name": "reborn-rich",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/reborn-rich.webp"
+    },
+    {
+        "name": "regressor-instruction-manual",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/regressor-instruction-manual.webp"
     },
     {
         "name": "reincarnation-of-the-fist-king",
@@ -48,12 +72,40 @@
         "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/return-of-the-mad-demon.webp"
     },
     {
+        "name": "revenge-of-the-iron-blooded-sword-hound",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/revenge-of-the-iron-blooded-sword-hound.webp"
+    },
+    {
+        "name": "solo-max-level-newbie",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/solo-max-level-newbie.webp"
+    },
+    {
+        "name": "sword-sheath's-child",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/sword-sheath's-child.webp"
+    },
+    {
+        "name": "swordmaster's-youngest-son-",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/swordmaster's-youngest-son-.webp"
+    },
+    {
         "name": "the-beginning-after-the-end",
         "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/the-beginning-after-the-end.webp"
     },
     {
         "name": "the-demon-king-overrun-by-heroes",
         "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/the-demon-king-overrun-by-heroes.webp"
+    },
+    {
+        "name": "the-executioner",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/the-executioner.webp"
+    },
+    {
+        "name": "the-extra's-academy-survival-guide",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/the-extra's-academy-survival-guide.webp"
+    },
+    {
+        "name": "the-knight-king-who-returned-with-a-god",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/the-knight-king-who-returned-with-a-god.webp"
     },
     {
         "name": "the-last-adventurer",
@@ -64,8 +116,20 @@
         "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/the-legendary-hero-is-an-academy-honors-student.webp"
     },
     {
+        "name": "the-reaper-of-the-drifting-moon",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/the-reaper-of-the-drifting-moon.webp"
+    },
+    {
         "name": "the-world-after-the-fall",
         "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/the-world-after-the-fall.webp"
+    },
+    {
+        "name": "tower-of-god-",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/tower-of-god-.webp"
+    },
+    {
+        "name": "unholy-blood",
+        "image": "RESSOURCES/img-guessthewebtoon/autres/great-artwork/unholy-blood.webp"
     },
     {
         "name": "zombie-dad",
