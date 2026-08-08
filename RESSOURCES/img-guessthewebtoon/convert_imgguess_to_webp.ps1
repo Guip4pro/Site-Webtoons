@@ -63,5 +63,5 @@ foreach ($file in $allFiles) {
 
 Write-Host "----- Résumé -----" -ForegroundColor Green
 Write-Host "Total trouvés : $($allFiles.Count)"
-Write-Host "Convertis : $converted"
-Write-Host "Échecs : $failed"
+Write-Host "Convertis : $converted" -ForegroundColor Green
+Write-Host "Échecs : $failed" -ForegroundColor Red
