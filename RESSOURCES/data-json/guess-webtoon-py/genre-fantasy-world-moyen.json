@@ -1,7 +1,23 @@
 [
     {
+        "name": "99-reinforced-wooden-stick",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/fantasy-world/moyen/99-reinforced-wooden-stick.webp"
+    },
+    {
+        "name": "a-dragonslayer's-peerless-regression",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/fantasy-world/moyen/a-dragonslayer's-peerless-regression.webp"
+    },
+    {
+        "name": "barbarian-quest",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/fantasy-world/moyen/barbarian-quest.webp"
+    },
+    {
         "name": "night-of-the-soulless-heathens",
         "image": "RESSOURCES/img-guessthewebtoon/genre/fantasy-world/moyen/night-of-the-soulless-heathens.webp"
+    },
+    {
+        "name": "swordmaster's-youngest-son-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/fantasy-world/moyen/swordmaster's-youngest-son-.webp"
     },
     {
         "name": "swordmaster's-youngest-son",
@@ -14,5 +30,9 @@
     {
         "name": "the-shepherd-wizard",
         "image": "RESSOURCES/img-guessthewebtoon/genre/fantasy-world/moyen/the-shepherd-wizard.webp"
+    },
+    {
+        "name": "tower-of-god-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/fantasy-world/moyen/tower-of-god-.webp"
     }
 ]

@@ -1,5 +1,9 @@
 [
     {
+        "name": "barbarian-quest",
+        "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/barbarian-quest.webp"
+    },
+    {
         "name": "genius-prismatic-mage",
         "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/genius-prismatic-mage.webp"
     },

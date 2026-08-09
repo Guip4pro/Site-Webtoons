@@ -1,5 +1,9 @@
 [
     {
+        "name": "existence",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/apocalypse/existence.webp"
+    },
+    {
         "name": "hiding-out-in-the-apocalypse",
         "image": "RESSOURCES/img-guessthewebtoon/genre/apocalypse/hiding-out-in-the-apocalypse.webp"
     },

@@ -14,5 +14,13 @@
     {
         "name": "marionetta",
         "image": "RESSOURCES/img-guessthewebtoon/genre/fantasy-world/facile/marionetta.webp"
+    },
+    {
+        "name": "solo-leveling-ragnarok",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/fantasy-world/facile/solo-leveling-ragnarok.webp"
+    },
+    {
+        "name": "tower-of-god",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/fantasy-world/facile/tower-of-god.webp"
     }
 ]
