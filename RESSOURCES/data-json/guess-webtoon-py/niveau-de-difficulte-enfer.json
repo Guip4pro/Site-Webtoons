@@ -52,8 +52,16 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/regressor-of-the-fallen-family.webp"
     },
     {
+        "name": "reincarnated-streamer",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/reincarnated-streamer.webp"
+    },
+    {
         "name": "reincarnation-of-the-fist-king",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/reincarnation-of-the-fist-king.webp"
+    },
+    {
+        "name": "savior-of-divine-blood",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/savior-of-divine-blood.webp"
     },
     {
         "name": "sword-sweath's-child",

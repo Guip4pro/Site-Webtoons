@@ -804,7 +804,7 @@ if (args.length === 0) {
             });
         }
 
-        function loadNextQuestion() {
+function loadNextQuestion() {
             if (gameState.remaining.length === 0) {
             gameState.remaining = Array.from({ length: gameState.data.length }, (_, i) => i);
             }
@@ -812,12 +812,23 @@ if (args.length === 0) {
             const correctIdx = popRandomIndex();
             const correctItem = gameState.data[correctIdx];
 
-            const pool = gameState.data
-            .map((d, i) => ({ d, i }))
-            .filter(x => x.i !== correctIdx)
-            .sort(() => 0.5 - Math.random())
-            .slice(0, 3)
-            .map(x => x.d);
+            // Normalise un titre pour comparer les doublons fiablement
+            // (même logique que la vérification au clic : minuscules)
+            const normalizeTitle = (name) => String(name).trim().toLowerCase();
+
+            // Clé du titre correct : tous les éléments qui portent ce même titre
+            // doivent être exclus du pool des leurres (plusieurs images du JSON
+            // peuvent partager le même name, ex. "tower-of-god", "tower-of-god-", ...)
+            const correctKey = normalizeTitle(correctItem.name);
+
+            const pool = []
+                .concat(gameState.data)
+                .map((d, i) => ({ d, i }))
+                // Exclut l'indice correct ET tout élément portant le même titre normalisé
+                .filter(x => x.i !== correctIdx && normalizeTitle(x.d.name) !== correctKey)
+                .sort(() => 0.5 - Math.random())
+                .slice(0, 3)
+                .map(x => x.d);
 
             const optionItems = [...pool, correctItem].sort(() => 0.5 - Math.random());
 

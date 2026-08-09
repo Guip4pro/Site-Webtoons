@@ -36,6 +36,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/jungle-juice.webp"
     },
     {
+        "name": "night-of-the-soulless-heathens",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/night-of-the-soulless-heathens.webp"
+    },
+    {
         "name": "overgeared",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/overgeared.webp"
     },

@@ -4,8 +4,16 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/tower/absolute-necromancer.webp"
     },
     {
+        "name": "level-up-with-skills",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/tower/level-up-with-skills.webp"
+    },
+    {
         "name": "the-tutorial-is-too-hard",
         "image": "RESSOURCES/img-guessthewebtoon/genre/tower/the-tutorial-is-too-hard.webp"
+    },
+    {
+        "name": "the-world-after-the-fall",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/tower/the-world-after-the-fall.webp"
     },
     {
         "name": "tower-of-god",

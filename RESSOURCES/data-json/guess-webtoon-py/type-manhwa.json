@@ -8,11 +8,23 @@
         "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/return-of-the-iron-blooded-sword-hound.webp"
     },
     {
+        "name": "roxana",
+        "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/roxana.webp"
+    },
+    {
         "name": "star-embracing-swordmaster",
         "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/star-embracing-swordmaster.webp"
     },
     {
+        "name": "sweet-home",
+        "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/sweet-home.webp"
+    },
+    {
         "name": "the-executioner-",
         "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/the-executioner-.webp"
+    },
+    {
+        "name": "villains-are-destined-to-die",
+        "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/villains-are-destined-to-die.webp"
     }
 ]

@@ -6,5 +6,9 @@
     {
         "name": "tomb-raider-king",
         "image": "RESSOURCES/img-guessthewebtoon/genre/system/facile/tomb-raider-king.webp"
+    },
+    {
+        "name": "villains-are-destined-to-die",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/facile/villains-are-destined-to-die.webp"
     }
 ]
