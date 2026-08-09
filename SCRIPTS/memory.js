@@ -31,8 +31,8 @@ const db = getFirestore(app);        // Pour ajouter / récupérer le score des 
 // Ou si tu utilises Realtime Database :
 // const database = getDatabase(app);
 
-// 3. Maintenant, tu peux écrire le reste de ton code JavaScript
-// et utiliser les variables 'auth', 'db', etc., pour interagir avec Firebase.
+
+// 3. Maintenant on peut utiliser les variables 'auth', 'db', etc., pour interagir avec Firebase.
 console.log("Firebase initialisé for the Memory leaderboard");
 // Exemple :
 // auth.onAuthStateChanged(user => {
@@ -357,18 +357,13 @@ function handleCardClick(card, numPairs) {
                 playSound('win');
 
                 const difficulty = document.getElementById('difficulty').value;
-                console.log("Difficulté choisie :", difficulty); // Devrait afficher par exemple "4x4"
+console.log("Difficulté choisie :", difficulty); // Devrait afficher par exemple "4x4"
                 showModal(`🎉 <strong>Congratulations!</strong><br>⏱️ Temps : ${timer}s • 🎯 Coups : ${moveCount}`);
                 setTimeout(() => {
                     demanderPseudo(pseudo => {
                         enregistrerScore(pseudo, moveCount, timer, difficulty);
                     });
                 }, 1600);
-
-                document.getElementById("difficulty-selector").addEventListener("change", (e) => {
-                const selectedDifficulty = e.target.value;
-                afficherClassementPour(selectedDifficulty);
-                });
             }
         } else {
             // Pas une paire → retourne les cartes au bout d'un délai
@@ -413,7 +408,7 @@ function showModal(messageHTML) {
             inline:   'nearest'   // pas de décalage horizontal
         });
 
-    // Ferme après 15 secondes automatiquement
+    // Ferme après 30 secondes automatiquement
     setTimeout(() => {
         closeModal();
     }, 30000);

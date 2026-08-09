@@ -804,31 +804,44 @@ if (args.length === 0) {
             });
         }
 
-function loadNextQuestion() {
+        function loadNextQuestion() {
             if (gameState.remaining.length === 0) {
             gameState.remaining = Array.from({ length: gameState.data.length }, (_, i) => i);
             }
 
             const correctIdx = popRandomIndex();
             const correctItem = gameState.data[correctIdx];
+            
+            // Normalise un titre pour comparer les doublons fiablement.
+            // Les images d'un même webtoon peuvent être renommées avec des tirets
+            // supplémentaires (ex. "top-tier-providence", "-top-tier-providence",
+            // "top-tier-providence-", "--top-tier-providence", ...).
+            // On retire donc TOUS les caractères non alphanumériques pour que
+            // ces variantes soient considérées comme le même titre.
+            const normalizeTitle = (name) => String(name).toLowerCase().replace(/[^a-z0-9]/g, '');
 
-            // Normalise un titre pour comparer les doublons fiablement
-            // (même logique que la vérification au clic : minuscules)
-            const normalizeTitle = (name) => String(name).trim().toLowerCase();
-
-            // Clé du titre correct : tous les éléments qui portent ce même titre
-            // doivent être exclus du pool des leurres (plusieurs images du JSON
-            // peuvent partager le même name, ex. "tower-of-god", "tower-of-god-", ...)
+            // Clé normalisée du titre correct.
             const correctKey = normalizeTitle(correctItem.name);
 
-            const pool = []
-                .concat(gameState.data)
-                .map((d, i) => ({ d, i }))
-                // Exclut l'indice correct ET tout élément portant le même titre normalisé
-                .filter(x => x.i !== correctIdx && normalizeTitle(x.d.name) !== correctKey)
+            // Construit un pool de leurres avec des TITRES TOUS DISTINCTS :
+            //  - on exclut l'indice correct (la bonne réponse)
+            //  - on exclut tout titre équivalent au titre correct
+            //  - on déduplique AUSSI les leurres entre eux grâce à un Set,
+            //    pour qu'un même webtoon n'apparaisse jamais deux fois
+            //    dans les 3 leurres (donc jamais 2 fois dans les 4 propositions).
+            const seen = new Set();
+            const uniqueData = gameState.data.filter((d, i) => {
+                if (i === correctIdx) return false;          // exclut la bonne réponse
+                const key = normalizeTitle(d.name);
+                if (key === correctKey) return false;        // exclut les variantes du titre correct
+                if (seen.has(key)) return false;             // exclut les doublons entre leurres
+                seen.add(key);
+                return true;
+            });
+
+            const pool = uniqueData
                 .sort(() => 0.5 - Math.random())
-                .slice(0, 3)
-                .map(x => x.d);
+                .slice(0, 3);
 
             const optionItems = [...pool, correctItem].sort(() => 0.5 - Math.random());
 
