@@ -1,7 +1,15 @@
 [
     {
+        "name": "academy's-genius-swordsman",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/academy's-genius-swordsman.webp"
+    },
+    {
         "name": "dragonslayer's-peerless-regression",
         "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/dragonslayer's-peerless-regression.webp"
+    },
+    {
+        "name": "eternally-regressing-knight-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/eternally-regressing-knight-.webp"
     },
     {
         "name": "eternally-regressing-knight",
@@ -18,5 +26,9 @@
     {
         "name": "swordmaster's-youngest-son",
         "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/swordmaster's-youngest-son.webp"
+    },
+    {
+        "name": "the-lazy-prince-becomes-a-genius",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/the-lazy-prince-becomes-a-genius.webp"
     }
 ]

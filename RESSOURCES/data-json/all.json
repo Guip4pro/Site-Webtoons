@@ -1571,25 +1571,6 @@
             }
           },
           {
-            "title": "Necromancer Academy",
-            "aliases": ["Necromancer Academy's Genius Summoner", "Necromancer Academy and the Genius Summoner"],
-            "image": "IMAGES/3-TRES BONS/necromancer academy/cover.avif",
-            "alt": "Image : Necromancer Academy",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
             "title": "Overgeared",
             "aliases": [],
             "image": "IMAGES/3-TRES BONS/overgeared/cover.avif",
@@ -1606,25 +1587,6 @@
               "synopsis": "",
               "previewImages": [],
               "adaptations": ["Format papier en français"]
-            }
-          },
-          {
-            "title": "Past Life Regressor (remake)",
-            "aliases": ["The Past Life Regressor (Remake)", "Past Life Returner"],
-            "image": "IMAGES/3-TRES BONS/past life regressor/cover1.webp",
-            "alt": "Image : Past Life Regressor",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "IMAGES/3-TRES BONS/past life regressor/cover2.avif",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
             }
           },
           {
@@ -4406,6 +4368,25 @@
             }
           },
           {
+            "title": "Necromancer Academy's Genius Summoner",
+            "aliases": ["Necromancer Academy and the Genius Summoner"],
+            "image": "IMAGES/4-BONS/necromancer academy/cover.avif",
+            "alt": "Image : Necromancer Academy",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Night of the Soulless Heathens",
             "aliases": ["The Shadowed Legacy of the Soulless Messenger"],
             "image": "IMAGES/4-BONS/night of the soulless heathens/cover.webp",
@@ -4415,6 +4396,25 @@
               "title": "",
               "banner": "",
               "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Past Life Regressor (remake)",
+            "aliases": ["The Past Life Regressor (Remake)", "Past Life Returner"],
+            "image": "IMAGES/4-BONS/past life regressor/cover1.webp",
+            "alt": "Image : Past Life Regressor",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "IMAGES/4-BONS/past life regressor/cover2.avif",
               "type": "",
               "genre": [],
               "status": "",
@@ -9339,7 +9339,7 @@
             "alt": "Image : I Failed to Abandon the Villain",
             "details": {
               "title": "",
-              "banner": "IMAGES/6-MOYENS/i failed to abandon the villain/banner1.avif",
+              "banner": "IMAGES/6-MOYENS/i failed to abandon the villain/banner2.avif",
               "cover": "IMAGES/6-MOYENS/i failed to abandon the villain/cover2.webp",
               "type": "",
               "genre": [],

@@ -4,6 +4,14 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/pets-animals/moyen/a-wimp's-strategy-guide-to-conquer-the-tower.webp"
     },
     {
+        "name": "chronicles-of-the-demon-faction",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/pets-animals/moyen/chronicles-of-the-demon-faction.webp"
+    },
+    {
+        "name": "evolution-begins-with-a-big-tree",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/pets-animals/moyen/evolution-begins-with-a-big-tree.webp"
+    },
+    {
         "name": "return-of-the-disaster-class-hero",
         "image": "RESSOURCES/img-guessthewebtoon/genre/pets-animals/moyen/return-of-the-disaster-class-hero.webp"
     },
@@ -12,7 +20,19 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/pets-animals/moyen/solo-farming-in-the-tower.webp"
     },
     {
+        "name": "the-lazy-prince-becomes-a-genius",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/pets-animals/moyen/the-lazy-prince-becomes-a-genius.webp"
+    },
+    {
+        "name": "the-newbie-is-too-strong",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/pets-animals/moyen/the-newbie-is-too-strong.webp"
+    },
+    {
         "name": "top-tier-providence",
         "image": "RESSOURCES/img-guessthewebtoon/genre/pets-animals/moyen/top-tier-providence.webp"
+    },
+    {
+        "name": "trash-of-the-count's-family",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/pets-animals/moyen/trash-of-the-count's-family.webp"
     }
 ]

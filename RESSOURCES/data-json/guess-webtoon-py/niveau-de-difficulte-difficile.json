@@ -16,6 +16,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/emperor-of-solo-play.webp"
     },
     {
+        "name": "eternally-regressing-knight",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/eternally-regressing-knight.webp"
+    },
+    {
         "name": "genius-prismatic-mage",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/genius-prismatic-mage.webp"
     },
@@ -98,6 +102,10 @@
     {
         "name": "the-emperor's-sword",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-emperor's-sword.webp"
+    },
+    {
+        "name": "the-fox-eyed-villain-of-the-demon-academy",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-fox-eyed-villain-of-the-demon-academy.webp"
     },
     {
         "name": "the-indomitable-martial-king",

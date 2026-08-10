@@ -4,6 +4,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/-top-tier-providence.webp"
     },
     {
+        "name": "I-failed-to-abandon-the-villain",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/I-failed-to-abandon-the-villain.webp"
+    },
+    {
         "name": "absolute-regression",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/absolute-regression.webp"
     },
@@ -60,6 +64,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/reincarnation-of-the-fist-king.webp"
     },
     {
+        "name": "return-of-the-iron-blooded-sword-hound",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/return-of-the-iron-blooded-sword-hound.webp"
+    },
+    {
         "name": "savior-of-divine-blood",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/savior-of-divine-blood.webp"
     },
@@ -80,6 +88,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/talent-swallowing-magician.webp"
     },
     {
+        "name": "the-advanced-player-of-the-tutorial-tower",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/the-advanced-player-of-the-tutorial-tower.webp"
+    },
+    {
         "name": "the-archmage's-restaurant",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/the-archmage's-restaurant.webp"
     },
@@ -90,6 +102,10 @@
     {
         "name": "the-indomitable-martial-king",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/the-indomitable-martial-king.webp"
+    },
+    {
+        "name": "the-lazy-princes-becomes-a-genius",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/the-lazy-princes-becomes-a-genius.webp"
     },
     {
         "name": "the-legendary-hero-is-an-academy-honors-student",
@@ -114,5 +130,9 @@
     {
         "name": "top-tier-providence",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/top-tier-providence.webp"
+    },
+    {
+        "name": "valhalla-saga",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/valhalla-saga.webp"
     }
 ]
