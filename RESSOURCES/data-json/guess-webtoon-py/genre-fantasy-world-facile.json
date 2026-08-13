@@ -32,8 +32,16 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/fantasy-world/facile/infinite-mage.webp"
     },
     {
+        "name": "into-the-light-once-again",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/fantasy-world/facile/into-the-light-once-again.webp"
+    },
+    {
         "name": "latna-saga",
         "image": "RESSOURCES/img-guessthewebtoon/genre/fantasy-world/facile/latna-saga.webp"
+    },
+    {
+        "name": "magic-academy's-genius-blinker",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/fantasy-world/facile/magic-academy's-genius-blinker.webp"
     },
     {
         "name": "marionetta",
@@ -62,6 +70,10 @@
     {
         "name": "the-greatest-estate-developper",
         "image": "RESSOURCES/img-guessthewebtoon/genre/fantasy-world/facile/the-greatest-estate-developper.webp"
+    },
+    {
+        "name": "the-regressed-son-of-the-duke-is-an-assassin",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/fantasy-world/facile/the-regressed-son-of-the-duke-is-an-assassin.webp"
     },
     {
         "name": "tower-of-god",

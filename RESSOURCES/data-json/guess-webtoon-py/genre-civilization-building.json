@@ -1,5 +1,13 @@
 [
     {
+        "name": "from-goblin-to-goblin-gold",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/civilization-building/from-goblin-to-goblin-gold.webp"
+    },
+    {
+        "name": "goblin-inc",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/civilization-building/goblin-inc.webp"
+    },
+    {
         "name": "release-that-witch",
         "image": "RESSOURCES/img-guessthewebtoon/genre/civilization-building/release-that-witch.webp"
     }

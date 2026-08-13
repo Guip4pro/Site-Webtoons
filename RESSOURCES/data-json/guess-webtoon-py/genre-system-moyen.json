@@ -4,11 +4,19 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/system/moyen/god's-gambit.webp"
     },
     {
+        "name": "the-31st-piece-turns-the-table",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/moyen/the-31st-piece-turns-the-table.webp"
+    },
+    {
         "name": "the-lord's-coins-aren't-decreasing",
         "image": "RESSOURCES/img-guessthewebtoon/genre/system/moyen/the-lord's-coins-aren't-decreasing.webp"
     },
     {
         "name": "the-novel's-extra",
         "image": "RESSOURCES/img-guessthewebtoon/genre/system/moyen/the-novel's-extra.webp"
+    },
+    {
+        "name": "trait-hoarder",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/moyen/trait-hoarder.webp"
     }
 ]

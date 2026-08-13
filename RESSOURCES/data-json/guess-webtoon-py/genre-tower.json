@@ -8,6 +8,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/tower/level-up-with-skills.webp"
     },
     {
+        "name": "my-exclusive-tower-guide",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/tower/my-exclusive-tower-guide.webp"
+    },
+    {
         "name": "return-of-the-frozen-player",
         "image": "RESSOURCES/img-guessthewebtoon/genre/tower/return-of-the-frozen-player.webp"
     },

@@ -635,7 +635,7 @@
         {
           "title": "The Beginning After the End",
           "aliases": [
-            "TBATE"
+            "Ánh sáng cuối con đường", "El comienzo después del fin", "La Vida después de la Muerte", "O Começo Depois do Fim", "Sondan Sonraki Başlangıç", "TBATE", "The Beginning After the End: Side Story - Jasmine: Wind-Borne"
           ],
           "image": "IMAGES/2-EXCELLENTS/the beginning after the end/cover.avif",
           "alt": "Image : The Beginning After the End",
@@ -1552,10 +1552,10 @@
             }
           },
           {
-            "title": "Myst Myst Mayhem",
-            "aliases": ["The Chaotic God of Extraordinary Strength", " Myst Might Mayhem ", "Myst, Might, Mayhem"],
+            "title": "Myst, Might, Mayhem!",
+            "aliases": ["The Chaotic God of Extraordinary Strength", " Myst Might Mayhem", "Myst, Might, Mayhem"],
             "image": "IMAGES/3-TRES BONS/myst myst mayhem/cover.avif",
-            "alt": "Image : Myst Myst Mayhem",
+            "alt": "Image : Myst, Might, Mayhem!",
             "details": {
               "title": "Myst, Might, Mayhem!",
               "banner": "IMAGES/3-TRES BONS/myst myst mayhem/banner1.webp",
@@ -1566,7 +1566,9 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/3-TRES BONS/myst might mayhem/img_video.mp4"
+              ],
               "adaptations": []
             }
           },
@@ -2543,6 +2545,26 @@
               "title": "",
               "banner": "",
               "cover": "IMAGES/4-BONS/a cadet becomes a prophet/cover2.webp",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": [""]
+            }
+          },
+          {
+            "title": "A painter who draws dungeons",
+            "aliases": ["던전을 그리는 화가", "던전을 그리는 화가 (소설)", "던그화", "A Painter Who Draws Dungeons", "The Painter Drawing Dungeons", "Artist Who Paints Dungeons", "Dungeon Artist", "The Artist Who Paints Dungeons", "The Artist Who Draws Dungeons", "Painter of Dungeons", "Deonjeon-eul Geurineun Hwaga", "ダンジョンペインター", "ダンジョンペインター』の", "描绘地下城的画家", "Художник, рисующий подземелье", "رسام الزنزانة", "Le Peintre des Donjons", "El Pintor que Dibuja Mazmorras", "O Pintor que Desenha Masmorras", "Pelukis yang Menggambar Dungeon"],
+            "image": "IMAGES/4-BONS/a painter who draws dungeons/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : A painter who draws dungeons",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
               "type": "",
               "genre": [],
               "status": "",
@@ -6246,6 +6268,26 @@
             }
           },
           {
+            "title": "Alone as a Slime",
+            "aliases": ["Bắt Đầu Từ Việc Trùng Sinh Thành Niêm Khuẩn", "Seul en tant que Slime", "我独自黏菌"],
+            "image": "IMAGES/5-INTERMEDIAIRES/alone as a slime/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Alone as a Slime",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Ancient Animal Tales",
             "aliases": [""],
             "image": "IMAGES/5-INTERMEDIAIRES/ancient animal tales/cover1.webp",
@@ -7733,6 +7775,26 @@
             }
           },
           {
+            "title": "Of All Things, I Became a Crow",
+            "aliases": ["Of All things I became a Crow", "Of all things I become crow", "偏偏變成了烏鴉", "Так ли плохо быть вороной", "کَوِّی کا شَہزادَہ", "Я неизбежно стала вороной", "Я стала вороной", "Lady Corneille", "Otome Oyununda Bir Karga Oldum!", "I Have Become a Crow", "De todas as coisas, eu virei um corvo", "よりによってカラスになってしまった", "Die Krähe und der Prinz", "I Have Turned Into a Crow of All Things", "از این همه چیز، من تبدیل به یک کلاغ شدم", "ทำไมฉันต้องกลายเป็นอีกา", "I Became a Crow"],
+            "image": "IMAGES/5-INTERMEDIAIRES/of all things i became a crow/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Of All Things, I Became a Crow",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/of all things i became a crow/banner1.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/of all things i became a crow/cover2.webp",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Pas Mon Enfant Destin",
             "aliases": ["They Wish to Take Away My Child"],
             "image": "IMAGES/5-INTERMEDIAIRES/pas mon enfant destin/cover2.webp",
@@ -7882,6 +7944,26 @@
               "title": "",
               "banner": "IMAGES/5-INTERMEDIAIRES/reincarnation path of the underworld king/bannière.webp",
               "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Reincarnator’s Stream",
+            "aliases": ["환생자의 스트리밍", "Reincarnated Streamer", "転生ストリーマー", "Reincarnator Stream", "Stream of the Reincarnator", "The Reincarnator's Live Stream", "Hwansaengja-ui Bangsong", "Buổi Phát Sóng Của Kẻ Trùng Sinh", "Le Stream du Réincarnateur", "La Transmisión del Reencarnador", "Transmissão do Reencarnador", "Siaran Sang Reinkarnator", "환생자의 방송", "転生者の配信", "转生者的直播", "Стрим ре인карнатора", "بث المتناسخ"],
+            "image": "IMAGES/5-INTERMEDIAIRES/reincarnator's stream/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Reincarnator’s Stream",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "IMAGES/5-INTERMEDIAIRES/reincarnator's stream/cover2.webp",
               "type": "",
               "genre": [],
               "status": "",
@@ -8093,6 +8175,26 @@
               "title": "",
               "banner": "IMAGES/5-INTERMEDIAIRES/sss-class gacha hunter/banner1.webp",
               "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Steel-Eating Player",
+            "aliases": ["เพลเยอร์นักกินเหล็ก", "大啖鋼鐵的玩家", "The Player Who Eats Steel", "Steel-Devouring Player", "吞噬钢铁的玩家", "강철을 먹는 플레이어", "A Player Who Eats Metal", "A Player Who Eats Steel", "Steel Eater", "鉄喰いの回帰プレイヤー", "Player Who Eats Steel", "Gangcheoreul Meokneun Peulleieo", "Người Chơi Ăn Thép", "Le Joueur qui Mange de l'Acier", "El Jugador Devorador de Acero", "O Jogador que Come Aço", "Pemain Pemakan Baja", "Çelik Yiyen Oyuncu", "鋼鉄を食べるプレイヤー", "Игрок, поедающий сталь", "اللاعب الذي يكل الحديد", "ผู้เล่นกินเหล็ก"],
+            "image": "IMAGES/5-INTERMEDIAIRES/steel-eating player/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Steel-Eating Player",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "IMAGES/5-INTERMEDIAIRES/steel-eating player/cover2.webp",
               "type": "",
               "genre": [],
               "status": "",
@@ -8564,6 +8666,26 @@
             }
           },
           {
+            "title": "The Magic Tower's Problem Child",
+            "aliases": ["The White Tower's Rogue Mage", "마탑의 문제아들", "The Magic Tower's Problematic Child", "Проблемный ребёнок магической башни", "魔塔的問題人物", "জাদু মিনারের অবাধ্য ছেলে", "จอมเวทนอกรีตแห่งหอคอยขาว", "El chico problemático de la torre mágica", "Problem Child of the Magic Tower", "The Magic Tower Problem Child", "Magic Tower's Troublemaker", "Matap-ui Munje-a", "Đứa Trẻ Rắc Rối Của Ma Tháp", "L'Enfant Terrible de la Tour de Magie", "El Niño Problema de la Torre de Magia", "O Problema da Torre de Magia", "Anak Bermasalah Menara Sihir", "마탑의 문제아", "魔塔の問題児", "魔塔的生事鬼", "魔塔的麻烦精", "Проблемный ребенок Башни Магии", "طفل برج السحر المشاغب"],
+            "image": "IMAGES/5-INTERMEDIAIRES/the magic tower's problem child/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The Magic Tower's Problem Child",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/the magic tower's problem child/banner1.webp",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "The Man Who Devoured the Light",
             "aliases": ["The Light Gobbler"],
             "image": "IMAGES/5-INTERMEDIAIRES/the man who devoured the light/cover.webp",
@@ -8708,7 +8830,27 @@
             "aliases": ["How a Former Pro Takes Advantage by Doing an Easy Job"],
             "image": "IMAGES/5-INTERMEDIAIRES/top tier providence/cover.webp",
             "loading": "lazy",
-            "alt": "Image : Top Tier Providence: Secretly Cultivate for a Thousand Years",
+            "alt": "Image : Top Tier Providence",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Transmigrating to the Otherworld Once More",
+            "aliases": ["Reloaded Into the Other World", "Re-Entering Another World", "異界進入リロード", "異界進入 Reloaded", "이계진입 리로디드", "Enter the Otherworld Reloaded", "重新登入異世界", "Enter the Other World Reloaded", "卷土重来的异界入侵", "Reloaded to the Otherworld", "Returning to the Otherworld Once More", "Transmigrating to the Otherworld Again"],
+            "image": "IMAGES/5-INTERMEDIAIRES/transmigrating to the otherworld once more/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Transmigrating to the Otherworld Once More",
             "details": {
               "title": "",
               "banner": "",

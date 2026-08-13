@@ -4,12 +4,28 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/system/facile/latna-saga.webp"
     },
     {
+        "name": "reality-quest",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/facile/reality-quest.webp"
+    },
+    {
+        "name": "regressor-instruction-manual",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/facile/regressor-instruction-manual.webp"
+    },
+    {
+        "name": "second-life-ranker",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/facile/second-life-ranker.webp"
+    },
+    {
         "name": "solo-leveling-ragnarok",
         "image": "RESSOURCES/img-guessthewebtoon/genre/system/facile/solo-leveling-ragnarok.webp"
     },
     {
         "name": "solo-leveling",
         "image": "RESSOURCES/img-guessthewebtoon/genre/system/facile/solo-leveling.webp"
+    },
+    {
+        "name": "the-novel's-extra",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/facile/the-novel's-extra.webp"
     },
     {
         "name": "tomb-raider-king",

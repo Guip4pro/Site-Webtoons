@@ -20,6 +20,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/eternally-regressing-knight.webp"
     },
     {
+        "name": "from-goblin-to-goblin-gold",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/from-goblin-to-goblin-gold.webp"
+    },
+    {
         "name": "genius-prismatic-mage",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/genius-prismatic-mage.webp"
     },
@@ -68,6 +72,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/reincarnation-of-the-fist-king.webp"
     },
     {
+        "name": "release-that-witch",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/release-that-witch.webp"
+    },
+    {
         "name": "return-of-the-mad-demon",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/return-of-the-mad-demon.webp"
     },
@@ -86,6 +94,10 @@
     {
         "name": "swordmaster's-youngest-son",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/swordmaster's-youngest-son.webp"
+    },
+    {
+        "name": "the-academy's-undercover-professor",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-academy's-undercover-professor.webp"
     },
     {
         "name": "the-book-of-lagier",
@@ -116,12 +128,20 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-little-brother-is-the-academy's-hotshot-.webp"
     },
     {
+        "name": "the-magic-tower's-problem-child",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-magic-tower's-problem-child.webp"
+    },
+    {
         "name": "the-world-after-the-fall",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/the-world-after-the-fall.webp"
     },
     {
         "name": "top-tier-providence",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/top-tier-providence.webp"
+    },
+    {
+        "name": "trait-hoarder",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/difficile/trait-hoarder.webp"
     },
     {
         "name": "valhalla-saga",

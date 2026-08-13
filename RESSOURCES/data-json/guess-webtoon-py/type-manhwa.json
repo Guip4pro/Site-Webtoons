@@ -1,5 +1,13 @@
 [
     {
+        "name": "I-killed-an-academy-player",
+        "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/I-killed-an-academy-player.webp"
+    },
+    {
+        "name": "Insanely-talented-player",
+        "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/Insanely-talented-player.webp"
+    },
+    {
         "name": "barbarian-quest",
         "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/barbarian-quest.webp"
     },
@@ -8,12 +16,20 @@
         "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/genius-prismatic-mage.webp"
     },
     {
+        "name": "my-exclusive-tower-guide",
+        "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/my-exclusive-tower-guide.webp"
+    },
+    {
         "name": "return-of-the-iron-blooded-sword-hound",
         "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/return-of-the-iron-blooded-sword-hound.webp"
     },
     {
         "name": "roxana",
         "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/roxana.webp"
+    },
+    {
+        "name": "solo-resurrection",
+        "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/solo-resurrection.webp"
     },
     {
         "name": "star-embracing-swordmaster",

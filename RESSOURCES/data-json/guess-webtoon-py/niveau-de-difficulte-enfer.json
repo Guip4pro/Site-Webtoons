@@ -16,6 +16,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/absolute-sword-sense.webp"
     },
     {
+        "name": "alone-as-a-slime",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/alone-as-a-slime.webp"
+    },
+    {
         "name": "dungeon-odyssey",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/dungeon-odyssey.webp"
     },
@@ -52,6 +56,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/killer-peter.webp"
     },
     {
+        "name": "my-avatar's-path-to-greatness",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/my-avatar's-path-to-greatness.webp"
+    },
+    {
         "name": "regressor-of-the-fallen-family",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/regressor-of-the-fallen-family.webp"
     },
@@ -62,6 +70,10 @@
     {
         "name": "reincarnation-of-the-fist-king",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/reincarnation-of-the-fist-king.webp"
+    },
+    {
+        "name": "reincarnation-of-the-warrior-party-archmage",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/enfer/reincarnation-of-the-warrior-party-archmage.webp"
     },
     {
         "name": "return-of-the-iron-blooded-sword-hound",
