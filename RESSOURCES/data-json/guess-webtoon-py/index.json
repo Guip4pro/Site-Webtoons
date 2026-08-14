@@ -7,6 +7,13 @@
         "path": "RESSOURCES/data-json/guess-webtoon-py/z-en-attente.json"
     },
     {
+        "json": "autres-aleatoire.json",
+        "category": "autres",
+        "relative_folder": "aleatoire",
+        "count": 2,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/autres-aleatoire.json"
+    },
+    {
         "json": "autres-doigt-difficile.json",
         "category": "autres",
         "relative_folder": "doigt/difficile",
@@ -353,7 +360,7 @@
         "json": "genre-swordmanship.json",
         "category": "genre",
         "relative_folder": "swordmanship",
-        "count": 8,
+        "count": 23,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-swordmanship.json"
     },
     {
@@ -395,7 +402,7 @@
         "json": "genre-villain-moyen.json",
         "category": "genre",
         "relative_folder": "villain/moyen",
-        "count": 30,
+        "count": 31,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-villain-moyen.json"
     },
     {
@@ -409,7 +416,7 @@
         "json": "niveau-de-difficulte-difficile.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "difficile",
-        "count": 39,
+        "count": 40,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-difficile.json"
     },
     {
@@ -430,7 +437,7 @@
         "json": "niveau-de-difficulte-moyen.json",
         "category": "niveau-de-difficulte",
         "relative_folder": "moyen",
-        "count": 33,
+        "count": 34,
         "path": "RESSOURCES/data-json/guess-webtoon-py/niveau-de-difficulte-moyen.json"
     },
     {

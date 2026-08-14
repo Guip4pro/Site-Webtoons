@@ -8,6 +8,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/99-reinforced-wooden-stick.webp"
     },
     {
+        "name": "absolute-sword-sense",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/absolute-sword-sense.webp"
+    },
+    {
         "name": "academy's-undercover-professor",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/academy's-undercover-professor.webp"
     },
@@ -34,10 +38,6 @@
     {
         "name": "fayed-to-be-loved-by-villains",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/fayed-to-be-loved-by-villains.webp"
-    },
-    {
-        "name": "god's-gambit",
-        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/god's-gambit.webp"
     },
     {
         "name": "i-am-the-fated-villain",
@@ -90,6 +90,10 @@
     {
         "name": "regressing-as-the-reincarnated-bastard-of-the-sword-clan-",
         "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/regressing-as-the-reincarnated-bastard-of-the-sword-clan-.webp"
+    },
+    {
+        "name": "return-of-the-legendary-spear-knight",
+        "image": "RESSOURCES/img-guessthewebtoon/niveau-de-difficulte/moyen/return-of-the-legendary-spear-knight.webp"
     },
     {
         "name": "seoul-station-druid",

@@ -1,5 +1,25 @@
 [
     {
+        "name": "-star-embracing-swordmaster",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/-star-embracing-swordmaster.webp"
+    },
+    {
+        "name": "I-became-the-first-prince-legend-of-sword's-song",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/I-became-the-first-prince-legend-of-sword's-song.webp"
+    },
+    {
+        "name": "absolute-dominion",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/absolute-dominion.webp"
+    },
+    {
+        "name": "absolute-regression",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/absolute-regression.webp"
+    },
+    {
+        "name": "absolute-sword-sense",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/absolute-sword-sense.webp"
+    },
+    {
         "name": "academy's-genius-swordsman",
         "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/academy's-genius-swordsman.webp"
     },
@@ -24,8 +44,48 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/hero-killer.webp"
     },
     {
+        "name": "killer-peter-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/killer-peter-.webp"
+    },
+    {
+        "name": "killer-peter",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/killer-peter.webp"
+    },
+    {
+        "name": "legend-of-the-northern-blade",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/legend-of-the-northern-blade.webp"
+    },
+    {
+        "name": "reaper-of-the-drifting-moon",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/reaper-of-the-drifting-moon.webp"
+    },
+    {
+        "name": "return-of-the-legendary-spear-knight",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/return-of-the-legendary-spear-knight.webp"
+    },
+    {
+        "name": "return-of-the-mad-demon",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/return-of-the-mad-demon.webp"
+    },
+    {
+        "name": "return-of-the-mount-hua-sect-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/return-of-the-mount-hua-sect-.webp"
+    },
+    {
+        "name": "return-of-the-mount-hua-sect",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/return-of-the-mount-hua-sect.webp"
+    },
+    {
+        "name": "star-embracing-swordmaster",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/star-embracing-swordmaster.webp"
+    },
+    {
         "name": "swordmaster's-youngest-son",
         "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/swordmaster's-youngest-son.webp"
+    },
+    {
+        "name": "the-heavenly-demon-can't-live-a-normal-life",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/swordmanship/the-heavenly-demon-can't-live-a-normal-life.webp"
     },
     {
         "name": "the-lazy-prince-becomes-a-genius",
