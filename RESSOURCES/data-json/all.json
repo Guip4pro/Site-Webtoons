@@ -1662,7 +1662,7 @@
             "alt": "Image : Reality Quest",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/reality quest/banner1.webp",
+              "banner": "IMAGES/3-TRES BONS/reality quest/banner2webp",
               "cover": "IMAGES/3-TRES BONS/reality quest/cover2.webp",
               "type": "",
               "genre": [],
@@ -4666,7 +4666,7 @@
             "alt": "Image : Regressing As The Reincarnated Bastard Of The Sword Clan",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/regressing as the reincarnated bastard of the sword clan/banner1.webp",
+              "banner": "IMAGES/4-BONS/regressing as the reincarnated bastard of the sword clan/banner2.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -6235,7 +6235,7 @@
             "alt": "Image : Absolute Dominion",
             "details": {
               "title": "",
-              "banner": "IMAGES/5-INTERMEDIAIRES/absolute dominion/banner1.avif",
+              "banner": "IMAGES/5-INTERMEDIAIRES/absolute dominion/banner2.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -8273,7 +8273,7 @@
             "alt": "Image : Surviving as a Barbarian in a Fantasy World",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/surviving as a barbarian in a fantasy world/banner1.webp",
               "cover": "IMAGES/5-INTERMEDIAIRES/surviving as a barbarian in a fantasy world/cover2.webp",
               "type": "",
               "genre": [],
@@ -8833,7 +8833,7 @@
             "alt": "Image : Top Tier Providence",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/top tier providence/banner1.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -9263,6 +9263,26 @@
               "title": "",
               "banner": "",
               "cover": "IMAGES/6-MOYENS/chronicles of the lazy sovereign/cover1.webp",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Crazy Leveling System",
+            "aliases": ["Frenzy Leveling Up System, Crazy Leveling-Up System", "Crazy Level-up System", "Crazy Leveling Up System", "Frenzy Level Up System"],
+            "image": "IMAGES/6-MOYENS/crazy leveling system/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Crazy Leveling System",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/6-MOYENS/crazy leveling system/banner1.webp",
+              "cover": "",
               "type": "",
               "genre": [],
               "status": "",

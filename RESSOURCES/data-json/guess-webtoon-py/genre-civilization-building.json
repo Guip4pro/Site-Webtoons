@@ -1,11 +1,19 @@
 [
     {
+        "name": "becoming-the-monarch",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/civilization-building/becoming-the-monarch.webp"
+    },
+    {
         "name": "from-goblin-to-goblin-gold",
         "image": "RESSOURCES/img-guessthewebtoon/genre/civilization-building/from-goblin-to-goblin-gold.webp"
     },
     {
         "name": "goblin-inc",
         "image": "RESSOURCES/img-guessthewebtoon/genre/civilization-building/goblin-inc.webp"
+    },
+    {
+        "name": "regressor-of-the-fallen-family",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/civilization-building/regressor-of-the-fallen-family.webp"
     },
     {
         "name": "release-that-witch",

@@ -12,12 +12,20 @@
         "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/barbarian-quest.webp"
     },
     {
+        "name": "emperor-of-solo-play",
+        "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/emperor-of-solo-play.webp"
+    },
+    {
         "name": "genius-prismatic-mage",
         "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/genius-prismatic-mage.webp"
     },
     {
         "name": "my-exclusive-tower-guide",
         "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/my-exclusive-tower-guide.webp"
+    },
+    {
+        "name": "reincarnation-of-the-veteran-soldier",
+        "image": "RESSOURCES/img-guessthewebtoon/type/manhwa/reincarnation-of-the-veteran-soldier.webp"
     },
     {
         "name": "return-of-the-iron-blooded-sword-hound",
