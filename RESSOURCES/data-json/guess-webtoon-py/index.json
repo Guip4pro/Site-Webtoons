@@ -49,25 +49,25 @@
         "path": "RESSOURCES/data-json/guess-webtoon-py/characters-icons-9-6maitre.json"
     },
     {
-        "json": "cover-difficile.json",
+        "json": "cover-easy.json",
         "category": "cover",
-        "relative_folder": "difficile",
-        "count": 40,
-        "path": "RESSOURCES/data-json/guess-webtoon-py/cover-difficile.json"
-    },
-    {
-        "json": "cover-facile.json",
-        "category": "cover",
-        "relative_folder": "facile",
+        "relative_folder": "easy",
         "count": 60,
-        "path": "RESSOURCES/data-json/guess-webtoon-py/cover-facile.json"
+        "path": "RESSOURCES/data-json/guess-webtoon-py/cover-easy.json"
     },
     {
-        "json": "cover-moyen.json",
+        "json": "cover-hard.json",
         "category": "cover",
-        "relative_folder": "moyen",
+        "relative_folder": "hard",
+        "count": 40,
+        "path": "RESSOURCES/data-json/guess-webtoon-py/cover-hard.json"
+    },
+    {
+        "json": "cover-normal.json",
+        "category": "cover",
+        "relative_folder": "normal",
         "count": 73,
-        "path": "RESSOURCES/data-json/guess-webtoon-py/cover-moyen.json"
+        "path": "RESSOURCES/data-json/guess-webtoon-py/cover-normal.json"
     },
     {
         "json": "difficulty-level-easy.json",
@@ -87,7 +87,7 @@
         "json": "difficulty-level-hell.json",
         "category": "difficulty-level",
         "relative_folder": "hell",
-        "count": 44,
+        "count": 45,
         "path": "RESSOURCES/data-json/guess-webtoon-py/difficulty-level-hell.json"
     },
     {
