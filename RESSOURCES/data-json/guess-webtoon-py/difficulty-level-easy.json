@@ -4,6 +4,18 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/-infinite-mage.webp"
     },
     {
+        "name": "-nano-machine-",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/-nano-machine-.webp"
+    },
+    {
+        "name": "SSS-class-suicide-hunter",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/SSS-class-suicide-hunter.webp"
+    },
+    {
+        "name": "absolute-sword-sense",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/absolute-sword-sense.webp"
+    },
+    {
         "name": "damn-reincarnation",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/damn-reincarnation.webp"
     },
@@ -16,12 +28,24 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/doom-breaker.webp"
     },
     {
+        "name": "dreaming-freedom",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/dreaming-freedom.webp"
+    },
+    {
         "name": "eleceed-",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/eleceed-.webp"
     },
     {
+        "name": "eternally-regressing-knight",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/eternally-regressing-knight.webp"
+    },
+    {
         "name": "fff-class-trashero",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/fff-class-trashero.webp"
+    },
+    {
+        "name": "greatest-estate-developper",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/greatest-estate-developper.webp"
     },
     {
         "name": "hero-killer",
@@ -40,6 +64,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/jungle-juice.webp"
     },
     {
+        "name": "killer-peter",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/killer-peter.webp"
+    },
+    {
         "name": "latna-saga-survival-story-of-a-sword-king",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/latna-saga-survival-story-of-a-sword-king.webp"
     },
@@ -48,12 +76,44 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/legend-of-the-northern-blade.webp"
     },
     {
+        "name": "magic-emperor",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/magic-emperor.webp"
+    },
+    {
+        "name": "myst-might-mayhem",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/myst-might-mayhem.webp"
+    },
+    {
+        "name": "nano-machine-",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/nano-machine-.webp"
+    },
+    {
         "name": "omniscient-reader's-viewpoint",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/omniscient-reader's-viewpoint.webp"
     },
     {
+        "name": "overgeared",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/overgeared.webp"
+    },
+    {
+        "name": "pick-me-up-",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/pick-me-up-.webp"
+    },
+    {
         "name": "pick-me-up",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/pick-me-up.webp"
+    },
+    {
+        "name": "player",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/player.webp"
+    },
+    {
+        "name": "reality-quest",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/reality-quest.webp"
+    },
+    {
+        "name": "regressed-mercenary's-machinations",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/regressed-mercenary's-machinations.webp"
     },
     {
         "name": "return-of-the-disaster-class-hero",
@@ -64,6 +124,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/return-of-the-mount-hua-sect.webp"
     },
     {
+        "name": "revenge-of-the-iron-blooded-sword-hound",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/revenge-of-the-iron-blooded-sword-hound.webp"
+    },
+    {
         "name": "solo-leveling-",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/solo-leveling-.webp"
     },
@@ -72,24 +136,60 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/solo-leveling.webp"
     },
     {
+        "name": "star-embracing-swordmaster-",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/star-embracing-swordmaster-.webp"
+    },
+    {
+        "name": "star-embracing-swordmaster",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/star-embracing-swordmaster.webp"
+    },
+    {
         "name": "subzero",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/subzero.webp"
+    },
+    {
+        "name": "superhuman-era",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/superhuman-era.webp"
     },
     {
         "name": "sweet-home",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/sweet-home.webp"
     },
     {
+        "name": "swordmaster's-youngest-son-",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/swordmaster's-youngest-son-.webp"
+    },
+    {
+        "name": "swordmaster's-youngest-son",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/swordmaster's-youngest-son.webp"
+    },
+    {
         "name": "the-beginning-after-the-end",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/the-beginning-after-the-end.webp"
+    },
+    {
+        "name": "the-dark-magician-transmigrates-after-66666-years",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/the-dark-magician-transmigrates-after-66666-years.webp"
     },
     {
         "name": "the-extra's-academy-survival-guide",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/the-extra's-academy-survival-guide.webp"
     },
     {
+        "name": "the-great-mage-returns-after-4000-years",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/the-great-mage-returns-after-4000-years.webp"
+    },
+    {
+        "name": "the-lone-necromancer",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/the-lone-necromancer.webp"
+    },
+    {
         "name": "the-world-after-the-fall",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/the-world-after-the-fall.webp"
+    },
+    {
+        "name": "tomb-raider-king",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/tomb-raider-king.webp"
     },
     {
         "name": "tower-of-god",
@@ -102,5 +202,17 @@
     {
         "name": "unordinary",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/unordinary.webp"
+    },
+    {
+        "name": "villain-to-kill",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/villain-to-kill.webp"
+    },
+    {
+        "name": "villains-are-destined-to-die",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/villains-are-destined-to-die.webp"
+    },
+    {
+        "name": "wind-breaker",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/easy/wind-breaker.webp"
     }
 ]

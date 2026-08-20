@@ -8,12 +8,20 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/99-reinforced-wooden-stick.webp"
     },
     {
+        "name": "I-shall-master-this-family",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/I-shall-master-this-family.webp"
+    },
+    {
         "name": "absolute-sword-sense",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/absolute-sword-sense.webp"
     },
     {
         "name": "academy's-undercover-professor",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/academy's-undercover-professor.webp"
+    },
+    {
+        "name": "catastrophic-necromancer-",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/catastrophic-necromancer-.webp"
     },
     {
         "name": "childhood-friend-of-the-zenith",
@@ -28,8 +36,16 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/duke-pendragon.webp"
     },
     {
+        "name": "dukedom's-legendary-prodigy",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/dukedom's-legendary-prodigy.webp"
+    },
+    {
         "name": "dungeon-cleaning-life",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/dungeon-cleaning-life.webp"
+    },
+    {
+        "name": "dungeon-odyssey",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/dungeon-odyssey.webp"
     },
     {
         "name": "emperor-of-solo-play-",
@@ -42,6 +58,10 @@
     {
         "name": "eternally-regressing-knight",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/eternally-regressing-knight.webp"
+    },
+    {
+        "name": "existence",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/existence.webp"
     },
     {
         "name": "fayed-to-be-loved-by-villains",
@@ -72,12 +92,20 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/magic-academy-survival-guide-.webp"
     },
     {
+        "name": "magic-emperor",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/magic-emperor.webp"
+    },
+    {
         "name": "moon-shadow-sword-emperor",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/moon-shadow-sword-emperor.webp"
     },
     {
         "name": "mount-hua-sect's-genius-phantom-swordsman",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/mount-hua-sect's-genius-phantom-swordsman.webp"
+    },
+    {
+        "name": "nano-machine",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/nano-machine.webp"
     },
     {
         "name": "nebula's-civilization",
@@ -108,12 +136,24 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/seoul-station-druid.webp"
     },
     {
+        "name": "solo-max-level-newbie-",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/solo-max-level-newbie-.webp"
+    },
+    {
         "name": "solo-max-level-newbie",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/solo-max-level-newbie.webp"
     },
     {
         "name": "star-embracing-swordmaster",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/star-embracing-swordmaster.webp"
+    },
+    {
+        "name": "surviving-as-a-genius-on-borrowed-time-",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/surviving-as-a-genius-on-borrowed-time-.webp"
+    },
+    {
+        "name": "surviving-as-a-genius-on-borrowed-time",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/surviving-as-a-genius-on-borrowed-time.webp"
     },
     {
         "name": "talent-swallowing-magician",
@@ -136,12 +176,36 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/the-knight-king-who-returned-with-a-god.webp"
     },
     {
+        "name": "the-newbie-is-too-strong",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/the-newbie-is-too-strong.webp"
+    },
+    {
         "name": "the-novel's-extra",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/the-novel's-extra.webp"
     },
     {
+        "name": "the-player-who-can't-level-up",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/the-player-who-can't-level-up.webp"
+    },
+    {
         "name": "the-reaper-of-the-drifting-moon",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/the-reaper-of-the-drifting-moon.webp"
+    },
+    {
+        "name": "the-reborn-young-lord-is-an-assassin",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/the-reborn-young-lord-is-an-assassin.webp"
+    },
+    {
+        "name": "the-world-after-the-fall",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/the-world-after-the-fall.webp"
+    },
+    {
+        "name": "trash-of-the-count's-family-",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/trash-of-the-count's-family-.webp"
+    },
+    {
+        "name": "trash-of-the-count's-family",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/trash-of-the-count's-family.webp"
     },
     {
         "name": "what-a-bountiful-harvest-demon-lord",

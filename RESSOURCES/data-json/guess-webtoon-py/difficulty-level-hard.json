@@ -44,6 +44,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/god's-gambit.webp"
     },
     {
+        "name": "heavenly-grand-archive's-young-master",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/heavenly-grand-archive's-young-master.webp"
+    },
+    {
         "name": "helmut-the-forsaken-child",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/helmut-the-forsaken-child.webp"
     },
@@ -58,6 +62,10 @@
     {
         "name": "jungle-juice",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/jungle-juice.webp"
+    },
+    {
+        "name": "lantern-of-the-dawn",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/lantern-of-the-dawn.webp"
     },
     {
         "name": "night-of-the-soulless-heathens",
@@ -128,6 +136,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/the-book-of-lagier.webp"
     },
     {
+        "name": "the-dang-clan's-swordmaster-heir-just-wants-a-normal-life",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/the-dang-clan's-swordmaster-heir-just-wants-a-normal-life.webp"
+    },
+    {
         "name": "the-demon-king-overrun-by-heroes-",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/the-demon-king-overrun-by-heroes-.webp"
     },
@@ -148,8 +160,16 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/the-fox-eyed-villain-of-the-demon-academy.webp"
     },
     {
+        "name": "the-hammer",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/the-hammer.webp"
+    },
+    {
         "name": "the-indomitable-martial-king",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/the-indomitable-martial-king.webp"
+    },
+    {
+        "name": "the-legendar-hero-is-an-academy-honors-student",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/the-legendar-hero-is-an-academy-honors-student.webp"
     },
     {
         "name": "the-little-brother-is-the-academy's-hotshot-",

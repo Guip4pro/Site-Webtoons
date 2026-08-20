@@ -73,14 +73,14 @@
         "json": "difficulty-level-easy.json",
         "category": "difficulty-level",
         "relative_folder": "easy",
-        "count": 26,
+        "count": 54,
         "path": "RESSOURCES/data-json/guess-webtoon-py/difficulty-level-easy.json"
     },
     {
         "json": "difficulty-level-hard.json",
         "category": "difficulty-level",
         "relative_folder": "hard",
-        "count": 47,
+        "count": 52,
         "path": "RESSOURCES/data-json/guess-webtoon-py/difficulty-level-hard.json"
     },
     {
@@ -94,7 +94,7 @@
         "json": "difficulty-level-normal.json",
         "category": "difficulty-level",
         "relative_folder": "normal",
-        "count": 38,
+        "count": 54,
         "path": "RESSOURCES/data-json/guess-webtoon-py/difficulty-level-normal.json"
     },
     {
@@ -157,7 +157,7 @@
         "json": "genre-apocalypse.json",
         "category": "genre",
         "relative_folder": "apocalypse",
-        "count": 6,
+        "count": 7,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-apocalypse.json"
     },
     {
@@ -185,14 +185,14 @@
         "json": "genre-fantasy-world-easy.json",
         "category": "genre",
         "relative_folder": "fantasy-world/easy",
-        "count": 20,
+        "count": 22,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-fantasy-world-easy.json"
     },
     {
         "json": "genre-fantasy-world-hard.json",
         "category": "genre",
         "relative_folder": "fantasy-world/hard",
-        "count": 23,
+        "count": 24,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-fantasy-world-hard.json"
     },
     {
@@ -206,7 +206,7 @@
         "json": "genre-female-characters-easy.json",
         "category": "genre",
         "relative_folder": "female-characters/easy",
-        "count": 35,
+        "count": 36,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-female-characters-easy.json"
     },
     {
@@ -248,7 +248,7 @@
         "json": "genre-murim-easy.json",
         "category": "genre",
         "relative_folder": "murim/easy",
-        "count": 2,
+        "count": 3,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-murim-easy.json"
     },
     {
@@ -283,7 +283,7 @@
         "json": "genre-reincarnation-regression-normal.json",
         "category": "genre",
         "relative_folder": "reincarnation-regression/normal",
-        "count": 3,
+        "count": 5,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-reincarnation-regression-normal.json"
     },
     {
@@ -339,7 +339,7 @@
         "json": "genre-tower.json",
         "category": "genre",
         "relative_folder": "tower",
-        "count": 9,
+        "count": 10,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-tower.json"
     },
     {
@@ -409,14 +409,14 @@
         "json": "miscellaneous-great-artwork.json",
         "category": "miscellaneous",
         "relative_folder": "great-artwork",
-        "count": 42,
+        "count": 44,
         "path": "RESSOURCES/data-json/guess-webtoon-py/miscellaneous-great-artwork.json"
     },
     {
         "json": "miscellaneous-middle-finger-easy.json",
         "category": "miscellaneous",
         "relative_folder": "middle-finger/easy",
-        "count": 22,
+        "count": 23,
         "path": "RESSOURCES/data-json/guess-webtoon-py/miscellaneous-middle-finger-easy.json"
     },
     {
@@ -437,7 +437,7 @@
         "json": "miscellaneous-random.json",
         "category": "miscellaneous",
         "relative_folder": "random",
-        "count": 3,
+        "count": 4,
         "path": "RESSOURCES/data-json/guess-webtoon-py/miscellaneous-random.json"
     },
     {

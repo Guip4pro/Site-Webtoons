@@ -1,5 +1,9 @@
 [
     {
+        "name": "-nano-machine",
+        "image": "RESSOURCES/img-guessthewebtoon/miscellaneous/great-artwork/-nano-machine.webp"
+    },
+    {
         "name": "artifact-devouring-player",
         "image": "RESSOURCES/img-guessthewebtoon/miscellaneous/great-artwork/artifact-devouring-player.webp"
     },
@@ -134,6 +138,10 @@
     {
         "name": "the-last-adventurer",
         "image": "RESSOURCES/img-guessthewebtoon/miscellaneous/great-artwork/the-last-adventurer.webp"
+    },
+    {
+        "name": "the-lazy-prince-becomes-a-genius",
+        "image": "RESSOURCES/img-guessthewebtoon/miscellaneous/great-artwork/the-lazy-prince-becomes-a-genius.webp"
     },
     {
         "name": "the-legendary-hero-is-an-academy-honors-student",

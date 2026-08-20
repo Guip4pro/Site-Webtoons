@@ -869,7 +869,7 @@
             "alt": "Image : Bad Born Blood",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/bad born blood/banner1.avif",
+              "banner": "IMAGES/3-TRES BONS/bad born blood/banner2.webp",
               "cover": "IMAGES/3-TRES BONS/bad born blood/cover2.avif",
               "type": "",
               "genre": [],
@@ -1682,6 +1682,26 @@
             "details": {
               "title": "The Reaper of the Drifting Moon",
               "banner": "IMAGES/3-TRES BONS/reaper of the drifting moon/banner1.webp",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Reborn Rich",
+            "aliases": ["The Chaebeol's Youngest Son", "The Youngest Son of a Chaebol Family", "The Youngest Son of a Conglomerate", "The Youngest Son of Sunyang"],
+            "image": "IMAGES/3-TRES BONS/reborn rich/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Reborn Rich",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/3-TRES BONS/reborn rich/banner1.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -7863,26 +7883,6 @@
             "details": {
               "title": "",
               "banner": "IMAGES/5-INTERMEDIAIRES/reborn on the demonic cult battlefield/banner1.webp",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Reborn Rich",
-            "aliases": ["The Chaebeol's Youngest Son", "The Youngest Son of a Chaebol Family", "The Youngest Son of a Conglomerate", "The Youngest Son of Sunyang"],
-            "image": "IMAGES/5-INTERMEDIAIRES/reborn rich/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : Reborn Rich",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/5-INTERMEDIAIRES/reborn rich/banner1.webp",
               "cover": "",
               "type": "",
               "genre": [],
