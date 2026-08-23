@@ -87,7 +87,7 @@
         "json": "difficulty-level-hell.json",
         "category": "difficulty-level",
         "relative_folder": "hell",
-        "count": 45,
+        "count": 46,
         "path": "RESSOURCES/data-json/guess-webtoon-py/difficulty-level-hell.json"
     },
     {
@@ -178,7 +178,7 @@
         "json": "genre-comedy-normal.json",
         "category": "genre",
         "relative_folder": "comedy/normal",
-        "count": 37,
+        "count": 38,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-comedy-normal.json"
     },
     {
@@ -255,7 +255,7 @@
         "json": "genre-murim-normal.json",
         "category": "genre",
         "relative_folder": "murim/normal",
-        "count": 5,
+        "count": 6,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-murim-normal.json"
     },
     {
@@ -269,7 +269,7 @@
         "json": "genre-pets-animals-normal.json",
         "category": "genre",
         "relative_folder": "pets-animals/normal",
-        "count": 11,
+        "count": 12,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-pets-animals-normal.json"
     },
     {

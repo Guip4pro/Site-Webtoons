@@ -493,7 +493,7 @@
               "Fenêtre de statut",
               "Portails"
             ],
-            "status": "Terminé",
+            "status": "Completed",
             "chapters": "200 - 31 Mai 2023",
             "sites": [
               {
@@ -702,7 +702,7 @@
               "Comédie",
               "Transmigration"
             ],
-            "status": "Bientôt Terminé",
+            "status": "Completed",
             "chapters": "",
             "sites": [],
             "synopsis": "",
@@ -970,54 +970,6 @@
                 "IMAGES/3-TRES BONS/chronicles of the demon faction/img7.webp",
                 "IMAGES/3-TRES BONS/chronicles of the demon faction/img8.webp"
               ],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Designated Bully",
-            "aliases": ["The Bully in Charge", "The Bully In-Charge"],
-            "image": "IMAGES/3-TRES BONS/designated bully/cover.webp",
-            "alt": "Image : Designated Bully",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/3-TRES BONS/designated bully/banner1.webp",
-              "cover": "IMAGES/3-TRES BONS/designated bully/cover2.webp",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [
-                "IMAGES/3-TRES BONS/designated bully/img1.webp",
-                "IMAGES/3-TRES BONS/designated bully/img2.webp",
-                "IMAGES/3-TRES BONS/designated bully/img3.webp",
-                "IMAGES/3-TRES BONS/designated bully/img4.webp",
-                "IMAGES/3-TRES BONS/designated bully/img5.webp",
-                "IMAGES/3-TRES BONS/designated bully/img6.webp",
-                "IMAGES/3-TRES BONS/designated bully/img7.webp",
-                "IMAGES/3-TRES BONS/designated bully/img8.webp"
-              ],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Dragonslayer's Peerless Regression",
-            "aliases": ["A Dragonslayer's Peerless Regression", "Dragonslayer's Class Regression"],
-            "image": "IMAGES/3-TRES BONS/dragonslayer's peerless regression/covergif1.webp",
-            "loading": "lazy",
-            "alt": "Image : Dragonslayer's Peerless Regression",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/3-TRES BONS/dragonslayer's peerless regression/banner1.avif",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
               "adaptations": []
             }
           },
@@ -1320,7 +1272,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -1445,7 +1397,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -1464,7 +1416,7 @@
               "cover": "IMAGES/3-TRES BONS/leviathan/cover2.webp",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -1611,28 +1563,6 @@
             }
           },
           {
-            "title": "Priest of Corruption",
-            "aliases": ["The Priest of Corruption", "Priest of Decay"],
-            "image": "IMAGES/3-TRES BONS/priest of corruption/cover.avif",
-            "alt": "Image : Priest of Corruption",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/3-TRES BONS/priest of corruption/banner1.webp",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [
-                "IMAGES/3-TRES BONS/priest of corruption/img1.webp",
-                "IMAGES/3-TRES BONS/priest of corruption/img2.webp"
-              ],
-              "adaptations": []
-            }
-          },
-          {
             "title": "Ranker's Return",
             "aliases": ["Ranker's Return (Remake)", "Le Retour du Ranker (Remake)"],
             "image": "IMAGES/3-TRES BONS/ranker's return/cover.avif",
@@ -1702,6 +1632,26 @@
             "details": {
               "title": "",
               "banner": "IMAGES/3-TRES BONS/reborn rich/banner1.webp",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Regressed Mercenary's Machination",
+            "aliases": ["Every Returned Mercenary Has a Plan", "L'intrigue surprenante d'un mercenaire régresseur", "Las conspiraciones del mercenario regresado", "The Regressed Mercenary Has a Plan"],
+            "image": "IMAGES/3-TRES BONS/regressed mercenary's machination/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Regressed Mercenary's Machinations",
+            "details": {
+              "title": "Regressed Mercenary's Machination",
+              "banner": "IMAGES/3-TRES BONS/regressed mercenary's machination/banner2.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -1979,7 +1929,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminée",
+              "status": "Completede",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -1998,7 +1948,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -2016,44 +1966,6 @@
               "title": "",
               "banner": "IMAGES/3-TRES BONS/sword-devouring swordmaster/banner1.webp",
               "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "The Academy’s Sashimi Sword Master",
-            "aliases": ["Conquistando la Academia con solo un Cuchillo de Sashimi", "I Took Over the Academy With a Single Sashimi Knife", "Thống Lĩnh Học Viện Chỉ Bằng Dao Sashimi"],
-            "image": "IMAGES/3-TRES BONS/the academy’s sashimi sword master/cover.avif",
-            "alt": "Image : The Academy’s Sashimi Sword Master",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/3-TRES BONS/the academy’s sashimi sword master/banner.webp",
-              "cover": "IMAGES/3-TRES BONS/the academy’s sashimi sword master/cover2.webp",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "The Dark Mage's Return to Enlistment",
-            "aliases": ["I Returned, But It Was the Day Before My Enlistment", "Returned to the Day I Joined the Army"],
-            "image": "IMAGES/3-TRES BONS/the dark mage's return to enlistment/cover.avif",
-            "alt": "Image : The Dark Mage's Return to Enlistment",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/3-TRES BONS/the dark mage's return to enlistment/banner1.webp",
-              "cover": "IMAGES/3-TRES BONS/the dark mage's return to enlistment/cover2.webp",
               "type": "",
               "genre": [],
               "status": "",
@@ -2587,7 +2499,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -2653,7 +2565,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [
                 {
@@ -2665,6 +2577,26 @@
               "synopsis": "",
               "previewImages": [],
               "adaptations": ["Format papier en français"]
+            }
+          },
+          {
+            "title": "A Wimp’s Strategy Guide to Conquer the Tower",
+            "aliases": ["A Wimp Strategy Guide to Conquer the Tower", "A Wimp’s Strategy Guide to Conquer the Tower", "A Wimp’s Tower Strategy Guide", "A Wimp's Tower Strategy Guide", "Guide to Beating the Weakling's Tower", "Weakling's Guide to Beating the Tower", "하남자의 탑 공략법", "วิธีพิชิตหอคอยฉบับผู้ชายห่วยๆ"],
+            "image": "IMAGES/4-BONS/a wimps strategy guide to conquer the tower/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : A Wimp’s Strategy Guide to Conquer the Tower",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/a wimps strategy guide to conquer the tower/banner1.webp",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
             }
           },
           {
@@ -2693,26 +2625,6 @@
                 "IMAGES/4-BONS/absolute necromancer/img7.webp",
                 "IMAGES/4-BONS/absolute necromancer/img8.webp"
               ],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Académie Transcendance",
-            "aliases": ["Transcension Academy", "Enrolling in the Transcendent Academy", "I Became a Student at the Transcension Academy"],
-            "image": "IMAGES/4-BONS/académie transcendance/cover.avif",
-            "loading": "lazy",
-            "alt": "Image : Académie Transcendance",
-            "details": {
-              "title": "Transcension Academy",
-              "banner": "",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
               "adaptations": []
             }
           },
@@ -2828,7 +2740,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -3103,6 +3015,34 @@
             }
           },
           {
+            "title": "Designated Bully",
+            "aliases": ["The Bully in Charge", "The Bully In-Charge"],
+            "image": "IMAGES/4-BONS/designated bully/cover.webp",
+            "alt": "Image : Designated Bully",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/designated bully/banner1.webp",
+              "cover": "IMAGES/4-BONS/designated bully/cover2.webp",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [
+                "IMAGES/4-BONS/designated bully/img1.webp",
+                "IMAGES/4-BONS/designated bully/img2.webp",
+                "IMAGES/4-BONS/designated bully/img3.webp",
+                "IMAGES/4-BONS/designated bully/img4.webp",
+                "IMAGES/4-BONS/designated bully/img5.webp",
+                "IMAGES/4-BONS/designated bully/img6.webp",
+                "IMAGES/4-BONS/designated bully/img7.webp",
+                "IMAGES/4-BONS/designated bully/img8.webp"
+              ],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Devil Returns to School Days",
             "aliases": ["L'école du mal", "Le diable revient à l'époque de l'école", "School of Evil", "School of the Malice"],
             "image": "IMAGES/4-BONS/devil returns to school days/cover.webp",
@@ -3131,26 +3071,6 @@
             "details": {
               "title": "",
               "banner": "IMAGES/4-BONS/divine surgeon/banner1.webp",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Doctor Player",
-            "aliases": ["Doctor's Player", "Dr. Player"],
-            "image": "IMAGES/4-BONS/doctor player/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : Doctor Player",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/4-BONS/doctor player/banner1.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -3192,6 +3112,26 @@
               "title": "",
               "banner": "IMAGES/4-BONS/dragon-devouring mage/banner1.webp",
               "cover": "IMAGES/4-BONS/dragon-devouring mage/cover2.avif",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Dragonslayer's Peerless Regression",
+            "aliases": ["A Dragonslayer's Peerless Regression", "Dragonslayer's Class Regression"],
+            "image": "IMAGES/4-BONS/dragonslayer's peerless regression/covergif1.webp",
+            "loading": "lazy",
+            "alt": "Image : Dragonslayer's Peerless Regression",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/dragonslayer's peerless regression/banner1.avif",
+              "cover": "",
               "type": "",
               "genre": [],
               "status": "",
@@ -3281,28 +3221,6 @@
               "adaptations": [
                 "Version papier"
               ]
-            }
-          },
-          {
-            "title": "Eat Before You Go",
-            "aliases": ["Eat and Go", "Eat & Go", "Eat and Leave", "Eat Before You Go", "Eat Then Leave", "Have a Meal Before You Go", "The Demon Slayer's Restaurant"],
-            "image": "IMAGES/4-BONS/eat before you go/cover1.webp",
-            "alt": "Image : Dungeon Reset",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/4-BONS/eat before you go/banner1.webp",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [
-                "IMAGES/4-BONS/eat before you go/img1.webp",
-                "IMAGES/4-BONS/eat before you go/img2.webp"
-              ],
-              "adaptations": []
             }
           },
           {
@@ -3457,24 +3375,6 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Golden Mage",
-            "image": "IMAGES/4-BONS/golden mage/cover.webp",
-            "alt": "Image : Golden Mage",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/4-BONS/golden mage/banner.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -3717,7 +3617,7 @@
               "cover": "IMAGES/4-BONS/i grow stronger by eating/cover.webp",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -3904,7 +3804,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -3924,7 +3824,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -4045,7 +3945,7 @@
               "cover": "IMAGES/4-BONS/l'artéfact dévoreur/cover2.avif",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -4065,7 +3965,7 @@
               "cover": "IMAGES/4-BONS/l'expert de la tour tutoriel/cover2.webp",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -4085,7 +3985,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -4157,26 +4057,6 @@
             "image": "IMAGES/4-BONS/logging 10,000 years into the future/cover.avif",
             "loading": "lazy",
             "alt": "Image : Logging 10,000 Years into the Future",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Love Letter from the Future",
-            "aliases": [],
-            "image": "IMAGES/4-BONS/love letter from the future/cover.avif",
-            "loading": "lazy",
-            "alt": "Image : Love Letter from the Future",
             "details": {
               "title": "",
               "banner": "",
@@ -4341,7 +4221,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -4548,14 +4428,13 @@
             }
           },
           {
-            "title": "Pour ne pas Mourir",
-            "aliases": ["To Not Die", "Ne pas Mourir"],
-            "image": "IMAGES/4-BONS/pour ne pas mourir/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : Pour ne pas Mourir / To not Die",
+            "title": "Priest of Corruption",
+            "aliases": ["The Priest of Corruption", "Priest of Decay"],
+            "image": "IMAGES/3-TRES BONS/priest of corruption/cover.avif",
+            "alt": "Image : Priest of Corruption",
             "details": {
-              "title": "To Not Die",
-              "banner": "",
+              "title": "",
+              "banner": "IMAGES/3-TRES BONS/priest of corruption/banner1.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -4564,7 +4443,8 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [
-                "IMAGES/4-BONS/pour ne pas mourir/img1.webp"
+                "IMAGES/3-TRES BONS/priest of corruption/img1.webp",
+                "IMAGES/3-TRES BONS/priest of corruption/img2.webp"
               ],
               "adaptations": []
             }
@@ -4650,7 +4530,7 @@
               "cover": "IMAGES/4-BONS/rebirth of an 8th-circled wizard/cover2.webp",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -4667,26 +4547,6 @@
             "details": {
               "title": "",
               "banner": "",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "The Regressed Mercenary's Machination",
-            "aliases": ["Every Returned Mercenary Has a Plan", "L'intrigue surprenante d'un mercenaire régresseur", "Las conspiraciones del mercenario regresado", "The Regressed Mercenary Has a Plan"],
-            "image": "IMAGES/4-BONS/regressed mercenary's machination/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : Regressed Mercenary's Machinations",
-            "details": {
-              "title": "Regressed Mercenary's Machination",
-              "banner": "IMAGES/4-BONS/regressed mercenary's machination/banner2.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -4808,26 +4668,6 @@
             }
           },
           {
-            "title": "Reincarnation of the Warrior Party Archmage",
-            "aliases": ["Reincarnation of the Hero Party Archmage", "The Rebirth of the Hero's Party's Archmage"],
-            "image": "IMAGES/4-BONS/reincarnation of the warrior party archmage/cover.avif",
-            "loading": "lazy",
-            "alt": "Image : Reincarnation of the Warrior Party Archmage",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
             "title": "Resurrection Boy",
             "aliases": ["The Immortal Boy", "The Ressurrection Boy"],
             "image": "IMAGES/4-BONS/resurrection boy/cover3.webp",
@@ -4859,7 +4699,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -4879,7 +4719,7 @@
               "cover": "IMAGES/4-BONS/return of the back alley mage/cover2.webp",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -4968,26 +4808,6 @@
             }
           },
           {
-            "title": "Return of the Legendary Ranker",
-            "aliases": ["Legendary Ranker's Comeback", "Return of the Top 0,001% Ranker"],
-            "image": "IMAGES/4-BONS/return of the legendary ranker/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : Return of the Legendary Ranker",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
             "title": "Return to Player",
             "aliases": ["The Return of the Player"],
             "image": "IMAGES/4-BONS/return to player/cover.avif",
@@ -5039,7 +4859,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -5318,6 +5138,25 @@
             }
           },
           {
+            "title": "The Academy’s Sashimi Sword Master",
+            "aliases": ["Conquistando la Academia con solo un Cuchillo de Sashimi", "I Took Over the Academy With a Single Sashimi Knife", "Thống Lĩnh Học Viện Chỉ Bằng Dao Sashimi"],
+            "image": "IMAGES/4-BONS/the academy’s sashimi sword master/cover.avif",
+            "alt": "Image : The Academy’s Sashimi Sword Master",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/the academy’s sashimi sword master/banner.webp",
+              "cover": "IMAGES/4-BONS/the academy’s sashimi sword master/cover2.webp",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "The Apothecary Diaries",
             "aliases": ["Kusuriya no Hitorigoto", "The Apothecary's Diary", "The Apothecary's Diaries", "Şifacı Günceleri", "Dược Sư Tự Sự", "Diários de uma Apotecária", "Die Tagebücher der Apothekerin - Geheimnisse am Kaiserhof", "El monólogo del farmacéutico", "I diari della speziale", "Il monologo della speziale", "Les Carnets de l'Apothicaire", "Los Diarios de la Boticaria", "The Pharmacist's Monologue", "The Pharmacist's Soliloquies", "Zapiski zielarki", "Diário de um Boticário", "Le Journal du Pharmacien"],
             "image": "IMAGES/4-BONS/the apothecary diaries/cover1.webp",
@@ -5437,54 +5276,14 @@
             }
           },
           {
-            "title": "The Count's Youngest Son Is a Player",
-            "aliases": ["The Youngest Son of the Count Is a Player"],
-            "image": "IMAGES/4-BONS/the count's youngest son is a player/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : The Count's Youngest Son Is a Player",
+            "title": "The Dark Mage's Return to Enlistment",
+            "aliases": ["I Returned, But It Was the Day Before My Enlistment", "Returned to the Day I Joined the Army"],
+            "image": "IMAGES/4-BONS/the dark mage's return to enlistment/cover.avif",
+            "alt": "Image : The Dark Mage's Return to Enlistment",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "The Creator Is on Hiatus",
-            "aliases": [" I’ll be Taking a Break for Personal Reasons", "Temporarily Closed for Work Reasons"],
-            "image": "IMAGES/4-BONS/the creator is on hiatus/cover.avif",
-            "loading": "lazy",
-            "alt": "Image : The Creator Is on Hiatus",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "The Demonic Cult Leader Is Too Reluctant",
-            "aliases": ["The Anxious Demon Sect Leader", "The Reluctant Demon Cult Leader"],
-            "image": "IMAGES/4-BONS/the demonic cult leader is too reluctant/cover.avif",
-            "alt": "Image : The Demonic Cult Leader Is Too Reluctant",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/4-BONS/the dark mage's return to enlistment/banner1.webp",
+              "cover": "IMAGES/4-BONS/the dark mage's return to enlistment/cover2.webp",
               "type": "",
               "genre": [],
               "status": "",
@@ -5831,6 +5630,28 @@
             }
           },
           {
+            "title": "To not die",
+            "aliases": ["Ne pas Mourir", "Pour ne pas Mourir"],
+            "image": "IMAGES/4-BONS/to not die/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : To not Die",
+            "details": {
+              "title": "To Not Die",
+              "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [
+                "IMAGES/4-BONS/to not die/img1.webp"
+              ],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Trait Hoarder",
             "aliases": ["Ultimate Tutorial Warrior", "Warrior Kim Builds up His Characteristics", "Kim Jeonsa Accumulates Characteristics"],
             "image": "IMAGES/4-BONS/trait hoarder/cover1.webp",
@@ -5995,26 +5816,6 @@
             }
           },
           {
-            "title": "Weapon Creator",
-            "aliases": ["Weapon Maker", "Weapon Forger"],
-            "image": "IMAGES/4-BONS/weapon creator/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : Weapon Creator",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/4-BONS/weapon creator/banner1.webp",
-              "cover": "IMAGES/4-BONS/weapon creator/cover2.webp",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
             "title": "Webtoon Character Na Kang Lim",
             "aliases": ["Webtoon Character : Na Kang Lim"],
             "image": "IMAGES/4-BONS/webtoon character na kang lim/cover.avif",
@@ -6048,26 +5849,6 @@
               "genre": [
                 "Comedy"
               ],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "What's Our Hero Doing",
-            "aliases": [],
-            "image": "IMAGES/4-BONS/what's our hero doing/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : What's Our Hero Doing",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
-              "type": "",
-              "genre": [],
               "status": "",
               "chapters": "",
               "sites": [],
@@ -6248,14 +6029,14 @@
             }
           },
           {
-            "title": "A Wimp’s Strategy Guide to Conquer the Tower",
-            "aliases": ["A Wimp Strategy Guide to Conquer the Tower", "A Wimp’s Strategy Guide to Conquer the Tower", "A Wimp’s Tower Strategy Guide", "A Wimp's Tower Strategy Guide", "Guide to Beating the Weakling's Tower", "Weakling's Guide to Beating the Tower", "하남자의 탑 공략법", "วิธีพิชิตหอคอยฉบับผู้ชายห่วยๆ"],
-            "image": "IMAGES/5-INTERMEDIAIRES/A wimps strategy guide to conquer the tower/cover1.webp",
+            "title": "Absolute Dominion",
+            "aliases": ["Absolute Domination", "Absolute Reign", "Dominio absoluto"],
+            "image": "IMAGES/5-INTERMEDIAIRES/absolute dominion/cover.webp",
             "loading": "lazy",
-            "alt": "Image : A Wimp’s Strategy Guide to Conquer the Tower",
+            "alt": "Image : Absolute Dominion",
             "details": {
               "title": "",
-              "banner": "IMAGES/5-INTERMEDIAIRES/A wimps strategy guide to conquer the tower/banner1.webp",
+              "banner": "IMAGES/5-INTERMEDIAIRES/absolute dominion/banner2.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -6268,14 +6049,14 @@
             }
           },
           {
-            "title": "Absolute Dominion",
-            "aliases": ["Absolute Domination", "Absolute Reign", "Dominio absoluto"],
-            "image": "IMAGES/5-INTERMEDIAIRES/absolute dominion/cover.webp",
+            "title": "Académie Transcendance",
+            "aliases": ["Transcension Academy", "Enrolling in the Transcendent Academy", "I Became a Student at the Transcension Academy"],
+            "image": "IMAGES/5-INTERMEDIAIRES/académie transcendance/cover.avif",
             "loading": "lazy",
-            "alt": "Image : Absolute Dominion",
+            "alt": "Image : Académie Transcendance",
             "details": {
-              "title": "",
-              "banner": "IMAGES/5-INTERMEDIAIRES/absolute dominion/banner2.webp",
+              "title": "Transcension Academy",
+              "banner": "",
               "cover": "",
               "type": "",
               "genre": [],
@@ -6359,7 +6140,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -6567,14 +6348,14 @@
             }
           },
           {
-            "title": "Devil & Ice",
-            "aliases": ["Devil and Ice", "Le démon et la sorcière de glace", "The Devil and the Ice Witch", "The Devil and the Witch"],
-            "image": "IMAGES/5-INTERMEDIAIRES/devil and ice/cover1.webp",
+            "title": "Doctor Player",
+            "aliases": ["Doctor's Player", "Dr. Player"],
+            "image": "IMAGES/5-INTERMEDIAIRES/doctor player/cover.webp",
             "loading": "lazy",
-            "alt": "Image : Devil & Ice",
+            "alt": "Image : Doctor Player",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/doctor player/banner1.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -6647,14 +6428,13 @@
             }
           },
           {
-            "title": "Eirth",
-            "aliases": ["Eirth, Apprenti du Roi Démon !"],
-            "image": "IMAGES/5-INTERMEDIAIRES/eirth/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : Eirth",
+            "title": "Eat Before You Go",
+            "aliases": ["Eat and Go", "Eat & Go", "Eat and Leave", "Eat Before You Go", "Eat Then Leave", "Have a Meal Before You Go", "The Demon Slayer's Restaurant"],
+            "image": "IMAGES/5-INTERMEDIAIRES/eat before you go/cover1.webp",
+            "alt": "Image : Dungeon Reset",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/eat before you go/banner1.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -6662,7 +6442,10 @@
               "chapters": "",
               "sites": [],
               "synopsis": "",
-              "previewImages": [],
+              "previewImages": [
+                "IMAGES/4-BONS/eat before you go/img1.webp",
+                "IMAGES/4-BONS/eat before you go/img2.webp"
+              ],
               "adaptations": []
             }
           },
@@ -6689,7 +6472,7 @@
           {
             "title": "Entomologist in Sichuan Tang Clan",
             "aliases": ["A Poison Master in the Sichuan Tang Clan", "El maestro del veneno del Clan Tang Sichuan", "The Poison Master of Sacheon Tang Clan", "The Poison Master of Sacheondang Clan", "The Sichuan Tang Clan's Entomologist"],
-            "image": "IMAGES/5-INTERMEDIAIRES/entomologist in sichuan tang clan/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/entomologist in sichuan tang clan/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Entomologist in Sichuan Tang Clan",
             "details": {
@@ -6738,7 +6521,7 @@
               "cover": "IMAGES/5-INTERMEDIAIRES/existence/cover2.webp",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -6838,7 +6621,25 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Golden Mage",
+            "image": "IMAGES/5-INTERMEDIAIRES/golden mage/cover.webp",
+            "alt": "Image : Golden Mage",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/golden mage/banner.webp",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -6900,7 +6701,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -7060,7 +6861,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [
                 {
@@ -7286,7 +7087,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -7540,6 +7341,26 @@
             "image": "IMAGES/5-INTERMEDIAIRES/limit-breaking genius mage/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Limit-Breaking Genius Mage",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Love Letter from the Future",
+            "aliases": [],
+            "image": "IMAGES/5-INTERMEDIAIRES/love letter from the future/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Love Letter from the Future",
             "details": {
               "title": "",
               "banner": "",
@@ -7955,6 +7776,26 @@
             }
           },
           {
+            "title": "Reincarnation of the Warrior Party Archmage",
+            "aliases": ["Reincarnation of the Hero Party Archmage", "The Rebirth of the Hero's Party's Archmage"],
+            "image": "IMAGES/5-INTERMEDIAIRES/reincarnation of the warrior party archmage/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : Reincarnation of the Warrior Party Archmage",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Reincarnation Path of the Underworld King",
             "aliases": ["Return of the Hell King", "The Descent of the Underworld King"],
             "image": "IMAGES/5-INTERMEDIAIRES/reincarnation path of the underworld king/cover.webp",
@@ -8003,6 +7844,26 @@
             "details": {
               "title": "",
               "banner": "IMAGES/5-INTERMEDIAIRES/release that witch/banner1.webp",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Return of the Legendary Ranker",
+            "aliases": ["Legendary Ranker's Comeback", "Return of the Top 0,001% Ranker"],
+            "image": "IMAGES/5-INTERMEDIAIRES/return of the legendary ranker/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Return of the Legendary Ranker",
+            "details": {
+              "title": "",
+              "banner": "",
               "cover": "",
               "type": "",
               "genre": [],
@@ -8277,7 +8138,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -8426,6 +8287,46 @@
             }
           },
           {
+            "title": "The Count's Youngest Son Is a Player",
+            "aliases": ["The Youngest Son of the Count Is a Player"],
+            "image": "IMAGES/5-INTERMEDIAIRES/the count's youngest son is a player/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : The Count's Youngest Son Is a Player",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Creator Is on Hiatus",
+            "aliases": [" I’ll be Taking a Break for Personal Reasons", "Temporarily Closed for Work Reasons"],
+            "image": "IMAGES/5-INTERMEDIAIRES/the creator is on hiatus/cover.avif",
+            "loading": "lazy",
+            "alt": "Image : The Creator Is on Hiatus",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "The Crown Prince That Sells Medicine",
             "aliases": ["El príncipe heredero que vende medicina", "Le prince héritier vendeur de médicaments", "The Apothecary Prince", "The Crown Prince Who Sells Medicine", "The Medicine-Selling Crown Prince"],
             "image": "IMAGES/5-INTERMEDIAIRES/the crown prince that sells medicine/cover.webp",
@@ -8457,27 +8358,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "The Dark Swordsman Returns",
-            "aliases": ["Hắc Ám Kiếm Sĩ Hồi Quy", "Kiếm Sĩ Hắc Ám Tái Xuất", "Retorno do Espadachim Sombrio", "Sự Trở Lại Của Kiếm Sĩ Bóng Đêm", "The Return of The DarkSlayer"],
-            "image": "IMAGES/5-INTERMEDIAIRES/the dark swordsman returns/cover1.webp",
-            "loading": "lazy",
-            "alt": "Image : The Dark Swordsman Returns",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/5-INTERMEDIAIRES/the dark swordsman returns/banner1.webp",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -8494,6 +8375,25 @@
             "details": {
               "title": "",
               "banner": "IMAGES/5-INTERMEDIAIRES/the demonic cult instructor returns/banner1.webp",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "The Demonic Cult Leader Is Too Reluctant",
+            "aliases": ["The Anxious Demon Sect Leader", "The Reluctant Demon Cult Leader"],
+            "image": "IMAGES/5-INTERMEDIAIRES/the demonic cult leader is too reluctant/cover.avif",
+            "alt": "Image : The Demonic Cult Leader Is Too Reluctant",
+            "details": {
+              "title": "",
+              "banner": "",
               "cover": "",
               "type": "",
               "genre": [],
@@ -8537,7 +8437,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -8557,7 +8457,7 @@
               "cover": "IMAGES/5-INTERMEDIAIRES/the genius who sees through the world/cover2.webp",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -8591,26 +8491,6 @@
             "image": "IMAGES/5-INTERMEDIAIRES/the investor who sees the future/cover1.webp",
             "loading": "lazy",
             "alt": "Image : The Investor Who Sees the Future",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "The Iron-Blooded Necromancer Has Returned",
-            "aliases": [],
-            "image": "IMAGES/5-INTERMEDIAIRES/the iron-blooded necromancer has returned/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : The Iron-Blooded Necromancer Has Returned",
             "details": {
               "title": "",
               "banner": "",
@@ -8917,7 +8797,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -8937,7 +8817,7 @@
               "cover": "IMAGES/5-INTERMEDIAIRES/veteran of the apocalypse/cover2.webp",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -9009,6 +8889,46 @@
             }
           },
           {
+            "title": "Weapon Creator",
+            "aliases": ["Weapon Maker", "Weapon Forger"],
+            "image": "IMAGES/5-INTERMEDIAIRES/weapon creator/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Weapon Creator",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/4-BONS/weapon creator/banner1.webp",
+              "cover": "IMAGES/4-BONS/weapon creator/cover2.webp",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "What's Our Hero Doing",
+            "aliases": [],
+            "image": "IMAGES/5-INTERMEDIAIRES/what's our hero doing/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : What's Our Hero Doing",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "White Blood",
             "aliases": ["Queen of Thorns", "Sangre vengadora", "Unholy Blood"],
             "image": "IMAGES/5-INTERMEDIAIRES/white blood/cover.webp",
@@ -9020,7 +8940,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -9334,11 +9254,11 @@
             }
           },
           {
-            "title": "Dragon Son-in-law God of War",
-            "aliases": ["Dragon Son-In-Law War God ", "Dragon Son in law God of War"],
-            "image": "IMAGES/6-MOYENS/dragon son-in-law god of war/cover.webp",
+            "title": "Devil & Ice",
+            "aliases": ["Devil and Ice", "Le démon et la sorcière de glace", "The Devil and the Ice Witch", "The Devil and the Witch"],
+            "image": "IMAGES/6-MOYENS/devil and ice/cover1.webp",
             "loading": "lazy",
-            "alt": "Image : Dragon Son-in-law God of War",
+            "alt": "Image : Devil & Ice",
             "details": {
               "title": "",
               "banner": "",
@@ -9399,6 +9319,26 @@
             "image": "IMAGES/6-MOYENS/echoes/cover.webp",
             "loading": "lazy",
             "alt": "Image : Echoes",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Eirth",
+            "aliases": ["Eirth, Apprenti du Roi Démon !"],
+            "image": "IMAGES/5-INTERMEDIAIRES/eirth/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Eirth",
             "details": {
               "title": "",
               "banner": "",
@@ -9952,7 +9892,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -10272,7 +10212,7 @@
               "cover": "",
               "type": "",
               "genre": [],
-              "status": "Terminé",
+              "status": "Completed",
               "chapters": "",
               "sites": [],
               "synopsis": "",
@@ -10329,6 +10269,26 @@
             "details": {
               "title": "",
               "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Solo Spell Caster",
+            "aliases": ["I Alone Cast Spells", "Solo-Spell Caster", "Le mage solitaire", "Na Hollo Jumun Sayongja", "The Lone Spellcaster"],
+            "image": "IMAGES/6-MOYENS/solo spell caster/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Solo Spell Caster",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/6-MOYENS/solo spell caster/banner1.avif",
               "cover": "",
               "type": "",
               "genre": [],
@@ -10401,6 +10361,26 @@
             }
           },
           {
+            "title": "The Dark Swordsman Returns",
+            "aliases": ["Hắc Ám Kiếm Sĩ Hồi Quy", "Kiếm Sĩ Hắc Ám Tái Xuất", "Retorno do Espadachim Sombrio", "Sự Trở Lại Của Kiếm Sĩ Bóng Đêm", "The Return of The DarkSlayer"],
+            "image": "IMAGES/5-INTERMEDIAIRES/the dark swordsman returns/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : The Dark Swordsman Returns",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/6-MOYENS/the dark swordsman returns/banner1.webp",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "The Ex-Number One Beginner",
             "aliases": ["The Formerly Number One Ranked Rookie"],
             "image": "IMAGES/6-MOYENS/the ex-number one beginner/cover.webp",
@@ -10458,6 +10438,26 @@
               "synopsis": "",
               "previewImages": [],
               "adaptations": ["Format papier en français"]
+            }
+          },
+          {
+            "title": "The Iron-Blooded Necromancer Has Returned",
+            "aliases": [],
+            "image": "IMAGES/6-MOYENS/the iron-blooded necromancer has returned/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : The Iron-Blooded Necromancer Has Returned",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
             }
           },
           {
@@ -10680,6 +10680,26 @@
             "image": "IMAGES/7-ENNUYANTS/divorcée mais pleine aux as/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Divorcée mais pleine aux as",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Dragon Son-in-law God of War",
+            "aliases": ["Dragon Son-In-Law War God ", "Dragon Son in law God of War"],
+            "image": "IMAGES/7-ENNUYANTS/dragon son-in-law god of war/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Dragon Son-in-law God of War",
             "details": {
               "title": "",
               "banner": "",
