@@ -1,5 +1,9 @@
 [
     {
+        "name": "arcane-sniper",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/video-games/arcane-sniper.webp"
+    },
+    {
         "name": "archmage-streamer",
         "image": "RESSOURCES/img-guessthewebtoon/genre/video-games/archmage-streamer.webp"
     },

@@ -4,8 +4,20 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/--the-legendary-hero-is-an-academy-honours-student.webp"
     },
     {
+        "name": "-my-school-life-pretending-to-be-a-worthless-person",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/-my-school-life-pretending-to-be-a-worthless-person.webp"
+    },
+    {
+        "name": "I-am-the-sorcerer-king",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/I-am-the-sorcerer-king.webp"
+    },
+    {
         "name": "bad-ending-maker",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/bad-ending-maker.webp"
+    },
+    {
+        "name": "bloodhound's-regression-instinct",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/bloodhound's-regression-instinct.webp"
     },
     {
         "name": "dragon-devouring-mage",
@@ -68,6 +80,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/lantern-of-the-dawn.webp"
     },
     {
+        "name": "murim-psychopath-",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/murim-psychopath-.webp"
+    },
+    {
         "name": "night-of-the-soulless-heathens",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/night-of-the-soulless-heathens.webp"
     },
@@ -100,6 +116,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/reincarnation-of-the-fist-king.webp"
     },
     {
+        "name": "reincarnation-path-of-the-underworld-king",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/reincarnation-path-of-the-underworld-king.webp"
+    },
+    {
         "name": "release-that-witch",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/release-that-witch.webp"
     },
@@ -114,6 +134,10 @@
     {
         "name": "solo-resurrection",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/solo-resurrection.webp"
+    },
+    {
+        "name": "surviving-as-a-barbarian-in-a-fantasy-world",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/surviving-as-a-barbarian-in-a-fantasy-world.webp"
     },
     {
         "name": "sword-of-the-undying",
@@ -178,6 +202,10 @@
     {
         "name": "the-magic-tower's-problem-child",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/the-magic-tower's-problem-child.webp"
+    },
+    {
+        "name": "the-s-class-that-i-raised",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/the-s-class-that-i-raised.webp"
     },
     {
         "name": "the-wandering-knight-survival-guide",

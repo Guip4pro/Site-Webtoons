@@ -4,6 +4,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/pets-animals/normal/a-wimp's-strategy-guide-to-conquer-the-tower.webp"
     },
     {
+        "name": "arcane-sniper",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/pets-animals/normal/arcane-sniper.webp"
+    },
+    {
         "name": "chronicles-of-the-demon-faction",
         "image": "RESSOURCES/img-guessthewebtoon/genre/pets-animals/normal/chronicles-of-the-demon-faction.webp"
     },
@@ -38,6 +42,14 @@
     {
         "name": "the-newbie-is-too-strong",
         "image": "RESSOURCES/img-guessthewebtoon/genre/pets-animals/normal/the-newbie-is-too-strong.webp"
+    },
+    {
+        "name": "the-s-class-that-i-raised-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/pets-animals/normal/the-s-class-that-i-raised-.webp"
+    },
+    {
+        "name": "the-s-class-that-i-raised",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/pets-animals/normal/the-s-class-that-i-raised.webp"
     },
     {
         "name": "top-tier-providence",

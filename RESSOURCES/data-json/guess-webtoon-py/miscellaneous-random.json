@@ -1,7 +1,15 @@
 [
     {
+        "name": "-return-of-the-mount-hua-sect",
+        "image": "RESSOURCES/img-guessthewebtoon/miscellaneous/random/-return-of-the-mount-hua-sect.webp"
+    },
+    {
         "name": "absolute-sword-sense",
         "image": "RESSOURCES/img-guessthewebtoon/miscellaneous/random/absolute-sword-sense.webp"
+    },
+    {
+        "name": "childhood-friend-of-the-zenith",
+        "image": "RESSOURCES/img-guessthewebtoon/miscellaneous/random/childhood-friend-of-the-zenith.webp"
     },
     {
         "name": "emperor-of-solo-play",
@@ -10,6 +18,10 @@
     {
         "name": "magic-emperor",
         "image": "RESSOURCES/img-guessthewebtoon/miscellaneous/random/magic-emperor.webp"
+    },
+    {
+        "name": "murim-psychopath",
+        "image": "RESSOURCES/img-guessthewebtoon/miscellaneous/random/murim-psychopath.webp"
     },
     {
         "name": "the-heavenly-demon-can't-live-a-normal-life",

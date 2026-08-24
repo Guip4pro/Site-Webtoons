@@ -4,6 +4,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/action/normal/-the-executioner.webp"
     },
     {
+        "name": "bloodhound's-regression-instinct",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/action/normal/bloodhound's-regression-instinct.webp"
+    },
+    {
         "name": "dragon-devouring-mage",
         "image": "RESSOURCES/img-guessthewebtoon/genre/action/normal/dragon-devouring-mage.webp"
     },
@@ -46,6 +50,10 @@
     {
         "name": "king-of-the-arena",
         "image": "RESSOURCES/img-guessthewebtoon/genre/action/normal/king-of-the-arena.webp"
+    },
+    {
+        "name": "limit-breaker",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/action/normal/limit-breaker.webp"
     },
     {
         "name": "moon-shadow-sword-emperor",

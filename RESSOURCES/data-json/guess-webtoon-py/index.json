@@ -17,14 +17,14 @@
         "json": "characters-icons-0abrutifini.json",
         "category": "characters-icons",
         "relative_folder": "0abrutifini",
-        "count": 43,
+        "count": 45,
         "path": "RESSOURCES/data-json/guess-webtoon-py/characters-icons-0abrutifini.json"
     },
     {
         "json": "characters-icons-10trone.json",
         "category": "characters-icons",
         "relative_folder": "10trone",
-        "count": 24,
+        "count": 25,
         "path": "RESSOURCES/data-json/guess-webtoon-py/characters-icons-10trone.json"
     },
     {
@@ -38,7 +38,7 @@
         "json": "characters-icons-5paspersoprincipal.json",
         "category": "characters-icons",
         "relative_folder": "5paspersoprincipal",
-        "count": 41,
+        "count": 42,
         "path": "RESSOURCES/data-json/guess-webtoon-py/characters-icons-5paspersoprincipal.json"
     },
     {
@@ -59,7 +59,7 @@
         "json": "cover-hard.json",
         "category": "cover",
         "relative_folder": "hard",
-        "count": 40,
+        "count": 42,
         "path": "RESSOURCES/data-json/guess-webtoon-py/cover-hard.json"
     },
     {
@@ -80,14 +80,14 @@
         "json": "difficulty-level-hard.json",
         "category": "difficulty-level",
         "relative_folder": "hard",
-        "count": 52,
+        "count": 59,
         "path": "RESSOURCES/data-json/guess-webtoon-py/difficulty-level-hard.json"
     },
     {
         "json": "difficulty-level-hell.json",
         "category": "difficulty-level",
         "relative_folder": "hell",
-        "count": 46,
+        "count": 50,
         "path": "RESSOURCES/data-json/guess-webtoon-py/difficulty-level-hell.json"
     },
     {
@@ -150,7 +150,7 @@
         "json": "genre-action-normal.json",
         "category": "genre",
         "relative_folder": "action/normal",
-        "count": 34,
+        "count": 36,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-action-normal.json"
     },
     {
@@ -178,7 +178,7 @@
         "json": "genre-comedy-normal.json",
         "category": "genre",
         "relative_folder": "comedy/normal",
-        "count": 38,
+        "count": 39,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-comedy-normal.json"
     },
     {
@@ -192,14 +192,14 @@
         "json": "genre-fantasy-world-hard.json",
         "category": "genre",
         "relative_folder": "fantasy-world/hard",
-        "count": 24,
+        "count": 25,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-fantasy-world-hard.json"
     },
     {
         "json": "genre-fantasy-world-normal.json",
         "category": "genre",
         "relative_folder": "fantasy-world/normal",
-        "count": 28,
+        "count": 30,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-fantasy-world-normal.json"
     },
     {
@@ -213,7 +213,7 @@
         "json": "genre-female-characters-hard.json",
         "category": "genre",
         "relative_folder": "female-characters/hard",
-        "count": 25,
+        "count": 29,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-female-characters-hard.json"
     },
     {
@@ -234,7 +234,7 @@
         "json": "genre-magic-hard.json",
         "category": "genre",
         "relative_folder": "magic/hard",
-        "count": 24,
+        "count": 27,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-magic-hard.json"
     },
     {
@@ -255,7 +255,7 @@
         "json": "genre-murim-normal.json",
         "category": "genre",
         "relative_folder": "murim/normal",
-        "count": 6,
+        "count": 7,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-murim-normal.json"
     },
     {
@@ -269,7 +269,7 @@
         "json": "genre-pets-animals-normal.json",
         "category": "genre",
         "relative_folder": "pets-animals/normal",
-        "count": 12,
+        "count": 15,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-pets-animals-normal.json"
     },
     {
@@ -283,7 +283,7 @@
         "json": "genre-reincarnation-regression-normal.json",
         "category": "genre",
         "relative_folder": "reincarnation-regression/normal",
-        "count": 5,
+        "count": 8,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-reincarnation-regression-normal.json"
     },
     {
@@ -297,14 +297,14 @@
         "json": "genre-romance-normal.json",
         "category": "genre",
         "relative_folder": "romance/normal",
-        "count": 4,
+        "count": 5,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-romance-normal.json"
     },
     {
         "json": "genre-school-life.json",
         "category": "genre",
         "relative_folder": "school-life",
-        "count": 5,
+        "count": 6,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-school-life.json"
     },
     {
@@ -332,7 +332,7 @@
         "json": "genre-system-normal.json",
         "category": "genre",
         "relative_folder": "system/normal",
-        "count": 6,
+        "count": 9,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-system-normal.json"
     },
     {
@@ -346,7 +346,7 @@
         "json": "genre-video-games.json",
         "category": "genre",
         "relative_folder": "video-games",
-        "count": 3,
+        "count": 4,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-video-games.json"
     },
     {
@@ -409,7 +409,7 @@
         "json": "miscellaneous-great-artwork.json",
         "category": "miscellaneous",
         "relative_folder": "great-artwork",
-        "count": 44,
+        "count": 45,
         "path": "RESSOURCES/data-json/guess-webtoon-py/miscellaneous-great-artwork.json"
     },
     {
@@ -437,7 +437,7 @@
         "json": "miscellaneous-random.json",
         "category": "miscellaneous",
         "relative_folder": "random",
-        "count": 4,
+        "count": 7,
         "path": "RESSOURCES/data-json/guess-webtoon-py/miscellaneous-random.json"
     },
     {
@@ -451,7 +451,7 @@
         "json": "type-manhwa.json",
         "category": "type",
         "relative_folder": "manhwa",
-        "count": 14,
+        "count": 16,
         "path": "RESSOURCES/data-json/guess-webtoon-py/type-manhwa.json"
     }
 ]

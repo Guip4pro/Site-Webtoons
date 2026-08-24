@@ -108,6 +108,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hell/special-civil-servant.webp"
     },
     {
+        "name": "sss-class-gacha-hunter",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hell/sss-class-gacha-hunter.webp"
+    },
+    {
         "name": "sword-sweath's-child",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hell/sword-sweath's-child.webp"
     },
@@ -136,6 +140,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hell/the-book-of-lagier.webp"
     },
     {
+        "name": "the-genius-who-sees-through-the-world",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hell/the-genius-who-sees-through-the-world.webp"
+    },
+    {
         "name": "the-indomitable-martial-king",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hell/the-indomitable-martial-king.webp"
     },
@@ -158,6 +166,14 @@
     {
         "name": "the-martial-god-who-regressed-to-level-2",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hell/the-martial-god-who-regressed-to-level-2.webp"
+    },
+    {
+        "name": "the-max-level-hero-has-returned",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hell/the-max-level-hero-has-returned.webp"
+    },
+    {
+        "name": "the-regressed-demon-lord-is-kind",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hell/the-regressed-demon-lord-is-kind.webp"
     },
     {
         "name": "the-tryant-girl-nero's-rebellion",

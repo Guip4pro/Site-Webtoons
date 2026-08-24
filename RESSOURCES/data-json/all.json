@@ -4430,11 +4430,11 @@
           {
             "title": "Priest of Corruption",
             "aliases": ["The Priest of Corruption", "Priest of Decay"],
-            "image": "IMAGES/3-TRES BONS/priest of corruption/cover.avif",
+            "image": "IMAGES/4-BONS/priest of corruption/cover.avif",
             "alt": "Image : Priest of Corruption",
             "details": {
               "title": "",
-              "banner": "IMAGES/3-TRES BONS/priest of corruption/banner1.webp",
+              "banner": "IMAGES/4-BONS/priest of corruption/banner1.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -4443,8 +4443,8 @@
               "sites": [],
               "synopsis": "",
               "previewImages": [
-                "IMAGES/3-TRES BONS/priest of corruption/img1.webp",
-                "IMAGES/3-TRES BONS/priest of corruption/img2.webp"
+                "IMAGES/4-BONS/priest of corruption/img1.webp",
+                "IMAGES/4-BONS/priest of corruption/img2.webp"
               ],
               "adaptations": []
             }
@@ -7858,7 +7858,7 @@
           {
             "title": "Return of the Legendary Ranker",
             "aliases": ["Legendary Ranker's Comeback", "Return of the Top 0,001% Ranker"],
-            "image": "IMAGES/5-INTERMEDIAIRES/return of the legendary ranker/cover.webp",
+            "image": "IMAGES/5-INTERMEDIAIRES/return of the legendary ranker/cover1.webp",
             "loading": "lazy",
             "alt": "Image : Return of the Legendary Ranker",
             "details": {
@@ -9336,7 +9336,7 @@
           {
             "title": "Eirth",
             "aliases": ["Eirth, Apprenti du Roi Démon !"],
-            "image": "IMAGES/5-INTERMEDIAIRES/eirth/cover.webp",
+            "image": "IMAGES/6-MOYENS/eirth/cover.webp",
             "loading": "lazy",
             "alt": "Image : Eirth",
             "details": {
@@ -10363,7 +10363,7 @@
           {
             "title": "The Dark Swordsman Returns",
             "aliases": ["Hắc Ám Kiếm Sĩ Hồi Quy", "Kiếm Sĩ Hắc Ám Tái Xuất", "Retorno do Espadachim Sombrio", "Sự Trở Lại Của Kiếm Sĩ Bóng Đêm", "The Return of The DarkSlayer"],
-            "image": "IMAGES/5-INTERMEDIAIRES/the dark swordsman returns/cover1.webp",
+            "image": "IMAGES/6-MOYENS/the dark swordsman returns/cover1.webp",
             "loading": "lazy",
             "alt": "Image : The Dark Swordsman Returns",
             "details": {

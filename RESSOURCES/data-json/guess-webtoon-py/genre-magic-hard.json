@@ -1,5 +1,9 @@
 [
     {
+        "name": "I-am-the-sorcerer-king",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/magic/hard/I-am-the-sorcerer-king.webp"
+    },
+    {
         "name": "Reincarnated-as-a-Genius-Prodigy-of-a-Prestigious-Family",
         "image": "RESSOURCES/img-guessthewebtoon/genre/magic/hard/Reincarnated-as-a-Genius-Prodigy-of-a-Prestigious-Family.webp"
     },
@@ -62,6 +66,14 @@
     {
         "name": "reincarnation-of-the-warrior-party-archmage",
         "image": "RESSOURCES/img-guessthewebtoon/genre/magic/hard/reincarnation-of-the-warrior-party-archmage.webp"
+    },
+    {
+        "name": "reincarnation-path-of-the-underworld-king",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/magic/hard/reincarnation-path-of-the-underworld-king.webp"
+    },
+    {
+        "name": "sss-class-gacha-hunter",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/magic/hard/sss-class-gacha-hunter.webp"
     },
     {
         "name": "steel-eating-player",

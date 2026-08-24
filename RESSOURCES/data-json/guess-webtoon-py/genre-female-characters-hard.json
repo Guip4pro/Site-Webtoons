@@ -1,5 +1,13 @@
 [
     {
+        "name": "MookHyang-dark-lady",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/hard/MookHyang-dark-lady.webp"
+    },
+    {
+        "name": "a-rogue-guard-in-a-medieval-fantasy",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/hard/a-rogue-guard-in-a-medieval-fantasy.webp"
+    },
+    {
         "name": "absolute-necromancer",
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/hard/absolute-necromancer.webp"
     },
@@ -10,6 +18,10 @@
     {
         "name": "bad-ending-maker",
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/hard/bad-ending-maker.webp"
+    },
+    {
+        "name": "bloodhound's-regression-instinct",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/hard/bloodhound's-regression-instinct.webp"
     },
     {
         "name": "boundless-necromancer",
@@ -74,6 +86,10 @@
     {
         "name": "the-frost-flower-knight",
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/hard/the-frost-flower-knight.webp"
+    },
+    {
+        "name": "the-regressed-demon-lord-is-kind",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/hard/the-regressed-demon-lord-is-kind.webp"
     },
     {
         "name": "the-ultimate-of-all-ages",
