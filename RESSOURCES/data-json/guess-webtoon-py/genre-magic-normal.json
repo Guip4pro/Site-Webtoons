@@ -122,5 +122,9 @@
     {
         "name": "untouchable-lady",
         "image": "RESSOURCES/img-guessthewebtoon/genre/magic/normal/untouchable-lady.webp"
+    },
+    {
+        "name": "youngest-scion-of-the-mages",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/magic/normal/youngest-scion-of-the-mages.webp"
     }
 ]

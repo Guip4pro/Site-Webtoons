@@ -115,7 +115,7 @@
           "alt": "Image : Demonic Emperor",
           "details": {
             "title": "Demonic Emperor",
-            "banner": "IMAGES/2-EXCELLENTS/demonic emperor/bannière.avif",
+            "banner": "IMAGES/2-EXCELLENTS/demonic emperor/banner1.avif",
             "cover": "IMAGES/2-EXCELLENTS/demonic emperor/cover.avif",
             "type": "Manhua",
             "genre": [
@@ -593,6 +593,7 @@
           "alt": "Image : Surviving the Game as a Barbarian",
           "details": {
             "title": "Surviving the Game as a Barbarian",
+            "banner": "IMAGES/2-EXCELLENTS/surviving the game as a barbarian/banner1.webp",
             "cover": "IMAGES/2-EXCELLENTS/surviving the game as a barbarian/cover1.webp",
             "type": "Manhwa",
             "genre": [
@@ -2515,7 +2516,7 @@
             "alt": "Image : A painter who draws dungeons",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/a painter who draws dungeons/banner1.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -4349,6 +4350,26 @@
             }
           },
           {
+            "title": "Noble Lady Reformation Guide",
+            "aliases": ["The Noble Lady Reformation Guide", "There Are No Bad Girls in the World", "All Noble Daughters Can Be Redeemed", "There Are No Bad Young Ladies in This World", "세상에 나쁜 영애는 없다", "Noble Lady's Reformation Guide", "Yeongae Gaejo Jichimseo", "Cẩm Nang Cải Tạo Quý Cô", "Guide de Réforme de la Dame Noble", "Guía de Reforma de la Dama Noble", "Guia de Reforma da Dama Nobre", "Panduan Reformasi Wanita Bangsawan", "Asil Hanım Reform Rehberi", "영애 개조 지침서", "영애 갱생 길잡이", "令嬢改造指針書", "令嬢改造指南", "Руководство по реформированию благородной дамы", "دليل اصلاح السيدة النبيلة", "คู่มือปฏิรูปเลดี้ผู้สูงศักดิ์"],
+            "image": "IMAGES/4-BONS/noble lady reformation guide/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Noble Lady Reformation Guide",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Past Life Regressor (remake)",
             "aliases": ["The Past Life Regressor (Remake)", "Past Life Returner"],
             "image": "IMAGES/4-BONS/past life regressor/cover1.webp",
@@ -4668,6 +4689,26 @@
             }
           },
           {
+            "title": "Reincarnation of the Veteran Soldier",
+            "aliases": ["La nueva vida del soldado veterano", "Reincarnation of Veteran Soldier", "Summoned Soldier"],
+            "image": "IMAGES/4-BONS/reincarnation of the veteran soldier/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Reincarnation of the Veteran Soldier",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Resurrection Boy",
             "aliases": ["The Immortal Boy", "The Ressurrection Boy"],
             "image": "IMAGES/4-BONS/resurrection boy/cover3.webp",
@@ -4755,7 +4796,7 @@
             "alt": "Image : Return of the Calamity-Class Death Knight",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/return of the calamity-class death knight/banner1.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -5998,6 +6039,26 @@
               "title": "",
               "banner": "IMAGES/5-INTERMEDIAIRES/a barbarian was admitted to the academy/banner1.webp",
               "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "A Mercenary's Rebirth Among Nobles",
+            "aliases": ["환생했더니 대공의 셋째 아들", "환생했더니 대공이 셋째 아들", "Reincarnated as the Archduke's Son", "Reincarnated as the Grand Duke's Third Son", "Reincarnated as the Archduke's Third Son", "Mercenary Reborn Among Nobles", "Gwijok-ga Yongbyeong-euro Hwangsaenghada", "Sự Tái Sinh Của Lính Đánh Thuê Giới Quý Tộc", "La Renaissance d'un Mercenaire Parmi les Nobles", "La Renacimiento de un Mercenario Entre los Nobles", "O Renascimento de um Mercenário Entre os Nobres", "Reinkarnasi Seorang Tentara Bayaran di Antara Para Bangsawan", "Soylular Arasında Bir Paralı Askerin Yeniden Doğuşu", "귀족가 용병으로 환생하다", "귀족가에 환생한 용병", "貴族家の傭兵として転生する", "贵族家雇佣兵的重生", "Перерождение наемника среди дворян", "تناسخ مرتزق بين النبلاء", "การเกิดใหม่ของทหารรับจ้างในหมู่ขุนนาง"],
+            "image": "IMAGES/5-INTERMEDIAIRES/a mercenary's rebirth among nobles/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : A Barbarian was admitted to the Academy",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/a mercenary's rebirth among nobles/banner1.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/a mercenary's rebirth among nobles/cover2.webp",
               "type": "",
               "genre": [],
               "status": "",
@@ -8949,6 +9010,26 @@
             }
           },
           {
+            "title": "Youngest Scion of the Mages",
+            "aliases": ["Mabeommyeongga Mangnaeadeul", "名門魔術師一家の出来損ない", "Youngest Son of the Renowned Magic Clan", "法师家族的恶少小儿子", "O Descendente Mais Jovem da Família de Magos", "Moi, Mage et Méchant", "House Mayton's Youngest", "บุตรคนสุดท้องของตระกูลนักเวทชื่อดัง", "The Youngest Son of a Magician", "마법명가 막내아들"],
+            "image": "IMAGES/5-INTERMEDIAIRES/youngest scion of the mages/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Youngest Scion of the Mages",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/youngest scion of the mages/banner1.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/youngest scion of the mages/cover2.webp",
+              "type": "",
+              "genre": [],
+              "status": "Completed",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "The Youngest Son of the Namgung Clan",
             "aliases": ["Le cadet du Clan Namgung", "Le Jeune Prince Namgoong"],
             "image": "IMAGES/5-INTERMEDIAIRES/youngest son of the namgung clan/cover.webp",
@@ -9222,6 +9303,46 @@
             "details": {
               "title": "",
               "banner": "IMAGES/6-MOYENS/crazy leveling system/banner1.webp",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Crazy Leveling System",
+            "aliases": ["Frenzy Leveling Up System, Crazy Leveling-Up System", "Crazy Level-up System", "Crazy Leveling Up System", "Frenzy Level Up System"],
+            "image": "IMAGES/6-MOYENS/crazy leveling system/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Crazy Leveling System",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/6-MOYENS/crazy leveling system/banner1.webp",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Dao of the Bizarre Immortal",
+            "aliases": [],
+            "image": "IMAGES/6-MOYENS/dao of the bizarre immortal/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Dao of the Bizarre Immortal",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/6-MOYENS/dao of the bizarre immortal/banner3.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -10148,7 +10269,7 @@
             "alt": "Image : Return of the Devourer",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/6-MOYENS/return of the devourer/banner1.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -10735,6 +10856,26 @@
             }
           },
           {
+            "title": "I'm Trapped in this Day for One Thousand Years",
+            "aliases": ["I'm Stuck on the Same Day for a Thousand Years", "Estuve Atrapado en Este Día Durante Mil Años", "Llevo Mil Años Atascado en el Mismo Día", "Llevo Mil Años Atrapado en el Mismo Día", "Wǒ Bèi Kùn Zài Tóngyī Tiān Yīqiān Nián", "Wo Bei Kun Zai Tongyi Tian Yiqian Nian"],
+            "image": "IMAGES/7-ENNUYANTS/i'm trapped in this day for one thousand years/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : I'm Trapped in this Day for One Thousand Years",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/7-ENNUYANTS/i'm trapped in this day for one thousand years/banner2.webp",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Infinite Evolution Starting from Zero",
             "aliases": ["Bắt Đầu Tiến Hoá Vô Hạn Từ Số Không", "Cóng Líng Kāishǐ Wúxiàn Jìnhuà", "Cong Ling Kaishi Wuxian Jinhua", "Infinite Evolution From Zero"],
             "image": "IMAGES/7-ENNUYANTS/infinite evolution starting from zero/cover.webp",
@@ -10904,6 +11045,26 @@
               "title": "",
               "banner": "",
               "cover": "IMAGES/7-ENNUYANTS/raga la renaissance de la branche morte/cover1.webp",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Son-in-law Above Them All",
+            "aliases": ["Chàng Rể Đệ Nhất", "Diyi Zhuixu", "El Mejor Marido de La Historia", "First Son in Law", "Le Mari Immortel Dans la Ville", "Menantu Laki-laki Pertama", "Mon bon à rien de gendre contre-attaque !", "O Melhor Marido", "Revenge Planned For Ten Years", "Revenge Planned For Ten Years The Best Husband Ever", "The Kept-Man Strikes Back"],
+            "image": "IMAGES/7-ENNUYANTS/son-in-law above them all/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Son-in-law Above Them All",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
               "type": "",
               "genre": [],
               "status": "",

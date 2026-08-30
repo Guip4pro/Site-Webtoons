@@ -174,5 +174,9 @@
     {
         "name": "webtoon-character-na-kang-lim",
         "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/normal/webtoon-character-na-kang-lim.webp"
+    },
+    {
+        "name": "youngest-scion-of-the-mages",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/female-characters/normal/youngest-scion-of-the-mages.webp"
     }
 ]

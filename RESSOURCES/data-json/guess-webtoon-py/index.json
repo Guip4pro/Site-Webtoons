@@ -80,14 +80,14 @@
         "json": "difficulty-level-hard.json",
         "category": "difficulty-level",
         "relative_folder": "hard",
-        "count": 59,
+        "count": 60,
         "path": "RESSOURCES/data-json/guess-webtoon-py/difficulty-level-hard.json"
     },
     {
         "json": "difficulty-level-hell.json",
         "category": "difficulty-level",
         "relative_folder": "hell",
-        "count": 50,
+        "count": 51,
         "path": "RESSOURCES/data-json/guess-webtoon-py/difficulty-level-hell.json"
     },
     {
@@ -150,7 +150,7 @@
         "json": "genre-action-normal.json",
         "category": "genre",
         "relative_folder": "action/normal",
-        "count": 36,
+        "count": 37,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-action-normal.json"
     },
     {
@@ -220,7 +220,7 @@
         "json": "genre-female-characters-normal.json",
         "category": "genre",
         "relative_folder": "female-characters/normal",
-        "count": 44,
+        "count": 45,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-female-characters-normal.json"
     },
     {
@@ -241,7 +241,7 @@
         "json": "genre-magic-normal.json",
         "category": "genre",
         "relative_folder": "magic/normal",
-        "count": 31,
+        "count": 32,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-magic-normal.json"
     },
     {
@@ -255,7 +255,7 @@
         "json": "genre-murim-normal.json",
         "category": "genre",
         "relative_folder": "murim/normal",
-        "count": 7,
+        "count": 8,
         "path": "RESSOURCES/data-json/guess-webtoon-py/genre-murim-normal.json"
     },
     {
@@ -423,7 +423,7 @@
         "json": "miscellaneous-middle-finger-hard.json",
         "category": "miscellaneous",
         "relative_folder": "middle-finger/hard",
-        "count": 17,
+        "count": 18,
         "path": "RESSOURCES/data-json/guess-webtoon-py/miscellaneous-middle-finger-hard.json"
     },
     {
@@ -437,14 +437,14 @@
         "json": "miscellaneous-random.json",
         "category": "miscellaneous",
         "relative_folder": "random",
-        "count": 7,
+        "count": 8,
         "path": "RESSOURCES/data-json/guess-webtoon-py/miscellaneous-random.json"
     },
     {
         "json": "type-manhua.json",
         "category": "type",
         "relative_folder": "manhua",
-        "count": 26,
+        "count": 27,
         "path": "RESSOURCES/data-json/guess-webtoon-py/type-manhua.json"
     },
     {
