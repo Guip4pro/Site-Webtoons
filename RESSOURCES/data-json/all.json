@@ -1564,6 +1564,35 @@
             }
           },
           {
+            "title": "Raising Villains the Right Way",
+            "aliases": ["Became a Supporter of Villains", "Became the Patron of Villains", "I Became a Patron of Villains", "I Became the Patron of Villains", "The Patron of Villains"],
+            "image": "IMAGES/3-TRES BONS/raising villains the right way/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Raising Villains the Right Way",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/3-TRES BONS/raising villains the right way/banner1.webp",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [
+                "IMAGES/3-TRES BONS/raising villains the right way/img1.webp",
+                "IMAGES/3-TRES BONS/raising villains the right way/img2.webp",
+                "IMAGES/3-TRES BONS/raising villains the right way/img3.webp",
+                "IMAGES/3-TRES BONS/raising villains the right way/img4.webp",
+                "IMAGES/3-TRES BONS/raising villains the right way/img5.webp",
+                "IMAGES/3-TRES BONS/raising villains the right way/img6.webp",
+                "IMAGES/3-TRES BONS/raising villains the right way/img7.webp",
+                "IMAGES/3-TRES BONS/raising villains the right way/img8.webp"
+              ],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Ranker's Return",
             "aliases": ["Ranker's Return (Remake)", "Le Retour du Ranker (Remake)"],
             "image": "IMAGES/3-TRES BONS/ranker's return/cover.avif",
@@ -2856,26 +2885,6 @@
             }
           },
           {
-            "title": "Children of the Rune",
-            "aliases": ["Children of the Rune – Winterer", "Children of the Rune, Winterer ", " Children of the Rune: Winterer", "Children of the Rune Winterer"],
-            "image": "IMAGES/4-BONS/children of the rune/cover.webp",
-            "loading": "lazy",
-            "alt": "Image : Children of the Rune",
-            "details": {
-              "title": "",
-              "banner": "",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
             "title": "Chronicles of Heavenly Demon",
             "aliases": ["Biên Niên Sử Của Thiên Quỷ", "Chronicles of the Heavenly Demon", "Chroniques Démoniaques", "Heavenly Demon Reborn!", "The Chronicles of Heavenly Demon"],
             "image": "IMAGES/4-BONS/chronicles of heavenly demon/cover.webp",
@@ -2983,8 +2992,8 @@
             "alt": "Image : Demonic Beast Hunter Survival Guide",
             "details": {
               "title": "",
-              "banner": "",
-                "cover": "IMAGES/4-BONS/demonic beast hunter survival guide/cover2.webp",
+              "banner": "IMAGES/4-BONS/demonic beast hunter survival guide/banner1.webp",
+              "cover": "IMAGES/4-BONS/demonic beast hunter survival guide/cover2.webp",
               "type": "",
               "genre": [],
               "status": "",
@@ -4491,35 +4500,6 @@
             }
           },
           {
-            "title": "Raising Villains the Right Way",
-            "aliases": ["Became a Supporter of Villains", "Became the Patron of Villains", "I Became a Patron of Villains", "I Became the Patron of Villains", "The Patron of Villains"],
-            "image": "IMAGES/4-BONS/raising villains the right way/cover1.webp",
-            "loading": "lazy",
-            "alt": "Image : Raising Villains the Right Way",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/4-BONS/raising villains the right way/banner1.webp",
-              "cover": "",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [
-                "IMAGES/4-BONS/raising villains the right way/img1.webp",
-                "IMAGES/4-BONS/raising villains the right way/img2.webp",
-                "IMAGES/4-BONS/raising villains the right way/img3.webp",
-                "IMAGES/4-BONS/raising villains the right way/img4.webp",
-                "IMAGES/4-BONS/raising villains the right way/img5.webp",
-                "IMAGES/4-BONS/raising villains the right way/img6.webp",
-                "IMAGES/4-BONS/raising villains the right way/img7.webp",
-                "IMAGES/4-BONS/raising villains the right way/img8.webp"
-              ],
-              "adaptations": []
-            }
-          },
-          {
             "title": "Re: Life Player",
             "aliases": ["不死身の狂戦士の回帰", "Relife Player "],
             "image": "IMAGES/4-BONS/re life player/cover2.webp",
@@ -5080,7 +5060,7 @@
             "alt": "Image : Sword of the Undying",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/sword of the undying/banner1.webp",
+              "banner": "IMAGES/4-BONS/sword of the undying/banner3.webp",
               "cover": "IMAGES/4-BONS/sword of the undying/cover2.webp",
               "type": "",
               "genre": [],
@@ -6349,6 +6329,26 @@
             }
           },
           {
+            "title": "Children of the Rune",
+            "aliases": ["Children of the Rune – Winterer", "Children of the Rune, Winterer ", " Children of the Rune: Winterer", "Children of the Rune Winterer"],
+            "image": "IMAGES/5-INTERMEDIAIRES/children of the rune/cover.webp",
+            "loading": "lazy",
+            "alt": "Image : Children of the Rune",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Climbing The Tower",
             "aliases": ["Climbing a Tower Which Even Regressors Couldn't Conquer", "Climbing The Tower That The Regressor Couldn't", "I Will Climb the Tower That Even Regressors Couldn't Conquer", "Climbing the Tower that Even the Regressor Couldn't"],
             "image": "IMAGES/5-INTERMEDIAIRES/climbing the tower/cover.webp",
@@ -6691,6 +6691,26 @@
             }
           },
           {
+            "title": "God-Level Assassin, I am the Shadow",
+            "aliases": ["Game Descends: Shadow Assassin", "God-Level Assassin, I'm the Shadow", "Reborn Assassin", "God Level Assassin I am the shadow", "God-Level Assassin I'm the shadow", "网游：神级刺客", "我即是暗影"],
+            "image": "IMAGES/5-INTERMEDIAIRES/god-level assassin/cover1.png",
+            "loading": "lazy",
+            "alt": "Image : God-Level Assassin, I am the Shadow",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "Golden Mage",
             "image": "IMAGES/5-INTERMEDIAIRES/golden mage/cover.webp",
             "alt": "Image : Golden Mage",
@@ -7017,6 +7037,26 @@
             }
           },
           {
+            "title": "I Was More Overpowered Than the Hero So I Held My Power",
+            "aliases": ["Secretly More Powerful than the Hero", "용사보다 너무 강해서 힘을 숨김", "Era más fuerte que el héroe así que oculté mi poder", "I Was More Overpowered Than the Hero so I Hid My Power!", "Soy más fuerte que todos, pero oculto mi poder", "Too Strong than the Warrior So He Hides His Strength", "Yongsaboda Neomu Ganghaeseo Himeul Sumgim"],
+            "image": "IMAGES/5-INTERMEDIAIRES/i was more overpowered than the hero so i held my power/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : I Was More Overpowered Than the Hero...",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/i was more overpowered than the hero so i held my power/banner1.webp",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "I Become The Villain's Poison Taster",
             "aliases": ["I Will Become a Poison Detector in the Dark World", "I Will Become a Poison Detector of Darkness", "I Will Become the Villain's Poison Detector"],
             "image": "IMAGES/5-INTERMEDIAIRES/i will become the villain's poison taster/cover.webp",
@@ -7025,6 +7065,26 @@
             "details": {
               "title": "",
               "banner": "IMAGES/5-INTERMEDIAIRES/i will become the villain's poison taster/banner1.webp",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "I Will Raise This Family to Greatness",
+            "aliases": ["Crawling My Way to the Top!", "I Will Raise This Family to Greatness!", "I Will Raise This Family Up", "I Will Raise This Family!", "The Baby Who Will Build an Empire"],
+            "image": "IMAGES/5-INTERMEDIAIRES/i will raise this family to greatness/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : I Will Raise This Family to Greatness",
+            "details": {
+              "title": "",
+              "banner": "",
               "cover": "",
               "type": "",
               "genre": [],
@@ -9195,6 +9255,26 @@
             }
           },
           {
+            "title": "Calamity Leveling",
+            "aliases": ["災厄レベリング", "I Escalated With Calamity", "我与灾厄一同升级", "나는 절망과 함께 자란다", "Rising with the Monsters"],
+            "image": "IMAGES/6-MOYENS/calamity leveling/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Calamity Leveling",
+            "details": {
+              "title": "",
+              "banner": "",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
             "title": "I Think I Married the Wrong Guy",
             "aliases": ["I Think I Married the Wrong Person", "Ce Mariage est Raté"],
             "image": "IMAGES/6-MOYENS/ce mariage est raté/cover1.webp",
@@ -9284,26 +9364,6 @@
               "title": "",
               "banner": "",
               "cover": "IMAGES/6-MOYENS/chronicles of the lazy sovereign/cover1.webp",
-              "type": "",
-              "genre": [],
-              "status": "",
-              "chapters": "",
-              "sites": [],
-              "synopsis": "",
-              "previewImages": [],
-              "adaptations": []
-            }
-          },
-          {
-            "title": "Crazy Leveling System",
-            "aliases": ["Frenzy Leveling Up System, Crazy Leveling-Up System", "Crazy Level-up System", "Crazy Leveling Up System", "Frenzy Level Up System"],
-            "image": "IMAGES/6-MOYENS/crazy leveling system/cover1.webp",
-            "loading": "lazy",
-            "alt": "Image : Crazy Leveling System",
-            "details": {
-              "title": "",
-              "banner": "IMAGES/6-MOYENS/crazy leveling system/banner1.webp",
-              "cover": "",
               "type": "",
               "genre": [],
               "status": "",
@@ -9504,6 +9564,26 @@
               "title": "",
               "banner": "",
               "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Full-Time Awakening",
+            "aliases": ["5(All) Elements", "All-Class Awakening: God Slayer", "EBTOON All-Class Awakening: God Slayer", "Omni-Class: Unlimited Awakening", "Toàn Chức Giác Tỉnh"],
+            "image": "IMAGES/6-MOYENS/full time awakening/covergif.gif",
+            "loading": "lazy",
+            "alt": "Image : Full-Time Awakening",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/6-MOYENS/full time awakening/banner1.webp",
+              "cover": "IMAGES/6-MOYENS/full time awakening/cover2.webp",
               "type": "",
               "genre": [],
               "status": "",
