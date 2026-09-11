@@ -1,11 +1,39 @@
 [
     {
+        "name": "auto-hunting-with-my-clones-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/normal/auto-hunting-with-my-clones-.webp"
+    },
+    {
+        "name": "auto-hunting-with-my-clones",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/normal/auto-hunting-with-my-clones.webp"
+    },
+    {
+        "name": "bug-player",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/normal/bug-player.webp"
+    },
+    {
+        "name": "dungeon-reset",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/normal/dungeon-reset.webp"
+    },
+    {
         "name": "god's-gambit",
         "image": "RESSOURCES/img-guessthewebtoon/genre/system/normal/god's-gambit.webp"
     },
     {
+        "name": "kill-the-hero",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/normal/kill-the-hero.webp"
+    },
+    {
+        "name": "legendary-moonlight-sculptor",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/normal/legendary-moonlight-sculptor.webp"
+    },
+    {
         "name": "limit-breaker",
         "image": "RESSOURCES/img-guessthewebtoon/genre/system/normal/limit-breaker.webp"
+    },
+    {
+        "name": "max-level-returner",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/normal/max-level-returner.webp"
     },
     {
         "name": "murim-psychopath",
@@ -14,6 +42,14 @@
     {
         "name": "sss-class-gacha-hunter",
         "image": "RESSOURCES/img-guessthewebtoon/genre/system/normal/sss-class-gacha-hunter.webp"
+    },
+    {
+        "name": "sss-class-suicide-hunter",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/normal/sss-class-suicide-hunter.webp"
+    },
+    {
+        "name": "taming-master",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/normal/taming-master.webp"
     },
     {
         "name": "terminally-ill-genius-dark-knight",
@@ -34,5 +70,9 @@
     {
         "name": "trait-hoarder",
         "image": "RESSOURCES/img-guessthewebtoon/genre/system/normal/trait-hoarder.webp"
+    },
+    {
+        "name": "worn-and-torn-newbie",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/normal/worn-and-torn-newbie.webp"
     }
 ]

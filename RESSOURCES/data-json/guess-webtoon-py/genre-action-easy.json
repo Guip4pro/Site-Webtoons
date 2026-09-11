@@ -28,6 +28,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/action/easy/eleceed.webp"
     },
     {
+        "name": "hardcore-leveling-warrior",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/action/easy/hardcore-leveling-warrior.webp"
+    },
+    {
         "name": "hero-killer",
         "image": "RESSOURCES/img-guessthewebtoon/genre/action/easy/hero-killer.webp"
     },

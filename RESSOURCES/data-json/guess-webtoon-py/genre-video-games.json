@@ -14,5 +14,17 @@
     {
         "name": "genius-archer's-streaming",
         "image": "RESSOURCES/img-guessthewebtoon/genre/video-games/genius-archer's-streaming.webp"
+    },
+    {
+        "name": "hardcore-leveling-warrior",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/video-games/hardcore-leveling-warrior.webp"
+    },
+    {
+        "name": "taming-master",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/video-games/taming-master.webp"
+    },
+    {
+        "name": "worn-and-torn-newbie",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/video-games/worn-and-torn-newbie.webp"
     }
 ]

@@ -4,6 +4,14 @@
         "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/a-returner's-magic-should-be-special.webp"
     },
     {
+        "name": "demonic-emperor",
+        "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/demonic-emperor.webp"
+    },
+    {
+        "name": "descent-of-the-demonic-master",
+        "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/descent-of-the-demonic-master.webp"
+    },
+    {
         "name": "eleceed",
         "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/eleceed.webp"
     },
@@ -24,12 +32,24 @@
         "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/leviathan.webp"
     },
     {
+        "name": "lightning-degree",
+        "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/lightning-degree.webp"
+    },
+    {
+        "name": "martial-peak",
+        "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/martial-peak.webp"
+    },
+    {
         "name": "omniscient-reader's-viewpoint",
         "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/omniscient-reader's-viewpoint.webp"
     },
     {
         "name": "remarried-empress",
         "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/remarried-empress.webp"
+    },
+    {
+        "name": "return-to-player",
+        "image": "RESSOURCES/img-guessthewebtoon/generations/2018-2019-2020/return-to-player.webp"
     },
     {
         "name": "solo-leveling",

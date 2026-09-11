@@ -1,7 +1,23 @@
 [
     {
+        "name": "-the-player-who-can't-level-up",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/easy/-the-player-who-can't-level-up.webp"
+    },
+    {
+        "name": "death-is-the-only-ending-for-the-villainess",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/easy/death-is-the-only-ending-for-the-villainess.webp"
+    },
+    {
+        "name": "dice",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/easy/dice.webp"
+    },
+    {
         "name": "latna-saga",
         "image": "RESSOURCES/img-guessthewebtoon/genre/system/easy/latna-saga.webp"
+    },
+    {
+        "name": "murim-login",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/easy/murim-login.webp"
     },
     {
         "name": "reality-quest",
@@ -12,8 +28,16 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/system/easy/regressor-instruction-manual.webp"
     },
     {
+        "name": "return-to-player-",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/easy/return-to-player-.webp"
+    },
+    {
         "name": "second-life-ranker",
         "image": "RESSOURCES/img-guessthewebtoon/genre/system/easy/second-life-ranker.webp"
+    },
+    {
+        "name": "solo-auto-hunting",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/easy/solo-auto-hunting.webp"
     },
     {
         "name": "solo-leveling-ragnarok",
@@ -24,8 +48,20 @@
         "image": "RESSOURCES/img-guessthewebtoon/genre/system/easy/solo-leveling.webp"
     },
     {
+        "name": "sss-class-suicide-hunter",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/easy/sss-class-suicide-hunter.webp"
+    },
+    {
+        "name": "the-gamer",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/easy/the-gamer.webp"
+    },
+    {
         "name": "the-novel's-extra",
         "image": "RESSOURCES/img-guessthewebtoon/genre/system/easy/the-novel's-extra.webp"
+    },
+    {
+        "name": "the-player-who-can't-level-up--",
+        "image": "RESSOURCES/img-guessthewebtoon/genre/system/easy/the-player-who-can't-level-up--.webp"
     },
     {
         "name": "tomb-raider-king",

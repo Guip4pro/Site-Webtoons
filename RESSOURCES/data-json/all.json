@@ -247,7 +247,7 @@
           "alt": "Image : Infinite Mage",
           "details": {
             "title": "Infinite Mage",
-            "banner": "IMAGES/2-EXCELLENTS/infinite mage/bannière.avif",
+            "banner": "IMAGES/2-EXCELLENTS/infinite mage/banner1.avif",
             "cover": "IMAGES/2-EXCELLENTS/infinite mage/cover.avif",
             "type": "Manhwa",
             "genre": [
@@ -1811,11 +1811,11 @@
           {
             "title": "Return of the SSS-Class Ranker",
             "aliases": ["Back to SSS rank", "Regreso del ranker de clase SSS", " The SSS-Ranker Returns"],
-            "image": "IMAGES/3-TRES BONS/return of the sss-class ranker/cover.avif",
+            "image": "IMAGES/3-TRES BONS/return of the sss-class ranker/cover1.avif",
             "alt": "Image : Return of the SSS-Class Ranker",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/3-TRES BONS/return of the sss-class ranker/banner1.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -2480,7 +2480,7 @@
             "alt": "Image : World After Fall",
             "details": {
               "title": "The World After the Fall",
-              "banner": "IMAGES/3-TRES BONS/world after fall/banner1.webp",
+              "banner": "IMAGES/3-TRES BONS/world after fall/banner2.webp",
               "cover": "IMAGES/3-TRES BONS/world after fall/cover2.webp",
               "type": "",
               "genre": [],
@@ -3543,7 +3543,7 @@
             "alt": "Image : I am going to Destroy this Country",
             "details": {
               "title": "",
-              "banner": "",
+              "banner": "IMAGES/4-BONS/i am going to destroy this country/banner1.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -4547,8 +4547,8 @@
             "alt": "Image : Reborn As The Enemy Prince",
             "details": {
               "title": "",
-              "banner": "",
-              "cover": "",
+              "banner": "IMAGES/4-BONS/reborn as the enemy prince/banner1.webp",
+              "cover": "IMAGES/4-BONS/reborn as the enemy prince/cover2.webp",
               "type": "",
               "genre": [],
               "status": "",
@@ -6639,6 +6639,26 @@
             "details": {
               "title": "",
               "banner": "IMAGES/5-INTERMEDIAIRES/from old country bumpkin to master swordsman/banner.webp",
+              "cover": "",
+              "type": "",
+              "genre": [],
+              "status": "",
+              "chapters": "",
+              "sites": [],
+              "synopsis": "",
+              "previewImages": [],
+              "adaptations": []
+            }
+          },
+          {
+            "title": "Genius Grandson of the Loan Shark",
+            "aliases": ["사채왕의 천재손자", "Sachaewangui Cheonjaesonja"],
+            "image": "IMAGES/5-INTERMEDIAIRES/genius grandson of the loan shark/cover1.webp",
+            "loading": "lazy",
+            "alt": "Image : Genius Grandson of the Loan Shark",
+            "details": {
+              "title": "",
+              "banner": "IMAGES/5-INTERMEDIAIRES/genius grandson of the loan shark/banner1.webp",
               "cover": "",
               "type": "",
               "genre": [],
@@ -9017,8 +9037,8 @@
             "alt": "Image : Weapon Creator",
             "details": {
               "title": "",
-              "banner": "IMAGES/4-BONS/weapon creator/banner1.webp",
-              "cover": "IMAGES/4-BONS/weapon creator/cover2.webp",
+              "banner": "IMAGES/5-INTERMEDIAIRES/weapon creator/banner1.webp",
+              "cover": "IMAGES/5-INTERMEDIAIRES/weapon creator/cover2.webp",
               "type": "",
               "genre": [],
               "status": "",

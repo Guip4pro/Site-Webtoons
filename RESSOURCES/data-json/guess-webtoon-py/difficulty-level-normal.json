@@ -196,6 +196,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/the-reborn-young-lord-is-an-assassin.webp"
     },
     {
+        "name": "the-tutorial-is-too-hard",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/the-tutorial-is-too-hard.webp"
+    },
+    {
         "name": "the-world-after-the-fall",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/normal/the-world-after-the-fall.webp"
     },

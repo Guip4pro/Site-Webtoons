@@ -8,6 +8,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hell/I-failed-to-abandon-the-villain.webp"
     },
     {
+        "name": "I-will-raise-this-family-to-greatness",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hell/I-will-raise-this-family-to-greatness.webp"
+    },
+    {
         "name": "a-life-changing-turns",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hell/a-life-changing-turns.webp"
     },
@@ -28,8 +32,16 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hell/alone-as-a-slime.webp"
     },
     {
+        "name": "auto-hunting-with-my-clones",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hell/auto-hunting-with-my-clones.webp"
+    },
+    {
         "name": "dao-of-the-bizarre-immortal",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hell/dao-of-the-bizarre-immortal.webp"
+    },
+    {
+        "name": "descent-of-the-demonic-master",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hell/descent-of-the-demonic-master.webp"
     },
     {
         "name": "dungeon-odyssey",

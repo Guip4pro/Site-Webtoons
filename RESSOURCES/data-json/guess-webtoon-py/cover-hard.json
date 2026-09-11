@@ -52,6 +52,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/cover/hard/dungeon-architect.webp"
     },
     {
+        "name": "dungeon-reset",
+        "image": "RESSOURCES/img-guessthewebtoon/cover/hard/dungeon-reset.webp"
+    },
+    {
         "name": "entomologist-in-sichuan-tang-clan",
         "image": "RESSOURCES/img-guessthewebtoon/cover/hard/entomologist-in-sichuan-tang-clan.webp"
     },

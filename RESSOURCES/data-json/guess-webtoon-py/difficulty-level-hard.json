@@ -72,6 +72,14 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/i-became-an-evolving-space-monster.webp"
     },
     {
+        "name": "i-became-the-first-prince-",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/i-became-the-first-prince-.webp"
+    },
+    {
+        "name": "i-became-the-first-prince",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/i-became-the-first-prince.webp"
+    },
+    {
         "name": "immortal's-way-of-life",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/immortal's-way-of-life.webp"
     },
@@ -208,6 +216,10 @@
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/the-magic-tower's-problem-child.webp"
     },
     {
+        "name": "the-novel's-extra",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/the-novel's-extra.webp"
+    },
+    {
         "name": "the-s-class-that-i-raised",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/the-s-class-that-i-raised.webp"
     },
@@ -238,5 +250,9 @@
     {
         "name": "why-i-quit-being-the-demon-king",
         "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/why-i-quit-being-the-demon-king.webp"
+    },
+    {
+        "name": "worn-and-torn-newbie",
+        "image": "RESSOURCES/img-guessthewebtoon/difficulty-level/hard/worn-and-torn-newbie.webp"
     }
 ]
